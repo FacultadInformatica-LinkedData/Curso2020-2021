@@ -1,0 +1,13 @@
+@base <http://www.oeg-upm.net/Organization/>.
+@prefix pe: <http://www.ontologies.org/ontologies/People#>.
+@prefix pr: <http://www.oeg-upm.net/Properties#>.
+@prefix or: <http://www.oeg-upm.net/Organization#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
+
+or:Class01 pr:includes or:Sensor029, or:Computer101.
+or:Sensor029 pr:hasMeasurement or:Measurement8401.
+or:Measurement8401 pr:hasTemperature "29" ^^xsd:integer;
+				 pr:atTime "2010-06-12T12:00:12" ^^xsd:dateTime.
+or:Computer101 pr:hasOwner pe:User10A.
+pe:User10A pr:hasName "Pedro" ^^xsd:string.
+
