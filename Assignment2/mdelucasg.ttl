@@ -1,0 +1,13 @@
+@base <https://www.oeg-upm.net/Organization#>
+
+:Class01 			rdfs:includes :Sensor029;
+		 			rdfs:includes :Computer101.
+
+:Sensor029 			rdfs:hasMeasurements :Measurements8401.
+
+:Computer101 		rdfs:hasOwner :User10A.
+
+:Measurements8401	rdfs:hasTemperature 29;
+					rdfs:atTime 2010-06-12T12:00:12.
+
+:User10A 			rdfs:hasName "pedro".
