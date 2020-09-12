@@ -1,0 +1,18 @@
+@base <http://www.oeg-upm.net/ontologies/example/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix people: <http://www.oeg-upm.net/People#> .
+@prefix org: <http://www.oeg-upm.net/Organization#> .
+@prefix prop: <http://www.oeg-upm.net/Properties#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix : <http://example.org/#> .
+
+:Class01 org:includes org:Sensor029, org:Computer101.
+:Sensor029 prop:hasMeasurement prop:Measurement8401.
+:Computer101 prop:hasOwner prop:User10A.
+:Measurement8401 prop:hasTemperature "29"^^xsd:integer;
+                 prop:atTime "2010-06-12T 12:00:12"^^xsd:dateTime.
+:User10A people:hasName "Pedro"^^xsd:string.
