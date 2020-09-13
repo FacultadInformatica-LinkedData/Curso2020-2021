@@ -5,7 +5,7 @@
 :Class01 :includes :Sensor029;
          :includes :Computer101.
 
-:Sensor029 :hasMeasurement :Measurement8401M.
+:Sensor029 :hasMeasurement :Measurement8401.
 
 :Computer101 :hasOwner :User10A.
 
