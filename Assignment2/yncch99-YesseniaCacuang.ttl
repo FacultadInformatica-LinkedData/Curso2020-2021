@@ -1,0 +1,10 @@
+@base <http://example.org/class>.
+@prefix pr: <http://example.org/Properties>.
+
+:Class01 		pr:includes :Sensor029;
+		pr:includes : Computer101.
+:Sensor029 	pr:hasMeasurement :Measurement8401.
+:Computer101 	pr:hasOwener :User10A
+:Measurement8401 pr:hasTemperature :29
+		pr:atTime :2010-06-12T 12:00:12
+:User10A 		pr:hasName : Pedro
