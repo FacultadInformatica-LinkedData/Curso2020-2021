@@ -1,0 +1,12 @@
+@base <http://example.org/> .
+@prefix data: <http://example.org/data> .
+
+:Class01 :includes :Sensor029,:Computer101 .
+
+:Sensor029 data:hasMeasurement :Measurement8401 .
+:Computer101 data:hasOwner :User10A .
+
+:Measurement8401 data:hasTemperature "29"^^xsd:integer .
+:Measurement8401 data:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+:User10A data:hasName "Pedro" .
