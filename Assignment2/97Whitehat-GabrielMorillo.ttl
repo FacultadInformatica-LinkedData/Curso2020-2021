@@ -7,8 +7,8 @@
 
 :Sensor029	prop:hasMeasurement :Measurement8401.
 
-	:prop:Measurement8401	prop:hasTemperature "29" ^^xsd:integer;
-							prop:atTime "2010-06-12T10:00:12" ^^xsd:dateTime.
+	:prop:Measurement8401	prop:hasTemperature "29"^^xsd:integer;
+							prop:atTime "2010-06-12T10:00:12"^^xsd:dateTime.
 
 :Computer101	prop:hasOwner :User10A.
 	
