@@ -1,0 +1,12 @@
+@base <http://www.rdfsturtle.com/exercise/class>
+@prefix vocab:<http://www.rdfsturtle.com/exercise/class#>
+@prefix vocabd:<http://www.rdfsturtle.com/exercise/class/dispositivo#>
+@prefix vocabm:<http://www.rdfsturtle.com/exercise/class/dispositivo/medida#>
+@prefix vocabu:<http://www.rdfsturtle.com/exercise/class/dispositivo/user#>
+:Measurement8401 vocabm:hasTemperature"29";
+				 vocabm:atTime"2010-06-12T12:00:12".
+:Sensor029	vocabd:hasMeasurement:Measurement8401.
+:User10A	vocabu:hasName"Pedro".
+:Computer101: 	vocabd:hasOwner:User10A.
+:Class01	vocab:includes:Sensor029;
+			vocab:includes:Computer101.
