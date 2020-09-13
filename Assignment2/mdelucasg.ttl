@@ -1,0 +1,16 @@
+@base <https://www.oeg-upm.net/Organization#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix properties: <https://www.oeg-upm.net/Properties#>.
+
+:Class01 			rdfs:includes :Sensor029;
+		 		rdfs:includes :Computer101.
+
+:Sensor029 			properties:hasMeasurements :Measurements8401.
+
+:Computer101 			properties:hasOwner :User10A.
+
+:Measurements8401		properties:hasTemperature "29"^^xsd:integer;
+				properties:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+:User10A 			properties:hasName "Pedro"^^xsd:string.
