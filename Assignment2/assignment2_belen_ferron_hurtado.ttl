@@ -6,6 +6,6 @@
 			properties:includes :Computer101.
 :Sensor029	        properties:hasMeasurement :Measurement8401.
 :Measurement8401        properties:hasTemperature "29"^^xsd:integer;
-			          properties:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+			properties:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 :Computer101		properties:hasOwner :User10A.
-:User10A      properties:hasName "Pedro"^^xsd:string.
+:User10A      		properties:hasName "Pedro"^^xsd:string.
