@@ -1,0 +1,20 @@
+
+@base <http://www.ejemplo.org> .
+
+:class01
+   :Includes:Sensor029;
+   :Includes:Computer101;
+
+:Sensor029
+   :HasMeasurement:Measurement8401;
+ 
+:Computer101
+   :HasOwner:User10A;
+
+:Measurement8401
+   :HasTemperature:29.
+   :atTime:2010-06-12T12:00:12.
+
+:User10A
+   :HasName:"Pedro".
+
