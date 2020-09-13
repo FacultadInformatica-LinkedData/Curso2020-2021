@@ -14,5 +14,5 @@
 :Sensor029 prop:hasMeasurement prop:Measurement8401.
 :Computer101 prop:hasOwner prop:User10A.
 :Measurement8401 prop:hasTemperature "29"^^xsd:integer;
-                 prop:atTime "2010-06-12T 12:00:12"^^xsd:dateTime.
+                 prop:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 :User10A people:hasName "Pedro"^^xsd:string.
