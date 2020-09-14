@@ -34,7 +34,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://xmlns.com/foaf/0.1/knows -->
 
-    <rdfs:Property rdf:about="#http://xmlns.com/foaf/0.1/knows"/>
+    <rdfs:Property rdf:about="http://xmlns.com/foaf/0.1/knows"/>
     
 
 
