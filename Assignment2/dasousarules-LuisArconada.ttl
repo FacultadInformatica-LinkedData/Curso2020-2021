@@ -1,5 +1,6 @@
-@base <http://www.upm.net/example>
-@prefix <http://www.upm.net/example#>
+@base <http://www.upm.net/example>.
+@prefix <http://www.upm.net/example/properties>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 :Class01    :includes   :Sensor029 ;
             :includes   :Computer101 .
