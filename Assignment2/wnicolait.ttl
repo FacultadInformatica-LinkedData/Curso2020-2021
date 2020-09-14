@@ -1,0 +1,11 @@
+
+
+:Class01          rdf:string : includes : Computer101;
+                  rdf:string : includes : Sensor029.
+
+:Computer101      rdf:string : hasOwner : User10A.
+:Sensor029        rdf:string : hasMeasurement : Measurement8401.
+
+:User10A          rdf:string : hasName Pedro.
+:Measurement8401  rdf:string : hasTemperature 29;
+                  rdf:string : atTime 2010-06-12T12:00:12 xsd:string
