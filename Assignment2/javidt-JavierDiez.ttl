@@ -1,0 +1,10 @@
+:Class01 x:include :Sensor029 ;
+	 x:include :Computer101.
+
+:Sensor029 x:hasMeasurement :Measurement8401.
+
+:Computer101 x:hasOwner :User10A.
+
+:Measurement8401 x:hasTemperature :"29";
+		 x:atTime :"2010-06-12T12:00:12".
+:User10A x:hasName :"Pedro".
