@@ -1,8 +1,37 @@
 {
 	"@context":{
-	"xsd":"http://www.w3.org/2001/XMLSchema#",
-	"ns": "http://www.ontologies.org/ontologies/Class#"
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"ns": "http://www.ontologies.org/ontologies/",
+		"Class01":{
+			"@type":"ns:class"
+		},
+		"Sensor029":{
+			"@type":"ns:sensor"
+		},
+		"Measurement8401":{
+			"@type":"ns:measuerment"
+		},
+		"temperature":"xsd:long",
+		"date":"xsd:dateTime",
+		"Computer101":{
+			"@type":"ns:computer"
+		},
+		"User10A":{
+		"@type":"ns:user"
+		},
+		"name":"xsd:string"
 	},
-	
-
+  "Class01":{
+		"Sensor029":{
+			"Measurement8401":{
+					"temperature":"29",
+					"date":"2010-06-12T12:00:12"
+			}
+		},
+		"Computer101":{
+			"User10A":{
+				"name":"Pedro"
+			}
+		}
+	}
 }
