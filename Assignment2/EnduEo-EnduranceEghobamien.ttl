@@ -12,7 +12,7 @@
 
 :Computer101 	cp:hasOwner :User10A.
 
-:Measurement8401 ms:hasTemperature "29"^^xsd:int.
-:Measurement8401 ms:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:Measurement8401 ms:hasTemperature "29"^^xsd:int;
+	         ms:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
 :User10A	us:hasName "Pedro"^^xsd:string.
