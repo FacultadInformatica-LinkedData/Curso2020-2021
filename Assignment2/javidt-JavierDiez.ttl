@@ -1,3 +1,8 @@
+@base 		<http://example.org/>.
+@prefix :	<http://example.org/>.
+@prefix x:	<http://example.org/n>.
+@prefix xsd: 	<https://www.w3.org/2001/XMLSchema#>.
+
 :Class01 x:include :Sensor029 ;
 	 x:include :Computer101.
 
@@ -5,6 +10,6 @@
 
 :Computer101 x:hasOwner :User10A.
 
-:Measurement8401 x:hasTemperature :"29";
-		 x:atTime :"2010-06-12T12:00:12".
-:User10A x:hasName :"Pedro".
+:Measurement8401 x:hasTemperature "29"^^xsd:integer.
+:Measurement8401 x:atTime "2010-06-12T12:00:12"^^xsd:dataTime.
+:User10A x: hasName :"Pedro".
