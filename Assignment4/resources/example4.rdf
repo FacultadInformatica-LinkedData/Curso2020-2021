@@ -14,10 +14,10 @@
 <rdf:RDF xmlns="http://www.sowhere.com#"
      xml:base="http://www.sowhere.com"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:foaf="&example4;http://xmlns.com/foaf/0.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:vcard-rdf="&example4;http://www.w3.org/2001/vcard-rdf/3.0/"
+     xmlns:vcard-rdf="http://www.w3.org/2001/vcard-rdf/3.0/"
      xmlns:example4="http://www.semanticweb.org/ontologies/example4.rdf#">
     
 
@@ -52,7 +52,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://www.w3.org/2001/vcard-rdf/3.0/FN -->
 
-    <rdfs:Datatype rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/FN">
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/FN">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
@@ -60,7 +60,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://www.w3.org/2001/vcard-rdf/3.0/Family -->
 
-    <rdfs:Property rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Family">
+    <rdfs:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Family">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Property>
     
@@ -68,7 +68,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://www.w3.org/2001/vcard-rdf/3.0/Given -->
 
-    <rdfs:Datatype rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Given">
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Given">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
@@ -76,7 +76,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://xmlns.com/foaf/0.1/email -->
 
-    <rdfs:Datatype rdf:about="#http://xmlns.com/foaf/0.1/email">
+    <rdfs:Datatype rdf:about="http://xmlns.com/foaf/0.1/email">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
