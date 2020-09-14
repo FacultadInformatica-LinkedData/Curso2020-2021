@@ -4,15 +4,16 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <http://schema.org/> .
 @prefix : <http://example.org/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 :Class01 rdfs:includes :Sensor029;
          rdfs:includes :Computer101.
 
 :Sensor029 rdfs:hasMeasurement :Measurement8401.
 
-:Measurement8401 rdfs:hasTemperature 29;
-                 rdfs:atTime "2010-06-12T12:00:12".
+:Measurement8401 rdfs:hasTemperature "29" ^^xsd:integer;
+                 rdfs:atTime "2010-06-12T12:00:12" ^^xsd:dateTime.
 
 :Computer101 rdfs:hasOwner :User10A.
 
-:User10A rdfs:hasName "Pedro".
+:User10A rdfs:hasName "Pedro" ^^xsd:string.
