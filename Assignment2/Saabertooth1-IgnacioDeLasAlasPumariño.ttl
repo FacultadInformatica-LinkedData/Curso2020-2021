@@ -1,4 +1,5 @@
 @base <http://www.example.org/class>.
+@prefix : <http://example.org/elements>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema>.
 
 :Class01            :includes   :Sensor029;
