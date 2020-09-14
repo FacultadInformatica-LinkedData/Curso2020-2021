@@ -1,7 +1,7 @@
 @base <http://example.org/> .
 @prefix data: <http://example.org/data> .
 
-:Class01 :includes ( :Sensor029 :Computer101 ) .
+:Class01 :includes :Sensor029,:Computer101 .
 
 :Sensor029 data:hasMeasurement :Measurement8401 .
 :Computer101 data:hasOwner :User10A .
