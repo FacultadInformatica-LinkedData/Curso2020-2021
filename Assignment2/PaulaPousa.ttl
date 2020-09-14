@@ -1,6 +1,6 @@
-@base <"http://example.org/class"> .
-@prefix data: <"http://example.org/class#">.
-@prefix xsd: <"http://www.w3.org/2001/XMLSchema">.
+@base <http://example.org/class> .
+@prefix data: <http://example.org/class#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema>.
 
 :Class01 data:includes :Sensor029;
          data:includes :Computer101.
