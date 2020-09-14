@@ -1,0 +1,20 @@
+"@context": {
+	"sample": "<http://example.org>",
+	"rdfs": "<http://www.w3.org/2000/01/rdf-schema#> ",
+	"properties": "http://example.org/Properties#>",
+	"xsd": "<http://www.w3.org/2001/XMLSchema#>"
+},
+
+"[	{"@id":"http://example.org/elementsClass01", "@type":"sample:elements","rdfs:includes":
+		[{"@id":"http://example.org/elementsSensor029"},{"@id":"http://example.org/elementsComputer101"}]},
+	{"@id":"http://example.org/elementsComputer101", "@type":"sample:elements","properties:hasOwner":
+		[{"@id":"http://example.org/elementsUser10A"}]},
+	{"@id":"http://example.org/elementsMeasurement8401", "@type":"sample:elements","properties:hasTemperature":
+		[{"@value":"29","@type":"xsd:integer"}],
+		"http://example.org/elementsatTime":
+		[{"@value":"2010-06-12T12:00:12","@type":"xsd:dateTime"}]},
+	{"@id":"http://example.org/elementsSensor029", "@type":"sample:elements","properties:hasMeasurement":
+		[{"@id":"http://example.org/elementsMeasurement8401"}]},
+	{"@id":"http://example.org/elementsUser10A", "@type":"sample:elements","properties:hasName":
+		[{"@value":"Pedro"}]}
+]"
