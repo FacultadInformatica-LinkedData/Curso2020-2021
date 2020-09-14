@@ -25,7 +25,7 @@
     :hasMeasurement :Measurement8401 .
 
 :Measurement8401 a :Measurement ;
-    :hasTemperature 29^^xsd:integer ;
+    :hasTemperature 29 ;
     :atTime "2010-06-12T12:00:12"^^xsd:dateTime .
 
 :Computer101 a :Computer ;
