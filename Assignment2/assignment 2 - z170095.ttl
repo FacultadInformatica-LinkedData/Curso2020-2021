@@ -1,0 +1,35 @@
+@base <http://example.org/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://example.org/properties/> .
+
+:includes a rdf:Property .
+:hasMeasurement a rdf:Property .
+:hasTemperature a rdf:Property .
+    rdfs:range xsd:decimal .
+:atTime a rdf:Property .
+    rdfs:range xsd:date .
+
+:Class a rdfs:Class .
+:Sensor a rdfs:Class .
+:Computer a rdfs:Class .
+:Measurement a rdfs:Class .
+:Person a rdfs:Class .
+:User a rdfs:Class ;
+    rdfs:subClassOf :Person.
+
+:Class01 a :Class ;
+    :includes :Sensor029 ;
+    :includes :Computer101 .
+
+:Sensor029 a :Sensor ;
+    :hasMeasurement :Measurement8401 .
+
+:Measurement8401 a :Measurement ;
+    :hasTemperature 29 ;
+    :atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+:Computer101 a :Computer ;
+    :hasOwner :User10A .
+
+:User10A a :User ;
+    :hasName "Pedro"^^xsd:string .
