@@ -1,0 +1,11 @@
+	@base <https://www.oeg-upm.net/Organization#>
+	@prefix rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   	@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+
+<https://www.oeg-upm.net/Organization#Class01> xml:atTime "2010-06-12T12:00:12"^^<xsd:date>;
+  xml:hasMeasurement <https://www.oeg-upm.net/Organization#Measurement8401>;
+  xml:hasName "Pedro"^^<xsd:string>;
+  xml:hasOwner <https://www.oeg-upm.net/Organization#User10A>;
+  xml:hasTemperature "29"^^<xsd:integer>;
+  xml:includes <https://www.oeg-upm.net/Organization#Sensor29>,
+    <https://www.oeg-upm.net/Organization#Computer101> .

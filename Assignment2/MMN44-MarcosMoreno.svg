@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" height="708pt" width="416.109375pt" viewBox="725 157 424.109375 714"><defs><style type="text/css">
+        @font-face {
+            font-family: 'lt_bold';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-bold-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_bold_italic';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-bolditalic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-bolditalic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_italic';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-italic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-italic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_regular';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt-hairline';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/lt-hairline-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/lt-hairline-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt-thinitalic';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/lt-thinitalic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/lt-thinitalic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'champagne';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/champagne-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/champagne-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'indie';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/indie-flower-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/indie-flower-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'bebas';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/bebasneue_regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/bebasneue_regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'bree';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/breeserif-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/breeserif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'spartan';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/leaguespartan-bold-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/leaguespartan-bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'montserrat';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/montserrat-medium-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/montserrat-medium-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'open_sanscondensed';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/opensans-condlight-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/opensans-condlight-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'open_sansitalic';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/opensans-italic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/opensans-italic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'playfair';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/playfairdisplay-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/playfairdisplay-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'raleway';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/raleway-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/raleway-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'courier_prime';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/courier_prime-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/courier_prime-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'droid_serifregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/droid-serif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'abhaya_libreregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/abhaya-libre-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'gandhi_serifregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/gandhi-serif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        p {
+            margin: 0;
+        }
+        </style></defs><defs><style>
+            span{ display: inline-block; }
+        </style></defs><g id="poFLTfaSaux"><g transform="translate(730 250)"><path d="M 20,40 L 20,40 L 20,40 A 20 20 0 0 1 0 20.000000000000004 L 0,20 L 0,20.000000000000004 A 20 20 0 0 1 20 0 L 80,0 L 80,0 L 80,0 A 20 20 0 0 1 100 20 L 100,20 L 100,20 A 20 20 0 0 1 80 40 L 20,40 Z" fill="rgb(255,255,255)" stroke="#f77474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(757.890625, 261) rotate(0, 22.109375, 9)" width="44.21875" height="18"><text text-decoration="none" x="0.109375" style="fill: #656565; font:  10pt lt_regular" y="15">:event4</text><text text-decoration="none" x="44.109375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="PlWWvepp2Z8"><g transform="translate(980 160)"><rect x="0" y="0" width="120" height="38" fill="rgb(255,255,255)" stroke="#24afaf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(999.8671875, 170) rotate(0, 40.1328125, 9)" width="80.265625" height="18"><text text-decoration="none" x="1.6328125" style="fill: #656565; font:  10pt lt_regular" y="15">:OscarCorcho</text><text text-decoration="none" x="78.6328125" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="BbAsXJIwftF"><mask id="28bf4" x="816" y="165" width="178" height="119" maskUnits="userSpaceOnUse"><rect x="816" y="165" width="178" height="119" fill="white" /><rect x="876.390625" y="212.5" width="57.21875" height="24" fill="black" /></mask><g mask="url(#28bf4)"><path d="M 830,270 L 980,179" fill="none" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 980,179 L 969.5830814038657,178.5941999369291 L 975.5479086515513,188.42633276278463 Z" fill="rgb(126,126,126)" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(879.390625, 215.5)" width="51.21875" height="18"><text text-decoration="none" x="0.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15">:involves</text><text text-decoration="none" x="50.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="UC8LQi2hn6w"><g transform="translate(980 340)"><rect x="0" y="0" width="166.109375" height="38" fill="rgb(255,255,255)" stroke="#24afaf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(990, 350) rotate(0, 73.0546875, 9)" width="146.109375" height="18"><text text-decoration="none" x="0" style="fill: #656565; font:  10pt lt_regular" y="15">&#x22;2006-05-16&#x22;^^xsd:date</text><text text-decoration="none" x="147" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="li3e1OiBhCa"><mask id="27354" x="816" y="256" width="178" height="117" maskUnits="userSpaceOnUse"><rect x="816" y="256" width="178" height="117" fill="white" /><rect x="881.3934361924686" y="309.57531380753136" width="71.0625" height="24" fill="black" /><rect x="890.0753138075314" y="295.42468619246864" width="6" height="24" fill="black" /><rect x="951.1996397097864" y="331.69178622780663" width="6" height="24" fill="black" /><rect x="951.1996397097864" y="331.69178622780663" width="6" height="24" fill="black" /><rect x="852.8003602902136" y="273.30821377219337" width="6" height="24" fill="black" /></mask><g mask="url(#27354)"><path d="M 830,270 L 980,359" fill="none" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 980,359 L 975.4557090048258,349.61776753214576 L 969.5875603921518,359.5079056433943 Z" fill="rgb(126,126,126)" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(884.3934361924686, 312.57531380753136)" width="65.0625" height="18"><text text-decoration="none" x="0.53125" style="fill: #656565; font:  10pt lt_regular" y="15">:eventDate</text><text text-decoration="none" x="64.53125" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(893.0753138075314, 298.42468619246864)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(954.1996397097864, 334.69178622780663)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(954.1996397097864, 334.69178622780663)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(855.8003602902136, 276.30821377219337)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="gOWeXeasyzi"><g transform="translate(730 510)"><path d="M 20,40 L 20,40 L 20,40 A 20 20 0 0 1 0 20.000000000000004 L 0,20 L 0,20.000000000000004 A 20 20 0 0 1 20 0 L 80,0 L 80,0 L 80,0 A 20 20 0 0 1 100 20 L 100,20 L 100,20 A 20 20 0 0 1 80 40 L 20,40 Z" fill="rgb(255,255,255)" stroke="#f77474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(757.890625, 521) rotate(0, 22.109375, 9)" width="44.21875" height="18"><text text-decoration="none" x="0.109375" style="fill: #656565; font:  10pt lt_regular" y="15">:event3</text><text text-decoration="none" x="44.109375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="9ZE6QnXMLzA"><g transform="translate(980 420)"><rect x="0" y="0" width="120" height="38" fill="rgb(255,255,255)" stroke="#24afaf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(1007.5234375, 430) rotate(0, 32.4765625, 9)" width="64.953125" height="18"><text text-decoration="none" x="1.4765625" style="fill: #656565; font:  10pt lt_regular" y="15">:PinarAlper</text><text text-decoration="none" x="63.4765625" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="l5Cas2XPJFL"><mask id="11f97" x="816" y="425" width="178" height="119" maskUnits="userSpaceOnUse"><rect x="816" y="425" width="178" height="119" fill="white" /><rect x="876.390625" y="472.5" width="57.21875" height="24" fill="black" /></mask><g mask="url(#11f97)"><path d="M 830,530 L 980,439" fill="none" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 980,439 L 969.5830814038657,438.5941999369291 L 975.5479086515513,448.4263327627846 Z" fill="rgb(126,126,126)" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(879.390625, 475.5)" width="51.21875" height="18"><text text-decoration="none" x="0.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15">:involves</text><text text-decoration="none" x="50.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="Xgd97EbQCO6"><g transform="translate(980 510)"><rect x="0" y="0" width="166.109375" height="38" fill="rgb(255,255,255)" stroke="#24afaf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(990, 520) rotate(0, 73.0546875, 9)" width="146.109375" height="18"><text text-decoration="none" x="0" style="fill: #656565; font:  10pt lt_regular" y="15">&#x22;2006-05-15&#x22;^^xsd:date</text><text text-decoration="none" x="147" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="TGfYRfY1PFx"><mask id="cb563" x="816" y="515" width="178" height="29" maskUnits="userSpaceOnUse"><rect x="816" y="515" width="178" height="29" fill="white" /><rect x="881.3934361924686" y="517.4205020920502" width="71.0625" height="24" fill="black" /><rect x="890.0753138075314" y="517.5794979079498" width="6" height="24" fill="black" /><rect x="947.0006666444452" y="517.1999955557037" width="6" height="24" fill="black" /><rect x="947.0006666444452" y="517.1999955557037" width="6" height="24" fill="black" /><rect x="856.9993333555548" y="517.8000044442963" width="6" height="24" fill="black" /></mask><g mask="url(#cb563)"><path d="M 830,530 L 980,529" fill="none" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 980,529 L 971.266208574851,523.3080974998096 L 971.3428735378708,534.8078419527723 Z" fill="rgb(126,126,126)" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(884.3934361924686, 520.4205020920502)" width="65.0625" height="18"><text text-decoration="none" x="0.53125" style="fill: #656565; font:  10pt lt_regular" y="15">:eventDate</text><text text-decoration="none" x="64.53125" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(893.0753138075314, 520.5794979079498)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(950.0006666444452, 520.1999955557037)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(950.0006666444452, 520.1999955557037)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(859.9993333555548, 520.8000044442963)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="28YlVq7VNJ4"><g transform="translate(980 600)"><rect x="0" y="0" width="120" height="38" fill="rgb(255,255,255)" stroke="#24afaf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(1001.8125, 610) rotate(0, 38.1875, 9)" width="76.375" height="18"><text text-decoration="none" x="1.1875" style="fill: #656565; font:  10pt lt_regular" y="15">:CaroleGlobe</text><text text-decoration="none" x="75.1875" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="Af4JBzsEkYY"><mask id="6f5bd" x="816" y="516" width="178" height="117" maskUnits="userSpaceOnUse"><rect x="816" y="516" width="178" height="117" fill="white" /><rect x="876.390625" y="562.5" width="57.21875" height="24" fill="black" /></mask><g mask="url(#6f5bd)"><path d="M 830,530 L 980,619" fill="none" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 980,619 L 975.4557090048258,609.6177675321458 L 969.5875603921518,619.5079056433943 Z" fill="rgb(126,126,126)" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(879.390625, 565.5)" width="51.21875" height="18"><text text-decoration="none" x="0.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15">:involves</text><text text-decoration="none" x="50.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="lbsW5geKnWU"><g transform="translate(730 690)"><path d="M 20,40 L 20,40 L 20,40 A 20 20 0 0 1 0 20.000000000000004 L 0,20 L 0,20.000000000000004 A 20 20 0 0 1 20 0 L 80,0 L 80,0 L 80,0 A 20 20 0 0 1 100 20 L 100,20 L 100,20 A 20 20 0 0 1 80 40 L 20,40 Z" fill="rgb(255,255,255)" stroke="#f77474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(757.890625, 701) rotate(0, 22.109375, 9)" width="44.21875" height="18"><text text-decoration="none" x="0.109375" style="fill: #656565; font:  10pt lt_regular" y="15">:event5</text><text text-decoration="none" x="44.109375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="TBpKckbVoMG"><g transform="translate(980 830)"><rect x="0" y="0" width="166.109375" height="38" fill="rgb(255,255,255)" stroke="#24afaf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(990, 840) rotate(0, 73.0546875, 9)" width="146.109375" height="18"><text text-decoration="none" x="0" style="fill: #656565; font:  10pt lt_regular" y="15">&#x22;2006-05-15&#x22;^^xsd:date</text><text text-decoration="none" x="147" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="XqolfteltVg"><mask id="b6138" x="816" y="696" width="178" height="167" maskUnits="userSpaceOnUse"><rect x="816" y="696" width="178" height="167" fill="white" /><rect x="881.3934361924687" y="778.5502092050209" width="71.0625" height="24" fill="black" /><rect x="890.0753138075314" y="756.4497907949791" width="6" height="24" fill="black" /><rect x="954.092050209205" y="815.7719665271966" width="6" height="24" fill="black" /><rect x="954.9953073384963" y="816.60898480034" width="6" height="24" fill="black" /><rect x="849.0046926615037" y="718.39101519966" width="6" height="24" fill="black" /></mask><g mask="url(#b6138)"><path d="M 830,710 L 980,849" fill="none" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 980,849 L 977.5301061273251,838.8719947182378 L 969.7135503007887,847.3071269051476 Z" fill="rgb(126,126,126)" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(884.3934361924687, 781.5502092050209)" width="65.0625" height="18"><text text-decoration="none" x="0.53125" style="fill: #656565; font:  10pt lt_regular" y="15">:eventDate</text><text text-decoration="none" x="64.53125" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(893.0753138075314, 759.4497907949791)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(957.092050209205, 818.7719665271966)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(957.9953073384963, 819.60898480034)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g><g transform="translate(852.0046926615037, 721.39101519966)" width="0" height="18"><text text-decoration="none" x="0" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g><g id="I5hzcgdpoCo"><mask id="902fc" x="816" y="606" width="178" height="118" maskUnits="userSpaceOnUse"><rect x="816" y="606" width="178" height="118" fill="white" /><rect x="876.390625" y="653" width="57.21875" height="24" fill="black" /></mask><g mask="url(#902fc)"><path d="M 830,710 L 980,620" fill="none" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 980,620 L 969.5851891827044,619.5432918113053 L 975.5018903701209,629.4044604569996 Z" fill="rgb(126,126,126)" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(879.390625, 656)" width="51.21875" height="18"><text text-decoration="none" x="0.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15">:involves</text><text text-decoration="none" x="50.609375" style="fill: #4b4b4b; font:  10pt lt_regular" y="15"></text></g></g></svg>
