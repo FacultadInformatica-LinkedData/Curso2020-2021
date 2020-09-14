@@ -6,8 +6,8 @@
 		:includes :Computer101.
 		
 		
-:Sensor029 :hasMeasurement :Measurement8401
-:Computer101 :hasOwner :User10A
+:Sensor029 :hasMeasurement :Measurement8401.
+:Computer101 :hasOwner :User10A.
 
 
 :Measurement8401 :hasTemperature "29"^^xsd:integer.
