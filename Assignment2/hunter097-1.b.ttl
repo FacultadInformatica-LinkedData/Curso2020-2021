@@ -11,8 +11,8 @@
 	rdfs:subClassOf:Class.
 
 :Measurement8401:hasMeasurement a rdf:Sensor029;
-	rdfs:hasTemperature:29;
-	rdfs:atTime:2010-06-12T 12:00:12.
+	rdfs:hasTemperature:"29"^^xsd:integer;
+	rdfs:atTime:"2010-06-12T 12:00:12"^^xsd:date.
 
 :User10A:hasOwner a rdf:Computer101;
 	rdfs:hasName:Pedro.
