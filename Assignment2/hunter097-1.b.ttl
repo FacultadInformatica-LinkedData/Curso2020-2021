@@ -1,18 +1,13 @@
-@base < www.oeg upm.net / person >
-@prefix : < www.oeg upm.net / person #>
-@prefix person : < www.oeg upm.net / person #>
+@base <http://www.example.org/class>.
+@prefix : <http://example.org/elements>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:Class a rdfs:Class.
-	
-:Sensor029 a rdfs:Class;
-	rdfs:subClassOf:Class.
+:Class01:includes:Sensor029.
+:Class01:includes:Computer101.
 
-:Computer101 a rdfs:Class;
-	rdfs:subClassOf:Class.
+:Measurement8401:hasMeasurement:Sensor029;
+	Sensor029:hasTemperature "29"^^xsd:integer;
+	Sensor029:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
-:Measurement8401:hasMeasurement a rdf:Sensor029;
-	rdfs:hasTemperature "29"^^xsd:integer;
-	rdfs:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
-
-:User10A:hasOwner a rdf:Computer101;
-	rdfs:hasName Pedro.
+:Computer101:hasOwner:User10A;
+	User10A:hasName "Pedro".
