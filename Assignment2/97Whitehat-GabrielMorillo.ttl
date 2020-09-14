@@ -1,0 +1,15 @@
+@base <http://www.example.org/class>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema>.
+@prefix prop: <http://example.org/elements/properties>.
+
+:Class01  	:includes  :Sensor029;
+			:includes  :Computer101.
+
+:Sensor029	prop:hasMeasurement :Measurement8401.
+
+	:prop:Measurement8401	prop:hasTemperature "29"^^xsd:integer;
+							prop:atTime "2010-06-12T10:00:12"^^xsd:dateTime.
+
+:Computer101	prop:hasOwner :User10A.
+	
+	:User10A	prop:hasName "Pedro"^^ xsd:string.
