@@ -1,3 +1,4 @@
+{
 "@context": {
 	"sample": "<http://example.org>",
 	"rdfs": "<http://www.w3.org/2000/01/rdf-schema#> ",
@@ -18,3 +19,4 @@
 	{"@id":"http://example.org/elementsUser10A", "@type":"sample:elements","properties:hasName":
 		[{"@value":"Pedro"}]}
 ]"
+}
