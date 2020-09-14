@@ -12,4 +12,4 @@
 :Measurement8401 n:hasTemperature "29"^^xsd:integer.
 :Measurement8401 n:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
-:User10A n:hasName Pedro.
+:User10A n:hasName "Pedro".
