@@ -3,7 +3,7 @@
 
 :Class01;
 	:includes :Sensor029;
-	:includes :Compurter01.
+	:includes :Computer101.
 	
 :Computer101;
 	:hasOwner :User10A.
