@@ -7,9 +7,9 @@
 				
 :Sensor029 		pr:hasMeasurement :Measurement8401.
 
-:Computer101 	pr:hasOwener :User10A.
+:Computer101 	pr:hasOwner :User10A.
 
-:Measurement8401 pr:hasTemperature : "29"^^xsd:integer;
+:Measurement8401 pr:hasTemperature "29"^^xsd:integer;
 				pr:atTime "2010-06-12T 12:00:12"^^xsd:dataTime.
 
 :User10A 		pr:hasName "Pedro"^^xsd:string.
