@@ -1,0 +1,16 @@
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix pf: <http://www.ontologies.org/ontologies/Class#>.
+
+
+pf:Class01 pf:includes pf:Sepfor029;
+         pf:includes pf:Computer101.
+
+pf:Sepfor029 pf:hasMeasurement pf:Measurement8401.
+
+pf:Computer101 pf:hasOwner pf:User10A.
+
+pf:Measurement8401 pf:hasTemperature "29"^^xsd:integer;
+                 pf:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+pf:User10A pf:hasName "Pedro".
