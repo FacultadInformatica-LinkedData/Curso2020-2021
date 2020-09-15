@@ -1,0 +1,33 @@
+{
+	"@context":"http://example.org>"
+	"@type": "Person>",
+	"name": "Mario de Lucas",
+	"birthPlace" : {
+			"@type": "Place",
+   		"address": {
+  			"@type": "PostalAddress",
+			"addressLocality": "Yuncler",
+			"addressRegion": "Toledo",
+        "addressCountry": "Spain"
+		}
+	},
+	"alumniOf": {
+	 	"@type": "CollegeOrUniversity",
+	 	"name": "Universidad Politecnica de Madrid",
+	},
+	"parent": [
+		{	
+			"type": "Person",
+			"name": "Candido"
+		},
+		{	
+			"type": "Person",
+			"name": "Ana"
+		}
+	],
+	"sibling":"David"
+
+
+	
+
+}
