@@ -30,16 +30,25 @@ This is the normal process that you will have to follow in order to interact wit
 
 **Assignment 1**. Please fill in a line with a dataset description at folder [Assignment 1](./Assignment1/DatasetDescriptions.csv), as discussed in the course moodle site, and make a pull request
 
-**Assignment 2 - Exercise on RDF and RDFS**. Upload the RDF files corresponding to the exercise in the GitHub repository, and comment on those from your colleagues, creating issues in the GitHub repository. This can be done in the [Assignment2](./Assignment2/) folder, **using your GitHub username - your NameSurname** + (.png/.svg) and (.rdf/.ttl), or any other similar file extension.
+**Assignment 2a - Exercise on RDF and RDFS**. Upload the RDF files corresponding to the exercise in the GitHub repository, and comment on those from your colleagues (if you wish), creating issues in the GitHub repository. This can be done in the [Assignment2](./Assignment2/) folder, **using your GitHub username - your NameSurname** + (.png/.svg) and (.rdf/.ttl), or any other similar file extension.
 
 For example, I (my Github username is 'ocorcho') would upload two files :
 * ocorcho-OscarCorcho.png (the image, Exercise 1.a) 
 * ocorcho-OscarCorcho.ttl (Exercise 1.b in Turtle).
 
+**Assignment 2b - Exercise on RDF and RDFS (second part)**. Upload to the GitHub repository the JSON-LD files corresponding to the exercises described in the slides. This can be done in the Assignment2 folder, using the following names:
+* your GitHub username + fromRDFtoJSON-LD.jsonld
+* your GitHub username + fromJSONtoJSON-LD.jsonld
+
+For example, I (my Github username is 'ocorcho') would upload two files :
+* ocorcho-fromRDFtoJSON-LD.jsonld
+* ocorcho-fromJSONtoJSON-LD.jsonld
+
 **The following set of instructions will be updated as we progress during the course**
 
-**Assignment 3 - Exercise on Jena API**. Upload the java files Task06.java and Task07.java after completing the tasks 6.x and 7.x mentioned in those files. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment3](./Assignment3/) folder.
+**Assignment 3 - SPARQL**. Upload the SPARQL queries and their results after completing the completing the tasks mentioned in the slides. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment4](./Assignment4/) folder.
 
-**Assignment 4 - SPARQL**. Upload the SPARQL queries and their results after completing the completing the tasks mentioned in the slides. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment4](./Assignment4/) folder.
+**Assignment 4 - Exercise on RDFLib**. Upload the .py or .ipynb files Task06 and Task07 after completing the tasks 6.x and 7.x mentioned in those files. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment3](./Assignment3/) folder.
+
 
 
