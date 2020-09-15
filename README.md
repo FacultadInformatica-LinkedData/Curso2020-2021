@@ -36,10 +36,13 @@ For example, I (my Github username is 'ocorcho') would upload two files :
 * ocorcho-OscarCorcho.png (the image, Exercise 1.a) 
 * ocorcho-OscarCorcho.ttl (Exercise 1.b in Turtle).
 
-**Assignment 2b - Exercise on RDF and RDFS (second part)**. Upload the JSON-LD file corresponding to the exercise that will be presented during the lecture in the GitHub repository, and comment on those from your colleagues (if you wish), creating issues in the GitHub repository. This can be done in the [Assignment2](./Assignment2/) folder, **using your GitHub username - your NameSurname** + (.json).
+**Assignment 2b - Exercise on RDF and RDFS (second part)**. Upload to the GitHub repository the JSON-LD files corresponding to the exercises described in the slides. This can be done in the Assignment2 folder, using the following names:
+* your GitHub username + fromRDFtoJSON-LD.jsonld
+* your GitHub username + fromJSONtoJSON-LD.jsonld
 
-For example, I (my Github username is 'ocorcho') would upload one file :
-* ocorcho-OscarCorcho.json (the work in JSON-LD).
+For example, I (my Github username is 'ocorcho') would upload two files :
+* ocorcho-fromRDFtoJSON-LD.jsonld
+* ocorcho-fromJSONtoJSON-LD.jsonld
 
 **The following set of instructions will be updated as we progress during the course**
 
