@@ -5,7 +5,7 @@
 :Class01 	:includes :Sensor029;
 			:includes :Computer101. 
 :Computer101 	:hasOwner :User10A .
-:User10A		:hasName "Pedro"^^xsd:Sting.
+:User10A		:hasName "Pedro"^^xsd:string.
 :Sensor029		:hasMeasurement :Measurement8401 .
-:Measurement8401 :hasTemperature "29"^^xsd:Int;
+:Measurement8401 :hasTemperature "29"^^xsd:integer;
 				 :atTime "2010-06-12T12:00:12"^^xsd:^dateTime.	
