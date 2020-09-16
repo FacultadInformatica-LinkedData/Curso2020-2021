@@ -1,5 +1,5 @@
-@base <http:www.webname.net/ontologies/events/>
-@prefix vocab:<http://ontologies.org/ontologies/events#>
+@base <http:www.webname.net/ontologies/events/>.
+@prefix vocab:<http://ontologies.org/ontologies/events#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema>.
 
 :Class01 	:includes :Sensor029;
