@@ -1,0 +1,31 @@
+"@context":{
+		"zar":"https://www.w3.org/api/general",
+		"rdfs":"https://www.w3.org/api/general#",
+		"name":"rdfs:label",
+		"hometown": "rdfs:label",
+		"age": "rdfs:integer",
+		"alma_mater": "rdfs:label",
+		"parents": "rdfs:label",
+		"subjects": "rdfs:subjects",
+		"name": "rdfs:label",
+		"teachers": "rdfs:label",
+		"description": "rdfs:label",
+}
+
+"@id": "https://www.w3.org/api/info"
+"@types": "name": "Sergio Bujan Fernandez",
+"hometown": "Madrid",
+"age": "24",
+"alma_mater": "Daniel",
+"parents":"Maria Jesus y Javier",
+"subjects":{ "zar":"info/subjects/",
+	"@id":"LinkedData",
+	"@type":{"name":"Linked Data",
+				"teachers": "Oscar Corcho",
+				"description": "Conocimiento y tratamiento de datos enlazados en arboles relacionales"},
+	"@id":"GPTI",
+	"@type":{ "name":"Gestion de Procesos de TI",
+				"teachers": "Edmundo Tovar",
+				"description": "Conocimiento sobre estandares y documentacion en las infractucturas tecnologicas"}
+			}
+

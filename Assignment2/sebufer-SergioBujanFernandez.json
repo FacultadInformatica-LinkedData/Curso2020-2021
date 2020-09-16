@@ -1,0 +1,23 @@
+"@context":{
+	"rdfs":"http:www.oeg-upm.net/ontologies/class#",
+	"includes": "rdf:includes",
+	"hasMeasurament":  "rdf:hasMeasurament",
+	"hasTemperatura":  "rdf:integer",
+	"atTime":  "rdf:dataTime",
+	"hasOwner": "rdf:hasOwner",
+	"hasName":  "rdf:string"
+ }
+ "@id":"http:www.oeg-upm.net/ontologies/class/class01"{
+ 		
+ 		"@id": "http:www.oeg-upm.net/ontologies/includes/Sensor029"{
+ 			"@id":"http:www.oeg-upm.net/ontologies/hasMeasurament/Measurament8401",
+ 			"@types":{ 	"@hasTemperature": "29",
+ 						"@atTime": "2010-06-12T12:00:12"}
+ 		},
+
+ 				
+ 		"@id": "http:www.oeg-upm.net/ontologies/includes/Computer101"{
+ 		 	"@id":"http:www.oeg-upm.net/ontologies/hasOwner/User10A", 
+ 			"@type":{ "@hasName": "Pedro"}
+ 		}
+ }
