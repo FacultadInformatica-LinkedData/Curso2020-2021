@@ -1,7 +1,15 @@
-:Class01 vocab:includes :Sensor029;
-		 vocab:includes :Computer101.
-:Sensor029 vocab:hasMeasurement :Measurement8401.
-:Measurement8401 vocab:hasTemperature :29;
-				 vocab:atTime :"2010-06-12T12:00:12".
-:Computer101 vocab:hasOwner :User10A.
-:User10A vocab:hasName :"Pedro".
+@base <http://example.org/class>.
+@prefix data: <http://example.org/class#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema>.
+
+:Class01 data:includes :Sensor029;
+	 data:includes :Computer101.
+
+:Sensor029 data:hasMeasurement :Measurement8401.
+
+:Measurement8401 data:hasTemperature :"29"^^xsd:float;
+		 data:atTime :"2010-06-12T12:00:12"^^xsd:dateTime.
+
+:Computer101 data:hasOwner :User10A.
+
+:User10A data:hasName :"Pedro"^^xsd:string.
