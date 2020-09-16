@@ -3,20 +3,25 @@
 		"xsd":"http://www.w3.org/2001/XMLSchema#",
 		"ns": "http://www.ontologies.org/ontologies/",
 		"Class01":{
+          "@id":"http://www.ontologies.org/ontologies/Class",
 			"@type":"ns:class"
 		},
 		"Sensor029":{
+          "@id":"http://www.ontologies.org/ontologies/Sensors",
 			"@type":"ns:sensor"
 		},
 		"Measurement8401":{
+          "@id":"http://www.ontologies.org/ontologies/Measurements",
 			"@type":"ns:measuerment"
 		},
 		"temperature":"xsd:long",
 		"date":"xsd:dateTime",
 		"Computer101":{
+          "@id":"http://www.ontologies.org/ontologies/Computers",
 			"@type":"ns:computer"
 		},
 		"User10A":{
+          "@id":"http://www.ontologies.org/ontologies/Users",
 		"@type":"ns:user"
 		},
 		"name":"xsd:string"
