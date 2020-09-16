@@ -1,0 +1,62 @@
+{
+	"@context": {
+			"el": "http://example.org/elements",
+			"xsd": "http://www.w3.org/2001/XMLSchema",
+			"class": {
+              "@id": "http://example.org/class",
+              "@type": "el:class"
+			},
+			"sensor": {
+              "@id": "http://example.org/sensor",
+			  "@type": "el:sensor"
+			},
+			"computer": {
+              "@id": "http://example.org/computer",
+              "@type": "el:computer"
+			},
+			"measurement": {
+              "@id": "http://example.org/mesurement",
+              "@type": "el:measurement"
+			},
+			"user": {
+              "@id": "http://example.org/user",
+              "@type": "el:user"
+			},
+      		"temperature": {
+              "@id": "http://example.org/temperature",
+              "@type" : "xsd:integer"
+            },
+      		"time": {
+              "@id": "http://example.org/time",
+              "@type": "xsd:dateTime"
+            },
+      		"name": {
+              "@id": "http://example.org/name",
+              "@type": "xsd:string"
+    		}
+      		
+   	},
+  "Class01": {
+    "@id": "http://example.org/Class01",
+    "@type": "class",
+    "Sensor029": {
+      "@id": "http://example.org/Sensor029",
+      "@type": "sensor",
+      "Measurement8401": {
+        "@id": "http://example.org/Measurement8401",
+        "@type": "measurement",
+        "temperature": "29",
+        "time": "2010-06-12T10:00:12"
+      } 
+    },
+    "Computer101": {
+      "@id": "http://example.org/Computer101",
+      "@type": "computer",
+      "User10A": {
+        "@id": "http://example.org/User10A",
+        "@type": "user",
+        "name": "Pedro"
+      }
+    }
+  }
+}
