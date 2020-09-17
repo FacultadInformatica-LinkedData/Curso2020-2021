@@ -1,0 +1,48 @@
+{
+
+	"@context":{
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"pf":"http://www.ontologies.org/ontologies/Class#"
+	
+	},
+	"pf:Class01":[
+		{
+			"pf:Sensor029":[
+				{
+					"pf:Measurement8401":[
+						{
+					
+							"pf:hasTemperature":"29"
+						
+						},
+						{
+							"pf:atTime":"2010-06-12T12:00:12"
+						}
+					]
+				}
+			
+			]
+			
+		},
+		{
+		
+			"pf:Computer101":[
+				{
+					"pf:User10A":{
+					
+						"pf:hasName":"Pedro"
+					
+					}
+				
+				
+				
+				
+				}
+	
+			]
+	
+		}
+	]
+	
+
+}
