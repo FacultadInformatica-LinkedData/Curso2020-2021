@@ -1,0 +1,66 @@
+{
+  "@context" : {
+    "base" : "http://example.org/",
+    "data" : "http://example.org/data",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "includes" : "base:includes",
+    "hasMeasurement" : "base:hasMeasurement",
+    "hasOwner" : "base:hasOwner",
+    "hasTemperature" : "base:hasTemperature",
+    "atTime" : "base:atTime",
+    "hasName" : "base:hasName",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph" : [
+    {
+      "@id" : "base:Class01",
+      "@type" : "base:",
+      "includes" : [
+        {
+          "@id" : "base:Sensor029",
+          "@type" : "base:"
+        },
+        {
+          "@id" : "base:Computer101",
+          "@type" : "base:"
+        }
+      ]
+    },
+    {
+      "@id" : "base:Sensor029",
+      "@type" : "base:",
+      "hasMeasurement" : {
+        "@id" : "base:Measurement8401",
+        "@type" : "base:"
+      }
+    },
+    {
+      "@id" : "base:Computer101",
+      "@type" : "base:",
+      "hasOwner" : {
+        "@id" : "base:User10A",
+        "@type" : "base:"
+      }      
+    },
+    {
+      "@id" : "base:Measurement8401",
+      "@type" : "base:",
+      "hasTemperature" : {
+        "@value" : "29",
+        "@type" : "xsd:integer"
+      }
+      "atTime" : {
+        "@value" : "2010-06-12T12:00:12",
+        "@type" : "xsd:dateTime"
+      }
+    },
+    {
+      "@id" : "base:User10A",
+      "@type" : "base:",
+      "hasName" : {
+        "@value" : "Pedro",
+        "@type" : "xsd:string"
+      }
+    }
+  ]
+}
