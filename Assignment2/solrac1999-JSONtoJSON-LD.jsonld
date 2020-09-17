@@ -1,0 +1,52 @@
+{
+	"@context": {
+  	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "prefix": "http://example.org/assignment2b/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fullname": "rdfs:label",
+    "hometown": "rdfs:label",
+    "age": "rdfs:label",
+    "university":"rdfs:label",
+    "parents":"rdfs:label",
+    "mother":"rdfs:label",
+    "father":"rdfs:label",
+    "subjects":"rdfs:label",
+    "subject":"rdfs:label",
+    "teachers":"rdfs:label",
+    "teacher":"rdfs:label",
+    "description":"rdfs:comment"
+  },
+  "@id": "prefix:solrac1999",
+  "@type": "prefix:",
+  "fullname": {"label":"Nombre", "@value":"Carlos Jimenez-Laiglesia Perez"},
+	"hometown":{"@value":"Madrid"},
+  "age":{"@value":20,"@type":"xsd:integer"},
+  "university": {"@value":"UPM"},
+  "parents": {
+		"mother": {"@value":"Pilar Perez"},
+		"father": {"@value":"Carlos Jimenez-Laiglesia"}
+	},
+	"subjects": {
+		"subject": [{
+				"fullname": {"@value":"English for Professional and Academic Communication"},
+				"teachers": {
+					"teacher": [
+						{"@value":"Elena Montiel Ponsoda"},
+						{"@value":"Jelena Bobkina"}
+					]
+				},
+				"description": {"@value":"Uso del ingles en un ambito formal y academico."}
+			},
+			{
+				"fullname": {"@value":"Semantic Web, Linked Data and Knowledge Graphs"},
+				"teachers": {
+					"teacher": [
+						{"@value":"Oscar Corcho Garcia"},
+						{"@value":"Raul Garcia Castro"}
+					]
+				},
+				"description": {"@value":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."}
+			}
+		]
+	}
+}
