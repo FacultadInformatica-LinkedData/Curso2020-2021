@@ -1,6 +1,6 @@
 {
   "@context": {
-    "0": "http://example.org/#",
+    "root": "http://example.org",
     "@base": "http://www.oeg-upm.net/ontologies/example/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "people": "http://www.oeg-upm.net/People#",
@@ -14,7 +14,7 @@
   },
   "@graph": [
     {
-      "@id": "0:Class01",
+      "@id": "root:Class01",
       "org:includes": [
         {
           "@id": "org:Sensor029"
@@ -25,19 +25,19 @@
       ]
     },
     {
-      "@id": "0:Sensor029",
+      "@id": "root:Sensor029",
       "prop:hasMeasurement": {
         "@id": "prop:Measurement8401"
       }
     },
     {
-      "@id": "0:Computer101",
+      "@id": "root:Computer101",
       "prop:hasOwner": {
         "@id": "prop:User10A"
       }
     },
     {
-      "@id": "0:Measurement8401",
+      "@id": "root:Measurement8401",
       "prop:hasTemperature": 29,
       "prop:atTime": {
         "@value": "2010-06-12T 12:00:12",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "@id": "0:User10A",
+      "@id": "root:User10A",
       "people:hasName": {
         "@value": "Pedro",
         "@type": "xsd:string"
