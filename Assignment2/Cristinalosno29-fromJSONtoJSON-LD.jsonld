@@ -1,7 +1,6 @@
 {
     "@context":{
         "vocab":"http://example.org/elements/",
-        "name":"vocab:name",
         "hometown":"vocab:hometown",
         "age":"vocab:age",
         "almaMater":"vocab:almaMater",
@@ -18,7 +17,7 @@
     "age":"25",
     "almaMater":"UPM",
     "parentsName": ["Marisa","MiguelAngel"],
-	"subjets":[
+	"subjects":[
 			{
 				"subject":"Semantic Web and Linked data",
 				"teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
