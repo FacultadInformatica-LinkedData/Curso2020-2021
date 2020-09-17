@@ -1,5 +1,6 @@
-@base http://www.example.org/
-@prefix : http://www.example.org/# 
+@base <http://www.example.org/>.
+@prefix : <http://www.example.org>.
+@prefix xsd: <http://www.example.org>.
 
 :Class01 :includes :Sensor029.
 :Class01 :includes :Computer101.
