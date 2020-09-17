@@ -1,4 +1,3 @@
-
 {	
 	"@context":{
 		"cl": "http://ontogrid.net/Ex1b/classes/",
@@ -8,12 +7,13 @@
 		"us": "http://ontogrid.net/Ex1b/classes/users/",
 		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"includes": "rdfs:label",
-		"hasMeasurement": "rdfs:label",
-		"hasOwner": "rdfs:label",
-		"hasName": "rdfs:label",
-		"hasTemperature": "rdfs:label",
-		"atTime":"rdfs:label"
+		"attr": "http://www.w3.org./Ex1b/attributes/",
+		"includes": "attr:includes",
+		"hasMeasurement": "attr:measurements",
+		"hasOwner": "attr:hasOwner",
+		"hasName": "attr:hasName",
+		"hasTemperature": "attr:hasTemperature",
+		"atTime":"attr:atTime"
 	},
     
 	"@graph":[
