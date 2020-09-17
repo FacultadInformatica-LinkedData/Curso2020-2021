@@ -22,16 +22,22 @@
 {
 
 	"@context":{
-		"root":"http://www.example.es/api/example",
+		"root":"http://www.example.es/api/example#",
       	"rdfs":"http://www.w3.org/2000/01/rdf-schema#",
-      	"vcard":"http//www.w3.org/2006/vcard/ns#",
-      	"age":"rdfs:label",
-      	"teachers":"rdfs:label",
-      	"description":"rdfs:label"
+      	"vcard":"http://www.w3.org/2006/vcard/ns#",
+      	"myvocab":"http://www.myvocab.org/api/",
+      	"age":"myvocab:age",
+      	"teachers":"myvocab:teachers",
+      	"description":"myvocab:description",
+      	"hometown":"myvocab:town",
+     	"almamater":"myvocab:almamater"
+      	
+      
+      	
       
 	},
   	"@id":"http://www.example.es/api/example/alumno/fullname/Rafael-Martin-Lesmes",
-  	"@type":"root:alumno/fullname",
+  	"@type":"root:Person/student",
   	"hometown":"http://www.example.es/api/example/alumno/hometown/Boadilla-del-Monte",
   	"age":"21",
   	"almamater":"http://www.example.es/api/example/alumno/almamater/Universidad-Politecnica-de-Madrid",
