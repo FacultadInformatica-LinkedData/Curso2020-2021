@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "exa": "http://example.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "exa:elementsUser10A",
+  "exa:elementshasName": "Pedro",
+    
+    
+  "@id": "exa:elementsClass01",
+  "exa:elementsincludes": [
+    {
+      "@id": "exa:elementsComputer101"
+    },
+    {
+      "@id": "exa:elementsSensor029"
+    }
+  ],
+    
+    
+  "@id": "exa:elementsSensor029",
+  "exa:elementshasMeasurement": {
+    "@id": "exa:elementsMeasurement8401"
+      },
+    
+    
+  "@id": "exa:elementsMeasurement8401",
+  "exa:elementsatTime": {
+    "@type": "http://www.w3.org/2001/XMLSchemadateTime",
+    "@value": "2010-06-12T12:00:12"
+  },
+  "exa:elementshasTemperature": {
+    "@type": "http://www.w3.org/2001/XMLSchemainteger",
+    "@value": "29"
+  },
+
+
+  "@id": "exa:elementsComputer101",
+  "exa:elementshasOwner": {
+    "@id": "exa:elementsUser10A"
+  }
+    
+  
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "ejemplo":"http://example.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "name": "rdfs:label",
+    "hometown": "rdfs:label",
+    "age": "rdfs:label",
+    "almamater": "rdfs:label"
+  },
+  "@id": "ejemplo:Miguel",
+  "@type": "Person",
+  "name": "Miguel Gonzalo",
+  "hometown": "Madrid",
+  "age": "24",
+  "almamater": "UPM"
+  
+}
