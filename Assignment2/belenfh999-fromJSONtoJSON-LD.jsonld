@@ -1,18 +1,18 @@
 {
 	"@context":{
 		"vocab":"http://example.com/semweb/",
+		"subjects":"http://example.com/semweb/subjects/",
 		"fullName":"vocab:fullName",
 		"hometown":"vocab:hometown",
 		"age":"vocab:age",
 		"almaMater":"vocab:almaMater",
 		"parentsName":"vocab:parentsName",
-		"subjects":"vocab:subjects",
 		"name":"subjects:name",
 		"teachers":"subjects:teachers",
 		"description":"subjects:description"
 		
 	},
-	"@id":" http://example.com/semweb/people/",
+	"@id":"http://example.com/semweb/people/",
 	"@type":"vocab:people",
 	"fullName": "Belén Ferrón Hurtado",
 	"hometown": "Madrid",
