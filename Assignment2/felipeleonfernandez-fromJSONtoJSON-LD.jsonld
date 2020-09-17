@@ -1,6 +1,6 @@
 {
 	"@context": {
-		"vocab": "http://upmsemanticweb.com/students/#",
+		"vocab": "http://upmsemanticweb.com/students#",
 	    "fullName": "vocab:fullName",
 		"hometown": "vocab:hometown",
 		"age": "vocab:age",
@@ -14,7 +14,7 @@
 		"description": "subjects:description"
 	},
 	"@id": "http://upmsemanticweb.com/students/felipeleonfernandez",
-	"@type": "vocab:felipeleonfernandez",
+	"@type": "vocab:student",
 	"fullName": "Felipe León Fernández",
 	"hometown": "Madrid",
 	"age": 25,
