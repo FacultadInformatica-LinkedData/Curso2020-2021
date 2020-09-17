@@ -17,14 +17,14 @@
         },
       "parentsName": {
         "@id": "http://example.org/parentsName",
-        "@type": "xsd:String"
+        "@type": "xsd:string"
         },
       "subjects": "http://example.org/subjects",
       "subject": "http://example.org/subject",
       "teachers": "http://example.org/teachers",
       "description": {
         "@id": "http://example.org/description",
-        "@type": "xsd:String"
+        "@type": "xsd:string"
         }
       },
   "@type": "person",
@@ -50,7 +50,7 @@
       "description": "En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
     },
     {
-      "subject": "nanotecnología",
+      "subject": "Nanotecnología",
       "teachers": ["M.estibaliz Martinez Izquierdo", "Maria Mercedes Perez Castellanos"],
       "description": "En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca."
     }
