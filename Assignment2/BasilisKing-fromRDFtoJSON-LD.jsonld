@@ -1,0 +1,40 @@
+{
+  "@context":{
+
+    "base":  "http://www.example.net/ontologies/",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "s": "http://www.example.net/ontologies/sensor",
+    "m": "http://www.example.net/ontologies/measurements",
+    "c" : "http://www.example.net/ontologies/computer",
+    "u" : "http://www.example.net/ontologies/users",
+    "sensor": "s:sensor",
+    "measurement": "m:measurement",
+    "value": "measurement:value",
+    "atTime": "measurement:Time",
+    "computer": "c:computer",
+    "user": "u:user",
+    "name": "rdfs:label"
+  },
+  "@id": "http://www.example.net/ontologies/class/1",
+  "@type": "base:classes",
+  "sensor":  {
+    "@id" : "http://www.example.net/ontologies/sensor/029",
+    "@type": "s:object",
+    "measurement":{
+    "@id" : "http://www.example.net/ontologies/measurements/8401",
+    "@type": "m:object",
+      "value": "29",
+      "atTime": "2010-06-12T12:00:12"
+    },
+    "computer":{
+      "@id" : "http://www.example.net/ontologies/computer/101",
+      "@type": "c:object",
+      "user":{
+        "@id" : "http://www.example.net/ontologies/users/10A",
+      	"@type": "u:object",
+        "name": "Pedro"
+      }
+    }
+  }
+
+}
