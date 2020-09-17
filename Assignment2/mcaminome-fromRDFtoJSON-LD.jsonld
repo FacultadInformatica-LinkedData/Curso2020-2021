@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "@base": "http://www.oeg-upm.net/Organization/",
+    "class": "http://www.ontologies.org/ontologies/class#",
+    "computer": "http://www.ontologies.org/ontologies/computer#",
+    "user": "http://www.ontologies.org/ontologies/user#",
+    "sensor": "http://www.ontologies.org/ontologies/sensor#",
+    "measurement": "http://www.ontologies.org/ontologies/measurement#",
+    "properties": "http://www.ontologies.org/ontologies/properties#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"   
+  },
+  "@graph": [
+    {
+      "@id": "class:Class01",
+      "properties:includes": [
+        {
+          "@id": "sensor:Sensor029"
+        },
+        {
+          "@id": "computer:Computer101"
+        }
+      ]
+    },
+    {
+      "@id": "sensor:Sensor029",
+      "properties:hasMeasurement": {
+        "@id": "measurement:Measurement8401"
+      }
+    },
+    {
+      "@id": "measurement:Measurement8401",
+      "properties:hasTemperature": 29,
+      "properties:atTime": {
+        "@value": "2010-06-12T12:00:12",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "computer:Computer101",
+      "properties:hasOwner": {
+        "@id": "user:User10A"
+      }
+    },
+    {
+      "@id": "user:User10A",
+      "properties:hasName": {
+        "@value": "Pedro",
+        "@type": "xsd:string"
+      }
+    }
+  ]
+} 
