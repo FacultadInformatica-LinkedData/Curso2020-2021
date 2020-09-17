@@ -1,0 +1,16 @@
+<rdf:RDF xmlns="http://www.a.net#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://www.a.net#">
+xml:base="http://www.a.net#">
+<rdf:Description rdf:about="#Class01"> </rdf:Description>
+	<includes rdf:resource="#Sensor029"/>
+	<includes rdf:resource="#Computer101/>
+<rdf:Description rdf:about="#Sensor029"> </rdf:Description>
+	<hasMeasurement rdf:resource="#Measurement8401"/>
+<rdf:Description rdf:about="#Computer101"> </rdf:Description>
+	<hasOwner rdf:resource="#User10A"/>
+<rdf:Description rdf:about="#Measurement8401"> </rdf:Description>
+	<hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#float"> 29 </hasTemperature>
+	<atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime"> 2010-06-12T12:00:12 <\atTime>
+<rdf:Description rdf:about="#User10A"> </rdf:Description>
+	<hasName rdf:resource="#Pedro"/>
+<rdf:Description rdf:about="#Pedro" </rdf:Description>
+</rdf:RDF>
