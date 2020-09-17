@@ -1,5 +1,5 @@
 {
-	"@context":"http://example.org>"
+	"@context":"http://schema.org/",
 	"@type": "Person>",
 	"name": "Mario de Lucas",
 	"birthPlace" : {
@@ -13,7 +13,7 @@
 	},
 	"alumniOf": {
 	 	"@type": "CollegeOrUniversity",
-	 	"name": "Universidad Politecnica de Madrid",
+	 	"name": "Universidad Politecnica de Madrid"
 	},
 	"parent": [
 		{	
@@ -25,9 +25,24 @@
 			"name": "Ana"
 		}
 	],
-	"sibling":"David"
-
-
-	
-
+	"sibling":"David",
+	"study": [
+    	{
+          "type": "subject",
+          "name": "Semantic Web"
+        },
+    	{
+          "type": "subject",
+          "name": "Artificial Intelligence"
+        },
+    	{
+          "type": "subject",
+          "name": "Operating Systems"
+        },
+    	{
+          "type": "subject",
+          "name": "Natural Processing Lenguage"
+        }
+    
+  ]
 }
