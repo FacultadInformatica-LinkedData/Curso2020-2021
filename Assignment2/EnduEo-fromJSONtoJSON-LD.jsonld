@@ -1,0 +1,44 @@
+{	
+	"@context":{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"subjects": "http://www.w3.org/2001/UPM/subjects/",
+		"teachers": "http://www.w3.org/2001/UPM/teachers/",
+		"name": "rdfs:label",
+		"lastName": "rdfs:label",
+		"hometown": "rdfs:label",
+		"age": "rdfs:label",
+		"alma mater": "rdfs:label",
+		"momName": "rdfs:label",
+		"dadName": "rdfs:label",
+		"description": "rdfs:comment"
+	},
+	"name":"Endurance Eghosa",
+	"lastName":"Eghobamien Ojo",
+	"hometown":"Madrid",
+	"age":"21",
+	"alma mater":"UPM",
+	"momName":"Yoko",
+	"dadName":"John",
+	"subjects":[
+		{ "name":"Gestion de procesos de tecnologia de la informacion",
+		  "teachers":[{
+			"name":"Oscar Dieste Tubio"
+			},
+			{
+			"name":"Edmundo Tovar Caro"
+			}
+			],
+			"description":"Not really sure what this subject is about"
+		},
+		{ "name":"Gestion de procesos de tecnologia de la informacion",
+		  "teachers":[{
+			"name":"Raul Garcia Castro"
+			},
+			{
+			"name":"Oscar Corcho Garcia"
+			}
+			],
+			"description":"The objective of this course is to gain knowledge about Linked Data"
+		}
+	]
+	}
