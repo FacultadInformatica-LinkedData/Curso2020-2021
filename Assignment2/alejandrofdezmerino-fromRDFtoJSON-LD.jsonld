@@ -1,0 +1,24 @@
+{
+"@context": {
+"ex": "http://www.example.com/",
+"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "hasName": "ex:name",
+  "hasTemperature": "ex:int",
+  "atTime": "rdfs:date"
+},
+"@id": "http://www.example.com/class01",  
+"class01":{
+  "@id": "http://www.example.com/class01",
+  "Sensor029":{
+    "Measurement8401":{
+      "hasTemperature":29,
+      "atTime":"2010-06-12T12:00:12"
+    }
+   },
+"Computer101":{
+    "User10A":{
+      "hasName":"Pedro"
+    }
+   }
+}
+}

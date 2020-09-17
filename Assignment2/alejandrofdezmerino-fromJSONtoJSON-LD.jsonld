@@ -1,0 +1,42 @@
+{
+"@context": {
+	"vocab": "http://example.com/ontology", 
+	"name": "vocab:name",
+	"hometown": "vocab:hometown",
+	"age": "vocab:age",
+	"almaMater": "vocab:almaMater",
+	"parents": "vocab:parents",
+	"subjects": "vocab:subjects",
+	"teachers": "vocab:teachers",
+	"description": "vocab:description"
+},
+	"name": "Alejandro Fernandez Merino",
+	"hometown": "Madrid",
+	"age": "23",
+	"almaMater": "Universidad Politecnica de Madrid",
+	"parents": [
+		{
+			"name": "Africa",
+			"name": "Julian"
+		}
+	],
+	"subjects":[
+		{
+			"name": "Semantic Web, linked data and knowledge graphs", 
+			"teachers": "Oscar Corcho, Paola Espinoza",
+			"description": "El objetivo de esta asignatura es proporcionar la base teorica y practica sobre los fundamentos metodologicos implicados en la generacion y publicacion de vocabularios y datos de la Web enlazados",
+			
+			"name": "Gestion de procesos de tecnologias de la informacion", 
+			"teachers": "Edmundo Tovar",
+			"description": "El objetivo de esta asignatura es tratar los elementos de una organizacion, la gestion por procesos y modelos de calidad aplicados a organizaciones de TI",
+			
+			"name": "Sistemas de planificacion", 
+			"teachers": "Vicente Martinez",
+			"description": "El objetivo de esta asignatura es proporcionar la base teorica y practica sobre crear procesos de planificacion",
+			
+			"name": "EPAC", 
+			"teachers": "Elena Montiel",
+			"description": "El objetivo de esta asignatura es aprender un ingles tecnico"
+		}
+	]
+}
