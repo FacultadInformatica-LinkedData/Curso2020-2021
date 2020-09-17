@@ -9,16 +9,22 @@
 "@id": "http://www.example.com/class01",  
 "class01":{
   "@id": "http://www.example.com/class01",
+  "include":{
   "Sensor029":{
+    "hasMeasurement":{
     "Measurement8401":{
       "hasTemperature":29,
       "atTime":"2010-06-12T12:00:12"
     }
+    }
    },
 "Computer101":{
+  "hasOwner":{
     "User10A":{
       "hasName":"Pedro"
     }
+  }
    }
+  }
 }
 }
