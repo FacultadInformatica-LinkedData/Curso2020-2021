@@ -1,0 +1,62 @@
+{
+	"@context":{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"person":"http://www.ontologies.org/ontologies/People#"
+	},
+	"@id":""http://www.example.org/yo",
+	"@type" : "person",
+	"fullname":{
+		"@value":"Gabriel Morillo Pileño"
+		"@type":"xsd:string"
+		},
+	"hometown":{
+	
+		"@value":"Madrid",
+		"@type":"xsd:string"
+	},
+	"age":20,
+	"alma_mater":{
+		"@value":"Universidad Politecnica de Madrid",
+		"@type":"xsd:string"
+	},
+	"parents-name":{
+		"padre":{
+			"@value":"Javier",
+			"@type":"xsd:string"
+		},
+		"madre":{
+			"@value":"Elena",
+			"@type":"xsd:string"
+		}
+	},
+	"subjects":[{
+		"name":{
+			"@value":"Linked Data",
+			"@type":"xsd:string"
+		},
+		"Teachers":{
+			"@value":["Oscar Corcho","Paola Espinoza","Raúl García Castro"],
+			"@type":"xsd:string"
+		},
+		"Brief Description":{
+			"@value":"data relationship with web and other tipe of web data",
+			"@type":"xsd:string"
+		}
+
+	},
+	"subjects":[{
+		"name":{
+			"@value":"Tecnicas de Computación Cientifica",
+			"@type":"xsd:string"
+		},
+		"Teachers":{
+			"@value":["Vicente Martín, Juan Pedro Benito"],
+			"@type":"xsd:string"
+		},
+		"Brief Description":{
+			"@value":"show most cientific impact basic computational techniques to students ",
+			"@type":"xsd:string"
+		}
+
+	}]
+	}
