@@ -3,12 +3,12 @@
     "base" : "http://example.org/",
     "data" : "http://example.org/data",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "includes" : "base:includes",
-    "hasMeasurement" : "base:hasMeasurement",
-    "hasOwner" : "base:hasOwner",
-    "hasTemperature" : "base:hasTemperature",
-    "atTime" : "base:atTime",
-    "hasName" : "base:hasName",
+    "includes" : "rdfs:label",
+    "hasMeasurement" : "rdfs:label",
+    "hasOwner" : "rdfs:label",
+    "hasTemperature" : "rdfs:label",
+    "atTime" : "rdfs:label",
+    "hasName" : "rdfs:label",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@graph" : [
