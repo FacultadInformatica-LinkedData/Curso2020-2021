@@ -1,23 +1,33 @@
 {
   "@context": {
-      "@type": "person",
-      "xsd": "http://www.w3.org/2001/XMLSchema",
+      "person": "http://example.org/person",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "fullName": "http://example.org/fullname",
-      "age": "xsd:integer",
+      "age":{
+        "@id": "http://example.org/age",
+        "@type":"xsd:integer"
+        },
       "hometown": {
         "@id": "http://example.org/hometown",
         "@type": "@id"
-      },
+        },
       "almaMater": {
         "@id": "http://example.org/almaMater",
         "@type": "@id"
-      },
-      "parentsName": "xsd:String",
+        },
+      "parentsName": {
+        "@id": "http://example.org/parentsName",
+        "@type": "xsd:String"
+        },
       "subjects": "http://example.org/subjects",
       "subject": "http://example.org/subject",
-      "teachers": "http.//example.org/teachers",
-      "description": "xsd:String"
-    },
+      "teachers": "http://example.org/teachers",
+      "description": {
+        "@id": "http://example.org/description",
+        "@type": "xsd:String"
+        }
+      },
+  "@type": "person",
   "fullName": "Ignacio de las Alas-Pumariño Martínez",
   "age": 26,
   "hometown": "Madrid",
