@@ -12,7 +12,7 @@
 		"User10A":"computer:User10A"
 	},
 	
-	"Class01": "@id":"http://www.example.org/class01"
+	"Class01": "@id":"http://www.example.org/class01",
 		"includes":[ 
 			{
 			"Sensor029":"@id":"http://www.example.org/class01/sensor029"
@@ -31,22 +31,5 @@
 
 
 			]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
