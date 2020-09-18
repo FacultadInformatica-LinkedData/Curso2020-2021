@@ -3,12 +3,12 @@
     "vocab" : "http://example.org#",
     "data" : "http://example.org/data",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "includes" : "rdfs:label",
-    "hasMeasurement" : "rdfs:label",
-    "hasOwner" : "rdfs:label",
-    "hasTemperature" : "rdfs:label",
-    "atTime" : "rdfs:label",
-    "hasName" : "rdfs:label",
+    "includes" : "vocab:includes",
+    "hasMeasurement" : "vocab:hasMeasurement",
+    "hasOwner" : "vocab:hasOwner",
+    "hasTemperature" : "vocab:hasTemperature",
+    "atTime" : "vocab:atTime",
+    "hasName" : "vocab:hasName",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@graph" : [
