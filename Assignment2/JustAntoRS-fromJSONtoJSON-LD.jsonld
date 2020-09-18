@@ -1,0 +1,50 @@
+{
+    "@context":{
+        "xsd":"http://www.w3.org/2001/XMLSchema#",
+        "prop": "http://www.examples.org/properties/"
+    },
+    "prop:name":"Antonio Ramirez Solans",
+    "prop:homeTown":"Madrid",
+    "prop:age":21,
+    "prop:almaMater":"UPM",
+    "parentsName": [
+        "Isabel",
+        "Escolastico"
+    ],
+    "prop:subjects":[
+        {
+            "prop:subjectName":"Semantic Web, Linked Data & Knowdledge Graphs",
+            "prop:teachers":[
+                "Oscar Corcho Garcia",
+                "Raul Garcia Casto"
+            ],
+            "prop:description":"El  objetivo  de  esta  asignatura  es  proporcionar  la  base  teórica  y  práctica  sobre  los  fundamentos  metodológicos  ytecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, asícomo en forma de grafos de conocimientos"
+        },
+        {
+            "prop:subjectName":"Ingenieria del Software 2",
+            "prop:teachers":[
+                "Tomas San Feliu Gilabert",
+                "Jose Antonio Calvo-Manzano Villalon",
+                "Ana Maria Moreno Sanchez Capuchino"
+            ],
+            "prop:description":"La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. Laasignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectosaprendidos tanto en asignaturas previas del grado como en la propia asignatura"
+        },
+        {
+            "prop:subjectName":"Computacion de Alto Rendimiento",
+            "prop:teachers":[
+                "Maria Isabel Garcia Clemente",
+                "Antonio Garcia Dopico",
+                "Jose Luis Pedraza Dominguez"
+            ],
+            "prop:description":"Este  curso  pretende  servir  de  introducción  al  mundo  de  la  computación  de  altas  prestaciones  o  HPC  (HighPerformance Computing). Para ello muestra los principales logros tecnológicos en el mundo hardware (paralelismointerno,  multiprocesadores  y  multicores,  procesadores  gráficos  y  vectoriales,  etc.)  y  software,  haciendo  particularhincapié en el desarrollo de casos prácticos en diferentes estándares de programación paralela: MPI yOpenMP.Asimismo,  explica  el  uso  de  la  vectorización  para  obtener  mejores  prestaciones  e  introduce  el  profiling  deaplicaciones  científicas,  mediante  el  uso  de  la  heramienta  valgrind.  Por  último  se  introduce  el  uso  de  las  tarjetasgráficas (GPU) como coprocesadores para acelerar aplicaciones intensivas en cómputo"
+        },
+        {
+            "prop:subjectName":"English for Professional and Academic Communication",
+            "prop:teachers":[
+                "Elena Montiel Ponsoda",
+                "Jelena Bobkina"
+            ],
+            "prop:description":"The main objective of this course is to make students aware of the importance of effective communication skills inacademic  or  professional  settings,  with  a  strong  focus  on  contemporary  issues  related  to  computer  engineering,and to help them develop those skills to communicate effectively in both settings"
+        }
+    ]
+}
