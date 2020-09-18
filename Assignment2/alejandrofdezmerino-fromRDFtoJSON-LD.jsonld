@@ -6,7 +6,8 @@
   "hasTemperature": "ex:int",
   "atTime": "rdfs:date"
 },
-"@id": "http://www.example.com/class01",  
+"@id": "http://www.example.com/class01",
+"@type": "ex:examplesdis/disp",  
 "class01":{
   "@id": "http://www.example.com/class01",
   "include":{
