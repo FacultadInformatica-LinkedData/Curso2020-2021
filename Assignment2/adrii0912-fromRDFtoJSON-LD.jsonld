@@ -2,25 +2,24 @@
 	"@context":{
 	
 			"xsd":"http://www.w3.org/2001/XMLSchema#",
-			"base":"http://www.assignment2.com",
-			"equipment":"base:equipment",
-			"Class01":"equipment:Class01",
-			"includes":"equipment:includes",
-			"Sensor029":"includes:Sensor029",
-			"hasMeasurement":"Sensor029:hasMeasurement",
-			"Measurement8401":"hasMeasurement:Measurement8401",
-			"hasTemperature":"Measurement8401:hasTemperature",
-			"atTime":"Measurement8401:atTime",
-			"Computer101":"includes:Computer101",
-			"hasOwner":"Computer101:hasOwner",
-			"User10A":"hasOwner:User10A"
+			"base":"http://www.assignment2.com/",
+			"Class01":"base:Class01",
+			"includes":"base:includes",
+			"Sensor029":"Class01:Sensor029",
+			"hasMeasurement":"base:hasMeasurement",
+			"Measurement8401":"Sensor029:Measurement8401",
+			"hasTemperature":"base:hasTemperature",
+			"atTime":"base:atTime",
+			"Computer101":"Class01:Computer101",
+			"hasOwner":"base:hasOwner",
+			"User10A":"Computer101:User10A"
 			
 	},
 	
 	"Class01":{
 	
 			"@id":"http://www.assignment2.com/Class01",
-			"@type":"Class01",
+			"@type":"base:Class01",
 			"includes": [
 			
 				{
@@ -28,13 +27,13 @@
 					"Sensor029":{
 					
 						"@id":"http://www.assignment2.com/Class01/Sensor029",
-						"@type":"Sensor029",
+						"@type":"Class01:Sensor029",
 						"hasMeasurement":{
 						
 							"Measurement8401":{
 							
 								"@id":"http://www.assignment2.com/Class01/Sensor029/Measurement8401",
-								"@type":"Measurement8401",
+								"@type":"Sensor029:Measurement8401",
 								"hasTemperature": 29,
 								"atTIme":"2010-06-12T10:00:12"
 							
@@ -48,7 +47,7 @@
 					"Computer101":{
 					
 						"@id":"http://www.assignment2.com/Class01/Computer101",
-						"@type":"Computer101",
+						"@type":"Class01:Computer101",
 						"hasOwner":{
 						
 							"User10A":{
@@ -66,5 +65,5 @@
 			]
 
 	}
-}	
+}		
 			
