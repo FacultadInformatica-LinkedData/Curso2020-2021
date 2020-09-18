@@ -1,41 +1,31 @@
 {
-  "@context": {
-    "base": "http://www.oeg-upm.net/Organization",
-    "vocab": "http://www.oeg-upm.net/Organization#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    
-    "vocab:atTime": {
-      "@type": "xsd:dateTime"
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Xinying Huang",
+  "homeTown": "Madrid",
+  "age": "21",
+  "almaMater": "UPM",
+  "parentsName": ["Shu", "Zhou"],
+  "subjects": [
+    {
+      "subjectName": "Sistemas de Planificación",
+      "teachers": ["Vicente Martinez Orga", "Miguel Garcia Remesal "],
+      "descripcion": "Todos los procesos para ser desarrollados precisan de un proceso de planificación, de la bondad de ese plan se generará un proyecto malo, bueno u óptimo."
     },
-    "vocab:hasTemperature": {
-      "@type": "xsd:integer"
+    {
+      "subjectName": " Web SemÁntica, Linked Data Y Grafos De Conocimientos",
+      "teachers": ["Oscar Corcho Garcia", "Raul Garcia Castro"],
+      "descripcion": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos. "
     },
-    "vocab:hasName": {
-      "@type": "xsd:string"
+    {
+      "subjectName": "Gestion de Procesos de Tecnologias de la Informacion",
+      "teachers": ["Oscar Dieste Tubio","Edmundo Tovar Caro", "Jose Ramon Sanchez Palomares", "Maria Pilar Rodriguez Gonzalez"],
+      "descripcion": "En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+    },
+    {
+      "subjectName": "Ingenieria del Software II",
+      "teachers": ["Tomas San Feliu Gilabert", "Jose Antonio CalvoManzano Villalon", "Ana Maria Moreno SanchezCapuchino"],
+      "descripcion": "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software"
     }
-  },
-  "Class01": {
-    "@id" : "http://www.oeg-upm.net/Class01",
-    "vocab:includes": {
-      "Sensor029":{
-        "@id" : "http://www.oeg-upm.net/Class01/Sensor029",
-        "vocab:hasMeasurement": {
-          "Measurement8401":{
-            "@id" : "http://www.oeg-upm.net/Class01/Sensor029/Measurement8401",
-            "vocab:hasTemperature":"29",
-            "vocab:atTime": "2010-06-12T12:00:12"
-          }
-        }
-      },
-      "Computer101":{
-        "@id" : "http://www.oeg-upm.net/Class01/Computer101",
-        "vocab:hasOwner": {
-          "User10A": {
-            "@id" : "http://www.oeg-upm.net/Class01/Computer101/User10A",
-            "vocab:hasName": "Pedro"
-          }
-        }
-      }
-    }
-  }
+  ]
 }
