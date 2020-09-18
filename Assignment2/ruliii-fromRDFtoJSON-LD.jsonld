@@ -24,19 +24,29 @@
           "@id":"http://www.ontologies.org/ontologies/Users",
 		"@type":"ns:user"
 		},
-		"name":"xsd:string"
+		"name":"xsd:string",
+		"includes":"ns:includes",
+		"hasOwner":"ns:hasOwner",
+      "hasMeasurement":"ns:hasMeasuremet"
 	},
   "Class01":{
-		"Sensor029":{
-			"Measurement8401":{
-					"temperature":"29",
-					"date":"2010-06-12T12:00:12"
-			}
-		},
-		"Computer101":{
-			"User10A":{
-				"name":"Pedro"
-			}
+    "includes":{
+  			"Sensor029":{
+              "hasMeasurement":{
+                "Measurement8401":{
+						"temperature":"29",
+						"date":"2010-06-12T12:00:12"
+					}
+              }
+			},
+			"Computer101":{
+              "hasOwner":{
+                "User10A":{
+					"name":"Pedro"
+				}
+              }
 		}
+  		}
+		
 	}
 }
