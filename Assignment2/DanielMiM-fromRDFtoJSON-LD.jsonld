@@ -1,0 +1,29 @@
+{
+    "@context":{
+        "c":"http://example.org",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "sensor":"c:sensor",
+        "computer":"c:computer",
+        "measurement":"c:measurement",
+        "user":"c:user",
+        "sensorMeasurement":"xsd:string",
+        "temperature":"xsd:integer",
+        "time":"xsd:dateTimeStamp",
+        "computerUser":"xsd:string",
+        "name":"xsd:string"
+    },
+    "@id":"http://example.org/class/01",
+    "@type":"c:class",
+    "class":"Class01",
+    "sensor":"Sensor029",
+    "computer":"Computer101",
+    "measurement":{
+        "sensorMeasurement":"Measurement8401",
+        "temperature":"29",
+        "time":"2010-06-12T12:00:12"
+    },
+    "user":{
+        "computerUser":"User10A",
+        "name":"Pedro"
+    }       
+}

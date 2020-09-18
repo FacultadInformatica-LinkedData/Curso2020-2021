@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "inf": "http://example.org",
+        "asign": "http://example.org",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "name": "xsd:string",
+        "hometown": "xsd:string",
+        "age": "xsd:integer",
+        "almaMater": "xsd:string",
+        "parents": "xsd:string",
+        "teachers":"xsd:string",
+        "description":"xsd:string"
+    },
+    "@id": "http://example.org/informacion-personal",
+    "@type": "inf:personal",
+    "name": "Daniel",
+    "hometown": "Madrid",
+    "age": 23,
+    "almaMatter": "Universidad politécnica de Madrid",
+    "parents": [
+        "Jesus",
+        "Carmén"
+    ],
+    "subjects": [
+        {
+            "@id": "http://example.org/asignatura",
+            "@type": "asign",
+            "name": "Semantic Web",
+            "teachers": [
+                "Oscar Corcho",
+                "Paola Espinoza"
+            ],
+            "description": "Asignatura obligatoria de 4ª que se centra en el desarrollo de software"
+        },
+        {
+            "@id": "http://example.org/asignatura",
+            "@type": "asign",
+            "name": "Ingeniería del Software 2",
+            "teachers": [
+                "Jose A. Calvo-Manzano",
+                "Ana Maria Moreno "
+            ],
+            "description": "Asignatura optativa de 4º que cubre los conceptos de Semantic Web y Linked Data"
+        }
+    ]
+}
