@@ -1,6 +1,6 @@
 {
 	"@context":{
-		"xsd":"http://www.w3.org/2001/XMLSchema#,
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
 		"s": "http://www.ontologies.org/ontologies/",
 		"prop": "http://www.ontologies.org/properties/",		
 		"includes": "prop:includes",
@@ -9,7 +9,7 @@
 		"hasName": "prop:hasName",
 		"hasTemperature": "prop:hasTemperature",
 		"atTime":"prop:atTime"
-		},
+	},
 
 		"Class01":{
          	"@id":"http://www.ontologies.org/ontologies",
@@ -17,14 +17,14 @@
 			"includes":[
 				{
 					"Sensor029":{
-						"@id":"http://www.ontologies.org/ontologies/Class01"
-						"@type":"s:Sensor029"
+						"@id":"http://www.ontologies.org/ontologies/Class01",
+						"@type":"s:Sensor029",
 						"hasMeasurement":
 						{
 							"Measurement8401":
 								{
-									"@id":"http://www.ontologies.org/ontologies/Class01/Sensor029"
-									"@type":"s:Measurement8401"
+									"@id":"http://www.ontologies.org/ontologies/Class01/Sensor029",
+									"@type":"s:Measurement8401",
 									"hasTemperature":
 										{
 											"@value": "29",
@@ -37,19 +37,19 @@
 										}
 								}
 						}
-
-					},
-					{
+					}
+				},
+				{
 					"Computer101":
 					{
-						"@id":"http://www.ontologies.org/ontologies/Class01"
-						"@type":"s:Computer101"				
+						"@id":"http://www.ontologies.org/ontologies/Class01",
+						"@type":"s:Computer101",			
 						"hasOwner":
 						{
 							"User10A":
 								{
-									"@id":"http://www.ontologies.org/ontologies/Class01/Computer101"
-									"@type":"s:User10A"
+									"@id":"http://www.ontologies.org/ontologies/Class01/Computer101",
+									"@type":"s:User10A",
 
 									"hasName":
 										{
@@ -61,7 +61,10 @@
 
 					}	
 				}
-			}
+			
 			]
 		}
 }
+
+  
+
