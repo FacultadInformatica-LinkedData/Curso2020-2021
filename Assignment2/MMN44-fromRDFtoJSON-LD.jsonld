@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "vocab": "http:www.example.org/ontology#",
+    "Class01": "vocab:class",
+    "Sensor029": "vocab:sensor",
+    "Measurement8401": "vocab:measurement",
+    "Computer101": "vocab:computer",
+    "User10A": "vocab:user",
+    "prop": "http://www.example.org/properties#",
+    "includes":"prop:includes",
+    "hasMeasurement": "prop:hasMeasurement",
+    "hasTemperature": {
+      "@id": "prop:hasTemperature",
+      "@type": "xsd:integer"
+    },
+    "atTime": {
+      "@id": "prop:atTime",
+      "@type": "xsd:dateTimeStamp"
+    },
+    "hasOwner": "prop:hasOwner",
+    "hasName": {
+      "@id": "prop:hasName",
+      "@type": "xsd:string"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  
+  "Class01": [{
+    "includes": "Sensor029",
+    "Sensor029": {
+      "hasMeasurement": "Measurement8401",
+      "Measurement8401":{
+        "hasTemperature": "29",
+        "atTime": "2010-06-12T12:00:12"
+      	}
+      }
+  	},
+  	{
+    "includes": "Computer101",
+    "Computer101": {
+      "hasOwner": "User10A",
+      "User10A": {
+        "hasName": "Pedro"
+      	}
+      } 
+    }  
+  ]
+}
