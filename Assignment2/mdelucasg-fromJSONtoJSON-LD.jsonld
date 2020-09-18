@@ -1,6 +1,6 @@
 {
 	"@context":"http://schema.org/",
-	"@type": "Person>",
+	"@type": "Person",
 	"name": "Mario de Lucas",
 	"birthPlace" : {
 			"@type": "Place",
@@ -12,7 +12,7 @@
 		}
 	},
 	"alumniOf": {
-	 	"@type": "CollegeOrUniversity",
+	 	"@type": "University",
 	 	"name": "Universidad Politecnica de Madrid"
 	},
 	"parent": [
