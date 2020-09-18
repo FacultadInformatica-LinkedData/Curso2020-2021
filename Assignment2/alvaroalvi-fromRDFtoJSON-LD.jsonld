@@ -3,7 +3,12 @@
 	"@context":{
 		"xsd":"http://www.w3.org/2001/XMLSchema#",
 		"pf":"http://www.ontologies.org/ontologies/Class#"
-	
+		"includes": "rdfs:label",
+		"Measurement8401": "rdfs:label",
+		"hasTemperature": "rdfs:label",
+		"hasOwner":"rdfs:label",
+		"atTime": "rdfs:label",
+		"hasName": "rdfs:label",
 	},
 	"pf:Class01":[
 		{

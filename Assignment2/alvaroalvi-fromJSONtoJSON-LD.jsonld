@@ -1,5 +1,6 @@
 {
   "@context": "http://schema.org/",
+ "@id": "http://schema.org/name",
   "@type": "Person",
   "name": "Alvaro Garcia Garcia",
   "hometown":"Madrid",
