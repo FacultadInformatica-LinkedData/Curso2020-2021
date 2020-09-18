@@ -1,51 +1,61 @@
 {
-    "name":"Daniel Berrocal Gonzalez",
+    "myName":"Daniel Berrocal Gonzalez",
     "hometown":"Parla",
     "age":"22",
-    "alma mater":"Universidad Politecnica de Madrid",
-    "parents name":"Miguel y Teresa",
-    "Asignaturas":{
-        "name1":"Semantic Web, Linked Data and Knowledge Graphs",
-        "name2":"Ingenieria del Software 2",
-        "teacher1":"Oscar Corcho",
-        "techer2":"Tomas San Feliu",
-        "description1":"Proporcionar la base teorica y practica sobre los fundamentos implicados en la generacion y publicacion de vocabularios y datos enlazados en la Web",
-        "description2":"Aplicar los aspectos de gestion al desarrollo software."
-    }
+    "almaMater":"Universidad Politecnica de Madrid",
+    "parentsName": {
+        "father": "Miguel",
+        "mother": "Teresa"
+        },    
+    "subjects":[
+        {
+            "subjectsName":"Semantic Web, Linked Data and Knowledge Graphs",
+            "teacher": "Oscar Corcho",
+            "description": "Proporcionar la base teorica y practica sobre los fundamentos implicados en la generacion y publicacion de vocabularios y datos enlazados en la Web."
+        },
+        {
+            "subjectsName": "Ingenieria del Software 2",
+            "teacher": "Tomas San Feliu",
+            "desription": "Aplicar los aspectos de gestion al desarrollo software."
+        }
+    ]
 }
 
 {
     "@context":{
-        "desc":"http://www.example2.es/personaldescription/",
-        "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
-        "sub":"http://www.example2.es/personaldescription/asignaturas#",
-        "name":"rdfs:label",
-        "hometown":"rdfs:label",
-        "age":"rdfs:label",
-        "alma":"rdfs:label",
-        "parents":"rdfs:label",
-        "name1":"rdfs:label",
-        "name2":"rdfs:label",
-        "teacher1":"rdfs:label",
-        "teacher2":"rdfs:label",
-        "description1":"rdfs:label",
-        "description2":"rdfs:label",
+        "vocab":"http://www.example2.es/personaldescription#",
+        "myName": "vocab:myName",
+        "hometown": "vocab:hometown",
+        "age": "vocab:age",
+        "almaMater": "vocab:almaMater",
+        "parentsName": "vocab:parentsName",
+        "father": "vocab:father",
+        "mother": "vocab:mother",
+        "subjects": "vocab:subjects",
+        "subjectsName": "subjects:subjectsName",
+        "teacher": "subjects:teacher",
+        "description": "subjects:description"
     },
     "@id":"http://www.example2.es/personaldescription/me",
-    "@type":"desc:name",
-    "name":"Daniel Berrocal Gonzalez",
+    "@type":"vocab:personaldescription",
+    "myName":"Daniel Berrocal Gonzalez",
     "hometown":"Parla",
     "age":"22",
-    "alma":"Universidad Politecnica de Madrid",
-    "parents":"Miguel y Teresa",
-    "Asignaturas":{
-        "@id":"http://www.example2.es/personaldescription/asignaturas",
-        "@type":"sub:listsubject",
-        "name1":"Semantic Web, Linked Data and Knowledge Graphs",
-        "name2":"Ingenieria del Software 2",
-        "teacher1":"Oscar Corcho",
-        "techer2":"Tomas San Feliu",
-        "description1":"Proporcionar la base teorica y practica sobre los fundamentos implicados en la generacion y publicacion de vocabularios y datos enlazados en la Web",
-        "description2":"Aplicar los aspectos de gestion al desarrollo software."
-    }
+    "almaMater":"Universidad Politecnica de Madrid",
+    "parentsName": {
+        "father": "Miguel",
+        "mother": "Teresa"
+    },
+    "subjects":[
+        {
+            "subjectsName": "Semantic Web, Linked Data and Knowledge Graphs",
+            "teacher": "Oscar Corcho",
+            "description": "Proporcionar la base teorica y practica sobre los fundamentos implicados en la generacion y publicacion de vocabularios y datos enlazados en la Web."
+        },
+        {
+            "subjectsName": "Ingenieria del Software 2",
+            "teacher": "Tomas San Feliu",
+            "description":"Aplicar los aspectos de gestion al desarrollo software."
+        }
+    ]
 }
