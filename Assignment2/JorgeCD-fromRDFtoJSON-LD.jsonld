@@ -1,0 +1,55 @@
+{
+	"@context":{
+		"alum":"http://upm.com/alumnos#",
+		"rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+		"temp":"http://www.w3.org/2005/Incubator/ssn/ssnx/meteo/aws#",
+		"time":"http://www.w3.org/2006/time#",
+		"hasName":"alum:hasName",
+		"hasMeasurement":"temp:hasMeasurement",
+		"hasTemperature":"temp:hasTemperature",
+		"atTime":"time:atTime",
+		"date":"time:date",
+		"hour":"time:hour",
+		"hasOwner":"upm:hasOwner",
+		"hasHometown":"alum:hasHometown",
+		"hasAge":"alum:hasAge",
+		"hasAlmaMater":"alum:hasAlmaMater",
+		"hasParents":"alum:hasParents",
+		"mom":"hasParents:mom",
+		"dad":"hasParents:dad",
+		"hasSubject":"alum:hasSubject",
+		"name":"hasSubject:name",
+		"teacher":"hasSubject:teacher",
+		"descrip":"hasSubject:descrip",
+		"hasClass":"alum:hasClass"
+		},
+	"@id":"http://upm.com/jorgechavezdillon",
+	"@type":"alum:jorgechavezdillon",
+	"hasName":"Jorge Chávez Dillon",
+	"hasHometown":"Madrid",
+	"hasAge":"21",
+	"hasAlmaMater":"UPM",
+	"hasParents":{
+		"mom":"Mirna",
+		"dad":"Jorge"
+	},
+	"hasSubject":[{
+		"@id":"http://upm.com/jorgechavezdillon/semanticweb",
+		"@type":http://upm.com/jorgechavezdillon/asignatura",
+		"name":"Semantic Web Linked Data and Knowledge Graphs",
+		"teacher":"Oscar Corcho García",
+		"descrip":"El objetivo de esta asignatura es proporcionar
+			la base teórica y práctica sobre los fundamentos metodológicos y
+			tecnológicos implicados en la generación y publicación de vocabularios 
+			y datos en la Web de datos enlazados,
+			así como en forma de grafos de conocimientos"
+		}],
+	"hasSubject":[{
+		"@id":"http://upm.com/jorgechavezdillon/reconocimientodeformas",
+		"@type":http://upm.com/jorgechavezdillon/asignatura",
+		"name":"Reconocimiento de formas",
+		"teacher":"Luis Baumela",
+		"descrip":"Fundamentos teóricos y aplicaciones del reconocimiento 
+			automático en robótica y procesamiento de datos"
+		]}
+}
