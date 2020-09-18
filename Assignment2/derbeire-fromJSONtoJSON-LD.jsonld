@@ -7,40 +7,33 @@
    "hometown":"Madrid",
    "age":"26",
    "almaMater":"UPM",
-   "parents":{
-    "@type": "Person",
-     "@id": "http://example.com/resource/persona",
-      "name1":"Teresa",
-      "name2":"Alberto"
-   },
-   "subjects":{
-    "@type": "Subjects",
-     "@id": "http://example.com/resource/estudios",
+   "parents":[{
+      "name1":"Teresa"},
+      {"name2":"Alberto"}
+   ],
+   "subjects":[{
       "subject1":{
          "@type": "Subject",
         "@id": "http://example.com/resource/asignaturas/SemanticWeb",
          "name":"Semantic Web",
-         "teachers":{
-            "@type": "Person",
-           "@id": "http://example.com/resource/profesores/SemanticWeb",
-            "teacher1":"Oscar Corcho",
-            "teacher2":"Paola Espinoza",
-            "teacher3":"Raul Garcia"
-         },
+         "teachers":[
+			{"teacher1":"Oscar Corcho"},
+            {"teacher2":"Paola Espinoza"},
+            {"teacher3":"Raul Garcia"}
+         ],
          "description":"Fundamentos metodologicos y tecnologicos implicados en la generacion y publicacion de vocabularios y datos en la Web de datos enlazados, asi como en forma de grafos de conocimientos"
       },
       "subject2":{
          "@type": "Subject",
         "@id": "http://example.com/resource/asignaturas/SistemasOperativos",
          "name":"Sistemas Operativos",
-         "teachers":{
-            "@type": "Person",
-           "@id": "http://example.com/resource/profesores/SistemasOperativos",
-            "teacher1":"Francisco Rosales",
-            "teacher2":"Maria Perez",
-            "teacher3":"Gabriel Cebrian"
-         },
+         "teachers":[
+			{"teacher1":"Francisco Rosales"},
+            {"teacher2":"Maria Perez"},
+            {"teacher3":"Gabriel Cebrian"}
+         ],
          "description":"Comprensión de los conceptos básicos de los sistemas operativos y la familiarización con la interfaz de programación de los mismos"
       }
-   }
+	}
+	]
 }

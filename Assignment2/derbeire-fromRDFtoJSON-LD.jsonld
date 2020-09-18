@@ -1,0 +1,54 @@
+{
+	"@context": {
+		"cla":"http://schema.org/",
+		"xsd":"http://schema.org/xsd",
+		"Class01":"cla:Class01",
+		"Sensor029":"cla:Sensor029",
+		"Computer101":"cla:Computer101",
+		"Measurement8401":"sensor:Measurement8401",
+		"User10A":"computer:User10A",
+		"includes":"cla:includes",
+		"hasMeasurement":"cla:hasMeasurement",
+		"hasTemperature":"cla:hasTemperature",
+		"atTime":"cla:atTime",
+		"hasOwner":"cla:hasOwner",
+		"hasName":"vocab:hasName"
+		
+	},
+	"@id":"http://schema.org/class01",
+	"@type":"cla:Class01",
+	"includes":[{
+		"Sensor029":{
+			"@id":"http://schema.org/class01/sensor",
+			"@type":"Class01:Sensor029",
+			"hasMeasurement":{
+				"Measurement8401":{
+					"@id":"http://schema.org/class01/sensor/measures",
+					"@type":"sensor:Measurement8401",
+					"atTime":{
+						"@value":"2010-06-12T12:00:12",
+						"@type":"xsd:dateTime"
+					}
+					"hasTemperature":{
+						"@value":"29",
+						"@type":"xsd:integer"
+					},
+				}
+			}
+		}},
+		{"Computer101":{
+			"@id": "http://schema.org/class01/computer",
+			"@type": "cla:Computer101",
+			"hasOwner":{
+				"User10A":{
+					"@id":"http://schema.org/class01/computer/user",
+					"@type":"computer:User10A",
+					"hasName":{
+						"@value":"Pedro",
+						"@type":"xsd:string"
+					}
+					}
+				}
+			}
+	}]	
+}
