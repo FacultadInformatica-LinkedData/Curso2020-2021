@@ -1,0 +1,30 @@
+{
+@context:{
+  "xsd":"http://www.w3.org/2001/XMLSchema#""
+  "rdfs": "http://www.w3.org/2001/XMLSchema#"",
+  "vocab":""http://www.w3.org/2006/vocab/ns#",
+  "title":"rdfs:label",
+  "tipo":"rdfs:label",
+  "estado":"rdfs:comment",
+  "name":"vocab:name",
+  "hometown":"vocab:hometown",
+  "age":"vocab:age",
+  "almamater":"vocab:almamater",
+  "parents":"vocab:parents",
+  "subjects":"vocab:subjects"
+},
+"name":"Pablo Gandoy",
+"hometown": "Madrid",
+"age":"21",
+"almamater":"Dinosaurio",
+"parents":["Rafael","Irma"]
+},
+  "subjects":[
+    {
+      "name":"Semantic Web and Linked Data",
+      "description":"Very interesting"
+      "teachers":["Oscar Corcho","Paola Espinoza"]
+    }
+  ],
+  ]
+}
