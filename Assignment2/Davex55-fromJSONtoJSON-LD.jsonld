@@ -1,0 +1,53 @@
+{
+      "@context": {
+            "rdfs": "http://www.w3.org/2001/rdf-schema#",
+            "zar": "http://www.w3.org/2001/zar",
+            "includes": "zar:includes",
+            "hasMeasurement": "zar:measurements",
+            "hasTemperature": "zar:hasTemperature",
+            "atTime": "zar:atTime",
+            "hasOwner": "zar:hasOwner",
+            "hasName": "zar:hasName"
+      },
+      "@graph": [{
+                  "@id": "prop:Class01",
+                  "includes": [{
+                              "@id": "prop:Sensor029"
+                        },
+                        {
+                              "@id": "prop:Computer101"
+                        }
+                  ]
+            },
+            {
+                  "@id": "prop:Sensor029",
+                  "hasMeasurement": {
+                        "@id": "prop:Measurement8401"
+                  }
+            },
+            {
+                  "@id": "prop:Measurement8401",
+                  "prop:hasTemperature": {
+                        "@type": "xsd:integer",
+                        "@value": "29"
+                  },
+                  "atTime": {
+                        "@type": "xsd:dateTime",
+                        "@value": "2010-06-12T12:00:12"
+                  }
+            },
+            {
+                  "@id": "prop:Computer101",
+                  "hasOwner": {
+                        "@id": "prop:User10A"
+                  }
+            },
+            {
+                  "@id": "prop:User10A",
+                  "hasName": {
+                        "@type": "xsd:normalizedstring",
+                        "@value": "Pedro"
+                  }
+            }
+      ]
+}
