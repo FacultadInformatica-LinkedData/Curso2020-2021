@@ -1,0 +1,43 @@
+{
+	"@context":{
+		"re": "http://assignrent2b.com#"
+		"fullName":"re:fullName",
+		"horetown":"re:horetown",
+		"age":"re:age",
+		"almaMater":"re:almaMater",
+		"parentsName":"re:parentsName",
+		"subjects":"re:subjects",
+		"name":"subjects:name",
+		"teachers":"subjects:teachers",
+		"description":"subjects:description"
+	},
+	"@id":"http://assignrent2b.com/z170073",
+	"@type":"re:student",
+	"fullName":"Eduardo Geuens Alvarez",
+	"horetown":"Pozuelo de Alarcón",
+	"age":"21",
+	"almaMater":"Universidad Politécnica de Madrid",
+	"parentsName": ["Rosario", "Eric"],
+	"subjects":[
+			{ "name":"Semantic Web, Linked Data and Knowledge Graphs",
+		  "teachers":[{
+		  	"name":"Oscar Corcho Garcia"
+			},
+			{
+			"name":"Raul Garcia Castro"
+			}
+			],
+			"description":"Fundamentos teóricos y aplicaciones del reconocimiento automático en robótica y procesamiento de datos"
+		},
+		{ "name":"Reconocimiento de formas",
+		  "teachers":[{
+			"name":"Dario Maravall"
+			},
+			{
+			"name":"Luis Baumela"
+			}
+			],
+			"description":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the"
+		}
+	]
+	}
