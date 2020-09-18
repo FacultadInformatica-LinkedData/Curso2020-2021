@@ -1,0 +1,36 @@
+{
+	"@context": {
+		"fiupm": "http://www.fiupm.es/alumnos/cuarto/",
+		"name": "fiupm:name",
+		"hometown": "fiupm:hometown",
+		"age": "fiupm:age",
+		"almaMater": "fiupm:alma mater",
+		"mother": "fiupm:mother",
+		"father": "fiupm:father",
+		"subjects": "fiupm:subjects",
+		"description": "subjects:description",
+		"nameS": "subjects:nameS",
+		"teacher": "subjects:teacher"
+	},
+  	
+	"@id":"http://www.fiupm.es/alumnos/cuarto/124/",
+	"@type":"fiupm:student",
+	"name":"Luis López Piñero",
+	"hometown":"Villafranca de los Barros",
+	"age":21,
+	"almaMater":"Universidad Politécnica de Madrid",
+	"mother":"Carmen",
+	"father":"Antonio Luis",
+	"subjets": [
+		{
+		"nameS":"Semantic Web, Linked Data and Knowledge Graphs",
+		"teacher":"Oscar Corcho",
+		"description":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos"
+		},
+
+		{
+		"nameS":"Administración de Sistemas informáticos",
+		"teacher":"Francisco Rosales García",
+		"description":"En esta asignatura se muestran los fundamentos de la administración de sistemas informáticos"
+		}]
+}
