@@ -1,0 +1,70 @@
+{
+	"@context":{
+		"class": "http://upm.es/classes/",
+		"sensor": "http://upm.es/classes/sensor/",
+		"computer": "http://upm.es/classes/computer/",
+		"measure": "http://upm.es/classes/measure/",
+		"user":  "http://upm.es/classes/user/",
+		"attributes": "	http://upm.es/attributes/" ,
+		"includes": "attributes:includes" ,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"hasowner": "attributes:hasowner" ,
+		"hasname": "attributes:hasname" ,	
+		"hasmeasurement": "attributes:hasmeasurement" ,
+		"hastemperature": "attributes:hastemperature" ,
+		"attime": "attributes:attime"
+	},
+
+	"@graph":[
+	{
+	"@id":"class01/" ,
+	"@type":"class",
+	"includes":[{
+		"@id":"sensor:029/",
+		"@type":"sensor"
+		},
+		{
+		"@id":"computer:101/",
+		"@type":"computer"
+	}
+	]
+	},
+	{  /////////desde aqui
+	"@id":"computer101/" ,
+	"@type":"computer",
+	"hasowner":{
+		"@id":"user10A/",
+		"@type":"user"
+		}
+	},
+	{
+	"@id":"user10A/",
+	"@type":"user",
+	"hasname":{
+		"@value":"Pedro",
+		"@type":"xsd:normalizedstring"	
+	}
+	},
+	{
+	"@id":"sensor029/",
+	"@type":"sensor",
+	"hasmeasurement":{
+		"@id":"measurement8401",
+		"@type":"measure"
+	}
+	},
+	
+	{
+	"@id":"measurement8401/",
+	"@type":"measure",	
+	"hastemperature":{
+		"@value":"29",
+		"@type":"xsd:int"	
+	},
+	"attime":{
+		"@value":"2010-06-12T12:00:12",
+		"@type":"xsd:datetime"
+	}	
+	}
+	]
+	}		
