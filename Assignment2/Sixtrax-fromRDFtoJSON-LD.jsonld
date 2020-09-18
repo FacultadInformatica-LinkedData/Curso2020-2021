@@ -21,9 +21,21 @@
 	"Class01":{
 		"@id":"http://www.example.org/Class01",
 		"@type":"class:Class01",
+		"includes":[{
+			"@id":"element:Sensor029/",
+			"@type":"element"
+		},
+		{
+			"@id":"element:Computer101/",
+			"@type":"element"
+		}]
 		"Sensor029":{
 			"@id":"http://www.example.org/Class01/Sensor029",
 			"@type":"element:Sensor029",
+			"hasMeasurement":{
+				"@id":"msr:Measurement8401/",
+				"@type":"msr:"
+			}
 			"Measurement8401":{
 				"@id":"http://www.example.org/Class01/Sensor029/Measurement8401",
 				"@type":"msr:Measurement8401",
@@ -40,6 +52,10 @@
 		"Computer101":{
 			"@id":"http://www.example.org/Class01/Computer101",
           	"@type":"element:Computer101",
+			"hasOwner":{
+				"@id":"user:User10A/",
+				"@type":"user:"
+			}
 			"User10A":{
 				"@id":"http://www.example.org/Class01/Computer101/User10A",
 				"@type":"user:User10A",

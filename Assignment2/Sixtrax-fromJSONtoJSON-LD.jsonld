@@ -1,17 +1,19 @@
 {
 	"@context":{
-		"subjects":"http://www.example.org/subjects",
-		"people": "http://www.example.org/people",
-		"fullname":"people:fullName",
+		"subjects":"http://www.example.org/subjects/",
+		"people": "http://www.example.org/people/",
+		"fullName":"people:fullName",
 		"hometown":"people:hometown",
 		"age":"people:age",
 		"almaMater":"people:almaMater",
-		"parentsName":"people:parentsName",
+		"parentsNames":"people:parentsNames",
 		"subjects":"people:subjects",
 		"name":"subjects:name",
 		"teachers":"subjects:teachers",
 		"description":"subjects:description"
 	},
+	"@id":"http://www.example.org/people/RaulGonzalezDuarte",
+	"@type": "people",
 	"fullName":"Raul Gonzalez Duarte",
 	"hometown":"San Sebastian de los Reyes",
 	"age":"23",
