@@ -15,7 +15,7 @@
 	  	          "hasTemperature": "attr:hasTemperature",
   		          "atTime":"attr:atTime"
               },
-	{
+	
 	"@id": "cl:Class01/",
 	"@type": "cl:",
 	"includes": [
@@ -47,6 +47,5 @@
 				   	   }
 				    }
 			}
-		]
-	}	
+		]	
 }
