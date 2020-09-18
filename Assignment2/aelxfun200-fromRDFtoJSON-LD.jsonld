@@ -1,0 +1,38 @@
+{
+	"@context": {
+			"base": "http://www.oeg-upm.net/ontologies/class/",
+			"vocab_1": "http://www.oeg-upm.net/ontologies/class/computer#",
+			"vocab_2": "http://www.oeg-upm.net/ontologies/class/sensor#",
+			"vocab_3": "http://www.oeg-upm.net/ontologies/class/measurement#",
+			"vocab_4": "http://www.oeg-upm.net/ontologies/class/user#",
+			"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+			"name": "rdfs:label",
+			"base_case": "base:base_case", 
+			"comp": "vocab_1:vocab_1_case",
+			"owner": "vocab_4:vocab_4_case",
+			"sensor": "vocab_2:vocab_2_case",
+			"temperatura": "sensor:Temp",
+			"fech_hora": "sensor:AtTime"
+	},
+	"base_case":{
+			"@id":"http://www.oeg-upm.net/ontologies/class/Class01",
+			"@type":"base:ontologies/class",
+			"comp":{
+					"@id":"http://www.oeg-upm.net/ontologies/class/Class01/Computer101",
+					"@type":"vocab_1:Computer",
+					"owner":{
+							"@id":"http://www.oeg-upm.net/ontologies/class/Class01/Computer101/User10A",
+							"@type":"vocab_4:User",
+							"name":"Pedro"
+					},
+			"sensor":{
+					"@id":"http://www.oeg-upm.net/ontologies/class/Class01/Sensor029",
+					"@type":"vocab_2:Sensor",
+					"temperatura":"29",
+					"fech_hora":"2010-06-12T12:00:12"
+			}
+
+		}
+	}
+
+}
