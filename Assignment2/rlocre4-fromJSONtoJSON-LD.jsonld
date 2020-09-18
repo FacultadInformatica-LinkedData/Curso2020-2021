@@ -15,7 +15,7 @@
 	},
 
 	"@id":"http://upm.com/student/ricardo/",
-	"@type":"student:ricardo"
+	"@type":"student:ricardo",
 	"fullName":"Ricardo López Crespo",
 	"hometown":"Comunidad de Madrid",
 	"age":"21",
@@ -28,9 +28,7 @@
 	"subjectsSet":[{
 		"subjectsName":"Semantic Web, Linked Data and Knowledge Graphs",
 		"subjectsTeachers":["Óscar Corcho García","Raúl García Castro"],
-		"subjectsDescription":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y
-tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así
-como en forma de grafos de conocimientos."
+		"subjectsDescription":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
 	}]
 
 }

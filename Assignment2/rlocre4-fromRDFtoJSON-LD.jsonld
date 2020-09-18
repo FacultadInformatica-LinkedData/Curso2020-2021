@@ -17,8 +17,8 @@
 		"hasName":"User10A:hasName"
 	},
 
-	"@id":"htttp://upm.com/class/Class01"
-	"type":"classes:Class01",
+	"@id":"htttp://upm.com/class/Class01",
+	"@type":"classes:Class01",
 
 	"includes":[
 		{
@@ -29,7 +29,7 @@
 							"@value":"29",
 							"@type":"xsd:integer"
 						},
-						"atTime"{
+						"atTime":{
 							"@value":"2010-06-12T12:00:12",
 							"@type":"xsd:dateTime"
 						}
