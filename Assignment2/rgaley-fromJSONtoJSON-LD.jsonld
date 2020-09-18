@@ -7,7 +7,7 @@
 		"name": "attr:name",
 		"hometown": "attr:hometown",
 		"age": "attr:age",
-		"alma mater": "attr:age",
+		"almamater": "attr:almamater",
 		"mName": "attr:mName",
 		"fName": "attr:fName",
 		"description": "attr:description"
@@ -16,7 +16,7 @@
 	"name":"Ramón Galey Domercq",
 	"hometown":"Madrid",
 	"age":"23",
-	"alma mater":"UPM",
+	"almamater":"UPM",
 	"mName":"Teresa Domercq Jiménez",
 	"fame":"Ramón Galey Cabañas",
 	"subjects":[
