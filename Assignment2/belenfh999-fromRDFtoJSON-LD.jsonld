@@ -2,6 +2,7 @@
   "@context": {
     "vocab": "http://temperaturesystems.com/Products/",
     "properties": "http://www.temperaturesystems.com/Properties/",
+    "xsd":"http://www.w3.org/2001/XMLSchema#",
     "Class01": "vocab:Class01",
     "Sensor029": "Class01:Sensor029",
     "Computer101": "Class01:Computer101",
