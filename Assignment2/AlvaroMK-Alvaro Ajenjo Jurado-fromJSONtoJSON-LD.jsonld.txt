@@ -1,0 +1,34 @@
+{
+	"@context":{
+		"base": "http://example.org/",
+		"fullname": "http://example.org/fullname",
+		"hometown": "http://example.org/hometown",
+		"age": "http://example.org/age",
+		"almaMater": "http://example.org/almamater",
+		"parents": "http://example.org/parents",
+		"subjects": "http://example.org/subjects",
+		"nameSubjects": "http://example.org/subjects/name",
+		"teacherSubjects": "http://example.org/subjects/teacher",
+		"DescriptionSubjects": "http://example.org/subjects/description",
+	},
+	"@id": "http://example.org/Alvaro",
+	"@type": "",
+	"fullname": "Alvaro Ajenjo Jurado",
+	"hometown": "Pozuelo de Alarcón",
+	"age": "22",
+	"almaMater": "",
+	"parents": "Pedro" "Ana",
+	"subjects": {
+		{
+			"nameSubjects": "Semantic Web",
+			"teacherSubjects": "Óscar Corcho",
+			"DescriptionSubjects": "Se le enseña al alumno los conceptos para desarrollar y comprender la base de una web."
+		},
+		{
+			"nameSubjects": "Reconocimiento de formas",
+			"teacherSubjects": "Darío Maravall Gómez-Allende",
+			"DescriptionSubjects": "Se le enseña al alumno cómo reconocer las formas por todos conocidas. Si es un cuadrado, pues un cuadrado. Si no, un triángulo. El círculo se ve en el master, que es más complicado."
+		}
+	}
+
+}

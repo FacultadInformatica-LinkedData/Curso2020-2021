@@ -1,0 +1,59 @@
+{
+	"@context":{
+		"base": "http://example.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"Class01": "http://example.org/components/Class01",
+		"Sensor029": "http://example.org/components/Class01/Sensor029",
+		"Computer101": "http://example.org/components/Class01/Computer101",
+		"Measurement8401": "http://example.org/components/Class01/Sensor029/Measurement8401",
+		"User10A": "http://example.org/components/Class01/Computer101/User10A",
+		"includes": "http://example.org/components/properties/includes",
+		"hasMeasurement": "http://example.org/components/properties/hasMeasurement",
+		"hasOwner": "http://example.org/components/properties/hasOwner",
+		"hasTemperature": "http://example.org/components/properties/hasTemperature",
+		"atTime": "http://example.org/components/properties/atTime",
+		"hasOwner": "http://example.org/components/properties/hasOwner",
+		"hasName": "http://example.org/components/properties/hasName"
+	},
+	"@id": "http://example.org/components/Class01",
+	"@type": "Class",
+	"includes": {
+
+		"Sensor029": {
+			"@id": "http://example.org/components/Class01/Sensor029",
+			"@type": "Sensor",
+			"hasMeasurement":{
+				"Measurement8401": {
+					"@id": "http://example.org/components/Class01/Sensor029/Measurement8401",
+					"@type": "Measurement",
+
+					"hasTemperature": {
+						"@value": "29",
+						"@type": "int",
+					},
+					"atTime": {
+						"@value": "2010-06-12T12:00:12",
+						"@type": "date",
+					}
+				}
+			}
+
+		}
+
+		"Computer101": {
+			"@id": "http://example.org/components/Class01",
+			"@type": "Computer",
+			"hasOwner":{
+				"User10A": {
+					"@id": "http://example.org/components/Class01/Computer101/User10A",
+					"@type": "User",
+					"hasName": {
+						"@value": "Pedro",
+						"@type": "String",
+					}
+				}
+			}
+		}
+	}
+
+}
