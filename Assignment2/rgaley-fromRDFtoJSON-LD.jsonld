@@ -1,10 +1,10 @@
 {
   "@context": {
                "cl": "http://ontogrid.net/Ex1b/classes/",
-		          "sn": "http://ontogrid.net/Ex1b/classes/sensors/",
-	          	  "cp": "http://ontogrid.net/Ex1b/classes/computers/",
-	          	  "ms": "http://ontogrid.net/Ex1b/classes/measurements/",
-          		  "us": "http://ontogrid.net/Ex1b/classes/users/",
+		          "sn": "http://www.example.org/sensors/",
+	          	  "cp": "http://www.example.org//computers/",
+	          	  "ms": "http://www.example.org//measurements/",
+          		  "us": "http://www.example.org//users/",
 		          "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		          "xsd": "http://www.w3.org/2001/XMLSchema#",
 		          "attr": "http://www.w3.org./Ex1b/attributes/",
