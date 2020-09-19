@@ -1,0 +1,69 @@
+{
+	"@context":{
+	
+			"xsd":"http://www.w3.org/2001/XMLSchema#",
+			"base":"http://www.assignment2.com/",
+			"Class01":"base:Class01",
+			"includes":"base:includes",
+			"Sensor029":"Class01:Sensor029",
+			"hasMeasurement":"base:hasMeasurement",
+			"Measurement8401":"Sensor029:Measurement8401",
+			"hasTemperature":"base:hasTemperature",
+			"atTime":"base:atTime",
+			"Computer101":"Class01:Computer101",
+			"hasOwner":"base:hasOwner",
+			"User10A":"Computer101:User10A"
+			
+	},
+	
+	"Class01":{
+	
+			"@id":"http://www.assignment2.com/Class01",
+			"@type":"base:Class01",
+			"includes": [
+			
+				{
+					
+					"Sensor029":{
+					
+						"@id":"http://www.assignment2.com/Class01/Sensor029",
+						"@type":"Class01:Sensor029",
+						"hasMeasurement":{
+						
+							"Measurement8401":{
+							
+								"@id":"http://www.assignment2.com/Class01/Sensor029/Measurement8401",
+								"@type":"Sensor029:Measurement8401",
+								"hasTemperature": 29,
+								"atTIme":"2010-06-12T10:00:12"
+							
+							}
+						}
+					}
+			
+				},
+				
+				{
+					"Computer101":{
+					
+						"@id":"http://www.assignment2.com/Class01/Computer101",
+						"@type":"Class01:Computer101",
+						"hasOwner":{
+						
+							"User10A":{
+							
+							"@id":"http://www.assignment2.com/Class01/Computer101/User10A",
+							"@type":"User10A",
+							"hasName":"Pedro"
+							
+							}
+						
+						}
+					
+					}
+				}
+			]
+
+	}
+}		
+			
