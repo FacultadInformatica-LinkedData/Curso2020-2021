@@ -44,11 +44,11 @@ For example, I (my Github username is 'ocorcho') would upload two files :
 * ocorcho-fromRDFtoJSON-LD.jsonld
 * ocorcho-fromJSONtoJSON-LD.jsonld
 
+**Assignment 3 - SPARQL**. Upload the 5 SPARQL queries and their results. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment3](./Assignment3/) folder.
+
 **The following set of instructions will be updated as we progress during the course**
 
-**Assignment 3 - SPARQL**. Upload the SPARQL queries and their results after completing the completing the tasks mentioned in the slides. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment4](./Assignment4/) folder.
-
-**Assignment 4 - Exercise on RDFLib**. Upload the .py or .ipynb files Task06 and Task07 after completing the tasks 6.x and 7.x mentioned in those files. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment3/dchaves-u120106/) in [Assignment3](./Assignment3/) folder.
+**Assignment 4 - Exercise on RDFLib**. Upload the .py or .ipynb files Task06 and Task07 after completing the tasks 6.x and 7.x mentioned in those files. Before uploading the files create a folder with your **YourGitHubID-StudentID** (e.g., Assignment4/dchaves-u120106/) in [Assignment4](./Assignment4/) folder.
 
 
 
