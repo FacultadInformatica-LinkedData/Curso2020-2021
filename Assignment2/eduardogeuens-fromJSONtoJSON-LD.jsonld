@@ -4,6 +4,7 @@
 		"subjects": "http://www.w3.org/2001/UPM/subjects/",
 		"teachers": "http://www.w3.org/2001/UPM/teachers/",
 		"attr": "http://www.w3.org/2001/UPM/attributes/",
+		"person": "http://xmlns.com/foaf/0.1/Person",
 		"name": "attr:name",
 		"fullName": "attr:lastName",
 		"hometown": "attr:hometown",
@@ -13,7 +14,7 @@
 		"description": "attr:description"
 	},
 	"@id":"http://assignment2b.com/z170073",
-	"@type":"re:student",
+	"@type":"person",
 	"fullName":"Eduardo Geuens Alvarez",
 	"hometown":"Pozuelo de Alarcón",
 	"age":"21",
