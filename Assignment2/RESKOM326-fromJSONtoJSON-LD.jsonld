@@ -1,17 +1,16 @@
 {
     "@context":{
-        "info": "http://www.mydata/api/general",
-        "rdfs": "https://www.w3.org/2000/01/rdf-schema#",
+        "info": "http://www.mydata/api/general/",
         "uni": "https://www.w3.org/2000/01/university#",
         "Parents name": "info:data/personal/parentsName",
-        "Full name": "rdfs:label",
-        "Hometown": "rdfs:label",
-        "Age": "rdfs:label",
-        "Alma mater": "rdfs:label",
+        "Full name": "info:data/personal/fullname",
+        "Hometown": "info:data/personal/hometown",
+        "Age": "info:data/personal/age",
+        "Alma mater": "info:data/personal/almat",
         "Subjects": "uni:subjects",
-        "Name": "rdfs:label",
+        "Name": "uni:subname",
         "Teachers": "uni:teachers",
-        "Description": "rdfs:comment"
+        "Description": "uni:comment"
     },
     "@id": "http://www.mydata/api/data/personal/markD",
     "@type": "info:data/personal",
