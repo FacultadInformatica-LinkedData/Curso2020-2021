@@ -13,7 +13,8 @@
       	"description":"student:description"
 
 	},
-
+	"@id":"http://estudiantesUPM.com/Elena",
+	"@type":"student",
 	"name":"Elena María Pérez Pérez",
 	"hometown":"Madrid",
 	"age":22,
