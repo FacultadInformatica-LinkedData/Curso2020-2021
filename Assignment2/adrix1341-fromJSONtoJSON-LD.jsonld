@@ -1,7 +1,18 @@
 {
 	"@context":{
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"person":"http://www.ontologies.org/ontologies/People#"
+		"person":"http://www.ontologies.org/ontologies/People#",
+		"fullname":"http://schema.org/fullname",
+		"hometown":"http://schema.org/hometown",
+		"age":"http://schema.org/age",
+		"Alma-mater":"http://schema.org/Alma-mater",
+		"parents-name":"http://schema.org/parents-name",
+		"father-name":"http://schema.org/parents-name/father-name",
+		"mother-name":"http://schema.org/parents-name/mother-name",
+		"subjects":"http://schema.org/subjects",
+		"name":"http://schema.org/subjects/name",
+		"Teachers":"http://schema.org/subjects/Teachers",
+		"Brief Description": "http://schema.org/subjects/Brief Description"
 	},
 	"@type":"person",
 	"@id":"http://www.example.org/me",
