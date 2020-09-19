@@ -1,20 +1,21 @@
 {
 	"@context":{
-		"re": "http://assignrent2b.com#"
-		"fullName":"re:fullName",
-		"horetown":"re:horetown",
-		"age":"re:age",
-		"almaMater":"re:almaMater",
-		"parentsName":"re:parentsName",
-		"subjects":"re:subjects",
-		"name":"subjects:name",
-		"teachers":"subjects:teachers",
-		"description":"subjects:description"
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"subjects": "http://www.w3.org/2001/UPM/subjects/",
+		"teachers": "http://www.w3.org/2001/UPM/teachers/",
+		"attr": "http://www.w3.org/2001/UPM/attributes/",
+		"name": "attr:name",
+		"fullName": "attr:lastName",
+		"hometown": "attr:hometown",
+		"age": "attr:age",
+		"alma mater": "attr:age",
+		"parentsName": "attr:parentsName",
+		"description": "attr:description"
 	},
-	"@id":"http://assignrent2b.com/z170073",
+	"@id":"http://assignment2b.com/z170073",
 	"@type":"re:student",
 	"fullName":"Eduardo Geuens Alvarez",
-	"horetown":"Pozuelo de Alarcón",
+	"hometown":"Pozuelo de Alarcón",
 	"age":"21",
 	"almaMater":"Universidad Politécnica de Madrid",
 	"parentsName": ["Rosario", "Eric"],
