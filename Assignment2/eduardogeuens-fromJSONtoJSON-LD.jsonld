@@ -9,7 +9,7 @@
 		"fullName": "attr:lastName",
 		"hometown": "attr:hometown",
 		"age": "attr:age",
-		"alma mater": "attr:age",
+		"almaMater": "attr:almaMater",
 		"parentsName": "attr:parentsName",
 		"description": "attr:description"
 	},
