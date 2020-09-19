@@ -1,56 +1,77 @@
-{
-	"@context": {
-		"re": "http://assignment2b.com#",
+{	
+	"@context":{
+		"cl": "http://assignment2b.com/classes/",
+		"se": "http://assignment2b.com/sensors/",
+		"co": "http://assignment2b.com/computers/",
+		"me": "http://assignment2b.com/measurements/",
+		"us": "http://assignment2b.com/users/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"Class01": "re:Class01",
-		"Sensor029": "Class01:Sensor029",
-		"Computer101": "Class01:Computer101",
-		"Measurement8401": "Sensor029:Measurement8401",
-		"User10A": "Computer101:User10A",
-		"hasMeasurement": "re:hasMeasurement",
-		"hasTemperature": "re:hasTemperature",
-		"includes": "re:includes",
-		"hasOwner": "re:hasOwner",
-		"hasName": "re:hasName",
-		"atTime":"re:atTime"		
+		"attr": "http://www.w3.org/2001/UPM/attributes/",
+		"includes": "attr:includes",
+		"hasMeasurement": "attr:measurements",
+		"hasOwner": "attr:hasOwner",
+		"hasName": "attr:hasName",
+		"hasTemperature": "attr:hasTemperature",
+		"atTime":"attr:atTime"
 	},
-	"@id": "http://assignment2b.com/Class01",
-	"@type": "re:Class01",
-	"includes": [
+    
+	"@graph":[
 		{
-			"Sensor029":{
-				"@id": "http://assignment2b.com/Class01/Sensor029",
-				"@type": "Class01:Sensor029",
-				"hasMeasurement": {
-					"Measurement8401": {
-						"@id": "http://assignment2b.com/Class01/Sensor029/Measurement8401",
-						"@type": "Sensor029:Measurement8401",
-						"hasTemperature": {
-							"@value": 29,
-							"@type": "xsd:integer"
-						},
-						"atTime": {
-							"@value": "2010-06-12T12:00:12",
-							"@type": "xsd:dateTime"
-						}
-					}
-				}
-			}
+			"@id":"cl:class01/",
+			"@type":"cl:",
+			"includes":[{
+				"@id":"se:029/",
+				"@type":"se:"
 		},
+		
 		{
-			"Computer101": {
-				"@id": "http://assignment2b.com/Class01/Computer101",
-				"@type": "Class01:Computer101",
-				"hasOwner": {
-					"User10A": {
-						"@id": "http://assignment2b.com/Class01/Computer101",
-						"@type": "Class01/Computer101",
-						"hasName": {
-							"@value": "Pedro"
-						}
-					}
-				}
-			}
+			"@id":"co:101/",
+			"@type":"co:"
 		}
-	]	
+	]
+    },
+	
+    {
+		"@id":"se:sensor029/",
+		"@type":"se:",
+		"hasMeasurement":{
+			"@id":"me:Measurement8401/",
+			"@type":"me:"
+		}
+	},
+	
+    {
+		"@id":"co:computer101/",
+		"@type":"co:",
+		"hasOwner":{
+			"@id":"us:User10A/",
+			"@type":"us:"
+		}
+	},
+	
+    {
+		"@id":"me:Measurement8401/",
+		"@type":"us:",
+		"hasTemperature":{
+			"@value":"29",
+			"@type":"xsd:integer"
+		},
+	
+		"atTime":{
+			"@value":"2010-06-12T12:00:12",
+			"@type":"xsd:dateTime"
+		}
+		
+    },
+	
+    {
+		"@id":"us:User10A/",
+		"@type":"us:",
+		"hasName":{
+			"@value":"Pedro",
+		}
+		
+    }
+    ]
 }
