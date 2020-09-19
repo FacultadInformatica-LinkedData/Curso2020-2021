@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "class": "http://www.example-org.com/class",
+        "computer": "http://www.example-org.com/computer",
+        "sensor": "http://www.example-org.com/sensor",
+        "measurement": "http://www.example-org.com/measurement",
+        "user": "http://www.example-org.com/user",
+        "includes": "http://www.example-org.com/includes",
+        "hasMeasurement": "http://www.example-org.com/hasMeasurement",
+        "hasTemperature": "http://www.example-org.com/hasTemperature",
+        "atTime": "http://www.example-org.com/atTime",
+        "hasOwner": "http://www.example-org.com/hasOwner",
+        "hasName": "http://www.example-org.com/hasName"
+    },
+
+    "@id": "http://www.example-org.com/class/Class01",
+    "@type": "class",
+    "includes": [
+        {
+            "@id": "http://www.example-org.com/sensor/Sensor029",
+            "@type": "sensor",
+            "hasMeasurement": 
+            {
+                "@id": "http://www.example-org.com/measurement/Measurement8401",
+                "@type": "measurement",
+                "hasTemperature": "29",
+                "atTime": "2010-06-12T12:00:12"
+            }
+        },
+        {
+            "@id": "http://www.example-org.com/computer/Computer101",
+            "@type": "computer",
+            "hasOwner": 
+            {
+                "@id": "http://www.example-org.com/user/User10A",
+                "@type": "user",
+                "hasName": "Pedro"
+            }
+        }
+    ]
+
+}
