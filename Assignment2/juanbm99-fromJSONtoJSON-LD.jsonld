@@ -7,7 +7,7 @@
 			"almaMater": "vocab:almaMater",
 			"nombre_Padre": "vocab:nombre_Padre",
 			"nombre_Madre": "vocab:nombre_Madre",
-			"asignaturas": "vocab:asignaturas",
+			"asignaturas": "http://www.alumnosSemanticWeb.es/asignatura#"
 			"nombre_asignatura": "asignaturas:nombre_asignatura",
 			"profesores": "asignaturas:profesores",
 			"descripcion": "asignaturas:descripcion"
