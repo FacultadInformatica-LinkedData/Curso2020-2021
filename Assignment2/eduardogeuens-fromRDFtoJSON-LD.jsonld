@@ -69,7 +69,7 @@
 		"@id":"us:User10A/",
 		"@type":"us:",
 		"hasName":{
-			"@value":"Pedro",
+			"@value":"Pedro"
 		}
 		
     }
