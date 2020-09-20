@@ -2,7 +2,7 @@
 	"@context":{
 
 		"xsd":"http://www.w3.org/2001/XMLSchema#",
-		"components":"http://example.org",
+		"components":"http://example.org/",
 		"Class01":"components:Class01",
 		"Sensor029":"Class01:Sensor029",
 		"Computer101":"Class01:Computer101",
@@ -16,16 +16,14 @@
 		"hasName":"components:hasName"
 
 	},
-	"@id":"http://example.org/Class01"
+	"@id":"http://example.org/Class01/"
 	"@type":"components:Class01",
 	"includes": [
 	{
-		"Sensor029":{
-				"@id":"http://example.org/Class01/Sensor029",
+				"@id":"http://example.org/Class01/Sensor029/",
 				"@type":"Class01:Sensor029",
 				"hasMeasurement":{
-					"Measurement8401":{
-					"@id":"http://example.org/Class01/Sensor029/Measurement8401",
+					"@id":"http://example.org/Class01/Sensor029/Measurement8401/",
 					"@type":"Sensor029:Measurement8401",
 					"hasTemperature":{
 						"@value": 29,
@@ -34,24 +32,18 @@
 					"atTime": {
 						"@value": "2010-06-12T12:00:12",
 						"@type": "xsd.dateTime"
-					}
-				}
 			}
 		}
 	},
 	{
-		"Computer101":{
-				"@id":"http://example.org/Class01/Computer101",
+				"@id":"http://example.org/Class01/Computer101/",
 				"@type":"Class01:Computer101",
 				"hasOwner":{
-					"User10A":{
-						"@id":"http://example.org/Class01/Computer101",
+						"@id":"http://example.org/Class01/Computer101/",
 						"@type":"Class01:Computer101",
 						"hasName":{
 							"@value":"Pedro",
 							"@type":"xsd.string"
-					}
-				}
 			}
 		}
 	}
