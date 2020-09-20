@@ -1,53 +1,69 @@
 {
-
 	"@context":{
 		"xsd":"http://www.w3.org/2001/XMLSchema#",
-		"pf":"http://www.ontologies.org/ontologies/Class#"
+		"pf":"http://www.ontologies.org/ontologies/Class#",
 		"includes": "rdfs:label",
-		"Measurement8401": "rdfs:label",
-		"hasTemperature": "rdfs:label",
+		"hasMeasurement": "rdfs:label",
+		"hasTemperature":{
+			"rdfs":"label",
+			"@type":"xsd:date"
+		},
 		"hasOwner":"rdfs:label",
-		"atTime": "rdfs:label",
-		"hasName": "rdfs:label",
+		"atTime":{
+			"rdfs":"label",
+			"@type":"xsd:dateTime"
+		},
+		"hasName":{
+			"rdfs":"label",
+			"@type":"xsd:string"
+		}
 	},
+	
 	"pf:Class01":[
 		{
-			"pf:Sensor029":[
+			"includes":[
 				{
-					"pf:Measurement8401":[
+					"pf:Sensor029":[
 						{
-					
-							"pf:hasTemperature":"29"
-						
-						},
-						{
-							"pf:atTime":"2010-06-12T12:00:12"
+							"pf:hasMeasurement":[
+								{
+									"pf:Measurement8401":[
+										
+										{
+											"hasTemperature":"29"
+										
+										},
+										{
+											"atTime":"2010-06-12T12:00:12"
+										
+										}
+									
+									]
+								}
+							]
 						}
 					]
-				}
+				},
 			
-			]
-			
-		},
-		{
-		
-			"pf:Computer101":[
 				{
-					"pf:User10A":{
-					
-						"pf:hasName":"Pedro"
-					
-					}
-				
-				
-				
-				
+					"pf:Computer101":[
+						{
+							"hasOwner":[
+								{
+									"pf:User10A":[
+										{
+											"hasName":"Pedro"
+										}
+									]
+								}
+							
+							]
+						}
+					]
+			
 				}
-	
 			]
-	
 		}
 	]
-	
 
 }
