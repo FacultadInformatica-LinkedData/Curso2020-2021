@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+		"subjects": "http://www.w3.org/Ej2b/Subjects/",
+        "teachers": "http://www.w3.org/Ej2b/Teachers/",
+        "name": "http://www.w3.org/Ej2b/Name/",
+        "description": "http://www.w3.org/Ej2b/Description/",
+		"attr": "http://www.w3.org/Ej2b/Attributes/",
+        "student": "http://www.w3.org/Ej2b/Students",
+        "fulName": "attr:fullName",
+        "homeTown": "attr:homeTown",
+		"age": "attr:age",
+		"almaMater": "attr:almaMater",
+		"momName": "attr:momName",
+        "dadName": "attr:dadName"
+    },
+    
+    "@id": "https://merysan1999.com",
+    "@type": "student",
+    "fullName": "Maria Sanchez Duro",
+    "homeTown": "Madrid",
+    "age": "21",
+    "almaMater": "ETSIINF UPM",
+    "momName": "Carmen",
+    "dadName": "Emilio",
+    "subjects": [
+        {
+            "name": "Sistemas Operativos",
+            "teachers": [
+                {
+                    "name": "Francisco Rosales"
+                },
+                {
+                    "name": "Maria de los Santos Perez"
+                },
+                {
+                    "name": "Pablo Toharia"
+                }
+            ],
+            "description" : "El objetivo de la asignatura es la comprensión de los conceptos básicos de los sistemas operativos y la familiarización con la interfaz de programación de los mismos. La asignatura se centra en la funcionalidad que suministran los sistemas operativos sin profundizar en su estructura y funcionamiento internos."
+        },
+        {
+            "name": "Administrador de sistemas informaticos",
+            "teachers": [
+                {
+                    "name": "Francisco Rosales"
+                },
+                {
+                    "name": "Fernando Perez Costoya"
+                },
+                {
+                    "name": "Gabriel Cebrian Marquez"
+                }
+            ],
+            "description" : "Los objetivos de esta asignatura son, por un lado mostrar al alumno los fundamentos generales de las tareas y responsabilidades del administrador de sistemas e ilustrarlo con la administración de sistemas Unix y sistemas Windows. Adicionalmente, se presentarán temas de carácter transversal de la administración de sistemas."
+        },
+        {
+            "name": "Ingenieria del Software II",
+            "teachers": [
+                {
+                    "name": "Jose A. Calvo-Manzano Villalón"
+                },
+                {
+                    "name": "Ana Maria Moreno Sanchez-Capuchino"
+                },
+                {
+                    "name": "Tomás San Feliu Gilabert"
+                }
+            ],
+            "description" : "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software."
+        }
+    ]
+}
