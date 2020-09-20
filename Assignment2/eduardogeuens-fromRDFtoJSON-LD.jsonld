@@ -52,7 +52,7 @@
 	
     {
 		"@id":"me:Measurement8401/",
-		"@type":"us:",
+		"@type":"me:",
 		"hasTemperature":{
 			"@value":"29",
 			"@type":"xsd:integer"
