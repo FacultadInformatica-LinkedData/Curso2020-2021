@@ -18,7 +18,7 @@ s:Sensor029 sensor:hasMeasurement m:Measurement8401.
 
 c:Computer101 comp:hasOwner o:User10A.
 
-m:Measurement8401 mes:hasTemperature 29;
+m:Measurement8401 mes:hasTemperature "29"^^xsd:Integer;
                   mes:atTime "2010-06-12T12:00:12".
 
 o:User10A own:hasName "Pedro".
