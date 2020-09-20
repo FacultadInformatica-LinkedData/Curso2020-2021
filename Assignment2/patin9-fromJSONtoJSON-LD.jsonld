@@ -9,6 +9,8 @@
 		"parentsName": "assig:parentsName",
         "subjects": "assig:subjects"
 	},
+	"@id": "http://assignment2.com/2b/patin9",
+  	"@type": "assignment:student",
 	"name": "Eva Tagarro",
 	"homeTown": "Pozuelo",
 	"age": "21",
