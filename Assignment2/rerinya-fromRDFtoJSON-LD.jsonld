@@ -1,7 +1,7 @@
 {
   "@context": {
     "rdfs": "http://www.w3.org/2001/rdf-schema#",
-    "zar": "http://www.w3.org/2001/zar",
+    "zar": "http://www.w3.org/2001/zar#",
     "includes": "zar:includes",
     "hasMeasurement": "zar:measurements",
     "hasTemperature": "zar:hasTemperature",

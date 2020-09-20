@@ -1,7 +1,7 @@
 {
   "@context": {
-    "person": "http://www.w3.org/2001/person",
-    "zar": "http://www.w3.org/2001/zar",
+    "person": "http://www.w3.org/2001/person#",
+    "zar": "http://www.w3.org/2001/zar#",
     "name": "zar:name",
     "hometown": "zar:hometown",
     "age": "zar:age",
@@ -11,7 +11,7 @@
     "teachers": "zar:teachers",
     "description": "zar:description"
   },
-  "@id": "http://www.w3.org/2001/person/students/55",
+  "@id": "http://www.w3.org/2001/person/students/55/",
   "@type": "people:students",
   "name": "Xiaofei Wu",
   "hometown": "Qingtian",
