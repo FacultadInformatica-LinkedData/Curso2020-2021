@@ -25,22 +25,22 @@
 		{
 		"NameSubject":"Ingenieria del software2",
 		"Teachers":"Tomás San Feliu Gilabert",
-		"Brief Description":"It's a subject focus on working in teams and in developing of software"
+		"BriefDescription":"It's a subject focus on working in teams and in developing of software"
 		},
 		{
 		"NameSubject":"Semantic Web and Linked Data",
 		"Teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
-		"Brief Description":"It's a subject which is focus on studying how to work the data"
+		"BriefDescription":"It's a subject which is focus on studying how to work the data"
 		},
 		{
 		"NameSubject":"GPTI",
 		"Teachers":["Edmundo Tovar Caro","Maria Pilar Rodriguez Gonzalez"],
-		"Brief Description":"It's a subject which is focus on rules of enterprise and how to work in a business"
+		"BriefDescription":"It's a subject which is focus on rules of enterprise and how to work in a business"
 		},
 		{
 		"NameSubject":"Reconocimiento de formas",
 		"Teachers":["Luis Baumela","Iago Suárez"],
-		"Brief Description":"It's a subject focus on maths and facial recognition"
+		"BriefDescription":"It's a subject focus on maths and facial recognition"
 		}
 		]
 }
