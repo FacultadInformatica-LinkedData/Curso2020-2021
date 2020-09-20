@@ -3,6 +3,8 @@
         "xsd":"http://www.w3.org/2001/XMLSchema#",
         "propieties": "http://www.examples.org/properties/"
     },
+    "@type": "Person",
+    "@id": "https://github.com/hunter097",
     "properties:name":"Carlos Martin Sanchez",
     "properties:homeTown":"BoadillaDelMonte",
     "properties:age":23,
@@ -20,7 +22,7 @@
                 "Victor Ramperez Martin"
             ],
             "properties:description":"El objetivo de esta asignatura es comprender el funcionamiento de las tecnologías básicas de comunicaciones que constituyen el núcleo de Internet, y de las redes de empresas y organizaciones."
-        }
+        },
         {
             "properties:subjectName":"Semantic Web, Linked Data & Knowdledge Graphs",
             "properties:teachers":[
