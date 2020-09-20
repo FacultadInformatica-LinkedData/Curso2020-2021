@@ -1,6 +1,6 @@
 {
   "@context": {
-    "root": "http://example.org",
+    "root": "http://example.org/",
     "@base": "http://www.oeg-upm.net/ontologies/example/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "people": "http://www.oeg-upm.net/People#",
