@@ -1,0 +1,42 @@
+{
+	"@context":{
+		"student":"http://estudiantesUPM.com/",
+		"fullName":"student:fullName",
+		"hometown":"student:hometown",
+		"age":"student:age",
+		"almaMater":"student:almaMater",
+		"parentsNames":"student:parentsNames",
+		"subjects":"student:subjects",
+			"name":"subjects:name",
+			"teachers":"subjects:teachers",
+			"description":"subjects:description"
+	},
+	"@id":"http://estudiantesUPM.com/Alvaro",
+	"@type":"student",
+	"fullName":"Alvaro Garcia Gutierrez",
+	"hometown":"Madrid",
+	"age":"21",
+	"almaMater":"Universidad Politécnica de Madrid",
+	"parentsNames": ["Alberto", "Rosa"],
+	"subjects": [
+				{
+					"name": "Gestión de Procesos de Tecnologías de la Información",
+					"teachers": ["Óscar Dieste Tubio", "Edmundo Tovar Caro", "José Ramón Sánchez Palomares", "María Pilar Rodríguez González"],
+					"description": "En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI."
+				},
+				{
+					"name":"Semantic Web, Linked Data and Knowledge Graphs",
+					"teachers":["Oscar Corcho", "Raúl García Castro", "Paola Espinoza", "David Chaves"],
+					"description": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados"
+				},
+				{
+					"name": "Ingeniería del Software II",
+					"teachers": ["José A. Calvo Manzano Villalón", "Ana María Moreno Sánchez-Capuchino", "Tomás San Feliú Gilabert"],
+					"description": "El objetivo es aprender los principios de Ingeniería del software."
+				},
+				{
+					"name": "Nanotecnología",
+					"teachers": ["María Estíbaliz Martínez Izquierdo", "María Mercedes Pérez Castellanos"],
+					"description": "El objetivo es dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca."
+				}]
+}
