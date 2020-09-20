@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "student": "http://www.example-org.com/student",
+        "hasName": "http://www.example-org.com/hasName",
+        "hasHometown": "http://www.example-org.com/hasHometown",
+        "hasAge": "http://www.example-org.com/hasAge",
+        "hasAlmaMater": "http://www.example-org.com/hasAlmaMater",
+        "hasMomName": "http://www.example-org.com/hasMomName",
+        "hasDadName": "http://www.example-org.com/hasDadName",
+        "hasSubjects": "http://www.example-org.com/hasSubjects",
+        "subjects": "http://www.example-org.com/subjects",
+        "hasTeachers": "http://www.example-org.com/hasTeachers",
+        "teachers": "http://www.example-org.com/teachers",
+        "description": "http://www.example-org.com/description"
+    },
+
+    "@id": "http://www.example-org.com/student/170140",
+    "@type": "student",
+    "hasName": "Alejandro Martin",
+    "hasHometown": "Madrid",
+    "hasAge": "21",
+    "hasAlmaMater": "UPM",
+    "hasMomName": "Mª José",
+    "hasDadName": "Antonio",
+    "hasSubjects": [
+        {
+            "@id": "http://www.example-org.com/subjects/SemanticWeb",
+            "@type": "subjects",
+            "hasName": "Semantic web",
+            "hasTeachers": [
+                {
+                    "@id":"http://www.example-org.com/teachers/OscarCorchoGarcia",
+                    "@type": "teachers",
+                    "hasName": "Oscar Corcho Garcia"
+                },
+                {
+                    "@id":"http://www.example-org.com/teachers/RaulGarciaCastro",
+                    "@type": "teachers",
+                    "hasName": "Raul Garcia Castro"
+                }
+            ],
+            "description": "El objetivo de esta asignatura es proporcionar la base teorica y practica sobre los fundamentos metodologicos y tecnologicos implicados en la generacion y publicacion de vocabularios y datos en la Web de datos enlazados"
+        },
+        {
+            "@id": "http://www.example-org.com/subjects/IngenieriaSoftwareII",
+            "@type": "subjects",
+            "hasName": "Ingenieria del Software II",
+            "hasTeachers": [
+                {
+                    "@id":"http://www.example-org.com/teachers/AnaMariaMoreno",
+                    "@type": "teachers",
+                    "hasName": "Ana Maria Moreno"
+                },
+                {
+                    "@id":"http://www.example-org.com/teachers/TomasSanFeliuGilabert",
+                    "@type": "teachers",
+                    "hasName": "Tomas San Feliu Gilabert"
+                }
+            ],
+            "description": "Se enfoca en aplicar los aspectos de gestion al desarrollo software"
+        }
+    ]
+
+}
