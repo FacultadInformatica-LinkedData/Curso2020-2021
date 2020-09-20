@@ -53,12 +53,7 @@
                   	"hasname":
                   	{
 						"@value":"Pedro",
-						"@type":"xsd:normalizedstring",
-                     	 "hasname":
-                     	 {
-							"@value":"Pedro",
-							"@type":"xsd:normalizedstring"	
-						 }
+						"@type":"xsd:normalizedstring"
 					}
 				}
         }

@@ -2,15 +2,15 @@
   "@context":{
     "user":"http://www.upm.alumnos.es/",
     "datos":"http://www.upm.alumnos.es/id/datos/",
-    "fullname":"datos: name",
-    "hometown":"datos: name",
-    "age":"datos: age",
-    "almamater":"datos: name",
-    "parents":"datos: name",
+    "fullname":"datos:fullname",
+    "hometown":"datos:hometown",
+    "age":"datos:age",
+    "almamater":"datos:almamater",
+    "parents":"datos:parents",
     "subjects":"http://www.upm.alumnos.es/id/subjects",
     "name":"subjects: name",
-    "profesores":"subjects: name",
-    "description":"subjects: description"
+    "teachers":"subjects:teachers",
+    "description":"subjects:description"
   },
   "@id":"http://www.upm.alumnos.es/id/077",
   "@type":"user:id",
