@@ -1,15 +1,13 @@
 {
     "@context": {
         "class": "http://www.weather.net/Class#",
-        "sensor": "http://www.weather.net/Sensor#",
-        "measurement": "http://www.weather.net/Measurement#",
-        "computer": "http://www.weather.net/Computer#",
-        "user": "http://www.weather.net/User#",
         "properties": "http://www.weather.net/Properties#",
+        "includes": "properties:includes",
         "Class01": "class:Class01",
-        "Sensor029": "sensor:Sensor029",
-        "Computer101": "computer:Computer101",
-        "User10A": "user:User10A",
+        "Sensor029": "Class01:Sensor029",
+        "Measurement8401": "Sensor029:Measurement8401",
+        "Computer101": "Class01:Computer101",
+        "User10A": "Computer101:User10A",
         "hasMeasurements": "properties:hasMeasurements",
         "hasTemperature": "properties:hasTemperature",
         "atTime": "properties:atTime",
@@ -23,11 +21,11 @@
             {
                 "Sensor029": {
                     "@id": "http://www.weather.net/Class01/Sensor029",
-                    "@type": "sensor:Sensor029",
+                    "@type": "class:Class01/Sensor029",
                     "hasMeasurements": {
                         "Measurements8401": {
                             "@id": "http://www.weather.net/Class01/Sensor029/Measurement8401",
-                            "@type": "mesasurement:Measurements8401",
+                            "@type": "class:Class01/Sensor029/Measurements8401",
                             "hasTemperature": {
                                 "@value": "29",
                                 "@type": "xsd.integer"
@@ -41,11 +39,11 @@
                 },
                 "Computer101": {
                     "@id": "http://www.weather.net/Class01/Computer101",
-                    "@type": "computer:computer101",
+                    "@type": "class:Class01/computer101",
                     "hasOwner": {
                         "User10A": {
                             "@id": "http://www.weather.net/Class01/Computer101/User10A",
-                            "@type": "user:User10A",
+                            "@type": "class:Class01/computer101/User10A",
                             "hasName": {
                                 "@value": "Pedro",
                                 "@type": "xsd:string"
