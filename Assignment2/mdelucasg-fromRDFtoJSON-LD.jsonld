@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "sample": "http://example.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "properties": "http://example.org/Properties#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+    
+  },
+  
+ "@graph":
+[	{"@id":"http://example.org/placeClass01", "@type":"sample:place","rdfs:includes":
+		[{"@id":"http://example.org/elementsSensor029"},{"@id":"http://example.org/elementsComputer101"}]},
+ 
+	{"@id":"http://example.org/elementsComputer101", "@type":"sample:elements","properties:hasOwner":
+		{"@id":"http://example.org/userUser10A"}},
+
+ 
+ 	{"@id":"http://example.org/elementsSensor029", "@type":"sample:elements","properties:hasMeasurement":
+		{"@id":"http://example.org/measureMeasurement8401"}},
+
+ 
+	{"@id":"http://example.org/measureMeasurement8401", "@type":"sample:measure","properties:hasTemperature":
+		{"@value":"29","@type":"xsd:integer"},
+     	"properties:atTime":
+		{"@value":"2010-06-12T12:00:12","@type":"xsd:dateTime"}},
+ 
+	
+	{"@id":"http://example.org/userUser10A", "@type":"sample:user","properties:hasName":
+		{"@value":"Pedro"}}
+]
+}

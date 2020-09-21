@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "vocab": "http://temperaturesystems.com/Products/",
+    "properties": "http://www.temperaturesystems.com/Properties/",
+    "xsd":"http://www.w3.org/2001/XMLSchema#",
+    "Class01": "vocab:Class01",
+    "Sensor029": "Class01:Sensor029",
+    "Computer101": "Class01:Computer101",
+    "Measurement8401": "Sensor029:Measurement8401",
+    "User10A": "Computer101:User10A",
+    "includes": "properties:includes",
+    "hasMeasurement": "properties:hasMeasurement",
+    "temperature": "properties:temperature",
+    "atTime": "properties:atTime",
+    "hasOwner": "properties:hasOwner",
+    "name": "properties:name"
+  },
+  "Class01": [
+    {
+      "@id": "http://temperaturesystems.com/Products/Class01",
+      "@type": "vocab:Class01",
+      "includes": [
+        {
+          "@id": "http://temperaturesystems.com/Products/Class01/Sensor029"
+        },
+        {
+          "@id": "http://temperaturesystems.com/Products/Class01/Computer101"
+        }
+      ]
+    },
+    {
+      "@id": "http://temperaturesystems.com/Products/Class01/Sensor029",
+      "@type": "vocab:Class01/Sensor029",
+      "hasMeasurement": {
+        "@id": "vocab:Class01/Sensor029/Measurement8401"
+      }
+    },
+    {
+      "@id": "http://temperaturesystems.com/Products/Class01/Sensor029/Measurement8401",
+      "@type": "vocab:Class01/Sensor029/Measurement8401",
+      "temperature": 29,
+      "atTime": {
+        "@value": "2010-06-12T12:00:12",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "http://temperaturesystems.com/Products/Class01/Computer101",
+      "@type": "vocab:Class01/Computer101",
+      "hasOwner": {
+        "@id": "vocab:Class01/Computer101/User10A"
+      }
+    },
+    {
+      "@id": "http://temperaturesystems.com/Products/Class01/Computer101/User10A",
+      "@type": "vocab:Class01/Computer101/User10A",
+      "name": {
+        "@type": "xsd:string",
+        "@value": "Pedro"
+      }
+    }
+  ]
+}
