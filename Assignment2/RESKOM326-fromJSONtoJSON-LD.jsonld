@@ -1,0 +1,38 @@
+{
+    "@context":{
+        "info": "http://www.mydata/api/general/",
+        "uni": "https://www.w3.org/2000/01/university#",
+        "Parents name": "info:data/personal/parentsName",
+        "Full name": "info:data/personal/fullname",
+        "Hometown": "info:data/personal/hometown",
+        "Age": "info:data/personal/age",
+        "Alma mater": "info:data/personal/almat",
+        "Subjects": "uni:subjects",
+        "Name": "uni:subname",
+        "Teachers": "uni:teachers",
+        "Description": "uni:comment"
+    },
+    "@id": "http://www.mydata/api/data/personal/markD",
+    "@type": "info:data/personal",
+    "Full name": "Mark Dervishaj Memi",
+    "Hometown": "Madrid",
+    "Age": 21,
+    "Alma mater": "Universidad Politecnica de Madrid",
+    "Parents name": ["Eduard", "Aida"],
+    "Subjects": [
+        {
+            "@id": "https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=5068",
+            "@type": "uni:subject",
+            "Name": "Semantic Web, Linked Data and Knowledge Graphs",
+            "Teachers": ["Oscar Corcho Garcia", "Raul Garcia Castro"],
+            "Description": "The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication of vocabularies and data on the Web of Linked Data, as well as knowledge graphs"
+        },
+        {
+            "@id": "https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=6780",
+            "@type": "uni:subject",
+            "Name": "Pattern Recognition",
+            "Teachers": ["Dario Maravall", "Luis Baumela", "Iago Suarez"],
+            "Description": "Design of algorithms that search for patterns in data (machine learning)"
+        }
+    ]
+}
