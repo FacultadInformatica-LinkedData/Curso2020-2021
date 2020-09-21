@@ -4,15 +4,14 @@
   },
   "@graph": [
     {
-      "@id": "http://example.org/properties/Class01",
-      "http://example.org/properties/includes": [
-        {
-          "@id": "http://example.org/properties/Sensor029"
-        }
-        {
-          "@id": "http://example.org/properties/Computer101"
-        },
-      ]
+      "@id": "http://example.org/properties/User10A",
+      "http://example.org/properties/hasName": "Pedro"
+    },
+    {
+      "@id": "http://example.org/properties/Computer101",
+      "http://example.org/properties/hasOwner": {
+        "@id": "http://example.org/properties/User10A"
+      }
     },
     {
       "@id": "http://example.org/properties/Measurement8401",
@@ -26,19 +25,20 @@
       }
     },
     {
-      "@id": "http://example.org/properties/Computer101",
-      "http://example.org/properties/hasOwner": {
-        "@id": "http://example.org/properties/User10A"
-      }
+      "@id": "http://example.org/properties/Class01",
+      "http://example.org/properties/includes": [
+        {
+          "@id": "http://example.org/properties/Computer101"
+        },
+        {
+          "@id": "http://example.org/properties/Sensor029"
+        }
+      ]
     },
     {
       "@id": "http://example.org/properties/Sensor029",
       "http://example.org/properties/hasMeasurement": {
         "@id": "http://example.org/properties/Measurement8401"
-      }
-      {
-        "@id": "http://example.org/properties/User10A",
-        "http://example.org/properties/hasName": "Pedro"
       }
     }
   ]
