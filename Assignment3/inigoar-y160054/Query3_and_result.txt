@@ -3,7 +3,7 @@ QUERY 3
 select distinct ?value
 where 
 {
-{?x rdf:type <http://dbpedia.org/ontology/Politician> .
+{?x rdf:type <http://dbpedia.org/ontology/Politician>.
 ?x ?properties ?value
 } 
 filter (?properties != rdf:type)
