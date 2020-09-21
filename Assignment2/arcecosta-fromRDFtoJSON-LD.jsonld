@@ -12,18 +12,18 @@
 	},
 
 		"Class01":{
-         	"@id":"http://www.ontologies.org/ontologies",
+         	"@id":"http://www.ontologies.org/ontologies/Class01",
 			"@type":"s:Class01",
 			"includes":[
 				{
 					"Sensor029":{
-						"@id":"http://www.ontologies.org/ontologies/Class01",
+						"@id":"http://www.ontologies.org/ontologies/Class01/Sensor029",
 						"@type":"s:Sensor029",
 						"hasMeasurement":
 						{
 							"Measurement8401":
 								{
-									"@id":"http://www.ontologies.org/ontologies/Class01/Sensor029",
+									"@id":"http://www.ontologies.org/ontologies/Class01/Sensor029/Measurement8401",
 									"@type":"s:Measurement8401",
 									"hasTemperature":
 										{
@@ -42,13 +42,13 @@
 				{
 					"Computer101":
 					{
-						"@id":"http://www.ontologies.org/ontologies/Class01",
+						"@id":"http://www.ontologies.org/ontologies/Class01/Computer101",
 						"@type":"s:Computer101",			
 						"hasOwner":
 						{
 							"User10A":
 								{
-									"@id":"http://www.ontologies.org/ontologies/Class01/Computer101",
+									"@id":"http://www.ontologies.org/ontologies/Class01/Computer101/User10A",
 									"@type":"s:User10A",
 
 									"hasName":
