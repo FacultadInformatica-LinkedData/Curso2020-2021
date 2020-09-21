@@ -3,7 +3,7 @@
     "prefix": "http://example.org/components/",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  @"graph":
+  "@graph":
 	[
 		{
 			"@id": "prefix:Class01",
