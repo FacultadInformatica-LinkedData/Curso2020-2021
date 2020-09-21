@@ -1,6 +1,6 @@
 {
 	"@context":{
-	"vi":"http://ejercicio2.com",
+	"vi":"http://ejercicio2.com#",
 	"xsd": "http://www.w3.org/2001/XMLSchema#",
 	"person":"http://www.ontologies.org/ontologies/People#",
 	"fullName":"vi:fullName",
@@ -10,7 +10,7 @@
 	"fathersName":"vi:fathersName",
 	"mothersName":"vi:mothersName",
 	"subjects":"vi:subjects",
-	"subjectName":"subject:subjectName"
+	"subjectName":"subjects:subjectName"
 	"teachers":"subjects:teachers",
 	"description":"subjects:description"
 	},		
@@ -20,8 +20,8 @@
 	"hometown": "Caracas",
 	"age": 24,
 	"almaMater": "Colegio San Ignacio de Loyola",
-	"fathersname":"Javier"
-	"mothersname":"Ainara"
+	"fathersname":"Javier",
+	"mothersname":"Ainara",
 	"subjects": [
 		{
 			"subjectsName": "Gestion de Procesos",
