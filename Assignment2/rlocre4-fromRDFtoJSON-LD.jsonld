@@ -1,20 +1,17 @@
 {
 	"@context":{
 		"classes":"http://upm.com/class/",
+		"attr":"http://upm.com/class/attr",
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"Class01":"classes:Class01",
 		"includes":"Class01:includes",
 
-		"Sensor029":"Class01:Sensor029",
-		"hasMeasurement":"Sensor029:hasMeasurement8401",
-		"Measurement8401":"Sensor029:Measurement8401",
-		"hasTemperature":"Measurement8401:hasTemperature",
-		"atTime":"Measurement8401:atTime",
+		"hasMeasurement":"attr:hasMeasurement8401",
+		"hasTemperature":"attr:hasTemperature",
+		"atTime":"attr:atTime",
 
-		"Computer101":"Class01:Computer101",
-		"hasOwner":"Computer101:hasOwner",
-		"User10A":"Computer101:User10A",
-		"hasName":"User10A:hasName"
+		"hasOwner":"attr:hasOwner",
+		"hasName":"attr:hasName"
 	},
 
 	"@id":"htttp://upm.com/class/Class01",
@@ -22,9 +19,11 @@
 
 	"includes":[
 		{
-			"Sensor029":{
+			"@type":"sensor",
+			"@id":"sensor:Sensor029",
 				"hasMeasurement":{
-					"Measurement8401":{
+					"@type":"measurement",
+					"@id":"measurement:Measurement8401",
 						"hasTemperature":{
 							"@value":"29",
 							"@type":"xsd:integer"
@@ -33,30 +32,25 @@
 							"@value":"2010-06-12T12:00:12",
 							"@type":"xsd:dateTime"
 						}
-					}
+					
 				}
-			}
-		},
+			
+			},
 		{
-			"Computer101":{
+			"@type":"computer",
+			"@id":"computer:Computer101",
 				"hasOwner":{
-					"User10A":{
+					"@type":"user",
+					"@id":"user:User10A",
 						"hasName":{
 							"@value":"Pedro",
 							"@type":"xsd:string"
 						}
-					}
+					
 				}
-			}
+			
 		}
 	]
-
-
-
-
-
-
-
 
 
 }
