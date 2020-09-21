@@ -18,45 +18,36 @@
       "hasOwner": "prop:hasOwner",
       "hasName": "prop:hasName"		
    	},
-    
- "Class01": {
+      
     "@id": "http://example.org/Class01",
-    "@type": "elements:class",
+    "@type": "el:class",
     "includes": [
       {
-        "Sensor029": {
         "@id": "http://example.org/Sensor029",
       	"@type": "sensor",
-        "hasMeasurement": {
-            "Measurement8401": {
-        	  "@id": "http://example.org/Measurement8401",
-        	  "@type": "measurement",
-              "hasTemperature": {
-                "temperature": 29
+            "hasMeasurement": {
+        	      "@id": "http://example.org/Measurement8401",
+        	      "@type": "measurement",
+                        "hasTemperature": {
+                              "temperature": 29
             	},
-                "atTime": {
-                  "time": "2010-06-12T10:00:12"
-              }
-      		  }
+                  
+            "atTime": {
+              "time": "2010-06-12T10:00:12"
+            }
           }
-        }
       },
-      
-      {
-        "Computer101": {
+          
+        {
       	  "@id": "http://example.org/Computer101",
       	  "@type": "computer",
-          "hasOwner": {
-            "User10A": {
-        	  "@id": "http://example.org/User10A",
-        	  "@type": "user",
-              "hasName": {
-                "name": "Pedro"
+              "hasOwner": {
+        	      "@id": "http://example.org/User10A",
+        	      "@type": "user",
+                        "hasName": {
+                        "name": "Pedro"
               }
-      		  }
+            }
           }
-        }
-      }
     ]
-  }
 }
