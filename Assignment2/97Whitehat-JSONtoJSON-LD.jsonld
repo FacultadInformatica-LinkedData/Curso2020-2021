@@ -13,10 +13,11 @@
 		"padre":"s:padre",
 		"madre":"s:madre",
 		"brief_Description":"s:brief_Description"
+		"student":"s:student"
 		},
 		
 	"@id":"http://www.example.org/yo",
-	"@type" : "person",
+	"@type" : "person:student",
 	"fullname":{
 		"@value":"Gabriel Morillo Pileño",
 		"@type":"xsd:string"
@@ -53,5 +54,5 @@
 		"Brief Description":"show most cientific impact basic computational techniques to students "
 		}
 
-		]
+		git]
 	}
