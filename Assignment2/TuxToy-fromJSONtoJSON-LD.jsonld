@@ -1,6 +1,6 @@
 {
   "@context": {
-    "student": "http://www.tarea2b.es/student",
+    "student": "http://www.tarea2b.es/student/",
     "full_name":"student:full_name",
     "hometown":"student:hometown",
     "age":"student:age",
