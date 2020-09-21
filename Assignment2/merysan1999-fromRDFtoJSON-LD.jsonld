@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "pr": "http://example.org/elements/properties",
+        "attr": "http://www.w3.org./Ej2b/attribute/",
+		"includes": "attr:includes",
+		"hasMeasurement": "attr:measurements",
+		"hasOwner": "attr:hasOwner",
+		"hasTemperature": "attr:hasTemperature",
+        "atTime": "attr:atTime",
+        "hasName": "attr:hasName"
+    },
+
+    "@graph": [
+        {
+            "@id": "class01",
+            "includes": [
+                {
+                    "@id": "pr:sensor029",
+                    "@type": "pr"
+                },
+                {
+                    "@id": "pr:computer101",
+                    "@type": "pr"
+                }
+            ]
+        },
+        {
+            "@id": "pr:sensor029",
+            "@type": "pr",
+            "hasMeasurement": [
+                {
+                    "@id": "pr:measurement8401",
+                    "@type": "pr"
+                }
+            ]
+        },
+        {
+            "@id": "pr:computer101",
+            "@type": "pr",
+            "hasOwner": [
+                {
+                    "@id": "pr:user10a",
+                    "@type": "pr"
+                }
+            ]
+        },
+        {
+            "@id": "pr:measurement8401",
+            "@type": "pr",
+            "hasTemperature": [
+                {
+                    "@value": "29",
+                    "@type": "xsd:int"
+                }
+            ],
+            "atTime": [
+                {
+                    "@value": "2010-06-12T12:00:12",
+                    "@type": "xsd:dateTime"
+                }
+            ]
+        },
+        {
+            "@id": "pr:user10a",
+            "@type": "pr",
+            "hasName": [
+                {
+                    "@value": "Pedro",
+                    "@type": "xsd:string"
+                }
+            ]
+        }
+    ]
+}
