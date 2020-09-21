@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@base": "http://www.oeg-upm.net/Organization/",
+    "pe": "http://www.ontologies.org/ontologies/People#",
+    "pr": "http://www.oeg-upm.net/Properties#",
+    "or": "http://www.oeg-upm.net/Organization#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "or:Class01",
+      "pr:includes": [
+        {
+          "@id": "or:Sensor029"
+        },
+        {
+          "@id": "or:Computer101"
+        }
+      ]
+    },
+    {
+      "@id": "or:Sensor029",
+      "pr:hasMeasurement": {
+        "@id": "or:Measurement8401"
+      }
+    },
+    {
+      "@id": "or:Measurement8401",
+      "pr:hasTemperature": 29,
+      "pr:atTime": {
+        "@value": "2010-06-12T12:00:12",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "or:Computer101",
+      "pr:hasOwner": {
+        "@id": "pe:User10A"
+      }
+    },
+    {
+      "@id": "pe:User10A",
+      "pr:hasName": {
+        "@value": "Pedro",
+        "@type": "xsd:string"
+      }
+    }
+  ]
+}
