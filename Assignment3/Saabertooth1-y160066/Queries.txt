@@ -25,3 +25,23 @@ where
 } filter (?prop != rdf:type)
 }
 LIMIT 100
+
+4.
+select distinct ?prop ?value
+where 
+{
+{?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?value
+} filter (?prop != rdf:type)
+}
+LIMIT 100
+
+5.
+select distinct ?prop count(distinct ?value)
+where 
+{
+{?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?value
+} filter (?prop != rdf:type)
+}
+LIMIT 100
