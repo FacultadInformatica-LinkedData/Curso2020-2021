@@ -2,8 +2,8 @@ QUERY 1
 
 select distinct ?properties 
 where 
-{?x a <http://dbpedia.org/ontology/Politician> .
-?x ? properties ?z
+{?x rdf:type <http://dbpedia.org/ontology/Politician>.
+?x ?properties ?z
 }
 
 --------------------------------------------------------
