@@ -1,6 +1,6 @@
-@base <"http://www.example.org/element">
-@prefix prop: <"http://www.example.org/element#">
-@prefix xsd: <"http://www.w3.org/2001/XMLSchema#">
+@base <http://www.example.org/element>
+@prefix prop: <http://www.example.org/element#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Class01 prop:includes :Sensor029;
 	 prop:includes :Computer101.
