@@ -12,14 +12,12 @@
 "hometown": "Madrid",
 "age":"21",
 "almamater":"Dinosaurio",
-"parents":["Rafael","Irma"}
-],
-  "subjects":[
+"parents":["Rafael","Irma"]
+"subjects":[
     {
       "name":"Semantic Web and Linked Data",
       "description":"Very interesting"
       "teachers":["Oscar Corcho","Paola Espinoza"]
     }
-  ],
   ]
 }
