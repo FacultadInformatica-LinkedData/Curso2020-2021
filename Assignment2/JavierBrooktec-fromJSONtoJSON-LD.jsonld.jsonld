@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "https://schema.org/",
+    "name": "foaf:name",
+    "Person": "foaf:Person",
+    "parents": "foaf:parents",
+    "hometown": "foaf:hometown",
+    "almaMater": "foaf:almaMater",
+    "age": "foaf:age",
+    "subjects": "schema:subjects",
+    "subject": "schema:subject",
+    "teachers": "schema:teachers",
+    "teacher": "schema:teacher",
+    "description": "schema:description"
+  },
+  "@type": "Person",
+  "@id": "http://www.example.org/me",
+  "name": "Javier",
+  "homeTown": "Madrid",
+  "age": 23,
+  "almaMater": "UPM",
+  "parents": [
+    "Olga",
+    "JuanCarlos"
+  ],
+  "subjects": [
+    {
+      "@type": "subject",
+      "name": "Semantic Web, Linked Data and Knowledge Graphs",
+      "teachers": [
+        "Oscar",
+        "Raúl",
+        "Paola",
+        "David"
+      ],
+      "description": "How to make the web semantic making more effective the discovery of the data we have in it"
+    },
+    {
+      "@type": "subject",
+      "name": "Administración de Sistemas Informáticos",
+      "teachers": [
+        "Gabriel",
+        "Fernando",
+        "Francisco",
+        "Víctor"
+      ],
+      "description": "Realizar la adminstración básica de maquinas linux y windows mediante scripts, consola y configuración de servicios"
+    }
+  ]
+}
