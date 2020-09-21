@@ -1,0 +1,112 @@
+select distinct ?x
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>}
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#domain
+http://www.w3.org/2000/01/rdf-schema#range
+http://www.w3.org/2000/01/rdf-schema#subClassOf
+
+---------
+
+select distinct ?x
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>.
+FILTER (?x != rdf:type)}
+
+http://www.w3.org/2000/01/rdf-schema#domain
+http://www.w3.org/2000/01/rdf-schema#range
+http://www.w3.org/2000/01/rdf-schema#subClassOf
+
+--------
+
+select distinct ?y
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>.
+FILTER (?x != rdf:type)}
+
+http://dbpedia.org/ontology/prefect
+http://dbpedia.org/ontology/minister
+http://dbpedia.org/ontology/politician
+http://dbpedia.org/ontology/President
+http://dbpedia.org/ontology/Ambassador
+http://dbpedia.org/ontology/Chancellor
+http://dbpedia.org/ontology/Congressman
+http://dbpedia.org/ontology/Deputy
+http://dbpedia.org/ontology/Governor
+http://dbpedia.org/ontology/Lieutenant
+http://dbpedia.org/ontology/Mayor
+http://dbpedia.org/ontology/MemberOfParliament
+http://dbpedia.org/ontology/Minister
+http://dbpedia.org/ontology/PrimeMinister
+http://dbpedia.org/ontology/Senator
+http://dbpedia.org/ontology/VicePresident
+http://dbpedia.org/ontology/VicePrimeMinister
+
+----------
+
+select distinct ?y
+where
+{{?y ?x <http://dbpedia.org/ontology/Politician>.
+FILTER (?x != rdf:type)} UNION
+{?z ?x ?y}}
+LIMIT 25
+
+http://dbpedia.org/ontology/prefect
+http://dbpedia.org/ontology/minister
+http://dbpedia.org/ontology/politician
+http://dbpedia.org/ontology/President
+http://dbpedia.org/ontology/Ambassador
+http://dbpedia.org/ontology/Chancellor
+http://dbpedia.org/ontology/Congressman
+http://dbpedia.org/ontology/Deputy
+http://dbpedia.org/ontology/Governor
+http://dbpedia.org/ontology/Lieutenant
+http://dbpedia.org/ontology/Mayor
+http://dbpedia.org/ontology/MemberOfParliament
+http://dbpedia.org/ontology/Minister
+http://dbpedia.org/ontology/PrimeMinister
+http://dbpedia.org/ontology/Senator
+http://dbpedia.org/ontology/VicePresident
+http://dbpedia.org/ontology/VicePrimeMinister
+http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat
+http://www.openlinksw.com/schemas/virtrdf#QuadStorage
+http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat
+http://www.openlinksw.com/schemas/virtrdf#QuadMap
+http://www.openlinksw.com/schemas/virtrdf#QuadMapValue
+http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn
+http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn
+http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable
+
+----------
+
+select distinct ?z
+where
+{{?y ?x <http://dbpedia.org/ontology/Politician>.
+FILTER (?x != rdf:type)} UNION
+{?z ?x ?y}}
+
+http://www.openlinksw.com/virtrdf-data-formats#default-iid
+http://www.openlinksw.com/virtrdf-data-formats#default-iid-nullable
+http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank
+http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank-nullable
+http://www.openlinksw.com/virtrdf-data-formats#default
+http://www.openlinksw.com/virtrdf-data-formats#default-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-fixedlang-x-any
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-fixedlang-x-any-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal
+http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar
+http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt
+http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt-nullable
+http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang
+http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang-nullable
