@@ -2,29 +2,25 @@
 
 "@context": {
 		"base": "http://example.org/assigment2/",
-		"Class01": "base:Class01",
-		"Sensor029": "Class01:Sensor029",
-		"Computer101": "Class01:Computer101",
-		"Measurement8401": "Sensor029:Measurement8401",
-		"User10A": "Computer101:User10A",
-		"includes": "Class01:Includes",
+		"includes": "Class01:includes",
 		"hasMeasurement": "Sensor029:hasMeasurement",
 		"hasTemperature": "Measurement8401:hasTemperature",
-		
 		"hasOwner": "Computer101:hasOwner",
 		"hasName": "User10A:hasName",
 		"atTime":"Measurement8401:atTime",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"	
 	},
+	
+	
+	
+	
 	"@id": "http://example.org/assigment2/class01",
-	"@type": "Class01",
+	"@type": "base:Class01",
 	"includes": [
 		{
-			"Sensor029":{
 				"@id": "http://example.org/assigment2/class01/sensor029",
 				"@type": "Class01:Sensor029",
 				"hasMeasurement": {
-					"Measurement8401": {
 						"@id": "http://example.org/assigment2/class01/sensor029/measurement8401",
 						"@type": "Sensor029:Measurement8401",
 						"hasTemperature": {
@@ -35,24 +31,22 @@
 							"@value": "2010-06-12T12:00:12",
 							"@type": "xsd:dateTime"
 						}
-					}
+					
 				}
-			}
+			
 		},
 		{
-			"Computer101": {
 				"@id": "http://example.org/assigment2/class01/computer101",
 				"@type": "Class01:Computer101",
-				"hasOwner": {
-					"User10A": {
+				"hasOwner": {			
 						"@id": "http://example.org/assigment2/class01/computer101",
 						"@type": "Computer101:User10A",
 						"hasName": {
 							"@value": "Pedro"
 						}
-					}
+					
 				}
-			}
+			
 		}
 	]	
 }
