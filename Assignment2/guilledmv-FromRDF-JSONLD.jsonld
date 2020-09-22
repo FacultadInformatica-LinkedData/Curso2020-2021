@@ -16,7 +16,7 @@
 		"hasName":"components:hasName"
 
 	},
-	"@id":"http://example.org/Class01/"
+    "@id":"http://example.org/Class01/",
 	"@type":"components:Class01",
 	"includes": [
 	{
@@ -39,8 +39,8 @@
 				"@id":"http://example.org/Class01/Computer101/",
 				"@type":"Class01:Computer101",
 				"hasOwner":{
-						"@id":"http://example.org/Class01/Computer101/",
-						"@type":"Class01:Computer101",
+						"@id":"http://example.org/Class01/Computer101/User10A",
+                  		"@type":"Computer101:User10A",
 						"hasName":{
 							"@value":"Pedro",
 							"@type":"xsd.string"
