@@ -2,66 +2,59 @@
 	"@context":{
 		"xsd":"http://www.w3.org/2001/XMLSchema#",
 		"pf":"http://www.ontologies.org/ontologies/Class#",
-		"includes": "rdfs:label",
-		"hasMeasurement": "rdfs:label",
-		"hasTemperature":{
-			"rdfs":"label",
-			"@type":"xsd:date"
-		},
-		"hasOwner":"rdfs:label",
-		"atTime":{
-			"rdfs":"label",
-			"@type":"xsd:dateTime"
-		},
-		"hasName":{
-			"rdfs":"label",
-			"@type":"xsd:string"
-		}
+		"includes": "pf:includes",
+		"hasMeasurement": "pf:hasMeasurement",
+		"hasTemperature":"pf:hasTemperature",
+		"hasOwner":"pf:hasOwner",
+		"atTime":"pf:atTime",
+		"hasName":"pf:hasName"
 	},
 	
-	"pf:Class01":[
+	"Class01":[
 		{
+			"@id":"http://www.ontologies.org/ontologies/Class/Class01",
+			"@type":"pf:Class01",
+			
 			"includes":[
 				{
-					"pf:Sensor029":[
-						{
-							"pf:hasMeasurement":[
-								{
-									"pf:Measurement8401":[
-										
-										{
-											"hasTemperature":"29"
-										
-										},
-										{
-											"atTime":"2010-06-12T12:00:12"
-										
-										}
 									
-									]
-								}
-							]
+					"@id":"http://www.ontologies.org/ontologies/Class/Class01/Sensor029",
+					@type":"pf:Sensor029",
+					"hasMeasurement":[
+						{
+							"@id":"http://www.ontologies.org/ontologies/Class/Class01/Sensor029/Measurement8401",
+							"@type":"Sensor029/Measurement8401",
+							"hasTemperature": {
+								"@value": 29,
+								"@type": "xsd:integer"
+						},
+							"atTime": {
+								"@value": "2010-06-12T12:00:12",
+								"@type": "xsd:dateTime"
+							}
+										
 						}
 					]
+					
 				},
 			
 				{
-					"pf:Computer101":[
-						{
-							"hasOwner":[
-								{
-									"pf:User10A":[
-										{
-											"hasName":"Pedro"
-										}
-									]
-								}
+					
+					"@id":"http://www.ontologies.org/ontologies/Class/Class01/Computer101",
+					"@type":"Class01:Computer101",
+					"hasOwner":{
+							"@id":"http://www.ontologies.org/ontologies/Class/Class01/Computer101/User10A",
+							"@type":"Computer101:User10A",
+							"hasName":{
+								"@value":"Pedro",
+								"@type":"xsd:string"
+										
+									
+							}
 							
-							]
-						}
-					]
+					}
 			
-				}
+				}	
 			]
 		}
 	]
