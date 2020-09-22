@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "person": "http://www.w3.org/2001/person#",
+    "zar": "http://www.w3.org/2001/zar#",
+    "name": "zar:name",
+    "hometown": "zar:hometown",
+    "age": "zar:age",
+    "almamater": "zar:almamater",
+    "sistername": "zar:sistername",
+    "subjects": "zar:subjects",
+    "teachers": "zar:teachers",
+    "description": "zar:description"
+  },
+  "@id": "http://www.w3.org/2001/person/students/55/",
+  "@type": "people:students",
+  "name": "Xiaofei Wu",
+  "hometown": "Qingtian",
+  "age": 22,
+  "almamater": "UPM",
+  "sistername": "sofia",
+  "subjects": [
+    {
+      "name": " Gestion de Procesos de Tecnologias de la Informacion",
+      "teachers": [ "Oscar Dieste Tubio", "Edmundo Tovar Caroy" ],
+      "description": "En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+    },
+    {
+      "name": "Ingenieria de software II",
+      "teachers": [ "Tomas San Feliu Gilabert ", "Jose Antonio CalvoManzano Villalon", "Ana Maria Moreno SanchezCapuchino" ],
+      "description": "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software."
+    },
+    {
+      "name": "Semantic Web, Linked Data and Knowledge Graphs",
+      "teachers": [ "Oscar Corcho Garcia ", "Raul Garcia Castro"],
+      "description": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos"
+    },
+    {
+      "name": "Sistemas de planificación",
+      "teachers": [ "Vicente Martinez Orga", "Miguel Garcia Remesal" ],
+      "description": "Todos los procesos para ser desarrollados precisan de un proceso de planificación, de la bondad de ese plan se generará un proyecto malo, bueno u óptimo, la capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado."
+    }
+  ]
+}
