@@ -13,18 +13,20 @@
      },
     "@id":"Class01",
     "@type":"ns:Class",
-  "includes":[
+  	"includes":[
       {
           "@id":"Sensor029",
           "@type":"ns:Sensor",
           "hasMeasurement":{
-          "@id":"Measurement8401",
+          	"@id":"Measurement8401",
             "@type":"ns:Measurement",
             "hasTemperature":{
-              "temperature":"29"
+              "@type":"temperature",
+              "@value":"29"
             },
             "atTime":{
-              "date":"2010-06-12T12:00:12"
+              "@type":"date",
+              "@value":"2010-06-12T12:00:12"
             }
            }
       },
@@ -35,7 +37,8 @@
         "@id":"User10A",
         "@type":"ns:User",
           "hasName":{
-            "name":"Pedro"
+            "@type":"name",
+              "@value":"Pedro"
           }
         }  
       }
