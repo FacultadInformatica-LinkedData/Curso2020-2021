@@ -7,9 +7,10 @@
     "name":"xsd:string",
     "includes":"ns:includes",
     "hasOwner":"ns:hasOwner",
-        "hasMeasurement":"ns:hasMeasuremet",
-        "hasTemperature":"ns:hasTemperature",
-        "atTime":"ns:atTime"
+    "hasMeasurement":"ns:hasMeasuremet",
+    "hasTemperature":"ns:hasTemperature",
+    "atTime":"ns:atTime",
+    "hasName":"ns:hasName"
      },
     "@id":"Class01",
     "@type":"ns:Class",
@@ -38,7 +39,7 @@
         "@type":"ns:User",
           "hasName":{
             "@type":"name",
-              "@value":"Pedro"
+            "@value":"Pedro"
           }
         }  
       }
