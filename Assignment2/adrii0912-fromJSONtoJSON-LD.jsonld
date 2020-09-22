@@ -1,0 +1,42 @@
+{
+	"@context":{
+		
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"student": "http://www.assignment2.com/student/",
+		"fullName":"student:fullName",
+		"hometown":"student:hometown",
+		"age":"student:age",
+		"almaMater":"student:almaMater",
+		"parentsName":"student:parentsName",
+		"subjects":"student:subjects",
+		"subjectName":"subjects:subjectName",
+		"teachers":"subjects:teachers",
+		"description":"subjects:description"
+			
+	},
+	
+	"@id":"http://www.assignment2.com/student/adrian",
+	"@type":"student:student",
+	"fullName": "Adrian Rivero Moreno",
+	"hometown":"Entrevias",
+	"age":20,
+	"almaMater":"Universidad Politecnica de Madrid",
+	"parentsName":["Teofilo","Sonia"],
+	"subjects":[
+	
+					{	
+						"subjectName":"Ingenieria del software II",
+						"teachers":["Jose A. Calvo-Manzano Villalón","Ana María Moreno Sánchez-Capuchino","Tomás San Feliu Gilabert"],
+						"description":"La asignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectos aprendidos tanto en asignaturas previas del grado como en la propia asignatura."
+				 
+					},
+				
+					{
+						"subjectName":"Semantic web,linked data and knowledge graphs","teachers":["Oscar corcho","Raul Garcia-Castro","Paola Espinoza","David Chaves"],
+						"description":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos de la Web de datos enlazados."
+						
+					}
+		
+				]
+		
+}

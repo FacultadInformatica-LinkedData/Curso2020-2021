@@ -1,0 +1,6 @@
+PREFIX ont: <http://dbpedia.org/ontology/>
+SELECT ?y
+WHERE {
+    ?x rdf:type ont:Politician .
+    ?x ?y ?z
+}
