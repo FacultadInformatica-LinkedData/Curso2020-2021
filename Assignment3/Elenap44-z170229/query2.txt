@@ -1,0 +1,8 @@
+select distinct ?properties
+where{
+  {
+    ?instance a <http://dbpedia.org/ontology/Politician> .
+    ?instance ?properties ?object .
+    FILTER(?properties != rdf:type) .
+  }
+}
