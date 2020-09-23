@@ -14,28 +14,23 @@
       "@type": "xsd:string"
     }
   },
-  "Class01": {
-    "@id" : "http://www.oeg-upm.net/Class01",
-    "vocab:includes": {
-      "Sensor029":{
-        "@id" : "http://www.oeg-upm.net/Class01/Sensor029",
-        "vocab:hasMeasurement": {
-          "Measurement8401":{
-            "@id" : "http://www.oeg-upm.net/Class01/Sensor029/Measurement8401",
-            "vocab:hasTemperature":"29",
-            "vocab:atTime": "2010-06-12T12:00:12"
-          }
-        }
-      },
-      "Computer101":{
-        "@id" : "http://www.oeg-upm.net/Class01/Computer101",
-        "vocab:hasOwner": {
-          "User10A": {
-            "@id" : "http://www.oeg-upm.net/Class01/Computer101/User10A",
-            "vocab:hasName": "Pedro"
-          }
-        }
-      }
-    }
-  }
+
+  "@id" : "http://www.oeg-upm.net/Class01",
+  "vocab:includes": [	
+    {
+      "@id" : "http://www.oeg-upm.net/Class01/Sensor029",
+      "vocab:hasMeasurement": {
+        "@id" : "http://www.oeg-upm.net/Class01/Sensor029/Measurement8401",
+        "vocab:hasTemperature":"29",
+        "vocab:atTime": "2010-06-12T12:00:12"
+      }        
+    },
+    {        
+      "@id" : "http://www.oeg-upm.net/Class01/Computer101",
+      "vocab:hasOwner": {
+        "@id" : "http://www.oeg-upm.net/Class01/Computer101/User10A",
+        "vocab:hasName": "Pedro"
+      }        
+    }    
+  ]
 }
