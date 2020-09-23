@@ -1,0 +1,72 @@
+{
+   "@context":{
+   "schema":"https://schema.org/",
+   "age":"ttp://xmlns.com/foaf/0.1/age",
+   "subjects":"http://www.w3.org/2001/fiupm/asignaturas/",
+   "name":"schema:name",
+   "birthPlace":"schema:birthPlace",
+   "parents":"schema:parents",
+   "father":"schema:father",
+   "mother":"schema:mother",
+   "alumniOf":"schema:alumniOf",
+   "almaMater":"alumniOf:name",
+   "url":"alumniOf:url",
+   "subjName":"subjects:name",
+   "description":"subjects:desc"
+   },
+   
+   "@type":"schema:person", 
+   "name":"Miguel Moreno Mardones",
+   "birthPlace":"Madrid, Spain",
+   "age":"25",
+   "parents":{
+        "father":"Miguel",
+	    "mother":"Asuncion"
+        },
+		
+   "alumniOf":[
+        {
+        "@type":"alumniOf:CollegeOrUniversity",
+        "almaMater":"ETSII, Universidad Politecnica de Madrid",
+        "url":"https://www.fi.upm.es/",
+        "subjects":[
+        {
+		"subjName":"EPAC",
+		"teachers":[
+		{
+		"name":"Elena Montiel Ponsoda"
+		},
+		{
+		"name":"Jelena Bobkina"
+		}
+		],
+		"description":"Improve English skills related to computer engineering in an academic and professional area"
+	        },
+	
+        {	
+		"subjName":"Semantic Web, Linked Data and Knowledge Graphs",
+		"teachers":[
+		{
+		"name":"Oscar Cocho Garcia"
+		},
+		{
+        "name":"Paola Patricia Espinoza Arias"
+		},
+		{
+		"name":"David Chaves Garcia"
+		},
+		{
+		"name":"Raul Garcia Castro"
+		}
+		],
+		"description":"To provide the theoretical and practical basis on the Web of linked data, as well as in the form of knowledge graphs"
+		    }
+		 
+		]
+		
+		
+		}
+	]	
+		
+         
+}

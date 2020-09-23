@@ -10,7 +10,7 @@ Original file is located at
 """
 
 !pip install rdflib 
-github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment3"
+github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
 
@@ -18,11 +18,12 @@ from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
-g.namespace_manager.bing('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
+g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/resources/example5.rdf", format="xml")
 
 """Create a new class named Researcher"""
 
+ns = Namespace("http://somewhere#")
 g.add((ns.Researcher, RDF.type, RDFS.Class))
 for s, p, o in g:
   print(s,p,o)

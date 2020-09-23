@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "inf": "http://example.org",
+        "subj": "http://example.org/subject",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "information": "inf:information",
+        "subject": "subj:subject",
+        "name": "inf:name",
+        "homeTown": "inf:homeTown",
+        "age": "inf:age",
+        "almaMater": "inf:almaMater",
+        "parents": "inf:parents",
+        "nameSubj": "subj:nameSubj",
+        "teachers": "subj:teachers",
+        "description": "subj:description"
+    },
+    "@id": "information:Personal",
+    "@type": "information",
+    "name": {
+        "@value": "Daniel Miguel Marbán",
+        "@type": "xsd:string"
+    },
+    "hometown": {
+        "@value": "Madrid",
+        "@type": "xsd:string"
+    },
+    "age": {
+        "@value": "23",
+        "@type": "xsd:integer"
+    },
+    "almaMatter": {
+        "@value": "Universidad politécnica de Madrid",
+        "@type": "xsd:string"
+    },
+    "parents": [
+        {
+            "@value": "Jesus",
+            "@type": "xsd:string"
+        },
+        {
+            "@value": "Carmén",
+            "@type": "xsd:string"
+        }
+    ],
+    "subjects": [
+        {
+            "@id": "subject:SemanticWeb",
+            "@type": "subject",
+            "nameSubj": {
+                "@value": "Semantic Web, Linked Data and Knowledge Graphs",
+                "@type": "xsd:string"
+            },
+            "teachers": [
+                {
+                    "@value": "Oscar Corcho",
+                    "@type": "xsd:string"
+                },
+                {
+                    "@value": "Paola Espinoza",
+                    "@type": "xsd:string"
+                }
+            ],
+            "description": {
+                "@value": "Asignatura optativa de 4º que cubre los conceptos de Semantic Web,Linked Data y Knowledge Graphs",
+                "@type": "xsd:string"
+            }
+        },
+        {
+            "@id": "subject:IngSoftware2",
+            "@type": "subject",
+            "nameSubj": {
+                "@value": "Ingeniería del Software 2",
+                "@type": "xsd:string"
+            },
+            "teachers": [
+                {
+                    "@value": "Oscar Corcho",
+                    "@type": "xsd:string"
+                },
+                {
+                    "@value": "Paola Espinoza",
+                    "@type": "xsd:string"
+                }
+            ],
+            "description": {
+                "@value": "Asignatura obligatoria de 4ª que se centra en el desarrollo de software",
+                "@type": "xsd:string"
+            }
+        }
+    ]
+}
