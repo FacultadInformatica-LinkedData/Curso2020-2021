@@ -17,11 +17,9 @@
     "@id":"http://www.oeg-upm.net/Organization/Class01",
     "@type":"vocab:Class01",
     "includes": [{
-        "Sensor029": {
             "@id": "http://www.oeg-upm.net/Organization/Class01/Sensor029",
             "@type": "Class01:Sensor029",
             "hasMeasurement": {
-                "Measurement8401": {
                     "@id": "http://www.oeg-upm.net/Organization/Class01/Sensor029/Measurement8401",
                     "@type": "Sensor029:Measurement8401",
                     "hastTemperature": {
@@ -32,24 +30,18 @@
                         "@value": "2010-06-12T12:00:12",
                         "@type": "xsd:dateTime"
                     }
-                }
             }
-        }
     },
     {
-        "Computer101":{
             "@id":"http://www.oeg-upm.net/Organization/Class01/Computer101",
             "@type": "Class01:Computer101",
             "hasOwner": {
-                "User10A": {
                     "@id": "http://www.oeg-upm.net/Organization/Class01/Computer101/User10A",
                     "@type": "Computer101:User10A",
                     "hasName": {
                         "@value": "Pedro",
                         "@type": "xsd:string"
                     }
-                }
             }
-        }
     }]
 }
