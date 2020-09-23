@@ -1,35 +1,43 @@
 {
 	"@context":{
-		"as2":"http://www.example.org/",
+		"as":"http://www.example.org/",
 		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",	
-		"class":"http://www.w3.org/2020/class",
-		"sensor":"http://www.w3.org/2020/sensor",
-		"computer":"http://www.w3.org/2020/computer",
-		"Class01":"class:Class01",
-		"Sensor029":"class:Sensor029",
-		"Measurement8401":"sensor:Measurement8401",
-		"Computer101":"class:Computer101",
-		"User10A":"computer:User10A"
+		"Class01":"as:Class01",
+		"Sensor029":"Class01:Sensor029",
+		"Measurement8401":"Sensor029:Measurement8401",
+		"Computer101":"Class01:Computer101",
+		"User10A":"Computer101:User10A",
+		"includes": "as:includes",
+		"hasMeasurement":"as:hasMeasurement",
+		"hasTemperature":"as:hasTemperature",
+		"hasName":"as:hasName",
+		"hasOwner":"as:hasOwner"
 	},
 	
-	"Class01": "@id":"http://www.example.org/class01",
+	"Class01": {"@id":"http://www.example.org/class01",
+		"@type":"as:Class01",
 		"includes":[ 
 			{
-			"Sensor029":"@id":"http://www.example.org/class01/sensor029"
-				   "hasMeasurement":"Measurement8401":
-								"@id":"http://www.example.org/class01/sensor029",							
-								[ 
-								{"hasTemperature":"29",
+			"Sensor029":{"@id":"http://www.example.org/class01/sensor029",
+				     "@type":"Class01:Sensor029",
+				     "hasMeasurement":{"Measurement8401":{
+								"@id":"http://www.example.org/class01/sensor029",	
+								"@type":"Sensor029:Measurement8401",						 
+								"hasTemperature":"29",
 						 		"atTime":"2010-0612T12:00:12"
-								]	
+								}
+						 }					
+				   }
 			},
 			{
-			 "Computer101":"@id":"http://www.example.org/class01/computer101",
-					"hasOwner":"User10A":"@id":"http://www.example.org/class01/computer101/user10A",
-							   "hasName":"Pedro"		
+			 "Computer101":{"@id":"http://www.example.org/class01/computer101",
+					"hasOwner":{"User10A":{"@id":"http://www.example.org/class01/computer101/user10A",
+							      "@type":"Computer101:User10A",
+							   "hasName":"Pedro"}
+						    }	
+					}
 			}
 
-
 			]
-
+ }
 }
