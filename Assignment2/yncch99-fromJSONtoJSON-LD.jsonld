@@ -1,0 +1,36 @@
+{
+	"@context":{
+	"st":"http://example.org/student/",
+	"fullName":"st:fullName",
+	"hometown":"st:hometown",
+	"age":"st:age",
+	"almaMater":"st:almaMater",
+	"parents":"st:parents",
+	"subjects":"st:subjects",
+	"name":"subjects:name",
+	"teachers":"subjects:teachers",
+	"description":"subjects:description"
+	},
+	"@id":"http://example.org/student/170272",
+	"@type":"st:Alumno",
+	"fullName":"Yessenia Nicole Cacuango Chiran",
+	"hometown":"Madrid",
+	"age":"20",
+	"almaMater":"Universidad Plitecnica de Madrid",
+	"parents":["Lourdes","Fausto"],
+	"subjects":[{
+			"name":"Computación de alto rendimiento",
+			"teachers":"Antonio Garcia Dopico",
+			"description":"Introduccion al mundo de la computacion de altas prestaciones o HPC"
+			},
+			{
+			"name":"Sistemas de planificacion",
+			"teachers":"Vicente Martinez Orga",
+			"description":"Conocer diferentes tecnicas de planificacion para el correcto desarollo de un proyecto"
+			},
+			{
+			"name":"Semantic web, linked data and knowledge graphs",
+			"teachers":"Oscar Corcho",
+			"description":"Proporcionar los fundamentos implicados en la generacion y publicacion de vocabularios y datos de la web"
+			}]
+}
