@@ -1,0 +1,39 @@
+{
+	"@context":"https://schema.org/",
+	"@id":"https://schema.org/name",
+	"@type":"Person",
+    "name":"Alvaro Garcia Garcia",
+	"hometown":"Madrid",
+	"age": "23",
+	"alumni":"ETSIINF",
+		"parents":[
+			{
+			"@type":"Person",
+			"name":"Macarena"
+			},
+			{
+			"@type":"Person",
+			"name":"Santiago"
+			}
+		],
+		
+		"subjects": [
+			{
+				"name":"Sistemas Operativos",
+				"teacher":"Rosales",
+				"description":"conocer el funcionamiento interno de un ordenador"
+			},
+			{
+
+				"name":"Web Semantica",
+				"teacher":"Oscar",
+				"description":"serializaciones en paginas web"
+			},
+			{
+
+				"name":"Nanotecnologia",
+				"teacher":"Estibaliz",
+				"description":"estudio de el mundo nano y sus caracteristicas"
+			}
+		]
+}

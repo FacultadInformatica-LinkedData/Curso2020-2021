@@ -1,0 +1,52 @@
+{	
+	"@context":{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"vocab": "http://www.ontologies.org/ontologies/",
+		"name":"vocab:name",
+		"homeTown":"vocab:homeTown",
+		"age":"vocab:age",
+		"almaMater":"vocab:almaMater",
+		"description": "http://rdf.data-vocabulary.org/#description",
+		"parentsName": "vocab:parentsName",
+		"subjects":"vocab:subjects",
+		"teachers":"vocab:teachers",
+		"description":"vocab:description"
+	},
+	"name":"Raul Corrales Avila",
+	"homeTown":"Leganes",
+	"age":"24",
+	"almaMater":"UPM",
+	"parentsName": ["Eloy","Carmen"],
+	"subjects":[
+		{
+			"name":"Semantic Web and Linked data",
+			"teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+			"description":"Proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos de la Web de datos enlazados"
+		},
+		{
+			"name":"Ingenieria del Sofware II",
+			"teachers":["Jose Antonio Calvo Manzano","Tomas San Feliu Gilabert","Ana Maria Moreno Sanchez-Capuchino"],
+			"description":"La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. Laasignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectosaprendidos tanto en asignaturas previas del grado como en la propia asignatura"
+		},
+		{
+			"name":"Sistemas de planificacion",
+			"teachers":["Vicente Martinez Orga"],
+			"description":"Todos los procesos para ser desarrollados precisan de un proceso de planificación. De la bondad de ese plan se generará un proyecto malo, bueno u óptimo. La capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado."
+		},
+		{
+			"name":"Tecnicas de computacion cientifica",
+			"teachers":["Vicente Martin Ayuso"],
+			"description":"Este curso pretende mostrar al estudiante de informática las técnicas computacionales básicas con un mayor impacto en el área de la computación científica. El objetivo es que sea capaz, bien de integrarse en un grupo de trabajo ocupado en resolver este tipo de problemas o bien de asesorar sobre el uso óptimo de la informática en este campo."
+		},
+		{
+			"name":"GPTI",
+			"teachers":["Edmundo Tovar Caro","Oscar Dieste Tubio","Jose Ramon Sanchez Palomares","Maria Pilar RodriguezGonzalez"],
+			"description":"En  esta  asignatura  se  tratan  los  elementos  de  una  organización,  la  gestión  por  procesos,  y  modelos  de  calidadaplicados a organizaciones de TI"
+		},
+		{
+			"name":"Nanotecnologia",
+			"teachers":["Estibaliz Martinez Izquierdo","Mercedes Perez Castellanos"],
+			"description":"En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca."
+		}
+	]
+}

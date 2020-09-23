@@ -1,0 +1,34 @@
+{
+  "@context":{
+    "rdfs":"https://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "subjs":"http://www.example2.es/assignment2/subjs#",
+    "personalinfo":"http://www.example2.es/assignment2/persinfo#",
+    "fullName":"persinfo:name",
+    "hometown":"persinfo:hometown",
+    "age":"persinfo:age",
+    "alma":"persinfo:alma",
+    "parentsNames":"persinfo:parentsNames",
+    "subjects":"persinfo:subjects",
+    "teachers":"subjs:teacher",
+    "description":"rdfs:comment"
+  },
+  	"@id":"www.example2.es/assignment2/person/21",
+    "@type":"persinfo:people",
+    "fullName":"Marta Mayoral Jimenez",
+  	"hometown":"Alcorcon",
+  	"age":"22",
+  	"alma":"Universidad Politécnica de Madrid",
+ 	"parentsNames":"Isabel y Carlos",
+ 	"subjects":[
+      {"subj":"Semantic Web, Linked Data and Knowledge Graphs",
+    	"teachers":"Oscar Corcho",
+      	"desc":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication of vocabularies and data on the Web of Linked Data, aswell as knowledge graphs"},
+      {"subj":"Introductions to Bioinformatics",
+    	"teachers":"Andrei Paun",
+        "desc":"Study of the basics of the Bioinformatics field and also to recent results in the area and closely related areas"},
+      {"subj": "EPAC",
+       "teachers": "Jelena Bobkina y Elena Montiel",
+       "desc":"The main objective of this course is to make students aware of the importance of effective communication skills in academic or professional settings"}
+	]
+}
