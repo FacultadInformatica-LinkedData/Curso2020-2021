@@ -2,11 +2,12 @@
 	"@context":{
 		"as":"http://www.example.org/",
 		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",	
-		"Class01":"as:Class01",
-		"Sensor029":"Class01:Sensor029",
-		"Measurement8401":"Sensor029:Measurement8401",
-		"Computer101":"Class01:Computer101",
-		"User10A":"Computer101:User10A",
+		"class":"as:class",
+		"sensor":"class:sensor",
+		"computer":"class:computer",
+		"measurement":"sensor:measurement",
+		"user":"user",
+		
 		"includes": "as:includes",
 		"hasMeasurement":"as:hasMeasurement",
 		"hasTemperature":"as:hasTemperature",
@@ -15,14 +16,14 @@
 	},
 	
 	"Class01": {"@id":"http://www.example.org/class01",
-		"@type":"as:Class01",
+		"@type":"class",
 		"includes":[ 
 			{
 			"Sensor029":{"@id":"http://www.example.org/class01/sensor029",
-				     "@type":"Class01:Sensor029",
+				     "@type":"sensor",
 				     "hasMeasurement":{"Measurement8401":{
 								"@id":"http://www.example.org/class01/sensor029",	
-								"@type":"Sensor029:Measurement8401",						 
+								"@type":"measurement",						 
 								"hasTemperature":"29",
 						 		"atTime":"2010-0612T12:00:12"
 								}
@@ -31,8 +32,9 @@
 			},
 			{
 			 "Computer101":{"@id":"http://www.example.org/class01/computer101",
+					"@type":"computer",
 					"hasOwner":{"User10A":{"@id":"http://www.example.org/class01/computer101/user10A",
-							      "@type":"Computer101:User10A",
+							      "@type":"user",
 							   "hasName":"Pedro"}
 						    }	
 					}
