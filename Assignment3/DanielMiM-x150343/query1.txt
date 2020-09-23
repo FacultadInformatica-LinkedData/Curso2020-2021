@@ -1,0 +1,8 @@
+
+SELECT DISTINCT ?p
+WHERE{
+?x ?p <http://dbpedia.org/ontology/Politician>
+}
+
+Resultado: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fpropiedades%0D%0AWHERE%7B%0D%0A%3Fx+%3Fp+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fy+%3Fpropiedades+%3Fx%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+

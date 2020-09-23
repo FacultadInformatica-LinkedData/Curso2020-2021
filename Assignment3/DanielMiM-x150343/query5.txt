@@ -1,0 +1,14 @@
+
+SELECT COUNT(DISTINCT ?valores)
+WHERE{
+?x ?p <http://dbpedia.org/ontology/Politician> .
+?y ?propiedades ?x .
+?valores ?z ?propiedades
+MINUS{
+?y rdf:type ?x .
+?valores rdf:type ?propiedades .
+}
+}
+
+Resultado: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+COUNT%28DISTINCT+%3Fvalores%29%0D%0AWHERE%7B%0D%0A%3Fx+%3Fp+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fy+%3Fpropiedades+%3Fx+.%0D%0A%3Fvalores+%3Fz+%3Fpropiedades%0D%0AMINUS%7B%0D%0A%3Fy+rdf%3Atype+%3Fx+.%0D%0A%3Fvalores+rdf%3Atype+%3Fpropiedades+.%0D%0A%7D%0D%0A%7D%0D%0A%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
