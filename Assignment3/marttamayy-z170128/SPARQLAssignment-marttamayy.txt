@@ -1,0 +1,72 @@
+QUERY 1. Get all the properties that can be applied to instances of the politician class (http://dbpedia.org/ontology/Politician)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?properties WHERE {
+  { 
+   ?p rdf:type <http://dbpedia.org/ontology/Politician>.
+   ?p ?properties ?x.
+  }
+}
+
+Results 1: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fproperties+WHERE+%7B%0D%0A++%0D%0A++%7B+%0D%0A+++%3Fp+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A+++%3Fp+%3Fproperties+%3Fx.%0D%0A++%7D%0D%0A%7D%0D%0A&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+
+
+QUERY 2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?properties WHERE { 
+  { 
+   ?p rdf:type <http://dbpedia.org/ontology/Politician>.
+   ?p ?properties ?x.
+   FILTER(?properties != rdf:type).
+  }
+}
+
+Results 2: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fproperties+WHERE+%7B%0D%0A++%0D%0A++%7B+%0D%0A+++%3Fp+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A+++%3Fp+%3Fproperties+%3Fx.%0D%0A+++FILTER%28%3Fproperties+%21%3D+rdf%3Atype%29.%0D%0A++%7D%0D%0A%7D%0D%0A&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+
+
+QUERY 3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?x WHERE {
+  { 
+   ?p a <http://dbpedia.org/ontology/Politician>.
+   ?p ?properties ?x.
+   FILTER(?properties != rdf:type).
+  }
+}
+
+Results 3: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fx+WHERE+%7B%0D%0A++%0D%0A++%7B+%0D%0A+++%3Fp+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A+++%3Fp+%3Fproperties+%3Fx.%0D%0A+++FILTER%28%3Fproperties+%21%3D+rdf%3Atype%29.%0D%0A++%7D%0D%0A%7D%0D%0A&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+
+
+QUERY 4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?properties ?x WHERE {
+  { 
+   ?p a <http://dbpedia.org/ontology/Politician>.
+   ?p ?properties ?x.
+   FILTER(?properties != rdf:type).
+  }
+}
+
+Results 4: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fproperties+%3Fx+WHERE+%7B%0D%0A++%7B+%0D%0A+++%3Fp+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A+++%3Fp+%3Fproperties+%3Fx.%0D%0A+++FILTER%28%3Fproperties+%21%3D+rdf%3Atype%29.%0D%0A++%7D%0D%0A%7D%0D%0A&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+
+
+QUERY 5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?properties COUNT(DISTINCT ?x) WHERE {
+  { 
+   ?p a <http://dbpedia.org/ontology/Politician>.
+   ?p ?properties ?x.
+   FILTER(?properties != rdf:type).
+  }
+}
+
+Results 5: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fproperties+COUNT%28DISTINCT+%3Fx%29+WHERE+%7B%0D%0A++%7B+%0D%0A+++%3Fp+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A+++%3Fp+%3Fproperties+%3Fx.%0D%0A+++FILTER%28%3Fproperties+%21%3D+rdf%3Atype%29.%0D%0A++%7D%0D%0A%7D%0D%0A&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+
+
