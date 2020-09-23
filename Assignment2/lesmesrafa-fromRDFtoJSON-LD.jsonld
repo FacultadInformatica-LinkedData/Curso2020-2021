@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "root": "http://example.org/",
+    "@base": "http://www.oeg-upm.net/ontologies/example/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "people": "http://www.oeg-upm.net/People#",
+    "org": "http://www.oeg-upm.net/Organization#",
+    "prop": "http://www.oeg-upm.net/Properties#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "root:Class01",
+      "org:includes": [
+        {
+          "@id": "org:Sensor029"
+        },
+        {
+          "@id": "org:Computer101"
+        }
+      ]
+    },
+    {
+      "@id": "root:Sensor029",
+      "prop:hasMeasurement": {
+        "@id": "prop:Measurement8401"
+      }
+    },
+    {
+      "@id": "root:Computer101",
+      "prop:hasOwner": {
+        "@id": "prop:User10A"
+      }
+    },
+    {
+      "@id": "root:Measurement8401",
+      "prop:hasTemperature": 29,
+      "prop:atTime": {
+        "@value": "2010-06-12T 12:00:12",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "root:User10A",
+      "people:hasName": {
+        "@value": "Pedro",
+        "@type": "xsd:string"
+      }
+    }
+  ]
+}

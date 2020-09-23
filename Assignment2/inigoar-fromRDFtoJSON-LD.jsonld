@@ -1,0 +1,53 @@
+{
+"@context": {
+      "elements": "http://example.org/elements",
+      "xsd": "http://www.w3.org/2001/XMLSchema/",
+      "class": "http://example.org/class",
+      "sensor": "http://example.org/sensor",
+      "computer": "http://example.org/computer",
+      "measurement": "http://example.org/mesurement",
+      "user": "http://example.org/user",
+      "temperature": "http://example.org/temperature",
+      "time": "http://example.org/time",
+      "name": "http://example.org/name",
+      "prop": "http://example.org/properties/",
+      "includes": "prop:includes",
+      "hasMeasurement": "prop:hasMeasurement",
+      "hasTemperature": "prop:hasTemperature",
+      "atTime": "prop:atTime",
+      "hasOwner": "prop:hasOwner",
+      "hasName": "prop:hasName"		
+   	},
+      
+    "@id": "http://example.org/Class01",
+    "@type": "el:class",
+    "includes": [
+      {
+        "@id": "http://example.org/Sensor029",
+      	"@type": "sensor",
+            "hasMeasurement": {
+        	      "@id": "http://example.org/Measurement8401",
+        	      "@type": "measurement",
+                        "hasTemperature": {
+                              "temperature": 29
+            	},
+                  
+            "atTime": {
+              "time": "2010-06-12T10:00:12"
+            }
+          }
+      },
+          
+        {
+      	  "@id": "http://example.org/Computer101",
+      	  "@type": "computer",
+              "hasOwner": {
+        	      "@id": "http://example.org/User10A",
+        	      "@type": "user",
+                        "hasName": {
+                        "name": "Pedro"
+              }
+            }
+          }
+    ]
+}

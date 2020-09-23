@@ -1,0 +1,47 @@
+Query 1
+SELECT DISTINCT ?AllProp
+WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+  ?x ?AllProp ?y
+}
+
+
+Query 2
+SELECT DISTINCT ?PropNotrdf 
+WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+  ?x ?PropNotrdf  ?y .
+  FILTER (?PropNotrdf != rdf:type)
+}
+
+
+Query 3
+SELECT DISTINCT ?InstNotrdf
+WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+  ?x ?Property ?InstNotrdf .
+  FILTER (?Property != rdf:type)
+}
+
+
+Query 4
+SELECT DISTINCT ?Property ?InstNotrdf
+WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+  ?x ?Property ?InstNotrdf .
+  FILTER (?Property != rdf:type)
+}
+
+
+Query 5
+SELECT DISTINCT ?Property COUNT (DISTINCT ?InstNotrdf)
+WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+  ?x ?Property ?InstNotrdf .
+  FILTER (?Property != rdf:type)
+}

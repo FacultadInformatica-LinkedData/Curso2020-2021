@@ -1,0 +1,48 @@
+{
+	"@context": {
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "assignment": "http://example.org/assignment2b/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "assignment:name",
+    "hometown": "assignment:hometown",
+    "age": "assignment:age",
+    "university":"assignment:university",
+    "parents":"assignment:parents",
+    "mother":"assignment:mother",
+    "father":"assignment:father",
+    "subjects":"assignment:subjects",
+    "subject":"assignment:subject",
+    "teachers":"assignment:teachers",
+    "teacher":"assignment:teacher",
+    "description":"rdfs:comment"
+  },
+  "@id": "assignment:jmdu99",
+  "@type": "assignment:Person",
+  "name": {"@value":"José Manuel Díaz Urraco"},
+	"hometown":{"@value":"Boadilla del Monte"},
+    "age":{"@value":21,"@type":"xsd:integer"},
+    "university": {"@value":"UPM"},
+  "parents": {
+		"mother": {"@value":"Marina Urraco Cendrero"},
+		"father": {"@value":"José Manuel Díaz Soriano"}
+	},
+	"subjects": [{
+				"name": {"@value":"Gestión de Procesos de Tecnologías de la Información"},
+				"teachers": [
+						{"@value":"Oscar Dieste Tubio"},
+						{"@value":"Edmundo Tovar Caro"}
+					]
+				,
+				"description": {"@value":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI."}
+			},
+			{
+				"name": {"@value":"Semantic Web, Linked Data and Knowledge Graphs"},
+				"teachers":[
+						{"@value":"Oscar Corcho Garcia"},
+						{"@value":"Raul Garcia Castro"}
+					]
+				,
+				"description": {"@value":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."}
+			}
+		]
+}
