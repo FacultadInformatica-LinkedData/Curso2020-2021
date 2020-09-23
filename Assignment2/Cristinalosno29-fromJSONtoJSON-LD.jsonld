@@ -1,0 +1,41 @@
+{
+    "@context":{
+        "vocab":"http://example.org/elements/",
+        "hometown":"vocab:hometown",
+        "age":"vocab:age",
+        "almaMater":"vocab:almaMater",
+        "parentsName":"vocab:parentsName",
+        "subjects":"vocab:subjects",
+        "name":"subjects:name",
+		"subject":"vocab:subject",
+        "teachers":"subjects:teachers",
+        "description":"subjects:description"
+    },
+    "@id":"http://example.org/elements/",
+    "@type":"vocab:people",
+    "name":"Cristina Alonso delgado",
+    "homeTown":"Chamberi",
+    "age":"25",
+    "almaMater":"UPM",
+    "parentsName": ["Marisa","MiguelAngel"],
+	"subjects":[
+			{
+				"subject":"Semantic Web and Linked data",
+				"teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+				"description":"Desarrolla los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos de la Web de datos enlazados."
+			},
+			{
+				"subject":"Ingenieria del Sofware II",
+				"teachers":["Jose Antonio Calvo Manzano","Tomas San Feliu Gilabert","Ana Maria Moreno Sanchez-Capuchino"],
+				"description":" Se basa en aplicar los aspectos de gestión al desarrollo software con un proyecto a realizar."
+			{
+				"subject":"Nanotecnologia",
+				"teachers":["Estibaliz Martinez Izquierdo","Mercedes Perez Castellanos"],
+				"description":"Consiste en desarrollar un poroyecto basado en la  Nanotecnología."
+			},
+				"subject":"GPTI",
+				"teachers":["Edmundo Tovar Caro","Oscar Dieste Tubio","Jose Ramon Sanchez Palomares","Maria Pilar RodriguezGonzalez"],
+				"description":"Tratan  los  elementos  de  una  organización,  la  gestión  por  procesos."
+			},
+			]
+}

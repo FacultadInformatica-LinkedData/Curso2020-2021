@@ -1,0 +1,227 @@
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician> or its equivalent in Wikidata)
+
+select distinct ?properties
+where
+{
+?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+?politician ?properties ?z.
+} LIMIT 20
+
+RESULTS:
+properties
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/homepage
+http://purl.org/dc/terms/subject
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://es.dbpedia.org/property/gabinete
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMáter
+http://es.dbpedia.org/property/almamáter
+http://es.dbpedia.org/property/apellido
+http://es.dbpedia.org/property/apellidos
+http://es.dbpedia.org/property/apodo
+http://es.dbpedia.org/property/año
+http://es.dbpedia.org/property/capítulo
+http://es.dbpedia.org/property/cargo
+http://es.dbpedia.org/property/causaMuerte
+http://es.dbpedia.org/property/ciudadanía
+http://es.dbpedia.org/property/conflictos
+
+
+2. Get all the properties, except for rdf:type, that are applied to instances of the Politician class
+
+select distinct ?properties
+where
+{
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?properties ?z
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+RESULTS:
+properties
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/homepage
+http://purl.org/dc/terms/subject
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://es.dbpedia.org/property/gabinete
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMáter
+http://es.dbpedia.org/property/almamáter
+http://es.dbpedia.org/property/apellido
+http://es.dbpedia.org/property/apellidos
+http://es.dbpedia.org/property/apodo
+http://es.dbpedia.org/property/año
+http://es.dbpedia.org/property/capítulo
+http://es.dbpedia.org/property/cargo
+http://es.dbpedia.org/property/causaMuerte
+http://es.dbpedia.org/property/ciudadanía
+http://es.dbpedia.org/property/conflictos
+http://es.dbpedia.org/property/cónyuge
+
+
+3. Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+
+select distinct ?properties ?values
+where
+{
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?properties ?values
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+RESULTS:
+properties	values
+http://www.w3.org/2000/01/rdf-schema#label
+"Adame Ba Konaré"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Adriano Sánchez Roa"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Adrián Ward"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Agustín Haya de la Torre de la Rosa"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Agustín Molina Martínez"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Ahmed Hilmi Pasha"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Aileen Baviera"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Aisha Musa el-Said"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Akua Asabea Ayisi"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Alain Vivien"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Alaiza Pashkevich"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Aptripel Tumimomor"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Arancha González Laya"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Archer Blood"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Ariela Luna"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Arnulfo Gasca Trujillo"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Arturo Zúñiga"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Ascensión Pastor Parres"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Ashok-Alexander Sridharan"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Aslan Bzhania"@es
+
+
+4. For each of these properties, except for rdf:type, which different values do they take in those instances?
+
+select distinct ?values ?politician
+where
+{
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?properties ?values
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+RESULTS:
+values	politician
+"Adame Ba Konaré"@es
+http://es.dbpedia.org/resource/Adame_Ba_Konaré
+"Adriano Sánchez Roa"@es
+http://es.dbpedia.org/resource/Adriano_Sánchez_Roa
+"Adrián Ward"@es
+http://es.dbpedia.org/resource/Adrián_Ward
+"Agustín Haya de la Torre de la Rosa"@es
+http://es.dbpedia.org/resource/Agustín_Haya_de_la_Torre_de_la_Rosa
+"Agustín Molina Martínez"@es
+http://es.dbpedia.org/resource/Agustín_Molina_Martínez
+"Ahmed Hilmi Pasha"@es
+http://es.dbpedia.org/resource/Ahmed_Hilmi_Pasha
+"Aileen Baviera"@es
+http://es.dbpedia.org/resource/Aileen_Baviera
+"Aisha Musa el-Said"@es
+http://es.dbpedia.org/resource/Aisha_Musa_el-Said
+"Akua Asabea Ayisi"@es
+http://es.dbpedia.org/resource/Akua_Asabea_Ayisi
+"Alain Vivien"@es
+http://es.dbpedia.org/resource/Alain_Vivien
+"Alaiza Pashkevich"@es
+http://es.dbpedia.org/resource/Alaiza_Pashkevich
+"Aptripel Tumimomor"@es
+http://es.dbpedia.org/resource/Aptripel_Tumimomor
+"Arancha González Laya"@es
+http://es.dbpedia.org/resource/Arancha_González_Laya
+"Archer Blood"@es
+http://es.dbpedia.org/resource/Archer_Blood
+"Ariela Luna"@es
+http://es.dbpedia.org/resource/Ariela_Luna
+"Arnulfo Gasca Trujillo"@es
+http://es.dbpedia.org/resource/Arnulfo_Gasca_Trujillo
+"Arturo Zúñiga"@es
+http://es.dbpedia.org/resource/Arturo_Zúñiga
+"Ascensión Pastor Parres"@es
+http://es.dbpedia.org/resource/Ascensión_Pastor_Parres
+"Ashok-Alexander Sridharan"@es
+http://es.dbpedia.org/resource/Ashok-Alexander_Sridharan
+"Aslan Bzhania"@es
+http://es.dbpedia.org/resource/Aslan_Bzhania
+
+
+5. For each of the properties, except for rdf:type, how many distinct values do they take?
+
+select distinct ?properties COUNT(?values)
+where
+{
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?properties ?values
+FILTER (?properties != rdf:type)
+} LIMIT 20
+
+RESULTS:
+properties	callret-1
+http://es.dbpedia.org/property/afiliaciones
+1336
+http://es.dbpedia.org/property/isbn
+2840
+http://es.dbpedia.org/property/pareja
+100
+http://es.dbpedia.org/property/período
+14421
+http://es.dbpedia.org/property/url
+5265
+http://es.dbpedia.org/property/etnia
+54
+http://dbpedia.org/ontology/wikiPageRevisionID
+22781
+http://es.dbpedia.org/property/subtítulo
+914
+http://es.dbpedia.org/property/vicegobernador
+481
+http://es.dbpedia.org/property/conocidoPor
+33
+http://es.dbpedia.org/property/idioma
+891
+http://es.dbpedia.org/property/title
+389
+http://es.dbpedia.org/property/periodo
+16
+http://es.dbpedia.org/property/facebook
+356
+http://es.dbpedia.org/property/descripción
+90
+http://es.dbpedia.org/property/otrosnombres
+7
+http://es.dbpedia.org/property/3data
+120
+http://es.dbpedia.org/property/área
+59
+http://es.dbpedia.org/property/chapter
+3
+http://es.dbpedia.org/property/estado
+21

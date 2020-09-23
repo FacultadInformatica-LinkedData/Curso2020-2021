@@ -1,0 +1,58 @@
+{
+  "@context": {
+      "person": "http://example.org/person",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "fullName": "http://example.org/fullname",
+      "age":{
+        "@id": "http://example.org/age",
+        "@type":"xsd:integer"
+        },
+      "hometown": {
+        "@id": "http://example.org/hometown",
+        "@type": "@id"
+        },
+      "almaMater": {
+        "@id": "http://example.org/almaMater",
+        "@type": "@id"
+        },
+      "parentsName": {
+        "@id": "http://example.org/parentsName",
+        "@type": "xsd:string"
+        },
+      "subjects": "http://example.org/subjects",
+      "subject": "http://example.org/subject",
+      "teachers": "http://example.org/teachers",
+      "description": {
+        "@id": "http://example.org/description",
+        "@type": "xsd:string"
+        }
+      },
+  "@type": "person",
+  "fullName": "Ignacio de las Alas-Pumariño Martínez",
+  "age": 26,
+  "hometown": "Madrid",
+  "almaMater": "Universidad Politécnica de Madrid",
+  "parentsName": ["Ignacio", "Belén"],
+  "subjects": [
+    {
+      "subject": "Semantic Web",
+      "teachers": ["Oscar Corcho Garcia","Raul Garcia Castro"],
+      "description": "The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication of vocabularies and data on the Web of Linked Data, as well as knowledge graphs."
+      },
+    {
+      "subject": "Sistemas de Planificación",
+      "teachers": ["Vicente Martinez Orga"],
+      "description": "Todos los procesos para ser desarrollados precisan de un proceso de planificación, de la bondad de ese plan se generará un proyecto malo, bueno u óptimo, la capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado."
+    },
+    {
+      "subject": "Gestión de procesos de tecnologías de la información",
+      "teachers": ["Edmundo Tovar Caro", "Jose Ramon Sanchez Palomares", "Maria Pilar Rodriguez Gonzalez"],
+      "description": "En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+    },
+    {
+      "subject": "Nanotecnología",
+      "teachers": ["M.estibaliz Martinez Izquierdo", "Maria Mercedes Perez Castellanos"],
+      "description": "En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca."
+    }
+  ]
+}
