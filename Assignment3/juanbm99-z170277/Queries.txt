@@ -1,0 +1,51 @@
+
+--------------------------------1-------------------------------------
+
+SELECT DISTINCT ?p
+WHERE
+{
+	?x rdf:type <http://dbpedia.org/ontology/Politician>.
+	?x ?p ?o. 
+}	
+
+--------------------------------2-------------------------------------
+
+SELECT DISTINCT ?p
+WHERE
+{
+	?x rdf:type <http://dbpedia.org/ontology/Politician>.
+	?x ?p ?o .
+	FILTER (?p != rdf:type).
+}	
+
+--------------------------------3-------------------------------------
+
+SELECT DISTINCT ?o
+WHERE
+{
+	?x rdf:type <http://dbpedia.org/ontology/Politician>.
+	?x ?p ?o .
+	FILTER (?p != rdf:type).
+}	
+
+--------------------------------4-------------------------------------
+
+SELECT DISTINCT ?p ?o
+WHERE
+{
+	?x rdf:type <http://dbpedia.org/ontology/Politician>.
+	?x ?p ?o .
+	FILTER (?p != rdf:type).
+}	
+
+--------------------------------5-------------------------------------
+
+SELECT ?p COUNT (DISTINCT ?o)
+WHERE
+{
+	?x rdf:type <http://dbpedia.org/ontology/Politician>.
+	?x ?p ?o .
+	FILTER (?p != rdf:type).
+}	
+
+----------------------------------------------------------------------

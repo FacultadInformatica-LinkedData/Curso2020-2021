@@ -1,0 +1,58 @@
+{
+	"@context":{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"person":"http://www.ontologies.org/ontologies/People#",
+		"s":"http://www.example.org/",
+		"hometown":"s:hometown",
+		"fullname":"s:fullname",
+		"age":"s:age",
+		"alma_mater":"s:alma_mater",
+		"subjects":"s:subjects",
+		"parents-name":"s:parents-name",
+		"teachers":"s:teachers",
+		"padre":"s:padre",
+		"madre":"s:madre",
+		"brief_Description":"s:brief_Description"
+		"student":"s:student"
+		},
+		
+	"@id":"http://www.example.org/yo",
+	"@type" : "person:student",
+	"fullname":{
+		"@value":"Gabriel Morillo Pileño",
+		"@type":"xsd:string"
+		},
+	"hometown":{
+	
+		"@value":"Madrid",
+		"@type":"xsd:string"
+		},
+	"age":20,
+	"alma_mater":{
+		"@value":"Universidad Politecnica de Madrid",
+		"@type":"xsd:string"
+		},
+	"parents-name":{
+		"padre":{
+			"@value":"Javier",
+			"@type":"xsd:string"
+		},
+		"madre":{
+			"@value":"Elena",
+			"@type":"xsd:string"
+		}
+		},
+	"subjects":[{
+		"name":"Linked Data",
+		"teachers":["Oscar Corcho","Paola Espinoza","Raúl García Castro"],
+		"brief_Description":"data relationship with web and other tipe of web data"
+	
+		},
+		{
+		"name":"Tecnicas de Computación Cientifica",
+		"teachers":["Vicente Martín, Juan Pedro Benito"],
+		"Brief Description":"show most cientific impact basic computational techniques to students "
+		}
+
+		git]
+	}
