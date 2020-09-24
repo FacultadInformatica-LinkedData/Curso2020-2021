@@ -1,0 +1,35 @@
+{
+	"@context":{
+		"student":"http://upm.com/student/",
+		"fullName":"student:fullName",
+		"hometown":"student:hometown",
+		"age":"student:age",
+		"almaMater":"student:almaMater",
+		"parentsName":"student:parentsName",
+		"subjectsSet":"student:subjectsSet",
+		"father":"parentsName:father",
+		"mother":"parentsName:mother",
+		"subjectsName":"subjectsSet:subjectsName",
+		"subjectsTeachers":"subjectsSet:subjectsTeachers",
+		"subjectsDescription":"subjectsSet:subjectsDescription"
+	},
+
+	"@id":"http://upm.com/student/ricardo/",
+	"@type":"student:ricardo",
+	"fullName":"Ricardo López Crespo",
+	"hometown":"Comunidad de Madrid",
+	"age":"21",
+	"almaMater":"UPM",
+	"parentsName":[{
+		"father":"Ricardo López",
+		"mother":"María del Coral Crespo"
+	}],
+
+	"subjectsSet":[{
+		"subjectsName":"Semantic Web, Linked Data and Knowledge Graphs",
+		"subjectsTeachers":["Óscar Corcho García","Raúl García Castro"],
+		"subjectsDescription":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+	}]
+
+}
+

@@ -18,7 +18,7 @@ from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
-g.namespace_manager.bing('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
+g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/resources/example6.rdf", format="xml")
 
 """**TASK 7.1: List all subclasses of "Person" with RDFLib and SPARQL**
