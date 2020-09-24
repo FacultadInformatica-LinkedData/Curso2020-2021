@@ -1,0 +1,39 @@
+{
+	"@context":{
+      	"rdfs":"https://www.w3.org/2000/01/rdf-schema#",
+     	"vocab": "http://example.org/elements#",
+		"xsd":"http://www.w3.org/2001/XMLSchema#"
+	},
+	
+  "@graph:fromRDFtoJSON-LD":[
+	{
+		"@id": "vocab:Class01",
+		"vocab:includes":[
+			{
+				"@id": "vocab:Sensor029",
+              			"vocab:hasMeasurement":{
+					"@id": "vocab:Measurement8401",
+                      			"vocab:hasTemperature":{
+      						"@type":"xsd:float",
+						"@value": 29
+						},
+                      			"vocab:atTime":{
+                      				"@type": "xsd:dateTime",
+					  	"@value": "2010-06-12T12:00:12"
+						}
+                    		}
+			},
+         	{
+            	"@id": "vocab:Computer101",
+			"vocab:hasOwner":{
+				"@id": "vocab:User10A",
+                      	"vocab:hasName":{
+         			 "@type":"xsd:string",
+          			"@value":"Pedro"
+                      		}
+         		}	
+      		}
+    	]
+	}
+    ]
+}
