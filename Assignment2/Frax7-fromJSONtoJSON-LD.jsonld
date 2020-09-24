@@ -1,7 +1,7 @@
 {
     "@context" : {
       "xsd" : "http://www.w3.org/2001/XMLSchema#",
-      "vocab" : "http://example.org/#",
+      "vocab" : "http://example.org#",
       "name" : "vocab:name",
       "lastName" : "vocab:lastName",
       "hometown" : "vocab:hometown",
