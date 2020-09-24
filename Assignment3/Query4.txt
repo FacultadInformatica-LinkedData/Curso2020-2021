@@ -1,0 +1,8 @@
+SELECT DISTINCT ?properties ?propValor 
+WHERE {
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?properties ?propValor 
+
+FILTER(?properties != rdf:type)
+}
+LIMIT 25
