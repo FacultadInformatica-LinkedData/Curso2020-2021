@@ -15,31 +15,29 @@
 		"hasOwner":"as:hasOwner"
 	},
 	
-	"Class01": {"@id":"http://www.example.org/class01",
+	 {"@id":"http://www.example.org/class01",
 		"@type":"class",
 		"includes":[ 
 			{
-			"Sensor029":{"@id":"http://www.example.org/class01/sensor029",
+			"@id":"http://www.example.org/class01/sensor029",
 				     "@type":"sensor",
-				     "hasMeasurement":{"Measurement8401":{
+				     "hasMeasurement":{
 								"@id":"http://www.example.org/class01/sensor029",	
 								"@type":"measurement",						 
 								"hasTemperature":"29",
 						 		"atTime":"2010-0612T12:00:12"
 								}
-						 }					
-				   }
+						 						   
 			},
-			{
-			 "Computer101":{"@id":"http://www.example.org/class01/computer101",
+			
+			 {"@id":"http://www.example.org/class01/computer101",
 					"@type":"computer",
-					"hasOwner":{"User10A":{"@id":"http://www.example.org/class01/computer101/user10A",
+					"hasOwner":{"@id":"http://www.example.org/class01/computer101/user10A",
 							      "@type":"user",
 							   "hasName":"Pedro"}
-						    }	
-					}
+						    	
 			}
+			
 
 			]
  }
-}
