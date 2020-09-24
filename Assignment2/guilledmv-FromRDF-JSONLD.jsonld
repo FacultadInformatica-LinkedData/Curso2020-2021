@@ -1,0 +1,53 @@
+{
+	"@context":{
+
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"components":"http://example.org/",
+		"Class01":"components:Class01",
+		"Sensor029":"Class01:Sensor029",
+		"Computer101":"Class01:Computer101",
+		"Measurement8401":"Sensor029:Measurement8401",
+		"User10A":"Computer101:User10A",
+		"includes":"components:includes",
+		"hasMeasurement":"components:hasMeasurement",
+		"hasTemperature":"components:hasTemperature",
+		"atTime":"components:atTime",
+		"hasOwner":"components:hasOwner",
+		"hasName":"components:hasName"
+
+	},
+    "@id":"http://example.org/Class01/",
+	"@type":"components:Class01",
+	"includes": [
+	{
+				"@id":"http://example.org/Class01/Sensor029/",
+				"@type":"Class01:Sensor029",
+				"hasMeasurement":{
+					"@id":"http://example.org/Class01/Sensor029/Measurement8401/",
+					"@type":"Sensor029:Measurement8401",
+					"hasTemperature":{
+						"@value": 29,
+						"@type": "xsd.integer"
+					},
+					"atTime": {
+						"@value": "2010-06-12T12:00:12",
+						"@type": "xsd.dateTime"
+			}
+		}
+	},
+	{
+				"@id":"http://example.org/Class01/Computer101/",
+				"@type":"Class01:Computer101",
+				"hasOwner":{
+						"@id":"http://example.org/Class01/Computer101/User10A",
+                  		"@type":"Computer101:User10A",
+						"hasName":{
+							"@value":"Pedro",
+							"@type":"xsd.string"
+			}
+		}
+	}
+
+	]
+
+}

@@ -1,0 +1,55 @@
+{
+  "@context" : {
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "vocab" : "http://example.org/specialVocab/Assignment2b",
+    "name" : "vocab:name",
+    "middleName" : "vocab:middleName",
+    "lastName" : "vocab:lastName",
+    "hometown" : "vocab:hometown",
+    "country" : "vocab:country",
+    "age" : "vocab:age",
+    "almaMater" : "vocab:almaMater",
+    "mothesrName" : "vocab:mothesrName",
+    "fathesrName" : "vocab:fathesrName",
+    "subject" : "http://example.org/subject",
+    "teachers" : "http://example.org/teachers",
+    "description" : "rdfs:comment"
+  },
+  "@id" : "http://example.org/specialVocab/Assignment2b/jorgesolgonzalez",
+  "@type" : "vocab:student",
+  "name" : "Jorge",
+  "middleName" : "Sol",
+  "lastName" : "Gonzalez",
+  "hometown" : "Madrid",
+  "country" : "España",
+  "age" : "21",
+  "almaMater" : "Universidad Politecnica Madrid",
+  "mothersName" : "Almudena",
+  "fathersName" : "Daniel",
+  "subject" : [
+    {
+      "name" : "Ingenieria del Software II",
+      "teachers" : [
+        {
+          "name" : "Tomas San Feliu Gilabert"
+        },
+        {
+          "name" : "Jose Antonio Calvo"
+        }
+      ],
+      "description" : "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software."
+    },
+    {
+      "name" : "Gestion de Procesos de Tecnologia de la Información",
+      "teachers" : [
+        {
+          "name" : "Oscar Dieste Tubio"
+        },
+        {
+          "name" : "Edmundo Tovar Caro"
+        }
+      ],
+      "description" : "En  esta  asignatura  se  tratan  los  elementos  de  una  organización,  la  gestión  por  procesos,  y  modelos  de  calidadaplicados a organizaciones de TI"
+    }
+  ]
+}

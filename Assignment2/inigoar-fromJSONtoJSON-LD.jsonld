@@ -1,0 +1,49 @@
+{
+  "@context": {
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "student": "http://example.org/student",
+      "fullName":{
+        "@id": "http://example.org/fullname",
+        "@type": "xsd:string"
+        },
+      "age":{
+        "@id": "http://example.org/age",
+        "@type":"xsd:integer"
+        },
+      "hometown": {
+        "@id": "http://example.org/hometown",
+        "@type": "@id"
+        },
+      "almaMater": {
+        "@id": "http://example.org/almaMater",
+        "@type": "@id"
+        },
+      "parents": {
+        "@id": "http://example.org/parents",
+        "@type": "xsd:string"
+        },
+      "subjects": "http://example.org/subjects",
+      "subject": "http://example.org/subject",
+      "teacher": "http://example.org/teacher",
+      "description": {
+        "@id": "http://example.org/description",
+        "@type": "xsd:string"
+        }
+      },
+  "student": {
+  "@id": "http://example.org/student",
+  "@type": "student",
+  "fullName": "Iñigo Aranguren Redondo",
+  "age": 24,
+  "hometown": "Madrid",
+  "almaMater": "Universidad Politécnica de Madrid",
+  "parents": ["Antonio", "Ana"],
+  "subjects": [
+    {
+      "subject": "Semantic Web, Linked Data and Knowledge Graphs",
+      "teacher": "Oscar Corcho Garcia",
+      "description": "The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication of vocabularies and data on the Web of Linked Data."
+     }
+  ]
+  }
+}
