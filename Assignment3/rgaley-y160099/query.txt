@@ -38,3 +38,11 @@ FILTER(?p != rdf:type) .
 }
 
 Query 5:
+
+SELECT DISTINCT ?p COUNT(DISTINCT ?y)
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?y .
+FILTER(?p != rdf:type) .
+}
