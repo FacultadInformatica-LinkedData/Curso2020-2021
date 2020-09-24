@@ -1,1 +1,19 @@
-lkig
+Query 1:
+
+SELECT DISTINCT ?p
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician>
+?x ?p ?y
+}
+
+Query 2:
+
+
+Query 3:
+
+
+Query 4:
+
+
+Query 5:
