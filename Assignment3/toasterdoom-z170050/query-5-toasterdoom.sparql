@@ -1,0 +1,8 @@
+PREFIX ont: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y COUNT(?z)
+WHERE {
+    ?x rdf:type ont:Politician .
+    ?x ?y ?z .
+    FILTER (?y != rdf:type)
+}
+

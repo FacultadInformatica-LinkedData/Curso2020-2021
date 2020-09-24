@@ -6,18 +6,18 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY example6 "http://somewhere#" >
-    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
-    <!ENTITY vcard-rdf "http://www.w3.org/2001/vcard-rdf/3.0/" >
+    <!ENTITY foaf "http://www.semanticweb.org/ontologies/example6.rdf#http://xmlns.com/foaf/0.1/" >
+    <!ENTITY vcard-rdf "http://www.semanticweb.org/ontologies/example6.rdf#http://www.w3.org/2001/vcard-rdf/3.0/" >
 ]>
 
 
 <rdf:RDF xmlns="http://somewhere#"
      xml:base="http://somewhere"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:foaf="&example6;http://xmlns.com/foaf/0.1/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:vcard-rdf="http://www.w3.org/2001/vcard-rdf/3.0/"
+     xmlns:vcard-rdf="&example6;http://www.w3.org/2001/vcard-rdf/3.0/"
      xmlns:example6="http://www.semanticweb.org/ontologies/example6.rdf#">
   
 
@@ -29,15 +29,15 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 	 
-    <rdfs:Datatype rdf:about="&vcard-rdf;FN">
+    <rdfs:Datatype rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/FN">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
-    <rdfs:Property rdf:about="&vcard-rdf;Family">
+    <rdfs:Property rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Family">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Property>
 
-    <rdfs:Datatype rdf:about="&vcard-rdf;Given">
+    <rdfs:Datatype rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Given">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
  
@@ -85,7 +85,7 @@
         <vcard-rdf:Family rdf:datatype="&xsd;string">Smith</vcard-rdf:Family>
     </Person>
 	
-    <Researcher rdf:about="#JaneSmith">
+	<Researcher rdf:about="#JaneSmith">
         <vcard-rdf:Given rdf:datatype="&xsd;string">Jane</vcard-rdf:Given>
         <vcard-rdf:FN rdf:datatype="&xsd;string">jane Smith</vcard-rdf:FN>
         <vcard-rdf:Family rdf:datatype="&xsd;string">Smith</vcard-rdf:Family>
@@ -94,5 +94,4 @@
 	<University rdf:about="#UPM"/>
 	
 </rdf:RDF>
-
 

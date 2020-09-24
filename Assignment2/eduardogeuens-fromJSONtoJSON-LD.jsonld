@@ -1,0 +1,45 @@
+{
+	"@context":{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"subjects": "http://www.w3.org/2001/UPM/subjects/",
+		"teachers": "http://www.w3.org/2001/UPM/teachers/",
+		"attr": "http://www.w3.org/2001/UPM/attributes/",
+		"person": "http://xmlns.com/foaf/0.1/Person",
+		"name": "attr:name",
+		"fullName": "attr:fullName",
+		"hometown": "attr:hometown",
+		"age": "attr:age",
+		"almaMater": "attr:almaMater",
+		"parentsName": "attr:parentsName",
+		"description": "attr:description"
+	},
+	"@id":"http://assignment2b.com/z170073",
+	"@type":"person",
+	"fullName":"Eduardo Geuens Alvarez",
+	"hometown":"Pozuelo de Alarcon",
+	"age":"21",
+	"almaMater":"Universidad Politecnica de Madrid",
+	"parentsName": ["Rosario", "Eric"],
+	"subjects":[
+			{ "name":"Semantic Web, Linked Data and Knowledge Graphs",
+		  "teachers":[{
+		  	"name":"Oscar Corcho Garcia"
+			},
+			{
+			"name":"Raul Garcia Castro"
+			}
+			],
+			"description":"Fundamentos teóricos y aplicaciones del reconocimiento automático en robótica y procesamiento de datos"
+		},
+		{ "name":"Reconocimiento de formas",
+		  "teachers":[{
+			"name":"Dario Maravall"
+			},
+			{
+			"name":"Luis Baumela"
+			}
+			],
+			"description":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the"
+		}
+	]
+	}

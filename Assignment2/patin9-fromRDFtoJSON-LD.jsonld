@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "assig": "http://www.assignment2.es/devices#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "assig:Sensor029",
+      "assig:hasMeasurement": {
+        "@id": "assig:Measurement8401"
+      }
+    },
+    {
+      "@id": "assig:Measurement8401",
+      "assig:atTime": {
+        "@type": "http://www.w3.org/2001/XMLSchemadateTime",
+        "@value": "2010-06-12T12:00:12"
+      },
+      "assig:hasTemperature": {
+        "@type": "http://www.w3.org/2001/XMLSchemainteger",
+        "@value": "29"
+      }
+    },
+    {
+      "@id": "assig:Computer101",
+      "assig:hasOwner": {
+        "@id": "assig:User10A"
+      }
+    },
+    {
+      "@id": "assig:User10A",
+      "assig:hasName": "Pedro"
+    },
+    {
+      "@id": "assig:Class01",
+      "assig:includes": [
+        {
+          "@id": "assig:Sensor029"
+        },
+        {
+          "@id": "assig:Computer101"
+        }
+      ]
+    }
+  ]
+}
