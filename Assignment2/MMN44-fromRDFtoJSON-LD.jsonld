@@ -1,67 +1,55 @@
 {
   "@context": {
-    "vocab": "http:www.example.org/ontology#",
-    "Class01": "vocab:class",
-    "Sensor029": "vocab:sensor",
-    "Measurement8401": "vocab:measurement",
-    "Computer101": "vocab:computer",
-    "User10A": "vocab:user",
-    "prop": "http://www.example.org/properties#",
-    "includes":{
-      "@id": "prop:includes"
-    },
-    "hasMeasurement": {
-      "@id": "prop:hasMeasurement"
-    },
-    "hasTemperature": {
-      "@id": "prop:hasTemperature",
-      "@type": "xsd:integer"
-    },
-    "atTime": {
-      "@id": "prop:atTime",
-      "@type": "xsd:dateTimeStamp"
-    },
-    "hasOwner": {
-      "@id": "prop:hasOwner"
-    },
-    "hasName": {
-      "@id": "prop:hasName",
-      "@type": "xsd:string"
-    },
+    "vocab": "http://example.org/elements#",
+    "prop": "http://example.org/properties#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   
-  "@graph": [
-    {  
-      "Class01": {
-        "includes": ["Sensor029", "Computer101"]
-      }
-  	},
-    
-    {
-      "Sensor029": {
-        "hasMeasurement": "Measurement8401"
-      }
-    },
-    
-    {
-      "Measurement8401": {
-        "hasTemperature": "29",
-        "atTime": "2010-06-12T10:00:12"
-      }
-    },
-    
-    {
-      "Computer101": {
-        "hasOwner": "User10A"
-      }
-    },
-    
-    {
-      "User10A": {
-        "hasName": "Pedro"
-      }
-    }
-  ]
-}
-}
+  "@id": "fromRDFtoJSON-LD",
+  "@graph":
+	[
+		{
+			"@id": "vocab:Class01",
+          	"prop:includes":[
+				{
+					"@id": "vocab:Sensor029"
+				},
+				{
+					"@id": "vocab:Computer101"
+				}
+				]
+		},
+		{
+			"@id": "vocab:Sensor029",
+			"prop:hasMeasurement" :
+				{
+					"@id": "vocab:Measurement8401"  
+				}
+		},
+		{
+			"@id": "vocab:Measurement8401",
+			"prop:hasTemperature": {
+				"@value": "29",
+				"@type": "xsd:int"
+			},
+			"prop:atTime": {
+				"@value": "2010-06-12T12:00:12",
+				"@type": "xsd:dateTimeStamp"
+			}
+		},
+		{
+			"@id": "vocab:Computer101",
+			"prop:hasOwner": 
+				{
+					"@id": "vocab:User10A"
+				}
+		},
+		{	
+			"@id": "vocab:User10A",
+		 	"prop:hasName": {
+				"@value": "Pedro",
+				"@type": "xsd:String"
+			}
+		}
+	]
+}		
