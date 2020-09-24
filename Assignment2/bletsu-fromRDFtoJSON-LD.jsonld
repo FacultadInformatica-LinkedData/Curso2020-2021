@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+	"obj": "http://www.w3.org/2001/UPM/obj/",
+	"sensor": "http://www.w3.org/2001/UPM/obj/sensor",
+	"comp": "http://www.w3.org/2001/UPM/obj/computer",
+	"mea": "http://www.w3.org/2001/UPM/obj/measurements",
+	"user": "http://www.w3.org/2001/UPM/obj/user",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	"attr": "http://www.w3.org/2001/UPM/attributes/",
+	"includes": "attr:includes",
+	"hasMeasurement": "attr:measurements",
+	"hasOwner": "attr:hasOwner",
+	"hasName": "attr:hasName",
+	"hasTemperature": "attr:hasTemperature",
+	"atTime":"attr:atTime"
+	
+  },
+  "@graph": [
+    {
+      "@id": "obj:Class01",
+	  "@type":"obj",
+      "includes": [
+        {
+          "@id": "sensor:Sensor029",
+		  "@type":"sensor"
+        },
+        {
+          "@id": "comp:Computer101",
+		  "@type":"comp"
+        }
+      ]
+    },
+    {
+      "@id": "sensor:Sensor029",
+	  "@type":"sensor",
+      "hasMeasurement": {
+        "@id": "mea:Measurement8401",
+		"@type":"mea"
+      }
+    },
+    {
+      "@id": "mea:Measurement8401",
+	  "@type":"mea",
+      "hasTemperature": 29,
+      "atTime": {
+        "@value": "2010-06-12T12:00:12",
+        "@type": "xsd:dateTime"
+      }
+    },
+    {
+      "@id": "comp:Computer101",
+	  "@type":"comp",
+      "hasOwner": {
+        "@id": "user:User10A",
+		"@type":"user"
+      }
+    },
+    {
+      "@id": "user:User10A",
+	  "@type":"user",
+      "hasName": {
+        "@value": "Pedro",
+        "@type": "xsd:string"
+      }
+    }
+  ]
+} 
