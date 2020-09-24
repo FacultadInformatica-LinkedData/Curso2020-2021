@@ -7,8 +7,12 @@
     "Computer101": "vocab:computer",
     "User10A": "vocab:user",
     "prop": "http://www.example.org/properties#",
-    "includes":"prop:includes",
-    "hasMeasurement": "prop:hasMeasurement",
+    "includes":{
+      "@id": "prop:includes"
+    },
+    "hasMeasurement": {
+      "@id": "prop:hasMeasurement"
+    },
     "hasTemperature": {
       "@id": "prop:hasTemperature",
       "@type": "xsd:integer"
@@ -17,7 +21,9 @@
       "@id": "prop:atTime",
       "@type": "xsd:dateTimeStamp"
     },
-    "hasOwner": "prop:hasOwner",
+    "hasOwner": {
+      "@id": "prop:hasOwner"
+    },
     "hasName": {
       "@id": "prop:hasName",
       "@type": "xsd:string"
@@ -25,24 +31,37 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   
-  "Class01": [{
-    "includes": "Sensor029",
-    "Sensor029": {
-      "hasMeasurement": "Measurement8401",
-      "Measurement8401":{
-        "hasTemperature": "29",
-        "atTime": "2010-06-12T12:00:12"
-      	}
+  "@graph": [
+    {  
+      "Class01": {
+        "includes": ["Sensor029", "Computer101"]
       }
   	},
-  	{
-    "includes": "Computer101",
-    "Computer101": {
-      "hasOwner": "User10A",
+    
+    {
+      "Sensor029": {
+        "hasMeasurement": "Measurement8401"
+      }
+    },
+    
+    {
+      "Measurement8401": {
+        "hasTemperature": "29",
+        "atTime": "2010-06-12T10:00:12"
+      }
+    },
+    
+    {
+      "Computer101": {
+        "hasOwner": "User10A"
+      }
+    },
+    
+    {
       "User10A": {
         "hasName": "Pedro"
-      	}
-      } 
-    }  
+      }
+    }
   ]
+}
 }
