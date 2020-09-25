@@ -1,7 +1,7 @@
 select distinct ?p 
 where 
 {
- ?inst rdf:type <http://dbpedia.org/ontology/Politician>.
+ ?i rdf:type <http://dbpedia.org/ontology/Politician>.
  ?i ?p ?o
 } 
 
