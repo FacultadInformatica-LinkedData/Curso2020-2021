@@ -29,34 +29,40 @@ for s, p, o in g:
 from rdflib.plugins.sparql import prepareQuery
 
 ns = Namespace("http://somewhere#")
-subclasses=[]
 
 # **TASK 7.1: List all subclasses of "Person" with RDFLib and SPARQL**
+print("\nTASK 7.1: List all subclasses of Person with RDFLIB")
 
-print("\nTASK 7.1: List all subclasses of Person")
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+    print(s)
+
+print("\nTASK 7.1: List all subclasses of Person with SPARQL")
 
 q1 = prepareQuery('''
   SELECT 
-    ?Subject ?Subject2
+    ?Subject
   WHERE { 
     ?Subject rdfs:subClassOf ns:Person
-    {?Subject2 rdfs:subClassOf ?Subject}
   }
   ''',
   initNs = { "ns": ns, "rdfs": RDFS}
   )
 for r in g.query(q1):
-  uri1= r.Subject
-  uri2= r.Subject2
-  subclasses.append(uri1)
-  subclasses.append(uri2)
-  print(uri1)
-  print(uri2)
+  print(r.Subject)
 
   
 # **TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
-print("\nTASK 7.2: List all individuals of Person")
+print("\nTASK 7.2: List all individuals of Person with RDFLIB")
+
+for s,p,o in g.triples((None,RDF.type,ns.Person)):
+    print(s)
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+    for s2,p2,o2 in g.triples((None,RDF.type,s)):
+        print(s2)
+
+
+print("\nTASK 7.2: List all individuals of Person with SPARQL")
 
 q2 = prepareQuery('''
   SELECT 
@@ -64,39 +70,49 @@ q2 = prepareQuery('''
   WHERE { 
     {?Subject rdf:type ns:Person} 
     UNION
-    {?Subject rdf:type ?Researcher}
-    UNION
-    { ?Subject rdf:type ?PhDstudent}
+    {
+     ?Subject2 rdfs:subClassOf ns:Person.
+     ?Subject  rdf:type ?Subject2 
+    }
   }
   ''',
   initNs = { "ns": ns, "rdf": RDF}
   )
-for r in g.query(q2,initBindings = {'?Researcher' : subclasses[0], '?PhDstudent' : subclasses[1]}):
-  print(r.Subject.toPython())
 
+for r in g.query(q2):
+  print(r.Subject)
 
 # **TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
-print("\nTASK 7.3: List all individuals of Person and all their properties including their class")
+print("\nTASK 7.3: List all individuals of Person and all their properties including their class with RDFLib")
 
+for s,p,o in g.triples((None,RDF.type,ns.Person)):
+    for s2,p2,o2 in g.triples((s,None,None)):
+        print(s2,p2,o2)
+        
+for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
+    for s2,p2,o2 in g.triples((None,RDF.type,s)):
+        for s3,p3,o3 in g.triples((s2,None,None)):
+            print(s3,p3,o3)
+
+print("\nTASK 7.3: List all individuals of Person and all their properties including their class with SPARQL")
 q3 = prepareQuery('''
   SELECT 
     ?Subject ?Predicate ?Object
   WHERE {
       {
-    {?Subject rdf:type ns:Person} 
+    ?Subject rdf:type ns:Person.
+    ?Subject ?Predicate ?Object
+    }
     UNION
-    { ?Subject rdf:type ?Researcher }
-    UNION
-    { ?Subject rdf:type ?PhDstudent}
-    }.
-    {?Subject ?Predicate ?Object} 
+    {
+    ?Subject1 rdfs:subClassOf ns:Person.
+    ?Subject rdf:type ?Subject1.
+    ?Subject ?Predicate ?Object
+    } 
   }
   ''',
   initNs = { "ns": ns, "rdf": RDF}
   )
-contador=0
-for r in g.query(q3,initBindings = {'?Researcher' : subclasses[0], '?PhDstudent' : subclasses[1]}):
-  print("Row "+str(contador) +"\n")
+      
+for r in g.query(q3):
   print(r)
-  print("\n")
-  contador+=1

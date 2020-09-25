@@ -62,12 +62,10 @@ q2 = prepareQuery('''
   ''',
   initNs = { "vcard": vcard}
   )
-contador = 0
+
 for r in g2.query(q2):
-  print("\nRow"+str(contador)+"\n")
   print(r)
   g1.add(r)
-  contador+=1
   
 print("\nGrafo 1 completo: ")
 
