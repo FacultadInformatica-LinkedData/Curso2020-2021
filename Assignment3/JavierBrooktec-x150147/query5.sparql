@@ -1,0 +1,9 @@
+# For each of the properties, except for rdf:type, how many distinct values do they take?
+
+PREFIX on: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y COUNT(DISTINCT ?z)
+WHERE {
+  ?x  a on:Politician .
+  ?x  ?y ?z .
+  FILTER (?y != rdf:type)
+}
