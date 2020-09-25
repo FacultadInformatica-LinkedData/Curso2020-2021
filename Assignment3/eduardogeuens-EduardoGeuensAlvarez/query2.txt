@@ -1,8 +1,8 @@
 select distinct ?p 
 where 
 {
- ?inst rdf:type <http://dbpedia.org/ontology/Politician>.
- ?inst ?p ?obj.
+ ?i rdf:type <http://dbpedia.org/ontology/Politician>.
+ ?i ?p ?o.
  FILTER (?p != rdf:type).
 } 
 
