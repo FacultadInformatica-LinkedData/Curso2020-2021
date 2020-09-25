@@ -1,20 +1,28 @@
-@base <http://www.exercise.es/measures> 
-@prefix : <http://www.exercise.es/measures#> 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://example.org/#> .
 
-:Class01;
-	:includes :Sensor029;
-	:includes :Computer101.
-	
-:Computer101;
-	:hasOwner :User10A.
-	
-:User10A;
-	:hasName "Pedro".
-	
-:Sensor029;
-	:hasMeasurement :Measurement8401.
-	
-:Measurement8401;
-	:hasTemperature 29;
-	:atTime "2010-06-12T12:00:12".
+:Class01 a foaf:Class ;
+    rdfs:includes :Computer101 ;
+    rdfs:includes :Sensor029 ;
+.
+
+:Sensor029 a foaf:Class ;
+   rdfs:hasMeasurement :Measurement8401 ;
+.
+
+:Computer101 a foaf:Class ;
+   rdfs:hasOwner :User10A ;
+.
+
+:Measurement8401 a foaf:Class ;
+   rdfs:hasTemperature "29" ;
+   rdfs:atTime  "2010-06-12T12:00:12" ;
+.
+
+:User10A a foaf:Class ;
+   rdfs:hasName "Pedro" ;
+.
+
+
 
