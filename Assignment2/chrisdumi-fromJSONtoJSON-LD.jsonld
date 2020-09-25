@@ -18,20 +18,18 @@
      "hometown":"Madrid",
      "age":"21",
      "almaMater":"UPM",
-     "parents":[Danut Dumitrescu, Rossana Esquivel],
+     "parents":["Danut Dumitrescu", "Rossana Esquivel"],
      "subjects":[
           {
                "name":"EPAC",
-               "teachers":[Elena Montiel Ponsoda, Jelena Bobkina],
-               "Description":"The main objective of this course is to make students aware of the importance of effective communication skills in
-               academic or professional settings"
-          }
+               "teachers":["Elena Montiel Ponsoda", "Jelena Bobkina"],
+               "Description":"The main objective of this course is to make students aware of the importance of effective communication skills in academic or professional settings"
+          },
 
           {
                "name":"Gestion de Procesos",
-               "teachers":[Oscar Dieste Tubio, Edmundo Tovar Caro, Jose Ramon Sanchez Palomares, Maria Pilar Rodriguez],
-               "Description":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad
-               aplicados a organizaciones de TI"
+               "teachers":["Oscar Dieste Tubio", "Edmundo Tovar Caro", "Jose Ramon Sanchez Palomares", "Maria Pilar Rodriguez"],
+               "Description":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
           }
      ]
 
