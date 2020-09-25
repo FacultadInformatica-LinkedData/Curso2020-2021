@@ -1,0 +1,3634 @@
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="prop"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/2000/01/rdf-schema#comment</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/2002/07/owl#sameAs</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://xmlns.com/foaf/0.1/topic</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://xmlns.com/foaf/0.1/homepage</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://purl.org/dc/terms/subject</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://xmlns.com/foaf/0.1/isPrimaryTopicOf</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/gabinete</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/afiliaciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almaMáter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almamáter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cargo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/causaMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ciudadanía</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conflictos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cónyuge</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distrito</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/educación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/escudo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeFallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/final</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hijos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/inicio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lenguaMaterna</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeDescanso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeFallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacionalidad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombre</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreCompleto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreDeNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreNativo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ocupación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/padres</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/partido</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/partidoPolítico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/período</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pieDeImagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pieimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predecesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premios</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primerministro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/profesión</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/religión</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/residencia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sitioWeb</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamaño</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/título</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/etnia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/monarca</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/deathPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/birthPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/wikiPageID</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/wikiPageRevisionID</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/wikiPageExternalLink</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/wikiPageLength</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/child</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/nationality</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/occupation</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/party</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/profession</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/religion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/residence</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/successor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/ns/prov#wasDerivedFrom</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/abstract</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/2007/05/powder-s#describedby</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apellido</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apellidos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apodo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/año</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/capítulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/edición</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editorial</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/empleador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/familiares</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fecha</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaacceso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/isbn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/número</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pareja</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/posgrado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/publicación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/páginas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/seudónimo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sitioweb</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoDeImagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tratamiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/twitter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ubicación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/url</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/volumen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/juntoa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almaMater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cargoOcupado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/condena</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/embajadorde</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechanac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarnac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ordenaciónSacerdotal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/país</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucesora</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicegobernador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cargosCriminales</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/situaciónPenal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/2data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/autor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añosDeServicio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/condecoraciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechamuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/gobernador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/id</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lealtad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarmuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mandos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/notas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otros</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/rama</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/rango</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/subtítulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicepresidente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cabecera</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conocidoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/idioma</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/miembroDe</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dead</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predecesora</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/wikiPageInterLanguageLink</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/country</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estadoCivil</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/issn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/obra</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/obrasNotables</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/urlarchivo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicejefe</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enelcargo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enlaceautor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/firma</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/oponentes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/date</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/textoimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/list</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/title</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enciclopedia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/formato</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nominado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/residence</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/4data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/designado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/esposa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/smallimage</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/títuloTesis</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoTesis</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/spouse</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/c</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombrename</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/obras</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/p</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/periodo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/w</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/actividad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/batallas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/género</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/obrasDestacadas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/origen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/proyectosRepresentativos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/significado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/zona</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/award</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarnac.</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/serie</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/unidad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/canciller</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/facebook</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaarchivo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/doblador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/edad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/familia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechanacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/juntoA</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/listatecnicas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreEs</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otrosnombres</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primeraaparicion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/procedencia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/relevancia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sangre</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/seiyu</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sexo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tipotecnicas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/descripción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otrosNombres</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/preposicion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/termino</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/titulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/finMandato</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/inicioMandato</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/3data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/altura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/separador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apellidoEditor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apellidosEditor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enlaceEditor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarnacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/máscaraautor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreEditor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ocupacion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/revista</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/web</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/doi</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/name</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/periódico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/publisher</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/página</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/firmaTamaño</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/piedemagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoImagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/acusaciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fórmula</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/office</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/orderInOffice</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fortuna</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacionalidad(es)_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacionalidates</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/creación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/precedido</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primero</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sede</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sitio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucesión</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/profesion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoOriginal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/blog</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/intendente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pieDeFoto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pieescudo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/área</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sitioRedesSociales</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/congregación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conocido</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/datos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/etiqueta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fin</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechafal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/jstor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/agencia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/oclc</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pieImagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añosActivo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/birthPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/booktitle</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/chapter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/contenido</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor1First</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor1Last</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor2First</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor2Last</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/first</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/instrumento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/jefe</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/last</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pie</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/relacionados</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/títulos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/year</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ref</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hermanos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/partidopolítico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ignoreIsbnError</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/journal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/others</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/servicio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/width</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estatus</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/insignias</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/misiones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nota</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/partidos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sined</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/zar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cat</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/coautores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/consagración</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mandato</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/t</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/teniente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tipo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/gobernadora</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/succesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estatura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/madre</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/padre</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/empresa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/subtitulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vivióEn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almámater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/comuna</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor1Link</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor3First</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editor3Last</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nationalidad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/transTitle</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alianza</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/author</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/empleos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/encyclopedia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/muerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pages</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alcalde</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/align</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fuente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/gobrnador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pieFoto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/quote</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/website</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conyuge</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/viceprimerministro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/authorlink</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/location</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bandera</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hangul</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hanja</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lenguaLiteraria</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeEntierro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/colwidth</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeResidencia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/títulotrad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagesize</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editorFirst</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editorLast</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeDesaparición</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/magazine</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/origyear</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/s</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/patidoPolítico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almamater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/textoImagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ciudadNatal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/clubActual</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagenTamaño</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mr</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/reinado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/rr</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/selecciónNacionalPeríodo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1a</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1p</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1pp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1ps</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1y</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/2a</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/2p</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/2pp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/2ps</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/2y</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/3a</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/3p</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/3pp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/3ps</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/3y</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/4a</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/4p</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/4y</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/5data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ancho</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dirección</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/foto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/posiciónTabla</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/texto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/epígrafe</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/educadaEn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/causaDeMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeFallecimient</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreReal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/secretario</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/secretarioGeneral</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/wikidata</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/páginaWeb</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alineaciónFoto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alineaciónTexto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/posición</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/posiciónTítulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/peso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primerMinistro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cónyugue</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estudios</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apodos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/antecesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaPublicación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarPublicación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/númeroAutores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almamáterSas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/politico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidenciaDe</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/deporte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/autores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hijos/as</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/citaCélebre</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1blankname</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/birthname</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/deathDate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/birthName</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/gobernadorgeneral</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/postgrados</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/títuloTrad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidenteDeLaRepublica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premier</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/portal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nationality</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ciudadania</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/suplente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hijo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/religion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/junetoa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cónyuges</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/movimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoEscudo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoFallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/díaFallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/díaNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/porcentajeVotosEnBlanco</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/color</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/contribution</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/edition</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/elección</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/place</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/porcentaje</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/títuloNombres</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/volume</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/votos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/votosEnBlanco</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mostrarEscaños</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/porcentajeParticipación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/porcentajeVotosNulos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/porcentajeVotosVálidos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/títuloPartidos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/votosEmitidos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/votosNulos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/votosVálidos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vuelta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/oficio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/termEnd</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/termStart</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/wikiPageRedirects</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ieimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predeceso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conyugue</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/debut</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/debutInternacional</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/equipoDebut</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/equipoRetiro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaFallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarFallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombrecompleto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/retiro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vecesInternacional</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicepreidente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/coronación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dinastía</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/heredero</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/influenciadoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hermanas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/article</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/relaciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/urlcapítulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bgcolor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/source</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/video</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/canon</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/caption</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/especie</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/listaextra</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreJa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreJaLatino</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/organización</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/raza</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tipoextra</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cargos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/birthName</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/direction</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/image</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/honorificSuffix</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añosActiva</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeFalleciemiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/link</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/patrimonio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/colección</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/language</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otrasAfiliaciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sinpp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/height</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nieta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bisnieto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/encontradoEn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/derogación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/díaCreado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/díaRatificado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/función</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/magister</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/promulgación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/esposa.</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/circunscripción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predecessor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/successor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoDebut</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cita</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imdb</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosAriel</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/afiliaciónPolítica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tíaAbuela</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hija</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/archivo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/parttido</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/colorDeCabello</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/colorDeOjos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicepresidenta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagemSize</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ci</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/group</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nietos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucedidoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/director</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/localización</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/medio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicealcalde</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/amante</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/encabezado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pubPeriódica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/disoluciónDeLaRevuelta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeSepultura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cir</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/rom</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/medioDeComunicación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/piefoto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreEnCastellano</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/escritor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/signatarios</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/artículo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predecesores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucesores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/persona</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tiempo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/álmaMater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/office</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/consorte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/descendencia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoRetiro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ocpación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/6data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distinciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/instagram</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fondoDeTítulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicecanciller</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/oieDeFoto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/jr/sr</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/partidoPolitico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cónguge</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ministro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/rangoMilitar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/piedeimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/luganac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/salario</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoDeEscudo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/b</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/d</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/defunción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/display</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lema</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/n</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/species</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/v</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/voy</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/wikt</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/appointed</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/consecration</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ended</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enthroned</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/parliament</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otherPost</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/authorformat</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/exCargo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estudiantesDoctorales</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/almaMater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechafallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/urlCapítulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/monarch</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/monarch</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/par</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarfallecimientoc</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/piedefoto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alumnoDe</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estudiantes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otrosPartidos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/area</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/editorLink</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/placeOfBirth</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarNac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/golesInternacional</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imageSize</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nominator</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/causamuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tituloNobiliario</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/party</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/excónyuge</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/grupo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/escudo2puta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/series</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidenta(interina)_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/especialización</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pmc</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pmid</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hijas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/escalafón</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/campos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaNac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/blank</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/partidPolítico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hermano</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pieEscudo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/titular</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/origenÉtnico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/blogg</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/entierro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conflicto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/duración</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/logo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreBatalla</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/resultado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/work</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bsize</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cheight</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cwidth</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/description</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/oleft</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otop</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/birthDate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/embajadorDe</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ministroRelExt</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/honorificPrefix</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/awards</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/afi</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/años</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/descripcion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/abreviaturaEnBotánica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mail</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/accessdate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/agency</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/archivedate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/archiveurl</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/authorLink</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/especialidad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/issue</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/newspaper</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/page</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/via</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/urlStatus</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pocupación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/abuelos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/programa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreDeCompleto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mostrarImágenes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mostrarNombres</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/miembro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/orígen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/maestría</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tipocabecera</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/captura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/diputado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/embajador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pais</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/1namedata</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechamurte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/deadurl</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/df</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sepultura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeNac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/club</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enlaceAutor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/golesClubes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/resumen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/acrónimo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otrosMandos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cûnyuge</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dictador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/profesiûn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/master</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/surname</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidenteDelBancoCentralDelUruguay</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/educacion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alias</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/influencias</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreCristian</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/batallas/guerras</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/comando</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/servicioMilitar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/citizenship</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fondoDeTexto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/perrow</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ditrito</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/president</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/president</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lider</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/salign</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/consejero</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreEstudio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/puntofinal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/separadorAutores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreCorrecto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoDeFoto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoFirma</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/traductor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ch</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/leyenda</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ordenación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/subítulo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bando</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/order</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/campo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/asociaciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/descripciónImagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarnc</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicegobernadora</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/occupación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/languagesSpoken</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bgcolour</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/birthDate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/entrenamiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/field</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/minicio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/works</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ideología</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nieto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/eduacación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cementerio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/deathDate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/deathPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/oficina</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/red</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sig</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/licenciatura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primeminister</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/primeMinister</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreEnEspañol</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/suceso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombramiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/perfilDeEstherCuestaSantanaUmassAmherst</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mados</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/órganoJudicial</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añosActividad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/residenciá</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicerectoradministrativo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicerectordocente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicerectorextension</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicerectorinvestigacion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ciuadanía</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enlace</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pSon30ieimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fundador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/situaciónActual</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conocidaPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugardef</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pRedecesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/precesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/viceprimerministra</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/abuelo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/compañíaDiscográfica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/years</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/programas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/supervisoraDoctoral</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/gradoAcadémico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/precedesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreNac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/capítuloTrad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosGloboDeOro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/situaciónSentimental</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidencia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añosActivos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeDefunción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cargoActual</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechamue</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/participoEn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/luagrnac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/posgrados</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lccn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/esposas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alt</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/anchoTotal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enlaceeditor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hijastro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ocupaciión</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/insignia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cadena</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dialecto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/procesos(enInvestigación)_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ideologia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sobrino</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primerminis</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/álmaMáter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/campañas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechadef</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/líder</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otrosPremios</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosCondor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosGoya</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosSanSebastian</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/en</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/float</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/motivo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/youtube</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreOficial</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tenienteDeGobernador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imageWidth</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombrado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/labels</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/campo1Nombre</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sufijo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/institución</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/beatificación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/obispo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/aportaciones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distrto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fondo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/voz</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/canal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacionalida</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechanace</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/detalle</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/educadoEn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enOficina</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreEnPersa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alamaMater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añosEnSevicioMilitar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/2003/01/geo/wgs84_pos#lat</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.w3.org/2003/01/geo/wgs84_pos#long</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://www.georss.org/georss/point</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dobladorEspaña</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dobladorHispanoamérica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagenPie</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imdbId</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lbl</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/postscript</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primera</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/educacipón</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeDefunción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/publicationPlace</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/orden</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almamatter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/parientes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pag</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sv</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vol</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pagina</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/listas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/relacionado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/similares</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/véaseTambién</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sitioInternet</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/causaDeLaMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/coautor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/court</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/litigants</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/opinion</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pinpoint</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/reporter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/formación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/urlAccess</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/control</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/esposo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pmin</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/audio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/topic</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/branch</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/militaryBranch</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/preposición</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeNacimiento¿_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/prefecto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/twiter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/liberalDeDerechaDistrito</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lucarnac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/linkedin</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nome</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/valore</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apoodo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alamaMáter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagenBandera</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagenEscudo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucesr</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidenta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/diputados</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predeceso2r</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/posiciónTexto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/archiveUrl</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/archiveDate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/deadUrl</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tenienteDeAlcalde</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoPredecesores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añoSucesores</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/designadoCargo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/designadoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/colega</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/comidaFavorita</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicesecretariaGeneralDeEstudiosYProgramasDelPartidoPopular</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugaranac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fina</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predecesor7;_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/equipos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/liga</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/selección</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/webOficial</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pipieimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacionalifaf</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/concubina</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/relations</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bg</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/label</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/label2Size</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/label3Size</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/label4Size</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/labelSize</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lat</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/long</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/position</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/wikiqoutes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/páginaOficial</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosAtv</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosOndas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosTpDeOro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enemigos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/actoresDeDoblajeHispanoamérica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/actorDeDoblajeEspaña</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dedicación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/auteur</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/parent</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/domicilioElectoral</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreArtistico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/webPage</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nomber</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pseudonimo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/añosactivo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/premiosAntenaDeOro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeLaMuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/incio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/anterior</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alineación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/influyóEn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/instituciónDeTrabajo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagentamaño</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/dimensiones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/iterSuce</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/material</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeNacimento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/visir</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/juantoa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/candidato</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/secretarioDelAyuntamiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/gobierno</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/abstención</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/inscritos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/porcentajeAbstención</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/titulos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/yerno</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distrit</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fecgaDeNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacionality</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/kEtiqueta</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/kNom</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarrec</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagenes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/parlamento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/prefijoHonrífico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/antencesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distritoElectoral</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/diputadaFederalLxiiiLegislatura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presidentaMunicipalDeTultitlán</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tíos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamano</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predesor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/actor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/aliados</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/colorTexto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/creador</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/episodio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/última</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/battles</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/battle</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conference</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicedirectora</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/afiliación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/páginaweb</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/causaDeFallecimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombradoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeFallecimietno</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeFallecimietno</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cédulaDeCiudadanía</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/xej</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ejército</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mapa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mapaPie</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/situciónPenal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almaÑater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/startpage</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/supp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/otrosTítulos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/álbumexitoso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lastauthoramp</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apodo(s)_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/diaconadoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/episcopadoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/iglesia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/presbiteradoPor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lingua</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/accesso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/urlarchivio</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/urlmorto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sitoweb</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamañoDeLaImagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/almaMáster</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/bisnietos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/comentario</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugaract</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/legenda</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagenLeyenda</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/enElCargo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sobrina</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/z</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucessor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cupación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDefunción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conexiones</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lijst</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/volgende</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vorige</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estudiosPrimariosYSecundarios</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/postgrado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tamimagen</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/authormask</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/2cargo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fanpage</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/servicioMilitary</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/wstitle</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/noprescript</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/partidopolitico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaDeFallecimineto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeFallecimineto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/generoBisexual(noBinario)Pareja</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pronunciación</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicesecretario</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lemaFamiliar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/padrse</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pedroPreciado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/campeonato</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/carreras</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/equipo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/podios</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/poj</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/poles</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/victorias</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vueltasRápidas</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/abr</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/educacionSecundaria</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/primeraDama</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarnaC</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/number</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cantidad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/antes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/copríncipes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/suscripción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/minutos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/predecesor4&amp;nbsp;&amp;nbsp;_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/estandartePresidencial</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/transcripciónurl</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/contributionUrl</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/periodical</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/religíon</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cy</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/encurso</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechaElección</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombreElección</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/votantes</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/barras</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/colorBarras</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/porcentajeBarras</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/carg</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/assesinado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fuentebiográfica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombrenac</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/prefijohonorífico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sufijohonorífico</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distritro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarmuertec</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucesivo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/legislatura</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distinciónHonorífica</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tituloDeGrado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/paginaWeb</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/participóEn</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/pseudónimo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/rectoraInterina</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fechafall</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarfall</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/art</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distrtito</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/alumno</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/commands</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cargoAnterior</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://dbpedia.org/ontology/militaryCommand</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/escudoAlmaMáter</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/membresías</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/b%3CscriptSrc</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/luarmuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/naconalidad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/fuerza</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/libro</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vástago</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/general</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/shortlink</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/conyugé</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/knownFor</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/occupation</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/relativos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugarDeFalleicmiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cónyuge(...2014)_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ramaño</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/causa</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/mascota</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nacido</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/distinción</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/anchoBarra</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/títuloSuperior</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/commons</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/wikinoticias</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/wikiquote</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/wikisource</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/piefirma</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/objeto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cónyuge(s)_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/canalYoutube</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/causadelamuerte</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/oficios</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/segundasNupcias</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/webSite</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/8data</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/prefesión</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/jefeDeEstado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nombrereal</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/google+_</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/nativeNameLang</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/lugaDeNacimiento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/novia</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/directorSupremo</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/sucesorInterino</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/altamater</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/des</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/departamento</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/author1First</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/author1Last</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/author2First</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/author2Last</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/apartado</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/interpretacionesNotables</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/projecto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/vicepresiente</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/canciler</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/signature</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/tratamientoProtocolar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/accessDate</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/períodoDeActividad</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/educaciónPrimaria</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/hijosDeSuPrimerMatrimonioConLaSeñoraBertaEstherBaptista</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/flick</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/type</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/cargosOcupados</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/trabajos</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/imagenTexto</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ocupaciónActual</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/ramaMilitar</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/escud</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/after</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/before</uri></binding>
+  </result>
+  <result>
+   <binding name="prop"><uri>http://es.dbpedia.org/property/poagrado</uri></binding>
+  </result>
+ </results>
+</sparql>
