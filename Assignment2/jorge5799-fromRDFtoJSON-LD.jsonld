@@ -1,59 +1,46 @@
 {
     "@context": {
-        "class": "http://www.weather.net/Class#",
-        "sensor": "http://www.weather.net/Sensor#",
-        "measurement": "http://www.weather.net/Measurement#",
-        "computer": "http://www.weather.net/Computer#",
-        "user": "http://www.weather.net/User#",
-        "properties": "http://www.weather.net/Properties#",
-        "Class01": "class:Class01",
-        "Sensor029": "sensor:Sensor029",
-        "Computer101": "computer:Computer101",
-        "User10A": "user:User10A",
-        "hasMeasurements": "properties:hasMeasurements",
-        "hasTemperature": "properties:hasTemperature",
-        "atTime": "properties:atTime",
-        "hasOwner": "properties:hasOwner",
-        "hasName": "properties:hasName"
+        "prefix": "http://example.org/elements#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
-    "Class01": {
-        "@id": "http://www.weather.net/Class01",
-        "@type": "class:Class01",
-        "includes": [
+    "@graph": [
+        {
+        "@id": "prefix:Class01",
+        "prefix:includes": [
             {
-                "Sensor029": {
-                    "@id": "http://www.weather.net/Class01/Sensor029",
-                    "@type": "sensor:Sensor029",
-                    "hasMeasurements": {
-                        "Measurements8401": {
-                            "@id": "http://www.weather.net/Class01/Sensor029/Measurement8401",
-                            "@type": "mesasurement:Measurements8401",
-                            "hasTemperature": {
-                                "@value": "29",
-                                "@type": "xsd.integer"
-                            },
-                            "atTime": {
-                                "@value": "2010-06-12T12:00:12",
-                                "@type": "xsd.dateTime"
-                            }
-                        }
-                    }
-                },
-                "Computer101": {
-                    "@id": "http://www.weather.net/Class01/Computer101",
-                    "@type": "computer:computer101",
-                    "hasOwner": {
-                        "User10A": {
-                            "@id": "http://www.weather.net/Class01/Computer101/User10A",
-                            "@type": "user:User10A",
-                            "hasName": {
-                                "@value": "Pedro",
-                                "@type": "xsd:string"
-                            }
-                        }
-                    }
-                }
+                "@id": "prefix:Sensor029",
+            },
+            {
+                "@id": "prefix:Computer101"
             }
         ]
+    },
+    {
+        "@id": "prefix:Sensor029",
+        "prefix:hasMeasurement": {
+            "@id": "prefix:Measurement8401"
+        }
+    },
+    {
+        "@id": "prefix:Computer101",
+        "prefix:hasOwner": {
+            "@id": "prefix:User10A"
+        }
+    },
+    {
+        "@id": "prefix:Measurement8401",
+        "prefix:atTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2010-06-12T12:00:12"
+        },
+        "prefix:hasTemperature": {
+            "@type": "xsd:integer",
+            "@value": 29
+        }
+    },
+    {
+        "@id": "prefix:User10A",
+        "prefix:hasName": "Pedro"
     }
+  ]
 }
