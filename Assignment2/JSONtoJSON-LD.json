@@ -1,7 +1,17 @@
 {
     "@context":{
-        "xsd":"http://www.w3.org/2001/XMLSchema#",
-        "prop": "http://www.examples.org/properties/"
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "subjects": "http://www.w3.org/Ej2b/Subjects/",
+        "subjectName": "http://www.w3.org/Ej2b/SubjectName/",
+        "teachers": "http://www.w3.org/Ej2b/Teachers/",
+        "description": "http://www.w3.org/Ej2b/Description/",
+        "attrib": "http://www.w3.org/Ej2b/Attributes/",
+        "student": "http://www.w3.org/Ej2b/Students/",
+        "fullName": "attrib:fullName",
+        "homeTown": "attrib:homeTown",
+        "age": "attrib:age",
+        "almaMater": "attrib:almaMater",
+        "parentsName": "attrib:parentsName"
 
 
     },
@@ -9,7 +19,7 @@
     "@type": "student",
     "fullName":"Henar Roman Serna",
     "homeTown":"Madrid",
-    "age":21,
+    "age":"21",
     "almaMater":"ETSIINF UPM",
     "parentsName": [
         "Trinidad",
