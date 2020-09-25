@@ -1,0 +1,70 @@
+{
+	"fullName":"Daniel Vara Agustin",
+	"hometown":"Madrid",
+	"almaMater":"ETSIInf",
+	"nombrePadres":"Jose Pilar",
+	"asignaturas":[
+	{
+		"nombre":"introduction to bioinformatics",
+		"teachers":"Andrei Paun",
+		"briefDescription":"Se aprenden nociones basicas de biologia y se estudian estudios (valga la redundancia) relacionados con biologia e informatica"
+	},{
+		"nombre":"Semantic web",
+		"teachers":"Oscar Corcho",
+		"briefDescription":"Se aprende a crear aplicaciones que recojan una cantidad considerable de datos de Internet en tiempo real"
+	},{
+		"nombre":"GPTI",
+		"teachers":"Edmundo Tovar",
+		"briefDescription":"Sobre organizacion de empresas, estandares..."
+	},{
+		"nombre":"Reconocimiento de formas",
+		"teachers":"Dario Maravall",
+		"briefDescription":"Ensena fundamentos para la programacion de IAs que reconocen formas"
+	},{
+		"nombre":"Administración de sistemas informaticos",
+		"teachers":"Francisco Rosales",
+		"briefDescription":"Su propio nombre lo dice"
+	}
+]
+}
+{
+"@context":{
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	"fullName":"rdfs:label",
+	"hometown":"rdfs:label",
+	"almaMater":"rdfs:label",
+	"nomprePadres":"rdfs:comment",
+  	"asignaturas":
+		"nombre",
+  		"teachers":"rdfs:label",
+  		"briefDescription":"rdfs:comment"
+},
+"@type":"Alumno",
+"fullName":"Daniel Vara Agustin",
+"hometown":"Madrid",
+"almaMater":"ETSIInf",
+"nombrePadres":"Jose Pilar",
+"asignaturas":{
+  "@id":"1",
+	"nombre":"introduction to bioinformatics",
+	"teachers":"Andrei Paun",
+	"briefDescription":"Se aprenden nociones basicas de biologia y se estudian estudios (valga la redundancia) relacionados con biologia e informatica"
+	},{
+	"nombre":"Semantic web",
+	"teachers":"Oscar Corcho",
+	"briefDescription":"Se aprende a crear aplicaciones que recojan una cantidad considerable de datos de Internet en tiempo real"
+	},{
+	"nombre":"GPTI",
+	"teachers":"Edmundo Tovar",
+	"briefDescription":"Sobre organizacion de empresas, estandares..."
+	},{
+		"nombre":"Reconocimiento de formas",
+		"teachers":"Dario Maravall",
+		"briefDescription":"Ensena fundamentos para la programacion de IAs que reconocen formas"
+	},{
+		"nombre":"Administración de sistemas informaticos",
+		"teachers":"Francisco Rosales",
+		"briefDescription":"Su propio nombre lo dice"
+	}
+
+}
