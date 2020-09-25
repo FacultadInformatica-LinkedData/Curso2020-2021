@@ -29,7 +29,7 @@
             },
             {
                   "@id": "node:Measurement8401",
-                  "prop:hasTemperature": {
+                  "hasTemperature": {
                         "@type": "xsd:integer",
                         "@value": "29"
                   },
