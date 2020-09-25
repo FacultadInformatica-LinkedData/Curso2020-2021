@@ -2471,7 +2471,7 @@ WHERE
 <details>
   <summary>Result</summary>
   
-	See **result3.html**.
+	See result3.html.
   
 </details>
 
@@ -2490,7 +2490,7 @@ WHERE
 <details>
   <summary>Result</summary>
   
-	See **result4.html**.
+	See result4.html.
   
 </details>
 
@@ -2508,6 +2508,6 @@ WHERE
 <details>
   <summary>Result</summary>
   
-	See **result5.html**.
+	See result5.html.
   
 </details>
