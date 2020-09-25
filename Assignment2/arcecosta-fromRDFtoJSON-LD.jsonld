@@ -1,0 +1,66 @@
+{
+	"@context":{
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"s": "http://www.ontologies.org/ontologies/",
+		"prop": "http://www.ontologies.org/properties/",		
+		"includes": "prop:includes",
+		"hasMeasurement": "prop:measurements",
+		"hasOwner": "prop:hasOwner",
+		"hasName": "prop:hasName",
+		"hasTemperature": "prop:hasTemperature",
+		"atTime":"prop:atTime"
+	},
+
+         	"@id":"http://www.ontologies.org/ontologies/Class01",
+			"@type":"s:Class01",
+			"includes":[
+				{
+						"@id":"http://www.ontologies.org/ontologies/Class01/Sensor029",
+						"@type":"s:Sensor029",
+						"hasMeasurement":
+						{
+
+									"@id":"http://www.ontologies.org/ontologies/Class01/Sensor029/Measurement8401",
+									"@type":"s:Measurement8401",
+									"hasTemperature":
+										{
+											"@value": "29",
+											"@type": "xsd:integer"
+										},
+									"atTime":
+										{
+										"@value": "2010-06-12T12:00:12",
+										"@type": "xsd:integer"
+										}
+								
+						}
+					
+				},
+				{
+					"Computer101":
+					{
+						"@id":"http://www.ontologies.org/ontologies/Class01/Computer101",
+						"@type":"s:Computer101",			
+						"hasOwner":
+						{
+
+									"@id":"http://www.ontologies.org/ontologies/Class01/Computer101/User10A",
+									"@type":"s:User10A",
+
+									"hasName":
+										{
+										"@value":"Pedro",
+										"@type":"xsd:string"
+										}
+								
+						}
+
+					}	
+				}
+			
+			]
+		
+}
+
+  
+

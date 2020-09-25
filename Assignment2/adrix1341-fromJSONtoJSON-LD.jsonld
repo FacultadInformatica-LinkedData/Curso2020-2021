@@ -1,0 +1,72 @@
+{
+	"@context":{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"person":"http://www.ontologies.org/ontologies/People#",
+		"fullname":"http://schema.org/fullname",
+		"hometown":"http://schema.org/hometown",
+		"age":"http://schema.org/age",
+		"Alma-mater":"http://schema.org/Alma-mater",
+		"parents-name":"http://schema.org/parents-name",
+		"father-name":"http://schema.org/parents-name/father-name",
+		"mother-name":"http://schema.org/parents-name/mother-name",
+		"subjects":"http://schema.org/subjects",
+		"name":"http://schema.org/subjects/name",
+		"Teachers":"http://schema.org/subjects/Teachers",
+		"Brief Description": "http://schema.org/subjects/Brief Description"
+	},
+	"@type":"person",
+	"@id":"http://www.example.org/me",
+	"fullname":{
+		"@value":"Adrián Salas Rodrigues",
+		"@type":"xsd:string"
+	},
+	"hometown":{
+		"@value":"Madrid",
+		"@type":"xsd:string"
+	},
+	"age":20,
+	"Alma-mater":{
+		"@value":"ETSIINF-UPM",
+		"@type":"xsd:string"
+	},
+	"parents-name":{
+		"father-name":{
+			"@value":"Tomás",
+			"@type":"xsd:string"
+		},
+		"mother-name":{
+			"@value":"Eliza",
+			"@type":"xsd:string"
+		}
+	},
+	"subjects":[{
+		"name":{
+			"@value":"Linked Data",
+			"@type":"xsd:string"
+		},
+		"Teachers":{
+			"@value":["Oscar Corcho","Paola Espinoza","Raúl García Castro"],
+			"@type":"xsd:string"
+		},
+		"Brief Description":{
+			"@value":"Related to one data can have relationships with others",
+			"@type":"xsd:string"
+		}
+
+	},
+
+	{
+		"name":{
+			"@value":"Ingeniería del Software II",
+			"@type":"xsd:string"
+		},
+		"Teachers":{
+			"@value":["Tomas San Feliu Gilabert, Jose Antonio Calvo-Manzano Villalon"],
+			"@type":"xsd:string"
+		},
+		"Brief Description":{
+			"@value":"Learn how to manage an develop a project",
+			"@type":"xsd:string"
+		}
+	}]
+}
