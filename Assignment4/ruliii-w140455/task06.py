@@ -36,13 +36,13 @@ g.add((ns.Researcher, RDFS.subClassOf, ns.Person))
 
 """**TASK 6.3: Create a new individual of Researcher named "Jane Smith"**"""
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
-janeSmithUri=ns.JaneSimth
-g.add((ns.Researcher,ns.ResearcherName,ns.JaneSmith))
+g.add((ns.JaneSmith,RDF.type,ns.ResearcherName,))
 
 """**TASK 6.4: Add to the individual JaneSmith the fullName, given and family names**"""
-g.add((janeSmithUri,VCARD.FN,Literal("Jane Smith")))
-g.add((janeSmithUri,VCARD.Family,Literal("Smith")))
-g.add((janeSmithUri,VCARD.Given,Literal("Jane")))
+g.add((ns.JaneSmith,VCARD.FN,Literal("Jane Smith")))
+g.add((ns.JaneSmith,VCARD.Family,Literal("Smith")))
+g.add((ns.JaneSmith,VCARD.Given,Literal("Jane")))
 
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
+g.add((ns.UPM,RDF.type,ns.University))
 g.add((ns.JohnSmith,ns.WorksIn,ns.UPM))

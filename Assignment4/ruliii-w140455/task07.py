@@ -58,17 +58,19 @@ for r in g.query(q2):
 
 for t in g.triples((None,RDF.type,ns.Person)):
   print("RDFLib:",t)
+
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**"""
 
 q3 = prepareQuery('''
     select 
         ?Subject ?Properties
     where{
-        {?Subject ?Properties <http://somewhere#Person>}
+        {?Subject RDF:type <http://somewhere#Person>}.
+        {?Subject ?Properties ?Object }
 
     }
 ''',
-initNs={"RDFS": RDFS}
+initNs={"RDFS": RDFS,"RDF":RDF}
 )
 
 for r in g.query(q3):
