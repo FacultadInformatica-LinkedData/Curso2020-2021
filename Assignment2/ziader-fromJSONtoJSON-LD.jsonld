@@ -1,0 +1,48 @@
+﻿{
+	"@context": {
+		"pop":"http://www.ejemplo.es/apo/catalogo/"
+	},
+	"@id":"http://www.ejemplo.es/api/recurso/INF-personal/42",
+	"@type":"pop:informacion-personal/personal",
+   "nombre":"Ziad Juneidi Fernandez",
+   "ciudad":"Madrid",
+   "edad":"33",
+   "almaMater":"UPM",
+   "padres":{
+	  "@id":"http://www.ejemplo.es/api/recurso/padres/2197",
+	  "@type":"pop:informacion-personal/padres",
+      "madre":"Maria Carmen",
+      "padre":"Tarrek"
+   },
+   "asignaturas":{
+      "@id":"http://www.ejemplo.es/api/recurso/asignaturas/777",
+	  "@type":"pop:asignaturas",
+      "asignatura1":{
+		 "@id":"http://www.ejemplo.es/api/recurso/asignaturas/asignatura/23",
+	     "@type":"pop:asignaturas/asignatura",
+         "nombre":"Semantic Web and Linked Data",
+         "profesores":{
+		 "@id":"http://www.ejemplo.es/api/recurso/persona/profesores/458",
+	     "@type":"pop:persona/profesor",
+            "profesor1":"Paola Espinoza",
+            "profesor2":"Oscar Corcho",
+            "profesor3":"Raul Garcia"
+         },
+         "descripcion":"Fundamentos metodologicos y tecnologicos implicados en la generacion y publicacion de vocabularios y datos en la Web de datos enlazados"
+      },
+      "asignatura2":{
+	     "@id":"http://www.ejemplo.es/api/recurso/asignaturas/asignatura/56",
+	     "@type":"pop:asignaturas/asignatura",
+         "nombre":"Procesadores de Lenguajes",
+         "profesores":{
+			"@id":"http://www.ejemplo.es/api/recurso/persona/profesores/444",
+	        "@type":"pop:persona/profesor",
+            "profesor1":"Aurora Pérez",
+            "profesor2":"Juan Pedro Caraça-Valente",
+            "profesor3":"José Luis Fuertes"
+         },
+         "descripcion":"el estudiante deberá ser capaz de crear un programa que analice un lenguaje fuente. La asignatura está enfocada a la construcción de un Procesador para un lenguaje con estructura de bloques"
+      }
+   }
+ }
+}
