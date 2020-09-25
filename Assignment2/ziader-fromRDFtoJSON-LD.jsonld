@@ -1,0 +1,26 @@
+{
+	"@context": {
+		":":"http://example.org/#"
+		"foaf":"http://xmlns.com/foaf/0.1/"
+		"rdfs":"http://www.w3.org/2000/01/rdf-schema#"
+	},
+   "@id":":Class01",
+   "@type":"foaf:Class",
+   "rdfs:includes":{
+	  "@id":":Computer101",
+	  "@type":"foaf:Class",
+      "rdfs:hasOwner":{
+		"@id":":User10A",
+	    "@type":"foaf:Class",
+		"rdfs:hasName":"Pedro"
+	  }
+	  "@id":":Sensor029",
+	  "@type":"foaf:Class",
+      "rdfs:hasMeasurement":{
+		"@id":":Measurement8401",
+	    "@type":"foaf:Class",
+		"rdfs:hasTemperature":"29",
+		"rdfs:atTime":"2010-06-12T12:00:12"
+	  }
+   }
+}
