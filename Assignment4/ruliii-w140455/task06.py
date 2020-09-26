@@ -9,7 +9,7 @@ Original file is located at
 **Task 06: Modifying RDF(s)**
 """
 
-!pip install rdflib 
+!pip install rdflib
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -36,12 +36,13 @@ g.add((ns.Researcher, RDFS.subClassOf, ns.Person))
 
 """**TASK 6.3: Create a new individual of Researcher named "Jane Smith"**"""
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
-g.add((ns.JaneSmith,RDF.type,ns.ResearcherName,))
+g.add((ns.JaneSmith,RDF.type,ns.Researcher))
 
 """**TASK 6.4: Add to the individual JaneSmith the fullName, given and family names**"""
 g.add((ns.JaneSmith,VCARD.FN,Literal("Jane Smith")))
 g.add((ns.JaneSmith,VCARD.Family,Literal("Smith")))
 g.add((ns.JaneSmith,VCARD.Given,Literal("Jane")))
+
 
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
 g.add((ns.UPM,RDF.type,ns.University))
