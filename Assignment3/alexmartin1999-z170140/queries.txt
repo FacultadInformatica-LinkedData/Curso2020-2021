@@ -1,0 +1,46 @@
+select distinct ?props
+where
+{
+	?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+	?inst ?props ?x
+}
+
+
+
+select distinct ?props
+where
+{
+	?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+	?inst ?props ?x .
+	filter (?props != rdf:type)
+}
+
+
+
+select distinct ?values
+where
+{
+	?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+	?inst ?props ?values .
+	filter (?props != rdf:type)
+}
+
+
+
+select distinct ?props ?values
+where
+{
+	?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+	?inst ?props ?values .
+	filter (?props != rdf:type)
+}
+
+
+
+select distinct ?props count (distinct ?values)
+where
+{
+	?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+	?inst ?props ?values .
+	filter (?props != rdf:type)
+}

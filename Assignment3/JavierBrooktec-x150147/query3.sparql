@@ -1,0 +1,9 @@
+# Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+
+PREFIX on: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p
+WHERE {
+  ?x  a on:Politician .
+  ?x  ?y ?p
+  FILTER (?y != rdf:type)
+}
