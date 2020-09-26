@@ -1,1 +1,0 @@
-select distinct ?props count(distinct ?val) where {?pol rdf:type <http://dbpedia.org/ontology/Politician> . ?pol ?props ?val . filter(?props != rdf:type) .}

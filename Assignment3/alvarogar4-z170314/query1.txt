@@ -1,7 +1,0 @@
-select distinct ?properties
-where{
-  {
-    ?politician a <http://dbpedia.org/ontology/Politician> .
-    ?politician ?properties ?values .
-  }
-}
