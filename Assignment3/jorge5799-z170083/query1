@@ -1,0 +1,6 @@
+SELECT ?p
+WHERE 
+{
+ ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+ ?x ?p ?y
+}

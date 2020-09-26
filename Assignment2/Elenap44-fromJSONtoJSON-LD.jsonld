@@ -1,0 +1,60 @@
+{
+	"@context": {
+		"student": "http://www.example.org/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"name":"student:name",
+		"hometown":"student:hometown",
+		"age":"student:age",
+		"almaMater":"student:almaMater",
+		"parentsName":"student:parentsName",
+    "subjects":"student:subjects",
+      	"subjectName":"student:subjectName",
+      	"teachers":"student:teachers",
+      	"description":"student:description"
+
+	},
+	"@id":"http://estudiantesUPM.com/Elena",
+	"@type":"student",
+	"name":"Elena María Pérez Pérez",
+	"hometown":"Madrid",
+	"age":22,
+	"almaMater": "UPM",
+	"parentsName": ["Cristóbal","Maxi"],
+	"subjects":[
+			{
+				"subjectName":"Ingeniería del Sofware II",
+				"teachers":["Tomas San Feliu Gilabert", "Jose Antonio Calvo Manzano", "Ana Maria Moreno Sanchez-Capuchino"],
+				"description":"La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. La asignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectos aprendidos tanto en asignaturas previas del grado como en la propia asignatura."
+			},
+			{
+				"subjectName":"GPTI",
+				"teachers":["Oscar Dieste Tubio", "Edmundo Tovar Caro", "Jose Ramon Sanchez Palomares","Maria Pilar Rodriguez Gonzalez"],
+				"description":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicado a organizaciones de TI"
+			},
+			{
+				"subjectName":"Semantic Web, Linked Data and Knowledge Graphs",
+				"teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+				"description":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+			},
+			{
+				"subjectName":"Nanotecnología",
+				"teachers":["María Estibaliz Martinez Izquierdo","María Mercedes Perez Castellanos"],
+				"description":"En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca."
+			},
+			{
+				"subjectName":"Reconocimiento de formas",
+				"teachers":["Luis Bumela Molina","Dario Maravall Gomez-Allende"],
+				"description":"Fundamentos teóricos y aplicaciones del reconocimiento automático en robótica y procesamiento de datos."
+			},
+			{
+				"subjectName":"Sistemas de planificación",
+				"teachers":["Vicente Martinez Orga","Miguel García Remesal"],
+				"description":"Todos los procesos para ser desarrollados precisan de un proceso de planificación, de la bondad de ese plan se generará un proyecto malo, bueno u óptimo, la capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado."
+			},
+			{
+				"subjectName":"EPAC",
+				"teachers":["Elena Montiel Ponsoda","Jelena Bobkina"],
+				"description":"The main objective of this course is to make students aware of the importance of effective communication skills in academic or professional settings, with a strong focus on contemporary issues related to computer engineering, and to help them develop those skills to communicate effectively in both settings."
+			}
+	]
+}
