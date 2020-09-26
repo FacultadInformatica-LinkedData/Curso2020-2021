@@ -1,0 +1,10 @@
+@base <http://www.oeg-upm.net/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vocab: <http://www.ontologies.org/#>
+:Class01 vocab:includes :Sensor029;
+		 vocab:includes :Computer101.
+:Sensor029 vocab:hasMeasurement :Measuremeent8401.
+:Measurement8401 vocab:hasTemperature "29"^^xsd:integer;
+				 vocab:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:Computer101 vocab:hasOwner :User10A.
+:User10A vocab:hasName “Pedro”^^ xsd:string.

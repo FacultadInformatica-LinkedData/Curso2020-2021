@@ -1,0 +1,48 @@
+{
+	"@context": {
+			"vocab": "http://dispositivos.com#",
+			"xsd": "http://www.w3.org/2001/XMLSchema#",
+			"includes": "vocab:includes",
+			"hasMeasurement": "vocab:hasMeasurement",
+			"hasTemperature": "vocab:hasTemperature",
+			"atTime":"vocab:atTime",
+			"hasOwner": "vocab:hasOwner",
+			"hasName": "vocab:hasName"
+		},
+	"Class01": {
+		"@id": "http://dispositivos.com/Class01",
+		"@type": "vocab:Class01",
+		"includes": [
+			{
+					"@id": "http://dispositivos.com/Class01/Sensor029",
+					"@type": "r:Sensor029",
+					"hasMeasurement": {
+							"@id": "http://dispositivos.com/Class01/Sensor029/Measurement8401",
+							"@type": "Sensor029:Measurement8401",
+							"hasTemperature": {
+								"@value": 29,
+								"@type": "xsd:integer"
+							},
+							"atTime": {
+								"@value": "2010-06-12T12:00:12",
+								"@type": "xsd:dateTime"
+							}
+					}
+				
+			},
+			{
+					"@id": "http://dispositivos.com/Class01/Computer101",
+					"@type": "Class01:Computer101",
+					"hasOwner": {
+							"@id": "http://dispositivos.com/Class01/Computer101/User10A",
+							"@type": "Computer101:User10A",
+							"hasName": {
+								"@value": "Pedro",
+								"@type": "xsd:string"
+							}
+					}
+				
+			}
+		]
+	}	
+}

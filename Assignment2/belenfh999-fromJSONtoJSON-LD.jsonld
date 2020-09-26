@@ -1,0 +1,39 @@
+{
+	"@context":{
+		"vocab":"http://example.com/semweb/",
+		"subjects":"http://example.com/semweb/subjects/",
+		"fullName":"vocab:fullName",
+		"hometown":"vocab:hometown",
+		"age":"vocab:age",
+		"almaMater":"vocab:almaMater",
+		"parentsName":"vocab:parentsName",
+		"name":"subjects:name",
+		"teachers":"subjects:teachers",
+		"description":"subjects:description"
+		
+	},
+	"@id":"http://example.com/semweb/people/",
+	"@type":"vocab:people",
+	"fullName": "Belén Ferrón Hurtado",
+	"hometown": "Madrid",
+	"age": "21",
+	"almaMater": "Universidad Politécnica de Madrid",
+	"parentsName": ["Lourdes", "Abel"],
+	"subjects": [{
+			"name": "Semantic Web, Linked Data and Knowledge Graphs",
+			"teachers": ["Oscar Corcho", "Paola Espinoza","David Chaves", "Raúl García Castro"],
+			"description": "Subject related to semantics and AI."
+		},
+		{
+			"name": "Systems Administration",
+			"teachers": ["Francisco Rosales"],
+			"description": "Subject related to the administration of systems on ubuntu and windows."
+		},
+		{
+			"name": "English for Professional and Academic Communication",
+			"teachers": ["Elena Montiel Ponsoda","Jelena Bobkina"],
+			"description": "Subject related to english usage in formal and academic events."
+		}
+				 
+	]
+}
