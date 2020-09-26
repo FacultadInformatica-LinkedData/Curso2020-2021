@@ -1,0 +1,11 @@
+@base <http://www.oeg-upm.net/Organization/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix pre: <http://www.oeg-upm.net/Organization#>
+
+:Class01 pre:includes:Sensor029;
+         pre:includes:Computer101.
+:Sensor029 pre:hasMeasurement:Measurement8401.
+:Computer101 pre:hasOwner:User10A.
+:Measurement8401 pre:hasTemperature:"29"^^xsd:integer;
+                 pre:atTime:"2010-06-12T12:00:12"^^xsd:dateTime.
+:User10A pre:hasName "Pedro".
