@@ -1,0 +1,61 @@
+{
+    "myName":"Daniel Berrocal Gonzalez",
+    "hometown":"Parla",
+    "age":"22",
+    "almaMater":"Universidad Politecnica de Madrid",
+    "parentsName": {
+        "father": "Miguel",
+        "mother": "Teresa"
+        },    
+    "subjects":[
+        {
+            "subjectsName":"Semantic Web, Linked Data and Knowledge Graphs",
+            "teacher": "Oscar Corcho",
+            "description": "Proporcionar la base teorica y practica sobre los fundamentos implicados en la generacion y publicacion de vocabularios y datos enlazados en la Web."
+        },
+        {
+            "subjectsName": "Ingenieria del Software 2",
+            "teacher": "Tomas San Feliu",
+            "desription": "Aplicar los aspectos de gestion al desarrollo software."
+        }
+    ]
+}
+
+{
+    "@context":{
+        "vocab":"http://www.example2.es/personaldescription#",
+        "myName": "vocab:myName",
+        "hometown": "vocab:hometown",
+        "age": "vocab:age",
+        "almaMater": "vocab:almaMater",
+        "parentsName": "vocab:parentsName",
+        "father": "vocab:father",
+        "mother": "vocab:mother",
+        "subjects": "vocab:subjects",
+        "subjectsName": "subjects:subjectsName",
+        "teacher": "subjects:teacher",
+        "description": "subjects:description"
+    },
+    "@id":"http://www.example2.es/personaldescription/me",
+    "@type":"vocab:personaldescription",
+    "myName":"Daniel Berrocal Gonzalez",
+    "hometown":"Parla",
+    "age":"22",
+    "almaMater":"Universidad Politecnica de Madrid",
+    "parentsName": {
+        "father": "Miguel",
+        "mother": "Teresa"
+    },
+    "subjects":[
+        {
+            "subjectsName": "Semantic Web, Linked Data and Knowledge Graphs",
+            "teacher": "Oscar Corcho",
+            "description": "Proporcionar la base teorica y practica sobre los fundamentos implicados en la generacion y publicacion de vocabularios y datos enlazados en la Web."
+        },
+        {
+            "subjectsName": "Ingenieria del Software 2",
+            "teacher": "Tomas San Feliu",
+            "description":"Aplicar los aspectos de gestion al desarrollo software."
+        }
+    ]
+}
