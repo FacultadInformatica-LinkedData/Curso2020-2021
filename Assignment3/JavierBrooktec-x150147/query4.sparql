@@ -1,0 +1,9 @@
+# For each of these properties, except for rdf:type, which different values do they take in those instances?
+
+PREFIX on: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y ?z
+WHERE {
+  ?x  a on:Politician .
+  ?x  ?y ?z .
+  FILTER (?y != rdf:type)
+}

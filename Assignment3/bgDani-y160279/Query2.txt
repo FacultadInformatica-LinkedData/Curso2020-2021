@@ -1,0 +1,9 @@
+SELECT DISTINCT ?propiedades
+WHERE{
+  {
+    ?politico rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?politico ?propiedades ?z .
+    FILTER(?propiedades != rdf:type) .
+  }
+}
+LIMIT 100

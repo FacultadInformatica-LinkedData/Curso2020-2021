@@ -1,0 +1,66 @@
+Obtenga todas las propiedades que se pueden aplicar a instancias de la clase Politician 
+(<http://dbpedia.org/ontology/Politician> o su equivalente en Wikidata)
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p
+WHERE
+{
+	ex:Politician ?p ?z
+
+}
+LIMIT 100
+
+#------------------------------------------
+
+Obtenga todas las propiedades, excepto rdf: type, 
+que se aplican a instancias de la clase Politician
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p
+WHERE
+{
+	ex:Politician ?p ?z .
+        FILTER(?p != rdf:type)
+}
+LIMIT 100
+
+#-------------------------------------------
+
+¿Qué valores diferentes existen para las propiedades, 
+excepto rdf: type, de las instancias de la clase Politician?
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p
+WHERE
+{
+	ex:Politician ?p ?z .
+       FILTER(?p != rdf:type)
+}
+LIMIT 100
+
+#----------------------------------------
+
+Para cada una de estas propiedades, excepto 
+para rdf:type, ¿qué valores diferentes toman en esas instancias?
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?z
+WHERE
+{
+	ex:Politician ?p ?z .
+       FILTER(?p != rdf:type)
+}
+LIMIT 100
+
+#------------------------------------------
+Para cada una de las propiedades, excepto 
+para rdf: type, ¿cuántos valores distintos toman?
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+SELECT DISTINCT COUNT(?z)
+WHERE
+{
+	ex:Politician ?p ?z .
+       FILTER(?p != rdf:type)
+}
+LIMIT 100
