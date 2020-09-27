@@ -1,0 +1,46 @@
+{
+	"@context":{
+
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"student":"http://www.assignment2.com/student",
+		"Name":"student:Name",
+		"Hometown":"student:Hometown", 
+		"Age":"student:Age",
+		"AlmaMater":"student:AlmaMater",
+		"Brother":"student:Brother",
+		"Subjects":"student:Subjects",
+		"NameSubject":"Subjects:NameSubject",
+		"Teachers":"Subjects:Teachers",
+		"BriefDescription":"Subjects:BriefDescription"
+	},
+
+	"@id":"http://www.assignment2.com/student/guille",
+	"@type":"student:student",
+	"Name":"Guillermo De Miguel Villanueva",
+	"Hometown":"Talavera de la Reina",
+	"Age":"22",
+	"AlmaMater":"Universidad Politecnica de Madrid",
+	"Brother":"Alejandro",
+	"Subjects" : [
+		{
+		"NameSubject":"Ingenieria del software2",
+		"Teachers":"Tomás San Feliu Gilabert",
+		"BriefDescription":"It's a subject focus on working in teams and in developing of software"
+		},
+		{
+		"NameSubject":"Semantic Web and Linked Data",
+		"Teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+		"BriefDescription":"It's a subject which is focus on studying how to work the data"
+		},
+		{
+		"NameSubject":"GPTI",
+		"Teachers":["Edmundo Tovar Caro","Maria Pilar Rodriguez Gonzalez"],
+		"BriefDescription":"It's a subject which is focus on rules of enterprise and how to work in a business"
+		},
+		{
+		"NameSubject":"Reconocimiento de formas",
+		"Teachers":["Luis Baumela","Iago Suárez"],
+		"BriefDescription":"It's a subject focus on maths and facial recognition"
+		}
+		]
+}

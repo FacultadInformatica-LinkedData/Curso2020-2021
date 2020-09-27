@@ -1,0 +1,51 @@
+{
+  "@context": {
+               "cl": "http://ontogrid.net/Ex1b/classes/",
+		          "sn": "http://www.example.org/sensors/",
+	          	  "cp": "http://www.example.org//computers/",
+	          	  "ms": "http://www.example.org//measurements/",
+          		  "us": "http://www.example.org//users/",
+		          "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		          "xsd": "http://www.w3.org/2001/XMLSchema#",
+		          "attr": "http://www.w3.org./Ex1b/attributes/",
+		          "includes": "attr:includes",
+		          "hasMeasurement": "attr:measurements",
+		          "hasOwner": "attr:hasOwner",
+		          "hasName": "attr:hasName",
+	  	          "hasTemperature": "attr:hasTemperature",
+  		          "atTime":"attr:atTime"
+              },
+	
+	"@id": "cl:Class01/",
+	"@type": "cl:",
+	"includes": [
+			{
+			"@id": "sn:Sensor029/",
+			"@type": "sn:",
+			"hasMeasurement": {
+					"@id": "ms:Measurement8401/",
+					"@type": "ms:",
+					"hasTemperature": {
+						"@value": 29,
+						"@type": "xsd:integer"
+					},
+					"atTime": {
+						"@value": "2010-06-12T12:00:12",
+						"@type": "xsd:dateTime"
+						  }
+					}
+			},
+			{
+			"@id": "cp:Computer101/",
+			"@type": "cp:",
+			"hasOwner": {
+				"@id": "us:User10A/",
+				"@type": "us:",
+				"hasName": {
+					"@value": "Pedro",
+					"@type": "xsd:string"
+				   	   }
+				    }
+			}
+		]	
+}

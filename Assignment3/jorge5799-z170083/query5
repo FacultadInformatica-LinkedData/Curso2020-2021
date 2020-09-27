@@ -1,0 +1,7 @@
+SELECT DISTINCT ?p COUNT(?y)
+WHERE 
+{
+ ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+ ?x ?p ?y .
+ FILTER (?p != rdf:type)
+}
