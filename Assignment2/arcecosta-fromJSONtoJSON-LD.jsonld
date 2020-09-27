@@ -1,0 +1,50 @@
+{
+	
+	"@context":{
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"people": "http://www.people.org/people/",
+		"fullname":"people:fullName",
+		"hometown":"people:hometown",
+		"age":"people:age",
+		"almaMater":"people:almaMater",
+		"parentsName":"people:parentsName",
+		"subjects":"people:subjects",
+		"name":"subjects:name",
+		"teachers":"subjects:teachers",
+		"description":"subjects:description"
+
+
+	},
+	"@id":"http://www.people.org/people/person",
+	"@type":"people:person",
+	"fullname":"Victor Costa Arce",
+	"hometown":"Madrid",
+	"age":"24",
+	"almaMater":"Universidad Politecnica de Madrid",
+	"nameParents":["Juanma","Maria Jesus"],
+	"subjects":[
+
+				{
+				"name": "GPTI",
+				"teachers": ["Edmundo Tovar Caro","Oscar Dieste Tubio"],
+				"description": "Desarrollar los elementos y roles presentes en un organizacion",
+				},
+				{	
+				"name": "Ingenieria del Software 2",
+				"teachers": ["Jose Antonio Calvo Manzano","Tomas San Feliu Gilabert"],
+				"description": "Desarrollar los conceptos elementales del desarrollo software",
+				},
+				{
+				"name": "Tecnicas de Computacion Cientifica",
+				"teachers": ["Vicente Martin Ayuso"],
+				"description": "Ayudar al alumno a conocer las tecnicas de computacion elementales",
+				},
+				{
+				"name": "Semantic Web",
+				"teachers": ["Oscar Corcho","Raúl García Castro", "Paola Espinoza"],
+				"description": "El  objetivo  de  esta  asignatura  es  proporcionar  la  base  teórica  y  práctica  sobre  los  fundamentos  metodológicos  ytecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados"
+				}
+	}
+
+	]
+}

@@ -1,0 +1,90 @@
+{
+    "@context" : {
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "vocab" : "http://example.org#",
+      "name" : "vocab:name",
+      "lastName" : "vocab:lastName",
+      "hometown" : "vocab:hometown",
+      "age" : "vocab:age",
+      "almaMater" : "vocab:almaMater",
+      "mothersName" : "vocab:mothersName",
+      "fathersName" : "vocab:fathersName",
+      "subject" : "vocab:subject",
+      "teacher" : "vocab:teacher",
+      "description" : "rdfs:comment"
+    },
+    "@id" : "http://example.org/younesaouadidrissi",
+    "@type" : "vocab:student",
+    "name" : "Younes",
+    "lastName" : "Aouad Idrissi",
+    "hometown" : "Madrid",
+    "age" : "20",
+    "almaMater" : "Universidad Politecnica Madrid",
+    "mothersName" : "",
+    "fathersName" : "",
+    "subject" : [
+        {
+            "name" : "Administración de Sistemas Informáticos",
+            "teachers" : [
+              {
+                "name" : "Fernando Perez Costoya"
+              },
+              {
+                "name" : "Fco Javier Rosales Garcia"
+              },
+              {
+                "name" : "Victor Robles Forcada"
+              },
+              {
+                "name" : "Gabriel Cebrian Marquez"
+              }
+            ],
+            "description" : "Los  objetivos  de  esta  asignatura  son,  por  un  lado  mostrar  al  alumno  los  fundamentos  generales  de  las  tareas  yresponsabilidades  del  administrador  de  sistemas  e  ilustrarlo  con  la  administración  de  sistemas  Unix  y  sistemasWindows. Adicionalmente, se presentarán temas de carácter transversal de la administración de sistemas."
+          },
+          {
+            "name" : "Gestion de Procesos de Tecnologia de la Información",
+            "teachers" : [
+              {
+                "name" : "Oscar Dieste Tubio"
+              },
+              {
+                "name" : "Edmundo Tovar Caro"
+              },
+              {
+                "name" : "Jose Ramon SanchezPalomares"
+              },
+              {
+                "name" : "Maria Pilar RodriguezGonzalez"
+              }
+            ],
+            "description" : "En  esta  asignatura  se  tratan  los  elementos  de  una  organización,  la  gestión  por  procesos,  y  modelos  de  calidadaplicados a organizaciones de TI."
+          },
+         {
+            "name" : "Ingenieria del Software II",
+            "teachers" : [
+            {
+                "name" : "Tomas San Feliu Gilabert"
+            },
+            {
+                "name" : "Jose Antonio Calvo-Manzano Villalon"
+            },
+            {
+                "name" : "Ana Maria Moreno Sanchez-Capuchino"
+            }
+            ],
+            "description" : "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. La asignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectosaprendidos tanto en asignaturas previas del grado como en la propia asignatura."
+        },
+        {
+            "name" : " Web SemÁntica, Linked Data Y Grafos De Conocimientos",
+            "teachers" : [
+            {
+                "name" : "Oscar Corcho Garcia"
+            },
+            {
+                "name" : "Raul Garcia Castro"
+            }
+            ],
+            "description" : "El  objetivo  de  esta  asignatura  es  proporcionar  la  base  teórica  y  práctica  sobre  los  fundamentos  metodológicos  ytecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, asícomo en forma de grafos de conocimientos."
+        }
+    ]
+}

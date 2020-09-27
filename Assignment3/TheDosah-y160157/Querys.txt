@@ -1,0 +1,50 @@
+//////////////////////// 1 ////////////////////////
+
+SELECT distinct ?p 
+WHERE 
+{
+ ?inst rdf:type <http://dbpedia.org/ontology/Politician>.
+ ?inst ?p ?obj.
+} 
+
+//////////////////////// 2 ////////////////////////
+
+SELECT distinct ?p 
+WHERE 
+{
+ ?inst rdf:type <http://dbpedia.org/ontology/Politician>.
+ ?inst ?p ?obj.
+ FILTER (?p != rdf:type).
+} 
+
+//////////////////////// 3 ////////////////////////
+
+SELECT distinct ?propValue 
+WHERE 
+{
+ ?inst rdf:type <http://dbpedia.org/ontology/Politician>.
+ ?inst ?p ?propValue.
+ FILTER (?p != rdf:type).
+} 
+
+//////////////////////// 4 ////////////////////////
+
+SELECT distinct ?p ?propValue 
+WHERE 
+{
+ ?inst rdf:type <http://dbpedia.org/ontology/Politician>.
+ ?inst ?p ?propValue.
+ FILTER (?p != rdf:type).
+} 
+
+//////////////////////// 5 ////////////////////////
+
+SELECT distinct ?p COUNT (distinct ?propValue) as ?numValues
+WHERE 
+{
+ ?inst rdf:type <http://dbpedia.org/ontology/Politician>.
+ ?inst ?p ?propValue.
+ FILTER (?p != rdf:type).
+} 
+
+///////////////////////////////////////////////////
