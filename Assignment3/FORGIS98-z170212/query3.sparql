@@ -1,0 +1,25 @@
+# Which different values exist for the properties, 
+# except for rdf:type, of the instances of the Politician class?
+
+SELECT DISTINCT ?values
+  WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?x ?prop ?values .
+    filter ( ?prop not in ( rdf:type ) )
+}
+LIMIT 100
+
+# query result: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fvalues%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+%3Fx+%3Fprop+%3Fvalues+.%0D%0A+filter+%28+%3Fprop+not+in+%28+rdf%3Atype+%29+%29%0D%0A%7D%0D%0ALIMIT+100&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+# first 10: 
+#   "Adame Ba Konaré"@es
+#   "Adriano Sánchez Roa"@es
+#   "Adrián Ward"@es
+#   "Agustín Haya de la Torre de la Rosa"@es
+#   "Agustín Molina Martínez"@es
+#   "Ahmed Hilmi Pasha"@es
+#   "Aileen Baviera"@es
+#   "Aisha Musa el-Said"@es
+#   "Akua Asabea Ayisi"@es
+#   "Alain Vivien"@es
