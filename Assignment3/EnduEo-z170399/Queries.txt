@@ -1,0 +1,39 @@
+1.
+
+select distinct ?prop where{
+{?instance rdf:type <http://dbpedia.org/ontology/Politician>} .
+{?instance ?prop ?unknown}
+} 
+
+2. 
+select ?prop where
+{
+ {?instance rdf:type <http://dbpedia.org/ontology/Politician>} .
+ {?instance ?prop ?obj} .
+filter (?prop != rdf:type)
+}
+
+3.
+select ?propValue where
+{
+ {?instance rdf:type <http://dbpedia.org/ontology/Politician>} .
+ {?instance ?prop ?propValue} .
+ filter (?prop != rdf:type)
+}
+
+4.
+select distinct ?propValue where
+{
+ {?instance rdf:type <http://dbpedia.org/ontology/Politician>} .
+ {?instance ?prop ?propValue} .
+ filter (?prop != rdf:type)
+}
+
+5.
+
+select ?prop, count(distinct ?propValue) as ?ocurrencias where
+{
+ {?instance rdf:type <http://dbpedia.org/ontology/Politician>} .
+ {?instance ?prop ?propValue} .
+ filter (?prop != rdf:type)
+}

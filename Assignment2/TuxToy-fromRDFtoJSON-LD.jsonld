@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://www.tarea2.es/#Measurement8401",
+      "http://www.tarea2.es/#atTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2010-06-12T12:00:12"
+      },
+      "http://www.tarea2.es/#hasTemperature": {
+        "@type": "xsd:integer",
+        "@value": "29"
+      }
+    },
+    {
+      "@id": "http://www.tarea2.es/#Class01",
+      "http://www.tarea2.es/#includes": [
+        {
+          "@id": "http://www.tarea2.es/#Sensor029"
+        },
+        {
+          "@id": "http://www.tarea2.es/#Computer101"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.tarea2.es/#Sensor029",
+      "http://www.tarea2.es/#hasMeasurement": {
+        "@id": "http://www.tarea2.es/#Measurement8401"
+      }
+    },
+    {
+      "@id": "http://www.tarea2.es/#Computer101",
+      "http://www.tarea2.es/#hasOwner": {
+        "@id": "http://www.tarea2.es/#User10A"
+      }
+    },
+    {
+      "@id": "http://www.tarea2.es/#User10A",
+      "http://www.tarea2.es/#hasName": "Pedro"
+    }
+  ]
+}
