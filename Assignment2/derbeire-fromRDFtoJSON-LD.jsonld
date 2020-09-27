@@ -1,12 +1,9 @@
 {
 	"@context": {
+		"prefix": "http://example.org/prefix/",
 		"cla":"http://schema.org/",
 		"xsd":"http://schema.org/xsd",
 		"Class01":"cla:Class01",
-		"Sensor029":"cla:Sensor029",
-		"Computer101":"cla:Computer101",
-		"Measurement8401":"sensor:Measurement8401",
-		"User10A":"computer:User10A",
 		"includes":"cla:includes",
 		"hasMeasurement":"cla:hasMeasurement",
 		"hasTemperature":"cla:hasTemperature",
