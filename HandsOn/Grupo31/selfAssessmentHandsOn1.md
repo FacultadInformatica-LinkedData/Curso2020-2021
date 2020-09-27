@@ -4,12 +4,12 @@
 
 **The “README.md” file:**
 
-- [ ] Includes the names and GitHub users of all the members of the group
+- [x] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
 
-- [ ] Contains at least one CSV file 
-- [ ] The CSV files belong to one of the selected domains
+- [x] Contains at least one CSV file 
+- [x] The CSV files belong to one of the selected domains
 
 **The "datasetRequirements.html" file:**
 
