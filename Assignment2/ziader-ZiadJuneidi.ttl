@@ -1,28 +1,18 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <http://example.org/#> .
+@prefix prop: <http://example.org/elements/properties>.
 
-:Class01 a foaf:Class ;
-    rdfs:includes :Computer101 ;
-    rdfs:includes :Sensor029 ;
-.
+:Class01 rdfs:includes :Sensor029 ;
+    rdfs:includes :Computer101.
 
-:Sensor029 a foaf:Class ;
-   rdfs:hasMeasurement :Measurement8401 ;
-.
+:Sensor029  prop:hasMeasurement :Measurement8401.
 
-:Computer101 a foaf:Class ;
-   rdfs:hasOwner :User10A ;
-.
+:Computer101	prop:hasOwner :User10A.
 
-:Measurement8401 a foaf:Class ;
-   rdfs:hasTemperature "29" ;
-   rdfs:atTime  "2010-06-12T12:00:12" ;
-.
+:prop:Measurement8401	prop:hasTemperature "29"^^xsd:integer;
+						prop:atTime "2010-06-12T10:00:12"^^xsd:dateTime.
 
-:User10A a foaf:Class ;
-   rdfs:hasName "Pedro" ;
-.
-
+:User10A	prop:hasName "Pedro"^^ xsd:string.
 
 
