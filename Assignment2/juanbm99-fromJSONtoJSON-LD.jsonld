@@ -1,0 +1,42 @@
+{
+	"@context": {
+			"vocab": "http://www.alumnosSemanticWeb.es/alumnos#",
+			"nombre_Completo": "vocab:nombre_Completo",
+			"localidad": "vocab:localidad",
+			"edad": "vocab:edad",
+			"almaMater": "vocab:almaMater",
+			"nombre_Padre": "vocab:nombre_Padre",
+			"nombre_Madre": "vocab:nombre_Madre",
+			"asignaturas": "http://www.alumnosSemanticWeb.es/asignatura#"
+			"nombre_asignatura": "asignaturas:nombre_asignatura",
+			"profesores": "asignaturas:profesores",
+			"descripcion": "asignaturas:descripcion"
+	},
+	"@id": "http://www.alumnosSemanticWeb.es/alumnos/juanbernalmencia",
+	"@type": "vocab:Person",
+	"nombre_Completo": "Juan Bernal Mencia",
+	"localidad": "Majadahonda",
+	"edad": 21,
+	"almaMater": "Universidad Politecnica de Madrid",
+	"nombre_Padre": "Juan Carlos",
+	"nombre_Madre": "Amparo",
+	"asignaturas": [
+		
+		{
+			"nombre_asignatura": "Semantic Web",
+			"profesorSemanticWeb": ["Oscar Corcho", "Paola Espinoza"],
+			"descripcionSemanticWeb": "Introducción a la web semantica y datos enlazados"
+		},
+		{
+			"nombre_asignatura": "Nanotecnologia",
+			"profesorNanotecnologia": ["Estibaliz Martinez", "Mercedes Perez"],
+			"descripcionNanotecnologia": "Introducción nanotecnologia y sus diversos usos"
+		},
+		{
+			"nombre_asignatura": "Ingenieria Software 2",
+			"profesorIngenieriaSoftware": ["Jose Antonio Calvo Manzano", "Tomas San Feliu"],
+			"descripcionIngenieriaSoftware": "Desarrollo software de una aplicacion con sus respectivas fases y documentacion"
+		}
+	]
+}
+			

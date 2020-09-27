@@ -1,0 +1,63 @@
+{
+	"@context":{
+		"base":"http://www.assignements.es/",
+      	"alum": "http://www.assignements.es/alum/",
+		"sensor":"http://www.assignements.es/sensor/",
+		"computer":"http://www.assignements.es/computer/",
+		"measure":"http://www.assignements.es/measure/",
+		"componentes":"http://www.assignements.es/componentes/" ,
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"includes":"componentes:includes" ,
+		"hasowner":"componentes:hasowner" ,
+		"hasname":"componentes:hasname" ,	
+		"hasmeasurement":"componentes:hasmeasurement" ,
+		"hastemperature":"componentes:hastemperature" ,
+		"attime":"componentes:attime"
+	},
+
+	"@graph":
+  [
+	{
+	"@id":"class01/" ,
+	"@type":"base",
+	"includes":
+    [
+        {
+            "@id":"sensor:029/",
+            "@type":"sensor",
+          	"hasmeasurement":
+          	{
+				"@id":"measurement8401",
+				"@type":"measure",
+             	 "hastemperature":
+              {
+					"@value":"29",
+					"@type":"xsd:int"	
+			  },
+              "attime":
+              {
+                    "@value":"2010-06-12T12:00:12",
+                    "@type":"xsd:datetime"
+			  }
+			}
+        },
+      
+      
+        {
+           "@id":"computer:101/",
+           "@type":"computer",
+           "hasowner":
+          		{
+					"@id":"user10A/",
+					"@type":"alum",
+                  	"hasname":
+                  	{
+						"@value":"Pedro",
+						"@type":"xsd:normalizedstring"
+					}
+				}
+        }
+	]
+	}   
+  ]
+}

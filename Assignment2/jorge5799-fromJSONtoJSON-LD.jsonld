@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "person":"http://www.ontologies.org/ontologies/People#",
+        "s":"http://www.example.org/",
+        "fullName": "s:hasFullName:",
+        "hometown": "s:hometown:",
+        "age": "s:age:",
+        "almaMaster": "s:almaMaster:",
+        "parentsName": "s:parentsName:",
+        "subjects": "s:subjects:",
+        "name": "s:name",
+        "teachers": "s:teachers",
+        "description": "s:description",
+        "student":"s:student"
+    },
+    "@id": "http//www.alumnos.upm.es/z170083",
+    "@type": "person:student",
+    "fullName": "Jorge Diaz Alvarez",
+    "hometown": "Getafe",
+    "age": "21",
+    "almaMaster": "UPM",
+    "parentsName": [
+        "Javier",
+        "Carmen"
+    ],
+    "subjects": [
+        {
+            "name": "Semantic Web, Linked Data and Knowledge Graphs",
+            "teachers": [
+                "Oscar Corcho",
+                "Raúl García Castro",
+                "Paola Espinoza",
+                "David Chaves"
+            ],
+            "description": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados"
+        }
+    ]    
+}
