@@ -82,5 +82,37 @@ query = prepareQuery('''
 
 for res in g.query(query):
   print(res)
+
 # TASK 7.3
 print("\nTASK 7.3")
+for subj, pred, obj in g.triples((None, RDF.type, ns.Person)):
+    for s, p, o in g.triples((subj, None, None)):
+        print(s, p, o)
+
+for subj, pred, obj in g.triples((None, RDFS.subClassOf, ns.Person)):
+    for s, p, o in g.triples((None, RDF.type, subj)):
+        for ss, pp, oo in g.triples((s, None, None)):
+            print(ss, pp, oo)
+
+print("")
+query = prepareQuery('''
+  SELECT 
+    ?Data ?WhatEver ?Object
+  WHERE { 
+    {
+    ?Data rdf:type ns:Person .
+    ?Data ?WhatEver ?Object .
+    }UNION{
+        ?tmp rdfs:subClassOf ns:Person .
+        ?Data rdf:type ?tmp .
+        ?Data ?WhatEver ?Object
+    }
+  }
+  LIMIT 100
+  ''',
+  initNs = { "rdfs": RDFS, "rdf": RDF, "ns": ns}
+)
+
+for res in g.query(query):
+  print(res)
+
