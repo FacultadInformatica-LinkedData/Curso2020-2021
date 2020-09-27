@@ -17,14 +17,51 @@
     },
     "Class01":{
         "@id":"http://example.org/elements/Class01",
-    }
-     
-    "@type":"http://example.org/class",
-    "includes":[
-        {
-            "@id":"http://example.org/Sensor029"
-        }
-    ]
-
-    
+        "@type":"elems:Class01",
+        "includes": [
+            {
+                "@id": "http://example.org/elements/Class01",
+                "@type": "elems:Class01",
+                "includes": [
+                    {
+                    "@id": "http://example.org/elements/Class01/Sensor029"
+                    },
+                    {
+                    "@id": "http://example.org/elements/Class01/Computer101"
+                    }
+                ]
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Sensor029",
+                "@type": "elems:Class01/Sensor029",
+                "hasMeasurement": {
+                    "@id": "elems:Class01/Sensor029/Measurement8401"
+                }
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Sensor029/Measurement8401",
+                "@type": "elems:Class01/Sensor029/Measurement8401",
+                "temperature": 29,
+                "atTime": {
+                    "@value": "2010-06-12T12:00:12",
+                    "@type": "xsd:dateTime"
+                }
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Computer101",
+                "@type": "elems:Class01/Computer101",
+                "hasOwner": {
+                    "@id": "elems:Class01/Computer101/User10A"
+                }
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Computer101/User10A",
+                "@type": "elems:Class01/Computer101/User10A",
+                "name": {
+                    "@type": "xsd:string",
+                    "@value": "Pedro"
+                }
+            }
+        ]
+    } 
 }
