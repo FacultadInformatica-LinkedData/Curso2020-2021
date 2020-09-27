@@ -1,0 +1,61 @@
+# JSON
+
+{
+	
+	"fullname":"Rafael Martin Lesmes",
+	"hometown":"Boadilla del Monte",
+	"age":"21",
+	"almamater":"Universidad Politecnica de Madrid",
+	"parentsname":["Ismael Martin Barroso","Maria Magdalena Lesmes Arenas"],
+	"subjects":{
+		"Semantic Web, Linked Data and Knowledge Graphs":[{"teachers":["Oscar Corcho", "Paola Espinoza", "Raul Garcia Castro"],
+		"description":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication  of vocabularies and data on the Web of Linked Data, as well as knowledge graphs."}],
+
+		"Nanotecnologia":[{"teachers":["Maria Estibaliz Martinez Izquierdo","Maria Mercedes Perez Castellanos"],
+		"description":"En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca"}]
+
+	}
+}
+
+
+# JSON-LD
+{
+
+	"@context":{
+		"root":"http://www.example.es/api/example#",
+      	"rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+      	"vcard":"http://www.w3.org/2006/vcard/ns#",
+      	"myvocab":"http://www.myvocab.org/api/",
+      	"age":"myvocab:age",
+      	"teachers":"myvocab:teachers",
+      	"description":"myvocab:description",
+      	"hometown":"myvocab:town",
+     	"almamater":"myvocab:almamater"
+      	
+      
+      	
+      
+	},
+  	"@id":"http://www.example.es/api/example/alumno/fullname/Rafael-Martin-Lesmes",
+  	"@type":"root:Person/student",
+  	"hometown":"http://www.example.es/api/example/alumno/hometown/Boadilla-del-Monte",
+  	"age":"21",
+  	"almamater":"http://www.example.es/api/example/alumno/almamater/Universidad-Politecnica-de-Madrid",
+  	"subjects":{
+      
+      "@SemanticWebLinkedDataAndKnowledgeGraphs":{
+        "@id":"http://www.example.es/api/example/alumno/fullname/Rafael-Martin-Lesmes/subjects/Semantic-Web-Linked-Data-and-Knowledge-Graphs",
+      	"@type":"alumno/fullname/Rafael-Martin-Lesmes/subjects/",
+      	"@teachers":["Oscar Corcho", "Paola Espinoza", "Raul Garcia Castro"],
+      	"@description":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication  of vocabularies and data on the Web of Linked Data, as well as knowledge graphs."
+      },
+      
+      "@Nanotecnologia":{
+        "@id":"http://www.example.es/api/example/alumno/fullname/Rafael-Martin-Lesmes/subjects/Nanotecnologia",
+        "@type":"alumno/fullname/Rafael-Martin-Lesmes/subjects/",
+        "@teachers":["Maria Estibaliz Martinez Izquierdo","Maria Mercedes Perez Castellanos"],
+      	"@description":"En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca."
+      }
+      	
+    }
+}

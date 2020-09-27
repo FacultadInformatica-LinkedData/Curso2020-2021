@@ -1,0 +1,39 @@
+{
+  "@context":{
+    "user":"http://www.upm.alumnos.es/",
+    "datos":"http://www.upm.alumnos.es/id/datos/",
+    "fullname":"datos:fullname",
+    "hometown":"datos:hometown",
+    "age":"datos:age",
+    "almamater":"datos:almamater",
+    "parents":"datos:parents",
+    "subjects":"http://www.upm.alumnos.es/id/subjects",
+    "name":"subjects: name",
+    "teachers":"subjects:teachers",
+    "description":"subjects:description"
+  },
+  "@id":"http://www.upm.alumnos.es/id/077",
+  "@type":"user:id",
+  "fullname":"Daniel Lobato Navacerrada",
+  "hometown":"Toledo",
+  "age":"21",
+  "almamater":"UPM",
+  "parents":"Carmen y César",
+  "subjects":
+  [
+    {
+      "name":"Semantic Web, Linked Data and Knowledge Graphs",
+	  "teachers":
+      [
+        {
+			"name":"Oscar Corcho Garcia"
+		},
+		{
+			"name":"Raul Garcia Castro"
+		}
+	  ],
+			"description":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological              foundations of the generation and publication of vocabularies and data on the Web of Linked Data, as well as knowledge graphs"
+	}
+  ]
+  
+}

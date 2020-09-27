@@ -1,0 +1,6 @@
+select distinct ?prop ?z
+where{
+?polit rdf:type <http://dbpedia.org/ontology/Politician>.
+?polit ?prop ?z.
+filter(?prop!=rdf:type).
+} 

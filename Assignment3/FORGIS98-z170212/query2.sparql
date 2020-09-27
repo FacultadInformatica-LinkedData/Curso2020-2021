@@ -1,0 +1,25 @@
+# Get all the properties, except for rdf:type, 
+# that are applied to instances of the Politician class
+
+SELECT DISTINCT ?prop
+WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?x ?prop ?y .
+    filter ( ?prop not in ( rdf:type ) )
+}
+LIMIT 100
+
+# query result: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fprop%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+%3Fx+%3Fprop+%3Fy+.%0D%0A+filter+%28+%3Fprop+not+in+%28+rdf%3Atype+%29+%29%0D%0A%7D%0D%0ALIMIT+100&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+# first 10:
+#   http://www.w3.org/2000/01/rdf-schema#label
+#   http://www.w3.org/2000/01/rdf-schema#comment
+#   http://www.w3.org/2002/07/owl#sameAs
+#   http://xmlns.com/foaf/0.1/name
+#   http://xmlns.com/foaf/0.1/topic
+#   http://xmlns.com/foaf/0.1/homepage
+#   http://purl.org/dc/terms/subject
+#   http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+#   http://es.dbpedia.org/property/gabinete
+#   http://es.dbpedia.org/property/afiliaciones
