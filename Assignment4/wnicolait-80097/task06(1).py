@@ -17,8 +17,6 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
 g = Graph()
-g.namespace_manager.bind('nsPer', Namespace("http://Person"), override=False)
-g.namespace_manager.bind('nsP', Namespace("http://Universithy"), override=False)
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/resources/example5.rdf", format="xml")
@@ -32,10 +30,7 @@ for s, p, o in g:
 
 """**TASK 6.1: Create a new class named "University"**"""
 
-nsP = Namespace("http://Universithy/")
-nsPer= Namespace("http://Person/")
-g.add((nsP.Universithy, RDF.type, RDFS.Class))
-g.add((nsPer.Person, RDF.type, RDFS.Class))
+g.add((ns.University, RDF.type, RDFS.Class))
 for s, p, o in g:
   print(s,p,o)
 
@@ -43,40 +38,34 @@ for s, p, o in g:
 
 """**TASK 6.2: Add "Researcher" as a subclass of "Person"**"""
 
+g.add((ns.Person, RDF.type, RDFS.subClassOf))
+for s, p, o in g:
+  print(s,p,o)
 
 
-app = nsPer.Researcher
-     says= nsPer.says
-     inv=Literal("Jane Smith")
-     print(app)
 
 """**TASK 6.3: Create a new individual of Researcher named "Jane Smith"**"""
 
-triple =(app,says,inv)
-g.add(triple)
-search = g.triples((None,says,None))
-for subj,pred,obj in search:
-  print(subj,pred,obj)
+g.add((ns.Researcher, RDF.type, Literal("Jane Smith")))
+for s, p, o in g:
+  print(o)
 
 """**TASK 6.4: Add to the individual JaneSmith the fullName, given and family names**"""
 
-fullName = Literal("Jane Smith")
-EX = Namespace("http://somewhere#")
-janeURI = EX.JaneSmith
-VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
-resource = (janeURI, VCARD.FN, fullName)
-print(resource)
-g.add(resource)
+vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+g.add((ns.JaneSmith,vcard.FN,Literal("Jane Smith")))
+g.add((ns.JaneSmith,vcard.Given,Literal("Jane")))
+g.add((ns.JaneSmith,vcard.Family,Literal("Smith")))
+for s,p,o in g.triples((ns.JaneSmith,None,None)):
+  print(o)
 
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
 
-app = nsP.Upm
-says= nsPer.says
-inv=Literal("John Smith")
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
-resource = (app, VCARD.FN, inv)
-print(resource)
-g.add(resource)
+g.add((ns.UPM,RDF.type,ns.Universithy))
+g.add((ns.JohnSmith, VCARD.work,ns.UPM))
+for s, p, o in g:
+ print(s)
 
 """# Nueva sección"""
 

@@ -17,7 +17,6 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
 g = Graph()
-g.namespace_manager.bind('nsP', Namespace("http://somewhere#/Person"), override=False)
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/resources/example6.rdf", format="xml")
@@ -27,7 +26,7 @@ g.parse(github_storage+"/resources/example6.rdf", format="xml")
 from rdflib.plugins.sparql import prepareQuery
 
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
-query2 = prepareQuery('''
+q = prepareQuery('''
   SELECT 
     ?Person ?FullName
 	WHERE { 
@@ -37,42 +36,37 @@ query2 = prepareQuery('''
   initNs = { "clave": VCARD}
 )
 
-for r in g.query(query2):
+for r in g.query(q):
   print(r)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**"""
 
-query3 = prepareQuery('''
-  SELECT 
-    ?Person ?FullName
-	WHERE { 
-    ?Person clave:FN ?FullName.
-  } 
-  ''',
-  initNs = { "clave": VCARD}
-)
+ns = Namespace("http://somewhere#")
 
-for r in g.query(query3):
-  print(r)
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+  print(s)
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
+  for suj,pred,obj in g.triples((None, RDF.type, s)):
+    print(s1)
 
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**"""
 
 from rdflib.plugins.sparql import prepareQuery
 
 
-VCARD = Namespace("http://somewhere#/Person")
+VCARD = Namespace("http://somewhere#/")
 
 
 qt = prepareQuery('''
   SELECT 
-    ?Person
+    ?p
   WHERE { 
-    ?Person clave:FN ?FullName. 
+    ?p clave:FN ?FullName. 
   }
   ''',
   initNs = { "clave": VCARD}
 )
 
 
-for r in g.query(qt):
-  print(r)
+for p in g.query(qt):
+  print(g)
