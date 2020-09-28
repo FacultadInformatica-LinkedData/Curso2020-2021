@@ -1,16 +1,16 @@
 {
     "@context": {
 
-        "schema":"http://schema.org",
-        "ls":"http://linkedscience.org",
-        "saref":"https://w3id.org/saref",
-        "iot":"http://purl.org/iot/vocab/m3-lite",
-        "mvco":"http://purl.oclc.org/NET/mvco.owl",
-        "gr":"http://purl.org/goodrelations/v1",
+        "schema":"http://schema.org/",
+        "ls":"http://linkedscience.org/",
+        "saref":"https://w3id.org/saref/",
+        "iot":"http://purl.org/iot/vocab/m3-lite/",
+        "mvco":"http://purl.oclc.org/NET/mvco.owl/",
+        "gr":"http://purl.org/goodrelations/v1/",
         "ddesc":"https://w3id.org/arco/ontology/",
-        "rsctx":"http://softeng.polito.it/rsctx",
-        "step":"http://purl.org/net/step",
-        "identity":"http://www.identity.org/ontologies/identity.owl",
+        "rsctx":"http://softeng.polito.it/rsctx/",
+        "step":"http://purl.org/net/step/",
+        "identity":"http://www.identity.org/ontologies/identity.owl/",
 
         "classroom":"ls:room",
         "sensor":"saref:sensor",

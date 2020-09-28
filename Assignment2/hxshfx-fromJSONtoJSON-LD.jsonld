@@ -4,8 +4,9 @@
         "schema":"http://schema.org/",
         "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
         "foaf":"http://xmlns.com/foaf/0.1/",
-        "dbp":"http://dbpedia.org/resource/classes#",
+        "dbp":"http://dbpedia.org/ontology/",
         "npg":"http://ns.nature.com/terms/",
+        "poder":"http://dev.poderopedia.com/vocab/",
 
         "person":"foaf:person",
         "name":"foaf:name",
@@ -15,7 +16,10 @@
         "parent":"dbp:parent",
         "teacher":"dbp:headteacher",
         "subject":"npg:subject",
-        "description":"rdfs:comment"
+        "description":"rdfs:comment",
+        "parents":"poder:hasParents",
+        "subjects":"dbp:hasSubjects",
+        "teachers":"dbp:hasTeachers"
 
     },
 
