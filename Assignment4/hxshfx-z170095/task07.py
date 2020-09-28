@@ -41,7 +41,7 @@ q1 = prepareQuery('''
     SELECT 
         ?Subject
     WHERE {
-        ?Subject rdfs.subClassOf ns.Person.
+        ?Subject rdfs:subClassOf ns:Person.
     }
     ''',
     initNs = {"rdfs":RDFS, "ns":ns}
@@ -71,7 +71,7 @@ q2 = prepareQuery('''
     SELECT
         ?Subject
     WHERE {
-        ?Subject (rdf:type/rdfs::subClassOf*) ns.Person .
+        ?Subject (rdf:type/rdfs:subClassOf*) ns:Person .
     }
     ''',
     initNs = {"rdf":RDF, "rdfs":RDFS, "ns":ns}
@@ -90,9 +90,10 @@ for s1,p1,o1 in g.triples((None, RDF.type, ns.Person)):
     for s2,p2,o2 in g.triples((s1, None, None)):
         print(s1, p2, o2)
 
-for s1,p1,o1 in g.triples((None, RDF.type, subclasses)):
-    for s2,p2,o2 in g.triples((s1, None, None)):
-        print(s1, p2, o2)
+for subclass in subclasses:
+    for s1,p1,o1 in g.triples((None, RDF.type, subclass)):
+        for s2,p2,o2 in g.triples((s1, None, None)):
+            print(s1, p2, o2)
 
 print(sstr)
 
@@ -100,7 +101,7 @@ q3 = prepareQuery('''
     SELECT
         ?S ?P ?O
     WHERE {
-        ?S (rdf:type/rdfs::subClassOf*) ns.Person .
+        ?S (rdf:type/rdfs:subClassOf*) ns:Person .
         ?S ?P ?O
     }
     ''',
