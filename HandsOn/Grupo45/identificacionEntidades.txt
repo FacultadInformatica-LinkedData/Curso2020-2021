@@ -1,0 +1,16 @@
+
+Entidades: 
+
+Provincia: Es el código de la provincia donde se toma la medición
+Municipio: Municipio donde se toma la medición
+Estación: Estación donde se toma la medición
+Magnitud: 
+Punto muestreo: Es el código de la estación donde se toma la medición (estaciones de control)
+Año: Año de la medición 
+Mes: Mes de la medición; este dataset se corresponde con el mes 4 (abril)
+Día: Día de la medición
+H01: Recoge dato de la calidad del aire de ese día en ese mes a la 1:00 am
+V01: Dato booleano que corresponde a si es válido o no.
+H01,H02...: Esta entidad hace referencia a las horas en que se toma la medición, así como la entidad V01, V02,...
+
+Entidades enlazables: Podemos enlazar este dataset con los de otras provincias, con otros años y otros meses. Ademas también se pueden enlazar con los codigos de las estaciones de control
