@@ -2,19 +2,24 @@
 
 ##Checklist##
 
-The “README.md” file:
+**The “README.md” file:**
 
- ·Includes the names and GitHub users of all the members of the group :Sí
-The "csv" directory:
+- [X] Includes the names and GitHub users of all the members of the group
 
- ·Contains at least one CSV file :Sí
- ·The CSV files belong to one of the selected domains :Sí
-The "datasetRequirements.html" file:
+**The "csv" directory:**
 
- ·Identifies the licenses of all the selected datasets :Sí
- ·Identifies those entities in the selected datasets that can be linked with entities in other datasets :Sí
- ·Identifies those entities in other datasets that can be linked with entities in the selected datasets :Sí
-The "applicationRequirements.html” file:
+- [X] Contains at least one CSV file 
+- [X] The CSV files belong to one of the selected domains
 
- ·Includes a description of the application user interface :Sí
-##Comments on the self-assessment## (If required)
+**The "datasetRequirements.html" file:**
+
+- [X] Identifies the licenses of all the selected datasets
+- [X] Identifies those entities in the selected datasets that can be linked with entities in other datasets
+- [X] Identifies those entities in other datasets that can be linked with entities in the selected datasets 
+
+**The "applicationRequirements.html” file:**
+
+- [X] Includes a description of the application user interface
+
+##Comments on the self-assessment##
+_(If required)_
