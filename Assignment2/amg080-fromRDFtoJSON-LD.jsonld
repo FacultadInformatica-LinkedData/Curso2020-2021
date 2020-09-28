@@ -1,0 +1,49 @@
+{
+  "@context":{
+    "exp": "http://example.org/class",
+    "xds": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "includes":"exp:includes",
+    "hasMeasurement":"exp:hasMeasurement",
+    "hasTemperature":"rdfs:comment",
+    "atTime":"xsd:dateTime",
+    "hasOwner":"exp:hasOwner",
+    "hasName":"rdfs:label"
+  },
+  
+  "@id": "exp:Class01",
+  "@type": "exp",
+  
+  "includes": [
+    
+    {
+      "@id": "exp:Sensor029",
+      "@type": "exp:Sensor",
+      
+      "hasMeasurement": {
+        
+        "@id": "exp:Measurement8401",
+        "@type": "exp:Measurement",
+        "hasTemperature":29,
+        "atTime":"2010-06-12T12:00:12"
+        
+      }
+      
+    },
+    
+    {
+      "@id": "exp:Computer101",
+      "@type": "exp:Computer",
+      
+      "hasOwner": {
+        
+        "@id": "exp:User10A",
+        "@type": "exp:User",
+        
+        "hashName":"Pedro"
+        
+      }
+    }
+    
+  ]
+}
