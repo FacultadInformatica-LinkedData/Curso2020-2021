@@ -70,8 +70,8 @@ for subj, pred, obj in g.triples((ns.JaneSmith, None, None)):
 # TASK 6.5
 print("\nTASK 6.5")
 g.add((ns.UMP, RDF.type, ns.University))
-g.add((ns.JaneSmith, vcard.Work, ns.UPM))
-for subj, pred, obj in g.triples((ns.JaneSmith, vcard.Work, None)):
+g.add((ns.JaneSmith, ns.Work, ns.UPM))
+for subj, pred, obj in g.triples((ns.JaneSmith, ns.Work, None)):
     print(subj, pred, obj)
 for subj, pred, obj in g.triples((ns.UPM, None, None)):
     print(subj, pred, obj)
