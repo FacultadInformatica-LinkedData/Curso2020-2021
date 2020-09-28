@@ -1,6 +1,6 @@
 {
     "@context": {
-        "obj": "http://www.w3.org/2001/obj",
+        "obj": "http://www.w3.org/2001/obj/",
         "rdfs": "http://www.w3.org/2001/rdf-schema#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "includes": "obj:includes",
