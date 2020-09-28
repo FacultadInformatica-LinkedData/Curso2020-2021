@@ -1,0 +1,65 @@
+{ 
+  "@context":{ 
+    "xsd":"http://www.w3.org/2001/XMLSchema#", 
+    "prop": "http://www.examples.org#" 
+  }, 
+  
+  "prop:name": "Paula Pousa Martínez", 
+  "prop:homeTown": "Madrid", 
+  "prop:age": 21, 
+  "prop:almaMater": "UPM", 
+  "parentsName": [ 
+    "Julia", 
+    "Camilo" 
+  ], 
+  
+  "prop:subjects":[ 
+    { 
+      "prop:subjectName": "Administración de Sistemas Informáticos", 
+      "prop:teachers":[ 
+        "Gabriel Cebrián Márquez", 
+        "Fernando Pérez Costoya", 
+        "Francisco Rosales García", 
+        "Víctor Robles Forcada" 
+      ], 
+      "prop:description": "Los  objetivos  de  esta  asignatura  son,  por  un  lado  mostrar  al  alumno  los  fundamentos  generales  de  las  tareas  yresponsabilidades  del  administrador  de  sistemas  e  ilustrarlo  con  la  administración  de  sistemas  Unix  y  sistemasWindows. Adicionalmente, se presentarán temas de carácter transversal de la administración de sistemas." 
+    }, 
+    { 
+      "prop:subjectName": "Gestión de procesos de tecnologías de la información",
+      "prop:teachers":[ 
+        "Oscar Dieste Tubio", 
+        "Edmundo Tovar Caro", 
+        "Jose Ramon Sanchez Palomares", 
+        "Maria Pilar Rodriguez Gdeonzalez" 
+      ], 
+      "prop:description": "En esta  asignatura  se  tratan  los  elementos  de  una  organización,  la  gestión  por  procesos,  y  modelos  de  calidadaplicados a organizaciones de TI." 
+    }, 
+    { 
+      "prop:subjectName": "Ingeniería del Software II", 
+      "prop:teachers":[ 
+        "Tomas San Feliu Gilabert", 
+        "Jose Antonio Calvo-Manzano Villalon", 
+        "Ana Maria Moreno Sanchez-Capuchino" 
+      ], 
+      "prop:description": "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. Laasignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectosaprendidos tanto en asignaturas previas del grado como en la propia asignatura." 
+    }, 
+    { 
+      "prop:subjectName": "Semantic Web, Linked Data & Knowdledge Graphs", 
+      "prop:teachers":[ 
+        "Oscar Corcho Garcia", 
+        "Raul Garcia Casto" 
+      ], 
+      "prop:description":"El  objetivo  de  esta  asignatura  es  proporcionar  la  base  teórica  y  práctica  sobre  los  fundamentos  metodológicos  ytecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, asícomo en forma de grafos de conocimientos" 
+    }, 
+    { 
+      "prop:subjectName": "Tecnologías de Red Cisco: CCNA", 
+      "prop:teachers":[ 
+        "Sonia de Frutos", 
+        "Miguel Jiménez" 
+      ], 
+      "prop:description": "La  asignatura  capacita  al  alumno  para  realizar  tareas  de  diseño,  planificación  y  explotación  de  redes  decomunicaciones,  con  un  enfoque  práctico  centrado  en  el  uso  de  las  nuevas  tecnologías  CISCO.  Los  alumnosaprenderán  a  crear,  manejar  y  resolver  problemas  en  redes  del  hogar  y  de  pequeñas  empresas,  así  como  aconfigurar la seguridad básica de la red." 
+    } 
+  ] 
+}
+
+

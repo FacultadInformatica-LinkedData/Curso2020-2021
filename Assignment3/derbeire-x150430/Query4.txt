@@ -1,0 +1,283 @@
+Query 4:
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?p ?y
+WHERE{
+?x rdf:type ex:Politician .
+?x ?p ?y
+FILTER (?p != rdf:type)
+}
+LIMIT 100
+
+Resultado 4: (esto queda visualizado como dos columnas "p", "y", con los enlaces a la izquierda y el string a la derecha)
+
+p 	y
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Adame Ba Konaré"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Adriano Sánchez Roa"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Adrián Ward"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Agustín Haya de la Torre de la Rosa"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Agustín Molina Martínez"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Ahmed Hilmi Pasha"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Aileen Baviera"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Aisha Musa el-Said"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Akua Asabea Ayisi"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Alain Vivien"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Alaiza Pashkevich"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Aptripel Tumimomor"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Arancha González Laya"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Archer Blood"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Ariela Luna"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Arnulfo Gasca Trujillo"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Arturo Zúñiga"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Ascensión Pastor Parres"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Ashok-Alexander Sridharan"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Aslan Bzhania"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Asma Abdallá"@es
+
+http://www.w3.org/2000/01/rdf-schema#label 	
+
+"Eduardo Salinas Verdeguer"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Adame Ba Konaré o Adame Konaré Ba (Segú, 1 de mayo de 1947) es una historiadora, escritora, militante del movimiento democrático maliense y activista por los derechos de las mujeres. En 1995 fundó el Museo de la Mujer Muso Kunda, uno de los pocos  que existen en África. En sus investigaciones reivindica el valor de la tradición oral para conocer e investigar sobre la historia de África que desde los años 60 del siglo XX se integran como fuente de información igualmente válidos que los documentos escritos, señala la historiadora. Fue primera dama de Malí entre 1992 y 2002."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Adriano de Jesús Sánchez Roa (nacido el 24 de enero del año 1956) es un político, economista y escritor de la República Dominicana. Es Senador para la provincia de Elías Piña, elegido en 2006, y reelegido en 2010, con 60.05% de los votos.​​ Ha sido descrito cuando uno del más senadores más trabajadores.​​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Manuel Mariano Adrián Ward Chocano fue un hacendado, periodista y político peruano. Fue senador por Tacna durante 23 años entre 1886 y 1912. Nació en Arequipa en 1834. Sus padres fueron Juan Lucas Ward y María Josefa Joaquina Chocano Vilchez. Se casó en 1854 en Arequipa con María Julia Rosa Johnson Ureta con quien tuvo cinco hijos. En 1871 estableció la Hacienda Ward en el Valle de Cinto en el departamento de Tacna (actual provincia de Jorge Basadre. Ward trajo como mayordomo al chinchano José Lévano Trillo y se dedicó a la producción de vino para exportarlo a Europa. Luego de la guerra con Chile se generó un ambiente hostil de parte de los chilenos que ocuparon la zona por lo que Ward tuvo que abandonar la hacienda y mudarse a Tacna vendiendola eventualmente a Lévano​."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Agustín Haya de la Torre de la Rosa (Lima, Perú, 3 de diciembre de 1948) es un sociólogo peruano."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Agustín Molina Martínez (Distrito de Capaya, Provincia de Aymaraes, Apurímac, 27 de marzo de 1953), es un político peruano. Ha sido electo Congresista de la República del Perú para el período 2011-2016 por el departamento del Cusco.​​ Originario de Apurímac, reside en el Cusco desde su juventud. En el año 1986 se graduó como ingeniero agrónomo en la Universidad Nacional de San Antonio Abad del Cusco. Ha trabajado para Bayer Perú SA como representante de desarrollo, y para agroveterinaria La Granja Kayra SRL como representante de ventas​."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Ahmed Hilmi Abd al-Baqi (en árabe: أحمد حلمي عبد الباقي; nacido en 1883, Sidón​​, Imperio otomano- febrero de 1963, Líbano), fue un militar, banquero y político palestino, que sirvió en varios gobiernos post-Imperio otomano, y fue Primer Ministro de Toda Palestina, un protectorado de corta duración en la Franja de Gaza."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Aileen San Pablo, vda. de Baviera (Manila, 26 de agosto de 1959 - Ibidem., 21 de marzo de 2020)​ fue una politóloga y sinóloga filipina. Fue una de las principales expertas sobre China en su país.​​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Aisha Musa el-Said (también Asha, Ayesha, Mousa, Elsaid, El Said, Saeed, en árabe, عائشة موسى السعيد ) es una traductora y activista por los derechos de las mujeres de Sudán. Desde el 21 de agosto de 2019 se desempeña como miembro del Consejo Soberano de Sudán, creado para gobernar Sudán durante un periodo de 39 meses. ​ Musa es una de las seis personas civiles que ocupan escaños en el consejo, formado por 11 miembros. Los cinco restantes están ocupados por miembros designados por el ejército sudanés. Junto con Raja Nicola, también miembro del Consejo Soberano, es una de las dos primeras mujeres en la historia moderna de Sudán en ocupar el cargo de jefa de Estado. Musa es conocida como activista por los derechos de las mujeres ​ y por defender una educación mejor, más justa y más descentra"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Akua Asabea Ayisi (Mampong Akuapem, 3 de abril de 1927 - 21 de abril de 2010) fue una feminista, ex jueza del Tribunal Superior y la primera periodista ghanesa. ​ ​ Durante el surgimiento del movimiento de independencia de Ghana, Akua Asabea Ayisi se formó como periodista con Mabel Dove-Danquah y Kwame Nkrumah, quien más tarde se convertiría en el primer primer ministro y presidente del país. La posición de Ayisi como editora de la columna de mujeres, en el periódico Accra Evening News se consideró una acción radical en ese momento. ​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Alain Vivien (Melun, Seine-et-Marne, 20 de agosto de 1938) es un político francés, miembro del Partido Socialista (PS),​​ conocido por la presidencia (entre 1998 y 2002) de la Misión Interministerial de lucha contra las sectas (MILS)​, un organismo interministerial diseñado para observar las actividades de las distintas organizaciones religiosas definidas como "Sectas" (cultos)."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Alaiza Pashkevich (o Ciotka; en bielorruso, Алаіза Пашкевіч o Ałaiza Paškievič 15 de julio de 1876 - 5 de noviembre de 1916) fue una poeta bielorrusa y activista política del renacimiento democrático nacional bielorruso. ​ ​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Aptripel Tumimomor (3 de abril de 1966 - 2 de abril de 2020) fue un político, empresario e ingeniero indonesio. Se desempeñó como Regente de la Regencia del Norte de Morowali, en Sulawesi Central, desde el 17 de febrero de 2016, hasta su muerte en el cargo el 2 de abril de 2020, de COVID-19."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"María Aránzazu «Arancha» González Laya (San Sebastián, 22 de mayo de 1969) es la ministra de Asuntos Exteriores, Unión Europea y Cooperación de España.​ Anteriormente, desde 2013, había sido directora ejecutiva del Centro de Comercio Internacional (ITC) ​ y subsecretaria general de la Organización de las Naciones Unidas (ONU)."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Archer Kent Blood (Chicago, 20 de marzo de 1923 – Fort Collins, 3 de septiembre de 2004) fue un diplomático y académico estadounidense. Fue el último Cónsul General de Estados Unidos en Daca, Bangladés (en entonces Pakistán Oriental). Es famoso por su duro mensaje en el ''Telegrama Blood'', en donde protestaba contra las atrocidades cometidas durante la Guerra de Liberación de Bangladés. También realizó servicios en Grecia, Argelia, Alemania, Afganistán y acabó su carrera cuando encargado de negocios de la Embajada de Estados Unidos en Nueva Delhi, India, retirándose en 1982."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Ariela María de los Milagros Luna Florez (21 de octubre de 1958) es una médico y antropóloga peruana. Fue Ministra de Desarrollo e Inclusión Social del Perú desde el 29 de octubre de 2019 hasta el 15 de julio de 2020 durante el Gobierno de Martín Vizcarra.​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Arnulfo Gasca Trujillo (2 de octubre de 1953), Municipio de Puerto Milán Caquetá, Colombia. Es empresario del sector rural, político y gobernador del departamento del Caquetá en el periodo 2020-2023.​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Luis Arturo Zúñiga Jory​ (Santiago, 1 de diciembre de 1982)​ es un ingeniero comercial y político chileno. Desde el 11 de julio de 2019 se desempeña como subsecretario de Redes Asistenciales en el Minsal, bajo el segundo mandato del presidente Sebastián Piñera.​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Ascensión Pastor Parres (Bilbao, 18 de enero de 1942) es Doctora en Historia y Ciencias Jurídicas del Derecho​. Es profesora titular de Historia del Derecho en la Universidad de Deusto y política del Partido Popular."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Ashok-Alexander Sridharan es un político alemán de ascendencia india quién es el Alcalde actual de Bonn como miembro de la Unión Democrática cristiana de Alemania (CDU). Es el primer alcalde de Bonn para ser de fondo inmigrante.​"@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Aslan Georgievich Bzhania (en abjasio: Аслан Гьаргь-иҧа Бжьаниа, en ruso: Аслан Георгиевич Бжания; , 6 de abril de 1963) es un político abjasio que se desempeña como Presidente de Abjasia desde el 23 de abril de 2020. Fue el jefe del Servicio de Seguridad del Estado, y uno de los líderes de la oposición en Abjasia."@es
+
+http://www.w3.org/2000/01/rdf-schema#comment 	
+
+"Asma Abdallá o Asma Mohamed Abdallá ​ (también conocida como: Asmaa, Abdallah, Abdullah ​ ​ ; en árabe, أسماء محمد عبدالله ) (Jartum, 1946) es una diplomática sudanesa. Desde el 8 de septiembre de 2019 es la ministra de Asuntos Exteriores de Sudán en el gabinete del primer ministro Abdalla Hamdok, durante la . Es la primera mujer en asumir el puesto de Ministra de Exteriores en la historia de Sudán."@es
+
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Adame_Ba_Konaré
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Adriano_Sánchez_Roa
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Adrián_Ward
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Agustín_Haya_de_la_Torre_de_la_Rosa
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Agustín_Molina_Martínez
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Ahmed_Hilmi_Pasha
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Aileen_Baviera
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Aisha_Musa_el-Said
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Akua_Asabea_Ayisi
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Alain_Vivien
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Alaiza_Pashkevich
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Aptripel_Tumimomor
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Arancha_González_Laya
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Archer_Blood
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Ariela_Luna
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Arnulfo_Gasca_Trujillo
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Arturo_Zúñiga
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Ascensión_Pastor_Parres
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Ashok-Alexander_Sridharan
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Aslan_Bzhania
+http://www.w3.org/2002/07/owl#sameAs 	http://es.dbpedia.org/resource/Asma_Abdallá
+http://xmlns.com/foaf/0.1/name 	
+
+"Adriano Sánchez Roa"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Adrián Ward"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Agustín Molina Martínez"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Ahmed Hilmi Abd al-Baqi"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Akua Asabea Ayisi"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Aptripel Tumimomor"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"En el cargo"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Arancha González"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Archer Kent Blood"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Ariela Luna"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Arnulfo Gasca Trujillo"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Arturo Zúñiga Jory"@es
+
+http://xmlns.com/foaf/0.1/name 	
+
+"Aslan Bzhania"@es
+
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Adame_Ba_Konaré
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Museo_de_la_Mujer_Muso_Kunda
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Adriano_Sánchez_Roa
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Adrián_Ward
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Domingo_Almenara_Butler
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Agustin_Haya_de_la_Torre
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Agustín_Haya_de_la_Torre
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Agustín_Haya_de_la_Torre_de_la_Rosa
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Defensor_Sporting_Club_(juveniles)
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Agustín_Molina
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Agustín_Molina_Martínez
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Amin_al-Husayni
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Gobierno_del_Protectorado_de_Toda_Palestina
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Protectorado_de_Toda_Palestina
+http://xmlns.com/foaf/0.1/topic 	http://dbpedia.org/resource/Ahmed_Hilmi_Pasha
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Ahmed_Hilmi_Pasha
+http://xmlns.com/foaf/0.1/topic 	http://es.dbpedia.org/resource/Aileen_San_Pablo_Baviera
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Aileen_Baviera
+http://xmlns.com/foaf/0.1/topic 	http://dbpedia.org/resource/Aisha_Musa_el-Said
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Aisha_Musa_el-Said
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Akua_Asabea_Ayisi
+http://xmlns.com/foaf/0.1/topic 	http://dbpedia.org/resource/Alain_Vivien
+http://xmlns.com/foaf/0.1/topic 	http://es.wikipedia.org/wiki/Alain_Vivien
