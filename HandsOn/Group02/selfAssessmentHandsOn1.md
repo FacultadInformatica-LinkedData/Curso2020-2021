@@ -1,6 +1,6 @@
-# Hands-on assignment 1 – Self assessment
+#Hands-on assignment 1 – Self assessment#
 
-## Checklist
+##Checklist##
 
 **The “README.md” file:**
 
@@ -11,7 +11,7 @@
 - [X] Contains at least one CSV file 
 - [X] The CSV files belong to one of the selected domains
 
-**The "datasetRequirements.md" file:**
+**The "datasetRequirements.html" file:**
 
 - [X] Identifies the licenses of all the selected datasets
 - [X] Identifies those entities in the selected datasets that can be linked with entities in other datasets
@@ -19,8 +19,7 @@
 
 **The "applicationRequirements.html” file:**
 
-- [ ] Includes a description of the application user interface
+- [X] Includes a description of the application user interface
 
-## Comments
-
-`applicationRequirements.html` is not completed because we dont know which are those requirements.
+##Comments on the self-assessment##
+_(If required)_
