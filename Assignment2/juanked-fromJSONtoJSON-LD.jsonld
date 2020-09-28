@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "vocab": "http://upmsemanticweb.com/students#",
+        "fullName": "vocab:fullName",
+        "hometown": "vocab:hometown",
+        "age": "vocab:age",
+        "almaMater": "vocab:almaMater",
+        "familiarsNames": "vocab:familiarsNames",
+        "father": "familiarsNames:father",
+        "mother": "familiarsNames:mother",
+        "subjects": "vocab:subjects",
+        "name": "subjects:name",
+        "teachers": "subjects:teachers",
+        "briefDescription": "subjects:briefDescription"
+    },
+    "@id": "http://upmsemanticweb.com/students/felipeleonfernandez",
+    "@type": "vocab:student",
+    "fullName": "David Cristóbal Pascual",
+    "hometown": "Aranda de Duero",
+    "age": 22,
+    "almaMater": "Universidad Politécnica de Madrid",
+    "familiarsNames": {
+        "father": "Jesús",
+        "mother": "Yolanda"
+    },
+    "subjects": [
+        {
+            "name": "Semantic Web, Linked Data and Knowledge Graphs",
+            "teachers": [
+                "David Chaves-Fraga",
+                "Paola Espinoza Arias",
+                "Raúl García-Castro",
+                "Óscar Corcho"
+            ],
+            "briefDescription": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos de la Web de datos enlazados."
+        },
+        {
+            "name": "Administración de Sistemas Informáticos",
+            "teachers": [
+                "Gabriel Cebrián Márquez",
+                "Fernando Pérez Costoy",
+                "Francisco Rosales García",
+                "Víctor Robles Forcada"
+            ],
+            "briefDescription": "Así, los objetivos de esta asignatura son, por un lado, mostrar al alumno los fundamentos generales de las tareas y responsabilidades del administrador de sistemas e ilustrarlo con la administración de sistemas Unix y sistemas Windows. Con este fin, la asignatura comprende una parte importante de los contenidos recogidos por los programas de certificación profesionales LPIC-1 y LPIC-2 del Linux Professional Institute. Adicionalmente, se presentarán temas de carácter transversal de la administración de sistemas."
+        },
+        {
+            "name": "Ecuaciones diferenciales: métodos y modelos",
+            "teachers": [
+                "Miguel Reyes"
+            ],
+            "briefDescription": "Se estudiarán los métodos más elementales para resolver ecuaciones diferenciales ordinarias de 1er orden, así como lineales de orden superior y sistemas de ecuaciones diferenciales lineales, enmarcando todo ello en el contexto de las aplicaciones, que son las que motivaran la mayoría de los problemas."
+        }
+    ]
+}
