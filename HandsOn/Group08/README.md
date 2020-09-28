@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Miembros del Grupo
 - Pérez Martín, Javier - usuario: JavierBrooktec
 - Rivero Moreno, Adrian - usuario: adrii0912
@@ -13,4 +14,10 @@
 <li>guerreroDelInterface - Alejandro Quintana</li>
 <li>javingb - Javier Núñez</li>
 </ul>
+>>>>>>> upstream/master
+=======
+Fernando Batista Villarubia - ildaren
+Jorge Diaz Alvarez - jorge5799
+Christian Dumitrescu - chrisdumi
+Ricardo Lopez Crespo - rlocre4
 >>>>>>> upstream/master
