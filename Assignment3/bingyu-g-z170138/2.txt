@@ -1,14 +1,13 @@
-
 select distinct ?y
-where
-{
- ?x rdf:type <http://dbpedia.org/ontology/Politician>.
- ?x ?y ?z
- FILTER (?y != rdf:type)
+where{  
+  ?x a <http://dbpedia.org/ontology/Politician> .
+  ?x ?y ?z .
+  filter(?y != rdf:type)
 }
---------------------------------------------------------------------------
-Result:
-y
+
+-------------------
+result:
+p
 http://www.w3.org/2000/01/rdf-schema#label
 http://www.w3.org/2000/01/rdf-schema#comment
 http://www.w3.org/2002/07/owl#differentFrom

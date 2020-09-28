@@ -1,5 +1,4 @@
 
-
 select distinct ?y ?z
 where
 {
@@ -8,9 +7,8 @@ where
  filter (?y != rdf:type)
 }
 
-
--------------------------------------------------
-result:
+---------------------------------------------------------------------
+Result:
 
 y	z
 http://www.w3.org/2000/01/rdf-schema#label	
