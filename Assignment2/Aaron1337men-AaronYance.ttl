@@ -1,5 +1,6 @@
-@base <http://www.ontogrid.net/StickyNote#>.
-@prefix xmls: <http://www.w3.org/2001/XMLSchema#>.
+@base <http://www.example.org/class>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix : <http://example.org/elements>.
 
 :Class01 :includes :Sensor029; :includes :Computer101.
 :Sensor029 :hasMeasurement :Measurement8401.
