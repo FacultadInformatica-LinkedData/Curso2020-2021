@@ -4,6 +4,6 @@ Septiembre y Diciembre de 2020, en base a diversos parámetros como la localizac
 
 **Miembros:** 
 
-Javier Diez de la Torre - javidt
-Luis Alberto Fernández rojas - luisfr98
-Jorge Chávez Dillon - JorgeCD
+* Javier Diez de la Torre - javidt
+* Luis Alberto Fernández rojas - luisfr98
+* Jorge Chávez Dillon - JorgeCD
