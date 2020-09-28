@@ -1,0 +1,7 @@
+select distinct ?properties COUNT(?values)
+where {
+?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?properties ?values .
+FILTER(?properties != rdf:type)
+} 
+LIMIT 100
