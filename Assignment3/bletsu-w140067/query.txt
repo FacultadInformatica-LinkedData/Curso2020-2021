@@ -1,0 +1,31 @@
+1.
+select distinct ?property where {?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+				?politician ?property ?x .
+			} LIMIT 100
+2.
+select distinct ?property where { 
+				?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+				FILTER (?property != rdf:type)
+				?politician ?property ?x .
+			}
+		LIMIT 100
+3.select ?value where { 
+				?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+				FILTER (?property != rdf:type)
+				?politician ?property ?value .
+			}
+		LIMIT 100
+4.
+select distinct ?value where { 
+				?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+				FILTER (?property != rdf:type)
+				?politician ?property ?value .
+			}
+		LIMIT 100
+5.
+select distinct ?y count(?z) where {
+    				?x rdf:type <http://dbpedia.org/ontology/Politician> .
+    				?x ?y ?z .
+    				FILTER (?y != rdf:type)
+			}			
+		LIMIT 100

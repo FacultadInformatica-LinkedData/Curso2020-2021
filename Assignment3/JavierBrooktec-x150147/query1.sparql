@@ -1,0 +1,10 @@
+# Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician> or its equivalent in Wikidata)
+
+PREFIX on: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y
+WHERE {
+  ?x  a on:Politician .
+  ?x  ?y ?z
+}
+
+
