@@ -1,0 +1,77 @@
+{
+     "@context": {
+          "vocab": "http://www.oeg-upm.net/Organization/",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "Class01": "vocab:Class01",
+          "Sensor029": "Class01:Sensor029",
+          "Computer101": "Class01:Computer101",
+          "Measurement8401": "Sensor029:Measurement8401",
+          "User10A": "Computer101:User10A",
+          "links": "http://www.oeg-upm.net/Organization/links",
+          "includes": "links:includes",
+          "hasMeasurement": "links:hasMeasurement",
+          "atTime": "links:atTime",
+          "hasTemperature": "links:hasTemperature"
+          "hasOwner": "links:hasOwner",
+          "hasName": "links:hasName"
+          
+     },
+     "@graph":[
+          {
+               "@id":"vocab:Class01",
+               "@type":"Class01",
+               "includes":[
+                    {
+                         "@id":"Class01:Sensor029",
+                         "@type":"Sensor029"
+                    },
+                    {
+                         "@id":"Class01:Computer101",
+                         "@type":"Computer101"
+                    }
+               ]
+          }
+
+          {
+               "@id":"vocab:Sensor029",
+               "@type":"Sensor029",
+               "hasMeasurement": {
+                    "@id":"vocab:Measurement8401",
+                    "@type":"Measurement8401"
+               }
+          }
+
+          {
+               "@id":"vocab:Computer101",
+               "@type":"Computer101",
+               "hasOwner": {
+                    "@id":"vocab:User10A",
+                    "@type":"User10A"
+               }
+          }
+
+          {
+               "@id":"vocab:Measurement8401",
+               "@type":"Measurement8401",
+               "hasTemperature": {
+                    "@value":"29",
+                    "@type":"xsd:integer"
+               },
+               "atTime": {
+                    "@value":"2010-06-12T12:00:12",
+                    "@type":"xsd:dateTime"
+               }
+          }
+
+          {
+               "@id":"vocab:User10A",
+               "@type":"User10A",
+               "hasName": {
+                    "@value":"Pedro",
+                    "@type":"xsd:string"
+               }  
+          }
+
+     ]
+
+}
