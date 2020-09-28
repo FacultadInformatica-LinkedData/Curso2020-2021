@@ -1,0 +1,48 @@
+{	
+	"@context":{
+		"subjects": "http://www.example.org//subjects/",
+		"teachers": "http://www.example.org//teachers/",
+    		"xsd": "http://www.w3.org/2001/XMLSchema#",
+    		"attr": "http://www.w3.org/2001/UPM/attributes/",
+		"name": "attr:name",
+		"hometown": "attr:hometown",
+		"age": "attr:age",
+		"almamater": "attr:almamater",
+		"mName": "attr:mName",
+		"fName": "attr:fName",
+		"description": "attr:description"
+	},
+  
+	"name":"Ramón Galey Domercq",
+	"hometown":"Madrid",
+	"age":"23",
+	"almamater":"UPM",
+	"mName":"Teresa Domercq Jiménez",
+	"fame":"Ramón Galey Cabañas",
+	"subjects":[
+	  		{ 
+        		"name":"Ingenieria del Sofware II",
+		    	"teachers":[
+					{
+					"name":"Jose Antonio Calvo Manzano"
+			  		},
+			  		{
+			  		"name":"Ana Maria Moreno Sanchez-Capuchino"
+			  		}
+			  	   ],
+			"description":"La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. La asignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectos aprendidos tanto en asignaturas previas del grado como en la propia asignatura"
+			},
+		 	{
+			"name":"Aplicaciones Numericas de la Informatica",
+		  	"teachers":[
+					{
+  					"name":"Juan Robles Santamarta"
+  					},
+  					{
+  					"name":"Esther Dopazo Gonzalez "
+  					}
+  				  ],
+  			"description":"La computación científica o computación numérica es el campo de estudio que consiste en la construcción de modelos matemáticos y formales, la algorítmica para el diseño y desarrollo de los modelos computacionales, y las técnicas eficientes para su ejecución y análisis. Estos modelos y técnicas sirven para resolver problemas científicos, de ciencias sociales y de la ingeniería."
+  			}
+  		]
+}

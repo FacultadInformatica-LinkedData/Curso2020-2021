@@ -1,0 +1,51 @@
+SPARQL results QUERY 1:
+
+rdf:type [http]
+owl:equivalentClass [http]
+rdfs:label [http]
+rdfs:subClassOf [http]
+<http://www.w3.org/ns/prov#wasDerivedFrom> 
+
+#----------------------------------------
+
+SPARQL results QUERY 2:
+
+owl:equivalentClass 
+rdfs:label 
+rdfs:subClassOf 
+<http://www.w3.org/ns/prov#wasDerivedFrom> 
+
+#-----------------------------------------
+
+SPARQL results QUERY 3:
+
+owl:equivalentClass 
+rdfs:label 
+rdfs:subClassOf 
+<http://www.w3.org/ns/prov#wasDerivedFrom> 
+
+#------------------------------------------
+
+SPARQL results QUERY 4:
+
+<http://www.wikidata.org/entity/Q82955>
+"Politiker"@de
+"polaiteoir"@ga
+"politician"@en
+"politicien"@fr
+"politicus"@nl
+"politik"@sl
+"político"@pt
+"πολιτικός"@el
+"政治家"@ja
+"정치인"@ko
+dbpedia:ontology/Person 
+<http://mappings.dbpedia.org/index.php/OntologyClass:Politician> 
+
+#-------------------------------------------
+
+SPARQL results QUERY 5:
+callret-0
+13
+
+

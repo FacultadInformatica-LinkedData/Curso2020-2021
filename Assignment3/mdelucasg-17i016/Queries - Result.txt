@@ -1,0 +1,265 @@
+Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician> or its equivalent in Wikidata)
+
+SELECT DISTINCT ?pro
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician>.
+  ?s ?pro ?w
+} 
+LIMIT 10
+
+RESULT:
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="pro"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#comment</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2002/07/owl#sameAs</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/topic</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/homepage</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://purl.org/dc/terms/subject</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/isPrimaryTopicOf</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/gabinete</uri></binding>
+  </result>
+ </results>
+</sparql>
+---------------------------------------------------------------------------
+Get all the properties, except for rdf:type, that are applied to instances of the Politician class
+
+SELECT DISTINCT ?pro
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician>.
+  ?s ?pro ?w.
+  FILTER(?pro != rdf:type)
+} 
+LIMIT 10
+
+RESULT
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="pro"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#comment</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2002/07/owl#sameAs</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/name</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/topic</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/homepage</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://purl.org/dc/terms/subject</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://xmlns.com/foaf/0.1/isPrimaryTopicOf</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/gabinete</uri></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/afiliaciones</uri></binding>
+  </result>
+ </results>
+</sparql>
+--------------------------------------------------------------------------
+Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+
+SELECT DISTINCT ?values
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician>.
+  ?s ?pro ?values.
+  FILTER(?pro != rdf:type)
+} 
+LIMIT 10
+
+RESULT
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="values"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="values"><literal xml:lang="es">Adame Ba Konar�</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Adriano S�nchez Roa</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Adri�n Ward</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Agust�n Haya de la Torre de la Rosa</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Agust�n Molina Mart�nez</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Ahmed Hilmi Pasha</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Aileen Baviera</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Aisha Musa el-Said</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Akua Asabea Ayisi</literal></binding>
+  </result>
+  <result>
+   <binding name="values"><literal xml:lang="es">Alain Vivien</literal></binding>
+  </result>
+ </results>
+</sparql>
+--------------------------------------------------------------------------
+For each of these properties, except for rdf:type, which different values do they take in those instances?
+
+SELECT DISTINCT ?pro ?values
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician>.
+  ?s ?pro ?values.
+  FILTER(?pro != rdf:type)
+} 
+LIMIT 10
+
+RESULT
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="pro"/>
+  <variable name="values"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Adame Ba Konar�</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Adriano S�nchez Roa</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Adri�n Ward</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Agust�n Haya de la Torre de la Rosa</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Agust�n Molina Mart�nez</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Ahmed Hilmi Pasha</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Aileen Baviera</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Aisha Musa el-Said</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Akua Asabea Ayisi</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="values"><literal xml:lang="es">Alain Vivien</literal></binding>
+  </result>
+ </results>
+</sparql>
+--------------------------------------------------------------------------
+For each of the properties, except for rdf:type, how many distinct values do they take?
+
+SELECT DISTINCT ?pro COUNT(?values)
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician>.
+  ?s ?pro ?values.
+  FILTER(?pro != rdf:type)
+} 
+LIMIT 10
+
+RESULT
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="pro"/>
+  <variable name="callret-1"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/per�odo</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">15552</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/subt�tulo</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">968</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://dbpedia.org/ontology/wikiPageRevisionID</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24272</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/afiliaciones</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1417</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/conocidoPor</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">42</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/isbn</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3074</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/url</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5505</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/vicegobernador</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">526</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/facebook</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">377</literal></binding>
+  </result>
+  <result>
+   <binding name="pro"><uri>http://es.dbpedia.org/property/idioma</uri></binding>
+   <binding name="callret-1"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">930</literal></binding>
+  </result>
+ </results>
+</sparql>

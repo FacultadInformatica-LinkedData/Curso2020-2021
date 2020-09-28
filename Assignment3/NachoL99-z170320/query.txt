@@ -1,0 +1,53 @@
+1 Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician> or its equivalent in Wikidata)
+
+select distinct ?p
+where { 
+{?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?p ?y}
+}
+
+result:https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fp%0D%0Awhere+%7B+%0D%0A%7B%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fx+%3Fp+%3Fy%7D%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+2 Get all the properties, except for rdf:type, that are applied to instances of the Politician class
+
+select distinct ?p
+where { 
+{?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?p ?y.
+FILTER(?p!=rdf:type)}
+}
+
+result:https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fp%0D%0Awhere+%7B+%0D%0A%7B%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fx+%3Fp+%3Fy.%0D%0AFILTER%28%3Fp%21%3Drdf%3Atype%29%7D%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+3 Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+
+select distinct ?v
+where { 
+{?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?p ?v.
+FILTER(?p!=rdf:type)}
+}
+
+result:https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fv%0D%0Awhere+%7B+%0D%0A%7B%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fx+%3Fp+%3Fv.%0D%0AFILTER%28%3Fp%21%3Drdf%3Atype%29%7D%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+4 For each of these properties, except for rdf:type, which different values do they take in those instances?
+
+select distinct ?p ?v
+where { 
+{?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?p ?v.
+FILTER(?p!=rdf:type)}
+}
+
+result: https://es.dbpedia.org/sparql?default-graph-uri=&query=select+distinct+%3Fp+%3Fv%0D%0Awhere+%7B+%0D%0A%7B%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fx+%3Fp+%3Fv.%0D%0AFILTER%28%3Fp%21%3Drdf%3Atype%29%7D%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+5 For each of the properties, except for rdf:type, how many distinct values do they take?
+
+select distinct ?p count( ?v)
+where { 
+{?x rdf:type <http://dbpedia.org/ontology/Politician> .
+?x ?p ?v.
+FILTER(?p!=rdf:type)}
+}
+
+result: https://es.dbpedia.org/sparql?default-graph-uri=&query=%0D%0Aselect+distinct+%3Fp+count%28+%3Fv%29%0D%0Awhere+%7B+%0D%0A%7B%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fx+%3Fp+%3Fv.%0D%0AFILTER%28%3Fp%21%3Drdf%3Atype%29%7D%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
