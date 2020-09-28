@@ -1,0 +1,57 @@
+# 1. Get all the properties that can be applied to instances of the 
+Politician class (<http://dbpedia.org/ontology/Politician> or its 
+equivalent in Wikidata).
+
+select distinct ?prop
+where{
+    ?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?inst ?prop ?obj .
+}
+
+#--------------------------------------------------------
+
+# 2. Get all the properties, except for rdf:type, that are applied
+to instances of the Politician class
+
+select distinct ?prop
+where{
+    ?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?inst ?prop ?obj .
+    FILTER(?prop != rdf:type) .
+}
+
+#--------------------------------------------------------
+
+# 3. Which different values exist for the properties, except for
+rdf:type, of the instances of the Politician class?
+
+select distinct ?propValues
+where{
+    ?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?inst ?prop ?propValues .
+    FILTER(?prop != rdf:type) .
+}
+
+#--------------------------------------------------------
+
+# 4. For each of these properties, except for rdf:type, which 
+different values do they take in those instances?
+
+select distinct ?prop ?propValues
+where{
+    ?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?inst ?prop ?propValues .
+    FILTER(?prop != rdf:type) .
+}
+
+#--------------------------------------------------------
+
+# 5. For each of the properties, except for rdf:type, how many 
+distinct values do they take?
+
+select distinct ?prop count(distinct ?propValues)
+where{
+    ?inst rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?inst ?prop ?propValues .
+    FILTER(?prop != rdf:type) .
+}
