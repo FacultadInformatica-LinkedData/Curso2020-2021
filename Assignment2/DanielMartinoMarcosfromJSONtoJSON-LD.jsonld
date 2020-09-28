@@ -1,0 +1,39 @@
+{
+	"@context": {
+		"vocab": "http:www.example.org/ontology#",
+		"name": "vocab:name",
+		"hometown": "vocab:hometown",
+		"age": "vocab:age",
+		"Alma mater": "vocab:Alma mater",
+		"parent's name": "vocab: parentsname",
+		"subjects": "vocab:subjects",
+		"sname": "subjects:name",
+		"sdesc": "subjects:description",
+		"steach": "subjects:teachers"
+	},
+
+  "name": "Daniel Martino Marcos",
+  "hometown": "Madrid",
+  "age": "22",
+  "Alma mater": "Universidad Politécnica de Madrid",
+  "parent´s name": ["Alfonso", "Mónica"],
+  "subjects": [
+
+				{
+				"sname": "Nanotecnología",
+				"sdesc": "En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca.",
+				"steach": ["Martínez Izquierdo, M. Estíbaliz", "Pérez Castellanos, M. Mercedes"]
+				},
+				{
+				"sname": "Semantic Web and Linked Data",
+				"sdesc": "proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos.",
+				"steach": ["Oscar Corcho","Raúl García"]
+				},
+				{
+				"sname": "Sistemas de Planificación",
+				"sdesc": "Todos los procesos para ser desarrollados precisan de un proceso de planificación, de la bondad de ese plan se generará un proyecto malo, bueno u óptimo, la capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado.",
+				"steach": ["Vicente Martinez Orga"]
+				}
+
+			  ]
+} 
