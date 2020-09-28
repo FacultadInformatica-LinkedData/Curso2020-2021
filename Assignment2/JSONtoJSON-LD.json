@@ -1,0 +1,67 @@
+{
+    "@context":{
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "subjects": "http://www.w3.org/Ej2b/Subjects/",
+        "subjectName": "http://www.w3.org/Ej2b/SubjectName/",
+        "teachers": "http://www.w3.org/Ej2b/Teachers/",
+        "description": "http://www.w3.org/Ej2b/Description/",
+        "attrib": "http://www.w3.org/Ej2b/Attributes/",
+        "student": "http://www.w3.org/Ej2b/Students/",
+        "fullName": "attrib:fullName",
+        "homeTown": "attrib:homeTown",
+        "age": "attrib:age",
+        "almaMater": "attrib:almaMater",
+        "parentsName": "attrib:parentsName"
+
+
+    },
+    "@id": "https://henarroman.com",
+    "@type": "student",
+    "fullName":"Henar Roman Serna",
+    "homeTown":"Madrid",
+    "age":"21",
+    "almaMater":"ETSIINF UPM",
+    "parentsName": [
+        "Trinidad",
+        "Julian"
+    ],
+    "subjects":[
+        {
+            "subjectName":"Gestion de Procesos de Tecnologias de la Informacion",
+            "teachers":[
+                "Oscar Dieste Tubio",
+                "Edmundo Tovar Caro",
+                "Jose Ramon Sanchez Palomares",
+                "Maria Pilar Rodriguez Gonzalwz"
+            ],
+            "description":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+        },
+        {
+            "subjectName":"Web Semantica, Linked Data y Grafos de Conocimientos",
+            "teachers":[
+                "Oscar Corcho Garcia",
+                "Raul Garcia Castro"
+            ],
+            "description":"Proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+        },
+        {
+            "subjectName":"Ingenieria del Software 2",
+            "teachers":[
+                "Tomas San Feliu Gilabert",
+                "Jose Antonio Calvo-Manzano Villalon",
+                "Ana Maria Moreno Sanchez Capuchino"
+            ],
+            "description":"La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. Laasignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectosaprendidos tanto en asignaturas previas del grado como en la propia asignatura"
+        },
+        {
+            "subjectName":"English for Professional and Academic Communication",
+            "teachers":[
+                "Elena Montiel Ponsoda",
+                "Jelena Bobkina"
+            ],
+            "description":"The main objective of this course is to make students aware of the importance of effective communication skills inacademic  or  professional  settings,  with  a  strong  focus  on  contemporary  issues  related  to  computer  engineering,and to help them develop those skills to communicate effectively in both settings"
+        }
+    ]
+} 
+
+
