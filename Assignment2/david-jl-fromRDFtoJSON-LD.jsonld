@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "upm": "http://domotica.com/api/clase",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "nameClass": "http://xmlns.com/foaf/0.1/Class",
+    "nameComputer": "http://xmlns.com/foaf/0.1/Computer",
+    "nameOwner": "http://xmlns.com/foaf/0.1/Owner",
+    "includes": {
+      "@id": "http://xmlns.com/foaf/0.1/Sensor",
+      "@type": "@id",
+      "@context" : {
+         "nameSensor": "http://xmlns.com/foaf/0.1/Sensor",
+         "hasMeasurement" : {
+			"@id": "http://xmlns.com/foaf/0.1/Measurement",
+      		"@type": "@id",
+           	"@context": {
+                "nameMeasurement": "http://xmlns.com/foaf/0.1/Measurement",
+				"hasTemperature": "rdfs:label",
+      			"atTime": "rdfs:label"
+           }
+         }
+      }
+     
+  	}
+  },
+  "@id": "http://domotica.com",
+  "@type": "Class",
+  "nameClass" : "Class01",
+  "includes": [{
+    "nameSensor": "Sensor029",
+    "hasMeasurement": [{
+      "nameMeasurement": "Measurement8401",
+      "hasTemperature": 29,
+      "atTime": "2010-06-12T12:00:12"
+  	}]
+  }, {
+    "nameComputer": "Computer101",
+    "hasOwner": {
+      "nameOwner": "User10A",
+      "hasName": "Pedro"
+    }
+  }]
+}
