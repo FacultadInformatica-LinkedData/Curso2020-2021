@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-David Jimenez Lamas - (david-jl)
-Belen Ferron Hurtado - (belenfh999)
-Diego Conde Herreros - (Diegodzila)
-Lucia Fernandez Molleda - (luciafmolleda)
-=======
 # Group Members
 
 |   |  Name | Github username   |
@@ -13,4 +7,3 @@ Lucia Fernandez Molleda - (luciafmolleda)
 | 3  | Alvaro García García  |  alvaroalvi |
 | 4  | Cristina Alonso Delgado  |  Cristinalonso29 |
 | 5  |  Manuel Mazarro Vicente | manumazvi  |
->>>>>>> upstream/master
