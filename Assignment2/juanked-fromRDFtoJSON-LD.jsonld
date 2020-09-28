@@ -1,0 +1,65 @@
+{
+    "@context": {
+        "obj": "http://www.w3.org/2001/obj/",
+        "rdfs": "http://www.w3.org/2001/rdf-schema#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "includes": "obj:includes",
+        "hasMeasurement": "obj:measurements",
+        "hasTemperature": "obj:hasTemperature",
+        "atTime": "obj:atTime",
+        "hasOwner": "obj:hasOwner",
+        "hasName": "obj:hasName"
+    },
+    "@graph": [
+        {
+            "@id": "http://www.w3.org/2001/node/Class01/",
+            "@type": "obj:Class01",
+            "includes": [
+                {
+                    "@id": "http://www.w3.org/2001/node/Sensor029/",
+                    "@type": "obj:Sensor029"
+                },
+                {
+                    "@id": "http://www.w3.org/2001/node/Computer101/",
+                    "@type": "obj:Computer101"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.w3.org/2001/node/Sensor029/",
+            "@type": "obj:Sensor029",
+            "hasMeasurement": {
+                "@id": "http://www.w3.org/2001/node/Measurement8401/",
+                "@type": "obj:Measurement8401"
+            }
+        },
+        {
+            "@id": "http://www.w3.org/2001/node/Measurement8401/",
+            "@type": "obj:Measurement8401",
+            "hasTemperature": {
+                "@type": "xsd:int",
+                "@value": "29"
+            },
+            "atTime": {
+                "@type": "xsd:dateTime",
+                "@value": "2010-06-12T12:00:12"
+            }
+        },
+        {
+            "@id": "http://www.w3.org/2001/node/Computer101/",
+            "@type": "obj:Computer101",
+            "hasOwner": {
+                "@id": "http://www.w3.org/2001/node/Measurement8401/",
+                "@type": "obj:Measurement8401"
+            }
+        },
+        {
+            "@id": "http://www.w3.org/2001/node/User10A/",
+            "@type": "obj:User10A",
+            "hasName": {
+                "@type": "xsd:String",
+                "@value": "Pedro"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+	"@context": {
+		"assig": "http://assignment2.com/2b#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"name": "assig:name",
+		"homeTown": "assig:homeTown",
+		"age": "assig:age",
+		"almaMater": "assig:almaMater",
+		"parentsName": "assig:parentsName",
+        "subjects": "assig:subjects"
+	},
+	"@id": "http://assignment2.com/2b/patin9",
+  	"@type": "assignment:student",
+	"name": "Eva Tagarro",
+	"homeTown": "Pozuelo",
+	"age": "21",
+	"almaMater": "Universidad Politécnica de Madrid",
+	"parentsName": ["Carmen", "Javier"],
+	"subjects": [
+		{
+			"name": "English for Professional and Academic Communication",
+			"teachers": ["Elena Montiel Ponsoda", "Jelena Bobkina"],
+			"description": "The main objective of this course is to make students aware of the importance of effective communication skills in academic or professional settings and to help them develop those skills to communicate effectively."
+		},
+		{
+			"name": "Gestión de Procesos de Tecnologías de la Información",
+			"teachers": ["Oscar Dieste Tubio", "Edmundo Tovar Caro", "Jose Ramon Sanchez Palomares", "Maria Pilar Rodriguez Gonzalez"],
+			"description": "En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI."
+		},
+		{
+			"name": "Ingeniería del Software II",
+			"teachers": ["Tomas San Feliu Gilabert", "Jose Antonio Calvo-Manzano Villalon", "Ana Maria Moreno Sanchez-Capuchino"],
+			"description": "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software."
+		},
+		{
+			"name": "Introduction to Bioinformatics and Biocomputing",
+			"teachers": ["Paul Andrei Paun", "Alfonso Vicente Rodriguez-Paton Aradas", "Nuñez Berrueco, Elena"],
+			"description": "The course will be addressed to the students interested in Bioinformatics and research, the students will be exposed both to the basics of the Bioinformatics field and also to recent results in the area and closely related areas."
+		},
+		{
+			"name": "Semantic Web, Linked Data and Knowledge Graphs",
+			"teachers": ["Oscar Corcho Garcia", "Raul Garcia Castro"],
+			"description": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+		},
+		{
+			"name": "Sistemas de Planificación",
+			"teachers": ["Vicente Martinez Orga", "Miguel Garcia Remesal"],
+			"description": "Todos los procesos para ser desarrollados precisan de un proceso de planificación. La capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado."
+		}
+	]
+}
