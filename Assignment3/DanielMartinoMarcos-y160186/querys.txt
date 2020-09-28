@@ -1,0 +1,63 @@
+select distinct ?properties
+	where{
+		{
+		?instance a <http://dbpedia.org/ontology/Politician> .
+		?instance ?properties ?object .
+		}
+	}
+
+
+
+
+
+select distinct ?properties
+	where{
+  		{
+    		?instance a <http://dbpedia.org/ontology/Politician> .
+    		?instance ?properties ?object .
+    		FILTER(?properties != rdf:type) .
+  		}
+	}
+
+
+
+
+
+
+select distinct ?propertiesValues
+	where{
+		{
+		?instance a <http://dbpedia.org/ontology/Politician> .
+		?instance ?properties ?propertiesValues .
+		FILTER(?properties != rdf:type) .
+		}
+	}
+
+
+
+
+
+
+
+
+select distinct ?properties ?propertiesValues
+	where{
+		{
+    		?instance a <http://dbpedia.org/ontology/Politician> .
+    		?instance ?properties ?propertiesValues .
+    		FILTER(?properties != rdf:type) .
+  		}
+	}
+
+
+
+
+
+select distinct ?properties count(distinct ?propertiesValues)
+	where{
+  		{
+    		?instance a <http://dbpedia.org/ontology/Politician> .
+    		?instance ?properties ?propertiesValues .
+    		FILTER(?properties != rdf:type) .
+  		}
+	}
