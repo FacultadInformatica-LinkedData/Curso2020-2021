@@ -1,0 +1,51 @@
+{
+	"@context": {
+		"zar": "http://www.example.org/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"name":"zar:name",
+		"hometown":"zar:hometown",
+		"age":"zar:age",
+		"almaMater":"zar:almaMater",
+		"parentsName":"zar:parentsName",
+     	"subjects":"zar:subjects",
+      	"subjectname":"zar:subjectname",
+      	"teachers":"zar:teachers",
+      	"description":"zar:description"
+		
+	},
+	
+	"name":"David Aguirre Huelves",
+	"hometown":"Madrid",
+	"age":21,
+	"almaMater": "UPM",
+	"parentsName": ["MªCarmen","Alfonso"],
+	"subjects":[
+			{
+				"subjectname":"Semantic Web, Linked Data and Knowledge Graphs",
+				"teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+				"description":" proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+			},
+			{
+				"subjectname":"Nanotecnologia",
+				"teachers":["María Estibaliz Martinez Izquierdo","María Mercedes Perez Castellanos"],
+				"description":"En esta asignatura, se pretende dar al alumno una formación introductoria sobre las diferentes investigaciones y aplicaciones que existen actualmente dentro de la Nanotecnología, en los diferentes campos científicos que abarca."
+			},
+			{
+				"subjectname":"Sistemas de planificacion",
+				"teachers":["Vicente Martinez Orga","Miguel García Remesal"],
+				"description":"Todos los procesos para ser desarrollados precisan de un proceso de planificación, de la bondad de ese plan se generará un proyecto malo, bueno u óptimo, la capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado."
+			},
+			{
+				"subjectname":"Técnicas de computación científica",
+				"teachers":["Esther Dopazo Gonzalez","Vicente Martin Ayuso"],
+				"description":"Este curso pretende mostrar al estudiante de informática las técnicas computacionales básicas con un mayor impacto en el área de la computación científica."
+			},
+			{
+				"subjectname":"SSOO",
+				"teachers":["Francisco ROSALES GARCÍA", "Ángel RODRÍGUEZ MARTÍNEZ DE BARTOLOMÉ", "Fernando PÉREZ COSTOYA","María de los Santos PÉREZ HERNÁNDEZ","Antonio LATORRE DE LA FUENTE","Pablo TOHARIA","Víctor ROBLES FORCADA","Gabriel CEBRIÁN MÁRQUEZ"],
+				"description":"El objetivo de la asignatura es la comprensión de los conceptos básicos de los sistemas operativos y la familiarización con la interfaz de programación de los mismos. La asignatura se centra en la funcionalidad que suministran los sistemas operativos sin profundizar en su estructura y funcionamiento internos."
+			},
+		
+		
+	]
+}

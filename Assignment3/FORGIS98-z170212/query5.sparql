@@ -1,0 +1,25 @@
+# For each of the properties, except for rdf:type, 
+# how many distinct values do they take?
+
+SELECT  ?prop COUNT (DISTINCT ?value)
+  WHERE
+{
+  ?x rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?x ?prop ?value .
+    filter ( ?prop not in ( rdf:type ) )
+}
+LIMIT 100
+
+# query result: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT++%3Fprop+COUNT+%28DISTINCT+%3Fvalue%29%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+%3Fx+%3Fprop+%3Fvalue+.%0D%0A+filter+%28+%3Fprop+not+in+%28+rdf%3Atype+%29+%29%0D%0A%7D%0D%0ALIMIT+100&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+# firts 10:
+#   http://es.dbpedia.org/property/luganac 	--> 2
+#   http://es.dbpedia.org/property/vuelta 	--> 1
+#   http://es.dbpedia.org/property/urlmorto 	--> 1
+#   http://es.dbpedia.org/property/padrse 	--> 2
+#   http://es.dbpedia.org/property/commands 	--> 1
+#   http://es.dbpedia.org/property/autores 	--> 1
+#   http://es.dbpedia.org/property/branch 	--> 1
+#   http://es.dbpedia.org/property/nombreEnEspañol 	--> 3
+#   http://es.dbpedia.org/property/precedesor 	--> 1
+#   http://es.dbpedia.org/property/fechaDeFalleciemiento 	--> 1
