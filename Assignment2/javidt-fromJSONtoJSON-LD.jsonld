@@ -1,0 +1,34 @@
+{
+	"@context":{
+		"student":"http://upm.com/student/",
+		"fullName":"student:fullName",
+		"hometown":"student:hometown",
+		"age":"student:age",
+		"almaMater":"student:almaMater",
+		"parentsName":"student:parentsName",
+		"subjectsSet":"student:subjectsSet",
+		"father":"parentsName:father",
+		"mother":"parentsName:mother",
+		"subjectsName":"subjectsSet:subjectsName",
+		"subjectsTeachers":"subjectsSet:subjectsTeachers",
+		"subjectsDescription":"subjectsSet:subjectsDescription"
+	},
+
+	"@id":"http://upm.com/student/javier/",
+	"@type":"student:javier",
+	"fullName":"Javier Diez de la Torre",
+	"hometown":"Comunidad de Madrid",
+	"age":"22",
+	"almaMater":"Universidad Politecnica de Madrid",
+	"parentsName":[{
+		"father":"Rodrigo",
+		"mother":"María Teresa"
+	}],
+
+	"subjectsSet":[{
+		"subjectsName":"Semantic Web, Linked Data and Knowledge Graphs",
+		"subjectsTeachers":["Óscar Corcho García","Raúl García Castro"],
+		"subjectsDescription":"La asignatura tiene el objetivo de enseñar la Web de datos enlazados y su funcionamiento."
+	}]
+
+}
