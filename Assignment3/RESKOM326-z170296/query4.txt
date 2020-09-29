@@ -1,0 +1,1 @@
+select distinct ?props ?val where {?pol rdf:type <http://dbpedia.org/ontology/Politician> . ?pol ?props ?val . filter(?props != rdf:type) .}
