@@ -1,0 +1,104 @@
+{
+	"@context":{
+		"st": "http://www.example.com/students/josesilvamanrriquez#",
+		"name": "st:name",
+		"middleName": "st:middleName",
+		"firstSurname": "st:firstSurname",
+		"secondSurname": "st:secondSurname",
+		"hometown": "st:hometown",
+		"age": "st:age",
+		"almaMater": "st:almaMater",
+		"nameFather": "st:nameFather",
+		"nameMother": "st:nameMother",
+		
+		"subjects": "st:subjects",
+		"nameSubject": "subjects:nameSubject",
+		"teachers": "subjects:teachers",
+		"nameTeacher":"teachers:nameTeacher",
+		"lastNameTeacher":"teachers:lastName",
+		"description":"subjects:description"
+
+	},
+	
+	"@id": "http://www.example.com/students/josesilvamanrriquez",
+	"@type": "st:student",
+	"name" : "Jose",
+	"middleName" : "Elias",
+	"firstSurname" : "Silva",
+	"secondSurname" : "Manrriquez",
+	"hometown" : "Madrid",
+	"age" : "21",
+	"almaMater" : "UPM",
+	"nameFather" : "Elias",
+	"nameMother" : "Lucy",
+	"subjects" : [
+	
+	{
+	 "nameSubject" : "Aplicaciones numericas",
+		"teachers" : [
+			{
+			"nameTeacher" : "Antonio",
+			"lastNameTeacher" : "Tabernero"
+			
+			},
+			{
+			"nameTeacher" : "Juan",
+			"lastNameTeacher" : "Robles"
+			}	
+		],
+		"description" : "Asignatura que enfoca las aplicaciones numericas para usarlas, por ejemplo, en sistemas GPS "
+	
+	},
+	
+	{
+		"nameSubject" : "Nanotecnologia",
+		"teachers" : [
+			{
+			"nameTeacher" : "Maria",
+			"lastNameTeacher" : "Martinez"
+			
+			},
+			{
+			"nameTeacher" : "Maria",
+			"lastNameTeacher" : "Castellanos"
+			}
+		],	
+		"description" : "Asignatura que muestra la tecnología en su menor tamaño "
+		
+	
+	
+	}
+	
+	]
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

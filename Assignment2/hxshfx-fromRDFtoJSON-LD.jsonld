@@ -1,0 +1,67 @@
+{
+    "@context": {
+
+        "schema":"http://schema.org/",
+        "ls":"http://linkedscience.org/",
+        "saref":"https://w3id.org/saref/",
+        "iot":"http://purl.org/iot/vocab/m3-lite/",
+        "mvco":"http://purl.oclc.org/NET/mvco.owl/",
+        "gr":"http://purl.org/goodrelations/v1/",
+        "ddesc":"https://w3id.org/arco/ontology/",
+        "rsctx":"http://softeng.polito.it/rsctx/",
+        "step":"http://purl.org/net/step/",
+        "identity":"http://www.identity.org/ontologies/identity.owl/",
+
+        "classroom":"ls:room",
+        "sensor":"saref:sensor",
+        "measurement":"saref:measurement",
+        "temperature":"saref:temperature",
+        "value":"schema:integer",
+        "time":"saref:time",
+        "dateTime":"schema:dateTime",
+        "computer":"iot:computer",
+        "user":"mvco:user",
+        "name":"schema:name",
+
+        "includes":"gr:includes",
+        "hasMeasurement":"ddesc:hasMeasurement",
+        "hasTemperature":"rsctx:hasTemperature",
+        "atTime":"step:atTime",
+        "hasOwner":"ddesc:hasOwner",
+        "hasName":"identity:hasName"
+
+    },
+
+    "@id":"http://example.org/Class01",
+    "@type":"classroom",
+    "includes":[
+        {
+            "@id":"http://example.org/Class01/Sensor029",
+            "@type":"sensor",
+            "hasMeasurement":{
+                "@id":"http://example.org/Class01/Sensor029/Measurement8401",
+                "@type":"measurement",
+                "hasTemperature":{
+                    "@type":"temperature",
+                    "value":29
+                },
+                "atTime":{
+                    "@type":"time",
+                    "dateTime":"2010-06-12T12:00:12"
+                }
+            }
+        },
+        {
+            "@id":"http://example.org/Class01/Computer101",
+            "@type":"computer",
+            "hasOwner":{
+                "@id":"http://example.org/Class01/Computer101/User10A",
+                "@type":"user",
+                "hasName":{
+                    "name":"Pedro"
+                }
+            }
+        }
+    ]
+
+}

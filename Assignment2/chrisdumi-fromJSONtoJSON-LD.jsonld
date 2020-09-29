@@ -1,0 +1,36 @@
+
+{
+     "@context": {
+               "vocab": "http://upmsemanticweb.com/students#",
+               "fullName": "vocab:fullName",
+               "hometown": "vocab:hometown",
+               "age": "vocab:age",
+               "almaMater": "vocab:almaMater",
+               "parents": "vocab:parents",
+               "subjects": "vocab:subjects",
+               "name": "subjects:name",
+               "teachers": "subjects:teachers",
+               "Description": "subjects:Description"
+     },
+     "@id":"http://upmsemanticweb.com/students/ChristianDumitrescu",
+     "@type":"vocab:student",
+     "fullName":"Christian Dumitrescu Esquivel",
+     "hometown":"Madrid",
+     "age":"21",
+     "almaMater":"UPM",
+     "parents":["Danut Dumitrescu", "Rossana Esquivel"],
+     "subjects":[
+          {
+               "name":"EPAC",
+               "teachers":["Elena Montiel Ponsoda", "Jelena Bobkina"],
+               "Description":"The main objective of this course is to make students aware of the importance of effective communication skills in academic or professional settings"
+          },
+
+          {
+               "name":"Gestion de Procesos",
+               "teachers":["Oscar Dieste Tubio", "Edmundo Tovar Caro", "Jose Ramon Sanchez Palomares", "Maria Pilar Rodriguez"],
+               "Description":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+          }
+     ]
+
+}
