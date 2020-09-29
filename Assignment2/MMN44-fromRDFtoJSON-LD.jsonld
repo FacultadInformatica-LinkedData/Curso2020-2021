@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "vocab": "http://example.org/elements#",
+    "prop": "http://example.org/properties#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  
+  "@id": "fromRDFtoJSON-LD",
+  "@graph":
+	[
+		{
+			"@id": "vocab:Class01",
+          	"prop:includes":[
+				{
+					"@id": "vocab:Sensor029"
+				},
+				{
+					"@id": "vocab:Computer101"
+				}
+				]
+		},
+		{
+			"@id": "vocab:Sensor029",
+			"prop:hasMeasurement" :
+				{
+					"@id": "vocab:Measurement8401"  
+				}
+		},
+		{
+			"@id": "vocab:Measurement8401",
+			"prop:hasTemperature": {
+				"@value": "29",
+				"@type": "xsd:int"
+			},
+			"prop:atTime": {
+				"@value": "2010-06-12T12:00:12",
+				"@type": "xsd:dateTimeStamp"
+			}
+		},
+		{
+			"@id": "vocab:Computer101",
+			"prop:hasOwner": 
+				{
+					"@id": "vocab:User10A"
+				}
+		},
+		{	
+			"@id": "vocab:User10A",
+		 	"prop:hasName": {
+				"@value": "Pedro",
+				"@type": "xsd:String"
+			}
+		}
+	]
+}		
