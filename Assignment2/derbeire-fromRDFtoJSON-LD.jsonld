@@ -1,0 +1,47 @@
+{
+	"@context": {
+		"prefix": "http://example.org/prefix/",
+		"cla":"http://schema.org/",
+		"xsd":"http://schema.org/xsd",
+		"Class01":"cla:Class01",
+		"includes":"cla:includes",
+		"hasMeasurement":"cla:hasMeasurement",
+		"hasTemperature":"cla:hasTemperature",
+		"atTime":"cla:atTime",
+		"hasOwner":"cla:hasOwner",
+		"hasName":"vocab:hasName"
+		
+	},
+	"@id":"http://schema.org/class01",
+	"@type":"cla:Class01",
+	"includes":[{
+		"@id":"http://schema.org/class01/sensor029",
+		"@type":"Class01:Sensor029",
+		"hasMeasurement":{
+			"Measurement8401":{
+				"@id":"http://schema.org/class01/sensor029/measurement8401",
+				"@type":"sensor029:Measurement8401",
+				"atTime":{
+					"@value":"2010-06-12T12:00:12",
+					"@type":"xsd:dateTime"
+				},
+				"hasTemperature":{
+					"@value":"29",
+					"@type":"xsd:integer"
+				}
+			}
+		},
+		"@id": "http://schema.org/class01/computer101",
+		"@type": "cla:Computer101",
+		"hasOwner":{
+			"User10A":{
+				"@id":"http://schema.org/class01/computer101/user10A",
+				"@type":"computer:User10A",
+				"hasName":{
+					"@value":"Pedro",
+					"@type":"xsd:string"
+				}
+			}
+		}
+	}]	
+}

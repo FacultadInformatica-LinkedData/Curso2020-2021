@@ -1,0 +1,58 @@
+  
+{
+	"@context":{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"person":"http://www.ontologies.org/ontologies/People#",
+		"s":"http://www.example.org/",
+		"hometown":"s:hometown",
+		"fullname":"s:fullname",
+		"age":"s:age",
+		"alma_mater":"s:alma_mater",
+		"subjects":"s:subjects",
+		"parents-name":"s:parents-name",
+		"teachers":"s:teachers",
+		"padre":"s:padre",
+		"madre":"s:madre",
+		"brief_Description":"s:brief_Description"
+		"student":"s:student"
+		},
+		
+	"@id":"http://www.example.org/yo",
+	"@type" : "person:student",
+	"fullname":{
+		"@value":"Daniel Rodriguez Bravo",
+		"@type":"xsd:string"
+		},
+	"hometown":{
+		"@value":"Madrid",
+		"@type":"xsd:string"
+		},
+	"age":22,
+	"alma_mater":{
+		"@value":"Universidad Politecnica de Madrid",
+		"@type":"xsd:string"
+		},
+	"parents-name":{
+		"padre":{
+			"@value":"Ramón",
+			"@type":"xsd:string"
+		},
+		"madre":{
+			"@value":"Isabel",
+			"@type":"xsd:string"
+		}
+		},
+	"subjects":[
+    {
+		"subject":"Semantic Web and Linked data",
+		"teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+		"description":"Desarrolla los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos de la Web de datos enlazados."
+		},
+    {
+		"name":"EPAC Informáticos",
+		"teachers":["Elena Montiel","Jelena Bobkina"],
+		"brief_Description":"Trata la capacidad de comunicarse de forma efectiva con los compañeros, usuarios y el público en general acerca de cuestiones reales y problemas relacionados con la especialización elegida"
+		}
+    
+		git]
+}

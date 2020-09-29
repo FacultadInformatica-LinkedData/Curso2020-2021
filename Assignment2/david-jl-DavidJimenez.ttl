@@ -1,0 +1,17 @@
+@base <http://www.domotic.com/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
+@prefix : <http://www.domotic.com/Products#>.
+@prefix prop: <http://www.domotic.com/Properties#>.
+
+
+:Class01 prop:includes :Sensor029;
+         prop:includes :Computer101.
+
+:Sensor029 prop:hasMeasurement :Measurement8401.
+
+:Measurement8401 prop:hasTemperature "29"^^xsd:integer;
+                 prop:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+:Computer101 prop:hasOwner :User10A.
+
+:User10A prop:hasName "Pedro"^^xsd:string.
