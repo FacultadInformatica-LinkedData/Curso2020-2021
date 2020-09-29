@@ -1,0 +1,31 @@
+﻿
+Resource naming strategy
+
+Dominio: http://api.zonasverdesmadrid.es
+
+Paths:	http://api.zonasverdesmadrid.com/resources/
+		http://api.zonasverdesmadrid.com/resources/districts/{distrito_id}
+		http://api.zonasVerdesMadrid.com/resources/parks/{park_id}
+		http://api.zonasVerdesMadrid.com/resources/species/{species_id}
+		
+		http://api.zonasVerdesMadrid.com/ontologies/districts
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasId
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasName
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasPark
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung
+		http://api.zonasVerdesMadrid.com/ontologies/districts#justPlanted
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature
+		http://api.zonasVerdesMadrid.com/ontologies/districts#hasOther
+		
+		http://api.zonasVerdesMadrid.com/ontologies/parks
+		http://api.zonasVerdesMadrid.com/ontologies/parks#hasName
+		http://api.zonasVerdesMadrid.com/ontologies/parks#hasSpecies
+		
+		http://api.zonasVerdesMadrid.com/ontologies/species
+		http://api.zonasVerdesMadrid.com/ontologies/species#hasName
+		http://api.zonasVerdesMadrid.com/ontologies/species#hasUnits
+		
