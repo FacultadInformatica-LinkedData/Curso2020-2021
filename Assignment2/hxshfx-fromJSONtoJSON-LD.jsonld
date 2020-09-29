@@ -1,0 +1,147 @@
+{
+    "@context":{
+
+        "schema":"http://schema.org/",
+        "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+        "foaf":"http://xmlns.com/foaf/0.1/",
+        "dbp":"http://dbpedia.org/ontology/",
+        "npg":"http://ns.nature.com/terms/",
+        "poder":"http://dev.poderopedia.com/vocab/",
+
+        "person":"foaf:person",
+        "name":"foaf:name",
+        "age":"foaf:age",
+        "city":"dbp:city",
+        "university":"dbp:university",
+        "parent":"dbp:parent",
+        "teacher":"dbp:headteacher",
+        "subject":"npg:subject",
+        "description":"rdfs:comment",
+        "parents":"poder:hasParents",
+        "subjects":"dbp:hasSubjects",
+        "teachers":"dbp:hasTeachers"
+
+    },
+
+    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/profile.php?id=135286",
+    "@type":"person",
+
+    "name":"Pablo Palomo López",
+    "age":21,
+
+    "parents":[
+        {
+            "@type":"parent",
+            "name":"Rafael Palomo"
+        },
+        {
+            "@type":"parent",
+            "name":"Carmen López"
+        }
+    ],
+
+    "university":{
+        "@id":"https://www.upm.es/",
+        "name":"Universidad Politécnica de Madrid"
+    },
+
+    "subjects":[
+
+        {
+            "@id":"https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=7413",
+            "@type":"subject",
+            "name":"Administración de Sistemas Informáticos",
+            "description":"Basic managing skills of Unix-like and Windows systems",
+            "teachers":[
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=77795&course=7413",
+                    "@type":"teacher",
+                    "name":"Francisco Rosales"
+                },
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=92289&course=7413",
+                    "@type":"teacher",
+                    "name":"Víctor Robles"
+                }
+            ]
+        },
+
+        {
+            "@id":"https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=9257",
+            "@type":"subject",
+            "name":"English for Professional and Academic Communication",
+            "description":"Compulsory english subject for every UPM degree",
+            "teachers":[
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=77977&course=9257",
+                    "@type":"teacher",
+                    "name":"Jelena Bobkina"
+                },
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=62187&course=9257",
+                    "@type":"teacher",
+                    "name":"Elena Montiel"
+                }
+            ]
+        },
+
+        {
+            "@id":"https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=3262",
+            "@type":"subject",
+            "name":"Gestión de Procesos de Tecnologías de la Información",
+            "description":"Organizations' elements, process management and quality models applied to IT",
+            "teachers":[
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=18&course=3262",
+                    "@type":"teacher",
+                    "name":"Edmundo Tovar"
+                },
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=5570847&course=3262",
+                    "@type":"teacher",
+                    "name":"Pilar Rodríguez"
+                }
+            ] 
+        },
+
+        {
+            "@id":"https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=3401",
+            "@type":"subject",
+            "name":"Ingeniería del Software II",
+            "description":"Second part of software engineering",
+            "teachers":[
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=23423&course=3401",
+                    "@type":"teacher",
+                    "name":"Jose Antonio Calvo-Manzano"
+                },
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=15430&course=3401",
+                    "@type":"teacher",
+                    "name":"Tomás San Feliú"
+                }
+            ]
+        },
+
+        {
+            "@id":"https://moodle.upm.es/titulaciones/oficiales/course/view.php?id=5068",
+            "@type":"subject",
+            "name":"Semantic Web, Linked Data and Knowledge Graphs",
+            "description":"Basis of semantic web and introduction to structured knowledge",
+            "teachers":[
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=51083&course=5068",
+                    "@type":"teacher",
+                    "name":"Óscar Corcho"
+                },
+                {
+                    "@id":"https://moodle.upm.es/titulaciones/oficiales/user/view.php?id=120280&course=5068",
+                    "@type":"teacher",
+                    "name":"Paola Espinoza"
+                }
+            ]
+        }
+
+    ]
+    
+}
