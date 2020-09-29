@@ -1,0 +1,56 @@
+{
+	"@context":{
+		"classes":"http://upm.com/class/",
+		"attr":"http://upm.com/class/attr",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"Class01":"classes:Class01",
+		"includes":"Class01:includes",
+
+		"hasMeasurement":"attr:hasMeasurement8401",
+		"hasTemperature":"attr:hasTemperature",
+		"atTime":"attr:atTime",
+
+		"hasOwner":"attr:hasOwner",
+		"hasName":"attr:hasName"
+	},
+
+	"@id":"htttp://upm.com/class/Class01",
+	"@type":"classes:Class01",
+
+	"includes":[
+		{
+			"@type":"sensor",
+			"@id":"sensor:Sensor029",
+				"hasMeasurement":{
+					"@type":"measurement",
+					"@id":"measurement:Measurement8401",
+						"hasTemperature":{
+							"@value":"29",
+							"@type":"xsd:integer"
+						},
+						"atTime":{
+							"@value":"2010-06-12T12:00:12",
+							"@type":"xsd:dateTime"
+						}
+					
+				}
+			
+			},
+		{
+			"@type":"computer",
+			"@id":"computer:Computer101",
+				"hasOwner":{
+					"@type":"user",
+					"@id":"user:User10A",
+						"hasName":{
+							"@value":"Pedro",
+							"@type":"xsd:string"
+						}
+					
+				}
+			
+		}
+	]
+
+
+}

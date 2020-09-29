@@ -1,0 +1,47 @@
+1.
+select distinct ?prop 
+where 
+{?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?z
+} 
+LIMIT 100
+
+2.
+select distinct ?prop 
+where 
+{
+{?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?z
+} filter (?prop != rdf:type)
+}
+LIMIT 100
+
+3.
+select distinct ?value
+where 
+{
+{?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?value
+} filter (?prop != rdf:type)
+}
+LIMIT 100
+
+4.
+select distinct ?prop ?value
+where 
+{
+{?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?value
+} filter (?prop != rdf:type)
+}
+LIMIT 100
+
+5.
+select distinct ?prop count(distinct ?value)
+where 
+{
+{?x a <http://dbpedia.org/ontology/Politician> .
+?x ?prop ?value
+} filter (?prop != rdf:type)
+}
+LIMIT 100

@@ -1,0 +1,9 @@
+# Get all the properties, except for rdf:type, that are applied to instances of the Politician class
+
+PREFIX on: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y
+WHERE {
+  ?x  a on:Politician .
+  ?x  ?y ?z .
+  FILTER (?y != rdf:type)
+}

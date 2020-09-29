@@ -1,0 +1,16 @@
+@base <http://www.example.org/class>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix : <http://www.example.org/class#>.
+@prefix r <http://www.example.org/class#>.
+
+:Class01	r:includes :Sensor029;
+			r:includes :Computer101.
+
+:Sensor029	r:hasMeasurement :Measurement8401.
+
+:Measurement8401	r:hasTemperature "29"^^xsd:nonNegativeInteger;
+					r:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+					
+:Computer101	r:hasOwner :User10A.
+
+:User10A	r:hasName "Pedro"^^xsd:string.
