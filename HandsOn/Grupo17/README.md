@@ -1,5 +1,5 @@
-Daniel Vara Agustín, u120376, Nautilio
-Wladimir Torres Ocaña, q080097, wnicolait
-Isabel Villasevil Aguirre, v130413, isa43
-Saúl Quirós Muñoz, r090156, SaulQuiros
+Daniel Vara Agustín, Nautilio
+Wladimir Torres Ocaña, wnicolait
+Isabel Villasevil Aguirre, isa43
+Saúl Quirós Muñoz, SaulQuiros
 
