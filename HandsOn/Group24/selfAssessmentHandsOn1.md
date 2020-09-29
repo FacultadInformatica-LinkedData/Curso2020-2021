@@ -5,7 +5,7 @@
 The “README.md” file:
 
  [X] Includes the names and GitHub users of all the members of the group
-The "csv" directory:
+The "csv" directory: 
 
  [X] Contains at least one CSV file 
  [X] The CSV files belong to one of the selected domains
