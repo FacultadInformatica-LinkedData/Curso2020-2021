@@ -1,0 +1,8 @@
+Domain -> http://linkeddata.es/
+Path -> group09/
+Hash URIs for ontological terms. Slash URIs for individuals:
+- Ontology IRI -> http://linkeddata.es/group09/
+- Ontological terms path -> http://linkeddata.es/group09/ontology/TrafficAccident#
+- Ontological terms example ->  http://linkeddata.es/group09/ontology/TrafficAccident#District
+- Individuals path -> http://linkeddata.es/group09/resource/
+- Individuals path example -> http://linkeddata.es/group09/resource/District/Retiro
