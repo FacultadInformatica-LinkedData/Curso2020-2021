@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <title>Analysis</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Analysis</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="sub-container">
+      <div>
+        <h4>License</h4>
+        <p>Data can be used for commercial and non-commercial purposes.</p>
+		<p>Also you are required to give appropriate credit (Attribution) and you must respect the city council's license in your end product (ShareAlike)</p>
+        <a target="_blank"
+          href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Link
+          to license information</a>
+      </div>
+      <h4>Analysis performed</h4>
+	  <p>Name of the csv file: Asignación_patinetes.csv</p>
+	  <p>Origin of the data: Madrid's City Council</p>
+      <table class="responsive-table striped">
+        <thead>
+          <tr>
+            <th>Column</th>
+            <th>Type</th>
+            <th>Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>name_NB</td>
+            <td>string</td>
+            <td>Name of a neighbourhood</td>
+          </tr>
+          <tr>
+            <td>name_District</td>
+            <td>string</td>
+            <td>Name of a district</td>
+          </tr>
+          <tr>
+            <td>name_Company</td>
+            <td>string</td>
+            <td>Name of a company</td>
+          </tr>
+          <tr>
+            <td>scooter_Count_D</td>
+            <td>integer</td>
+            <td>Number of scooters in a discrict for a company</td>
+          </tr>
+          <tr>
+            <td>scooter_Count_NB</td>
+            <td>integer</td>
+            <td>Number of scooters in a neighbourhood for a company</td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <h4>Resource Naming</h4>
+        <ul>
+          <li>Domain: <a href="">http://scooters.com/Group12/</a></li>
+          <li>Class terms: <a href="">http://scooters.com/Group12/Classes#</a></li>
+          <li>Property terms: <a href="">http://scooters.com/Group12/Properties#</a></li>
+          <li>Individual terms: <a href="">http://scooters.com/Group12/Individuals#</a></li>
+          <li>Individual pattern: <a href="">http://scooters.com/Group12/Individuals#/'resource_type'/'resource_name'#</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-container {
+    max-width: 700px;
+    width: 90%;
+  }
+
+  li {
+    list-style: disc outside none !important;
+    display: list-item;
+    margin-left: 3em;
+  }
+</style>
+
+</html>
