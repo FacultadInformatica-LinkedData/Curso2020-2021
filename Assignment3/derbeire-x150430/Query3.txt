@@ -1,0 +1,17 @@
+Query 3:
+
+PREFIX ex: <http://dbpedia.org/ontology/>
+
+SELECT count(DISTINCT ?p)
+WHERE{
+?x rdf:type ex:Politician .
+?x ?p ?y
+FILTER (?p != rdf:type)
+}
+LIMIT 100
+
+Resultado 3:
+
+callret-0
+
+1208
