@@ -1,0 +1,35 @@
+{
+    "@context":{
+        "web":"http://example.org/semweb/",
+        "fullName":"web:fullName",
+        "homeTown":"web:homeTown",
+        "age":"web:age",
+        "almaMater":"web:almaMater",
+        "parentsName":"web:parentsName",
+        "subjects":"http://example.org/semweb/subjects/",
+        "name":"subjects:name",
+        "teachers":"subjects:teachers",
+        "description":"subjects:description"
+    },
+    "fullName":"Luis Arconada Sousa",
+    "homeTown":"Madrid",
+    "age":"21",
+    "almaMater":"UPM",
+    "parentsName":["José, Aurelia"],
+    "subjects":[{
+        "name":"Semantic Web, Linked Data and Knowledge Graphs",
+        "teachers":["Oscar Corcho", "Paola Espinoza","David Chaves", "Raúl García Castro"],
+        "description":"RDF,JSON,SPARQL and more"
+    },
+    {
+        "name":"Aplicaciones Numericas de la Informatica",
+        "teachers":["Antonio Tabernero, Esther Dopazo"],
+        "description":"Algoritmos para determinar la posicion GPS"
+    },
+    {
+        "name":"Reconocimiento de Formas",
+        "teachers":["Luis Baumela"],
+        "description":"Algoritmos para el tratamiento y clasificacion de datos"
+    }
+    ]
+}
