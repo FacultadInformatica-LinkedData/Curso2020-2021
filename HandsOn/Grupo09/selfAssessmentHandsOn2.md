@@ -1,14 +1,14 @@
 #Hands-on assignment 2 – Self assessment#
 
 ##Checklist##
-
+ 
 **The “analysis.html” file:**
-
+ 
 - [X] Includes the potential license of the dataset to be generated
 - [X] Includes the resource naming strategy
 
 **The resource naming strategy:**
- 
+
 - [X] Uses a domain that is not the one given by default in Protégé
 - [X] Uses different paths for ontology resources (i.e., classes and properties) and individuals
 - [X] Ensures that the paths for individuals of different classes are not the same
@@ -31,4 +31,4 @@
 - [X] Contains at least one class that will be used to link to other entities
 
 ##Comments on the self-assessment##
-_(If required)_ 
+_(If required)_
