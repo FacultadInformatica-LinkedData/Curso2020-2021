@@ -31,4 +31,4 @@
 - [X] Contains at least one class that will be used to link to other entities
 
 ##Comments on the self-assessment##
-_(If required)_
+_(If required)_ 
