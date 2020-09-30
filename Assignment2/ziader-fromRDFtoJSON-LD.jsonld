@@ -1,26 +1,26 @@
 {
 	"@context": {
-		":":"http://example.org/#"
-		"foaf":"http://xmlns.com/foaf/0.1/"
+		"exe:":"http://example.org/",
 		"rdfs":"http://www.w3.org/2000/01/rdf-schema#"
 	},
-   "@id":":Class01",
-   "@type":"foaf:Class",
-   "rdfs:includes":{
-	  "@id":":Computer101",
-	  "@type":"foaf:Class",
+   "@id":"http://www.example.org/Class01",
+   "@type":"http://www.example.org/Class#",
+   "rdfs:includes":[{
+	  "@id":"http://www.example.org/Computers/Computer101",
+	  "@type":"http://www.example.org/Computers#",
       "rdfs:hasOwner":{
-		"@id":":User10A",
-	    "@type":"foaf:Class",
+		"@id":":http://www.example.org/Users/User10A",
+	    "@type":"http://www.example.org/Users#",
 		"rdfs:hasName":"Pedro"
-	  }
-	  "@id":":Sensor029",
-	  "@type":"foaf:Class",
+	  },
+	  "@id":"http://www.example.org/Sensor029",
+	  "@type":"http://www.example.org/Sensors#",
       "rdfs:hasMeasurement":{
-		"@id":":Measurement8401",
-	    "@type":"foaf:Class",
+		"@id":"http://www.example.org/Measurements/Measurement8401",
+	    "@type":"http://www.example.org/Measurements#",
 		"rdfs:hasTemperature":"29",
 		"rdfs:atTime":"2010-06-12T12:00:12"
 	  }
    }
+   ]
 }
