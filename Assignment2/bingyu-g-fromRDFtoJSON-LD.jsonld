@@ -1,0 +1,43 @@
+{
+	"@context":{
+		"as":"http://www.example.org/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",	
+		"class":"as:class",
+		"sensor":"class:sensor",
+		"computer":"class:computer",
+		"measurement":"sensor:measurement",
+		"user":"user",
+		
+		"includes": "as:includes",
+		"hasMeasurement":"as:hasMeasurement",
+		"hasTemperature":"as:hasTemperature",
+		"hasName":"as:hasName",
+		"hasOwner":"as:hasOwner"
+	},
+	
+	 {"@id":"http://www.example.org/class01",
+		"@type":"class",
+		"includes":[ 
+			{
+			"@id":"http://www.example.org/class01/sensor029",
+				     "@type":"sensor",
+				     "hasMeasurement":{
+								"@id":"http://www.example.org/class01/sensor029",	
+								"@type":"measurement",						 
+								"hasTemperature":"29",
+						 		"atTime":"2010-0612T12:00:12"
+								}
+						 						   
+			},
+			
+			 {"@id":"http://www.example.org/class01/computer101",
+					"@type":"computer",
+					"hasOwner":{"@id":"http://www.example.org/class01/computer101/user10A",
+							      "@type":"user",
+							   "hasName":"Pedro"}
+						    	
+			}
+			
+
+			]
+ }

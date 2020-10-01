@@ -1,0 +1,58 @@
+@base <http://www.semanticweb.org/bicimad/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix properties: <http://www.semanticweb.org/bicimad/properties#> .
+@prefix classes: <http://www.semanticweb.org/bicimad/classes#> .
+@prefix individuals: <http://www.semanticweb.org/bicimad/individuals#> .
+
+# Ontology
+<http://www.semanticweb.org/bicimad/> rdf:type owl:Ontology .
+
+# Classes
+classes:Bike_Station rdf:type owl:Class .
+classes:Street rdf:type owl:Class .
+
+# Data Properties
+properties:position_x rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range xsd:float .
+
+properties:position_y rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range xsd:float .
+
+properties:registration_Date rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range xsd:date .
+
+properties:district rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range xsd:string .
+
+properties:spots rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range xsd:integer .
+
+properties:longitude rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range xsd:float .
+
+properties:latitude rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range xsd:float .
+
+
+properties:street_name rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Street ;
+                    rdfs:range xsd:string .
+
+properties:street_number rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Street ;
+                    rdfs:range xsd:integer .
+
+# Object properties
+properties:located_in rdf:type owl:ObjectProperty ;
+                    rdfs:domain classes:Bike_Station ;
+                    rdfs:range classes:Street .

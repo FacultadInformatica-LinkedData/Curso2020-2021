@@ -1,0 +1,13 @@
+
+SELECT DISTINCT ?propiedades
+WHERE{
+?x ?p <http://dbpedia.org/ontology/Politician> .
+?x ?propiedades ?z
+MINUS{
+?x rdf:type ?z
+}
+}
+
+
+Resultado: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fpropiedades%0D%0AWHERE%7B%0D%0A%3Fx+%3Fp+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%3Fx+%3Fpropiedades+%3Fz%0D%0AMINUS%7B%0D%0A%3Fx+rdf%3Atype+%3Fz%0D%0A%7D%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
