@@ -8,11 +8,11 @@ Our data set has the following data:
 - "Municipio" with value 79  
 - "Estacion" with values between (4 - 61)  
 - "Magnitud" with values between (1 - 45) Magnitude is the gas that is beeing tested (CO2, S02, NOX)  
-- "Punto_Muestreo" with String values, last 2 digits of the String tell us the method for testing the gas (Fluorescencia ultravioleta, Quimioluminiscencia)  
+- "Punto\_Muestreo" with String values, last 2 digits of the String tell us the method for testing the gas (Fluorescencia ultravioleta, Quimioluminiscencia)  
 - "Ano" with value 2020  
 - "Mes" with value between (1-8)  
-- "Dxx" with value between (1-31) this is the day  
-- "Vxx" with values (V - N) V means valid data and N means NO valid data.  
+- "D01...D31" with value between (0-400) this is the data each day has measure.
+- "V01...V31" with values (V - N) V means valid data and N means NO valid data.  
 
 ## Analyse Licensing of the Data Source  
 
