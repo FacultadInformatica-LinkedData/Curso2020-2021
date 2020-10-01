@@ -9,11 +9,11 @@
 
 **Define resource naming strategy:**
 
-- [ ] Define the resource naming strategy to be followed for the ontology and the data to be generated 
+- [x] Define the resource naming strategy to be followed for the ontology and the data to be generated 
 
 **Develop ontology:**
 
-- [ ] Develop a lightweight ontology that includes the classes and properties (with their domains and ranges) to be used with the dataset
+- [x] Develop a lightweight ontology that includes the classes and properties (with their domains and ranges) to be used with the dataset
 
 ##Comments on the self-assessment##
-_(If required)_
+The ttl file with the ontology is still in progress as we didn't know how to define different endpoints in Protegé. However, we tried to describe as good as possible what we want to end up having at the analysis.html file. 
