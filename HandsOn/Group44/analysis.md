@@ -26,5 +26,9 @@ The license is ``CC0 1.0 Universal Public Domain Dedication`` and more specific 
 We will use the same licence ``CC0 1.0 Universal Public Domain Dedication`` [Link](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 ## Define Resource Naming Strategy  
+* Base URI: http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4 
+
+* You can check the content of the onlogy in the `ontology/madridAirQuality.ttl`
+
 
 ## Develop Ontology  
