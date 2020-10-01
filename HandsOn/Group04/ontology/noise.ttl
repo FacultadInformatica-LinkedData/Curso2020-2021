@@ -1,0 +1,141 @@
+@prefix : <http://group04.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://group04.com/>.
+
+<http://group04.com/ontology#> rdfs:type owl:Ontology.
+
+#               Classes                #
+
+
+## http://group04.com/Location
+
+:Location rdf:type owl:Class.
+
+## http://group04.com/MobileRecyclePoint
+
+:EstacionesMedidaControlAcustico rdf:type owl:Class.
+
+## http://group04.com/Schedule
+
+:Schedule rdf:type owl:Class.
+
+
+#             Data Properties          #
+
+## http://group04.com/hasName
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Adress;
+    rdfs:range xsd:string.
+
+## http://group04.com/hasCode
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Adress;
+    rdfs:range xsd:integer.
+
+## http://group04.com/isInVia
+
+:isInDistrict rdf:type owl:DatatypeProperty;
+    rdfs:domain :Adress;
+    rdfs:range xsd:string.
+
+## http://group04.com/ViaClass
+
+:isInDistrict rdf:type owl:DatatypeProperty;
+    rdfs:domain :Adress;
+    rdfs:range xsd:string.
+
+## http://group04.com/ViaName
+
+:isInDistrict rdf:type owl:DatatypeProperty;
+    rdfs:domain :Adress;
+    rdfs:range xsd:string.
+
+## http://group04.com/hasDir
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Adress;
+    rdfs:range xsd:string.
+
+## http://group04.com/longGMS
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+## http://group04.com/latGMS
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+## http://group04.com/longED0
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+## http://group04.com/latED50
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+## http://group04.com/hasAlt
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:integer.
+
+## http://group04.com/fechAlta
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:integer.
+
+## http://group04.com/hasCoordX
+
+:hasLatitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:double.
+
+## http://group04.com/hasCoordY
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:double.
+
+## http://group04.com/longWGS84
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+## http://group04.com/latWGS84
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+
+
+#            Object Properties         #
+
+## http://gruop04.com/hasLocation
+
+:hasLocation rdf:type owl:Class;
+    rdfs:domain :EstacionesMedidaControlAcustico;
+    rdfs:range :Location.
+
+
+## http://gruop04.com/hasAdress
+
+:hasSchedule rdf:type owl:Class;
+    rdfs:domain :EstacionesMedidaControlAcustico;
+    rdfs:range :Adress.
+
