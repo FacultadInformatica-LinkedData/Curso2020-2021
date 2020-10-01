@@ -1,0 +1,182 @@
+<!--
+An HTML document that includes: he analyses performed over the data source and the licensing of the data source, 
+as well as the resource naming strategy defined.
+-->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+			Group 04 - Analysis
+	</title>
+  </head>
+  <body>
+		<h1>Dataset analysis</h1>
+		
+		<section>
+			El fichero csv donde se encuentran las calles de medición de contaminación acustica:
+			<ul>
+				<li>
+					Nombre del CSV:
+					EstacionesMedidaControlAcustico.csv
+				</li>
+			</ul>
+		</section>
+		<section>
+			<table style="width:100%">
+				<tr>
+					<td style="font-weight:bold;">Dato</td>
+					<td style="font-weight:bold;">Tipo</td>
+					<td style="font-weight:bold;">Descripcion</td>
+					<td style="font-weight:bold;">Rango</td>
+				</tr>
+				<tr>
+					<td>PK</td>
+					<td>Integer</td>
+					<td>Identificador del punto de medición</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Nombre</td>
+					<td>String</td>
+					<td>Nombre del barrio</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>COD_VIA</td>
+					<td>Integer</td>
+					<td>Codigo de la via</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>VIA_CLASE
+					</td>
+					<td>String</td>
+					<td>Clase de la via</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>VIA_PAR
+					</td>
+					<td>String</td>
+					<td>Conector de VIA_CLASE - VIA_NOMBRE</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>	  
+				  
+				  <tr>
+					<td>VIA_NOMBRE</td>
+					<td>String</td>
+					<td>Nombre de la vía</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>
+
+				  <tr>
+					<td>Dirección</td>
+					<td>String</td>
+					<td>Dirección del punto de medición</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>
+
+				  <tr>
+					<td>Longitud_gms</td>
+					<td>String</td>
+					<td>Longitud geográfica del punto de medición</td>
+					<td>[A-Z][a-z][0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Latitud_gms
+					</td>
+					<td>String</td>
+					<td>Latitud geográfica del punto de medición</td>
+					<td>[A-Z][a-z][0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>LATITUD_ED50
+					</td>
+					<td>String</td>
+					<td>Latitud en formato ED50</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>LONGITUD_ED50
+					</td>
+					<td>String</td>
+					<td>Longitud en formato ED50</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Alt.(m)
+					</td>
+					<td>Integer</td>
+					<td>Altitud en metros del punto de medición</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Fecha alta
+					</td>
+					<td>Integer</td>
+					<td>Fecha de alta del punto de medición</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Coordenada_X_ETRS89
+					</td>
+					<td>float</td>
+					<td>Coordenadas X en formato ETRS89</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Coordenada_Y_ETRS89
+					</td>
+					<td>float</td>
+					<td>Coordenadas Y en formato ETRS89</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>LONGITUD_WGS84
+					</td>
+					<td>float</td>
+					<td>Valor de longitud</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>LATITUD_WGS84
+					</td>
+					<td>float</td>
+					<td>Valor de Latitud</td>
+					<td>[0-9]</td>
+				  </tr>
+				   
+				</table>
+			</section>	
+		<section>
+			<h1>Analisis de licencia del Dataset</h1>
+			<p><b>Propietario/Editor</b>: Ayuntamiento de Madrid.</p>
+			<p><b>Licencia:</b> Datos abiertos del ayuntamiento de Madrid. Estos datos pueden ser usados con fines comerciales o no comerciales.</a> </p>
+		</section>
+	</body>
+</html>
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
