@@ -14,8 +14,7 @@
 
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#locatedAt
 :locatedAt rdf:type owl:ObjectProperty ;
-           rdfs:domain :Station ;
-           rdfs:range <https://schema.org/Place> .
+           rdfs:domain :Station .
 
 
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#measuredAt
@@ -101,7 +100,8 @@
 
 
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#Station
-:Station rdf:type owl:Class .
+:Station rdf:type owl:Class ;
+         rdfs:subClassOf <https://schema.org/Place> .
 
 
 ###  https://schema.org/Place
