@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "vocab": "http:www.example.org/ontology#",
+    "name": "vocab:name",
+    "hometown": "vocab:hometown",
+    "age": "vocab:age",
+    "Alma mater": "vocab:Alma mater",
+    "parent's name": "vocab: parentsname",
+    "subjects": "vocab:subjects",
+    "sname": "subjects:name",
+    "sdesc": "subjects:description",
+    "steach": "subjects:teachers"
+  },
+  "name": "Marcos Moreno Nogueira",
+  "hometown": "Las Palmas de Gran Canaria",
+  "age": "21",
+  "Alma mater": "Universidad Politécnica de Madrid",
+  "parent´s name": ["Javier", "María Isabel"],
+  "subjects": [
+    {
+    	"sname": "Semantic Web and Linked Data",
+    	"sdesc": "",
+    	"steach": ["Oscar Corcho","Raúl García"]
+  	},
+    
+    {
+      "sname": "Gestion de Procesos de Tecnologias de la Informacion",
+      "sdesc": "",
+      "steach": ["Oscar Dieste", "Edmundo Tovar", "Jose Ramon Sanchez", "Maria Pilar Rodriguez"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+@base <http://scooters.com/Group12/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix properties: <http://scooters.com/Group12/Properties#> .
+@prefix classes: <http://scooters.com/Group12/Classes#> .
+@prefix individuals: <http://scooters.com/Group12/Individuals#> .
+<http://scooters.com/Group12/> rdf:type owl:Ontology .
+#Object Properties###
+properties:operatesInNB rdf:type owl:ObjectProperty ;
+                      rdfs:domain classes:Neighbourhood ;
+                      rdfs:range classes:District ;
+                      rdfs:seeAlso <http://rdfs.co/juso/District> .
+properties:operatesInD rdf:type owl:ObjectProperty ;
+                           rdfs:domain classes:Company ;
+                           rdfs:range classes:Neighbourhood ;
+                           rdfs:seeAlso <http://rdfs.co/juso/Neighborhood> .
+properties:belongsTo rdf:type owl:ObjectProperty ;
+                     rdfs:domain classes:Neighbourhood ;
+                     rdfs:range classes:District .
+#Data properties
+properties:name_NB rdf:type owl:DatatypeProperty ;
+                   rdfs:domain classes:Neighbourhood ;
+                   rdfs:range xsd:string .
+properties:name_District rdf:type owl:DatatypeProperty ;
+                         rdfs:domain classes:District ;
+                         rdfs:range xsd:string .
+properties:name_Company rdf:type owl:DatatypeProperty ;
+                        rdfs:domain classes:Company ;
+                        rdfs:range xsd:string .
+properties:scooter_Count_D rdf:type owl:DatatypeProperty ;
+                           rdfs:domain classes:District ,
+                                       classes:Company  ;
+                           rdfs:range xsd:integer .
+properties:scooter_Count_NB rdf:type owl:DatatypeProperty ;
+                            rdfs:domain classes:Neighbourhood ,
+                                        classes:Company  ;
+                            rdfs:range xsd:integer .
+#Classes properties
+classes:Neighbourhood rdf:type owl:Class ;
+                      rdfs:seeAlso <http://rdfs.co/juso/Neighborhood> .
+classes:Company rdf:type owl:Class ;
+                rdfs:seeAlso <http://rdfs.co/juso/District> .
+classes:District rdf:type owl:Class ;
+                 rdfs:seeAlso <http://dbpedia.org/ontology/Company> .
