@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Analysis</title>    
+        <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/b647d8a234.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body class="bg-info">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded shadow p-3  rounded">
+              <a class="navbar-brand text-ligth mx-auto" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tree-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 0a.5.5 0 0 1 .416.223l3 4.5A.5.5 0 0 1 11 5.5h-.098l2.022 3.235a.5.5 0 0 1-.424.765h-.191l1.638 3.276a.5.5 0 0 1-.447.724h-11a.5.5 0 0 1-.447-.724L3.69 9.5H3.5a.5.5 0 0 1-.424-.765L5.098 5.5H5a.5.5 0 0 1-.416-.777l3-4.5A.5.5 0 0 1 8 0z"/>
+              <path d="M7 13.5h2V16H7v-2.5z"/>
+            </svg>Puntos Limpios Moviles</a>
+                
+            </nav>
+            <style>
+                table{
+                    border: black 3px solid;
+                }
+                tr{
+                    border: black 3px solid;
+                   
+                }
+                th{
+                    border: black 3px solid;
+                    background: rgb(52,58,63);
+                }
+                td{
+                    background: rgb(32,175,198);
+                }
+            </style>
+        </div>
+</div>
+        <div class="m-2">
+        <h1 class="text-center">Analysis</h1>
+        </div>
+        <div class="card bg-ligth m-2">
+          <div class="card-body">
+            <h2 class="card-title text-black">Data analysis</h2>
+            <div class="card mb-2">
+              <h5 class="card-title text-black">PuntosLimpiosMoviles.csv</h5>
+                    <p >
+                        In this data set you can find the addresses, day, shift and
+                        collection times and the geolocated points of each of the mobile clean points
+                        by district.
+                    </p>
+                <div class="card-body">
+                    <table class="egt">
+                      <tr>
+                        <th class="p-2 text-white">DIRECCION_COMPLETA</th>
+                        <td class="p-2">Direcction that include the first and the second postal aproximation</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">COD_DISTRITO</th>
+                        <td class="p-2">District code</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">DISTRITO</th>
+                        <td class="p-2">Distric name</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">LATITUD</th>
+                        <td class="p-2">Latitude where is the mobile recycle point</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">LONGITUD</th>
+                        <td class="p-2">Longitude where is the mobile recycle point</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">DIA SEMANA</th>
+                        <td class="p-2">Day of the week that it´s open</td>
+                      </tr>
+                        <tr>
+                            <th class="p-2 text-white">HORA INICIO</th>
+                            <td class="p-2">Time when the service starts</td>
+                      </tr>
+                        <tr>
+                        <th class="p-2 text-white">HORA FINAL</th>
+                        <td class="p-2">Time when the service stops</td>
+                      </tr>
+                    </table>
+                </div>
+            </div>
+              <div class="card">
+              <h5 class="card-title text-black">VialesVigentesDistrito.csv</h5>
+                    <p >     
+                        Includes the list of current roads of the municipal term included in
+                        each district.
+                    </p>
+                <div class="card-body">
+                    <table class="egt">
+                      <tr>
+                        <th class="p-2 text-white">COD_VIA</th>
+                        <td class="p-2">Path´s unic code</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">VIA_CLASE</th>
+                        <td class="p-2">Path´s type</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">VIA_PAR</th>
+                        <td class="p-2">Denomination particle</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">VIA_NOMBRE</th>
+                        <td class="p-2">Street´s name</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">VIA_NOMBRE_ACENTO</th>
+                        <td class="p-2">Street´s name with acents</td>
+                      </tr>
+                      <tr>
+                        <th class="p-2 text-white">DISTRITO</th>
+                        <td class="p-2">District´s code</td>
+                      </tr>
+                    </table>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card bg-ligth m-2">
+          <div class="card-body">
+            <h2 class="card-title text-black">License analysis</h2>
+            <p class="card-text  text-black">
+                <ul class="lead">
+                    <p>
+                    The general conditions allow the reuse of documents for commercial and non-commercial purposes. Reuse is understood as the use of documents held by the Madrid City Council, provided that such use does not constitute a public administrative activity.
+                    </p>
+                    <p>To se more info <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Click here</a></p>
+                 </ul>
+              </p>
+            
+          </div>
+        </div>
+        
+        <div class="card bg-ligth m-2">
+          <div class="card-body">
+            <h2 class="card-title text-black">Resource naming strategy</h2>
+              <div class="card-body">
+                <div><b>Domain: </b>
+                    http://group11.com/
+                </div>
+                <div><b>Ontological terms path: </b>
+                    http://group11.com/ontology
+              </div>
+                <div><b>Individuals path: </b>
+                    http://group11.com/resource 
+              </div>
+                <div><b>Ontological terms pattern: </b>
+                    http://group11.com/ontology#term
+              </div>
+                <div><b>Individuals pattern:</b>
+                    http://group11.com/resource/resource_type/resource_name 
+              </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="card bg-ligth m-2">
+          <div class="card-body">
+            <h2 class="card-title text-black">Other Resources</h2>
+            <div>
+                <ul>
+                    <li><a href="./requirements/applicationRequirements.html"><b>Aplication Requirements</b></a></li>
+                    <li><a href="./requirements/datasetRequirements.html"><b>Dataset Requirements</b></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>

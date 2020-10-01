@@ -1,0 +1,19 @@
+@prefix ob:<https://objeto/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema>.
+
+#Class01
+ob:Class01 rdfs:includes ob:Sensor029, ob:Computer101.
+
+#Computer101
+ob:Computer101 rdfs:hasOwner ob:User10A.
+
+#User10A
+ob:User10A rdfs:hasName "Pedro".
+
+#Sensor029
+ob:Sensor029 rdfs:hasMeasurement ob:Measurement8401.
+
+#Measurement8401
+ob:Measurement8401 rdfs:hasTemperature 29;
+rdfs:atTime "1975-12-26"^^xsd:date.
