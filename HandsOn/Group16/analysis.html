@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<h1><span style="color: #33cccc;">Analyzing Dataset</span></h1>
+<h2><span style="color: #008080;">Types of sample / magnitude that we can treat, that is, those that have in common.</span></h2>
+<p><br />Fields found at dataset 1 (2010 to February 2020) and dataset 2 (March to June 2020)<br />[The precise details of the measurements are located in <a href="https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/Aire/Ficheros/Interprete_ficheros_%20calidad_%20del_%20aire_global.pdf">this guide</a>]</p>
+<blockquote>
+<p><strong>* Sulfur dioxide (SO2)</strong><br /><strong> * Carbon monoxide (CO)</strong><br /><strong> * Nitrogen dioxide (N02)</strong><br /><strong> * Particulate matter 2.5 (PM2.5)</strong><br /><strong> * Particulate matter 10 (PM10)</strong><br /><strong> * Ozone (O3)</strong></p>
+<p><strong>*</strong> <strong>Station / Sampling point</strong>: it is a numerical code that corresponds to a place: 28079001<br /> <strong>* Date:</strong> DD / MM / YYYY the sample was taken.<br />&nbsp;&nbsp; - In dataset 1 there is one row per month, with one column for each day.<br />&nbsp;&nbsp; - In dataset 2 there is a row for each day.<br /> <strong>* Validity (dataset 1)</strong><br />&nbsp;&nbsp; - Only the data with the V are valid, so we will have to filter them.</p>
+</blockquote>
+<h2><span style="color: #008080;">License Analysis of the Data Source</span></h2>
+<p>According to the conditions of use of Open Data of the Madrid City Council, chosen data is: "<em>Open Data (open data in English) is a global initiative, linked to Open Government policies, which seeks that data and information, especially those owned by public administrations, are published in an open, regular and reusable way for everyone, without restrictions on access, copyright, patents or other control mechanisms.</em> "</p>
+<p>In summary, you are allowed to reuse the published data for commercial and non-commercial purposes. For more information, consult <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aR12gnext06VCGNNC3D5VCGNC3VCGND9AXFREGENNAVIGENE%20B4C412B9F310VgnVCM100000171f5a0aR12B9AXFGENGENDAXFAMILYNOTEVGENGEN1D&amp;B4C412b9ace9F310VgnVCM100000171f5a0aR12B9aceggnext0DMVCGNNC1D5CVGENGENT0DAMETER">this link</a>.</p>
+<p>The publisher and the rightsholder of the dataset is the municipality of the Community of Madrid. And the potential license that we are going to use is an open data license.</p>
+<h2><span style="color: #008080;">Defining Resource Naming Strategy</span></h2>
+<p>The following URI will be used to access all the data that we will use for our ontology:<br /><strong>- <a href="http://www.semanticweb.org/group16/ontologies/air-quality">http://www.semanticweb.org/group16/ontologies/air-quality</a></strong></p>
+<p><br />I.e., the URI corresponding to the measurement class. We've chosen hash <em>(#)</em> because it is a periodic resource:<br /><strong><span style="text-decoration: underline;"><em>-</em></span> <a class="anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB" tabindex="0" title="http://www.semanticweb.org/group16/ontologies/air-quality#Measurements" role="button" href="http://www.semanticweb.org/group16/ontologies/air-quality#Measurements" target="_blank" rel="noreferrer noopener">http://www.semanticweb.org/group16/ontologies/air-quality#Measurement</a></strong></p>
+<p><br />In the following URI we would find the stations where the measurements are made, which will belong to a specific district, and which will be linked to real location places:<br /><strong>- <a href="http://www.semanticweb.org/group16/ontologies/air-quality/place/station">http://www.semanticweb.org/group16/ontologies/air-quality#Station</a></strong></p>
+<p>&nbsp;</p>
+</html>

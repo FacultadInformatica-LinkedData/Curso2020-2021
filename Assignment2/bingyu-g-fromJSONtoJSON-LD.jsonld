@@ -1,0 +1,62 @@
+{
+
+	"@context":{
+		"a2": "http://www.example.org/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",	
+		"sbj":"http://www.w3.org/2020/sbj/",
+		"info":"http://www.w3.org/2020/info/",
+		"fullname":"info:fullname",
+		"hometown":"info:ometown",
+		"almaMater":"info:almaMater",
+		"parentsName":"info:parentName",
+		"subjects":"sbj:subjects",
+		"name":"sbj:name",
+		"teacher":"sbj:teacher",
+		"description":"sbj:description"
+
+	},
+	"fullName": "BingyuGuan",
+	"hometown": "China",
+	"age": "21",
+	"almaMater": "Universidad Politécnica de Madrid",
+	"parentsName":["zhirong","shufang"]
+		
+	
+	"subjects":[{
+		"name":"Gestión de procesos de tecnologías de la información (Otoño)",
+		"teacher":["Oscar Dieste Tubio","Edmundo Tovar Caro", "Jose Ramon Sanchez Palomares","Maria Pilar Rodriguez Gonzalez"],
+		"description":"En esta asignatura se tratan los elementos de una organización, la gestión por procesos, y modelos de calidad aplicados a organizaciones de TI"
+	},
+	
+	{
+		"name":"Ingeniería del Software II",
+		"teacher":[ "Tomas San Feliu Gilabert","Jose Antonio Calvo Manzano Villalon"],
+		"Description":"La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software. La asignatura se basa en el desarrollo de un proyecto software, donde los estudiantes deberán aplicar los aspectos aprendidos tanto en asignaturas previas del grado como en la propia asignatura."
+	},
+	
+	{
+		"Name":"Nanotecnología",
+		"Teacher":["M.estibaliz Martinez","Maria Mercedes Perez Castellanos" ],
+		"Description":"La Nanotecnología es una ciencia emergente en diversos ámbitos científicos con un gran número de aplicaciones en la actualidad."
+	},
+	
+	{
+		"Name":"Semantic Web, Linked Data and Knowledge Graphs",
+		"Teacher":["Oscar Corcho Garcia", "Raul Garcia Castro" ],
+		"Description":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+	},
+
+	{
+		"Name":"Sistemas de planificación",
+		"Teacher":["Vicente Martinez Orga"," Miguel Garcia Remesal"],
+		"Description":"Todos los procesos para ser desarrollados precisan de un proceso de planificación, de la bondad de ese plan se generará un proyecto malo, bueno u óptimo, la capacidad de planificar correctamente un plan debe ser aprendida, no es innata, por eso el conocimiento de diferentes técnicas de planificación ayudan al desarrollo correcto de un proyecto bien construido y desarrollado."
+	},
+
+	{
+		"Name":"Sistemas Operativos - GII",
+		"Teacher":[ "Fco Javier Rosales Garcia","Maria De Los Santos Perez Hernandez","Fernando Perez Costoya" ],
+		"Description":"El objetivo de la asignatura es la comprensión de los conceptos básicos de los sistemas operativos y la familiarización con la interfaz de programación de los mismos. La asignatura se centra en la funcionalidad quesuministran los sistemas operativos sin profundizar en su estructura y funcionamiento internos."
+	}
+	]
+
+}
