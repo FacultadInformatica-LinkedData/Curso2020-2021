@@ -1,16 +1,21 @@
-# Hands-on assignment 2 - Self assessment
+#Hands-on assignment 2 – Self assessment#
 
-## The “analysis.html” file:
-- [X] Includes the potential license of the dataset to be generated
+##Checklist##
+
+**The “analysis.md” file:**
+
+- [ ] Includes the potential license of the dataset to be generated
 - [ ] Includes the resource naming strategy
 
-## The resource naming strategy:
+**The resource naming strategy:**
+
 - [ ] Uses a domain that is not the one given by default in Protégé
 - [ ] Uses different paths for ontology resources (i.e., classes and properties) and individuals
 - [ ] Ensures that the paths for individuals of different classes are not the same
 - [ ] Defines property URIs independently of class URIs
 
-## The ontology file:
+**The ontology file:**
+
 - [ ] Uses the .ttlextension
 - [ ] Is serialized in the Turtle format
 - [ ] Follows theresource naming strategy
@@ -21,4 +26,9 @@
 - [ ] Defines the range of all the properties (the destination of the property)
 - [ ] Defines all class names starting with a capital letter
 - [ ] Defines all property names starting with a non-capital letter
-- [ ] Does not mix labels in different languages (e.g., Spanish and English)-Does not define multiple domains or multiple ranges in properties-Contains at least one class that will be used to link to other entities
+- [ ] Does not mix labels in different languages (e.g., Spanish and English)
+- [ ] Does not define multiple domains or multiple ranges in properties
+- [ ] Contains at least one class that will be used to link to other entities
+
+##Comments on the self-assessment##
+_(If required)_
