@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+       <div class = "container border border-dark ">
+       <p class = "text-center"><b class = "h1">Analyse Data Set</b> </p>
+       </div> 
+      
+        <div class=" container table-responsive ">
+        <b class = "h2">Our DataSet contains:</b><br><br>
+        <table class="table table-bordered table-sm ">
+            <thead class="thead-dark">
+            <tr>
+          
+              <th>Column</th>
+          
+              <th>Type</th>
+          
+              <th>Comments / Range
+                (rounded)</th>
+               
+              <th>Problems</th>  
+          
+            </tr>
+            </thead>
+            <tr>
+          
+              <td>Primary Key</td>
+          
+              <td>Decimal</td>
+          
+              <td>13470-10737574</td>
+
+              <td></td>
+          
+            </tr>
+          
+            <tr>
+          
+             <td>Name</td>
+          
+              <td>String</td>
+          
+              <td></td>
+              
+              <td></td>
+            </tr>
+          
+            <tr>
+          
+                <td>Entitiy´s Description</td>
+          
+                <td>String</td>
+            
+                <td>Only one cell with a value</td>
+                
+                <td></td>
+          
+            </tr>
+            <tr>
+          
+                <td>Schedule</td>
+          
+                <td>String</td>
+            
+                <td>Only three cells has values</td>
+                
+                <td></td>
+          
+            </tr>
+            <tr>
+          
+                <td>Equipment</td>
+          
+                <td>Null</td>
+            
+                <td>Empty values</td>
+                
+                <td></td>
+          
+            </tr>
+            <tr>
+          
+                <td>Transport</td>
+          
+                <td>Null</td>
+            
+                <td>Empty values</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Description of the parking slots</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td></td>
+          
+            </tr>
+            <tr>
+          
+                <td>Description of the parking slots</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td>A cell has an syntax error: "accesible en 2&amp;ordf;  plantaPlaza pa" </td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Accesibility</td>
+          
+                <td>Decimal</td>
+            
+                <td>0-1</td>
+                
+                <td></td>
+          
+            </tr>
+            <tr>
+          
+                <td>Content-URL</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Street Name</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td>Syntax errors</td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Road type</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td>"casino" vs "Casino", "plaza" vs "Plaza"</td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Num type</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Num</td>
+          
+                <td>Decimal</td>
+            
+                <td>0-176, some cells with empty values</td>
+                
+                <td>Repeated values</td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Floor</td>
+          
+                <td>Null</td>
+            
+                <td>Empty values</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Door</td>
+          
+                <td>Null</td>
+            
+                <td>Empty values</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Stairs</td>
+          
+                <td>Null</td>
+            
+                <td>Empty values</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Orientation</td>
+          
+                <td>Null</td>
+            
+                <td>Only one cell with a value</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Locality</td>
+          
+                <td>String</td>
+            
+                <td>All cells have the same value: Madrid</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Province</td>
+          
+                <td>String</td>
+            
+                <td>All cells have the same value: Madrid</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Postal code</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td>Repeated values (5 cells with the postal code 28001)</td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Neighborhood</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td>Repeated values</td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>District</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td>Repeated values</td>
+          
+            </tr>
+            
+            <tr>
+          
+                <td>Coordinates X</td>
+          
+                <td>Decimal</td>
+            
+                <td>433707 - 448768</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Coordinates Y</td>
+          
+                <td>Decimal</td>
+            
+                <td>4470962 - 4479747</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Latitude</td>
+          
+                <td>Decimal</td>
+            
+                <td>40.38710254642704 - 40.46451060463543</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Longitude</td>
+          
+                <td>Decimal</td>
+            
+                <td>-3.78317943069732 -  -3.598831</td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Telephone</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>E-mail</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td></td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>Type</td>
+          
+                <td>String</td>
+            
+                <td></td>
+                
+                <td></td>
+          
+            </tr>
+          
+          
+          </table>
+</div>
+
+
+<div class = "container">
+        <h3><b>Analyse Licensing of the Data Source</b></h3>
+
+        <b>Publisher and rightsholder: </b>City Hall of Madrid <br>
+        <b>About the license:</b> The license allow us to reuse the DataSet with comercial and non-comercial purposes, unless it is used for a public administrative activity
+        <br><br>
+        <h4><b>General conditions for reuse</b></h4>
+<b>The following general conditions apply to the reuse of the documents submitted to them:</b>
+It is forbidden to distort the meaning of the information.
+The source of the documents to be reused must be cited. This appointment may be made as follows: "Origin of the data: Madrid City Council (or, where appropriate, administrative body, body or entity in question)"
+The date of the last update of the documents to be reused must be mentioned, as long as it was included in the original document.
+It may not be indicated, insinuated or suggested that the Madrid City Council participates, sponsors or supports the reuse carried out with the information.
+The metadata on the update date and the applicable reuse conditions included, where appropriate, in the document made available for reuse must be kept, not altered or deleted.
+In the case of anonymized information for the protection of personal data or other reasons, it is expressly forbidden to carry out tasks of re-identification of people from these data and other possible, past, current or future sources of data and information.   
+</div>
+<br>
+
+<div class = "container">
+<h3><b>Define Resource Naming Strategy</b></h3>           
+<b>Path:</b>  
+http://findyourparking.es/lcc/ontology/Parking#<br>
+<b>Classes (http://findyourparking.es/lcc/ontology/Parking#[Class Name]):</b>
+<ul>
+    <li>http://findyourparking.es/lcc/ontology/Parking#Address || Content negotiation: application/turtle</li> 
+    <li>http://findyourparking.es/lcc/ontology/Parking#Information || Content negotiation: application/turtle</li> 
+    <li>http://findyourparking.es/lcc/ontology/Parking#Coordinates  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#Contact  || Content negotiation: application/turtle</li>
+
+</ul>
+
+<b>Properties (http://findyourparking.es/lcc/ontology/Parking#[Property Name]):</b>
+<ul>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasAddress || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasInformation || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasCoordinates || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasContact || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasAccesibility  Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasCity  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasCoordX  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasCoordY  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasDescription || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasDistrict || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasEmail  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasLatitude  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasLocality  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasLongitude  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasName  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasNumber  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasOrientation  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasPostalCode  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasProvince  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasSchedule  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasStreetName  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasStreetType  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasTelephone  || Content negotiation: application/turtle</li>
+    <li>http://findyourparking.es/lcc/ontology/Parking#hasURLMoreInfo  || Content negotiation: application/turtle</li>
+</ul>
+
+</div>
+
+    </body>
+</html>

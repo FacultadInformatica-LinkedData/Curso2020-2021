@@ -1,0 +1,216 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix space: <https://freewifizones/madrid/space> .
+@prefix location: <https://freewifizones/madrid/location> .
+@prefix classes: <https://freewifizones/madrid/classes#> .
+@base <https://freewifizones/madrid/>.
+
+#https://freewifizones/madrid/resources/?[Query]#[dato]
+# - Contains at least one class
+#- Contains at least one object property (where the value of the property is a #resource)
+#- Contains at least one datatype property (where the value of the property is a #string literal, usually typed)
+#- Defines the domain of all the properties (the origin of the property)
+#- Defines the range of all the properties (the destination of the property)
+#- Defines all class names starting with a capital letter
+#- Defines all property names starting with a non-capital letter
+#- Does not mix labels in different languages (e.g., Spanish and English)
+#- Does not define multiple domains or multiple ranges in properties
+#- Contains at least one class that will be used to link to other entities 
+
+
+
+#############################################CLASSES################################################################
+classes:Location a owl:Class;
+	rdfs:comment "We create a Location class for knowing where it's located our public space".
+classes:Space a owl:Class;
+	rdfs:comment "We create a public spaces to associate public sites with free wifi".
+
+
+######################################DATA TYPE PROPERTY ##########################################################
+
+
+# DEFINIR NOMBRE DE ESPACIO
+space:hasName a owl:DataTypeProperty;
+    rdfs:comment "it contains the name of the building related to the rest of the data"@en;
+    rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+ 
+# DEFINIR HORARIO DE ESPACIO
+space:hasSchedule a owl:DataTypeProperty;
+    rdfs:comment "schedule for when is the oppening, secretary, regular days and holidays."@en;
+    rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR EQUIPAMIENTO DE ESPACIO
+space:hasEquipment a owl:DataTypeProperty;
+    rdfs:comment "detailed information about the specialized rooms in every building."@en;
+    rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR DESCRIPCION-ENTIDAD DE ESPACIO
+space:hasDescriptionEntity a owl:DataTypeProperty;
+    rdfs:comment "it refers to information about the history of the building and other stuff."@en;
+    rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR TRANSPORTE
+space:hasRoute a owl:DataTypeProperty;
+	rdfs:comment "Way of transport to arrive our public space";
+	rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR NUMERO DE TFNO
+space:hasTelephone a owl:DataTypeProperty;
+	rdfs:comment "contact number.";
+	rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR FAX
+space:hasFax a owl:DataTypeProperty;
+	rdfs:comment "fax number.";
+	rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR ACCESIBILIDAD
+space:hasAccesibility a owl:DataTypeProperty;
+	rdfs:comment "Described by specific numbers how can you access the building, from 0 to 6.";
+	rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR URL
+space:hasUrl a owl:DataTypeProperty;
+	rdfs:comment "Url direction";
+	rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR EMAIL
+space:hasEmail a owl:DataTypeProperty;
+	rdfs:comment "email address for contact";
+	rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
+# DEFINIR TIPO
+space:hasType a owl:DataTypeProperty;
+	rdfs:comment "This field describes the type of the building";
+	rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+#--- 
+
+#DEFINIR NOMBRE-VIA      
+location:address a owl:DataTypeProperty;
+	rdfs:comment "Address of the building";
+	rdfs:domain classes:Location;
+    rdfs:range rdfs:Literal.
+	
+#DEFINIR CLASE-VIA	
+location:addressType a owl:DataTypeProperty;
+	rdfs:comment "Address type";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR TIPO-NUM	
+location:typeNum a owl:DataTypeProperty;
+	rdfs:comment "Can be 'V'or 'NUM'";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR NUM
+location:num a owl:DataTypeProperty;
+	rdfs:comment "Number in the road";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+	
+#DEFINIR PLANTA
+location:floor a owl:DataTypeProperty;
+	rdfs:comment "Building floor";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR PUERTA
+location:door a owl:DataTypeProperty;
+	rdfs:comment "Descriptor of the door";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR ESCALERAS	
+location:stairway a owl:DataTypeProperty;
+	rdfs:comment "Stairway, left or right";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR ORIENTACION
+location:Name a owl:DataTypeProperty;
+	rdfs:comment "Detailed description of the address";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR LOCALIDAD
+location:locality a owl:DataTypeProperty;
+	rdfs:comment "Madrid";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR PROVINCIA
+location:province a owl:DataTypeProperty;
+	rdfs:comment "Madrid";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR CP
+location:cp a owl:DataTypeProperty;
+	rdfs:comment "Postcode";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+	
+#DEFINIR BARRIO
+location:neighbourhood a owl:DataTypeProperty;
+	rdfs:comment "Neighbourhood name";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.	
+	
+#DEFINIR DISTRITO
+location:district a owl:DataTypeProperty;
+	rdfs:comment "District name";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+
+#DEFINIR COORDENADAS X
+location:xcoordinate a owl:DataTypeProperty;
+	rdfs:comment "X coordinate";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.	
+	
+#DEFINIR COORDENADAS Y
+location:xcoordinate a owl:DataTypeProperty;
+	rdfs:comment "Y coordinate";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.	
+	
+	
+#DEFINIR LATITUD
+location:latitude a owl:DataTypeProperty;
+	rdfs:comment "Latitude";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.
+
+#DEFINIR LONGITUD
+location:longitude a owl:DataTypeProperty;
+	rdfs:comment "Longitude";
+	rdfs:domain classes:Location;
+	rdfs:range rdfs:Literal.	
+	
+###############################################OBJECT PROPERTY##############################################################
+
+# DEFINIMOS OBJECTPROPERTY PARA RELACIONAR LA LOCALIZACION CON SPACE
+space:hasLocation a owl:ObjectProperty;
+	rdfs:comment "";
+	rdfs:domain classes:Space;
+	rdfs:range owl:Location.
+
+
+
+
