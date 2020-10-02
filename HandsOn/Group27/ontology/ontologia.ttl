@@ -1,0 +1,185 @@
+@prefix : <http://api.zonasverdesmadrid.es#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://api.zonasverdesmadrid.es> .
+
+<http://api.zonasverdesmadrid.es> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://api.zonasverdesmadrid.es#hasDistrictName
+:hasDistrictName rdf:type owl:ObjectProperty ;
+                 rdfs:domain :District ;
+                 rdfs:range :DistrictName .
+
+
+###  http://api.zonasverdesmadrid.es#hasHeightAverage
+:hasHeightAverage rdf:type owl:ObjectProperty ;
+                  rdfs:domain :District ;
+                  rdfs:range :HeigthAverage .
+
+
+###  http://api.zonasverdesmadrid.es#hasId
+:hasId rdf:type owl:ObjectProperty ;
+       rdfs:domain :District ;
+       rdfs:range :Id .
+
+
+###  http://api.zonasverdesmadrid.es#hasJustPlanted
+:hasJustPlanted rdf:type owl:ObjectProperty ;
+                rdfs:domain :District ;
+                rdfs:range :JustPlanted .
+
+
+###  http://api.zonasverdesmadrid.es#hasMature
+:hasMature rdf:type owl:ObjectProperty ;
+           rdfs:domain :District ;
+           rdfs:range :Mature .
+
+
+###  http://api.zonasverdesmadrid.es#hasOld
+:hasOld rdf:type owl:ObjectProperty ;
+        rdfs:domain :District ;
+        rdfs:range :Old .
+
+
+###  http://api.zonasverdesmadrid.es#hasOther
+:hasOther rdf:type owl:ObjectProperty ;
+          rdfs:domain :District ;
+          rdfs:range :Other .
+
+
+###  http://api.zonasverdesmadrid.es#hasPark
+:hasPark rdf:type owl:ObjectProperty ;
+         rdfs:domain :District ;
+         rdfs:range :Park .
+
+
+###  http://api.zonasverdesmadrid.es#hasParkName
+:hasParkName rdf:type owl:ObjectProperty ;
+             rdfs:domain :Park ;
+             rdfs:range :ParkName .
+
+
+###  http://api.zonasverdesmadrid.es#hasPerimeterAverage
+:hasPerimeterAverage rdf:type owl:ObjectProperty ;
+                     rdfs:domain :District ;
+                     rdfs:range :PerimeterAverage .
+
+
+###  http://api.zonasverdesmadrid.es#hasSpecies
+:hasSpecies rdf:type owl:ObjectProperty ;
+            rdfs:domain :Park ;
+            rdfs:range :Species .
+
+
+###  http://api.zonasverdesmadrid.es#hasSpeciesName
+:hasSpeciesName rdf:type owl:ObjectProperty ;
+                rdfs:domain :Species ;
+                rdfs:range :SpeciesName .
+
+
+###  http://api.zonasverdesmadrid.es#hasTotal
+:hasTotal rdf:type owl:ObjectProperty ;
+          rdfs:domain :District ;
+          rdfs:range :Total .
+
+
+###  http://api.zonasverdesmadrid.es#hasUnits
+:hasUnits rdf:type owl:ObjectProperty ;
+          rdfs:domain :Species ;
+          rdfs:range :Units .
+
+
+###  http://api.zonasverdesmadrid.es#hasYoung
+:hasYoung rdf:type owl:ObjectProperty ;
+          rdfs:domain :District ;
+          rdfs:range :Young .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://api.zonasverdesmadrid.es#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :District ,
+                  :Park ,
+                  :Species ;
+      rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://api.zonasverdesmadrid.es#District
+:District rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#DistrictName
+:DistrictName rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#HeigthAverage
+:HeigthAverage rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Id
+:Id rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#JustPlanted
+:JustPlanted rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Mature
+:Mature rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Old
+:Old rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Other
+:Other rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Park
+:Park rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#ParkName
+:ParkName rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#PerimeterAverage
+:PerimeterAverage rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Species
+:Species rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#SpeciesName
+:SpeciesName rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Total
+:Total rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Units
+:Units rdf:type owl:Class .
+
+
+###  http://api.zonasverdesmadrid.es#Young
+:Young rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
