@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> 
+            Analisis
+        </title>
+    </head>
+
+    
+    <body style="font-family: 'Century Gothic'">
+        <h1 style="background-color: powderblue">
+            Análisis de los datos
+        </h1>
+
+        <h2> Licencia <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD"> (Link a más información) </a></h2>
+        <p>
+            &bull; Las condiciones generales de la licencia permiten la reutilización de los documentos para fines comerciales y no comerciales.
+        </p>
+        <p>
+            &bull; El propietario de los datos (El Ayuntamiento de Madrid) no será responsable del uso que de su información hagan las personas y/o empresas que reutilicen datos, ni tampoco de los daños sufridos o pérdidas económicas que, de forma directa o indirecta, produzcan o puedan producir perjuicios económicos, materiales o sobre datos, provocados por el uso de la información reutilizada.
+        </p>
+
+        <h2> Análisis realizado </h2>
+        <p>
+            &#9658; Origen de los datos &rarr; Ayuntamiento de Madrid <a href="https://datos.madrid.es/portal/site/egob"> (Link al portal de datos abiertos) </a>
+        </p>
+        <p>
+            &#9658; Nombre del fichero .csv a emplear &rarr; Contenedores_varios.csv
+        </p>
+        <p>
+            &#9658; Tabla con las columnas del CSV
+        </p>
+
+        <table >
+            <tr style="background-color:rgb(205, 227, 230)">
+              <th>Columna</th>
+              <th>Tipo de variable</th>
+              <th>Descripción</th>
+            </tr>
+            <tr>
+              <td>Código interno</td>
+              <td>int</td>
+              <td>Código de identificación del contenedor</td>
+            </tr>
+            <tr>
+              <td>Tipo</td>
+              <td>string</td>
+              <td>Tipo del residuo (vidrio, papel, orgánico...)</td>
+            </tr>
+            <tr>
+              <td>Descripción Modelo</td>
+              <td>string</td>
+              <td>Modelo del contenedor</td>
+            </tr>
+            <tr>
+              <td>Cantidad</td>
+              <td>int</td>
+              <td>Número de contenedores en el situado</td>
+            </tr>
+            <tr>
+              <td>Lote</td>
+              <td>int</td>
+              <td>Lote al que pertenece (LOTES 1,2 o 3)</td>
+            </tr>
+            <tr>
+              <td>Distrito</td>
+              <td>string</td>
+              <td>Distrito en el que se encuentra</td>
+            </tr>
+            <tr>
+              <td>Barrio</td>
+              <td>string</td>
+              <td>Barrio en el que se encuentra</td>
+            </tr>
+            <tr>
+              <td>Tipo vía</td>
+              <td>string</td>
+              <td>Clase de vía (calle, plaza, etc.)</td>
+            </tr>
+            <tr>
+              <td>Nombre</td>
+              <td>string</td>
+              <td>Denamonación de la vía</td>
+            </tr>
+            <tr>
+              <td>Número</td>
+              <td>int</td>
+              <td>Número de la vía</td>
+            </tr>
+            <tr>
+              <td>Coordenada X</td>
+              <td>float</td>
+              <td>Situación del objeto en su coordenada X en medida UTM (en centímetros).</td>
+            </tr>
+            <tr>
+              <td>Coordenada Y</td>
+              <td>float</td>
+              <td>Situación del objeto en su coordenada Y en medida UTM (en centímetros).</td>
+            </tr>
+            <tr>
+              <td>Latitud</td>
+              <td>float</td>
+              <td>Latitud del objeto</td>
+            </tr>
+            <tr>
+              <td>Longitud</td>
+              <td>float</td>
+              <td>Longitud del objeto</td>
+            </tr>
+            <tr>
+              <td>Dirección</td>
+              <td>string</td>
+              <td>Los campos tipo vía, nombre y número en uno solo</td>
+            </tr>
+        </table>
+
+        <h2> Nombre de los recursos </h2>
+        <p>
+            &#9658; Dominio: <a href="http://contenedoresdemadrid.com/"> http://contenedoresdemadrid.com/ </a>
+        </p>
+        <p>
+            &#9658; Términos de clase: <a href="http://contenedoresdemadrid.com/Classes#"> http://contenedoresdemadrid.com/Classes# </a>
+        </p>
+        <p>
+            &#9658; Propiedades: <a href="http://contenedoresdemadrid.com/Properties#"> http://contenedoresdemadrid.com/Properties# </a>
+        </p>
+        <p>
+            &#9658; Términos individuales: <a href="http://contenedoresdemadrid.com/IndTerms#"> http://contenedoresdemadrid.com/IndTerms# </a>
+        </p>
+        <p>
+            &#9658; Patrón individual: <a href="http://contenedoresdemadrid.com/IndTerms#/'type'/'name'#"> http://contenedoresdemadrid.com/IndTerms#/'type'/'name'# </a>
+        </p>
+        
+
+    </body>
+
+
+    <style>
+        h1 {
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 200%;
+            text-align: center;
+            }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+    </style>
+
+</html>
