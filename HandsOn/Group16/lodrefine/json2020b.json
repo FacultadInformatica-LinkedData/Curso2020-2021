@@ -1109,4 +1109,23 @@
     "newColumnName": "PUNTO_MUESTREO",
     "description": "Rename column p to PUNTO_MUESTREO"
   }
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ESTACION",
+    "expression": "join ([coalesce(cells['ESTACION'].value,''),coalesce(cells['MAGNITUD'].value,''),coalesce(cells['PUNTO_MUESTREO'].value,''),coalesce(cells['ANO'].value,''),coalesce(cells['MES'].value,''),coalesce(cells['DIA'].value,'')],'_')",
+    "onError": "keep-original",
+    "newColumnName": "ID",
+    "columnInsertIndex": 1,
+    "description": "Create column ID at index 1 based on column ESTACION using expression join ([coalesce(cells['ESTACION'].value,''),coalesce(cells['MAGNITUD'].value,''),coalesce(cells['PUNTO_MUESTREO'].value,''),coalesce(cells['ANO'].value,''),coalesce(cells['MES'].value,''),coalesce(cells['DIA'].value,'')],'_')"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "ID",
+    "index": 0,
+    "description": "Move column ID to position 0"
+  }
 ]
