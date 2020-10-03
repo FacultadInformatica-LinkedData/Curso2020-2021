@@ -1,0 +1,127 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Distrito",
+    "expression": "grel:value[1,2]",
+    "onError": "set-to-blank",
+    "newColumnName": "Numero Districto",
+    "columnInsertIndex": 5,
+    "description": "Create column Numero Districto at index 5 based on column Distrito using expression grel:value[1,2]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "expression": "grel:value.substring(4)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distrito using expression grel:value.substring(4)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Barrio",
+    "expression": "grel:value[1,5]",
+    "onError": "set-to-blank",
+    "newColumnName": "Numero Barrio",
+    "columnInsertIndex": 7,
+    "description": "Create column Numero Barrio at index 7 based on column Barrio using expression grel:value[1,5]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "expression": "grel:value.substring(6)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Barrio using expression grel:value.substring(6)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Direccion",
+    "description": "Remove column Direccion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tipo de Reserva",
+    "description": "Remove column Tipo de Reserva"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Calle",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ", ",
+    "regex": false,
+    "maxColumns": 3,
+    "description": "Split column Calle by separator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Calle 2",
+    "expression": "join ([coalesce(cells['Calle 2'].value,' '),coalesce(cells['Calle 3'].value,' ')],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Calle 2 using expression join ([coalesce(cells['Calle 2'].value,' '),coalesce(cells['Calle 3'].value,' ')],' ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Calle 3",
+    "description": "Remove column Calle 3"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Calle 2",
+    "expression": "join ([coalesce(cells['Calle 2'].value,' '),coalesce(cells['Calle 1'].value,' ')],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Calle 2 using expression join ([coalesce(cells['Calle 2'].value,' '),coalesce(cells['Calle 1'].value,' ')],' ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Calle 1",
+    "description": "Remove column Calle 1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Calle 2",
+    "newColumnName": "Calle",
+    "description": "Rename column Calle 2 to Calle"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nº Finca",
+    "newColumnName": "Nº Calle",
+    "description": "Rename column Nº Finca to Nº Calle"
+  }
+]
