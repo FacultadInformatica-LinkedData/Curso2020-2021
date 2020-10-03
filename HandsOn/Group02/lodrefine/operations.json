@@ -1,0 +1,1976 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUM",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUM using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADA-X",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADA-X using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADA-Y",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADA-Y using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PK",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PK using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "GENERAL YAG&amp;Uuml;E"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GENERAL YAGÜE"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "DESCRIPCION",
+          "columnName": "DESCRIPCION",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DESCRIPCION",
+    "expression": "grel:substring(value,indexOf(value,\"Abierto\"),indexOf(value,\"ora\"))",
+    "onError": "set-to-blank",
+    "newColumnName": "HORARIO 24/7",
+    "columnInsertIndex": 7,
+    "description": "Create column HORARIO 24/7 at index 7 based on column DESCRIPCION using expression grel:substring(value,indexOf(value,\"Abierto\"),indexOf(value,\"ora\"))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "DESCRIPCION",
+          "columnName": "DESCRIPCION",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "DESCRIPCION",
+          "columnName": "DESCRIPCION",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOCALIDAD",
+    "expression": "grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LOCALIDAD using expression grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "DESCRIPCION",
+          "columnName": "DESCRIPCION",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCIA",
+    "expression": "grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PROVINCIA using expression grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "DESCRIPCION",
+          "columnName": "DESCRIPCION",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BARRIO using expression grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "DESCRIPCION",
+          "columnName": "DESCRIPCION",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DISTRITO using expression grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ESPA&amp;Ntilde;A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ESPAÑA"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE-VIA using expression grel:replace(value,substring(value,1,end),toLowercase(substring(value,1,end)))"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Barcelo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Barceló"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Barceló"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Barcelo"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TRANSPORTE",
+    "description": "Remove column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Amparo usera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amparo Usera"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Antonia merce"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Antonia Merce"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Antonia Merce"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Antonia Mercé"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Capitan haya"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Capitan Haya"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Capitan salazar martinez"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Capitan Salazar Martinez"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carlos y guillermo fernandez shaw"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carlos y Guillermo Fernández Shaw"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ciudad de barcelona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ciudad de Barcelona"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Condesa de gavia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Condesa de Gavia"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Corazon de maria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Corazón de María"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Diego de leon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Diego de León"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Felipe iii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Felipe III"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Garcia molinas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Garcia Molinas"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "General yagüe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "General Yagüe"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jacinto benavente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jacinto Benavente"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jorge juan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jorge Juan"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jose ortega y gasset"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "José Ortega y Gasset"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Juan bravo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Juan Bravo"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Las cortes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Las Cortes"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marques de la ensenada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marques de la Ensenada"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marques de salamanca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marques de Salamanca"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marques de urquijo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marques de Urquijo"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marques de la Ensenada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marqués de la Ensenada"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marques de Salamanca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marqués de Salamanca"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Marques de Urquijo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marqués de Urquijo"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Miguel yuste"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miguel Yuste"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pedro zerolo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pedro Zerolo"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Perez de victoria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pérez de Victoria"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pradena del rincon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pradena del Rincón"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Presidente carmona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Presidente Carmona"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Principe de vergara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Príncipe de Vergara"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Republica dominicana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Republica Dominicana"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Republica Dominicana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "República Dominicana"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Reyes magos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Reyes Magos"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "San cayetano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "San Cayetano"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sanchez bustillo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sánchez Bustillo"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Santa ana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Santa Ana"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Santa maria soledad torres acosta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Santa María Soledad Torres Acosta"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sor angela de la cruz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sor Angela de la Cruz"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Verdaguer y garcia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Verdaguer y García"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "EQUIPAMIENTO",
+    "description": "Remove column EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACCESIBILIDAD",
+    "description": "Remove column ACCESIBILIDAD"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "grel:substring(value,indexOf(value,\"Plazas:\"),indexOf(value,\" r\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPCION using expression grel:substring(value,indexOf(value,\"Plazas:\"),indexOf(value,\" r\"))"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Plazas: 318 públicas y 298 para"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plazas: 318 públicas y 298 para residentes"
+      }
+    ],
+    "description": "Mass edit cells in column DESCRIPCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Plazas: 269 públicas y 392 para"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plazas: 269 públicas y 392 para residentes"
+      }
+    ],
+    "description": "Mass edit cells in column DESCRIPCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Plazas: 379 públicas y 794 para"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plazas: 379 públicas y 794 para residentes"
+      }
+    ],
+    "description": "Mass edit cells in column DESCRIPCION"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DESCRIPCION",
+    "expression": "grel:substring(value,indexOf(value,\": \") + 1,lastIndexOf(value,\"pú\"))",
+    "onError": "set-to-blank",
+    "newColumnName": "Plazas públicas",
+    "columnInsertIndex": 5,
+    "description": "Create column Plazas públicas at index 5 based on column DESCRIPCION using expression grel:substring(value,indexOf(value,\": \") + 1,lastIndexOf(value,\"pú\"))"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DESCRIPCION",
+    "expression": "grel:substring(value,indexOf(value,\"y\") + 1,indexOf(value,\"para\"))",
+    "onError": "set-to-blank",
+    "newColumnName": "Plazas para residentes",
+    "columnInsertIndex": 5,
+    "description": "Create column Plazas para residentes at index 5 based on column DESCRIPCION using expression grel:substring(value,indexOf(value,\"y\") + 1,indexOf(value,\"para\"))"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Plazas públicas",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " 130 rotacionales y 145 para residente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Plazas públicas"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Plazas públicas",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Plazas públicas using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Plazas para residentes",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Plazas para residentes using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Plazas públicas",
+    "expression": "grel:value + cells[\"Plazas para residentes\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "Plazas Totales",
+    "columnInsertIndex": 7,
+    "description": "Create column Plazas Totales at index 7 based on column Plazas públicas using expression grel:value + cells[\"Plazas para residentes\"].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESCRIPCION",
+    "description": "Remove column DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "description": "Remove column DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO-NUM",
+    "description": "Remove column TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ORIENTACION",
+    "description": "Remove column ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "HORARIO",
+    "description": "Remove column HORARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PLANTA",
+    "description": "Remove column PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUERTA",
+    "description": "Remove column PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ESCALERAS",
+    "description": "Remove column ESCALERAS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ciudad jardin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ciudad Jardín"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Niño jesus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Niño Jesús"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nueva españa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nueva España"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "San pascual"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "San Pascual"
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ciudad lineal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ciudad Lineal"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chamberi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chamberí"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chamartin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chamartín"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moncloa-aravaca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moncloa-Aravaca"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "San blas-canillejas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "San Blas-Canillejas"
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO",
+    "description": "Remove column TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FAX",
+    "description": "Remove column FAX"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "CONTENT-URL",
+    "index": 20,
+    "description": "Move column CONTENT-URL to position 20"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "HORARIO 24/7",
+    "newColumnName": "Schedule",
+    "description": "Rename column HORARIO 24/7 to Schedule"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "CLASE-VIAL",
+    "index": 0,
+    "description": "Move column CLASE-VIAL to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "CLASE-VIAL",
+    "index": 1,
+    "description": "Move column CLASE-VIAL to position 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "CLASE-VIAL",
+    "index": 2,
+    "description": "Move column CLASE-VIAL to position 2"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NOMBRE-VIA",
+    "index": 0,
+    "description": "Move column NOMBRE-VIA to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NOMBRE-VIA",
+    "index": 1,
+    "description": "Move column NOMBRE-VIA to position 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NOMBRE-VIA",
+    "index": 2,
+    "description": "Move column NOMBRE-VIA to position 2"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NOMBRE-VIA",
+    "index": 3,
+    "description": "Move column NOMBRE-VIA to position 3"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NUM",
+    "index": 7,
+    "description": "Move column NUM to position 7"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NUM",
+    "index": 6,
+    "description": "Move column NUM to position 6"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NUM",
+    "index": 5,
+    "description": "Move column NUM to position 5"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NUM",
+    "index": 4,
+    "description": "Move column NUM to position 4"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Plazas públicas",
+    "index": 5,
+    "description": "Move column Plazas públicas to position 5"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PK",
+    "newColumnName": "Id",
+    "description": "Rename column PK to Id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE",
+    "newColumnName": "Name",
+    "description": "Rename column NOMBRE to Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CLASE-VIAL",
+    "newColumnName": "Street Type",
+    "description": "Rename column CLASE-VIAL to Street Type"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE-VIA",
+    "newColumnName": "Street Name",
+    "description": "Rename column NOMBRE-VIA to Street Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NUM",
+    "newColumnName": "Number",
+    "description": "Rename column NUM to Number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Plazas públicas",
+    "newColumnName": "Public Slots",
+    "description": "Rename column Plazas públicas to Public Slots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Plazas para residentes",
+    "newColumnName": "Residential Slots",
+    "description": "Rename column Plazas para residentes to Residential Slots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Plazas Totales",
+    "newColumnName": "Total Slots",
+    "description": "Rename column Plazas Totales to Total Slots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LOCALIDAD",
+    "newColumnName": "Locality",
+    "description": "Rename column LOCALIDAD to Locality"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PROVINCIA",
+    "newColumnName": "Province",
+    "description": "Rename column PROVINCIA to Province"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO-POSTAL",
+    "newColumnName": "Postal Code",
+    "description": "Rename column CODIGO-POSTAL to Postal Code"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BARRIO",
+    "newColumnName": "Neighborhood",
+    "description": "Rename column BARRIO to Neighborhood"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "District",
+    "description": "Rename column DISTRITO to District"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADA-X",
+    "newColumnName": "CoordX",
+    "description": "Rename column COORDENADA-X to CoordX"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADA-Y",
+    "newColumnName": "CoordY",
+    "description": "Rename column COORDENADA-Y to CoordY"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LATITUD",
+    "newColumnName": "Latitude",
+    "description": "Rename column LATITUD to Latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD",
+    "newColumnName": "Longitude",
+    "description": "Rename column LONGITUD to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TELEFONO",
+    "newColumnName": "Telephone",
+    "description": "Rename column TELEFONO to Telephone"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EMAIL",
+    "newColumnName": "Email",
+    "description": "Rename column EMAIL to Email"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CONTENT-URL",
+    "newColumnName": "URLMoreInfo",
+    "description": "Rename column CONTENT-URL to URLMoreInfo"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Id",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Id using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Name using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street Type",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Street Type using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street Name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Street Name using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Public Slots",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Public Slots using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Residential Slots",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Residential Slots using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Total Slots",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Total Slots using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Schedule",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Schedule using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Locality",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Locality using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Province",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Province using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Postal Code",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Postal Code using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Neighborhood",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Neighborhood using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column District using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CoordX",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CoordX using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CoordY",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CoordY using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitude",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Telephone",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Telephone using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Email",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Email using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URLMoreInfo",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URLMoreInfo using expression value.trim()"
+  }
+]
