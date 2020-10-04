@@ -58,6 +58,12 @@ dbo:sex rdf:type owl:DatatypeProperty ;
         rdfs:comment "Gender of the person who suffered the accident" .
 
 
+###  http://linkeddata.es/group09/ontology/#TrafficAccident#hourInterval
+<http://linkeddata.es/group09/ontology/#TrafficAccident#hourInterval> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:domain <http://linkeddata.es/group09/TrafficAccident#Time> ;
+                                                                      rdfs:range xsd:string .
+
+
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#ageRange
 <http://linkeddata.es/group09/ontology/TrafficAccident#ageRange> rdf:type owl:DatatypeProperty ;
                                                                  rdfs:domain dbo:Person ;
