@@ -2,7 +2,8 @@
 
 ##Checklist##
 
-**The “analysis.md” file:**
+
+**The “analysis.html” file:**
 
 - [ ] Includes the potential license of the dataset to be generated
 - [ ] Includes the resource naming strategy
@@ -12,13 +13,14 @@
 - [ ] Uses a domain that is not the one given by default in Protégé
 - [ ] Uses different paths for ontology resources (i.e., classes and properties) and individuals
 - [ ] Ensures that the paths for individuals of different classes are not the same
-- [ ] Defines property URIs independently of class URIs
+
+- [ ] Defines individual URIs independently of class URIs
 
 **The ontology file:**
 
-- [ ] Uses the .ttlextension
+- [ ] Uses the .ttl extension
 - [ ] Is serialized in the Turtle format
-- [ ] Follows theresource naming strategy
+- [ ] Follows the resource naming strategy
 - [ ] Contains at least one class
 - [ ] Contains at least one object property (where the value of the property is a resource)
 - [ ] Contains at least one datatype property (where the value of the property is a string literal, usually typed)
