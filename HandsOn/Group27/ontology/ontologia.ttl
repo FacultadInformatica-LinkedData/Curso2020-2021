@@ -106,82 +106,12 @@
 #    Data properties
 #################################################################
 
-###  http://api.zonasverdesmadrid.es#districtName
-:districtName rdf:type owl:DatatypeProperty ;
-              rdfs:domain :District ;
-              rdfs:range xsd:string .
-
-
-###  http://api.zonasverdesmadrid.es#heightAverage
-:heightAverage rdf:type owl:DatatypeProperty ;
-               rdfs:domain :District ;
-               rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#id
-:id rdf:type owl:DatatypeProperty ;
-    rdfs:domain :District ;
-    rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#justPlanted
-:justPlanted rdf:type owl:DatatypeProperty ;
-             rdfs:domain :District ;
-             rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#mature
-:mature rdf:type owl:DatatypeProperty ;
-        rdfs:domain :District ;
-        rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#old
-:old rdf:type owl:DatatypeProperty ;
-     rdfs:domain :District ;
-     rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#other
-:other rdf:type owl:DatatypeProperty ;
-       rdfs:domain :District ;
-       rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#parkName
-:parkName rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Park ;
-          rdfs:range xsd:string .
-
-
-###  http://api.zonasverdesmadrid.es#perimeterAverage
-:perimeterAverage rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :District ;
-                  rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#speciesName
-:speciesName rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Species ;
-             rdfs:range xsd:string .
-
-
-###  http://api.zonasverdesmadrid.es#total
-:total rdf:type owl:DatatypeProperty ;
-       rdfs:domain :District ;
-       rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#units
-:units rdf:type owl:DatatypeProperty ;
-       rdfs:domain :Species ;
-       rdfs:range xsd:integer .
-
-
-###  http://api.zonasverdesmadrid.es#young
-:young rdf:type owl:DatatypeProperty ;
-       rdfs:domain :District ;
-       rdfs:range xsd:integer .
+###  http://api.zonasverdesmadrid.es#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :District ,
+                  :Park ,
+                  :Species ;
+      rdfs:range xsd:string .
 
 
 #################################################################

@@ -1,0 +1,77 @@
+@base <http://www.example.org/CastillaLaMancha#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix bib: <http://www.example.org/CastillaLaMancha#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs: <rdfs="http://www.w3.org/2000/01/rdf-schema#>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+
+@vocab vil <http://dbpedia.org/ontology/Town>
+@vocab lib <https://schema.org/Library>
+
+owl:Ontology 		rdfs:comment "An OWL ontology about libraries"^^xsd:string;
+					rdfs:label   "Library Ontology"^^xsd:string.
+
+
+owl:Class  			rdf:ID="Library".
+owl:Class  			rdf:ID="Province".
+owl:Class  			rdf:ID="Town".
+owl:Class  			rdf:ID="Telephone".
+owl:Class  			rdf:ID="Nidem code".
+owl:Class  			rdf:ID="Library code".
+owl:Class  			rdf:ID="Email".
+owl:Class  			rdf:ID="Address".
+owl:Class  			rdf:ID="ZIP code".
+owl:Class  			rdf:ID="Name".
+
+owl:ObjectProperty	rdf:ID="hasTelephone";
+					rdfs:domain 	rdf:resource="Library";
+					rdfs:range 		rdf:resource="Telephone".
+
+owl:ObjectProperty	rdf:ID="hasCode";
+					rdfs:domain 	rdf:resource="Library";
+					rdfs:range 		rdf:resource="Library code".
+
+owl:ObjectProperty	rdf:ID="hasEmail";
+					rdfs:domain 	rdf:resource="Library";
+					rdfs:range 		rdf:resource="Email".
+
+owl:ObjectProperty	rdf:ID="locatedIn";
+					rdfs:domain 	rdf:resource="Library";
+					rdfs:range 		rdf:resource="Address".
+
+owl:ObjectProperty	rdf:ID="belongsTo";
+					rdfs:domain 	rdf:resource="Address";
+					rdfs:range 		rdf:resource="Town".
+
+owl:ObjectProperty	rdf:ID="hasZIPcode";
+					rdfs:domain 	rdf:resource="Town";
+					rdfs:range 		rdf:resource="ZIP code".
+
+owl:ObjectProperty	rdf:ID="partOf";
+					rdfs:domain 	rdf:resource="Town";
+					rdfs:range 		rdf:resource="Province".
+
+owl:ObjectProperty	rdf:ID="hasNidem";
+					rdfs:domain 	rdf:resource="Library";
+					rdfs:range 		rdf:resource="Nidem code".
+
+
+owl:DatatypeProperty 	rdf:ID="hasName";
+						rdfs:domain 	rdf:resource="#Library";
+						rdfs:range 		rdf:resource="&xsd;string"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
