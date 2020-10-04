@@ -1,0 +1,44 @@
+{	
+	"@context":{
+		"vocab":"http://example.com/semweb/",
+		"name":"vocab:name",
+		"hometown":"vocab:hometown",
+		"age":"vocab:age",
+		"almaMater":"vocab:almaMater",
+		"parentsName":"vocab:parentsName",
+		"subjects":"vocab:subjects",
+		"name":"subjects:name",
+		"teachers":"subjects:teachers",
+		"description":"subjects:description"
+	},
+	"@id":" http://example.com/semweb/people/",
+	"@type":"vocab:people",
+	"name":"Manuel Mazarro Vicente",
+	"homeTown":"Puertollano",
+	"age":"22",
+	"almaMater":"UPM",
+	"parentsName": ["Manuel","Encarnacion"],
+	"subjets":
+	[
+		{
+            "subject":"Semantic Web and Linked data",
+            "teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+            "description":"Proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos de la Web de datos enlazados"
+		},
+        {
+            "subject":"Ingenieria del Sofware II",
+            "teachers":["Jose Antonio Calvo Manzano","Tomas San Feliu Gilabert","Ana Maria Moreno Sanchez-Capuchino"],
+            "description":"La asignatura de Ingeniería del Software II trata de aplicar los aspectos de gestión al desarrollo software. La asignatura se basa en el desarrollo de un proyecto software."
+        },
+        {
+            "subject":"Nanotecnologia",
+			"teachers":["Estibaliz Martinez Izquierdo","Mercedes Perez Castellanos"],
+			"description":"En esta asignatura se pretende dar al alumno una introduccion sobre las diferentes investigaciones y aplicaciones que existen actualmente sobre la Nanotecnología."
+        },
+        {
+			"subject":"GPTI",
+			"teachers":["Edmundo Tovar Caro","Oscar Dieste Tubio","Jose Ramon Sanchez Palomares","Maria Pilar RodriguezGonzalez"],
+			"description":"En  esta  asignatura  se  tratan  los  elementos  de  una  organización,  la  gestión  por  procesos,  y  modelos  de  calidadaplicados a organizaciones de TI"
+		}
+	]
+}
