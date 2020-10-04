@@ -1,0 +1,67 @@
+{
+    "@context":{
+        "web":"http://example.org/",
+        "elems":"web:elements",
+        "xsd":"http://www.w3.org/2000/01/rdf-schema#",
+        "Class01":"elems:Class01",
+        "Sensor029":"Class01:Sensor029",
+        "Computer101":"Class01:Computer101",
+        "Measurement8401":"Sensor029:Measurement8401",
+        "User10A":"Computer101:User10A",
+        "hasName":"web:name",
+        "hasMeasurement":"web:hasMeasurement",
+        "hasTemperature":"web:hasTemperature",
+        "includes":"web:includes",
+        "atTime":"web:atTime",
+        "hasOwner":"web:hasOwner"
+    },
+    "Class01":{
+        "@id":"http://example.org/elements/Class01",
+        "@type":"elems:Class01",
+        "includes": [
+            {
+                "@id": "http://example.org/elements/Class01",
+                "@type": "elems:Class01",
+                "includes": [
+                    {
+                    "@id": "http://example.org/elements/Class01/Sensor029"
+                    },
+                    {
+                    "@id": "http://example.org/elements/Class01/Computer101"
+                    }
+                ]
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Sensor029",
+                "@type": "elems:Class01/Sensor029",
+                "hasMeasurement": {
+                    "@id": "elems:Class01/Sensor029/Measurement8401"
+                }
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Sensor029/Measurement8401",
+                "@type": "elems:Class01/Sensor029/Measurement8401",
+                "temperature": 29,
+                "atTime": {
+                    "@value": "2010-06-12T12:00:12",
+                    "@type": "xsd:dateTime"
+                }
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Computer101",
+                "@type": "elems:Class01/Computer101",
+                "hasOwner": {
+                    "@id": "elems:Class01/Computer101/User10A"
+                }
+                },
+                {
+                "@id": "http://example.org/elements/Class01/Computer101/User10A",
+                "@type": "elems:Class01/Computer101/User10A",
+                "name": {
+                    "@type": "xsd:string",
+                    "@value": "Pedro"
+                }
+            }
+        ]
+    } 
+}
