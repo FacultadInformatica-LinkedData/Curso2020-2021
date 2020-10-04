@@ -1,0 +1,53 @@
+# Query 1:
+
+select distinct ?p
+where
+{
+ ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+ ?politician ?p ?x .
+} 
+LIMIT 100
+
+# Query 2:
+
+select distinct ?p
+where
+{
+ ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+ filter (?p != rdf:type)
+ ?politician ?p ?x .
+} 
+LIMIT 100
+
+# Query 3:
+
+select ?x
+where
+{
+ ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+ filter (?p != rdf:type)
+ ?politician ?p ?x .
+} 
+LIMIT 100
+
+# Query 4:
+
+select distinct ?x
+where
+{
+ ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+ filter (?p != rdf:type)
+ ?politician ?p ?x .
+} 
+LIMIT 100
+
+# Query 5:
+
+select distinct ?p count(?x)
+where
+{
+ ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+ ?politician ?p ?x .
+ filter (?p != rdf:type)
+} 
+LIMIT 100
