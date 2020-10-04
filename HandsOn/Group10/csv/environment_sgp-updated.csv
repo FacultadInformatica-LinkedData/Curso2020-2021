@@ -1,5 +1,4 @@
 Country Name,Country ISO3,Year,Indicator Name,Indicator Code,Value
-#country+name,#country+code,#date+year,#indicator+name,#indicator+code,#indicator+value+num
 Singapore,SGP,2016,Agricultural land (% of land area),AG.LND.AGRI.ZS,0.930888592414402
 Singapore,SGP,2015,Agricultural land (% of land area),AG.LND.AGRI.ZS,0.930888592414402
 Singapore,SGP,2014,Agricultural land (% of land area),AG.LND.AGRI.ZS,0.930888592414402
