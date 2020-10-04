@@ -1,0 +1,66 @@
+@base <https://www.eletricrechargemadrid.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix properties: <http://www.eletricrechargemadrid.com/properties#> .
+@prefix classes: <https://www.eletricrechargemadrid.com/classes#> .
+@prefix individuals: <https://www.eletricrechargemadrid.com/individuals#> .
+
+# Ontology
+<https://www.eletricrechargemadrid.com/> rdf:type owl:Ontology .
+
+# Classes
+classes:Punto_recarga rdf:type owl:Class .
+classes:Ubicacion rdf:type owl:Class .
+
+# Data Properties
+properties:distrito rdf:type owl:DatatypeProperty ;
+		    rdfs:domain classes:Punto_recarga ;
+                    rdfs:range xsd:string .
+
+properties:edificio rdf:type owl:DatatypeProperty ;
+		    rdfs:domain classes:Punto_recarga ;
+		    rdfs:range xsd:string .
+
+properties:nombre_calle rdf:type owl:DatatypeProperty ;
+                    	rdfs:domain classes:Ubicacion ;
+                    	rdfs:range xsd:string .
+
+properties:numero_calle rdf:type owl:DatatypeProperty ;
+			rdfs:domain classes:Ubicacion ;
+			rdfs:range xsd:integer .
+
+properties:coordenada_y rdf:type owl:DatatypeProperty ;
+                    	rdfs:domain classes:Ubicacion ;
+                    	rdfs:range xsd:float .
+
+properties:coordenada_x rdf:type owl:DatatypeProperty ;
+                    	rdfs:domain classes:Ubicacion ;
+                    	rdfs:range xsd:float .
+
+properties:terminales rdf:type owl:DatatypeProperty ;
+		      rdfs:domain classes:Punto_recarga ;
+		      rdfs:range xsd:integer .
+
+properties:conectores rdf:type owl:DatatypeProperty ;
+		      rdfs:domain classes:Punto_recarga ;
+		      rdfs:range xsd:integer .
+
+properties:potencia rdf:type owl:DatatypeProperty ;
+		    rdfs:domain classes:Punto_recarga ;
+		    rdfs:range xsd:integer .
+
+properties:codigo rdf:type owl:DatatypeProperty ;
+		  rdfs:domain classes:Punto_recarga ;
+		  rdfs:range xsd:integer .
+
+properties:año_instalacion rdf:type owl:DatatypeProperty ;
+			   rdfs:domain classes:Punto_recarga ;
+			   rdfs:range xsd:integer .
+
+# Object properties
+properties:localizacion rdf:type owl:ObjectProperty ;
+                    	rdfs:domain classes:Punto_recarga ;
+                    	rdfs:range classes:Ubicacion .
+

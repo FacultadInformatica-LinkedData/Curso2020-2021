@@ -15,6 +15,10 @@
 #    Datatypes
 #################################################################
 
+###  http://www.w3.org/2001/XMLSchema#integer
+xsd:integer rdfs:comment "The integer data type is used to specify a numeric value without a fractional component" .
+
+
 ###  http://www.w3.org/2001/XMLSchema#string
 xsd:string rdfs:comment "The string data type can contain characters, line feeds, carriage returns, and tab characters" .
 
@@ -124,7 +128,7 @@ dbo:sex rdf:type owl:DatatypeProperty ;
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus
 <http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus> rdf:type owl:DatatypeProperty ;
                                                                      rdfs:domain dbo:Person ;
-                                                                     rdfs:range xsd:string ;
+                                                                     rdfs:range xsd:integer ;
                                                                      rdfs:comment "Level of damage suffered by the person in the accident. Being 0 if the person did not suffer any damage" .
 
 
