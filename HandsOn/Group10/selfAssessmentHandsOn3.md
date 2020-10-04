@@ -4,7 +4,7 @@
 
 **Every resource described in the CSV file:**
 
-- [ x] Has a unique identifier in a column (not an auto-increased integer)
+- [x] Has a unique identifier in a column (not an auto-increased integer)
 - [ x] Is related to a class in the ontology
 
 **Every class in the ontology:**
