@@ -1,6 +1,6 @@
-#Hands-on assignment 3 – Self assessment#
+# Hands-on assignment 3 – Self assessment
 
-##Checklist##
+## Checklist
 
 **Every resource described in the CSV file:**
 
@@ -21,5 +21,5 @@
 
 - [ ] Is related to a column in the CSV file
 
-##Comments on the self-assessment##
+## Comments on the self-assessment
 _(If required)_
