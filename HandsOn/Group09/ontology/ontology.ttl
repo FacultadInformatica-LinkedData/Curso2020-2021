@@ -15,6 +15,18 @@
 #    Datatypes
 #################################################################
 
+###  http://www.w3.org/2001/XMLSchema#dateTime
+xsd:dateTime rdfs:comment """The <xs:datetime> data type is used to represent date and time in YYYY-MM-DDThh:mm:ss format
+
+YYYY − represents year
+MM − represents month
+DD − represents day
+T − represents start of time section
+hh − represents hours
+mm − represents minutes
+ss − represents seconds""" .
+
+
 ###  http://www.w3.org/2001/XMLSchema#integer
 xsd:integer rdfs:comment "The integer data type is used to specify a numeric value without a fractional component" .
 
@@ -30,25 +42,29 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn
 <http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn> rdf:type owl:ObjectProperty ;
                                                                   rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> ;
-                                                                  rdfs:range <http://linkeddata.es/group09/ontology/TrafficAccident#District> .
+                                                                  rdfs:range <http://linkeddata.es/group09/ontology/TrafficAccident#District> ;
+                                                                  rdfs:comment "A Street Crossing is located in a District" .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#occursAt
 <http://linkeddata.es/group09/ontology/TrafficAccident#occursAt> rdf:type owl:ObjectProperty ;
                                                                  rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#Accident> ;
-                                                                 rdfs:range <http://linkeddata.es/group09/ontology/TrafficAccident#Time> .
+                                                                 rdfs:range <http://linkeddata.es/group09/ontology/TrafficAccident#Time> ;
+                                                                 rdfs:comment "An Accident occurs at a Time" .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#occursOn
 <http://linkeddata.es/group09/ontology/TrafficAccident#occursOn> rdf:type owl:ObjectProperty ;
                                                                  rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#Accident> ;
-                                                                 rdfs:range <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> .
+                                                                 rdfs:range <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> ;
+                                                                 rdfs:comment "An Accident occurs on a Street Crossing" .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#occursTo
 <http://linkeddata.es/group09/ontology/TrafficAccident#occursTo> rdf:type owl:ObjectProperty ;
                                                                  rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#Accident> ;
-                                                                 rdfs:range dbo:Person .
+                                                                 rdfs:range dbo:Person ;
+                                                                 rdfs:comment "An Accident occurs to a Person" .
 
 
 #################################################################
@@ -73,7 +89,7 @@ dbo:sex rdf:type owl:DatatypeProperty ;
 <http://linkeddata.es/group09/ontology/TrafficAccident#date> rdf:type owl:DatatypeProperty ;
                                                              rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#Time> ;
                                                              rdfs:range xsd:dateTime ;
-                                                             rdfs:comment "Date of an accident" .
+                                                             rdfs:comment "Date and hour of an accident" .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#districtName
@@ -108,14 +124,7 @@ dbo:sex rdf:type owl:DatatypeProperty ;
 <http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2> rdf:type owl:DatatypeProperty ;
                                                                    rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> ;
                                                                    rdfs:range xsd:string ;
-                                                                   rdfs:comment "Name of the second street of the street crossing" .
-
-
-###  http://linkeddata.es/group09/ontology/TrafficAccident#hour
-<http://linkeddata.es/group09/ontology/TrafficAccident#hour> rdf:type owl:DatatypeProperty ;
-                                                             rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#Time> ;
-                                                             rdfs:range xsd:string ;
-                                                             rdfs:comment "Hour of an accident" .
+                                                                   rdfs:comment "Name of the second street of the street crossing.  It can be empty if the accident occurs only on a street" .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#hourInterval
@@ -181,7 +190,7 @@ dbo:Person rdf:type owl:Class ;
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing
 <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> rdf:type owl:Class ;
-                                                                       rdfs:comment "Street crossing in which an accident occurs" .
+                                                                       rdfs:comment "Street crossing in which an accident occurs. It can also be just a street" .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#Time
