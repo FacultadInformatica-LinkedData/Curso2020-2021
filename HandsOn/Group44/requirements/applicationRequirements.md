@@ -1,0 +1,1 @@
+El objetivo de la aplicacion es poder comparar en el tiempo la evolucion de la calidad del aire en Madrid y estudiar que impactos ha tenido en este, eventos como la pandemia de COVID-19.

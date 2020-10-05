@@ -1,0 +1,148 @@
+@prefix : <http://practicagrupo25.es/api/datos/calidad_agua#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://practicagrupo25.es/api/datos/calidad_agua> .
+
+<http://practicagrupo25.es/api/datos/calidad_agua> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Amonio
+:Amonio rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#CloroLibre
+:CloroLibre rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Color
+:Color rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Conductividad
+:Conductividad rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Fecha
+:Fecha rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Nitritos
+:Nitritos rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Olor
+:Olor rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Oxidabilidad
+:Oxidabilidad rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Ph
+:Ph rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#PuntoMuestreo
+:PuntoMuestreo rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Sabor
+:Sabor rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#Turbidez
+:Turbidez rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#id
+:id rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#modified
+:modified rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#calidad_del_agua
+:calidad_del_agua rdf:type owl:Class ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Sabor ;
+                                    owl:someValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Amonio ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :CloroLibre ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Color ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Conductividad ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Fecha ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Nitritos ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Olor ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Oxidabilidad ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Ph ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :PuntoMuestreo ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Turbidez ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :id ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :modified ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:dateTimeStamp
+                                  ] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
