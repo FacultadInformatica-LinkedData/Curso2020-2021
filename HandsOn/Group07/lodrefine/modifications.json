@@ -1,0 +1,228 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOITINERARIO",
+    "description": "Remove column CODIGOITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MODO",
+    "description": "Remove column MODO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOGESTIONLINEA",
+    "description": "Remove column CODIGOGESTIONLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPOITINERARIO",
+    "description": "Remove column TIPOITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOPOSTE",
+    "description": "Remove column CODIGOPOSTE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOESTACION",
+    "description": "Remove column CODIGOESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOANDEN",
+    "description": "Remove column CODIGOANDEN"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NUMEROORDEN",
+    "description": "Remove column NUMEROORDEN"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDENTIFICADORTIPOPARADA",
+    "description": "Remove column IDENTIFICADORTIPOPARADA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPOPARADA",
+    "description": "Remove column TIPOPARADA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOPROVINCIA",
+    "description": "Remove column CODIGOPROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHAALTA",
+    "description": "Remove column FECHAALTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHAINICIO",
+    "description": "Remove column FECHAINICIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHAFIN",
+    "description": "Remove column FECHAFIN"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MODOLINEA",
+    "description": "Remove column MODOLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDFINTERCAMBIADOR",
+    "description": "Remove column IDFINTERCAMBIADOR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODPROV_LINEA",
+    "description": "Remove column CODPROV_LINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODMUN_LINEA",
+    "description": "Remove column CODMUN_LINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDFTRAMO",
+    "description": "Remove column IDFTRAMO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOOBSERVACION",
+    "description": "Remove column CODIGOOBSERVACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGOSUBLINEA",
+    "description": "Remove column CODIGOSUBLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DENOMINACION_SAE",
+    "description": "Remove column DENOMINACION_SAE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDFLINEA",
+    "description": "Remove column IDFLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDFITINERARIO",
+    "description": "Remove column IDFITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDFESTACION",
+    "description": "Remove column IDFESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDFPOSTE",
+    "description": "Remove column IDFPOSTE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "IDFANDEN",
+    "description": "Remove column IDFANDEN"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGOMUNICIPIO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CODIGOMUNICIPIO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MUNICIPIO",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MUNICIPIO using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUDTRAMOANTERIOR",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUDTRAMOANTERIOR using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VELOCIDADTRAMOANTERIOR",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VELOCIDADTRAMOANTERIOR using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SENTIDO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column SENTIDO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "﻿OBJECTID",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ﻿OBJECTID using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUMEROLINEAUSUARIO using expression value.toString()"
+  }
+]
