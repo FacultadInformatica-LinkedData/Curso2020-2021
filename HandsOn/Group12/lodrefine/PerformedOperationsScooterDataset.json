@@ -1,0 +1,574 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿",
+    "newColumnName": "District",
+    "description": "Rename column ﻿ to District"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PATINETES CONCEDIDOS",
+    "newColumnName": "Neighbourhood",
+    "description": "Rename column PATINETES CONCEDIDOS to Neighbourhood"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column16",
+    "description": "Remove column Column16"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column17",
+    "description": "Remove column Column17"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column",
+    "newColumnName": "ACCIONA",
+    "description": "Rename column Column to ACCIONA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column2",
+    "newColumnName": "Taxify",
+    "description": "Rename column Column2 to Taxify"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column3",
+    "newColumnName": "KOKO",
+    "description": "Rename column Column3 to KOKO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column4",
+    "newColumnName": "UFO",
+    "description": "Rename column Column4 to UFO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column5",
+    "newColumnName": "RIDECONGA",
+    "description": "Rename column Column5 to RIDECONGA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column6",
+    "newColumnName": "Flash",
+    "description": "Rename column Column6 to Flash"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Flash",
+    "newColumnName": "FLASH",
+    "description": "Rename column Flash to FLASH"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column7",
+    "newColumnName": "LIME",
+    "description": "Rename column Column7 to LIME"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column8",
+    "newColumnName": "WIND",
+    "description": "Rename column Column8 to WIND"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column9",
+    "newColumnName": "BIRD",
+    "description": "Rename column Column9 to BIRD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column10",
+    "newColumnName": "REBY RIDES",
+    "description": "Rename column Column10 to REBY RIDES"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column11",
+    "newColumnName": "MOVO",
+    "description": "Rename column Column11 to MOVO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column12",
+    "newColumnName": "MYGO",
+    "description": "Rename column Column12 to MYGO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column13",
+    "newColumnName": "JUMP UBER",
+    "description": "Rename column Column13 to JUMP UBER"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column14",
+    "newColumnName": "SJV CONSULTING",
+    "description": "Rename column Column14 to SJV CONSULTING"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column15",
+    "newColumnName": "TOTAL",
+    "description": "Rename column Column15 to TOTAL"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/row-flag",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "flagged": true,
+    "description": "Flag rows"
+  },
+  {
+    "op": "core/row-flag",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "flagged": false,
+    "description": "Unflag rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "District",
+          "expression": "value",
+          "columnName": "District",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "District",
+          "expression": "value",
+          "columnName": "District",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "DISTRITO",
+                "l": "DISTRITO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Neighbourhood",
+          "expression": "value",
+          "columnName": "Neighbourhood",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Total",
+                "l": "Total"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TOTAL",
+    "description": "Remove column TOTAL"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ACCIONA",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCIONA using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Taxify",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Taxify using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "KOKO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column KOKO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UFO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UFO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "RIDECONGA",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RIDECONGA using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FLASH",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FLASH using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LIME",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LIME using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WIND",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column WIND using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BIRD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BIRD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "REBY RIDES",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column REBY RIDES using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MOVO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MOVO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MYGO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MYGO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "JUMP UBER",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column JUMP UBER using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "SJV CONSULTING",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column SJV CONSULTING using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "SJV CONSULTING",
+          "expression": "value",
+          "columnName": "SJV CONSULTING",
+          "from": 0,
+          "to": 23,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SJV CONSULTING",
+    "expression": "grel:if(value==null,'0',value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column SJV CONSULTING using expression grel:if(value==null,'0',value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "SJV CONSULTING",
+          "expression": "value",
+          "columnName": "SJV CONSULTING",
+          "from": 0,
+          "to": 23,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SJV CONSULTING",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column SJV CONSULTING using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Neighbourhood",
+    "expression": "grel:value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Neighbourhood using expression grel:value.toUppercase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "join ([coalesce(cells['District'].value,''),coalesce(cells['Neighbourhood'].value,'')],'')",
+    "onError": "keep-original",
+    "newColumnName": "PlaceURI",
+    "columnInsertIndex": 1,
+    "description": "Create column PlaceURI at index 1 based on column District using expression join ([coalesce(cells['District'].value,''),coalesce(cells['Neighbourhood'].value,'')],'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PlaceURI",
+    "expression": "grel:value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PlaceURI using expression grel:value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "PlaceURI",
+    "index": 2,
+    "description": "Move column PlaceURI to position 2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District",
+    "expression": "join ([coalesce(cells['District'].value,''),coalesce(cells['Neighbourhood'].value,'')],' ')",
+    "onError": "keep-original",
+    "newColumnName": "Place",
+    "columnInsertIndex": 1,
+    "description": "Create column Place at index 1 based on column District using expression join ([coalesce(cells['District'].value,''),coalesce(cells['Neighbourhood'].value,'')],' ')"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Place",
+    "index": 2,
+    "description": "Move column Place to position 2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Place",
+    "expression": "grel:value.replace( value,\"AVAILABILITY \"+value)",
+    "onError": "set-to-blank",
+    "newColumnName": "Availability",
+    "columnInsertIndex": 3,
+    "description": "Create column Availability at index 3 based on column Place using expression grel:value.replace( value,\"AVAILABILITY \"+value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Availability",
+    "expression": "grel:value.replace(\" \",\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "AvailabilityURI",
+    "columnInsertIndex": 4,
+    "description": "Create column AvailabilityURI at index 4 based on column Availability using expression grel:value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "PlaceURI",
+    "index": 4,
+    "description": "Move column PlaceURI to position 4"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "PlaceURI",
+    "index": 3,
+    "description": "Move column PlaceURI to position 3"
+  }
+]

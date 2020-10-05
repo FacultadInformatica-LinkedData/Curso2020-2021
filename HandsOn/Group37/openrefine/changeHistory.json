@@ -1,0 +1,598 @@
+[
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COORD, X",
+          "expression": "facetCount(value, 'value', 'COORD, X') > 1",
+          "columnName": "COORD, X",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUE_02-02_0000000023",
+                "l": "FUE_02-02_0000000023"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COORD, X",
+          "expression": "facetCount(value, 'value', 'COORD, X') > 1",
+          "columnName": "COORD, X",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUE_02-04_0000000033",
+                "l": "FUE_02-04_0000000033"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COORD, X",
+          "expression": "facetCount(value, 'value', 'COORD, X') > 1",
+          "columnName": "COORD, X",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FB_01_000004",
+                "l": "FB_01_000004"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COORD, X",
+          "expression": "facetCount(value, 'value', 'COORD, X') > 1",
+          "columnName": "COORD, X",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUE_05-13_0000000148",
+                "l": "FUE_05-13_0000000148"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COORD, X",
+          "expression": "facetCount(value, 'value', 'COORD, X') > 1",
+          "columnName": "COORD, X",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUE_06-17_0000000046",
+                "l": "FUE_06-17_0000000046"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COORD, X",
+          "expression": "facetCount(value, 'value', 'COORD, X') > 1",
+          "columnName": "COORD, X",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUE_06-17_0000000119",
+                "l": "FUE_06-17_0000000119"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "COORD, X",
+          "expression": "facetCount(value, 'value', 'COORD, X') > 1",
+          "columnName": "COORD, X",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "CODIGO",
+          "expression": "value",
+          "columnName": "CODIGO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUE_05-19_0000000138",
+                "l": "FUE_05-19_0000000138"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "OBSERVACIONES",
+    "description": "Remove column OBSERVACIONES"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHA DATOS",
+    "description": "Remove column FECHA DATOS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SISTEMA DE COORDENADAS",
+    "description": "Remove column SISTEMA DE COORDENADAS"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORD, X",
+    "newColumnName": "coord_x",
+    "description": "Rename column COORD, X to coord_x"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO",
+    "newColumnName": "codigo",
+    "description": "Rename column CODIGO to codigo"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ZONA VERDE / \nVIA PUBLICA",
+    "newColumnName": "via_publica",
+    "description": "Rename column ZONA VERDE / \nVIA PUBLICA to via_publica"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "distrito",
+    "description": "Rename column DISTRITO to distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DIRECCION",
+    "newColumnName": "direccion",
+    "description": "Rename column DIRECCION to direccion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COMPLEMENTO DE DIRECCION",
+    "description": "Remove column COMPLEMENTO DE DIRECCION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORD, Y",
+    "newColumnName": "coord_y",
+    "description": "Rename column COORD, Y to coord_y"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTADO",
+    "newColumnName": "estado",
+    "description": "Rename column ESTADO to estado"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "estado",
+    "newColumnName": "en_funcionamiento",
+    "description": "Rename column estado to en_funcionamiento"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD",
+    "newColumnName": "longitud",
+    "description": "Rename column LONGITUD to longitud"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LATITUD",
+    "newColumnName": "latitud",
+    "description": "Rename column LATITUD to latitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "direccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Z.A. PARQUE CARAMUEL",
+          "ZA PARQUE CARAMUEL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Z.A. PARQUE CARAMUEL"
+      },
+      {
+        "from": [
+          "PARQUE AMOS ACERO",
+          "PARQUE AMÓS ACERO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PARQUE AMOS ACERO"
+      },
+      {
+        "from": [
+          "PARQUE PARAISO",
+          "PARQUE PARAÍSO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PARQUE PARAISO"
+      },
+      {
+        "from": [
+          "PARQUE SANCHO DAVILA",
+          "PARQUE SANCHO DÁVILA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PARQUE SANCHO DAVILA"
+      },
+      {
+        "from": [
+          "MADRID RIO",
+          "MADRID RÍO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MADRID RIO"
+      }
+    ],
+    "description": "Mass edit cells in column direccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "en_funcionamiento",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EN SERVICIO",
+          "En Servicio",
+          "EN SERVICIO "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TRUE"
+      },
+      {
+        "from": [
+          "FUERA DE SERVICIO",
+          "Fuera de Servicio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FALSE"
+      }
+    ],
+    "description": "Mass edit cells in column en_funcionamiento"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "longitud",
+          "expression": "grel:facetCount(value, \"value\", \"longitud\")",
+          "columnName": "longitud",
+          "from": 1.46,
+          "to": 10.02,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "longitud",
+          "expression": "value",
+          "columnName": "longitud",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Error",
+                "l": "Error"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "longitud",
+          "expression": "grel:facetCount(value, \"value\", \"longitud\")",
+          "columnName": "longitud",
+          "from": 1.46,
+          "to": 2.01,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "longitud",
+          "expression": "value",
+          "columnName": "longitud",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "-3.7585523",
+                "l": "-3.7585523"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "codigo",
+          "expression": "value",
+          "columnName": "codigo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUE_02-02_0000000025",
+                "l": "FUE_02-02_0000000025"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]

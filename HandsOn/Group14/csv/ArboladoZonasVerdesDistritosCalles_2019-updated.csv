@@ -1,0 +1,236 @@
+Nombre_distrito,N∫_Distrito,NOMBRE_ESPECIE,N∫_Unidades,URIDISTRITO,URI ESPECIE
+CENTRO,01,Ligustrum†japonicum†'variegata',300,CENTRO,LigustrumJVariegata
+CENTRO,01,Robinia pseudoacacia,320,CENTRO,RobiniaP
+CENTRO,01,Prunus cerasifera subsp. Pissartii,348,CENTRO,PrunusCPissartii
+CENTRO,01,Ulmus pumila,367,CENTRO,UlmusP
+CENTRO,01,Aesculus hippocastanum,510,CENTRO,AesculusH
+CENTRO,01,Platanus x hybrida,1367,CENTRO,PlatanusX
+CENTRO,01,Sophora japonica,1585,CENTRO,SophoraJ
+CENTRO,01,Ligustrum japonicum,2646,CENTRO,LigustrumJ
+ARGANZUELA,02,Prunus cerasifera pisardii,717,ARGANZUELA,PrunusC
+ARGANZUELA,02,Melia azedarach,1047,ARGANZUELA,MeliaA
+ARGANZUELA,02,Acer negundo,1205,ARGANZUELA,AcerN
+ARGANZUELA,02,Robinia pseudoacacia,1275,ARGANZUELA,RobiniaP
+ARGANZUELA,02,Ligustrum japonicum,1284,ARGANZUELA,LigustrumJ
+ARGANZUELA,02,Ulmus pumila,1298,ARGANZUELA,UlmusP
+ARGANZUELA,02,Pinus pinea,1371,ARGANZUELA,PinusP
+ARGANZUELA,02,Celtis australis,1434,ARGANZUELA,CeltisA
+ARGANZUELA,02,Sophora japonica,2414,ARGANZUELA,SophoraJ
+ARGANZUELA,02,Platanus x hybrida,3428,ARGANZUELA,PlatanusX
+RETIRO,03,Prunus cerasifera subsp. Pissartii,299,RETIRO,PrunusCPissartii
+RETIRO,03,Aesculus hippocastanum,303,RETIRO,AesculusH
+RETIRO,03,Liquidambar styraciflua,328,RETIRO,LiquidambarS
+RETIRO,03,Cupressus arizonica,344,RETIRO,CupressusA
+RETIRO,03,Cupressus sempervirens,418,RETIRO,CupressusS
+RETIRO,03,Celtis australis,432,RETIRO,CeltisA
+RETIRO,03,Cupressocyparis leilandii,455,RETIRO,CupressocyparisL
+RETIRO,03,Robinia pseudoacacia,487,RETIRO,RobiniaP
+RETIRO,03,Pinus pinea,892,RETIRO,PinusP
+RETIRO,03,Ligustrum japonicum,981,RETIRO,LigustrumJ
+RETIRO,03,Ulmus pumila,1948,RETIRO,UlmusP
+RETIRO,03,Sophora japonica,2297,RETIRO,SophoraJ
+RETIRO,03,Platanus x hybrida,2585,RETIRO,PlatanusX
+SALAMANCA,04,Populus†alba 'bolleana',361,SALAMANCA,PopulusABolleana
+SALAMANCA,04,Acer negundo,404,SALAMANCA,AcerN
+SALAMANCA,04,Prunus cerasifera pisardii,545,SALAMANCA,PrunusC
+SALAMANCA,04,Robinia pseudoacacia,581,SALAMANCA,RobiniaP
+SALAMANCA,04,Aesculus hippocastanum,667,SALAMANCA,AesculusH
+SALAMANCA,04,Ulmus pumila,912,SALAMANCA,UlmusP
+SALAMANCA,04,Pinus pinea,928,SALAMANCA,PinusP
+SALAMANCA,04,Ligustrum japonicum,1854,SALAMANCA,LigustrumJ
+SALAMANCA,04,Platanus x hybrida,2497,SALAMANCA,PlatanusX
+SALAMANCA,04,Sophora japonica,5921,SALAMANCA,SophoraJ
+CHAMARTIN,05,Populus†alba 'bolleana',598,CHAMARTIN,PopulusABolleana
+CHAMARTIN,05,Aesculus hippocastanum,645,CHAMART√çN,AesculusH
+CHAMARTIN,05,Melia azedarach,722,CHAMART√çN,MeliaA
+CHAMARTIN,05,Ligustrum japonicum,938,CHAMART√çN,LigustrumJ
+CHAMARTIN,05,Prunus cerasifera pisardii,971,CHAMART√çN,PrunusC
+CHAMARTIN,05,Celtis australis,1146,CHAMARTIN,CeltisA
+CHAMARTIN,05,Robinia pseudoacacia,1164,CHAMARTIN,RobiniaP
+CHAMART√çN,05,Pinus pinea,1344,CHAMARTIN,PinusP
+CHAMART√çN,05,Ulmus pumila,2611,CHAMARTIN,UlmusP
+CHAMART√çN,05,Sophora japonica,3744,CHAMARTIN,SophoraJ
+CHAMARTIN,05,Platanus x hybrida,6080,CHAMARTIN,PlatanusX
+TETUAN,06,Cupressus sempervirens,423,TETUAN,CupressusS
+TETUAN,06,Celtis australis,455,TETUAN,CeltisA
+TETUAN,06,Aesculus hippocastanum,466,TETUAN,AesculusH
+TETUAN,06,Melia azedarach,507,TETUAN,MeliaA
+TETUAN,06,Sophora japonica,522,TETUAN,SophoraJ
+TETUAN,06,Pinus pinea,529,TETUAN,PinusP
+TETUAN,06,Prunus cerasifera pisardii,731,TETUAN,PrunusC
+TETUAN,06,Ulmus pumila,821,TETUAN,UlmusP
+TETUAN,06,Ligustrum japonicum,925,TETUAN,LigustrumJ
+TETUAN,06,Platanus x hybrida,4519,TETUAN,PlatanusX
+CHAMBERI,07,Pinus pinea,167,CHAMBERI,PinusP
+CHAMBERI,07,Cercis siliquastrum,183,CHAMBERI,CercisS
+CHAMBERI,07,Prunus cerasifera pisardii,252,CHAMBERI,PrunusC
+CHAMBERI,07,Koelreuteria paniculata,261,CHAMBERI,KoelreuteriaP
+CHAMBERI,07,Aesculus hippocastanum,267,CHAMBERI,AesculusH
+CHAMBERI,07,Melia azedarach,276,CHAMBERI,MeliaA
+CHAMBERI,07,Robinia pseudoacacia,332,CHAMBERI,RobiniaP
+CHAMBERI,07,Ligustrum japonicum,639,CHAMBERI,LigustrumJ
+CHAMBERI,07,Celtis australis,677,CHAMBERI,CeltisA
+CHAMBERI,07,Ulmus pumila,875,CHAMBERI,UlmusP
+CHAMBERI,07,Platanus x hybrida,1696,CHAMBERI,PlatanusX
+CHAMBERI,07,Sophora japonica,5807,CHAMBERI,SophoraJ
+FUENCARRAL - EL PARDO,08,Ligustrum japonicum,1046,FUENCARRALPARDO,LigustrumJ
+FUENCARRAL - EL PARDO,08,Cupressus sempervirens,1196,FUENCARRALPARDO,CupressusS
+FUENCARRAL - EL PARDO,08,Morus alba,1381,FUENCARRALPARDO,MorusA
+FUENCARRAL - EL PARDO,08,Aesculus hippocastanum,1408,FUENCARRALPARDO,AesculusH
+FUENCARRAL - EL PARDO,08,Sophora japonica,1412,FUENCARRALPARDO,SophoraJ
+FUENCARRAL - EL PARDO,08,Populus x canadensis,1421,FUENCARRALPARDO,PopulusX
+FUENCARRAL - EL PARDO,08,Acer negundo,1735,FUENCARRALPARDO,AcerN
+FUENCARRAL - EL PARDO,08,Melia azedarach,1798,FUENCARRALPARDO,MeliaA
+FUENCARRAL - EL PARDO,08,Prunus cerasifera pisardii,2049,FUENCARRALPARDO,PrunusC
+FUENCARRAL - EL PARDO,08,Robinia pseudoacacia,2455,FUENCARRALPARDO,RobiniaP
+FUENCARRAL - EL PARDO,08,Pinus pinea,3221,FUENCARRALPARDO,PinusP
+FUENCARRAL - EL PARDO,08,Celtis australis,3847,FUENCARRALPARDO,CeltisA
+FUENCARRAL - EL PARDO,08,Ulmus pumila,5354,FUENCARRALPARDO,UlmusP
+FUENCARRAL - EL PARDO,08,Platanus x hybrida,9424,FUENCARRALPARDO,PlatanusX
+MONCLOA-ARAVACA,09,Prunus cerasifera pisardii,747,MONCLOAARAVACA,PrunusC
+MONCLOA-ARAVACA,09,Cupressus arizonica,817,MONCLOAARAVACA,CupressusA
+MONCLOA-ARAVACA,09,Ligustrum japonicum,941,MONCLOAARAVACA,LigustrumJ
+MONCLOA-ARAVACA,09,Celtis australis,951,MONCLOAARAVACA,CeltisA
+MONCLOA-ARAVACA,09,Catalpa bignonioides,988,MONCLOAARAVACA,CatalpaB
+MONCLOA-ARAVACA,09,Robinia pseudoacacia,1353,MONCLOAARAVACA,RobiniaP
+MONCLOA-ARAVACA,09,Cupressus sempervirens,1399,MONCLOAARAVACA,CupressusS
+MONCLOA-ARAVACA,09,Acer negundo,1988,MONCLOAARAVACA,AcerN
+MONCLOA-ARAVACA,09,Pinus pinea,2035,MONCLOAARAVACA,PinusP
+MONCLOA-ARAVACA,09,Ulmus pumila,2380,MONCLOAARAVACA,UlmusP
+MONCLOA-ARAVACA,09,Sophora japonica,2735,MONCLOAARAVACA,SophoraJ
+MONCLOA-ARAVACA,09,Platanus x hybrida,5489,MONCLOAARAVACA,PlatanusX
+LATINA,10,Cupressus sempervirens,989,LATINA,CupressusS
+LATINA,10,Acer negundo,1063,LATINA,AcerN
+LATINA,10,Ligustrum japonicum,1146,LATINA,LigustrumJ
+LATINA,10,Sophora japonica,1572,LATINA,SophoraJ
+LATINA,10,Celtis australis,1726,LATINA,CeltisA
+LATINA,10,Prunus cerasifera subsp. Pissartii,1858,LATINA,PrunusCPissartii
+LATINA,10,Robinia pseudoacacia,2001,LATINA,RobiniaP
+LATINA,10,Pinus pinea,2641,LATINA,PinusP
+LATINA,10,Ulmus pumila,4442,LATINA,UlmusP
+LATINA,10,Platanus x hybrida,5338,LATINA,PlatanusX
+CARABANCHEL,11,Prunus cerasifera subsp. Pissartii,785,CARABANCHEL,PrunusCPissartii
+CARABANCHEL,11,Cupressus sempervirens,911,CARABANCHEL,CupressusS
+CARABANCHEL,11,Ligustrum japonicum,932,CARABANCHEL,LigustrumJ
+CARABANCHEL,11,Aesculus hippocastanum,1000,CARABANCHEL,AesculusH
+CARABANCHEL,11,Gleditsia triacanthos,1399,CARABANCHEL,GleditsiaT
+CARABANCHEL,11,Acer negundo,1609,CARABANCHEL,AcerN
+CARABANCHEL,11,Celtis australis,1914,CARABANCHEL,CeltisA
+CARABANCHEL,11,Robinia pseudoacacia,2401,CARABANCHEL,RobiniaP
+CARABANCHEL,11,Sophora japonica,2740,CARABANCHEL,SophoraJ
+CARABANCHEL,11,Ulmus pumila,2907,CARABANCHEL,UlmusP
+CARABANCHEL,11,Pinus pinea,4338,CARABANCHEL,PinusP
+CARABANCHEL,11,Platanus x hybrida,7508,CARABANCHEL,PlatanusX
+USERA,12,Platanus orientalis,600,USERA,PlatanusO
+USERA,12,Prunus cerasifera subsp. Pissartii,608,USERA,PrunusCPissartii
+USERA,12,Populus alba,676,USERA,PopulusA
+USERA,12,Prunus cerasifera,683,USERA,PrunusC
+USERA,12,Melia azedarach,705,USERA,MeliaA
+USERA,12,Cedrus deodara,771,USERA,CedrusD
+USERA,12,Acer negundo,1253,USERA,AcerN
+USERA,12,Sophora japonica,1284,USERA,SophoraJ
+USERA,12,Celtis australis,1315,USERA,CeltisA
+USERA,12,Robinia pseudoacacia,2115,USERA,RobiniaP
+USERA,12,Pinus pinea,2143,USERA,PinusP
+USERA,12,Ulmus pumila,3834,USERA,UlmusP
+USERA,12,Platanus x hybrida,5125,USERA,PlatanusX
+PUENTE DE VALLECAS,13,Celtis australis,1110,PUENTEVALLECAS,CeltisA
+PUENTE DE VALLECAS,13,Catalpa bignonioides,1240,PUENTEVALLECAS,CatalpaB
+PUENTE DE VALLECAS,13,Acer¬†pseudoplatanus,1287,PUENTEVALLECAS,AcerP
+PUENTE DE VALLECAS,13,Prunus cerasifera subsp. Pissartii,1312,PUENTEVALLECAS,PrunusCPissartii
+PUENTE DE VALLECAS,13,Ligustrum japonicum,2146,PUENTEVALLECAS,LigustrumJ
+PUENTE DE VALLECAS,13,Acer negundo,2378,PUENTEVALLECAS,AcerN
+PUENTE DE VALLECAS,13,Pinus pinea,2668,PUENTEVALLECAS,PinusP
+PUENTE DE VALLECAS,13,Ulmus pumila,3213,PUENTEVALLECAS,UlmusP
+PUENTE DE VALLECAS,13,Sophora japonica,3268,PUENTEVALLECAS,SophoraJ
+PUENTE DE VALLECAS,13,Robinia pseudoacacia,3729,PUENTEVALLECAS,RobiniaP
+PUENTE DE VALLECAS,13,Platanus orientalis,4477,PUENTEVALLECAS,PlatanusO
+PUENTE DE VALLECAS,13,Platanus x hybrida,4701,PUENTEVALLECAS,PlatanusX
+MORATALAZ,14,Melia azedarach,561,MORATALAZ,MeliaA
+MORATALAZ,14,Catalpa bignonioides,727,MORATALAZ,CatalpaB
+MORATALAZ,14,Acer¬†pseudoplatanus,750,MORATALAZ,AcerP
+MORATALAZ,14,Prunus cerasifera subsp. Pissartii,897,MORATALAZ,PrunusCPissartii
+MORATALAZ,14,Platanus orientalis,1125,MORATALAZ,PlatanusO
+MORATALAZ,14,Acer negundo,1374,MORATALAZ,AcerN
+MORATALAZ,14,Celtis australis,1493,MORATALAZ,CeltisA
+MORATALAZ,14,Pinus pinea,2029,MORATALAZ,PinusP
+MORATALAZ,14,Platanus x hybrida,2037,MORATALAZ,PlatanusX
+MORATALAZ,14,Ulmus pumila,5925,MORATALAZ,UlmusP
+CIUDAD LINEAL,15,Pinus halepensis,967,CIUDAD LINEAL,PinusH
+CIUDAD LINEAL,15,Cupressus sempervirens,1005,CIUDAD LINEAL,CupressusS
+CIUDAD LINEAL,15,Celtis australis,1112,CIUDAD LINEAL,CeltisA
+CIUDAD LINEAL,15,Acer negundo,1390,CIUDAD LINEAL,AcerN
+CIUDAD LINEAL,15,Robinia pseudoacacia,1448,CIUDAD LINEAL,RobiniaP
+CIUDAD LINEAL,15,Prunus cerasifera pisardii,1504,CIUDAD LINEAL,PrunusC
+CIUDAD LINEAL,15,Sophora japonica,1667,CIUDAD LINEAL,SophoraJ
+CIUDAD LINEAL,15,Ulmus pumila,3963,CIUDAD LINEAL,UlmusP
+CIUDAD LINEAL,15,Pinus pinea,4243,CIUDAD LINEAL,PinusP
+CIUDAD LINEAL,15,Platanus x hybrida,4702,CIUDAD LINEAL,PlatanusX
+HORTALEZA,16,Melia azedarach,1099,HORTALEZA,MeliaA
+HORTALEZA,16,Ulmus minor,1197,HORTALEZA,UlmusM
+HORTALEZA,16,Aesculus hippocastanum,1226,HORTALEZA,AesculusH
+HORTALEZA,16,Populus alba,1257,HORTALEZA,PopulusA
+HORTALEZA,16,Ligustrum japonicum,1395,HORTALEZA,LigustrumJ
+HORTALEZA,16,Ulmus pumila,1488,HORTALEZA,UlmusP
+HORTALEZA,16,Prunus cerasifera pisardii,1662,HORTALEZA,PrunusC
+HORTALEZA,16,Robinia pseudoacacia,2024,HORTALEZA,RobiniaP
+HORTALEZA,16,Cupressus sempervirens,2066,HORTALEZA,CupressusS
+HORTALEZA,16,Acer negundo,2155,HORTALEZA,AcerN
+HORTALEZA,16,Sophora japonica,2239,HORTALEZA,SophoraJ
+HORTALEZA,16,Celtis australis,2945,HORTALEZA,CeltisA
+HORTALEZA,16,Pinus pinea,4440,HORTALEZA,PinusP
+HORTALEZA,16,Platanus x hybrida,4485,HORTALEZA,PlatanusX
+VILLAVERDE,17,Catalpa bignonioides,1114,VILLAVERDE,CatalpaB
+VILLAVERDE,17,Acer negundo,1287,VILLAVERDE,AcerN
+VILLAVERDE,17,Melia azedarach,1604,VILLAVERDE,MeliaA
+VILLAVERDE,17,Aesculus hippocastanum,1610,VILLAVERDE,AesculusH
+VILLAVERDE,17,Pinus halepensis,1764,VILLAVERDE,PinusH
+VILLAVERDE,17,Robinia pseudoacacia,1776,VILLAVERDE,RobiniaP
+VILLAVERDE,17,Prunus cerasifera subsp. Pissartii,1798,VILLAVERDE,PrunusCPissartii
+VILLAVERDE,17,Pinus pinea,2020,VILLAVERDE,PinusP
+VILLAVERDE,17,Ligustrum japonicum,2352,VILLAVERDE,LigustrumJ
+VILLAVERDE,17,Platanus x hybrida,3064,VILLAVERDE,PlatanusX
+VILLAVERDE,17,Celtis australis,3324,VILLAVERDE,CeltisA
+VILLAVERDE,17,Ulmus pumila,5525,VILLAVERDE,UlmusP
+VILLA DE VALLECAS,18,Prunus cerasifera subsp. Pissartii,1163,VILLAVALLECAS,PrunusCPissartii
+VILLA DE VALLECAS,18,Aesculus hippocastanum,1223,VILLAVALLECAS,AesculusH
+VILLA DE VALLECAS,18,Cupressus sempervirens,1254,VILLAVALLECAS,CupressusS
+VILLA DE VALLECAS,18,Robinia pseudoacacia,1932,VILLAVALLECAS,RobiniaP
+VILLA DE VALLECAS,18,Ulmus pumila,2029,VILLAVALLECAS,UlmusP
+VILLA DE VALLECAS,18,Acer negundo,2333,VILLAVALLECAS,AcerN
+VILLA DE VALLECAS,18,Celtis australis,2433,VILLAVALLECAS,CeltisA
+VILLA DE VALLECAS,18,Pinus halepensis,2894,VILLAVALLECAS,PinusH
+VILLA DE VALLECAS,18,Platanus x hybrida,5241,VILLAVALLECAS,PlatanusX
+VICALVARO,19,Ulmus pumila,805,VICALVARO,UlmusP
+VICALVARO,19,Acer negundo,1179,VICALVARO,AcerN
+VICALVARO,19,Celtis australis,1206,VICALVARO,CeltisA
+VICALVARO,19,Aesculus hippocastanum,1308,VICALVARO,AesculusH
+VICALVARO,19,Sophora japonica,1431,VICALVARO,SophoraJ
+VICALVARO,19,Pinus pinea,1488,VICALVARO,PinusP
+VICALVARO,19,Robinia pseudoacacia,1513,VICALVARO,RobiniaP
+VICALVARO,19,Ligustrum japonicum,1655,VICALVARO,LigustrumJ
+VICALVARO,19,Platanus orientalis,1802,VICALVARO,PlatanusO
+VICALVARO,19,Platanus x hybrida,1890,VICALVARO,PlatanusX
+SAN BLAS - CANILLEJAS,20,Prunus cerasifera pisardii,959,SANBLASCANILLEJAS,PrunusC
+SAN BLAS - CANILLEJAS,20,Ligustrum japonicum,1109,SANBLASCANILLEJAS,LigustrumJ
+SAN BLAS - CANILLEJAS,20,Ulmus pumila,1171,SANBLASCANILLEJAS,UlmusP
+SAN BLAS - CANILLEJAS,20,Ulmus sp,1197,SANBLASCANILLEJAS,UlmusS
+SAN BLAS - CANILLEJAS,20,Aesculus hippocastanum,1516,SANBLASCANILLEJAS,AesculusH
+SAN BLAS - CANILLEJAS,20,Pinus halepensis,1654,SANBLASCANILLEJAS,PinusH
+SAN BLAS - CANILLEJAS,20,Robinia pseudoacacia,1941,SANBLASCANILLEJAS,RobiniaP
+SAN BLAS - CANILLEJAS,20,Acer negundo,2042,SANBLASCANILLEJAS,AcerN
+SAN BLAS - CANILLEJAS,20,Celtis australis,2162,SANBLASCANILLEJAS,CeltisA
+SAN BLAS - CANILLEJAS,20,Pinus pinea,2910,SANBLASCANILLEJAS,PinusP
+SAN BLAS - CANILLEJAS,20,Platanus x hybrida,7489,SANBLASCANILLEJAS,PlatanusX
+BARAJAS,21,Ulmus pumila,359,BARAJAS,UlmusP
+BARAJAS,21,Acer negundo,399,BARAJAS,AcerN
+BARAJAS,21,Pinus halepensis,462,BARAJAS,PinusH
+BARAJAS,21,Pinus pinea,517,BARAJAS,PinusP
+BARAJAS,21,Melia azedarach,535,BARAJAS,MeliaA
+BARAJAS,21,Prunus cerasifera pisardii,568,BARAJAS,PrunusC
+BARAJAS,21,Catalpa bignonioides,706,BARAJAS,CatalpaB
+BARAJAS,21,Robinia pseudoacacia,716,BARAJAS,RobiniaP
+BARAJAS,21,Ligustrum japonicum,717,BARAJAS,LigustrumJ
+BARAJAS,21,Celtis australis,801,BARAJAS,CeltisA
+BARAJAS,21,Sophora japonica,914,BARAJAS,SophoraJ
+BARAJAS,21,Platanus x hybrida,3062,BARAJAS,PlatanusX

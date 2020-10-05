@@ -1,0 +1,4032 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aesculus hippocastanum (Castaño de indias)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aesculus hippocastanum"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Celtis australis (Almez)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Celtis australis"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cupressocyparis leilandii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cupressocyparis leylandii"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cupressus sempervirens (Cipres comun)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cupressus sempervirens"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fraxinus angustifolia (Fresno de la tierra)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fraxinus angustifolia"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gleditsia triacanthos (Acacia de tres espinas)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gleditsia triacanthos"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Melia azedarach (Cinamomo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Melia azedarach"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Melia azederach"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Melia azedarach"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Olea europaea (Olivo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Olea europaea"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "OTROS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Otros"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinus halepensis (Pino carrasco)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinus halepensis"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinus pinea (Pino piñonero)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pinus pinea"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Platanus hybrida (Plátano de sombra)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Platanus hybrida"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Platanus hybrida (Platano de sombra)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Platanus hybrida"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Populus alba 'bolleana'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Populus alba"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Populus alba bolleana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Populus alba"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Populus nigra (Chopo negro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Populus nigra"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Prunus cerasifera pisardii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Prunus cerasifera pissardii"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Prunus cerasifera subsp. Pissartii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Prunus cerasifera pissardii"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Salix alba (Sauce blanco)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Salix alba"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tilia platyphyllos (Tilo de hojas grandes)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tilia platyphyllos"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ulmus sp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ulmus sp."
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column",
+    "newColumnName": "PARQUEURI",
+    "description": "Rename column Column to PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CAPRICHO DE LA ALAMEDA DE OSUNA",
+                "l": "CAPRICHO DE LA ALAMEDA DE OSUNA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CaprichoAlamedaOsuna"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CASA DE CAMPO",
+                "l": "CASA DE CAMPO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CasaCampo"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CUÑA VERDE DE O´DONNELL Y P. F. FUENTE CARRANTONA",
+                "l": "CUÑA VERDE DE O´DONNELL Y P. F. FUENTE CARRANTONA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ODonellFuenteCarantona"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "DEHESA DE LA VILLA",
+                "l": "DEHESA DE LA VILLA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "DehesaVilla"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "JARDINES DE SABATINI",
+                "l": "JARDINES DE SABATINI"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "JardinesSabatini"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "JARDINES DEL BUEN RETIRO",
+                "l": "JARDINES DEL BUEN RETIRO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "JardinesRetiro"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "JARDINES PZA DE ORIENTE-JARDÍN DEL CABO NOVAL-JARDÍN DE LEPANTO",
+                "l": "JARDINES PZA DE ORIENTE-JARDÍN DEL CABO NOVAL-JARDÍN DE LEPANTO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PlazaOrienteCaboNovalLepanto"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "MADRID RÍO",
+                "l": "MADRID RÍO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "MadridRio"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE DEL OESTE- TEMPLO DE DEBOD",
+                "l": "PARQUE DEL OESTE- TEMPLO DE DEBOD"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ParqueOesteDebod"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ParqueOesteDebod"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE DEL OESTE- TEMPLO DE DEBOD",
+                "l": "PARQUE DEL OESTE- TEMPLO DE DEBOD"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ParqueOesteDebod"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ParqueOesteDebod"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE DEL OESTE- TEMPLO DE DEBOD",
+                "l": "PARQUE DEL OESTE- TEMPLO DE DEBOD"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ParqueOesteDebod"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ParqueOesteDebod"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE DEL OESTE- TEMPLO DE DEBOD",
+                "l": "PARQUE DEL OESTE- TEMPLO DE DEBOD"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ParqueOesteDebod"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE FORESTAL VALDEBEBAS",
+                "l": "PARQUE FORESTAL VALDEBEBAS"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ParqueValdebebas"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE JUAN CARLOS I",
+                "l": "PARQUE JUAN CARLOS I"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ParqueJCI"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE JUAN PABLO II",
+                "l": "PARQUE JUAN PABLO II"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ParqueJPII"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PARQUE LINEAL DEL MANZANARES",
+                "l": "PARQUE LINEAL DEL MANZANARES"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ParqueManzanares"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "QUINTA DE LOS MOLINOS",
+                "l": "QUINTA DE LOS MOLINOS"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "QuintaMolinos"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "QUINTA FUENTE DEL BERRO",
+                "l": "QUINTA FUENTE DEL BERRO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "QuintaFuenteBerro"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ROSALEDA DE MADRID (PARQUE DEL OESTE)",
+                "l": "ROSALEDA DE MADRID (PARQUE DEL OESTE)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "RosaledaMadrid"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Z.V.DISTRITO C-LAS TABLAS",
+                "l": "Z.V.DISTRITO C-LAS TABLAS"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "PARQUEURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Tablas"
+      }
+    ],
+    "description": "Mass edit cells in column PARQUEURI"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column2",
+    "newColumnName": "ARBOLURI",
+    "description": "Rename column Column2 to ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Abies nordmanniana",
+                "l": "Abies nordmanniana"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ANordmanniana"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acacia dealbata",
+                "l": "Acacia dealbata"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ADealbata"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Abies nordmanniana",
+                "l": "Abies nordmanniana"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ANordmanniana"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AbiesN"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acacia dealbata",
+                "l": "Acacia dealbata"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ADealbata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AcaciaD"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer campestre",
+                "l": "Acer campestre"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "AcerC"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer negundo",
+                "l": "Acer negundo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "AcerN"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer pseudoplatanus",
+                "l": "Acer pseudoplatanus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "AcerP"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer x freemanii (Arce)",
+                "l": "Acer x freemanii (Arce)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "AcerX"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Aesculus hippocastanum",
+                "l": "Aesculus hippocastanum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "AesculusH"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ailanthus altissima",
+                "l": "Ailanthus altissima"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "AilanthusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Betula utilis",
+                "l": "Betula utilis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "BetulaU"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Catalpa bignonioides",
+                "l": "Catalpa bignonioides"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CatalpaB"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cedrus atlantica",
+                "l": "Cedrus atlantica"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CedrusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cedrus atlantica 'Glauca'",
+                "l": "Cedrus atlantica 'Glauca'"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CedrusAGlauca"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cedrus deodara",
+                "l": "Cedrus deodara"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CedrusD"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cedrus libani",
+                "l": "Cedrus libani"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CedrusL"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Celtis australis",
+                "l": "Celtis australis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CedrusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Celtis australis",
+                "l": "Celtis australis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CedrusA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CeltisA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cercis siliquastrum",
+                "l": "Cercis siliquastrum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CercisS"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cupressocyparis leylandii",
+                "l": "Cupressocyparis leylandii"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CupressocyparisL"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cupressus macrocarpa",
+                "l": "Cupressus macrocarpa"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CupressusM"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cupresus sempervirens"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cupressus sempervirens"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cupresus arizonica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cupressus arizonica"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cupressus arizonica",
+                "l": "Cupressus arizonica"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CupressusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cupressus sempervirens",
+                "l": "Cupressus sempervirens"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "CupressusS"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Eucalyptus sp",
+                "l": "Eucalyptus sp"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "EucalyptusS"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Fraxinus angustifolia",
+                "l": "Fraxinus angustifolia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "FraxinusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Fraxinus excelsior",
+                "l": "Fraxinus excelsior"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "FraxinusE"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ginkgo biloba (Gingo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ginkgo biloba"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ginkgo biloba",
+                "l": "Ginkgo biloba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "GinkgoB"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Gleditsia triacanthos",
+                "l": "Gleditsia triacanthos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "GleditsiaT"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Gleditsia triacanthos inermes",
+                "l": "Gleditsia triacanthos inermes"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "GleditsiaTInermes"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Koelreuteria paniculata",
+                "l": "Koelreuteria paniculata"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "KoelreuteriaP"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ligustrum japonicum",
+                "l": "Ligustrum japonicum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "LigustrumJ"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ligustrum lucidum",
+                "l": "Ligustrum lucidum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "LigustrumL"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Liquidambar styraciflua",
+                "l": "Liquidambar styraciflua"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "LiquidambarS"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Magnolia grandiflora",
+                "l": "Magnolia grandiflora"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "MagnoliaG"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Melia azedarach",
+                "l": "Melia azedarach"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "MeliaA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Morus alba",
+                "l": "Morus alba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "MorusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Morus alba 'Fruitless'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Morus alba"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Morus alba",
+                "l": "Morus alba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "description": "Fill down cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Morus alba",
+                "l": "Morus alba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "MorusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Olea europaea",
+                "l": "Olea europaea"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "OleaE"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinus halepensis",
+                "l": "Pinus halepensis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PinusH"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinus pinea",
+                "l": "Pinus pinea"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PinusP"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Platanus x hybrida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Platanus hybrida"
+      }
+    ],
+    "description": "Mass edit cells in column ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Platanus hybrida",
+                "l": "Platanus hybrida"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PlatanusH"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Platanus orientalis",
+                "l": "Platanus orientalis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PlatantusO"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Populus alba",
+                "l": "Populus alba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PopulusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Populus nigra",
+                "l": "Populus nigra"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PopulusN"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Populus nigra var. Italica",
+                "l": "Populus nigra var. Italica"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PopulusNItalica"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus amygdalus",
+                "l": "Prunus amygdalus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PrunusC"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus amygdalus",
+                "l": "Prunus amygdalus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PrunusC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PrunusA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus cerasifera pissardii",
+                "l": "Prunus cerasifera pissardii"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PrunusC"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus dulcis",
+                "l": "Prunus dulcis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PrunusD"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Punica granatum",
+                "l": "Punica granatum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PrunusG"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pyrus calleryana",
+                "l": "Pyrus calleryana"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "PyrusC"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus ilex",
+                "l": "Quercus ilex"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "QuercusI"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Quercus robur",
+                "l": "Quercus robur"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "QuercusR"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Robinia pseudoacacia",
+                "l": "Robinia pseudoacacia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "RobinaP"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Salix alba",
+                "l": "Salix alba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "SalixA"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Salix sp.",
+                "l": "Salix sp."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "SalixS"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sophora japonica",
+                "l": "Sophora japonica"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "SophoraJ"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Taxus baccata",
+                "l": "Taxus baccata"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "TaxusB"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Thuja occidentalis",
+                "l": "Thuja occidentalis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "ThujaO"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tilia platyphyllos",
+                "l": "Tilia platyphyllos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "TiliaP"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trachycarpus fortunei",
+                "l": "Trachycarpus fortunei"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "TrachycarpusF"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ulmus minor",
+                "l": "Ulmus minor"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "UlmusM"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ulmus pumila",
+                "l": "Ulmus pumila"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "UlmusP"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ulmus sp.",
+                "l": "Ulmus sp."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "ARBOLURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "UlmusS"
+      }
+    ],
+    "description": "Mass edit cells in column ARBOLURI"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ARBOLURI",
+    "newColumnName": "URI ESPECIE",
+    "description": "Rename column ARBOLURI to URI ESPECIE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PARQUEURI",
+    "newColumnName": "URI PARQUE",
+    "description": "Rename column PARQUEURI to URI PARQUE"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "PARQUE",
+          "expression": "value",
+          "columnName": "PARQUE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "TOTAL",
+                "l": "TOTAL"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESPECIE",
+          "expression": "value",
+          "columnName": "ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Otros",
+                "l": "Otros"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "description": "Remove rows"
+  }
+]

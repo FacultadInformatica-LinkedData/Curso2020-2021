@@ -1,0 +1,81 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Fe",
+    "columnName": "ayto:Fe"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Amonio",
+    "columnName": "ayto:Amonio"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Nitritos",
+    "columnName": "ayto:Nitritos"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Al",
+    "columnName": "ayto:Al"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Cu",
+    "columnName": "ayto:Cu"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Cr",
+    "columnName": "ayto:Cr"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Ni",
+    "columnName": "ayto:Ni"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ayto:Pb",
+    "columnName": "ayto:Pb"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ayto:Color using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "value",
+          "selectBlank": true,
+          "selectNonNumeric": false,
+          "selectError": true,
+          "name": "ayto:Color",
+          "from": 5,
+          "to": 26,
+          "type": "range",
+          "columnName": "ayto:Color"
+        }
+      ]
+    },
+    "columnName": "ayto:Color",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ayto:Fecha using expression value.toDate()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ayto:Fecha",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
