@@ -51,14 +51,6 @@ properties:potencia rdf:type owl:DatatypeProperty ;
 		    rdfs:domain classes:Punto_recarga ;
 		    rdfs:range xsd:integer .
 
-properties:codigo rdf:type owl:DatatypeProperty ;
-		  rdfs:domain classes:Punto_recarga ;
-		  rdfs:range xsd:integer .
-
-properties:año_instalacion rdf:type owl:DatatypeProperty ;
-			   rdfs:domain classes:Punto_recarga ;
-			   rdfs:range xsd:integer .
-
 # Object properties
 properties:localizacion rdf:type owl:ObjectProperty ;
                     	rdfs:domain classes:Punto_recarga ;
