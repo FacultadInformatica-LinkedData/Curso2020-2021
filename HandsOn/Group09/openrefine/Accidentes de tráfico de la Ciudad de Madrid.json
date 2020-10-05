@@ -1323,5 +1323,31 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column URI-PERSONA using expression grel:if(endsWith(value, '#'), value.substring(0,-1), value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CRUCE",
+    "expression": "grel:value.replace('#','%')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CRUCE using expression grel:value.replace('#','%')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-PERSONA",
+    "expression": "grel:value.replace('#','%')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-PERSONA using expression grel:value.replace('#','%')"
   }
 ]
