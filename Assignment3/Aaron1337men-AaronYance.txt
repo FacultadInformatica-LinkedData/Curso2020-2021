@@ -1,0 +1,103 @@
+1.Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+select distinct ?property where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?property ?something
+} LIMIT 10
+
+Resultados:
+		property:
+	http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+	http://www.w3.org/2000/01/rdf-schema#label
+	http://www.w3.org/2000/01/rdf-schema#comment
+	http://es.dbpedia.org/property/dead
+	http://es.dbpedia.org/property/enelcargo
+	http://es.dbpedia.org/property/equipoDebut
+	http://es.dbpedia.org/property/equipoRetiro
+	http://es.dbpedia.org/property/fortuna
+	http://es.dbpedia.org/property/oponentes
+	http://es.dbpedia.org/property/relaciones
+
+2.Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+select distinct ?property where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?property ?something
+	FILTER (?property != rdf:type)
+} LIMIT 10
+
+Resultados:
+		property:
+	http://www.w3.org/2000/01/rdf-schema#label
+	http://www.w3.org/2000/01/rdf-schema#comment
+	http://es.dbpedia.org/property/dead
+	http://es.dbpedia.org/property/enelcargo
+	http://es.dbpedia.org/property/equipoDebut
+	http://es.dbpedia.org/property/equipoRetiro
+	http://es.dbpedia.org/property/fortuna
+	http://es.dbpedia.org/property/oponentes
+	http://es.dbpedia.org/property/relaciones
+	http://es.dbpedia.org/property/retiro
+	
+3.Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+select distinct ?property ?something where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?property ?something
+	FILTER (?property != rdf:type)
+} LIMIT 10
+
+Resultados:
+		property:									:something
+	http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es
+	http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es
+
+4.For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+select distinct ?instan ?property ?something where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?property ?something
+	FILTER (?property != rdf:type)
+} LIMIT 10
+
+Resultados:
+		instan:														property:									something:
+	http://es.dbpedia.org/resource/Marcia_Alicia_Fernández_Piña	http://www.w3.org/2000/01/rdf-schema#label	"Marcia Alicia Fernández Piña"@es
+	http://es.dbpedia.org/resource/Argentina_Rubiera			http://www.w3.org/2000/01/rdf-schema#label	"Argentina Rubiera"@es
+	http://es.dbpedia.org/resource/Francisco_Pizano_de_Brigard	http://www.w3.org/2000/01/rdf-schema#label	"Francisco Pizano de Brigard"@es
+	http://es.dbpedia.org/resource/Gabriel_Barceló				http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Barceló"@es
+	http://es.dbpedia.org/resource/Gabriel_Cruz					http://www.w3.org/2000/01/rdf-schema#label	"Gabriel Cruz"@es
+	http://es.dbpedia.org/resource/Guillermo_Novara				http://www.w3.org/2000/01/rdf-schema#label	"Guillermo Novara"@es
+	http://es.dbpedia.org/resource/Gustavo_Oliva				http://www.w3.org/2000/01/rdf-schema#label	"Gustavo Oliva"@es
+	http://es.dbpedia.org/resource/Mario_Alberto_Dávila_Delgado	http://www.w3.org/2000/01/rdf-schema#label	"Mario Alberto Dávila Delgado"@es
+	http://es.dbpedia.org/resource/Raquel_Barajas				http://www.w3.org/2000/01/rdf-schema#label	"Raquel Barajas"@es
+	http://es.dbpedia.org/resource/Rodrigo_Hermosilla_Gatica	http://www.w3.org/2000/01/rdf-schema#label	"Rodrigo Hermosilla Gatica"@es
+
+5.For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+select distinct ?instan ?property count(?something)as ?num where {
+	?instan a <http://dbpedia.org/ontology/Politician>;
+	?property ?something
+	FILTER (?property != rdf:type)
+} LIMIT 10
+
+Resultados:
+	instan:																property:								num:
+	http://es.dbpedia.org/resource/Absalón_Castellanos_Domínguez	http://dbpedia.org/ontology/birthDate		1
+	http://es.dbpedia.org/resource/Mariano_Mendizábal				http://dbpedia.org/ontology/deathPlace		2
+	http://es.dbpedia.org/resource/Dávid_Ibolya						http://xmlns.com/foaf/0.1/givenName			1
+	http://es.dbpedia.org/resource/Edgardo_Seoane_Corrales			http://xmlns.com/foaf/0.1/isPrimaryTopicOf	1
+	http://es.dbpedia.org/resource/Massimo_Andrea_Ugolini			http://dbpedia.org/ontology/birthDate		1
+	http://es.dbpedia.org/resource/María_de_los_Ángeles_Duarte		http://es.dbpedia.org/property/final		2
+	http://es.dbpedia.org/resource/Rafael_Tovar_y_de_Teresa			http://es.dbpedia.org/property/período		4
+	http://es.dbpedia.org/resource/Joe-Fio_Neenyann_Meyer			http://dbpedia.org/ontology/abstract		1
+	http://es.dbpedia.org/resource/Juan_de_Dios_Vial_Larraín		http://xmlns.com/foaf/0.1/givenName			1
+	http://es.dbpedia.org/resource/Carlos_Ramón_Fort				http://es.dbpedia.org/property/nombre		2

@@ -1,0 +1,411 @@
+[
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "residuos_domestic_año",
+      "residuos_domestic_ambito",
+      "residuos_domestic_tipo",
+      "residuos_domestic_cantidad_ton"
+    ]
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2005",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2005",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2006",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2007",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2008",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2009",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2010",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2011",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "residuos_domestic_año",
+          "columnName": "residuos_domestic_año",
+          "query": "2012",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  }
+]
+[
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "residuos_pelig_opcion_gestion",
+          "columnName": "residuos_pelig_opcion_gestion",
+          "query": "trata",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "residuos_pelig_año",
+          "columnName": "residuos_pelig_año",
+          "query": "2012",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]
+[
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "planta_año",
+          "columnName": "planta_año",
+          "query": "2012",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  }
+]
+[
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "vidrio_año",
+          "columnName": "vidrio_año",
+          "query": "2018",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "description": "Remove rows"
+  }
+]
+[
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "res_tra_registro_tipo",
+      "res_tra_nif",
+      "res_tra_direccion_tipo_vial",
+      "res_tra_direccion_via_nombre",
+      "res_tra_direccion_via_num",
+      "res_tra_direccion_muni_desc",
+      "res_tra_residuo_ler_desc"
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column res_tra_residuo_ler_desc",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_residuo_ler_desc",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LODOS  Y TORTAS DE FILTRACIÓN DEL TRATAMIENTO DE GASES.",
+          "LODOS Y TORTAS DE FILTRACIÓN DEL TRATAMIENTO DE GASES.",
+          "LODOS Y  TORTAS DE FILTRACIÓN DEL TRATAMIENTO DE GASES."
+        ],
+        "to": "LODOS  Y TORTAS DE FILTRACIÓN DEL TRATAMIENTO DE GASES."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RESIDUOS SÓLIDOS DEL TRATAMIENTO DE GASES QUE CONTIENEN SUSTANCIAS PELIGROSAS.",
+          "RESIDUOS SÓLIDOS DEL TRATAMIENTO DE GASES, QUE CONTIENEN SUSTANCIAS PELIGROSAS.",
+          "RESIDUOS SÓLIDOS, DEL TRATAMIENTO DE GASES, QUE CONTIENEN SUSTANCIAS PELIGROSAS."
+        ],
+        "to": "RESIDUOS SÓLIDOS DEL TRATAMIENTO DE GASES QUE CONTIENEN SUSTANCIAS PELIGROSAS."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OTROS RESIDUOS DE REACCIÓN Y DE DESTILACIÓN.",
+          "OTROS RESIDUOS DE REACCIÓN Y DE DESTILACIÓN .",
+          "OTROS  RESIDUOS DE REACCIÓN Y DE DESTILACIÓN."
+        ],
+        "to": "OTROS RESIDUOS DE REACCIÓN Y DE DESTILACIÓN."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PARTÍCULAS, PROCEDENTES DE LOS EFLUENTES GASEOSOS, QUE CONTIENEN SUSTANCIAS PELIGROSAS.",
+          "PARTÍCULAS  PROCEDENTES DE LOS EFLUENTES GASEOSOS, QUE CONTIENEN SUSTANCIAS PELIGROSAS.",
+          "PARTÍCULAS, PROCEDENTES DE LOS EFLUENTES GASEOSOS  QUE CONTIENEN SUSTANCIAS PELIGROSAS."
+        ],
+        "to": "PARTÍCULAS, PROCEDENTES DE LOS EFLUENTES GASEOSOS, QUE CONTIENEN SUSTANCIAS PELIGROSAS."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LODOS Y TORTAS DE FILTRACIÓN, DEL TRATAMIENTO DE GASES, QUE CONTIENEN SUSTANCIAS PELIGROSAS.",
+          "LODOS Y TORTAS DE FILTRACIÓN,  DEL TRATAMIENTO DE GASES,  QUE CONTIENEN SUSTANCIAS PELIGROSAS.",
+          "LODOS Y TORTAS DE FILTRACIÓN DEL TRATAMIENTO DE GASES, QUE CONTIENEN SUSTANCIAS PELIGROSAS."
+        ],
+        "to": "LODOS Y TORTAS DE FILTRACIÓN, DEL TRATAMIENTO DE GASES, QUE CONTIENEN SUSTANCIAS PELIGROSAS."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ESCORIAS DE LA PRODUCCIÓN PRIMARIA Y SECUNDARIA.",
+          "ESCORIAS  DE LA PRODUCCIÓN PRIMARIA Y SECUNDARIA."
+        ],
+        "to": "ESCORIAS DE LA PRODUCCIÓN PRIMARIA Y SECUNDARIA."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LODOS DEL TRATAMIENTO IN SITU DE EFLUENTES QUE CONTIENEN SUSTANCIAS PELIGROSAS.",
+          "LODOS DEL TRATAMIENTO IN SITU DE EFLUENTES QUE CONTIENEN SUSTANCIAS PELIGROSAS"
+        ],
+        "to": "LODOS DEL TRATAMIENTO IN SITU DE EFLUENTES QUE CONTIENEN SUSTANCIAS PELIGROSAS."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PAPEL Y CARTÓN",
+          "PAPEL Y CARTÓN."
+        ],
+        "to": "PAPEL Y CARTÓN"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PARTÍCULAS PROCEDENTES DE LOS EFLUENTES GASEOSOS, DISTINTAS DE LAS ESPECIFICADAS EN EL CÓDIGO 10 10 09.",
+          "PARTÍCULAS PROCEDENTES DE LOS EFLUENTES GASEOSOS, DISTINTAS DE LAS ESPECIFICADAS EN EL CÓDIGO 10 09 09."
+        ],
+        "to": "PARTÍCULAS PROCEDENTES DE LOS EFLUENTES GASEOSOS, DISTINTAS DE LAS ESPECIFICADAS EN EL CÓDIGO 10 10 09."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PRODUCTOS QUIMICOS QUE CONSISTEN EN, O CONTIENEN, SUSTANCIAS PELIGROSAS.",
+          "PRODUCTOS QUÍMICOS QUE CONSISTEN EN, O CONTIENEN SUSTANCIAS PELIGROSAS."
+        ],
+        "to": "PRODUCTOS QUIMICOS QUE CONSISTEN EN, O CONTIENEN, SUSTANCIAS PELIGROSAS."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MATERIALES INADECUADOS PARA EL CONSUMO O LA ELABORACIÓN.",
+          "MATERIALES INADECUADOS PARA  EL  CONSUMO O LA ELABORACIÓN."
+        ],
+        "to": "MATERIALES INADECUADOS PARA EL CONSUMO O LA ELABORACIÓN."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ARENAS DE LECHOS FLUIDIZADOS",
+          "ARENAS DE LECHOS FLUIDIZADOS."
+        ],
+        "to": "ARENAS DE LECHOS FLUIDIZADOS"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RESIDUOS QUE CONTIENEN MERCURIO.",
+          "RESIDUOS  QUE CONTIENEN MERCURIO."
+        ],
+        "to": "RESIDUOS QUE CONTIENEN MERCURIO."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GRANZAS Y ESPUMAS DE LA PRODUCCIÓN PRIMARIA Y SECUNDARIA.",
+          "GRANZAS Y ESPUMAS  DE LA PRODUCCIÓN PRIMARIA Y SECUNDARIA."
+        ],
+        "to": "GRANZAS Y ESPUMAS DE LA PRODUCCIÓN PRIMARIA Y SECUNDARIA."
+      }
+    ]
+  }
+]

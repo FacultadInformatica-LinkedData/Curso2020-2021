@@ -1,6 +1,6 @@
-#Hands-on assignment 2 – Self assessment#
+# Hands-on assignment 2 – Self assessment
 
-##Checklist##
+## Checklist
 
 **The “analysis.html” file:**
 
@@ -30,5 +30,5 @@
 - [ ] Does not define multiple domains or multiple ranges in properties
 - [ ] Contains at least one class that will be used to link to other entities
 
-##Comments on the self-assessment##
+## Comments on the self-assessment
 _(If required)_

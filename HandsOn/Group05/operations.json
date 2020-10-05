@@ -1,0 +1,249 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_X",
+    "description": "Remove column Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Gis_Y",
+    "description": "Remove column Gis_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha de Alta",
+    "description": "Remove column Fecha de Alta"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Longitud",
+    "index": 0,
+    "description": "Move column Longitud to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Latitud",
+    "index": 0,
+    "description": "Move column Latitud to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Longitud",
+    "index": 2,
+    "description": "Move column Longitud to position 2"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Latitud",
+    "index": 1,
+    "description": "Move column Latitud to position 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Calle",
+    "index": 4,
+    "description": "Move column Calle to position 4"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Calle",
+    "index": 3,
+    "description": "Move column Calle to position 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tipo de Reserva",
+    "description": "Remove column Tipo de Reserva"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Número de Plazas",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Número de Plazas using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Direccion",
+    "index": 7,
+    "description": "Move column Direccion to position 7"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Direccion",
+    "index": 6,
+    "description": "Move column Direccion to position 6"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Direccion",
+    "index": 5,
+    "description": "Move column Direccion to position 5"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Direccion",
+    "index": 4,
+    "description": "Move column Direccion to position 4"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:replace(value,value.split(' ')[-2],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:replace(value,value.split(' ')[-2],'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "grel:replace(value,value.split(' ')[-1],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression grel:replace(value,value.split(' ')[-1],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Calle",
+    "description": "Remove column Calle"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Direccion",
+    "newColumnName": "Calle",
+    "description": "Rename column Direccion to Calle"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nº Finca",
+    "description": "Remove column Nº Finca"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Número",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "020 ampliacion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "020 "
+      }
+    ],
+    "description": "Mass edit cells in column Número"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Número",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "090 ampliacion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "090 "
+      }
+    ],
+    "description": "Mass edit cells in column Número"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Número",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "128 ampliacion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "128 "
+      }
+    ],
+    "description": "Mass edit cells in column Número"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Número",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "140 ampliación"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "140 "
+      }
+    ],
+    "description": "Mass edit cells in column Número"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Número",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "161 ampliacion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "161 "
+      }
+    ],
+    "description": "Mass edit cells in column Número"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número de Plazas",
+    "newColumnName": "Numero de Plazas",
+    "description": "Rename column Número de Plazas to Numero de Plazas"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número",
+    "newColumnName": "Numero de Puesto",
+    "description": "Rename column Número to Numero de Puesto"
+  }
+]

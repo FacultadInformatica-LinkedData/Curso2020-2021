@@ -1,0 +1,931 @@
+[
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Descripcion Modelo",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "PC 3000 CAMPANA PE ADAPT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PC 3000 CAMPANA PE ADAPT"
+        }
+      ],
+      "description": "Mass edit cells in column Descripcion Modelo"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Descripcion Modelo",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "PC 3000 CAMPANA PE ADAPT"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PC 3000 CAMPANA PE ADAPT"
+        }
+      ],
+      "description": "Mass edit cells in column Descripcion Modelo"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Avenida"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "AVENIDA"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Camino",
+            "CAMINO"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "CAMINO"
+        },
+        {
+          "from": [
+            "GLORIETA",
+            "Glorieta"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "GLORIETA"
+        },
+        {
+          "from": [
+            "COLONIA",
+            "Colonia"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "COLONIA"
+        },
+        {
+          "from": [
+            "BULEVAR",
+            "Bulevar"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "BULEVAR"
+        },
+        {
+          "from": [
+            "Pasaje",
+            "PASAJE"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PASAJE"
+        },
+        {
+          "from": [
+            "CARRETERA",
+            "Carretera"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "CARRETERA"
+        },
+        {
+          "from": [
+            "TRAVESIA",
+            "Travesía"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "TRAVESIA"
+        },
+        {
+          "from": [
+            "Callejón",
+            "CALLEJON"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "CALLEJÓN"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Calle "
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "CALLE"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Parque"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PARQUE"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Paseo "
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PASEO"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Plaza "
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PLAZA"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Ronda "
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "RONDA"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Tipo Vía",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Vía"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VÍA"
+        }
+      ],
+      "description": "Mass edit cells in column Tipo Vía"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "PRINCIPAL",
+            "Principal"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PRINCIPAL"
+        },
+        {
+          "from": [
+            "VIA CARPETANA",
+            "Vía Carpetana"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VIA CARPETANA"
+        },
+        {
+          "from": [
+            "TOLEDO",
+            "Toledo"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "TOLEDO"
+        },
+        {
+          "from": [
+            "SEIS DE DICIEMBRE",
+            "Seis de Diciembre"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "SEIS DE DICIEMBRE"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Antonio Moreno"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ANTONIO MORENO"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "de Ancora",
+            " de Ancora"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de Ancora"
+        },
+        {
+          "from": [
+            "FORTUNA",
+            "FORTUNY"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "FORTUNA"
+        },
+        {
+          "from": [
+            "de Fernando Díaz de Mendoza",
+            " de Fernando Díaz de Mendoza"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de Fernando Díaz de Mendoza"
+        },
+        {
+          "from": [
+            "MONTECARMELO",
+            "MONTE CARMELO"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MONTECARMELO"
+        },
+        {
+          "from": [
+            "MENENDEZ PELAYO",
+            "MENENDEZ PELAYO"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "MENENDEZ PELAYO"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Virgen de las Viñas"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VIRGEN DE LAS VIÑAS"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Villa del Prado"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VILLA DEL PRADO"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Vieja de Pinto"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VIEJA DE PINTO"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Vía Lusitana"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VÍA LUSITANA"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Veinte Mercamadrid"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VEINTE MERCAMADRID"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Valderrebollo"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VALDERREBOLLO"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Uno Mercamadrid"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "UNO MERCAMADRID"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Turmalina"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "TURMALINA"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " Vallecas Villa"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "VALLECAS VILLA"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Astilleros"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ASTILLEROS"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " Alto de San Isidro"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ALTO DE SAN ISIDRO"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de Adra"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de Adra"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de Comillas"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de Comillas"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de la Suerte"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de la Suerte"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de la Venta del Pájaro"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de la Venta del Pájaro"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de las Cruces"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de las Cruces"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de las Hormigueras"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de las Hormigueras"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de los Talleres"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de los Talleres"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de Perales"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de Perales"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de San Isidro"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de San Isidro"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de Valderribas"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de Valderribas"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " de Vasares"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "de Vasares"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " del Pozo del Tío Raimundo"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "del Pozo del Tío Raimundo"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " Español"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ESPAÑOL"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " Río"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "RÍO"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " Segura"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "SEGURA"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Nombre",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "30"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "30"
+        }
+      ],
+      "description": "Mass edit cells in column Nombre"
+    }
+  ]

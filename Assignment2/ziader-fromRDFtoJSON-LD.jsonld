@@ -1,0 +1,26 @@
+{
+	"@context": {
+		"exe:":"http://example.org/",
+		"rdfs":"http://www.w3.org/2000/01/rdf-schema#"
+	},
+   "@id":"http://www.example.org/Class01",
+   "@type":"http://www.example.org/Class#",
+   "rdfs:includes":[{
+	  "@id":"http://www.example.org/Computers/Computer101",
+	  "@type":"http://www.example.org/Computers#",
+      "rdfs:hasOwner":{
+		"@id":":http://www.example.org/Users/User10A",
+	    "@type":"http://www.example.org/Users#",
+		"rdfs:hasName":"Pedro"
+	  },
+	  "@id":"http://www.example.org/Sensor029",
+	  "@type":"http://www.example.org/Sensors#",
+      "rdfs:hasMeasurement":{
+		"@id":"http://www.example.org/Measurements/Measurement8401",
+	    "@type":"http://www.example.org/Measurements#",
+		"rdfs:hasTemperature":"29",
+		"rdfs:atTime":"2010-06-12T12:00:12"
+	  }
+   }
+   ]
+}
