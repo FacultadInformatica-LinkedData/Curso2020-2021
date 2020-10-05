@@ -1,0 +1,8 @@
+select distinct ?p ?o
+where{
+  {
+    ?instance rdf:type <http://dbpedia.org/ontology/Politician> .
+    ?instance ?p ?o.
+    FILTER(?p != rdf:type).
+  }
+}
