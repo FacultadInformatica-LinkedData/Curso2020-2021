@@ -14,7 +14,9 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
 
-from rdflib import Graph, Namespace, Literal
+from rdflib import Graph, Namespace, Literal, XSD
+from rdflib import XSD
+
 from rdflib.namespace import RDF, RDFS
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
@@ -33,39 +35,43 @@ for s, p, o in g:
 print("\nTASK 6.1: Create a new class named \"University\"")
 
 g.add((ns.University, RDF.type, RDFS.Class))
-for t in g.triples((None, None, RDFS.Class)):
-  print(t)
+for s,o,p in g.triples((None, None, RDFS.Class)):
+  print(s,o,p)
 
 """**TASK 6.2: Add "Researcher" as a subclass of "Person"**"""
 print("\nTASK 6.2: Add \"Researcher\" as a subclass of \"Person\"")
 
 g.add((ns.Researcher, RDFS.subClassOf, ns.Person))
-for t in g.triples((None, RDFS.subClassOf, None)):
-  print(t)
+for s,o,p in g.triples((None, RDFS.subClassOf, None)):
+  print(s,o,p)
 
 """**TASK 6.3: Create a new individual of Researcher named "Jane Smith"**"""
 print("\nTASK 6.3: Create a new individual of Researcher named \"Jane Smith\"")
 
 g.add((ns.JaneSmith, RDF.type, ns.Researcher))
-for t in g.triples((None, None, ns.Researcher)):
-  print(t)
+for s,o,p in g.triples((None, None, ns.Researcher)):
+  print(s,o,p)
 
 """**TASK 6.4: Add to the individual JaneSmith the fullName, given and family names**"""
 print("\nTASK 6.4: Add to the individual JaneSmith the fullName, given and family names")
 
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#") 
-g.add((ns.JaneSmith, VCARD.FN, Literal("Jane Smith")))
-g.add((ns.JaneSmith, VCARD.Given, Literal("Jane")))
-g.add((ns.JaneSmith, VCARD.Family, Literal("Smith")))
-for t in g.triples((ns.JaneSmith, None, None)):
-  print(t)
+g.add((ns.JaneSmith, VCARD.FN, Literal("Jane Smith", datatype=XSD.string)))
+g.add((ns.JaneSmith, VCARD.Given, Literal("Jane", datatype=XSD.string)))
+g.add((ns.JaneSmith, VCARD.Family, Literal("Smith", datatype=XSD.string)))
+for s,o,p in g.triples((ns.JaneSmith, None, None)):
+  print(s,o,p)
 
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
 print("\nTASK 6.5: Add UPM as the university where John Smith works")
 
 g.add((ns.UPM, RDF.type, ns.University))
 g.add((ns.JohnSmith, RDF.type, ns.Person))
-g.add(ns.JohnSmith, VCARD.FN, Literal("John Smith"))
-g.add(ns.JohnSmith, VCARD.Given, Literal("John"))
-g.add(ns.JohnSmith, VCARD.Family, Literal("Smith"))
+g.add((ns.JohnSmith, VCARD.FN, Literal("John Smith", datatype=XSD.string)))
+g.add((ns.JohnSmith, VCARD.Given, Literal("John", datatype=XSD.string)))
+g.add((ns.JohnSmith, VCARD.Family, Literal("Smith", datatype=XSD.string)))
 g.add((ns.JohnSmith, ns.Work, ns.UPM))
+for s,o,p in g.triples((None, RDF.type, ns.University)):
+  print(s,o,p)
+for s,o,p in g.triples((ns.JohnSmith, ns.Work, None)):
+  print(s,o,p)
