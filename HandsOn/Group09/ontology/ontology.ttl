@@ -111,13 +111,6 @@ dbo:sex rdf:type owl:DatatypeProperty ;
                                                                    rdfs:comment "Name of the second street of the street crossing" .
 
 
-###  http://linkeddata.es/group09/ontology/TrafficAccident#hour
-<http://linkeddata.es/group09/ontology/TrafficAccident#hour> rdf:type owl:DatatypeProperty ;
-                                                             rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#Time> ;
-                                                             rdfs:range xsd:string ;
-                                                             rdfs:comment "Hour of an accident" .
-
-
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#hourInterval
 <http://linkeddata.es/group09/ontology/TrafficAccident#hourInterval> rdf:type owl:DatatypeProperty ;
                                                                      rdfs:domain <http://linkeddata.es/group09/ontology/TrafficAccident#Time> ;
