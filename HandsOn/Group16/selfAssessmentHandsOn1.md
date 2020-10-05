@@ -1,6 +1,6 @@
-#Hands-on assignment 1 – Self assessment#
+# Hands-on assignment 1 – Self assessment #
 
-##Checklist##
+## Checklist ##
 
 **The “README.md” file:**
 
@@ -21,5 +21,10 @@
 
 - [X] Includes a description of the application user interface
 
-##Comments on the self-assessment##
-_(If required)_
+## Comments on the self-assessment ##
+
+### v1
+* Datasets with range of the last decade included.
+* Preliminary requirements documents included.
+### v2
+* Update of the dataset requirements document _(R6)_.
