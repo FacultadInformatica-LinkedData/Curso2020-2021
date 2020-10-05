@@ -1,6 +1,6 @@
-#Hands-on assignment 2 – Self assessment#
+# Hands-on assignment 2 – Self assessment 
 
-##Checklist##
+## Checklist
 
 **Analyse the dataset and the license:**
 
@@ -15,5 +15,5 @@
 
 - [x] Develop a lightweight ontology that includes the classes and properties (with their domains and ranges) to be used with the dataset
 
-##Comments on the self-assessment##
+## Comments on the self-assessment
 The ttl file with the ontology is still in progress as we didn't know how to define different endpoints in Protegé. However, we tried to describe as good as possible what we want to end up having at the analysis.html file. 
