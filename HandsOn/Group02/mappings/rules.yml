@@ -1,0 +1,41 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://example.org#
+  
+mappings:
+  parkingSlots:
+    sources:
+      - [Parking_Slots-updated.csv~csv]
+    s: http://findyourparking.es/lcc/parking/$(Id)
+    po:
+      - [a, vocab:ParkingSlots]
+      - [vocab:Name,$(Name)]
+      - [vocab:StreetType,$(Street Type)]
+      - [vocab:StreetName,$(Street Name)]
+      - [vocab:Number,$(Number),xsd:integer]
+      - [vocab:PublicSlots,$(Public Slots),xsd:integer]
+      - [vocab:ResidentialSlots,$(Residential Slots),xsd:integer]
+      - [vocab:TotalSlots,$(Total Slots),xsd:integer]
+      - [vocab:Schedule,$(Schedule)]
+      - [vocab:Locality,$(Locality)]
+      - [vocab:Province,$(Province)]
+      - [vocab:PostalCode,$(Postal Code)]
+      - [vocab:Neighborhood,$(Neighborhood)]
+      - [vocab:District,$(District)]
+      - [vocab:CoordX,$(CoordX),xsd:integer]
+      - [vocab:CoordY,$(CoordY),xsd:integer]
+      - [vocab:Latitude,$(Latitude),xsd:integer]
+      - [vocab:Longitude,$(Longitude),xsd:integer]
+      - [vocab:Telephone,$(Telephone)]
+      - [vocab:Email,$(Email)]
+      - [vocab:URLMoreInfo,$(URLMoreInfo)]
+     
