@@ -29,7 +29,7 @@ ns = Namespace("http://somewhere#")
 # RDFLib
 print("RDFLib:")
 for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
-    print(s,p,o)
+    print(s)
 
 # SPARQL
 print("\nSPARQL:")
@@ -46,7 +46,7 @@ q = prepareQuery('''
 )
 
 for r in g.query(q):
-  print(r.Subject, RDFS.subClassOf, ns.Person)
+  print(r.Subject)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**"""
 print("\nTASK 7.2: List all individuals of \"Person\" with RDFLib and SPARQL (remember the subClasses)\n")
@@ -56,10 +56,10 @@ ns = Namespace("http://somewhere#")
 # RDFLib
 print("RDFLib:")
 for s,p,o in g.triples((None, RDF.type, ns.Person)):
-    print(s,p,o)
+    print(s)
 for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
     for i,j,k in g.triples((None, RDF.type, s)):
-        print(i,j,k)
+        print(i)
 
 # SPARQL
 print("\nSPARQL:")
@@ -80,7 +80,7 @@ q = prepareQuery('''
 )
 
 for r in g.query(q):
-  print(r)
+  print(r.Subject)
 
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**"""
 print("\nTASK 7.3: List all individuals of \"Person\" and all their properties including their class with RDFLib and SPARQL\n")
