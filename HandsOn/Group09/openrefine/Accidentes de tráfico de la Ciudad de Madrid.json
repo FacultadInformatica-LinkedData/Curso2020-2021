@@ -1349,5 +1349,22 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column URI-PERSONA using expression grel:value.replace('#','%')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "AUX-TIPO ACCIDENTE",
+    "description": "Remove column AUX-TIPO ACCIDENTE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nº  EXPEDIENTE",
+    "newColumnName": "N EXPEDIENTE",
+    "description": "Rename column Nº  EXPEDIENTE to N EXPEDIENTE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NÚMERO",
+    "newColumnName": "NUMERO",
+    "description": "Rename column NÚMERO to NUMERO"
   }
 ]
