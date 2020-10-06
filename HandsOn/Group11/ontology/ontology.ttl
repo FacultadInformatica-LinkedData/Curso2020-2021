@@ -57,12 +57,6 @@
     rdfs:domain :Schedule;
     rdfs:range xsd:string.
 
-## http://group11.com/isOpen
-
-:isOpen rdf:type owl:DatatypeProperty;
-    rdfs:domain :Schedule;
-    rdfs:range xsd:time.
-
 ## http://group11.com/itEnds
 
 :isOpen rdf:type owl:DatatypeProperty;

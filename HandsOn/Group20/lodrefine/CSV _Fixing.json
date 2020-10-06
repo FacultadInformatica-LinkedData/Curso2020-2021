@@ -1,0 +1,4119 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORARIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Días laborables:Lunes a jueves de 8:30 a 17 horas.Viernes de 8:30 a 14 horas. Julio y agosto: lunes a viernes de 8:30 a 14 horas. Avisos:Cerrada los sábados y los días 24 y 31 de diciembre.Los sábados no hay ningún registro abierto.El último tique podrá expedirse 15 minutos antes del horario de cierre, para poder atender a todas las personas en espera.Atención en otros idiomas y lenguaje de signos ver apartado 'Servicios'.",
+          "Días laborables:Lunes a jueves de 8:30 a 17 horas.Viernes de 8:30 a 14 horas. Julio y agosto: lunes a viernes de 8:30 a 14 horas. Avisos:Cerrada los sábados y los días 24 y 31 de diciembre.Los sábados no hay ningún registro abierto.El último tique podrá expedirse 15 minutos antes del horario de cierre, para poder atender a todas las personas en espera.Atención en otros idiomas y lenguaje de signos ver apartado Servicios.",
+          "Días laborables:Lunes a jueves de 8:30 a 17 horas.Viernes de 8:30 a 14 horas. Julio y agosto: lunes a viernes de 8:30 a 14 horas. Avisos:Cerrada los sábados y los días 24 y 31 de diciembre.Los sábados no hay ningún registro abierto.El último tique podrá expedirse 15 minutos antes del horario de cierre, para poder atender a todas las personas en espera.Atención en otros idiomas y lenguaje de signos ver apartado Servicios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Días laborables:Lunes a jueves de 8:30 a 17 horas.Viernes de 8:30 a 14 horas. Julio y agosto: lunes a viernes de 8:30 a 14 horas. Avisos:Cerrada los sábados y los días 24 y 31 de diciembre.Los sábados no hay ningún registro abierto.El último tique podrá expedirse 15 minutos antes del horario de cierre, para poder atender a todas las personas en espera.Atención en otros idiomas y lenguaje de signos ver apartado 'Servicios'."
+      },
+      {
+        "from": [
+          "De lunes a viernes: 9 a 21 horas. Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas.",
+          "Lunes a viernes: de 9 a 21 horas Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas",
+          "Lunes a viernes: de 9 a 21 horas Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "De lunes a viernes: 9 a 21 horas. Fines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas."
+      },
+      {
+        "from": [
+          "De lunes a viernes: De las 9:30 a las 14 horas.De las 15:30 a las 20 horas. Fines de semana (a partir del 19 de septiembre): De 9 a 14:30 horas. Horario sala de estudio: de 9:30 a 14 horas. Para usar esta sala de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia.",
+          "De lunes a viernes: De las 9:30 a las 14 horas.De las 15:30 a las 20 horas. Fines de semana (a partir del 19 de septiembre): De la 9 a las 14:30 horas. Horario sala de estudio: de 9:30 a 14 horas. Para usar esta sala de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia.",
+          "De lunes a viernes: De las 9:30 a las 14 horas.De las 15:30 a las 20 horas. Fines de semana (a partir del 19 de septiembre): De las 9 a las 14:30 horas.  Horario sala de estudio: de 9:30 a 14 horas. Para usar esta sala de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "De lunes a viernes: De las 9:30 a las 14 horas.De las 15:30 a las 20 horas. Fines de semana (a partir del 19 de septiembre): De 9 a 14:30 horas. Horario sala de estudio: de 9:30 a 14 horas. Para usar esta sala de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia."
+      },
+      {
+        "from": [
+          "Laborables de lunes a viernes de 8:30 a 14 horas.Cerrado el mes de agosto, los sábados y los días 24 y 31 de diciembre.      AVISO:   El último tique podrá expedirse 15 minutos antes del horario de cierre, a fin de poder atender a todas las personas en espera.Atención en otros idiomas y lenguaje de signos ver apartado 'Servicios'.Los sábados no hay abierto ningún registro.",
+          "Laborables de lunes a viernes de 8:30 a 14 horas.Cerrado el mes de agosto, los sábados y los días 24 y 31 de diciembre.   AVISO:   El último tique podrá expedirse 15 minutos antes del horario de cierre, a fin de poder atender a todas las personas en espera.Atención en otros idiomas y lenguaje de signos ver apartado 'Servicios'.Los sábados no hay abierto ningún registro."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Laborables de lunes a viernes de 8:30 a 14 horas.Cerrado el mes de agosto, los sábados y los días 24 y 31 de diciembre.      AVISO:   El último tique podrá expedirse 15 minutos antes del horario de cierre, a fin de poder atender a todas las personas en espera.Atención en otros idiomas y lenguaje de signos ver apartado 'Servicios'.Los sábados no hay abierto ningún registro."
+      },
+      {
+        "from": [
+          "De lunes a viernes, de 9 a 14 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.",
+          "De lunes a viernes, de 9 a 14 horas. Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "De lunes a viernes, de 9 a 14 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen."
+      },
+      {
+        "from": [
+          "Lunes a viernes: de 9 a 21 horasFines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas",
+          "De lunes a viernes de 9 a 21 horas.Fines de semana y festivos de 10 a 14 horas y de 16 a 21 horas."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lunes a viernes: de 9 a 21 horasFines de semana y festivos: de 10 a 14 horas y de 16 a 21 horas"
+      },
+      {
+        "from": [
+          "De lunes a viernes, 9:30 a 13:30 y de 17 a 19 horas.Agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen.",
+          "De lunes a viernes, de 9:30 a 13:30 y de 17 a 19 horas.Agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "De lunes a viernes, 9:30 a 13:30 y de 17 a 19 horas.Agosto cerrado.Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen."
+      },
+      {
+        "from": [
+          "De las 9:30 a las 14 horas.De las 15:30 a las 20 horas.",
+          "De las 9:30 a las 14 horas.De las 15:30 a las 20 horas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "De las 9:30 a las 14 horas.De las 15:30 a las 20 horas."
+      },
+      {
+        "from": [
+          "Invierno: de 9 a 20,30 horas.Verano: de 9 a 20 horas.",
+          "Invierno: de 9 a 20,30 horasVerano: de 9 a 20 horas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Invierno: de 9 a 20,30 horas.Verano: de 9 a 20 horas."
+      }
+    ],
+    "description": "Mass edit cells in column HORARIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Atención en otros idiomas: se realizará a través del sistema de videollamada en los siguientes horarios:  Lengua de signos española: 8:30 a 17 horas. Inglés, francés, rumano, árabe y chino mandarín: 8:30 a 14:15 horas. Zona wifi.",
+          "Atención en otros idiomas:  se realizará a través del sistema de videollamada en los siguientes horarios:  Lengua de signos española: 8:30 a 17 horas. Inglés, francés, rumano, árabe y chino mandarín: 8:30 a 14:15 horas. Zona wifi.",
+          "Atención en otros idiomas: se realizará a través del sistema de videollamada en los siguientes horarios: Lengua de signos española: 8:30 a 17 horas. Inglés, francés, rumano, árabe y chino mandarín: 8:30 a 14:15 horas. Zona wifi.",
+          "Atención en otros idiomas:  se realizará a través del sistema de videollamada en los siguientes horarios:  Lengua de signos española: 8:30 a 17 horas. Inglés, francés, rumano, árabe y chino mandarín: 8:30 a 14:15 horas. Zona Wifi.",
+          "Atención en otros idiomas: se realizará a través del sistema de videollamada en los siguientes horarios:  Lengua de signos española: 8:30 a 17 horas. Inglés, francés, rumano, árabe y chino mandarín: 8:30 a 14:15 horas. Zona wifi ."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Atención en otros idiomas: se realizará a través del sistema de videollamada en los siguientes horarios:  Lengua de signos española: 8:30 a 17 horas. Inglés, francés, rumano, árabe y chino mandarín: 8:30 a 14:15 horas. Zona wifi."
+      },
+      {
+        "from": [
+          "Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social.Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social.Información y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc. zona wifi",
+          "Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social.Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social.Información y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc. Zona wifi",
+          "Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social.Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social.Información y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc. Zona wifi.",
+          "Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención socialGestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción socialInformación y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc. Zona wifi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social.Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social.Información y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc. zona wifi"
+      },
+      {
+        "from": [
+          "Espacios: Sala de Consulta y Lectura; Zona de publicaciones periódicas; Sala infantil y juvenil. Servicios: Préstamo de libros, multimedia y revistas; Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros); Servicio de Acceso Público a Internet; Zona wifi; Información bibliográfica; Animación a la lectura; Formación de usuarios; Reprografía.Para usar la sala de lectura de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia o a través del 010.",
+          "Espacios: Sala de Consulta y Lectura;  Zona de publicaciones periódicas; Sala infantil y juvenil. Servicios: Préstamo de libros; multimedia y revistas; Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros); Servicio de Acceso Público a Internet; Zona wifi; Información bibliográfica; Animación a la lectura; Formación de usuarios; Reprografía.Para usar la sala de lectura de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia o a través del 010.",
+          "Espacios: Sala de Consulta y Lectura; Zona de publicaciones periódicas; Sala infantil y juvenil. Servicios: Préstamo de libros, multimedia y revistas; Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros); Servicio de acceso público a Internet; Zona wifi; Información bibliográfica; Animación a la lectura; Formación de usuarios; Reprografía.Para usar la sala de lectura de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia o a través del 010."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Espacios: Sala de Consulta y Lectura; Zona de publicaciones periódicas; Sala infantil y juvenil. Servicios: Préstamo de libros, multimedia y revistas; Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros); Servicio de Acceso Público a Internet; Zona wifi; Información bibliográfica; Animación a la lectura; Formación de usuarios; Reprografía.Para usar la sala de lectura de la biblioteca ha de pedir cita previa en www.madrid.es/citaprevia o a través del 010."
+      },
+      {
+        "from": [
+          "Equipamientos: Zona Wifi Servicios:  Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social.Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social.Información y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc.",
+          "Equipamientos: Zona Wifi Servicios: Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social.Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social.Información y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Equipamientos: Zona Wifi Servicios:  Información, orientación y asesoramiento sobre derechos y recursos sociales.Tramitación y gestión de servicios sociales municipales (ayudas a domicilio, teleasistencia, centros de día municipales, pisos tutelados, etc.) y prestaciones económicas necesarias en la intervención social.Gestión y tramitación de servicios y prestaciones de la Comunidad de Madrid (Dependencia, residencias de mayores, discapacitados, mujer, menores, etc.) Renta Mínima de Inserción (RMI) y diferentes prestaciones económicas de inserción social.Información y gestión de los programas de prevención dirigidos a menores, adolescentes, adultos, mayores, etc."
+      },
+      {
+        "from": [
+          "La atención en otros idiomas se realizará directamente en las oficinas por los gestores en los siguientes horarios: Lengua de signos española: 8:30 a 17 horas. Inglés y francés: 8:30 a 14:15 horas. Zona wifi.",
+          "La atención en otros idiomas se realizará directamente en las oficinas por los gestores en los siguientes horarios: Lengua de signos española: 8:30 a 17 horas. Inglés y francés: 8:30 a 14:15 horas. Zona Wifi."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La atención en otros idiomas se realizará directamente en las oficinas por los gestores en los siguientes horarios: Lengua de signos española: 8:30 a 17 horas. Inglés y francés: 8:30 a 14:15 horas. Zona wifi."
+      },
+      {
+        "from": [
+          "Zona wifi",
+          "Zona wifi."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zona wifi"
+      }
+    ],
+    "description": "Mass edit cells in column EQUIPAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wifi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zona wifi"
+      }
+    ],
+    "description": "Mass edit cells in column EQUIPAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Puestos de lectura: 72.Wifi."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Puestos de lectura: 72Zona wifi"
+      }
+    ],
+    "description": "Mass edit cells in column EQUIPAMIENTO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Barajas (línea 8).Bus: 101, 105, 115.",
+          "Metro: Barajas (línea 8)Bus: 101, 105, 115"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Barajas (línea 8).Bus: 101, 105, 115."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BUS: 10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 10"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BUS: 114, 115, 151"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 114, 115, 151"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BUS: 6, 8, 102, 19, 27, 45, 47, 55, 59, 85, 86, 247METRO: Delicias (Línea 3)CERCANÍAS-RENFE: Delicias y Atocha."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 6, 8, 102, 19, 27, 45, 47, 55, 59, 85, 86, 247METRO: Delicias (Línea 3)CERCANÍAS-RENFE: Delicias y Atocha."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 11, 53, 70, 120Metro: Arturo Soria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 11, 53, 70, 120Metro: Arturo Soria (línea 4)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 110, 113, 210Metro: La Elipa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 110, 113, 210Metro: La Elipa"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 110, 113, 210Metro: La Elipa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 110, 113, 210 Metro: La Elipa (línea 2)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 11, 53, 70, 120Metro: Arturo Soria (línea 4)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 11, 53, 70, 120 Metro: Arturo Soria (línea 4)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 119, 138.Metro: Alto de Extremadura (línea 6)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 119, 138 Metro: Alto de Extremadura (línea 6)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 138, 44, 1, 148, C1, C2Metro: Plaza de España"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 138, 44, 1, 148, C1, C2 Metro: Plaza de España (líneas 3,10)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 152, 20, 26, 63, C1, C2, 61Metro: Ibiza (línea 9)Bicimad: Estación 74 (Avenida Menéndez Pelayo, 73)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 152, 20, 26, 63, C1, C2, 61 Metro: Ibiza (línea 9) Bicimad: Estación 74 (Avenida Menéndez Pelayo, 73)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 26, 32, 6Metro: Tirso de Molina, Antón Martín"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 26, 32, 6 Metro: Tirso de Molina (línea 1), Antón Martín (Línea 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 28Metro: Ascao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 28 Metro: Ascao (Línea 7)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 4, 38, 48, 70, 106, 140 Metro: Alsacia (Línea 2)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 4, 38, 48, 70, 106, 140 Metro: Alsacia (Línea 2)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 6, 8, 102, 19, 27, 45, 47, 55, 59, 85, 86, 247METRO: Delicias (Línea 3)CERCANÍAS-RENFE: Delicias y Atocha."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 6, 8, 102, 19, 27, 45, 47, 55, 59, 85, 86, 247 Metro: Delicias (Línea 3) Renfe: Delicias y Atocha."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 78, 116  Metro: San Fermín - Orcasur Renfe: Orcasitas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 78, 116  Metro: San Fermín - Orcasur (Línea 3) Renfe: Orcasitas"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 82, 127, 64Metro: Valdezarza, Antonio Machado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 82, 127, 64 Metro: Valdezarza (Línea 7), Antonio Machado (Línea 7)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Alameda de Osuna  Bus: 105, 112, 115"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Alameda de Osuna (Línea 5) Bus: 105, 112, 115"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Alameda de Osuna (línea 5)Bus: 112, 114, 115, 166, 151, 101"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Alameda de Osuna (línea 5) Bus: 112, 114, 115, 166, 151, 101"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Almendrales (línea 3)Bus: 47, 247, 6, 78, 18, 22, 59, 76, 79, 85, 86, 23"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Almendrales (línea 3) Bus: 47, 247, 6, 78, 18, 22, 59, 76, 79, 85, 86, 23"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Alonso Martínez, Tribunal. Bus: 3, 21, 37, 40, 147, 149 BICIMAD: Estación 54 (Calle Barceló 7)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Alonso Martínez (Líneas 4, 5, 10), Tribunal (Líneas 1, 10). Bus: 3, 21, 37, 40, 147, 149 BICIMAD: Estación 54 (Calle Barceló 7)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Aluche (línea 5). Bus: 17, 139, H, 121, 131, 155. Cercanías Renfe: Fanjul (línea C5), Aluche (línea C5)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Aluche (línea 5) Bus: 17, 139, H, 121, 131, 155. Cercanías Renfe: Fanjul (línea C5), Aluche (línea C5)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Aluche (línea 5) Bus: 17, 139, H, 121, 131, 155. Cercanías Renfe: Fanjul (línea C5), Aluche (línea C5)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Aluche (Línea 5) Bus: 17, 139, H, 121, 131, 155. Cercanías Renfe: Fanjul (línea C5), Aluche (línea C5)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Antonio Machado (línea 7), Valdezarza (línea 7)Bus: 126, 127 y 132"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Antonio Machado (Línea 7), Valdezarza (línea 7)Bus: 126, 127 y 132"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Antón Martín (línea 1). Bus: 6, 26, 32. BICIMAD:Estación 41 (calle Atocha, 54).Estación 42 (calle Santa Isabel, 32)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Antón Martín (Línea 1). Bus: 6, 26, 32. BICIMAD:Estación 41 (calle Atocha, 54).Estación 42 (calle Santa Isabel, 32)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Artilleros (línea 9)Bus: 32, 71"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Artilleros (Línea 9)Bus: 32, 71"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: líneas 15, 28, 110, 113, 210 Metro: La Elipa (línea 2)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: líneas 15, 28, 110, 113, 210 Metro: La Elipa (Línea 2)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Alameda de Osuna (línea 5) Bus: 112, 114, 115, 166, 151, 101"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Alameda de Osuna (Línea 5) Bus: 112, 114, 115, 166, 151, 101"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Almendrales (línea 3) Bus: 47, 247, 6, 78, 18, 22, 59, 76, 79, 85, 86, 23"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Almendrales (Línea 3) Bus: 47, 247, 6, 78, 18, 22, 59, 76, 79, 85, 86, 23"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Artilleros (Línea 9)Bus: 32, 71"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Artilleros (Línea 9) Bus: 32, 71"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Arturo Soria (línea 4)Bus: 9, 72, 73"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Arturo Soria (Línea 4) Bus: 9, 72, 73"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ascao  Bus: 28, 109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ascao (Línea 7)  Bus: 28, 109"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Avenida de la Ilustración (línea 7)Bus: 49 , 64 , 67 , 83 , 133"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Avenida de la Ilustración (Línea 7) Bus: 49 , 64 , 67 , 83 , 133"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Aviación Española (línea 10).Bus: 17 y 34.Cercanías Renfe: Las Águilas (C5)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Aviación Española (línea 10) Bus: 17 y 34.Cercanías Renfe: Las Águilas (C5)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Aviación Española (línea 10) Bus: 17 y 34.Cercanías Renfe: Las Águilas (C5)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Aviación Española (Línea 10) Bus: 17 y 34.Cercanías Renfe: Las Águilas (C5)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.replace(\"línea\",\"Línea\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE using expression value.replace(\"línea\",\"Línea\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.replace(\"líneas\",\"Líneas\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE using expression value.replace(\"líneas\",\"Líneas\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Banco de EspañaTren: RecoletosBus: 001, 1, 146, 15, 2, 20, 203, 51, 52, 53, 74, 9, 34, 10, 14, 150, 27, 37, 45, 5, E1Aparcamiento: calle MontalbánAparcamiento para bicicletas: calle Montalbán, 1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Banco de España (Línea 2) Renfe: RecoletosBus: 001, 1, 146, 15, 2, 20, 203, 51, 52, 53, 74, 9, 34, 10, 14, 150, 27, 37, 45, 5, E1Aparcamiento: calle MontalbánAparcamiento para bicicletas: calle Montalbán, 1"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Banco de España (Línea 2).Autobuses: 27, 37, 45, 203, 16, 14,  E1Bicimad: Estación 86 (paseo del Prado 1)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Banco de España (Línea 2) Bus: 27, 37, 45, 203, 16, 14,  E1Bicimad: Estación 86 (paseo del Prado 1)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Barajas (Línea 8). Bus: 101, 105, 115."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Barajas (Línea 8) Bus: 101, 105, 115."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Barajas (Línea 8).Bus: 101, 105, 115."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Barajas (Línea 8) Bus: 101, 105, 115."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Barrio del Pilar (Línea 9), Peñagrande (Línea 7). Bus: 42, 132, 137, 126, 147."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Barrio del Pilar (Línea 9), Peñagrande (Línea 7) Bus: 42, 132, 137, 126, 147."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Barrio del Pilar (Línea 9).Bus: 49 , 83 , 128 , 132 , 137"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Barrio del Pilar (Línea 9) Bus: 49 , 83 , 128 , 132 , 137"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Barrio del Pilar, Peñagrande  Bus: 49, 83, 128, 132, 134, 137"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Barrio del Pilar (Línea 9), Peñagrande (Línea 7) Bus: 49, 83, 128, 132, 134, 137"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Barrio del PilarBus: 42, 49, 83, 128, 132, 134, 147"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Barrio del Pilar (Línea 9) Bus: 42, 49, 83, 128, 132, 134, 147"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Bilbao (Líneas 1 y 4), San Bernardo (Líneas 2 y 4), Alonso Martínez (Líneas 4, 5 y 10). Bus: 147, 40, 37, 149. BICIMAD: Estación 124 (calle Manuel Silvela, 20)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Bilbao (Líneas 1, 4), San Bernardo (Líneas 2, 4), Alonso Martínez (Líneas 4, 5, 10) Bus: 147, 40, 37, 149. BICIMAD: Estación 124 (calle Manuel Silvela, 20)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Blasco Ibáñez (Línea 1). Bus: 173."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Blasco Ibáñez (Línea 1) Bus: 173."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Buenos Aires, Portazgo (Línea 1)Bus: 54, 58, 103, 136, 141, 143"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Buenos Aires (Línea 1), Portazgo (Línea 1) Bus: 54, 58, 103, 136, 141, 143"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Campamento  Bus: 25, 36, 39, 65, 121, 131, 138, H"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Campamento (Línea 5) Bus: 25, 36, 39, 65, 121, 131, 138, H"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Canillas (Línea 4)Bus: 73, 120, 112, 153"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Canillas (Línea 4) Bus: 73, 120, 112, 153"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: CanillasBus: 73, 120, 122"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Canillas (Línea 4) Bus: 73, 120, 122"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Canillejas, Torre Arias (Línea 5). Bus: 77, 105, 140"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Canillejas (Línea 5), Torre Arias (Línea 5) Bus: 77, 105, 140"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ciudad Lineal  Bus: 4, 38, 48, 70, 77, 105, 109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ciudad Lineal (Línea 5) Bus: 4, 38, 48, 70, 77, 105, 109"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ciudad Lineal (Línea 5), Pueblo Nuevo (Líneas 5, 7)Bus: 38, 48, 70, 105, 4, 77, 109, 775"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ciudad Lineal (Línea 5), Pueblo Nuevo (Líneas 5, 7) Bus: 38, 48, 70, 105, 4, 77, 109, 775"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ciudad LinealBus: 4, 38, 48, 70, 109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ciudad Lineal (Línea 5) Bus: 4, 38, 48, 70, 109"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Colonia Jardín (Líneas 10, ML2, ML3).Bus: 65, H."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Colonia Jardín (Líneas 10, ML2, ML3) Bus: 65, H."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Concha Espina (Línea 9), Prosperidad (Línea 4), Cruz del Rayo (Línea 9)Bus: 16, 29, 52BICIMAD: Estación 147 (Avenida Doctor Arce, 45)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Concha Espina (Línea 9), Prosperidad (Línea 4), Cruz del Rayo (Línea 9) Bus: 16, 29, 52 BICIMAD: Estación 147 (Avenida Doctor Arce, 45)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ciudad Lineal (Línea 5). Bus: 38, 48, 70, 105, 4."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ciudad Lineal (Línea 5) Bus: 38, 48, 70, 105, 4."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Concha Espina, Prosperidad  Bus: 9, 16, 29, 52"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Concha Espina (Línea 9), Prosperidad (Línea 4) Bus: 9, 16, 29, 52"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Cruz del Rayo (Línea 9). Bus: 29, 52, 1. BICIMAD: Estación 146 ( calle María Francisca, 1)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Cruz del Rayo (Línea 9) Bus: 29, 52, 1 BICIMAD: Estación 146 ( calle María Francisca, 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ciudad Lineal (Línea 5) Bus: 4, 38, 48, 70, 77, 105, 109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ciudad Lineal (Línea 5) Bus: 4, 38, 48, 70, 77, 105, 109"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Cruz del Rayo (Línea 9)Bus: 29, 52, 1BICIMAD: Estación 146 (calle María Francisca, 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Cruz del Rayo (Línea 9) Bus: 29, 52, 1 BICIMAD: Estación 146 (calle María Francisca, 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Cuatro Caminos (Líneas 1, 2, 6)Bus: 3, 64, 66, 124, 128, 127"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Cuatro Caminos (Líneas 1, 2, 6) Bus: 3, 64, 66, 124, 128, 127"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Delicias (Línea 3), Palos de la Frontera (Línea 3).Bus: 6, 8, 19, 45, 47, 55, 59, 85, 86, 102.Renfe: Delicias, Atocha."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Delicias (Línea 3), Palos de la Frontera (Línea 3) Bus: 6, 8, 19, 45, 47, 55, 59, 85, 86, 102 Renfe: Delicias, Atocha."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Delicias (Línea 3)Bus: 8, 152, 102"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Delicias (Línea 3) Bus: 8, 152, 102"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Diego de León (Líneas 4 , 5 , 6)Bus: 1, 74, 48, 12, 43, 56, C1, C2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Diego de León (Líneas 4, 5, 6) Bus: 1, 74, 48, 12, 43, 56, C1, C2"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Diego de Leon (Líneas 4, 5 y 6)Bus: 1, 43, 48 y 74"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Diego de León (Líneas 4, 5, 6) Bus: 1, 43, 48 y 74"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Diego de León, Manuel Becerra Bus: 1, 12, 43, 48, 56, 74, Circular BICIMAD: Estación 193 (Avenida de los toreros 49)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Diego de León (Líneas 4, 5, 6), Manuel Becerra (Líneas 2, 6) Bus: 1, 12, 43, 48, 56, 74, Circular BICIMAD: Estación 193 (Avenida de los toreros 49)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Diego de LeónBus: 48"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Diego de León (Líneas 4, 5, 6) Bus: 48"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Diego de León (Líneas 4, 5, 6) Bus: 1, 43, 48 y 74"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Diego de León (Líneas 4, 5, 6) Bus: 1, 43, 48,  74"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: EstrechoBus: 3, 64, 66, 126, 128"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Estrecho (Línea 1) Bus: 3, 64, 66, 126, 128"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Eugenia de Montijo, Carabanchel  Bus: 34 , 35"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Eugenia de Montijo (Línea 5), Carabanchel (Línea 5) Bus: 34 , 35"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Francos Rodríguez  Bus: 44, 64, 126, 127, 128, 132"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Francos Rodríguez (Línea 7) Bus: 44, 64, 126, 127, 128, 132"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Francos Rodríguez (Línea 7)Bus: 64, 126, 127, 132, 44, 128"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Francos Rodríguez (Línea 7) Bus: 64, 126, 127, 132, 44, 128"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Fuencarral (Línea 10)Bus: 66, 137"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Fuencarral (Línea 10) Bus: 66, 137"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: García Noblejas (Línea 7)Bus: 105, 28, 4, 70"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: García Noblejas (Línea 7) Bus: 105, 28, 4, 70"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ibiza (Línea 9)Bus: 2, 15, 26, 61, 63, C1, 215, C2, 20, 152"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ibiza (Línea 9) Bus: 2, 15, 26, 61, 63, C1, 215, C2, 20, 152"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ibiza Bus: 20, 26, 63, 152 y Circular BICIMAD: Estación 69 (Avenida Alfonso XII n&amp;ordm; 54)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ibiza (Línea 9) Bus: 20, 26, 63, 152 y Circular BICIMAD: Estación 69 (Avenida Alfonso XII n&amp;ordm; 54)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: IbizaBus: 15, 20, 26, 61, 63, 152, 202, C"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ibiza (Línea 9) Bus: 15, 20, 26, 61, 63, 152, 202, C"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: La Elipa (Línea 2).Bus: 110, 113, 210, 15, 28"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: La Elipa (Línea 2) Bus: 110, 113, 210, 15, 28"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Laguna, Casa de Campo, Aluche RENFE: Laguna, Aluche  Bus: 25, 31, 138"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Laguna (Línea 6), Casa de Campo (Líneas 5, 10), Aluche (Línea 5) Renfe: Laguna, Aluche Bus: 25, 31, 138"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Las Musas  Bus: 38, 48, 140, 153  Autobuses interurbanos: 286, 288, 289"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Las Musas (Línea 7) Bus: 38, 48, 140, 153  Autobuses interurbanos: 286, 288, 289"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Las Musas (Línea 7). Bus: 38, 140."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Las Musas (Línea 7) Bus: 38, 140."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Latina , Tirso de Molina Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Latina (Línea 5), Tirso de Molina (Línea 1) Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Latina (Línea 5), Tirso de Molina (Línea 1) Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Latina (Línea 5), Tirso de Molina (Línea 1) Bus: 3, 17, 18, 23, 35, 60, 65, 148 BICIMAD: Estación 38 (Carrera de San Francisco 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Lavapiés (Línea 3).Bus: M1BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lavapiés (Línea 3) Bus: M1BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Lavapiés (Línea 3) Bus: M1BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Legazpi (Líneas 3 y 6).Bus: 148, 156, 180, 62, T32, 45, 8, 123, 22, 79, 19, 247, 47, 59, 76, 85, 86BICIMAD: Estación 177 (Bolivar, 3)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Legazpi (Líneas 3, 6) Bus: 148, 156, 180, 62, T32, 45, 8, 123, 22, 79, 19, 247, 47, 59, 76, 85, 86 BICIMAD: Estación 177 (Bolivar, 3)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Legazpi (Líneas 3, 6). Bus: 6, 18, 78, 148, 62. BICIMAD: Estación 165 (Paseo de la Chopera, 14)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Legazpi (Líneas 3, 6) Bus: 6, 18, 78, 148, 62 BICIMAD: Estación 165 (Paseo de la Chopera, 14)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Legazpi (Líneas 3, 6)Bus: 148, 18, 6, 78, 62BICIMAD: Estación 165 (Paseo Chopera, 14)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Legazpi (Líneas 3, 6) Bus: 148, 18, 6, 78, 62BICIMAD: Estación 165 (Paseo Chopera, 14)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Legazpi (Líneas 3, 6)Bus: 62, 6, 78, 148BICIMAD: Estación 165 (Paseo Chopera, 14)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Legazpi (Líneas 3, 6) Bus: 62, 6, 78, 148 BICIMAD: Estación 165 (Paseo Chopera, 14)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: LegazpiBus: 6, 8, 18, 19, 22, 45, 47, 76, 78, 79, 85, 86, 88, 123, 148, 247"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Legazpi (Líneas 3, 6) Bus: 6, 8, 18, 19, 22, 45, 47, 76, 78, 79, 85, 86, 88, 123, 148, 247"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Lucero (Línea 6), Batán (Línea 10).Bus: 33, 36, 39, 65."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lucero (Línea 6), Batán (Línea 10) Bus: 33, 36, 39, 65."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Lucero y Laguna (Línea 6).Bus: 55.Cercanías Renfe: Laguna (Línea C5)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lucero (Línea 6), Laguna (Línea 6) Bus: 55 Renfe: Laguna (Línea C5)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Lucero (Línea 6), Laguna (Línea 6) Bus: 55 Renfe: Laguna (Línea C5)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lucero (Línea 6), Laguna (Línea 6) Bus: 55 Renfe: Laguna (Línea C5)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: LuceroBus: 31, 55, 119, 138."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lucero Bus: 31, 55, 119, 138."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Lucero Bus: 31, 55, 119, 138."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Lucero (Línea 6) Bus: 31, 55, 119, 138."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Manoteras (Línea 4)Bus: 129, 29 y 7"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Manoteras (Línea 4) Bus: 129, 29, 7"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6 y 11)Bus: 116, 55, 60, E1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Marqués de Vadillo Bus: 34, 35, 50, 118 y 119."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Marqués de Vadillo (Línea 5) Bus: 34, 35, 50, 118, 119"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Méndez Álvaro (Línea 6)Bus: 102, 113 148Cercanías RENFE: Méndez Álvaro (Líneas C1, C5, C7, C10)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Méndez Álvaro (Línea 6) Bus: 102, 113 148 Renfe: Méndez Álvaro (Líneas C1, C5, C7, C10)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Metro Nueva Numancia (salida Sierra Carbonera), Portazgo (Línea 1)Bus: 10, 54, 57, 58, 136"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Nueva Numancia (Línea 1), Portazgo (Línea 1) Bus: 10, 54, 57, 58, 136"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Miguel Hernández (Línea 1)Bus: 10, 57, 144 y 310"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Miguel Hernández (Línea 1) Bus: 10, 57, 144 y 310"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Moncloa (Intercambiador)Bus: 74, 21, 62"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Moncloa (Líneas 3, 6) Bus: 74, 21, 62"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Moncloa (Líneas 3, 6). Bus: A, 161, 160, 162, 62, 1, 44, C2, 82, 132, 138, 83, 133, C1. BICIMAD: Estación 110 (Paseo Moret, 2)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Moncloa (Líneas 3, 6) Bus: A, 161, 160, 162, 62, 1, 44, C2, 82, 132, 138, 83, 133, C1 BICIMAD: Estación 110 (Paseo Moret, 2)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Moncloa (Líneas 3, 6).Bus: A. 161, 160 ,162, 62, 133, 83, 1, 132, 138, 44, 82, C2, C1.BICIMAD: Estación 110 (paseo Moret, 2).Estación 111 a y b (calle Arcipreste de Hita, 12)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Moncloa (Líneas 3, 6) Bus: A. 161, 160 ,162, 62, 133, 83, 1, 132, 138, 44, 82, C2, C1 BICIMAD: Estación 110 (paseo Moret, 2).Estación 111 a y b (calle Arcipreste de Hita, 12)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Nueva Numancia  Bus: 10, 24, 54, 57, 58, 111, 136, 310"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Nueva Numancia (Línea 1) Bus: 10, 24, 54, 57, 58, 111, 136, 310"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Nueva Numancia (Línea 1), Puente de Vallecas (Línea 1). Bus: 54, 57, 58, 111, 136, 310."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Nueva Numancia (Línea 1), Puente de Vallecas (Línea 1) Bus: 54, 57, 58, 111, 136, 310"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Nueva Numancia, Portazgo (Línea 1)Bus: 10, 24, 57, 103, 111, 310"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Nueva Numancia (Línea 1), Portazgo (Línea 1) Bus: 10, 24, 57, 103, 111, 310"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: OpañelBus: 47, 55"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Opañel (Línea 6) Bus: 47, 55"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ópera (Líneas 2, 5 y R)Autobús: Líneas 3, 31, 30 y 65Bicimad: Estación 9 (Plaza de San Miguel, 9)Estación 35 (Plaza del Cordón, 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ópera (Líneas 2, 5, R) Bus: Líneas 3, 31, 30 y 65 BICIMAD: Estación 9 (Plaza de San Miguel, 9)Estación 35 (Plaza del Cordón, 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Oporto (Líneas 5, 6) , Opañel (Línea 6)Bus: 55, 81, 108, 118, 81, 247, 34, 35"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Oporto (Líneas 5, 6), Opañel (Línea 6) Bus: 55, 81, 108, 118, 81, 247, 34, 35"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Pacífico (Líneas 1, 6). Bus: 24, 37, 54, 57, 141."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pacífico (Líneas 1, 6) Bus: 24, 37, 54, 57, 141."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Pacífico (Líneas 1, 6) Bus: 24, 37, 54, 57, 141."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pacífico (Líneas 1, 6) Bus: 24, 37, 54, 57, 141"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Palos de la Frontera (Línea 3).Bus: 19, 247, 45, 47, 8, 86, 55, 6, E1, 59, 85.Cercanías RENFE: Delicias (Líneas C1, C7, C10).Bicimad: Estación 120 (calle Palos de la Frontera, 40)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Palos de la Frontera (Línea 3) Bus: 19, 247, 45, 47, 8, 86, 55, 6, E1, 59, 85 Cercanías Renfe: Delicias (Líneas C1, C7, C10) BICICMAD: Estación 120 (calle Palos de la Frontera, 40) "
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Palos de la Frontera (Línea 3)Bus: 19, 247, 45, 47, 8, 86, 55, 6, E1, 59, 85.BICIMAD: Estación 120 (calle Palos de la Frontera, 40)Cercanías Renfe: Delicias (Líneas C1, C7, C10, Regional)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Palos de la Frontera (Línea 3) Bus: 19, 247, 45, 47, 8, 86, 55, 6, E1, 59, 85 BICIMAD: Estación 120 (calle Palos de la Frontera, 40) Renfe: Delicias (Líneas C1, C7, C10, Regional)."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Parque de Santa María  Bus: 9, 72, 107, 201"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Parque de Santa María (Línea 4) Bus: 9, 72, 107, 201"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Parque de Santa María (Línea 4)Bus: 72, 87, 107"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Parque de Santa María (Línea 4) Bus: 72, 87, 107"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Pavones (Línea 9). Bus: 142, 144, 8, 20, 32."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Pavones (Línea 9)Bus: 142, 144, 8, 20, 32"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Pirámides (Línea 5). Bus: 18, 23, 34, 35, 36, 116, 118, 119  Renfe: Pirámides BICIMAD: Estación 162 (Paseo de los Olmos 28)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pirámides (Línea 5) Bus: 18, 23, 34, 35, 36, 116, 118, 119  Renfe: Pirámides BICIMAD: Estación 162 (Paseo de los Olmos 28)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Pirámides (Línea 5) Bus: 18, 23, 34, 35, 36, 116, 118, 119  Renfe: Pirámides BICIMAD: Estación 162 (Paseo de los Olmos 28)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Pirámides (Línea 5) Bus: 18, 23, 34, 35, 36, 116, 118, 119  Renfe: Pirámides BICIMAD: Estación 162 (Paseo de los Olmos 28)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Plaza de Castilla , Duque de Pastrana  Bus: 70, 107, 129, 174"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Plaza de Castilla (Líneas 1, 9, 10) , Duque de Pastrana (Línea 9) Bus: 70, 107, 129, 174"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Plaza Elíptica (Línea 6)Bus: 6, 60, 81"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Plaza Elíptica (Línea 6) Bus: 6, 60, 81"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Portazgo (Línea 1)Bus: 57, 103, 111, 144 y 310"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Portazgo (Línea 1) Bus: 57, 103, 111, 144 y 310"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Portazgo, Buenos Aires (Línea 1) Bus: 54, 57, 58, 103, 136, 141, 143"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Portazgo (Línea 1), Buenos Aires (Línea 1) Bus: 54, 57, 58, 103, 136, 141, 143"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Prosperidad (Línea 4), Alfonso XIII (Línea 4) Bus: 9 , 43 , 72 , 73 y 122"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Prosperidad (Línea 4), Alfonso XIII (Línea 4) Bus: 9 , 43 , 72 , 73 y 122"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Prosperidad (Línea 4), Alfonso XIII (Línea 4).Bus: 72, 9, 73."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Prosperidad (Línea 4), Alfonso XIII (Línea 4) Bus: 72, 9, 73."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Puente de Vallecas (Línea 1) , Mendez Álvaro (Línea 6)Bus: 113, 148Cercanías RENFE: Mendez Álvaro Estación Sur (Líneas C1, C5, C7, C10, Regional)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Puente de Vallecas (Línea 1), Mendez Álvaro (Línea 6) Bus: 113, 148 Renfe: Mendez Álvaro Estación Sur (Líneas C1, C5, C7, C10, Regional)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Puente de Vallecas (Línea 1), Nueva Numancia (Línea 1). Bus: 54, 57, 58, 136, 10, 24, 111, 310, 8, 113, 141."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Puente de Vallecas (Línea 1), Nueva Numancia (Línea 1) Bus: 54, 57, 58, 136, 10, 24, 111, 310, 8, 113, 141."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Puerta de Toledo (Línea 5).Bus: 3, 60, 148, 17, 18, 23, 35, C1, C2, 41BICIMAD: Estación 45 (Glorieta Puerta de Toledo, 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Puerta de Toledo (Línea 5) Bus: 3, 60, 148, 17, 18, 23, 35, C1, C2, 41 BICIMAD: Estación 45 (Glorieta Puerta de Toledo, 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Quevedo (Línea 2)Bus: 2, 16, 61BICIMAD: Estación 127 (calle Fernando el Católico, 19)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Quevedo (Línea 2) Bus: 2, 16, 61 BICIMAD: Estación 127 (calle Fernando el Católico, 19)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Retiro (Línea 2)Bus: 2, 20, 28BICIMAD: Estación 102 (calle Alcalá, 95), estación 60 (Plaza Independencia, 6)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Retiro (Línea 2) Bus: 2, 20, 28 BICIMAD: Estación 102 (calle Alcalá, 95), estación 60 (Plaza Independencia, 6)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ríos RosasBus: 3, 37, 149"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ríos Rosas (Línea 1) Bus: 3, 37, 149"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Bernardo , Ventura Rodríguez, Plaza de España, Noviciado Bus: 1, 2, 7, 21, 44, 74, 147, Circular, Minibus M-2 Bicimad: Estación 13. Calle Conde Duque n&amp;ordm;22."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Bernardo (Línea 2), Ventura Rodríguez (Línea 3), Plaza de España (Líneas 3, 10), Noviciado (Línea 2) Bus: 1, 2, 7, 21, 44, 74, 147, Circular, Minibus M-2 BICIMAD: Estación 13. Calle Conde Duque 22."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Bernardo (Línea 2), Ventura Rodríguez (Línea 3), Plaza de España (Líneas 3, 10), Noviciado (Línea 2) Bus: 1, 2, 7, 21, 44, 74, 147, Circular, Minibus M-2 BICIMAD: Estación 13. Calle Conde Duque 22."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Bernardo (Línea 2), Ventura Rodríguez (Línea 3), Plaza de España (Líneas 3, 10), Noviciado (Línea 2) Bus: 1, 2, 7, 21, 44, 74, 147, Circular, Minibus M-2 BICIMAD: Estación 13. Calle Conde Duque 22"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Cipriano (Línea 9). Bus: 4, 106, E3."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Cipriano (Línea 9) Bus: 4, 106, E3"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Cristóbal (Línea 3)Bus: 59, 79,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Cristóbal (Línea 3) Bus: 59, 79"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Fermín - Orcasur (Línea 3)Bus: 23, 78, 123"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Fermín - Orcasur (Línea 3) Bus: 23, 78, 123"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Francisco (Línea 11)Bus: 108"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Francisco (Línea 11) Bus: 108"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: San Lorenzo (Línea 4)Bus: 9, 72, 87, 107"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: San Lorenzo (Línea 4) Bus: 9, 72, 87, 107"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Simancas (Línea 7)Bus: 4, 38, 48, 70 y 109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Simancas (Línea 7) Bus: 4, 38, 48, 70 y 109"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Sol, Latina y Ópera Bus: 3, 17, 18, 23, 31, 50, 65 Renfe: Sol BICIMAD: Estación 35 (Plaza del Cordón 1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Sol (Líneas 1, 2, 3), La Latina (Línea 5), Ópera (Líneas 2, 5, R) Bus: 3, 17, 18, 23, 31, 50, 65 Renfe: Sol BICIMAD: Estación 35 (Plaza del Cordón 1)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Tetuán (Línea 1)Bus: 66, 124"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Tetuán (Línea 1) Bus: 66, 124"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Torres Arias y Canillejas (Línea 5)Bus: 77, 140"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Torres Arias (Línea 5), Canillejas (Línea 5) Bus: 77, 140"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Tren Ligero de Vicente Blasco Ibáñez y Virgen del Cortijo Bus: 174, 173, 172L, 172 SF."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Vicente Blasco Ibáñez (Línea ML1 ), Virgen del Cortijo (Línea ML1) Bus: 174, 173, 172L, 172 SF."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Tribunal, Bilbao y Alonso Martínez. Bus: 3, 21, 37, 40, 147 y 149. BICIMAD: Estación 54 (Calle Barceló 7) Aparcamiento público: Barceló."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Tribunal (Línea 1, 10), Bilbao (Línea 1,4), Alonso Martínez (Línea 4, 5, 10) Bus: 3, 21, 37, 40, 147 y 149. BICIMAD: Estación 54 (Calle Barceló 7) Aparcamiento público: Barceló."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Usera (Línea 6)Bus: 47, 247, 6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Usera (Línea 6) Bus: 47, 247, 6"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Usera (Línea 6)Bus: 55, 60"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Usera (Línea 6) Bus: 55, 60"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Valdeacederas (Línea 1). Bus: 49, 66, 124."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Valdeacederas (Línea 1) Bus: 49, 66, 124."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Valdeacederas (Línea 1)Bus: 49 , 66, 124"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Valdeacederas (Línea 1) Bus: 49 , 66, 124"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Valdebernardo  Bus: 8, 71, 130"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Valdebernardo (Línea 9) Bus: 8, 71, 130"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: ValdebernardoBus: 8, 71, 130, N8"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Valdebernardo (Línea 9) Bus: 8, 71, 130, N8"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Valdezarza y Antonio Machado (Línea 7).Bus: 127, 132, 126."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Valdezarza (Línea 7), Antonio Machado (Línea 7) Bus: 127, 132, 126."
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Velázquez (Línea 4), Serrano (Línea 4). Bus: 1 , 9 , 19 , 51, 74. BICIMAD: Estación 87 (calle Ayala, 44)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Velázquez (Línea 4), Serrano (Línea 4) Bus: 1 , 9 , 19 , 51, 74 BICIMAD: Estación 87 (calle Ayala, 44)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ventas (Líneas 2, 5)Bus: 21, 53, 38, 106, 110, 146, 210"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ventas (Líneas 2, 5) Bus: 21, 53, 38, 106, 110, 146, 210"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: VentasBus: 12, 21, 38, 53, 106, 110, 146"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ventas (Línea 2,5) Bus: 12, 21, 38, 53, 106, 110, 146"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ventas (Línea 2,5) Bus: 12, 21, 38, 53, 106, 110, 146"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ventas (Líneas 2,5) Bus: 12, 21, 38, 53, 106, 110, 146"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ventilla (Línea 9)Bus: 177, 42"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ventilla (Línea 9) Bus: 177, 42"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ventilla Bus: 42"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ventilla (Línea 9) Bus: 42"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ventura Rodríguez (Línea 3), San Bernardo (Línea 2 y 4) y Noviciado (Línea 2).Bus: 002Bicimad: Estación 13 (calle Conde Duque, 22)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ventura Rodríguez (Línea 3), San Bernardo (Líneas 2, 4), Noviciado (Línea 2) Bus: 002 BICIMAD: Estación 13 (calle Conde Duque, 22)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Ventura Rodríguez, Plaza de España, San Bernardo y Noviciado. Bus: 1, 2, 7, 21, 44, 74, 147, Circular, Minibús M-2 BICIMAD: Estación 13 (calle Conde Duque 22)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Ventura Rodríguez (Línea 3), Plaza de España (Líneas 3, 10), San Bernardo (Línea 2),  Noviciado (Línea 2) Bus: 1, 2, 7, 21, 44, 74, 147, Circular, Minibús M-2 BICIMAD: Estación 13 (calle Conde Duque 22)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Vicálvaro  Bus: 4, 100, 106, 130  Renfe: Vicálvaro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Vicálvaro (Línea 9) Bus: 4, 100, 106, 130  Renfe: Vicálvaro"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Vicente Blasco Ibáñez (Línea ML1 ), Virgen del Cortijo (Línea ML1) Bus: 174, 173, 172L, 172 SF."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Vicente Blasco Ibáñez (Línea ML1 ), Virgen del Cortijo (Línea ML1) Bus: 174, 173, 172L, 172 SF"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Villa de Vallecas (Línea 1). Bus: 143, 54, 58, 103, 142."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Villa de Vallecas (Línea 1). Bus: 143, 54, 58, 103, 142"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Villaverde Bajo Cruce (Línea 3)Bus: 59 , 79 , 85 , 123Renfe: Villaverde Bajo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Villaverde Bajo Cruce (Línea 3) Bus: 59, 79, 85, 123 Renfe: Villaverde Bajo"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Villaverde Bajo CruceBus: 59, 79, 85, 123"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Villaverde Bajo Cruce (Línea 3) Bus: 59, 79, 85, 123"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Vinateros  Bus: 20, 30, 32, 71, 113"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Vinateros (Línea 9) Bus: 20, 30, 32, 71, 113"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Vistalegre (Línea 5). Bus: 34, 35."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Vistalegre (Línea 5) Bus: 34, 35"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metro: Vinateros (Línea 9)Bus: 71, 30, 32"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metro: Vinateros (Línea 9) Bus: 71, 30, 32"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renfe: El PozoBus: 24, 102, 103, 310"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renfe: El Pozo Bus: 24, 102, 103, 310"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bus: 119, 138 Metro: Alto de Extremadura (Línea 6)."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bus: 119, 138 Metro: Alto de Extremadura (Línea 6)"
+      }
+    ],
+    "description": "Mass edit cells in column TRANSPORTE"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE",
+          "expression": "value",
+          "columnName": "TRANSPORTE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1",
+                "l": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32",
+                "l": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)",
+                "l": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.replace(\"Bicimad\",\"BICIMAD\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE using expression value.replace(\"Bicimad\",\"BICIMAD\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE",
+          "expression": "value",
+          "columnName": "TRANSPORTE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1",
+                "l": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32",
+                "l": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)",
+                "l": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.replace(\"RENFE\",\"Renfe\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE using expression value.replace(\"RENFE\",\"Renfe\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE",
+          "expression": "value",
+          "columnName": "TRANSPORTE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1",
+                "l": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32",
+                "l": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)",
+                "l": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.replace(\"Cercanías Renfe\",\"Renfe\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE using expression value.replace(\"Cercanías Renfe\",\"Renfe\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TRANSPORTE",
+          "expression": "value",
+          "columnName": "TRANSPORTE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1",
+                "l": "Metro: Marqués de Vadillo (Línea 5), Plaza Elíptica (Línea 6, 11) Bus: 116, 55, 60, E1"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32",
+                "l": "Metro: Pavones (Línea 9) Bus: 142, 144, 8, 20, 32"
+              }
+            },
+            {
+              "v": {
+                "v": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)",
+                "l": "Metro: Lavapiés (Línea 3) Bus: M1 BICIMAD: Estación 43 (calle Lavapiés, 34-36)Estación 53 (calle Valencia, 1)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.replace(\"Cercanías RENFE\",\"Renfe\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE using expression value.replace(\"Cercanías RENFE\",\"Renfe\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Consulte las oficinas de Línea Madrid.",
+          "Consulte las oficinas de Línea Madrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Consulte las oficinas de Línea Madrid."
+      }
+    ],
+    "description": "Mass edit cells in column DESCRIPCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FRANCOS RODRIGUEZ",
+          "FRANCOS RODRíGUEZ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FRANCOS RODRIGUEZ"
+      }
+    ],
+    "description": "Mass edit cells in column NOMBRE-VIA"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUM",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUM using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PUERTA",
+    "description": "Remove column PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ESCALERAS",
+    "description": "Remove column ESCALERAS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ORIENTACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Y 10",
+          "y 10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Y 10"
+      }
+    ],
+    "description": "Mass edit cells in column ORIENTACION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGO-POSTAL",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CODIGO-POSTAL using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADA-Y",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADA-Y using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADA-X",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADA-X using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TELEFONO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TELEFONO using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FAX",
+    "description": "Remove column FAX"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "COORDENADA-X",
+    "expression": "grel:value+\" - \"+cells[\"COORDENADA-Y\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "COORDENADAS",
+    "columnInsertIndex": 21,
+    "description": "Create column COORDENADAS at index 21 based on column COORDENADA-X using expression grel:value+\" - \"+cells[\"COORDENADA-Y\"].value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "COORDENADAS",
+    "index": 22,
+    "description": "Move column COORDENADAS to position 22"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADAS",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADAS using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADAS",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADAS using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "EMAIL",
+    "expression": "grel:value+\" / \"+cells[\"TELEFONO\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "CONTACTO",
+    "columnInsertIndex": 27,
+    "description": "Create column CONTACTO at index 27 based on column EMAIL using expression grel:value+\" / \"+cells[\"TELEFONO\"].value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LATITUD",
+    "expression": "grel:value+\" , \"+cells[\"LONGITUD\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "COORDENADAS GEOGRÁFICAS",
+    "columnInsertIndex": 24,
+    "description": "Create column COORDENADAS GEOGRÁFICAS at index 24 based on column LATITUD using expression grel:value+\" , \"+cells[\"LONGITUD\"].value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "COORDENADAS GEOGRÁFICAS",
+    "index": 25,
+    "description": "Move column COORDENADAS GEOGRÁFICAS to position 25"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PK",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "SpaceURI",
+    "columnInsertIndex": 1,
+    "description": "Create column SpaceURI at index 1 based on column PK using expression grel:value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PK",
+    "newColumnName": "SPACE",
+    "description": "Rename column PK to SPACE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "SpaceURI",
+    "newColumnName": "EDIFICIOURI",
+    "description": "Rename column SpaceURI to EDIFICIOURI"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "SPACE",
+    "newColumnName": "EDIFICIO",
+    "description": "Rename column SPACE to EDIFICIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EDIFICIO",
+    "newColumnName": "PK",
+    "description": "Rename column EDIFICIO to PK"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EDIFICIOURI",
+    "newColumnName": "PKURI",
+    "description": "Rename column EDIFICIOURI to PKURI"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADAS",
+    "expression": "value.replace(\" - \",\" , \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADAS using expression value.replace(\" - \",\" , \")"
+  }
+]
