@@ -8,8 +8,8 @@
 <http://findyourparking.es/lcc/parking/13470> <http://example.org#CoordY> "4475560"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13470> <http://example.org#Latitude> "40.426687899755734"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13470> <http://example.org#Longitude> "-3.6996173701222492"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13470> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13470> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13470> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13470> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13470> <http://example.org#StreetName> "Barcelo".
@@ -71,8 +71,8 @@
 <http://findyourparking.es/lcc/parking/13475> <http://example.org#CoordY> "4478822"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13475> <http://example.org#Latitude> "40.45610834965894"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13475> <http://example.org#Longitude> "-3.694131675088486"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13475> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13475> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13475> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13475> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13475> <http://example.org#StreetName> "General Yagüe".
@@ -92,8 +92,8 @@
 <http://findyourparking.es/lcc/parking/183747> <http://example.org#CoordY> "4473355"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/183747> <http://example.org#Latitude> "40.406792648617134"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/183747> <http://example.org#Longitude> "-3.7046086019457167"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/183747> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/183747> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/183747> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/183747> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/183747> <http://example.org#StreetName> "Casino".
@@ -113,8 +113,8 @@
 <http://findyourparking.es/lcc/parking/13477> <http://example.org#CoordY> "4477874"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13477> <http://example.org#Latitude> "40.44938567948415"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13477> <http://example.org#Longitude> "-3.7019164121880888"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13477> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13477> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13477> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13477> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13477> <http://example.org#StreetName> "Condesa de Gavia".
@@ -160,7 +160,7 @@
 <http://findyourparking.es/lcc/parking/81736> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/81736> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/81736> <http://example.org#StreetName> "Pérez de Victoria".
-<http://findyourparking.es/lcc/parking/81736> <http://example.org#Number> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/81736> <http://example.org#PublicSlots> "120"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/81736> <http://example.org#ResidentialSlots> "125"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/81736> <http://example.org#TotalSlots> "245"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -176,8 +176,8 @@
 <http://findyourparking.es/lcc/parking/183748> <http://example.org#CoordY> "4472969"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/183748> <http://example.org#Latitude> "40.40532154127827"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/183748> <http://example.org#Longitude> "-3.683544138638221"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/183748> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/183748> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/183748> <http://example.org#StreetType> "Avenida".
 <http://findyourparking.es/lcc/parking/183748> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/183748> <http://example.org#StreetName> "Ciudad de Barcelona".
@@ -198,7 +198,7 @@
 <http://findyourparking.es/lcc/parking/44724> <http://example.org#Latitude> "40.434415601006386"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/44724> <http://example.org#Longitude> "-3.675728293375598"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/44724> <http://example.org#Telephone> "91 401 73 74".
-<http://findyourparking.es/lcc/parking/44724> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/44724> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/44724> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/44724> <http://example.org#StreetName> "Diego de León".
@@ -219,7 +219,7 @@
 <http://findyourparking.es/lcc/parking/36269> <http://example.org#Latitude> "40.40581270738191"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/36269> <http://example.org#Longitude> "-3.652048809515808"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/36269> <http://example.org#Telephone> "91 328 36 80".
-<http://findyourparking.es/lcc/parking/36269> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/36269> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/36269> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/36269> <http://example.org#StreetName> "Encuentro".
@@ -239,14 +239,14 @@
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#CoordY> "4475061"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#Latitude> "40.42422175692137"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#Longitude> "-3.673433652213169"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13464> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13464> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#StreetName> "Antonia Mercé".
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#Number> "5"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#PublicSlots> "1175"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13464> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#TotalSlots> "1175"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13464> <http://example.org#Locality> "Madrid".
@@ -282,7 +282,7 @@
 <http://findyourparking.es/lcc/parking/36270> <http://example.org#Latitude> "40.448394729978006"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/36270> <http://example.org#Longitude> "-3.7033919552673127"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/36270> <http://example.org#Telephone> "915 545 326".
-<http://findyourparking.es/lcc/parking/36270> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/36270> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/36270> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/36270> <http://example.org#StreetName> "Hernani".
@@ -365,8 +365,8 @@
 <http://findyourparking.es/lcc/parking/182188> <http://example.org#CoordY> "4477013"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/182188> <http://example.org#Latitude> "40.4402052387976"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/182188> <http://example.org#Longitude> "-3.625049272913964"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/182188> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/182188> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/182188> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/182188> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/182188> <http://example.org#StreetName> "Miguel Yuste".
@@ -386,13 +386,13 @@
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#CoordY> "4474386"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#Latitude> "40.41802725000116"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#Longitude> "-3.691123387515545"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13465> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13465> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#StreetName> "Montalban".
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#Number> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13465> <http://example.org#PublicSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#ResidentialSlots> "145"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#TotalSlots> "145"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13465> <http://example.org#Schedule> "Abierto 24 h".
@@ -407,7 +407,7 @@
 <http://findyourparking.es/lcc/parking/5517342> <http://example.org#CoordY> "4479226"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/5517342> <http://example.org#Latitude> "40.45973534025835"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/5517342> <http://example.org#Longitude> "-3.6962330375922363"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/5517342> <http://example.org#Telephone> "".
+
 <http://findyourparking.es/lcc/parking/5517342> <http://example.org#Email> "aparcamientos@emtmadrid.es".
 <http://findyourparking.es/lcc/parking/5517342> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/5517342> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD".
@@ -428,7 +428,7 @@
 <http://findyourparking.es/lcc/parking/52114> <http://example.org#CoordY> "4474716"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/52114> <http://example.org#Latitude> "40.4209564450911"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/52114> <http://example.org#Longitude> "-3.699899832865304"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/52114> <http://example.org#Telephone> "".
+
 <http://findyourparking.es/lcc/parking/52114> <http://example.org#Email> "aparcamientos@emtmadrid.es".
 <http://findyourparking.es/lcc/parking/52114> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/52114> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD".
@@ -449,14 +449,14 @@
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#CoordY> "4474563"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#Latitude> "40.417632509561116"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#Longitude> "-3.7116407088004757"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/33440> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/33440> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#StreetName> "Oriente".
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#Number> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#PublicSlots> "242"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/33440> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#TotalSlots> "242"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/33440> <http://example.org#Locality> "Madrid".
@@ -470,13 +470,13 @@
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#CoordY> "4474156"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#Latitude> "40.41586882022003"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#Longitude> "-3.706895619414367"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13466> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13466> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#StreetName> "Felipe III".
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#Number> "11"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13466> <http://example.org#PublicSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#ResidentialSlots> "694"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#TotalSlots> "694"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13466> <http://example.org#Schedule> "Abierto 24 h".
@@ -491,8 +491,8 @@
 <http://findyourparking.es/lcc/parking/36271> <http://example.org#CoordY> "4478549"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/36271> <http://example.org#Latitude> "40.45362846199134"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/36271> <http://example.org#Longitude> "-3.6975262417380064"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/36271> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/36271> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/36271> <http://example.org#StreetType> "Avenida".
 <http://findyourparking.es/lcc/parking/36271> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/36271> <http://example.org#StreetName> "Presidente Carmona".
@@ -512,7 +512,7 @@
 <http://findyourparking.es/lcc/parking/13476> <http://example.org#CoordY> "4474873"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13476> <http://example.org#Latitude> "40.42054469225109"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13476> <http://example.org#Longitude> "-3.691974283683488"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13476> <http://example.org#Telephone> "".
+
 <http://findyourparking.es/lcc/parking/13476> <http://example.org#Email> "aparcamientos@emtmadrid.es".
 <http://findyourparking.es/lcc/parking/13476> <http://example.org#StreetType> "Paseo".
 <http://findyourparking.es/lcc/parking/13476> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD".
@@ -533,8 +533,8 @@
 <http://findyourparking.es/lcc/parking/24193> <http://example.org#CoordY> "4478909"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/24193> <http://example.org#Latitude> "40.45887037458626"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/24193> <http://example.org#Longitude> "-3.6765275895176677"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/24193> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/24193> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/24193> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/24193> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/24193> <http://example.org#StreetName> "República Dominicana".
@@ -554,8 +554,8 @@
 <http://findyourparking.es/lcc/parking/81828> <http://example.org#CoordY> "4473340"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/81828> <http://example.org#Latitude> "40.40870074627349"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/81828> <http://example.org#Longitude> "-3.6762488802382896"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/81828> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/81828> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/81828> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/81828> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0dfec2c6e051c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/81828> <http://example.org#StreetName> "Reyes Magos".
@@ -575,8 +575,8 @@
 <http://findyourparking.es/lcc/parking/167692> <http://example.org#CoordY> "4476388"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/167692> <http://example.org#Latitude> "40.43432235224971"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/167692> <http://example.org#Longitude> "-3.6700799322371056"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/167692> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/167692> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/167692> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/167692> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD".
 <http://findyourparking.es/lcc/parking/167692> <http://example.org#StreetName> "San Cayetano".
@@ -596,8 +596,8 @@
 <http://findyourparking.es/lcc/parking/13515> <http://example.org#CoordY> "4478685"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13515> <http://example.org#Latitude> "40.45673936450418"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13515> <http://example.org#Longitude> "-3.694067405537416"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13515> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13515> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13515> <http://example.org#StreetType> "Avenida".
 <http://findyourparking.es/lcc/parking/13515> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13515> <http://example.org#StreetName> "Brasil".
@@ -617,8 +617,8 @@
 <http://findyourparking.es/lcc/parking/19053> <http://example.org#CoordY> "4473612"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/19053> <http://example.org#Latitude> "40.40917205238472"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/19053> <http://example.org#Longitude> "-3.6940145592988043"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/19053> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/19053> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/19053> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/19053> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/19053> <http://example.org#StreetName> "Sánchez Bustillo".
@@ -638,8 +638,8 @@
 <http://findyourparking.es/lcc/parking/7416748> <http://example.org#CoordY> "4476240"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7416748> <http://example.org#Latitude> "40.43289700914247"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7416748> <http://example.org#Longitude> "-3.6857697780390155"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/7416748> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/7416748> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/7416748> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/7416748> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/7416748> <http://example.org#StreetName> "Juan Bravo".
@@ -659,8 +659,8 @@
 <http://findyourparking.es/lcc/parking/7417028> <http://example.org#CoordY> "4475986"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7417028> <http://example.org#Latitude> "40.43059379257075"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7417028> <http://example.org#Longitude> "-3.688281097618061"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/7417028> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/7417028> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/7417028> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/7417028> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/7417028> <http://example.org#StreetName> "José Ortega y Gasset".
@@ -680,8 +680,8 @@
 <http://findyourparking.es/lcc/parking/7417052> <http://example.org#CoordY> "4475307"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7417052> <http://example.org#Latitude> "40.42446775888825"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7417052> <http://example.org#Longitude> "-3.6897747066093993"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/7417052> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/7417052> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/7417052> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/7417052> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/7417052> <http://example.org#StreetName> "Jorge Juan".
@@ -702,13 +702,13 @@
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#Latitude> "40.41780383567921"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#Longitude> "-3.6998082261071747"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#Telephone> "915 219 281".
-<http://findyourparking.es/lcc/parking/13460> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#StreetName> "Alcala".
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#Number> "17"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#PublicSlots> "649"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13460> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#TotalSlots> "649"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13460> <http://example.org#Locality> "Madrid".
@@ -722,8 +722,8 @@
 <http://findyourparking.es/lcc/parking/13458> <http://example.org#CoordY> "4475607"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13458> <http://example.org#Latitude> "40.427203787185476"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13458> <http://example.org#Longitude> "-3.6841676172873936"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13458> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13458> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13458> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13458> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13458> <http://example.org#StreetName> "Velazquez".
@@ -743,8 +743,8 @@
 <http://findyourparking.es/lcc/parking/13457> <http://example.org#CoordY> "4475292"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13457> <http://example.org#Latitude> "40.4243649253884"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13457> <http://example.org#Longitude> "-3.684339253399854"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13457> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13457> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13457> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13457> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13457> <http://example.org#StreetName> "Velazquez".
@@ -765,7 +765,7 @@
 <http://findyourparking.es/lcc/parking/183607> <http://example.org#Latitude> "40.43992277144076"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/183607> <http://example.org#Longitude> "-3.656505118007155"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/183607> <http://example.org#Telephone> "913 531 050".
-<http://findyourparking.es/lcc/parking/183607> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/183607> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/183607> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/183607> <http://example.org#StreetName> "Verdaguer y García".
@@ -785,14 +785,14 @@
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#CoordY> "4476134"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#Latitude> "40.434154"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#Longitude> "-3.598831"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/10489514> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/10489514> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#StreetType> "Avenida".
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD".
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#StreetName> "Arcentales".
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#Number> "37"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#PublicSlots> "1725"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/10489514> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#TotalSlots> "1725"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#Schedule> "6:00 h a 22:00 h".
 <http://findyourparking.es/lcc/parking/10489514> <http://example.org#Locality> "Madrid".
@@ -806,14 +806,14 @@
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#CoordY> "4475957"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#Latitude> "40.43030345785862"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#Longitude> "-3.6931471299523446"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13452> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13452> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#StreetName> "Almagro".
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#Number> "13"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#PublicSlots> "462"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13452> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#TotalSlots> "462"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13452> <http://example.org#Locality> "Madrid".
@@ -827,14 +827,14 @@
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#CoordY> "4477497"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#Latitude> "40.44426892073378"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#Longitude> "-3.6777018495296048"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/7393089> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/7393089> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#StreetName> "Cartagena".
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#Number> "176"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#PublicSlots> "376"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/7393089> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#TotalSlots> "376"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/7393089> <http://example.org#Locality> "Madrid".
@@ -849,13 +849,13 @@
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#Latitude> "40.41809765692244"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#Longitude> "-3.706306013191402"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#Telephone> "91 532 57 57".
-<http://findyourparking.es/lcc/parking/13473> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#StreetName> "Descalzas".
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#Number> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#PublicSlots> "400"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13473> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#TotalSlots> "400"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13473> <http://example.org#Locality> "Madrid".
@@ -869,14 +869,14 @@
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#CoordY> "4473244"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#Latitude> "40.406002468696784"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#Longitude> "-3.669292239090564"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/24809> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/24809> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#StreetName> "Carlos y Guillermo Fernández Shaw".
-<http://findyourparking.es/lcc/parking/24809> <http://example.org#Number> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#PublicSlots> "245"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/24809> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#TotalSlots> "245"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/24809> <http://example.org#Locality> "Madrid".
@@ -890,14 +890,14 @@
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#CoordY> "4473225"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#Latitude> "40.40745328367243"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#Longitude> "-3.7100131737859567"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13478> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13478> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#StreetName> "Capitan Salazar Martinez".
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#Number> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#PublicSlots> "244"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13478> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#TotalSlots> "244"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13478> <http://example.org#Locality> "Madrid".
@@ -911,14 +911,14 @@
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#CoordY> "4474345"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#Latitude> "40.41576756093728"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#Longitude> "-3.695367083138702"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13467> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13467> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#StreetName> "Las Cortes".
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#Number> "0"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#PublicSlots> "480"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13467> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#TotalSlots> "480"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13467> <http://example.org#Locality> "Madrid".
@@ -932,14 +932,14 @@
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#CoordY> "4474983"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#Latitude> "40.4214535549175"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#Longitude> "-3.705563118253955"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13449> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13449> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#StreetName> "Santa María Soledad Torres Acosta".
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#Number> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#PublicSlots> "481"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13449> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#TotalSlots> "481"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13449> <http://example.org#Locality> "Madrid".
@@ -953,14 +953,14 @@
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#CoordY> "4475892"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#Latitude> "40.42955928333471"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#Longitude> "-3.719111078507027"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13469> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13469> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#StreetName> "Marqués de Urquijo".
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#Number> "27"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#PublicSlots> "482"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13469> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#TotalSlots> "482"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13469> <http://example.org#Locality> "Madrid".
@@ -975,13 +975,13 @@
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#Latitude> "40.4227759148193"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#Longitude> "-3.708830424647755"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#Telephone> "902 283 080".
-<http://findyourparking.es/lcc/parking/13451> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#StreetName> "Garcia Molinas".
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#Number> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#PublicSlots> "362"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13451> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#TotalSlots> "362"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13451> <http://example.org#Locality> "Madrid".
@@ -995,14 +995,14 @@
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#CoordY> "4477430"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#Latitude> "40.44366224087455"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#Longitude> "-3.6782263814004565"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/88141> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/88141> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#StreetName> "Príncipe de Vergara".
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#Number> "134"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#PublicSlots> "147"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/88141> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#TotalSlots> "147"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/88141> <http://example.org#Locality> "Madrid".
@@ -1016,14 +1016,14 @@
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#CoordY> "4476237"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#Latitude> "40.43277769820206"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#Longitude> "-3.7011542013121264"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13450> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13450> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#StreetName> "Olavide".
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#Number> "17"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#PublicSlots> "397"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13450> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#TotalSlots> "397"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13450> <http://example.org#Locality> "Madrid".
@@ -1038,13 +1038,13 @@
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#Latitude> "40.42518540300912"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#Longitude> "-3.6887800207651495"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#Telephone> "915 761 837".
-<http://findyourparking.es/lcc/parking/13454> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#StreetName> "Goya".
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#Number> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#PublicSlots> "605"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13454> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#TotalSlots> "605"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13454> <http://example.org#Locality> "Madrid".
@@ -1058,8 +1058,8 @@
 <http://findyourparking.es/lcc/parking/13463> <http://example.org#CoordY> "4475032"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13463> <http://example.org#Latitude> "40.42372251184839"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13463> <http://example.org#Longitude> "-3.7116577340508523"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13463> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13463> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13463> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13463> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13463> <http://example.org#StreetName> "España".
@@ -1080,7 +1080,7 @@
 <http://findyourparking.es/lcc/parking/13472> <http://example.org#Latitude> "40.41848676016168"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13472> <http://example.org#Longitude> "-3.703068586180966"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13472> <http://example.org#Telephone> "915 214 312".
-<http://findyourparking.es/lcc/parking/13472> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/13472> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13472> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13472> <http://example.org#StreetName> "Carmen".
@@ -1101,7 +1101,7 @@
 <http://findyourparking.es/lcc/parking/13474> <http://example.org#Latitude> "40.42018796139455"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13474> <http://example.org#Longitude> "-3.69587231093941"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13474> <http://example.org#Telephone> "915 225 219".
-<http://findyourparking.es/lcc/parking/13474> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/13474> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13474> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13474> <http://example.org#StreetName> "Rey".
@@ -1122,7 +1122,7 @@
 <http://findyourparking.es/lcc/parking/13456> <http://example.org#Latitude> "40.41487830605113"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13456> <http://example.org#Longitude> "-3.700897645451053"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13456> <http://example.org#Telephone> "915 214 312".
-<http://findyourparking.es/lcc/parking/13456> <http://example.org#Email> "".
+
 <http://findyourparking.es/lcc/parking/13456> <http://example.org#StreetType> "Plaza".
 <http://findyourparking.es/lcc/parking/13456> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13456> <http://example.org#StreetName> "Santa Ana".
@@ -1142,8 +1142,8 @@
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#CoordY> "4470962"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#Latitude> "40.38710254642704"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#Longitude> "-3.7065255061698053"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/10737574> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/10737574> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ce8907e1fd534610VgnVCM1000001d4a900aRCRD".
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#StreetName> "Amparo Usera".
@@ -1151,7 +1151,7 @@
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#PublicSlots> "36 Titularidad : Ayuntamiento de Madr"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#ResidentialSlots> "untamiento de Madr"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#TotalSlots> "36 Titularidad : Ayuntamiento de Madruntamiento de Madr"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/10737574> <http://example.org#Schedule> "".
+
 <http://findyourparking.es/lcc/parking/10737574> <http://example.org#Locality> "Madrid".
 <http://findyourparking.es/lcc/parking/13468> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org#ParkingSlots>.
 <http://findyourparking.es/lcc/parking/13468> <http://example.org#Name> "Aparcamiento público. Velázquez - Juan Bravo".
@@ -1163,8 +1163,8 @@
 <http://findyourparking.es/lcc/parking/13468> <http://example.org#CoordY> "4476138"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13468> <http://example.org#Latitude> "40.431991827319116"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13468> <http://example.org#Longitude> "-3.683449815935094"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13468> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13468> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13468> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13468> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13468> <http://example.org#StreetName> "Velazquez".
@@ -1184,14 +1184,14 @@
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#CoordY> "4475173"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#Latitude> "40.42533530030625"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#Longitude> "-3.6923416648619947"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13453> <http://example.org#Telephone> "".
-<http://findyourparking.es/lcc/parking/13453> <http://example.org#Email> "".
+
+
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#StreetType> "Calle".
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#URLMoreInfo> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD".
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#StreetName> "Marqués de la Ensenada".
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#Number> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13453> <http://example.org#PublicSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13453> <http://example.org#ResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://findyourparking.es/lcc/parking/13453> <http://example.org#TotalSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
+
+
+
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#Schedule> "Abierto 24 h".
 <http://findyourparking.es/lcc/parking/13453> <http://example.org#Locality> "Madrid".
