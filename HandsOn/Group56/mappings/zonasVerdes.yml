@@ -1,0 +1,21 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  rml: http://semweb.mmlab.be/ns/rml#
+  gtfs: http://vocab.gtfs.org/terms#
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+mappings:
+  zonasVerdes:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/$(Distrito)-$(Numero_de_archivo)
+    po:
+      - [a, ex:zonasVerdes]
+      - [gtfs:distrito, $(Distrito),xsd:string]
+      - [gtfs:subepigrafe, $(Subepigrafe),xsd:string]
+      - [gtfs:apartado, $(Apartado),xsd:string]
+      - [gtfs:numArchivo, $(Numero_de_archivo),xsd:integer]
+      - [gtfs:naturaleza, $(Naturaleza_del_inmueble),xsd:string]
+      - [gtfs:situacionDestino, $(Situacion_Destino),xsd:string]
+      - [gtfs:destino, $(Destino),xsd:string]
+      - [gtfs:solar, $(Tamanio_Solar),xsd:integer]
