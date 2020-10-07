@@ -138,7 +138,7 @@ map:pm_3 a rr:PredicateMap;
 map:pm_4 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#occursTo>.
 map:pm_5 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#type>.
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident>.
 map:pm_6 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#weather>.
 map:pm_7 a rr:PredicateMap;
@@ -241,3 +241,4 @@ map:source_3 a rml:LogicalSource;
 map:source_4 a rml:LogicalSource;
     rml:source "Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv";
     rml:referenceFormulation ql:CSV.
+    
