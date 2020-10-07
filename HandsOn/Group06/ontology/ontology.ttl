@@ -1,0 +1,69 @@
+@base <http://contenedoresdemadrid.com/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix prop: <http://contenedoresdemadrid.com/Properties#>.
+@prefix class: <http://contenedoresdemadrid.com/Classes#>.
+#@prefix indiv: <http://contenedoresdemadrid.com/IndTerms#>.
+
+<http://contenedoresdemadrid.com/> rdf:type owl:Ontology.
+
+
+################ Object properties ################
+
+prop:locatedStreet rdf:type owl:ObjectProperty;
+                   rdfs:domain class:ReciclyngBin;
+                   rdfs:range class:Street.
+
+prop:locatedDistrict rdf:type owl:ObjectProperty;
+                     rdfs:domain class:ReciclyngBin;
+                     rdfs:range class:District.
+
+prop:typeResidue rdf:type owl:ObjectProperty;
+                 rdfs:domain class:ReciclyngBin;
+                 rdfs:range class:TypeResidue.
+
+################# Data properties #################
+
+prop:coordinateX rdf:type owl:DatatypeProperty;
+                 rdfs:domain class:ReciclyngBin;
+                 rdfs:range xsd:float.
+
+prop:coordinateY rdf:type owl:DatatypeProperty;
+                 rdfs:domain class:ReciclyngBin;
+                 rdfs:range xsd:float.
+
+prop:latitude rdf:type owl:DatatypeProperty;
+                 rdfs:domain class:ReciclyngBin;
+                 rdfs:range xsd:float.
+
+prop:longitude rdf:type owl:DatatypeProperty;
+                 rdfs:domain class:ReciclyngBin;
+                 rdfs:range xsd:float.
+
+prop:streetName rdf:type owl:DatatypeProperty;
+                rdfs:domain class:Street;
+                rdfs:range xsd:string.
+
+prop:streetNum rdf:type owl:DatatypeProperty;
+               rdfs:domain class:Street;
+               rdfs:range xsd:int.
+
+prop:districtName rdf:type owl:DatatypeProperty;
+                  rdfs:domain class:District;
+                  rdfs:range xsd:string.
+
+##################### Classes #####################
+
+# http://contenedoresdemadrid.com/Street
+class:Street rdf:type owl:Class.
+
+# http://contenedoresdemadrid.com/District
+class:District rdf:type owl:Class.
+
+# http://contenedoresdemadrid.com/TypeResidue
+class:TypeResidue rdf:type owl:Class.
+
+# http://contenedoresdemadrid.com/ReciclyngBin
+class:ReciclyngBin rdf:type owl:Class.

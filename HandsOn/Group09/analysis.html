@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
- 
+
 <head>
 <title>Analysis Dataset Group09. Traffic accidents in the city of Madrid.</title>
 
@@ -30,31 +30,43 @@ tr:nth-child(even) {
   <tr>
     <th>Expedient Number</th>
     <th>String</th>
-    <th>Our intention is to change this data type into int because it can take any number, specially longs.</th>
+    <th>It is a string data type composed by letters and numbers to identify the exact accident.</th>
   </tr>
 
   <tr>
     <th>Date</th>
-    <th>String</th>
-    <th>Our intention is to change this data type into int or date type. It provides information about the date the accident was produced with format dd/mm/yyyy.</th>
+    <th>DateTime</th>
+    <th>It provides information about the date the accident was produced with format dd/mm/yyyy.</th>
   </tr>
 
   <tr>
     <th>Hour</th>
     <th>String</th>
-    <th>Our intention is to change this data type into int or date type. It provides information about the exact hour the accident was produced. Its format is hh:mm.</th>
+    <th>It provides information about the exact hour the accident was produced. Its format is hh:mm.</th>
   </tr>
 
   <tr>
-    <th>Address</th>
+    <th>HourInterval</th>
+    <th>String</th>
+    <th>It provides information about the hour of the accident in hour intervals.</th>
+  </tr>
+
+  <tr>
+    <th>Address1</th>
     <th>String</th>
     <th>It contains the street where the accident was produced.</th>
   </tr>
 
   <tr>
+    <th>Address2</th>
+    <th>String</th>
+    <th>It contains the second street where the accident was produced in case it was in a crossing. Blank if it did not happen in a crossing.</th>
+  </tr>
+
+  <tr>
     <th>Number</th>
     <th>String</th>
-    <th>We pretend the type of data is changed to int in a future. It can be a number or an empty value. It is the number of the street where the accident was produced.</th>
+    <th>It can be a number, a number plus a letter or an empty value. It is the number of the street where the accident was produced.</th>
   </tr>
 
   <tr>
@@ -90,7 +102,7 @@ tr:nth-child(even) {
   <tr>
     <th>Age range</th>
     <th>String</th>
-    <th>It is the age of the person involved in the accident. It is not an exact numer. It is a range of some ages.</th>
+    <th>It is the age of the person involved in the accident. It is not an exact numer. It is a range of some ages. If blank, it is unknown</th>
   </tr>
 
   <tr>
@@ -101,8 +113,8 @@ tr:nth-child(even) {
 
   <tr>
     <th>Injury</th>
-    <th>String</th>
-    <th>Our intention is to change this data type into int. It describes the grade of the injury that the person has after the accident. Empty values are equivalent to unknown information.</th>
+    <th>int</th>
+    <th>It describes the grade of the injury that the person has after the accident. Empty values are equivalent to unknown information.</th>
   </tr>
 
   </table>
@@ -123,7 +135,7 @@ tr:nth-child(even) {
   <li>Ontological terms path -&gt; <a href="http://linkeddata.es/group09/ontology/TrafficAccident#">http://linkeddata.es/group09/ontology/TrafficAccident#</a></li>
   <li>Ontological terms example -&gt; <a href="http://linkeddata.es/group09/ontology/TrafficAccident#District">http://linkeddata.es/group09/ontology/TrafficAccident#District</a></li>
   <li>Individuals path -&gt; <a href="http://linkeddata.es/group09/resource/">http://linkeddata.es/group09/resource/</a></li>
-  <li>Individuals path example -&gt; <a href="http://linkeddata.es/group09Retiro&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;/resource/District/Retiro">http://linkeddata.es/group09/resource/District/</a></li>
+  <li>Individuals path example -&gt; <a href="http://linkeddata.es/group09Retiro&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;/resource/District/Retiro">http://linkeddata.es/group09/resource/District/distrito</a></li>
   </ul>
 </body>
 </html>

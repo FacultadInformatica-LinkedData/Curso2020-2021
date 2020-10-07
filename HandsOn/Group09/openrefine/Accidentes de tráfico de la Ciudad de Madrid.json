@@ -1,0 +1,909 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NÚMERO",
+    "expression": "grel:if(value==\"-\",\"\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NÚMERO using expression grel:if(value==\"-\",\"\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LESIVIDAD*",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LESIVIDAD* using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column2",
+    "description": "Remove column Column2"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.toDate(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA using expression grel:value.toDate(\"dd/MM/yyyy\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "FECHA",
+    "expression": "grel:value.toString(\"ddMMyyyy\")",
+    "onError": "set-to-blank",
+    "newColumnName": "Formatted-Date",
+    "columnInsertIndex": 2,
+    "description": "Create column Formatted-Date at index 2 based on column FECHA using expression grel:value.toString(\"ddMMyyyy\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Formatted-Date",
+    "description": "Remove column Formatted-Date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "FECHA",
+    "expression": "grel:value.toString(\"ddMMyyyy\")",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-FECHA",
+    "columnInsertIndex": 2,
+    "description": "Create column URI-FECHA at index 2 based on column FECHA using expression grel:value.toString(\"ddMMyyyy\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "HORA",
+    "expression": "grel:value[0]+value[1]+value[3]+value[4]",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-HORA",
+    "columnInsertIndex": 4,
+    "description": "Create column URI-HORA at index 4 based on column HORA using expression grel:value[0]+value[1]+value[3]+value[4]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "RANGO DE EDAD",
+    "expression": "grel:if(value==\"DESCONOCIDA\",\"\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RANGO DE EDAD using expression grel:if(value==\"DESCONOCIDA\",\"\",value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "URI-HORA",
+    "description": "Remove column URI-HORA"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "HORA",
+    "expression": "grel:value.replace(\":\",\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-HORA",
+    "columnInsertIndex": 4,
+    "description": "Create column URI-HORA at index 4 based on column HORA using expression grel:value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "RANGO DE EDAD",
+    "expression": "grel:value.replace(\"DE \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RANGO DE EDAD using expression grel:value.replace(\"DE \",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "RANGO DE EDAD",
+    "expression": "grel:value.replace(\" A \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RANGO DE EDAD using expression grel:value.replace(\" A \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "RANGO DE EDAD",
+    "expression": "grel:value.replace(\" AÑOS\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column RANGO DE EDAD using expression grel:value.replace(\" AÑOS\",\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TIPO VEHÍCULO",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-TIPO VEHÍCULO",
+    "columnInsertIndex": 11,
+    "description": "Create column URI-TIPO VEHÍCULO at index 11 based on column TIPO VEHÍCULO using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TIPO ACCIDENTE",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-TIPO ACCIDENTE",
+    "columnInsertIndex": 9,
+    "description": "Create column URI-TIPO ACCIDENTE at index 9 based on column TIPO ACCIDENTE using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "TIPO PERSONA",
+    "expression": "grel:value.replace(\"ó\",\"o\")",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-TIPO PERSONA",
+    "columnInsertIndex": 14,
+    "description": "Create column URI-TIPO PERSONA at index 14 based on column TIPO PERSONA using expression grel:value.replace(\"ó\",\"o\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "URI-TIPO VEHÍCULO",
+    "expression": "grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-TIPO VEHÍCULO using expression grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "NÚMERO",
+          "expression": "value",
+          "columnName": "NÚMERO",
+          "from": 0,
+          "to": 1,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ESTADO METEREOLÓGICO",
+    "expression": "grel:value\n.replace(\"é\",\"e\")\n.replace(\" \",\"-\")",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-ESTADO METEOROLÓGICO",
+    "columnInsertIndex": 11,
+    "description": "Create column URI-ESTADO METEOROLÓGICO at index 11 based on column ESTADO METEREOLÓGICO using expression grel:value\n.replace(\"é\",\"e\")\n.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-TIPO ACCIDENTE",
+    "expression": "grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-TIPO ACCIDENTE using expression grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NÚMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "s/n"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S/N"
+      }
+    ],
+    "description": "Mass edit cells in column NÚMERO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NÚMERO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "n 58"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "58"
+      }
+    ],
+    "description": "Mass edit cells in column NÚMERO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NÚMERO",
+    "expression": "grel:value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NÚMERO using expression grel:value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-DISTRITO",
+    "columnInsertIndex": 8,
+    "description": "Create column URI-DISTRITO at index 8 based on column DISTRITO using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-DISTRITO",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-DISTRITO using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-DISTRITO",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-DISTRITO using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-DISTRITO",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-DISTRITO using expression value.toLowercase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "CALLE",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-CALLE",
+    "columnInsertIndex": 6,
+    "description": "Create column URI-CALLE at index 6 based on column CALLE using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CALLE",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CALLE using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-DISTRITO",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-DISTRITO using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CALLE",
+    "expression": "grel:value\n.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CALLE using expression grel:value\n.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CALLE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " / ",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column CALLE by separator"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CALLE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " / ",
+    "regex": false,
+    "maxColumns": 2,
+    "description": "Split column URI-CALLE by separator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CALLE 1",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CALLE 1 using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CALLE 2",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CALLE 2 using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-DISTRITO",
+    "expression": "grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-DISTRITO using expression grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CALLE 1",
+    "expression": "grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CALLE 1 using expression grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CALLE 2",
+    "expression": "grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CALLE 2 using expression grel:value\n.replace(\"á\",\"a\")\n.replace(\"é\",\"e\")\n.replace(\"í\",\"i\")\n.replace(\"ó\",\"o\")\n.replace(\"ú\",\"u\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-HORA",
+    "expression": "grel:if(value.length()==3,\"0\"+value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-HORA using expression grel:if(value.length()==3,\"0\"+value,value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "URI-HORA",
+    "expression": "grel:value[0]+value[1]+\"00\"+\"-\"+value[0]+value[1]+\"59\"",
+    "onError": "set-to-blank",
+    "newColumnName": "URI-HORA INTERVALO",
+    "columnInsertIndex": 5,
+    "description": "Create column URI-HORA INTERVALO at index 5 based on column URI-HORA using expression grel:value[0]+value[1]+\"00\"+\"-\"+value[0]+value[1]+\"59\""
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "URI-HORA",
+    "expression": "grel:value[0]+value[1]+\":\"+\"00\"+\"-\"+value[0]+value[1]+\":\"+\"59\"",
+    "onError": "set-to-blank",
+    "newColumnName": "HORA INTERVALO",
+    "columnInsertIndex": 5,
+    "description": "Create column HORA INTERVALO at index 5 based on column URI-HORA using expression grel:value[0]+value[1]+\":\"+\"00\"+\"-\"+value[0]+value[1]+\":\"+\"59\""
+  }
+]

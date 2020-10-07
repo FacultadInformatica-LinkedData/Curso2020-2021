@@ -1,0 +1,107 @@
+{
+"@context":{
+  "upm": "http://etsiinfdb.es/",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "vocab": "http://myvocab.es/",
+  "fullName": "vocab:name",
+  "hometown": "vocab:home",
+  "age": "vocab:age",
+  "almaMater": "vocab:alma",
+  "parents" : "upm:prog",
+  "mother": "vocab:mom",
+  "father": "vocab:dad",
+  "name": "vocab:given",
+  "subjects": "upm:subjects",
+  "subject1" : "upm:subject",
+  "subject2" : "upm:subject",
+  "subject3" : "upm:subject",
+  "subject4" : "upm:subject",
+  "subject5" : "upm:subject",
+  "teachers" : "upm:teachers",
+  "teacher1": "upm:teacher",
+  "teacher2": "upm:teacher",
+  "teacher3": "upm:teacher",
+  "teacher4": "upm:teacher",
+  "description" : "vocab:des"
+},
+"@id": "http://etsiinfdb.es/alumnos/1999/12345/",
+  "@type": "upm:alumno",
+
+"fullName": "Daniel Canada Martin",
+"hometown": "Madrid",
+"age": "21",
+"almaMater": "ETSIInf UPM",
+"parents":{
+  "@id" : "http://etsiinfdb.es/alumnos/1999/12345/parents/",
+  "@type": "upm:relatives",
+  "mother": "Amparo",
+  "father": "Alfonso"
+},
+"subjects":{
+  "@id":"http://etsiinfdb.es/alumnos/1999/12345/asignaturas/",
+  "@type": "upm:collection",
+  "subject1":{
+    "@id":"http:http://etsiinfdb.es/subjects/1/",
+    "@type": "upm:subject",
+    "name": "IS2",
+    "teachers":{
+      "@id": "http:http://etsiinfdb.es/profs/",
+      "@type": "upm:collection",
+      "teacher1": "Jose A. Calvo-Manzano Villalon",
+      "teacher2": "Ana Maria Moreno Sanchez-Capuchino",
+      "teacher3": "Tomas San Feliu Gilabert"
+    },
+    "description": "Software creation cycle"
+  },
+  "subject2":{
+      "@id":"http:http://etsiinfdb.es/subjects/2/",
+      "@type": "upm:subject",
+    "name": "EPAC",
+    "teachers":{
+      "@id": "http:http://etsiinfdb.es/profs/",
+      "@type": "upm:collection",
+      "teacher1": "Elena Montiel Ponsoda",
+      "teacher2": "Jelena Bobkina"
+    },
+    "description": "Communication-oriented English"
+  },
+  "subject3":{
+    "@id":"http:http://etsiinfdb.es/subjects/3/",
+    "@type": "upm:subject",
+    "name": "GPTI",
+    "teachers":{
+      "@id": "http:http://etsiinfdb.es/profs/",
+      "@type": "upm:collection",
+      "teacher1": "Oscar Dieste Tubio",
+      "teacher2": "Edmundo Tovar Caro",
+      "teacher3": "Jose Ramon Sanchez Palomares",
+      "teacher4": "Maria Pilar Rodriguez Gonzalez"
+    },
+    "description": "Standards in Computer Science"
+  },
+  "subject4":{
+    "@id":"http:http://etsiinfdb.es/subjects/4/",
+    "@type": "upm:subject",
+    "name": "Semantic web",
+    "teachers":{
+      "@id": "http:http://etsiinfdb.es/profs/",
+      "@type": "upm:collection",
+      "teacher1": "Oscar Corcho Garcia",
+      "teacher2": "Raul Garcia Castro"
+    },
+    "description": "Semantic Web, Linked Data and Knowledge Graphs"
+  },
+  "subject5":{
+    "@id":"http:http://etsiinfdb.es/subjects/5/",
+    "@type": "upm:subject",
+    "name": "CCNA",
+    "teachers":{
+      "@id": "http:http://etsiinfdb.es/profs/",
+      "@type": "upm:collection",
+      "teacher1": "Sonia Valentina De Frutos Cid",
+      "teacher2": "Miguel Jimenez Ganan"
+    },
+    "description": "Web technologies"
+  }
+}
+}

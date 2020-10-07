@@ -1,0 +1,74 @@
+﻿@prefix : <http://www.wsld.org/grupo17/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/grupo17/ontology/> .
+
+
+<http://www.wsld.org/grupo17/ontology/> rdf:type owl:Ontology.
+
+
+######################## CLASSES #######################
+#http://www.wsld.org/grupo17/ontology/Provincia
+: Provincia    rdf:type   owl:Class.
+
+
+#http://www.wsld.org/grupo17/ontology/Municipio
+: Municipio   rdf:type   owl:subClass.
+
+
+#http://www.wsld.org/grupo17/ontology/Estacion
+: Estacion   rdf:type   owl:Class.
+
+
+######################## DATA PROPERTIES #######################
+
+
+#http://www.wsld.org/grupo17/ontology/esPuntoMuestreo
+: esPuntoMuestreo   rdf:type   owl:DatatypeProperty;
+    rdfs:domain : Municipio;
+    rdfs:range   xsd:Double.
+
+
+#http://www.wsld.org/grupo17/ontology/esMagnitud
+:esMagnitud   rdf:type   owl:DatatypeProperty.
+rdfs:domain : Municipio;
+    rdfs:range   xsd:Integer.
+
+
+#http://www.wsld.org/esAnio
+: esAnio  rdf:type   owl:DatatypeProperty;
+    rdfs:domain : Schedule;
+    rdfs:range   xsd:Datatime.
+
+
+#http://www.wsld.org/grupo17/ontology/esMes
+: esMes  rdf:type   owl:DatatypeProperty;
+    rdfs:domain : Schedule;
+    rdfs:range   xsd:DataTime.
+
+
+#http://www.wsld.org/grupo17/ontology/esDia
+: esAnio  rdf:type   owl:DatatypeProperty;
+
+
+    rdfs:domain : Schedule;
+    rdfs:range   xsd:DataTime.
+
+
+#http://www.wsld.org/grupo17/ontology/esCentinela
+: esCentinela  rdf:type   owl:DatatypeProperty;
+
+
+    rdfs:domain : Schedule;
+    rdfs:range   xsd:Integer.
+
+
+#http://www.wsld.org/grupo17/ontology/esValidador
+: esValidador rdf:type   owl:DatatypeProperty;
+
+
+    rdfs:domain : Schedule;
+    rdfs:range   xsd:Boolean.
