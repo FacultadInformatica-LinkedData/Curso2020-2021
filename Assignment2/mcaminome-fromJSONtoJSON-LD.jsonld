@@ -1,6 +1,6 @@
 {
-	"@context": {
-  	"people": "http://www.oeg-upm.net/ontologies/people",
+    "@context": {
+    "people": "http://www.oeg-upm.net/ontologies/people/",
     "fullname": "people:fullname",
     "hometown": "people:hometown",
     "age": "people:age",
