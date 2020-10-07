@@ -1,0 +1,252 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "CÓDIGO",
+    "description": "Remove column CÓDIGO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "AÑO INSTALACIÓN",
+    "description": "Remove column AÑO INSTALACIÓN"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column2",
+    "description": "Remove column Column2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column3",
+    "description": "Remove column Column3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column4",
+    "description": "Remove column Column4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column5",
+    "description": "Remove column Column5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column6",
+    "description": "Remove column Column6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column7",
+    "description": "Remove column Column7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column8",
+    "description": "Remove column Column8"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column9",
+    "description": "Remove column Column9"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column10",
+    "description": "Remove column Column10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column11",
+    "description": "Remove column Column11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column12",
+    "description": "Remove column Column12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column13",
+    "description": "Remove column Column13"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column14",
+    "description": "Remove column Column14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column15",
+    "description": "Remove column Column15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column16",
+    "description": "Remove column Column16"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "﻿DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vicálvaro",
+          "Vicalvaro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vicálvaro"
+      }
+    ],
+    "description": "Mass edit cells in column ﻿DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIFICIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "J.M.D Moratalaz",
+          "J.M.D. Moratalaz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J.M.D Moratalaz"
+      }
+    ],
+    "description": "Mass edit cells in column EDIFICIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CONECTORES",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mennekes manguera",
+          "Mennekes Manguera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mennekes manguera"
+      }
+    ],
+    "description": "Mass edit cells in column CONECTORES"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "POTENCIA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3,7 kW",
+          "3,7 Kw"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3,7 kW"
+      },
+      {
+        "from": [
+          "32 A trifásico",
+          "32 A Trifásico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "32 A trifásico"
+      },
+      {
+        "from": [
+          "32 A trifásico 22 Kw",
+          "22 KW 32 A Trifásico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "32 A trifásico 22 Kw"
+      },
+      {
+        "from": [
+          "3,7 KW Plug T2 monofásico",
+          "3,7 kW Plug T2 Monofásico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3,7 KW Plug T2 monofásico"
+      }
+    ],
+    "description": "Mass edit cells in column POTENCIA"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "﻿DISTRITO",
+          "expression": "value",
+          "columnName": "﻿DISTRITO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "﻿DISTRITO",
+          "expression": "value",
+          "columnName": "﻿DISTRITO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "TOTAL: 261 TERMINALES DE RECARGA INSTALADAS EN 69 EDIFICIOS MUNICIPALES (FEBRERO 2020)",
+                "l": "TOTAL: 261 TERMINALES DE RECARGA INSTALADAS EN 69 EDIFICIOS MUNICIPALES (FEBRERO 2020)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]

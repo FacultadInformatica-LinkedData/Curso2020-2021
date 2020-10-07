@@ -1,6 +1,6 @@
-#Hands-on assignment 2 – Self assessment#
+# Hands-on assignment 2 – Self assessment #
 
-##Checklist##
+## Checklist ##
 
 **Analyse Data Set**:
 
@@ -20,5 +20,6 @@
 
 - [X] Develop a lightweight ontology that includes the classes and properties to be used with the dataset
 
-##Comments on the self-assessment##
-_(If required)_
+## Comments on the self-assessment ##
+
+

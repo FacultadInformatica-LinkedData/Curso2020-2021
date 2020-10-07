@@ -13,6 +13,9 @@
 # Classes
 classes:Bike_Station rdf:type owl:Class .
 classes:Street rdf:type owl:Class .
+classes:District rdf:type owl:Class .
+classes:Neighbourhood rdf:type owl:Class .
+
 
 # Data Properties
 properties:position_x rdf:type owl:DatatypeProperty ;
@@ -27,10 +30,6 @@ properties:registration_Date rdf:type owl:DatatypeProperty ;
                     rdfs:domain classes:Bike_Station ;
                     rdfs:range xsd:date .
 
-properties:district rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Bike_Station ;
-                    rdfs:range xsd:string .
-
 properties:spots rdf:type owl:DatatypeProperty ;
                     rdfs:domain classes:Bike_Station ;
                     rdfs:range xsd:integer .
@@ -43,7 +42,22 @@ properties:latitude rdf:type owl:DatatypeProperty ;
                     rdfs:domain classes:Bike_Station ;
                     rdfs:range xsd:float .
 
+properties:district_name rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:District ;
+                    rdfs:range xsd:string .
+					
+properties:district_number rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:District ;
+                    rdfs:range xsd:integer .
+				
+properties:neighbourhood_name rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Neighbourhood ;
+                    rdfs:range xsd:string .
 
+properties:neighbourhood_number rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Neighbourhood ;
+                    rdfs:range xsd:integer .					
+				
 properties:street_name rdf:type owl:DatatypeProperty ;
                     rdfs:domain classes:Street ;
                     rdfs:range xsd:string .
@@ -53,6 +67,17 @@ properties:street_number rdf:type owl:DatatypeProperty ;
                     rdfs:range xsd:integer .
 
 # Object properties
-properties:located_in rdf:type owl:ObjectProperty ;
+properties:has_district rdf:type owl:ObjectProperty ;
+                    rdfs:domain classes:Neighbourhood ;
+                    rdfs:range classes:District .
+				
+properties:has_neighourhood rdf:type owl:ObjectProperty ;
+                    rdfs:domain classes:Street ;
+                    rdfs:range classes:Neighbourhood .
+					
+properties:has_street rdf:type owl:ObjectProperty ;
                     rdfs:domain classes:Bike_Station ;
                     rdfs:range classes:Street .
+
+					
+

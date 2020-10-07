@@ -1,0 +1,45 @@
+@base <http://scooters.com/Group12/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix properties: <http://scooters.com/Group12/Properties#> .
+@prefix classes: <http://scooters.com/Group12/Classes#> .
+@prefix individuals: <http://scooters.com/Group12/Individuals#> .
+<http://scooters.com/Group12/> rdf:type owl:Ontology .
+#Object Properties
+properties:hasAvailability rdf:type owl:ObjectProperty ;
+                           rdfs:domain classes:Place ;
+                           rdfs:range classes:Availability .
+properties:hasCompany rdf:type owl:ObjectProperty ;
+                      rdfs:domain classes:Availability ;
+                      rdfs:range classes:Company .
+#Data properties
+properties:name_Place rdf:type owl:DatatypeProperty ;
+                         rdfs:domain classes:Place ;
+                         rdfs:range xsd:string .
+properties:name_NB rdf:type owl:DatatypeProperty ;
+                   rdfs:domain classes:Neighbourhood ;
+                   rdfs:range xsd:string .
+properties:name_District rdf:type owl:DatatypeProperty ;
+                         rdfs:domain classes:District ;
+                         rdfs:range xsd:string .
+properties:name_Company rdf:type owl:DatatypeProperty ;
+                        rdfs:domain classes:Company ;
+                        rdfs:range xsd:string .
+properties:name_Availability rdf:type owl:DatatypeProperty ;
+                             rdfs:domain classes:Availability ;
+                             rdfs:range xsd:string .
+properties:quantity rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Availability ;
+                    rdfs:range xsd:integer .
+#Classes
+classes:Place rdf:type owl:Class ;
+              rdfs:seeAlso <http://schema.org/Place> .
+classes:District rdf:type owl:Class ;
+                 rdfs:subClassOf classes:Place .
+classes:Neighbourhood rdf:type owl:Class ;
+                      rdfs:subClassOf classes:Place .
+classes:Availability rdf:type owl:Class .
+classes:Company rdf:type owl:Class ;
+                rdfs:seeAlso <http://dbpedia.org/ontology/Company> .

@@ -1,0 +1,57 @@
+{
+  "@context":{
+
+    "base":  "http://www.example.net/ontologies/",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cl" : "http://www.example.net/ontologies/classes/",
+    "s": "http://www.example.net/ontologies/sensors",
+    "m": "http://www.example.net/ontologies/measurements",
+    "c" : "http://www.example.net/ontologies/computers",
+    "u" : "http://www.example.net/ontologies/users",
+    "includes" : "cl:includes",
+    "hasOwner" : "c:hasOwner",
+    "hasMeasurement" : "s:hasMeasurement",
+    "value": "m:value",
+    "atTime": "m:Time",
+    "name": "rdfs:label"
+  },
+  "@graph":[
+  {
+  "@id": "cl:class1",
+  "@type": "base:classes",
+  "includes" :[{
+    "@id" : "http://www.example.net/ontologies/sensors/029",
+    "@type": "s:object"},
+    {"@id": "http://www.example.net/ontologies/computer/101",
+      "@type":"c:object"
+  }]
+},
+    {
+    "@id" : "http://www.example.net/ontologies/sensor/029",
+    "@type": "s:object",
+    "hasMeasurement":{
+    "@id" : "http://www.example.net/ontologies/measurements/8401",
+    "@type": "m:object"
+  }
+  },
+  {
+    "@id" : "http://www.example.net/ontologies/measurements/8401",
+    "@type": "m:object",
+      "value": "29",
+      "atTime": "2010-06-12T12:00:12"
+    },
+    {
+      "@id" : "http://www.example.net/ontologies/computer/101",
+      "@type": "c:object",
+      "hasOwner":{
+        "@id" : "http://www.example.net/ontologies/users/10A",
+      	"@type": "u:object"
+      }
+    },
+      {
+        "@id" : "http://www.example.net/ontologies/users/10A",
+      	"@type": "u:object",
+        "name": "Pedro"
+}
+]
+}
