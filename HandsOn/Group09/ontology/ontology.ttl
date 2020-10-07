@@ -139,13 +139,11 @@ dbo:sex rdf:type owl:DatatypeProperty ;
               rdfs:range xsd:integer ;
               rdfs:comment "Level of damage suffered by the person in the accident. Being 0 if the person did not suffer any damage" .
 
-
-###  http://linkeddata.es/group09/ontology/TrafficAccident#type
-:type rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Accident ;
-      rdfs:range xsd:string ;
-      rdfs:comment "Type of accident" .
-
+###  http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident
+:typeOfAccident rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Accident ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Type of accident" .
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson
 :typeOfPerson rdf:type owl:DatatypeProperty ;

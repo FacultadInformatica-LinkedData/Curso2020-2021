@@ -17,7 +17,7 @@ mappings:
       - [ont:occursAt,res:time/$(URI-DATE)~iri]
       - [ont:occursOn,res:streetcrossing/$(URI-CRUCE)~iri]
       - [ont:occursTo,res:person/$(URI-PERSONA)~iri]
-      - [ont:type,$(TIPO ACCIDENTE)]
+      - [ont:typeOfAccident,$(TIPO ACCIDENTE)]
       - [ont:weather,$(ESTADO METEREOLÓGICO)]
 
   triplesmap2:
