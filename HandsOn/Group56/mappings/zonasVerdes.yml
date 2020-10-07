@@ -1,21 +1,74 @@
 prefixes:
   rr: http://www.w3.org/ns/r2rml#
   rml: http://semweb.mmlab.be/ns/rml#
-  gtfs: http://vocab.gtfs.org/terms#
+  ex: http://group56.org/zonas-verdes/
   xsd: http://www.w3.org/2001/XMLSchema#
 
 mappings:
-  zonasVerdes:
+
+  apartado:
     sources:
       - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/$(Distrito)-$(Numero_de_archivo)
+    s: http://group56.org/zonas-verdes/Apartado/$(Apartado)
     po:
-      - [a, ex:zonasVerdes]
-      - [gtfs:distrito, $(Distrito),xsd:string]
-      - [gtfs:subepigrafe, $(Subepigrafe),xsd:string]
-      - [gtfs:apartado, $(Apartado),xsd:string]
-      - [gtfs:numArchivo, $(Numero_de_archivo),xsd:integer]
-      - [gtfs:naturaleza, $(Naturaleza_del_inmueble),xsd:string]
-      - [gtfs:situacionDestino, $(Situacion_Destino),xsd:string]
-      - [gtfs:destino, $(Destino),xsd:string]
-      - [gtfs:solar, $(Tamanio_Solar),xsd:integer]
+      - [a, ex:Apartado]    
+      - [ex:apartado, $(Apartado),xsd:string]
+
+  destino:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Destino/$(Destino)
+    po:
+      - [a, ex:Destino]    
+      - [ex:destino, $(Destino),xsd:string]
+
+  distrito:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Districto/$(Distrito)
+    po:
+      - [a, ex:Distrito]
+      - [ex:distrito, $(Distrito),xsd:string]    
+
+  naturaleza:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/NaturalezaInmueble/$(Naturaleza_del_inmueble)
+    po:
+      - [a, ex:Naturaleza]    
+      - [ex:naturaleza, $(Naturaleza_del_inmueble),xsd:string]
+  
+
+  numerodearchivo:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/NdeArchivo/$(Numero_de_archivo)
+    po:
+      - [a, ex:NdeArchivo]
+      - [ex:NdeArchivo, $(Numero_de_archivo),xsd:integer]
+
+  situaciondestino:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/SituacionDestino/$(Situacion_Destino)
+    po:
+      - [a, ex:SituacionDestino]
+      - [ex:SituacionDestino, $(Situacion_Destino),xsd:string]
+
+  solar:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Solar/$(Tamanio_Solar)
+    po:
+      - [a, ex:Solar]    
+      - [ex:solar, $(Tamanio_Solar),xsd:double]
+      
+  subepigrafe:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Subepigrafe/$(Subepigrafe)
+    po:
+      - [a, ex:Subepigrafe]
+      - [ex:Subepigrafe, $(Subepigrafe),xsd:string]
+
+      
