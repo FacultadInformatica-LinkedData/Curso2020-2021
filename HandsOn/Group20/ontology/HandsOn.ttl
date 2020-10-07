@@ -56,6 +56,12 @@ space:hasDescriptionEntity a owl:DataTypeProperty;
     rdfs:domain classes:Space;
     rdfs:range rdfs:Literal.
 
+# DEFINIR DESCRIPCION DE ESPACIO  ----MODIFICACIÓN----
+pace:hasDescription a owl:DataTypeProperty;
+    rdfs:comment "it refers to information about the building."@en;
+    rdfs:domain classes:Space;
+    rdfs:range rdfs:Literal.
+
 # DEFINIR TRANSPORTE
 space:hasRoute a owl:DataTypeProperty;
 	rdfs:comment "Way of transport to arrive our public space";
@@ -68,11 +74,11 @@ space:hasTelephone a owl:DataTypeProperty;
 	rdfs:domain classes:Space;
     rdfs:range rdfs:Literal.
 
-# DEFINIR FAX
-space:hasFax a owl:DataTypeProperty;
-	rdfs:comment "fax number.";
-	rdfs:domain classes:Space;
-    rdfs:range rdfs:Literal.
+# DEFINIR FAX  ----COLUMNA BORRADA-----
+#space:hasFax a owl:DataTypeProperty;
+#	rdfs:comment "fax number.";
+#	rdfs:domain classes:Space;
+#   rdfs:range rdfs:Literal.
 
 # DEFINIR ACCESIBILIDAD
 space:hasAccesibility a owl:DataTypeProperty;
@@ -130,22 +136,22 @@ location:floor a owl:DataTypeProperty;
 	rdfs:range rdfs:Literal.
 
 #DEFINIR PUERTA
-location:door a owl:DataTypeProperty;
-	rdfs:comment "Descriptor of the door";
-	rdfs:domain classes:Location;
-	rdfs:range rdfs:Literal.
+#location:door a owl:DataTypeProperty;
+#	rdfs:comment "Descriptor of the door";
+#	rdfs:domain classes:Location;
+#	rdfs:range rdfs:Literal.
 
 #DEFINIR ESCALERAS	
-location:stairway a owl:DataTypeProperty;
-	rdfs:comment "Stairway, left or right";
-	rdfs:domain classes:Location;
-	rdfs:range rdfs:Literal.
+#location:stairway a owl:DataTypeProperty;
+#	rdfs:comment "Stairway, left or right";
+#	rdfs:domain classes:Location;
+#	rdfs:range rdfs:Literal.
 
-#DEFINIR ORIENTACION
-location:Name a owl:DataTypeProperty;
-	rdfs:comment "Detailed description of the address";
-	rdfs:domain classes:Location;
-	rdfs:range rdfs:Literal.
+#DEFINIR ORIENTACION ---PREGUNTAR SI LO DEJAMOS O LO QUITAMOS
+#location:Name a owl:DataTypeProperty;
+#	rdfs:comment "Detailed description of the address";
+#	rdfs:domain classes:Location;
+#	rdfs:range rdfs:Literal.
 
 #DEFINIR LOCALIDAD
 location:locality a owl:DataTypeProperty;
@@ -189,6 +195,7 @@ location:xcoordinate a owl:DataTypeProperty;
 	rdfs:comment "Y coordinate";
 	rdfs:domain classes:Location;
 	rdfs:range rdfs:Literal.	
+
 	
 	
 #DEFINIR LATITUD
