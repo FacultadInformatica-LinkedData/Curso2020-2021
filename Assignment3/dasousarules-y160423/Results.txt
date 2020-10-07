@@ -1,0 +1,614 @@
+# Result 1:
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#sameAs
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/homepage
+http://purl.org/dc/terms/subject
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://es.dbpedia.org/property/gabinete
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMáter
+http://es.dbpedia.org/property/almamáter
+http://es.dbpedia.org/property/cargo
+http://es.dbpedia.org/property/causaMuerte
+http://es.dbpedia.org/property/ciudadanía
+http://es.dbpedia.org/property/conflictos
+http://es.dbpedia.org/property/cónyuge
+http://es.dbpedia.org/property/distrito
+http://es.dbpedia.org/property/educación
+http://es.dbpedia.org/property/escudo
+http://es.dbpedia.org/property/fechaDeFallecimiento
+http://es.dbpedia.org/property/fechaDeNacimiento
+http://es.dbpedia.org/property/final
+http://es.dbpedia.org/property/hijos
+http://es.dbpedia.org/property/imagen
+http://es.dbpedia.org/property/inicio
+http://es.dbpedia.org/property/lenguaMaterna
+http://es.dbpedia.org/property/lugarDeDescanso
+http://es.dbpedia.org/property/lugarDeFallecimiento
+http://es.dbpedia.org/property/lugarDeNacimiento
+http://es.dbpedia.org/property/nacionalidad
+http://es.dbpedia.org/property/nombre
+http://es.dbpedia.org/property/nombreCompleto
+http://es.dbpedia.org/property/nombreDeNacimiento
+http://es.dbpedia.org/property/nombreNativo
+http://es.dbpedia.org/property/ocupación
+http://es.dbpedia.org/property/padres
+http://es.dbpedia.org/property/partido
+http://es.dbpedia.org/property/partidoPolítico
+http://es.dbpedia.org/property/período
+http://es.dbpedia.org/property/pieDeImagen
+http://es.dbpedia.org/property/pieimagen
+http://es.dbpedia.org/property/predecesor
+http://es.dbpedia.org/property/premios
+http://es.dbpedia.org/property/presidente
+http://es.dbpedia.org/property/primerministro
+http://es.dbpedia.org/property/profesión
+http://es.dbpedia.org/property/religión
+http://es.dbpedia.org/property/residencia
+http://es.dbpedia.org/property/sitioWeb
+http://es.dbpedia.org/property/sucesor
+http://es.dbpedia.org/property/tamaño
+http://es.dbpedia.org/property/título
+http://es.dbpedia.org/property/etnia
+http://es.dbpedia.org/property/monarca
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/wikiPageID
+http://dbpedia.org/ontology/wikiPageRevisionID
+http://dbpedia.org/ontology/wikiPageExternalLink
+http://dbpedia.org/ontology/wikiPageLength
+http://dbpedia.org/ontology/child
+http://dbpedia.org/ontology/nationality
+http://dbpedia.org/ontology/occupation
+http://dbpedia.org/ontology/party
+http://dbpedia.org/ontology/profession
+http://dbpedia.org/ontology/religion
+http://dbpedia.org/ontology/residence
+http://dbpedia.org/ontology/successor
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://dbpedia.org/ontology/abstract
+http://www.w3.org/2007/05/powder-s#describedby
+http://es.dbpedia.org/property/apellido
+http://es.dbpedia.org/property/apellidos
+http://es.dbpedia.org/property/apodo
+http://es.dbpedia.org/property/año
+http://es.dbpedia.org/property/capítulo
+http://es.dbpedia.org/property/edición
+http://es.dbpedia.org/property/editorial
+http://es.dbpedia.org/property/empleador
+http://es.dbpedia.org/property/familiares
+http://es.dbpedia.org/property/fecha
+http://es.dbpedia.org/property/fechaacceso
+http://es.dbpedia.org/property/isbn
+http://es.dbpedia.org/property/número
+http://es.dbpedia.org/property/pareja
+http://es.dbpedia.org/property/posgrado
+http://es.dbpedia.org/property/publicación
+http://es.dbpedia.org/property/páginas
+http://es.dbpedia.org/property/seudónimo
+http://es.dbpedia.org/property/sitioweb
+http://es.dbpedia.org/property/tamañoDeImagen
+http://es.dbpedia.org/property/tratamiento
+http://es.dbpedia.org/property/twitter
+http://es.dbpedia.org/property/ubicación
+http://es.dbpedia.org/property/url
+http://es.dbpedia.org/property/volumen
+http://es.dbpedia.org/property/juntoa
+http://es.dbpedia.org/property/almaMater
+
+# Result 2:
+
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www.w3.org/2002/07/owl#sameAs
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/topic
+http://xmlns.com/foaf/0.1/homepage
+http://purl.org/dc/terms/subject
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://es.dbpedia.org/property/gabinete
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMáter
+http://es.dbpedia.org/property/almamáter
+http://es.dbpedia.org/property/cargo
+http://es.dbpedia.org/property/causaMuerte
+http://es.dbpedia.org/property/ciudadanía
+http://es.dbpedia.org/property/conflictos
+http://es.dbpedia.org/property/cónyuge
+http://es.dbpedia.org/property/distrito
+http://es.dbpedia.org/property/educación
+http://es.dbpedia.org/property/escudo
+http://es.dbpedia.org/property/fechaDeFallecimiento
+http://es.dbpedia.org/property/fechaDeNacimiento
+http://es.dbpedia.org/property/final
+http://es.dbpedia.org/property/hijos
+http://es.dbpedia.org/property/imagen
+http://es.dbpedia.org/property/inicio
+http://es.dbpedia.org/property/lenguaMaterna
+http://es.dbpedia.org/property/lugarDeDescanso
+http://es.dbpedia.org/property/lugarDeFallecimiento
+http://es.dbpedia.org/property/lugarDeNacimiento
+http://es.dbpedia.org/property/nacionalidad
+http://es.dbpedia.org/property/nombre
+http://es.dbpedia.org/property/nombreCompleto
+http://es.dbpedia.org/property/nombreDeNacimiento
+http://es.dbpedia.org/property/nombreNativo
+http://es.dbpedia.org/property/ocupación
+http://es.dbpedia.org/property/padres
+http://es.dbpedia.org/property/partido
+http://es.dbpedia.org/property/partidoPolítico
+http://es.dbpedia.org/property/período
+http://es.dbpedia.org/property/pieDeImagen
+http://es.dbpedia.org/property/pieimagen
+http://es.dbpedia.org/property/predecesor
+http://es.dbpedia.org/property/premios
+http://es.dbpedia.org/property/presidente
+http://es.dbpedia.org/property/primerministro
+http://es.dbpedia.org/property/profesión
+http://es.dbpedia.org/property/religión
+http://es.dbpedia.org/property/residencia
+http://es.dbpedia.org/property/sitioWeb
+http://es.dbpedia.org/property/sucesor
+http://es.dbpedia.org/property/tamaño
+http://es.dbpedia.org/property/título
+http://es.dbpedia.org/property/etnia
+http://es.dbpedia.org/property/monarca
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/wikiPageID
+http://dbpedia.org/ontology/wikiPageRevisionID
+http://dbpedia.org/ontology/wikiPageExternalLink
+http://dbpedia.org/ontology/wikiPageLength
+http://dbpedia.org/ontology/child
+http://dbpedia.org/ontology/nationality
+http://dbpedia.org/ontology/occupation
+http://dbpedia.org/ontology/party
+http://dbpedia.org/ontology/profession
+http://dbpedia.org/ontology/religion
+http://dbpedia.org/ontology/residence
+http://dbpedia.org/ontology/successor
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://dbpedia.org/ontology/abstract
+http://www.w3.org/2007/05/powder-s#describedby
+http://es.dbpedia.org/property/apellido
+http://es.dbpedia.org/property/apellidos
+http://es.dbpedia.org/property/apodo
+http://es.dbpedia.org/property/año
+http://es.dbpedia.org/property/capítulo
+http://es.dbpedia.org/property/edición
+http://es.dbpedia.org/property/editorial
+http://es.dbpedia.org/property/empleador
+http://es.dbpedia.org/property/familiares
+http://es.dbpedia.org/property/fecha
+http://es.dbpedia.org/property/fechaacceso
+http://es.dbpedia.org/property/isbn
+http://es.dbpedia.org/property/número
+http://es.dbpedia.org/property/pareja
+http://es.dbpedia.org/property/posgrado
+http://es.dbpedia.org/property/publicación
+http://es.dbpedia.org/property/páginas
+http://es.dbpedia.org/property/seudónimo
+http://es.dbpedia.org/property/sitioweb
+http://es.dbpedia.org/property/tamañoDeImagen
+http://es.dbpedia.org/property/tratamiento
+http://es.dbpedia.org/property/twitter
+http://es.dbpedia.org/property/ubicación
+http://es.dbpedia.org/property/url
+http://es.dbpedia.org/property/volumen
+http://es.dbpedia.org/property/juntoa
+http://es.dbpedia.org/property/almaMater
+http://es.dbpedia.org/property/cargoOcupado
+
+# Result 3:
+
+"Adame Ba Konaré"@es
+"Adame Ba Konaré"@es
+"Adame Ba Konaré"@es
+"Adame Ba Konaré"@es
+"Adriano Sánchez Roa"@es
+"Adriano Sánchez Roa"@es
+"Adriano Sánchez Roa"@es
+"Adriano Sánchez Roa"@es
+"Adrián Ward"@es
+"Adrián Ward"@es
+"Adrián Ward"@es
+"Adrián Ward"@es
+"Agustín Haya de la Torre de la Rosa"@es
+"Agustín Haya de la Torre de la Rosa"@es
+"Agustín Haya de la Torre de la Rosa"@es
+"Agustín Haya de la Torre de la Rosa"@es
+"Agustín Molina Martínez"@es
+"Agustín Molina Martínez"@es
+"Agustín Molina Martínez"@es
+"Agustín Molina Martínez"@es
+"Ahmed Hilmi Pasha"@es
+"Ahmed Hilmi Pasha"@es
+"Ahmed Hilmi Pasha"@es
+"Ahmed Hilmi Pasha"@es
+"Aileen Baviera"@es
+"Aileen Baviera"@es
+"Aileen Baviera"@es
+"Aileen Baviera"@es
+"Aisha Musa el-Said"@es
+"Aisha Musa el-Said"@es
+"Aisha Musa el-Said"@es
+"Aisha Musa el-Said"@es
+"Akua Asabea Ayisi"@es
+"Akua Asabea Ayisi"@es
+"Akua Asabea Ayisi"@es
+"Akua Asabea Ayisi"@es
+"Alain Vivien"@es
+"Alain Vivien"@es
+"Alain Vivien"@es
+"Alain Vivien"@es
+"Alaiza Pashkevich"@es
+"Alaiza Pashkevich"@es
+"Alaiza Pashkevich"@es
+"Alaiza Pashkevich"@es
+"Aptripel Tumimomor"@es
+"Aptripel Tumimomor"@es
+"Aptripel Tumimomor"@es
+"Aptripel Tumimomor"@es
+"Arancha González Laya"@es
+"Arancha González Laya"@es
+"Arancha González Laya"@es
+"Arancha González Laya"@es
+"Archer Blood"@es
+"Archer Blood"@es
+"Archer Blood"@es
+"Archer Blood"@es
+"Ariela Luna"@es
+"Ariela Luna"@es
+"Ariela Luna"@es
+"Ariela Luna"@es
+"Arnulfo Gasca Trujillo"@es
+"Arnulfo Gasca Trujillo"@es
+"Arnulfo Gasca Trujillo"@es
+"Arnulfo Gasca Trujillo"@es
+"Arturo Zúñiga"@es
+"Arturo Zúñiga"@es
+"Arturo Zúñiga"@es
+"Arturo Zúñiga"@es
+"Ascensión Pastor Parres"@es
+"Ascensión Pastor Parres"@es
+"Ascensión Pastor Parres"@es
+"Ascensión Pastor Parres"@es
+"Ashok-Alexander Sridharan"@es
+"Ashok-Alexander Sridharan"@es
+"Ashok-Alexander Sridharan"@es
+"Ashok-Alexander Sridharan"@es
+"Aslan Bzhania"@es
+"Aslan Bzhania"@es
+"Aslan Bzhania"@es
+"Aslan Bzhania"@es
+"Asma Abdallá"@es
+"Asma Abdallá"@es
+"Asma Abdallá"@es
+"Asma Abdallá"@es
+"Eduardo Salinas Verdeguer"@es
+"Eduardo Salinas Verdeguer"@es
+"Adame Ba Konaré o Adame Konaré Ba (Segú, 1 de mayo de 1947) es una historiadora, escritora, militante del movimiento democrático maliense y activista por los derechos de las mujeres. En 1995 fundó el Museo de la Mujer Muso Kunda, uno de los pocos  que existen en África. En sus investigaciones reivindica el valor de la tradición oral para conocer e investigar sobre la historia de África que desde los años 60 del siglo XX se integran como fuente de información igualmente válidos que los documentos escritos, señala la historiadora. Fue primera dama de Malí entre 1992 y 2002."@es
+"Adame Ba Konaré o Adame Konaré Ba (Segú, 1 de mayo de 1947) es una historiadora, escritora, militante del movimiento democrático maliense y activista por los derechos de las mujeres. En 1995 fundó el Museo de la Mujer Muso Kunda, uno de los pocos  que existen en África. En sus investigaciones reivindica el valor de la tradición oral para conocer e investigar sobre la historia de África que desde los años 60 del siglo XX se integran como fuente de información igualmente válidos que los documentos escritos, señala la historiadora. Fue primera dama de Malí entre 1992 y 2002."@es
+"Adame Ba Konaré o Adame Konaré Ba (Segú, 1 de mayo de 1947) es una historiadora, escritora, militante del movimiento democrático maliense y activista por los derechos de las mujeres. En 1995 fundó el Museo de la Mujer Muso Kunda, uno de los pocos  que existen en África. En sus investigaciones reivindica el valor de la tradición oral para conocer e investigar sobre la historia de África que desde los años 60 del siglo XX se integran como fuente de información igualmente válidos que los documentos escritos, señala la historiadora. Fue primera dama de Malí entre 1992 y 2002."@es
+"Adame Ba Konaré o Adame Konaré Ba (Segú, 1 de mayo de 1947) es una historiadora, escritora, militante del movimiento democrático maliense y activista por los derechos de las mujeres. En 1995 fundó el Museo de la Mujer Muso Kunda, uno de los pocos  que existen en África. En sus investigaciones reivindica el valor de la tradición oral para conocer e investigar sobre la historia de África que desde los años 60 del siglo XX se integran como fuente de información igualmente válidos que los documentos escritos, señala la historiadora. Fue primera dama de Malí entre 1992 y 2002."@es
+"Adriano de Jesús Sánchez Roa (nacido el 24 de enero del año 1956) es un político, economista y escritor de la República Dominicana. Es Senador para la provincia de Elías Piña, elegido en 2006, y reelegido en 2010, con 60.05% de los votos.​​ Ha sido descrito cuando uno del más senadores más trabajadores.​​"@es
+"Adriano de Jesús Sánchez Roa (nacido el 24 de enero del año 1956) es un político, economista y escritor de la República Dominicana. Es Senador para la provincia de Elías Piña, elegido en 2006, y reelegido en 2010, con 60.05% de los votos.​​ Ha sido descrito cuando uno del más senadores más trabajadores.​​"@es
+"Adriano de Jesús Sánchez Roa (nacido el 24 de enero del año 1956) es un político, economista y escritor de la República Dominicana. Es Senador para la provincia de Elías Piña, elegido en 2006, y reelegido en 2010, con 60.05% de los votos.​​ Ha sido descrito cuando uno del más senadores más trabajadores.​​"@es
+"Adriano de Jesús Sánchez Roa (nacido el 24 de enero del año 1956) es un político, economista y escritor de la República Dominicana. Es Senador para la provincia de Elías Piña, elegido en 2006, y reelegido en 2010, con 60.05% de los votos.​​ Ha sido descrito cuando uno del más senadores más trabajadores.​​"@es
+"Manuel Mariano Adrián Ward Chocano fue un hacendado, periodista y político peruano. Fue senador por Tacna durante 23 años entre 1886 y 1912. Nació en Arequipa en 1834. Sus padres fueron Juan Lucas Ward y María Josefa Joaquina Chocano Vilchez. Se casó en 1854 en Arequipa con María Julia Rosa Johnson Ureta con quien tuvo cinco hijos. En 1871 estableció la Hacienda Ward en el Valle de Cinto en el departamento de Tacna (actual provincia de Jorge Basadre. Ward trajo como mayordomo al chinchano José Lévano Trillo y se dedicó a la producción de vino para exportarlo a Europa. Luego de la guerra con Chile se generó un ambiente hostil de parte de los chilenos que ocuparon la zona por lo que Ward tuvo que abandonar la hacienda y mudarse a Tacna vendiendola eventualmente a Lévano​."@es
+"Manuel Mariano Adrián Ward Chocano fue un hacendado, periodista y político peruano. Fue senador por Tacna durante 23 años entre 1886 y 1912. Nació en Arequipa en 1834. Sus padres fueron Juan Lucas Ward y María Josefa Joaquina Chocano Vilchez. Se casó en 1854 en Arequipa con María Julia Rosa Johnson Ureta con quien tuvo cinco hijos. En 1871 estableció la Hacienda Ward en el Valle de Cinto en el departamento de Tacna (actual provincia de Jorge Basadre. Ward trajo como mayordomo al chinchano José Lévano Trillo y se dedicó a la producción de vino para exportarlo a Europa. Luego de la guerra con Chile se generó un ambiente hostil de parte de los chilenos que ocuparon la zona por lo que Ward tuvo que abandonar la hacienda y mudarse a Tacna vendiendola eventualmente a Lévano​."@es
+"Manuel Mariano Adrián Ward Chocano fue un hacendado, periodista y político peruano. Fue senador por Tacna durante 23 años entre 1886 y 1912. Nació en Arequipa en 1834. Sus padres fueron Juan Lucas Ward y María Josefa Joaquina Chocano Vilchez. Se casó en 1854 en Arequipa con María Julia Rosa Johnson Ureta con quien tuvo cinco hijos. En 1871 estableció la Hacienda Ward en el Valle de Cinto en el departamento de Tacna (actual provincia de Jorge Basadre. Ward trajo como mayordomo al chinchano José Lévano Trillo y se dedicó a la producción de vino para exportarlo a Europa. Luego de la guerra con Chile se generó un ambiente hostil de parte de los chilenos que ocuparon la zona por lo que Ward tuvo que abandonar la hacienda y mudarse a Tacna vendiendola eventualmente a Lévano​."@es
+"Manuel Mariano Adrián Ward Chocano fue un hacendado, periodista y político peruano. Fue senador por Tacna durante 23 años entre 1886 y 1912. Nació en Arequipa en 1834. Sus padres fueron Juan Lucas Ward y María Josefa Joaquina Chocano Vilchez. Se casó en 1854 en Arequipa con María Julia Rosa Johnson Ureta con quien tuvo cinco hijos. En 1871 estableció la Hacienda Ward en el Valle de Cinto en el departamento de Tacna (actual provincia de Jorge Basadre. Ward trajo como mayordomo al chinchano José Lévano Trillo y se dedicó a la producción de vino para exportarlo a Europa. Luego de la guerra con Chile se generó un ambiente hostil de parte de los chilenos que ocuparon la zona por lo que Ward tuvo que abandonar la hacienda y mudarse a Tacna vendiendola eventualmente a Lévano​."@es
+"Agustín Haya de la Torre de la Rosa (Lima, Perú, 3 de diciembre de 1948) es un sociólogo peruano."@es
+"Agustín Haya de la Torre de la Rosa (Lima, Perú, 3 de diciembre de 1948) es un sociólogo peruano."@es
+
+# Result 4:
+
+"Adame Ba Konaré"@es
+"Adriano Sánchez Roa"@es
+"Adrián Ward"@es
+"Agustín Haya de la Torre de la Rosa"@es
+"Agustín Molina Martínez"@es
+"Ahmed Hilmi Pasha"@es
+"Aileen Baviera"@es
+"Aisha Musa el-Said"@es
+"Akua Asabea Ayisi"@es
+"Alain Vivien"@es
+"Alaiza Pashkevich"@es
+"Aptripel Tumimomor"@es
+"Arancha González Laya"@es
+"Archer Blood"@es
+"Ariela Luna"@es
+"Arnulfo Gasca Trujillo"@es
+"Arturo Zúñiga"@es
+"Ascensión Pastor Parres"@es
+"Ashok-Alexander Sridharan"@es
+"Aslan Bzhania"@es
+"Asma Abdallá"@es
+"Eduardo Salinas Verdeguer"@es
+"Adame Ba Konaré o Adame Konaré Ba (Segú, 1 de mayo de 1947) es una historiadora, escritora, militante del movimiento democrático maliense y activista por los derechos de las mujeres. En 1995 fundó el Museo de la Mujer Muso Kunda, uno de los pocos  que existen en África. En sus investigaciones reivindica el valor de la tradición oral para conocer e investigar sobre la historia de África que desde los años 60 del siglo XX se integran como fuente de información igualmente válidos que los documentos escritos, señala la historiadora. Fue primera dama de Malí entre 1992 y 2002."@es
+"Adriano de Jesús Sánchez Roa (nacido el 24 de enero del año 1956) es un político, economista y escritor de la República Dominicana. Es Senador para la provincia de Elías Piña, elegido en 2006, y reelegido en 2010, con 60.05% de los votos.​​ Ha sido descrito cuando uno del más senadores más trabajadores.​​"@es
+"Manuel Mariano Adrián Ward Chocano fue un hacendado, periodista y político peruano. Fue senador por Tacna durante 23 años entre 1886 y 1912. Nació en Arequipa en 1834. Sus padres fueron Juan Lucas Ward y María Josefa Joaquina Chocano Vilchez. Se casó en 1854 en Arequipa con María Julia Rosa Johnson Ureta con quien tuvo cinco hijos. En 1871 estableció la Hacienda Ward en el Valle de Cinto en el departamento de Tacna (actual provincia de Jorge Basadre. Ward trajo como mayordomo al chinchano José Lévano Trillo y se dedicó a la producción de vino para exportarlo a Europa. Luego de la guerra con Chile se generó un ambiente hostil de parte de los chilenos que ocuparon la zona por lo que Ward tuvo que abandonar la hacienda y mudarse a Tacna vendiendola eventualmente a Lévano​."@es
+"Agustín Haya de la Torre de la Rosa (Lima, Perú, 3 de diciembre de 1948) es un sociólogo peruano."@es
+"Agustín Molina Martínez (Distrito de Capaya, Provincia de Aymaraes, Apurímac, 27 de marzo de 1953), es un político peruano. Ha sido electo Congresista de la República del Perú para el período 2011-2016 por el departamento del Cusco.​​ Originario de Apurímac, reside en el Cusco desde su juventud. En el año 1986 se graduó como ingeniero agrónomo en la Universidad Nacional de San Antonio Abad del Cusco. Ha trabajado para Bayer Perú SA como representante de desarrollo, y para agroveterinaria La Granja Kayra SRL como representante de ventas​."@es
+"Ahmed Hilmi Abd al-Baqi (en árabe: أحمد حلمي عبد الباقي; nacido en 1883, Sidón​​, Imperio otomano- febrero de 1963, Líbano), fue un militar, banquero y político palestino, que sirvió en varios gobiernos post-Imperio otomano, y fue Primer Ministro de Toda Palestina, un protectorado de corta duración en la Franja de Gaza."@es
+"Aileen San Pablo, vda. de Baviera (Manila, 26 de agosto de 1959 - Ibidem., 21 de marzo de 2020)​ fue una politóloga y sinóloga filipina. Fue una de las principales expertas sobre China en su país.​​"@es
+"Aisha Musa el-Said (también Asha, Ayesha, Mousa, Elsaid, El Said, Saeed, en árabe, عائشة موسى السعيد ) es una traductora y activista por los derechos de las mujeres de Sudán. Desde el 21 de agosto de 2019 se desempeña como miembro del Consejo Soberano de Sudán, creado para gobernar Sudán durante un periodo de 39 meses. ​ Musa es una de las seis personas civiles que ocupan escaños en el consejo, formado por 11 miembros. Los cinco restantes están ocupados por miembros designados por el ejército sudanés. Junto con Raja Nicola, también miembro del Consejo Soberano, es una de las dos primeras mujeres en la historia moderna de Sudán en ocupar el cargo de jefa de Estado. Musa es conocida como activista por los derechos de las mujeres ​ y por defender una educación mejor, más justa y más descentra"@es
+"Akua Asabea Ayisi (Mampong Akuapem, 3 de abril de 1927 - 21 de abril de 2010) fue una feminista, ex jueza del Tribunal Superior y la primera periodista ghanesa. ​ ​ Durante el surgimiento del movimiento de independencia de Ghana, Akua Asabea Ayisi se formó como periodista con Mabel Dove-Danquah y Kwame Nkrumah, quien más tarde se convertiría en el primer primer ministro y presidente del país. La posición de Ayisi como editora de la columna de mujeres, en el periódico Accra Evening News se consideró una acción radical en ese momento. ​"@es
+"Alain Vivien (Melun, Seine-et-Marne, 20 de agosto de 1938) es un político francés, miembro del Partido Socialista (PS),​​ conocido por la presidencia (entre 1998 y 2002) de la Misión Interministerial de lucha contra las sectas (MILS)​, un organismo interministerial diseñado para observar las actividades de las distintas organizaciones religiosas definidas como "Sectas" (cultos)."@es
+"Alaiza Pashkevich (o Ciotka; en bielorruso, Алаіза Пашкевіч o Ałaiza Paškievič 15 de julio de 1876 - 5 de noviembre de 1916) fue una poeta bielorrusa y activista política del renacimiento democrático nacional bielorruso. ​ ​"@es
+"Aptripel Tumimomor (3 de abril de 1966 - 2 de abril de 2020) fue un político, empresario e ingeniero indonesio. Se desempeñó como Regente de la Regencia del Norte de Morowali, en Sulawesi Central, desde el 17 de febrero de 2016, hasta su muerte en el cargo el 2 de abril de 2020, de COVID-19."@es
+"María Aránzazu «Arancha» González Laya (San Sebastián, 22 de mayo de 1969) es la ministra de Asuntos Exteriores, Unión Europea y Cooperación de España.​ Anteriormente, desde 2013, había sido directora ejecutiva del Centro de Comercio Internacional (ITC) ​ y subsecretaria general de la Organización de las Naciones Unidas (ONU)."@es
+"Archer Kent Blood (Chicago, 20 de marzo de 1923 – Fort Collins, 3 de septiembre de 2004) fue un diplomático y académico estadounidense. Fue el último Cónsul General de Estados Unidos en Daca, Bangladés (en entonces Pakistán Oriental). Es famoso por su duro mensaje en el ''Telegrama Blood'', en donde protestaba contra las atrocidades cometidas durante la Guerra de Liberación de Bangladés. También realizó servicios en Grecia, Argelia, Alemania, Afganistán y acabó su carrera cuando encargado de negocios de la Embajada de Estados Unidos en Nueva Delhi, India, retirándose en 1982."@es
+"Ariela María de los Milagros Luna Florez (21 de octubre de 1958) es una médico y antropóloga peruana. Fue Ministra de Desarrollo e Inclusión Social del Perú desde el 29 de octubre de 2019 hasta el 15 de julio de 2020 durante el Gobierno de Martín Vizcarra.​"@es
+"Arnulfo Gasca Trujillo (2 de octubre de 1953), Municipio de Puerto Milán Caquetá, Colombia. Es empresario del sector rural, político y gobernador del departamento del Caquetá en el periodo 2020-2023.​"@es
+"Luis Arturo Zúñiga Jory​ (Santiago, 1 de diciembre de 1982)​ es un ingeniero comercial y político chileno. Desde el 11 de julio de 2019 se desempeña como subsecretario de Redes Asistenciales en el Minsal, bajo el segundo mandato del presidente Sebastián Piñera.​"@es
+"Ascensión Pastor Parres (Bilbao, 18 de enero de 1942) es Doctora en Historia y Ciencias Jurídicas del Derecho​. Es profesora titular de Historia del Derecho en la Universidad de Deusto y política del Partido Popular."@es
+"Ashok-Alexander Sridharan es un político alemán de ascendencia india quién es el Alcalde actual de Bonn como miembro de la Unión Democrática cristiana de Alemania (CDU). Es el primer alcalde de Bonn para ser de fondo inmigrante.​"@es
+"Aslan Georgievich Bzhania (en abjasio: Аслан Гьаргь-иҧа Бжьаниа, en ruso: Аслан Георгиевич Бжания; , 6 de abril de 1963) es un político abjasio que se desempeña como Presidente de Abjasia desde el 23 de abril de 2020. Fue el jefe del Servicio de Seguridad del Estado, y uno de los líderes de la oposición en Abjasia."@es
+"Asma Abdallá o Asma Mohamed Abdallá ​ (también conocida como: Asmaa, Abdallah, Abdullah ​ ​ ; en árabe, أسماء محمد عبدالله ) (Jartum, 1946) es una diplomática sudanesa. Desde el 8 de septiembre de 2019 es la ministra de Asuntos Exteriores de Sudán en el gabinete del primer ministro Abdalla Hamdok, durante la . Es la primera mujer en asumir el puesto de Ministra de Exteriores en la historia de Sudán."@es
+http://es.dbpedia.org/resource/Adame_Ba_Konaré
+http://es.dbpedia.org/resource/Adriano_Sánchez_Roa
+http://es.dbpedia.org/resource/Adrián_Ward
+http://es.dbpedia.org/resource/Agustín_Haya_de_la_Torre_de_la_Rosa
+http://es.dbpedia.org/resource/Agustín_Molina_Martínez
+http://es.dbpedia.org/resource/Ahmed_Hilmi_Pasha
+http://es.dbpedia.org/resource/Aileen_Baviera
+http://es.dbpedia.org/resource/Aisha_Musa_el-Said
+http://es.dbpedia.org/resource/Akua_Asabea_Ayisi
+http://es.dbpedia.org/resource/Alain_Vivien
+http://es.dbpedia.org/resource/Alaiza_Pashkevich
+http://es.dbpedia.org/resource/Aptripel_Tumimomor
+http://es.dbpedia.org/resource/Arancha_González_Laya
+http://es.dbpedia.org/resource/Archer_Blood
+http://es.dbpedia.org/resource/Ariela_Luna
+http://es.dbpedia.org/resource/Arnulfo_Gasca_Trujillo
+http://es.dbpedia.org/resource/Arturo_Zúñiga
+http://es.dbpedia.org/resource/Ascensión_Pastor_Parres
+http://es.dbpedia.org/resource/Ashok-Alexander_Sridharan
+http://es.dbpedia.org/resource/Aslan_Bzhania
+http://es.dbpedia.org/resource/Asma_Abdallá
+"Ahmed Hilmi Abd al-Baqi"@es
+"En el cargo"@es
+"Arancha González"@es
+"Archer Kent Blood"@es
+"Arturo Zúñiga Jory"@es
+http://es.wikipedia.org/wiki/Adame_Ba_Konaré
+http://es.dbpedia.org/resource/Museo_de_la_Mujer_Muso_Kunda
+http://es.wikipedia.org/wiki/Adriano_Sánchez_Roa
+http://es.wikipedia.org/wiki/Adrián_Ward
+http://es.dbpedia.org/resource/Domingo_Almenara_Butler
+http://es.dbpedia.org/resource/Agustin_Haya_de_la_Torre
+http://es.dbpedia.org/resource/Agustín_Haya_de_la_Torre
+http://es.wikipedia.org/wiki/Agustín_Haya_de_la_Torre_de_la_Rosa
+http://es.dbpedia.org/resource/Defensor_Sporting_Club_(juveniles)
+http://es.dbpedia.org/resource/Agustín_Molina
+http://es.wikipedia.org/wiki/Agustín_Molina_Martínez
+http://es.dbpedia.org/resource/Amin_al-Husayni
+http://es.dbpedia.org/resource/Gobierno_del_Protectorado_de_Toda_Palestina
+http://es.dbpedia.org/resource/Protectorado_de_Toda_Palestina
+http://dbpedia.org/resource/Ahmed_Hilmi_Pasha
+http://es.wikipedia.org/wiki/Ahmed_Hilmi_Pasha
+http://es.dbpedia.org/resource/Aileen_San_Pablo_Baviera
+http://es.wikipedia.org/wiki/Aileen_Baviera
+http://dbpedia.org/resource/Aisha_Musa_el-Said
+http://es.wikipedia.org/wiki/Aisha_Musa_el-Said
+http://es.wikipedia.org/wiki/Akua_Asabea_Ayisi
+http://dbpedia.org/resource/Alain_Vivien
+http://es.wikipedia.org/wiki/Alain_Vivien
+http://dbpedia.org/resource/Alaiza_Pashkevich
+http://es.wikipedia.org/wiki/Alaiza_Pashkevich
+http://es.wikipedia.org/wiki/Aptripel_Tumimomor
+http://es.dbpedia.org/resource/Orden_del_Mérito_Civil_(España)
+http://es.dbpedia.org/resource/Orden_de_Isabel_la_Católica
+http://es.dbpedia.org/resource/Josep_Borrell
+http://es.dbpedia.org/resource/Ministro_de_Asuntos_Exteriores_de_España
+http://es.dbpedia.org/resource/Margarita_Robles
+
+# Result 5:
+
+http://es.dbpedia.org/property/afiliaciones	
+1417
+http://es.dbpedia.org/property/conocidoPor	
+42
+http://es.dbpedia.org/property/isbn	
+3074
+http://es.dbpedia.org/property/período	
+15552
+http://es.dbpedia.org/property/subtítulo	
+968
+http://dbpedia.org/ontology/wikiPageRevisionID	
+24272
+http://es.dbpedia.org/property/url	
+5505
+http://es.dbpedia.org/property/vicegobernador	
+526
+http://es.dbpedia.org/property/facebook	
+377
+http://es.dbpedia.org/property/idioma	
+930
+http://es.dbpedia.org/property/área	
+62
+http://es.dbpedia.org/property/etnia	
+60
+http://es.dbpedia.org/property/pareja	
+103
+http://es.dbpedia.org/property/title	
+392
+http://es.dbpedia.org/property/periodo	
+19
+http://es.dbpedia.org/property/otrosnombres	
+19
+http://es.dbpedia.org/property/descripción	
+93
+http://es.dbpedia.org/property/3data	
+126
+http://es.dbpedia.org/property/empleos	
+42
+http://es.dbpedia.org/property/jefe	
+151
+http://es.dbpedia.org/property/selecciónNacionalPeríodo	
+2
+http://es.dbpedia.org/property/2a	
+31
+http://es.dbpedia.org/property/3ps	
+1
+http://es.dbpedia.org/property/chapter	
+3
+http://es.dbpedia.org/property/estado	
+21
+http://es.dbpedia.org/property/others	
+4
+http://es.dbpedia.org/property/nota	
+4
+http://es.dbpedia.org/property/teniente	
+53
+http://es.dbpedia.org/property/tipo	
+17
+http://es.dbpedia.org/property/madre	
+19
+http://es.dbpedia.org/property/lugarDeEntierro	
+15
+http://es.dbpedia.org/property/colwidth	
+3
+http://es.dbpedia.org/property/porcentajeParticipación	
+2
+http://es.dbpedia.org/property/alineaciónTexto	
+15
+http://es.dbpedia.org/property/peso	
+7
+http://es.dbpedia.org/property/birthname	
+2
+http://es.dbpedia.org/property/portal	
+19
+http://es.dbpedia.org/property/tamañoEscudo	
+3
+http://es.dbpedia.org/property/disoluciónDeLaRevuelta	
+1
+http://es.dbpedia.org/property/encabezado	
+3
+http://es.dbpedia.org/property/coronación	
+1
+http://es.dbpedia.org/property/listaextra	
+2
+http://es.dbpedia.org/property/raza	
+4
+http://es.dbpedia.org/property/direction	
+3
+http://es.dbpedia.org/property/colección	
+11
+http://es.dbpedia.org/property/successor	
+3
+http://es.dbpedia.org/property/voy	
+1
+http://es.dbpedia.org/property/appointed	
+1
+http://es.dbpedia.org/property/ended	
+1
+http://es.dbpedia.org/property/exCargo	
+1
+http://es.dbpedia.org/property/rom	
+1
+http://es.dbpedia.org/property/escritor	
+2
+http://es.dbpedia.org/property/tiempo	
+12
+http://es.dbpedia.org/property/ocpación	
+1
+http://es.dbpedia.org/property/rangoMilitar	
+5
+http://es.dbpedia.org/property/oleft	
+1
+http://es.dbpedia.org/property/partidPolítico	
+1
+http://es.dbpedia.org/property/deadurl	
+4
+http://es.dbpedia.org/property/page	
+7
+http://es.dbpedia.org/property/mostrarNombres	
+7
+http://es.dbpedia.org/property/presidenteDelBancoCentralDelUruguay	
+1
+http://es.dbpedia.org/property/lider	
+1
+http://es.dbpedia.org/property/descripciónImagen	
+1
+http://es.dbpedia.org/property/eduacación	
+1
+http://es.dbpedia.org/property/years	
+2
+http://es.dbpedia.org/property/supervisoraDoctoral	
+1
+http://es.dbpedia.org/property/gradoAcadémico	
+1
+http://es.dbpedia.org/property/en	
+1
+http://es.dbpedia.org/property/motivo	
+1
+http://es.dbpedia.org/property/educadoEn	
+3
+http://es.dbpedia.org/property/fechanace	
+1
+http://es.dbpedia.org/property/causaDeLaMuerte	
+2
+http://es.dbpedia.org/property/branch	
+1
+http://es.dbpedia.org/property/comidaFavorita	
+1
+http://es.dbpedia.org/property/pos	
+2
+http://es.dbpedia.org/property/labelSize	
+1
+http://es.dbpedia.org/property/wikiqoutes	
+1
+http://es.dbpedia.org/property/premiosAtv	
+1
+http://es.dbpedia.org/property/distrit	
+1
+http://es.dbpedia.org/property/influyóEn	
+3
+http://es.dbpedia.org/property/dimensiones	
+1
+http://es.dbpedia.org/property/fechaDeFallecimietno	
+1
+http://es.dbpedia.org/property/presidentaMunicipalDeTultitlán	
+1
+http://es.dbpedia.org/property/última	
+2
+http://es.dbpedia.org/property/vicedirectora	
+1
+http://es.dbpedia.org/property/servicioMilitary	
+2
+http://es.dbpedia.org/property/sitoweb	
+1
+http://es.dbpedia.org/property/sufijohonorífico	
+1
+http://es.dbpedia.org/property/abr	
+2
+http://es.dbpedia.org/property/encurso	
+1
+http://es.dbpedia.org/property/carg	
+1
+http://es.dbpedia.org/property/naconalidad	
+1
+http://es.dbpedia.org/property/vástago	
+1
+http://es.dbpedia.org/property/general	
+1
+http://es.dbpedia.org/property/cónyuge(...2014)_	
+1
+http://www.w3.org/2002/07/owl#sameAs	
+9928
+http://www.w3.org/2007/05/powder-s#describedby	
+1549
+http://es.dbpedia.org/property/año	
+9155
+http://es.dbpedia.org/property/cabecera	
+206
+http://es.dbpedia.org/property/fechaDeNacimiento	
+11023

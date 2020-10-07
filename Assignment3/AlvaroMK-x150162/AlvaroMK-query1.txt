@@ -1,0 +1,6 @@
+SELECT DISTINCT ?properties
+WHERE{
+	?x rdf:type <http://dbpedia.org/ontology/Politician>.
+	?x ?properties ?values
+}
+LIMIT 100

@@ -1,0 +1,487 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36130"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/61/30"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36465"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/06/2016"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3/61/30"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/10/2018"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36318"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/07/2017"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36312"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/02/2012"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36244"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/08/2011"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36475"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/06/2013"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40169"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/01/2014"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40605"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/06/2005"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "37400"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/07/2010"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "37741"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/07/2015"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "37895"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/07/2019"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "37935"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3/09/2015"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40008"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/08/2020"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40196"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/01/2020"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40302"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/03/2016"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40602"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/06/2016"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40162"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/01/2011"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40254"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/02/2004"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha alta",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40217"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4/02/2017"
+      }
+    ],
+    "description": "Mass edit cells in column Fecha alta"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "VIA_PAR",
+    "description": "Remove column VIA_PAR"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD_ED50",
+    "description": "Remove column LATITUD_ED50"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD_ED50",
+    "description": "Remove column LONGITUD_ED50"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LONGITUD_WGS84",
+    "description": "Remove column LONGITUD_WGS84"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LATITUD_WGS84",
+    "description": "Remove column LATITUD_WGS84"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud_gms",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Longitud_gms by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Longitud_gms 3",
+    "description": "Remove column Longitud_gms 3"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud_gms 1",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3º34'43,8\"Oº"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3º34'43,8\""
+      }
+    ],
+    "description": "Mass edit cells in column Longitud_gms 1"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitud_gms",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Latitud_gms by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Latitud_gms 3",
+    "description": "Remove column Latitud_gms 3"
+  }
+]

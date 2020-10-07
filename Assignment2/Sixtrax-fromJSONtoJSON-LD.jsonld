@@ -1,0 +1,38 @@
+{
+	"@context":{
+		"subjects":"http://www.example.org/subjects/",
+		"people": "http://www.example.org/people/",
+		"fullName":"people:fullName",
+		"hometown":"people:hometown",
+		"age":"people:age",
+		"almaMater":"people:almaMater",
+		"parentsNames":"people:parentsNames",
+		"subjects":"people:subjects",
+		"name":"subjects:name",
+		"teachers":"subjects:teachers",
+		"description":"subjects:description"
+	},
+	"@id":"http://www.example.org/people/RaulGonzalezDuarte",
+	"@type": "people",
+	"fullName":"Raul Gonzalez Duarte",
+	"hometown":"San Sebastian de los Reyes",
+	"age":"23",
+	"almaMater":"Universidad Politécnica de Madrid",
+	"parentsNames": ["Juan", "Eulalia"],
+	"subjects": [
+				{
+				"name":"Semantic Web, Linked Data and Knowledge Graphs",
+				"teachers":["Oscar Corcho", "Raúl García Castro", "Paola Espinoza", "David Chaves"],
+				"description": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre datos enlazados"
+				},
+				{
+				"name":"GPTI",
+				"teachers":["Edmundo Tovar Caro","Oscar Dieste Tubio"],
+				"description":"El objetivo de la asignatura es  proporcionar la base teórica y práctica sobre la gestion de procesos y tecnologias de la informacion."
+				},
+				{
+				"name":"Ingenieria del software 2",
+				"teachers":["Jose A. Calvo-Manzano Villalón", "Ana Maria Moreno Sanchez-Capuchino", "Tomás San Feliu Gilabert"],
+				"description":"Continuacion de Ingenieria del software 1"
+				}]
+} 

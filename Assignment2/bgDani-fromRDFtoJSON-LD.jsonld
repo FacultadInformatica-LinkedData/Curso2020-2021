@@ -1,0 +1,47 @@
+{
+    "@context":{
+        "vocab":"http://www.oeg-upm.net/Organization#",
+        "xsd":"http://www.w3.org/2001/XMLSchema#",
+        "Class01": "vocab:Class01",
+        "includes": "vocab:includes",
+        "Sensor029": "Class01:Sensor029",
+        "Computer101": "Class01:Computer101",
+        "hasMeasurement": "vocab:hasMeasurement",
+        "hasOwner": "vocab:hasOwner",
+        "Measurement8401": "Sensor029:Measurement8401",
+        "hasTemperature": "vocab:hasTemperature",
+        "atTime": "vocab:atTime",
+        "User10A": "Computer101:User10A",
+        "hasName": "vocab:hasName"
+    },
+    "@id":"http://www.oeg-upm.net/Organization/Class01",
+    "@type":"vocab:Class01",
+    "includes": [{
+            "@id": "http://www.oeg-upm.net/Organization/Class01/Sensor029",
+            "@type": "Class01:Sensor029",
+            "hasMeasurement": {
+                    "@id": "http://www.oeg-upm.net/Organization/Class01/Sensor029/Measurement8401",
+                    "@type": "Sensor029:Measurement8401",
+                    "hastTemperature": {
+                        "@value": 29,
+                        "@type": "xsd:integer"
+                    },
+                    "atTime": {
+                        "@value": "2010-06-12T12:00:12",
+                        "@type": "xsd:dateTime"
+                    }
+            }
+    },
+    {
+            "@id":"http://www.oeg-upm.net/Organization/Class01/Computer101",
+            "@type": "Class01:Computer101",
+            "hasOwner": {
+                    "@id": "http://www.oeg-upm.net/Organization/Class01/Computer101/User10A",
+                    "@type": "Computer101:User10A",
+                    "hasName": {
+                        "@value": "Pedro",
+                        "@type": "xsd:string"
+                    }
+            }
+    }]
+}

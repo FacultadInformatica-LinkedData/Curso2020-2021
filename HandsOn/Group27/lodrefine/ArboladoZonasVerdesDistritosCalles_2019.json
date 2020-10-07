@@ -1,0 +1,54 @@
+﻿[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nº_Distrito",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nº_Distrito using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nº_Unidades",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nº_Unidades using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Nombre_distrito",
+    "expression": "grel:value.toTitlecase().replace(/\\s/,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "NombreDistritoURI",
+    "columnInsertIndex": 1,
+    "description": "Create column NombreDistritoURI at index 1 based on column Nombre_distrito using expression grel:value.toTitlecase().replace(/\\s/,\"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "NOMBRE_ESPECIE",
+    "expression": "grel:value.replace(/'/,\"\").toTitlecase().replace(/\\s/,\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "EspecieURI",
+    "columnInsertIndex": 4,
+    "description": "Create column EspecieURI at index 4 based on column NOMBRE_ESPECIE using expression grel:value.replace(/'/,\"\").toTitlecase().replace(/\\s/,\"\")"
+  }
+]

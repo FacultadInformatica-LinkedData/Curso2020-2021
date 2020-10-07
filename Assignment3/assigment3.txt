@@ -1,0 +1,71 @@
+1.Get all the properties that can be applied to instances of the Politician class
+
+PREFIX ex:<http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y
+WHERE
+{
+ ?x a ex:Politician.
+ ?x ?y ?z
+}
+
+
+resultado de la query 1:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=PREFIX+ex%3A%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0ASELECT+DISTINCT+%3Fy%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+a+ex%3APolitician.%0D%0A+%3Fx+%3Fy+%3Fz%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+2.Get all the properties, except for rdf:type, that are applied to instances of the Politician class
+
+PREFIX ex:<http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y
+WHERE
+{
+ ?x a ex:Politician.
+ ?x ?y ?z
+FILTER(?y != rdf:type)
+}
+
+resultado de la query 2:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=PREFIX+ex%3A%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0ASELECT+DISTINCT+%3Fy%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+a+ex%3APolitician.%0D%0A+%3Fx+%3Fy+%3Fz%0D%0AFILTER%28%3Fy+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+3.Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+
+PREFIX ex:<http://dbpedia.org/ontology/>
+SELECT DISTINCT ?z
+WHERE
+{
+ ?x a ex:Politician.
+ ?x ?y ?z
+FILTER(?y != rdf:type)
+}
+
+resultado de la query 3:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=PREFIX+ex%3A%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0ASELECT+DISTINCT+%3Fz%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+a+ex%3APolitician.%0D%0A+%3Fx+%3Fy+%3Fz%0D%0AFILTER%28%3Fy+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+4.For each of these properties, except for rdf:type, which different values do they take in those instances?
+
+PREFIX ex:<http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y ?z
+WHERE
+{
+ ?x a ex:Politician.
+ ?x ?y ?z
+FILTER(?y != rdf:type)
+}
+
+resultado de la query 4:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=PREFIX+ex%3A%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0ASELECT+DISTINCT+%3Fy+%3Fz%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+a+ex%3APolitician.%0D%0A+%3Fx+%3Fy+%3Fz%0D%0AFILTER%28%3Fy+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+5.For each of the properties, except for rdf:type, how many distinct values do they take?
+
+PREFIX ex:<http://dbpedia.org/ontology/>
+SELECT DISTINCT ?y COUNT(?z)
+WHERE
+{
+ ?x a ex:Politician.
+ ?x ?y ?z
+FILTER(?y != rdf:type)
+}
+
+resultado para la query 5:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=PREFIX+ex%3A%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0ASELECT+DISTINCT+%3Fy+COUNT%28%3Fz%29%0D%0AWHERE%0D%0A%7B%0D%0A+%3Fx+a+ex%3APolitician.%0D%0A+%3Fx+%3Fy+%3Fz%0D%0AFILTER%28%3Fy+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
