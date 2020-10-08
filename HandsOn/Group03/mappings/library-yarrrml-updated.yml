@@ -1,0 +1,169 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://example.org#
+  owl: http://www.w3.org/2002/07/owl#
+  ont: http://www.example.org/CastillaLaMancha#
+  
+mappings:
+  triplesmap1:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#LibraryCode/$(LibraryCode)
+    po:
+      - [a, ont:LibraryCode]
+      - [ont:LibraryCode, $(LibraryCode),xsd:integer]
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(LibraryCode)
+
+  triplesmap2:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#Library/$(Library)
+    po:
+      - [a, ont:Library]
+      - [ont:Library, http://www.example.org/CastillaLaMancha#Library/$(Library)~iri]
+      
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:subClassOf
+         objects: $(LibraryCode)
+      predicateobjects:
+       - predicates: hasTelephone
+         objects: $(Telephone)
+      predicateobjects:
+       - predicates: hasEmail
+         objects: $(Email)
+      predicateobjects:
+       - predicates: hasID
+         objects: $(ID)
+      predicateobjects:
+       - predicates: locatedIn
+         objects: $(Address)
+      predicateobjects:
+       - predicates: hasCode
+         objects: $(LibraryCode)
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(Library)
+         
+         
+
+  triplesmap3:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#Province/$(Province)
+    po:
+      - [a, ont:Province]
+      - [ont:Province, http://www.example.org/CastillaLaMancha#Province/$(Province)~iri]
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(Province)
+
+  triplesmap4:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#Town/$(Town)
+    po:
+      - [a, ont:Town]
+      - [ont:Town, http://www.example.org/CastillaLaMancha#Town/$(Town)~iri]
+      
+    mappings:
+      predicateobjects:
+       - predicates: ont:partOf
+         objects: $(Province)
+      predicateobjects:
+       - predicates: ont:hasZIPcode
+         objects: $(ZIPcode)
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(Town)
+      
+
+
+
+  triplesmap5:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#Telephone/$(Telephone)
+    po:
+      - [a, ont:Telephone]
+      - [ont:telephone, $(Telephone),xsd:integer]
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(Telephone)
+
+  triplesmap6:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#ID/$(ID)
+    po:
+      - [a, ont:ID]
+      - [ont:id, $(ID),xsd:integer]
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(ID)
+      
+  triplesmap7:
+    sources:
+    - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s : http://www.example.org/CastillaLaMancha#ZIPcode/$(ZIPcode)
+    po:
+    - [a, ont:ZIPcode]
+    - [ont:ZIPcode, http://www.example.org/CastillaLaMancha#ZIPcode/$(ZIPcode)~iri]
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(ZIPcode)
+
+  triplesmap8:
+    sources:
+    - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s : http://www.example.org/CastillaLaMancha#Email/$(Email)
+    po:
+    - [a, ont:Email]
+    - [ont:Email, $(Email),xsd:String]
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(Email)
+
+  triplesmap9:
+    sources:
+    - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s : http://www.example.org/CastillaLaMancha#Address/$(Address)
+    po:
+    - [a, ont:Address]
+    - [ont:Address, $(Address)]
+    mappings:
+      predicateobjects:
+       - predicates: ont:belongsTo
+         objects: $(Town)
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(Address)
+
+  triplesmap10:
+    sources:
+    - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s : http://www.example.org/CastillaLaMancha#LibraryAdministration/$(LibraryAdministration)
+    po:
+    - [a, ont:LibraryAdministration]
+    - [ont:LibraryAdministration, $(LibraryAdministration)]
+    mappings:
+      predicateobjects:
+       - predicates: rdfs:label
+         objects: $(LibraryAdministration)
