@@ -1,5 +1,4 @@
 prefixes:
-@base <http://www.semanticweb.org/bicimad/> .
 xsd: <http://www.w3.org/2001/XMLSchema#> .
 rr: <http://www.w3.org/ns/r2rml#> .
 rml: <http://semweb.mmlab.be/ns/rml#> .
@@ -19,64 +18,55 @@ TriplesMap1:
   s: http://www.semanticweb.org/bicimad/classes#Bike_Station/{bs_id}
 
   po: 
-  - [rdf:type, classes:Bike_Station]
-  - [properties:position_x, $(position_x)]
-  - [properties:position_y, $(position_y)]
-  - [properties:registration_date, $(registration_date)]
-  - [properties:spots, $(spots)]
-  - [properties:longitude, $(longitude)]
-  - [properties:latitude, $(latitude)]
-  	o:
-  		-mapping: Triplesmap4
-  		condition:
-  			function:equal
+      - [rdf:type, classes:Bike_Station]
+      - [properties:position_x, $(position_x)]
+      - [properties:position_y, $(position_y)]
+      - [properties:registration_date, $(registration_date)]
+      - [properties:spots, $(spots)]
+      - [properties:longitude, $(longitude)]
+      - [properties:latitude, $(latitude)]
+      - p: properties:has_street
+        o:
+            -mapping: Triplesmap4
 
 TriplesMap2:
-	sources: 
-	 - [bases_bicimad-updated2.csv~csv]
-	
-	s: http://www.semanticweb.org/bicimad/classes#District/{district_number}
-	
+    sources: 
+    - [bases_bicimad-updated2.csv~csv]
+    s: http://www.semanticweb.org/bicimad/classes#District/{district_number}
+    po: 
 
-	po: 
-
-	- [rdf_type, classes:District]
-	- [properties:district_name, $(district_name)]
-	- [properties:district_number, $(district_number)]
+    - [rdf_type, classes:District]
+    - [properties:district_name, $(district_name)]
+    - [properties:district_number, $(district_number)]
 
 
 TriplesMap3:
-	sources: 
-	 - [bases_bicimad-updated2.csv~csv]
-	
-	s: [
-	http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}
+    sources: 
+    - [bases_bicimad-updated2.csv~csv]
+    s: http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}
 
 
-	po: 
+    po: 
 
-	- [rdf_type, classes_Neighbourhood]
-	- [properties:neighbourhood_name, $(neighbourhood_name)]
-	- [properties:neighbourhood_number, $(neighbourhood_number)]
-	 o:
-  		-mapping: Triplesmap2
-  		condition:
-  			function:equal
+    - [rdf_type, classes_Neighbourhood]
+    - [properties:neighbourhood_name, $(neighbourhood_name)]
+    - [properties:neighbourhood_number, $(neighbourhood_number)]
+    - p: properties:has_district
+        o:
+        -mapping: Triplesmap2
+       
 
 TriplesMap4:
-	sources: 
-	 - [bases_bicimad-updated2.csv~csv]
-	
-	s: 
-	http://www.semanticweb.org/bicimad/classes#Street/{street_name}
-	  
-	po:
+    sources: 
+        - [bases_bicimad-updated2.csv~csv]
+    s: http://www.semanticweb.org/bicimad/classes#Street/{street_name}
+    po:
 
-	- [rdf_type, classes_Street]
-	- [properties:street_name, $(street_name)]
-	- [properties:street_number, $(street_number)]
-	o:
-  		-mapping: Triplesmap3
-  		condition:
-  			function:equal
+    - [rdf_type, classes_Street]
+    - [properties:street_name, $(street_name)]
+    - [properties:street_number, $(street_number)]
+    - p: properties:has_neighbourhood
+    o:
+        -mapping: Triplesmap3
+        
 
