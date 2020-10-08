@@ -12,10 +12,6 @@
 #    Data properties
 #################################################################
 
-###  http://practicagrupo25.es/api/datos/calidad_agua#Amonio
-:Amonio rdf:type owl:DatatypeProperty .
-
-
 ###  http://practicagrupo25.es/api/datos/calidad_agua#CloroLibre
 :CloroLibre rdf:type owl:DatatypeProperty .
 
@@ -30,10 +26,6 @@
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Fecha
 :Fecha rdf:type owl:DatatypeProperty .
-
-
-###  http://practicagrupo25.es/api/datos/calidad_agua#Nitritos
-:Nitritos rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Olor
@@ -68,6 +60,26 @@
 :modified rdf:type owl:DatatypeProperty .
 
 
+###  http://practicagrupo25.es/api/datos/calidad_agua#BacteriasAerobias
+:BacteriasAerobias rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#ClostridiumPerfringes
+:ClostridiumPerfringes rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#BacteriasColiformes
+:BacteriasColiformes rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#eColi
+:eColi rdf:type owl:DatatypeProperty .
+
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#uri
+:uri rdf:type owl:ObjectProperty .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -77,11 +89,6 @@
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :Sabor ;
                                     owl:someValuesFrom xsd:string
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :Amonio ;
-                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                    owl:onDataRange xsd:double
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :CloroLibre ;
@@ -102,11 +109,6 @@
                                     owl:onProperty :Fecha ;
                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                     owl:onDataRange xsd:string
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :Nitritos ;
-                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                    owl:onDataRange xsd:double
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :Olor ;
@@ -142,6 +144,31 @@
                                     owl:onProperty :modified ;
                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                     owl:onDataRange xsd:dateTimeStamp
+                                  ] ,
+ 				  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :BacteriasAerobias ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+ 				  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :ClostridiumPerfringes ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+ 				  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :BacteriasColiformes ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+ 				  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :eColi ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:double
+                                  ] ,
+				  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :uri;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
                                   ] .
 
 
