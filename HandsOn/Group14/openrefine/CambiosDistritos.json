@@ -1,0 +1,1742 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Arganzuela",
+                "l": "Arganzuela"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Nombre_distrito",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nombre_distrito using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nombre_distrito",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nombre_distrito using expression value.toUppercase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Nombre_distrito",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "URIDISTRITO",
+    "columnInsertIndex": 1,
+    "description": "Create column URIDISTRITO at index 1 based on column Nombre_distrito using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "NOMBRE_ESPECIE",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "URI ESPECIE",
+    "columnInsertIndex": 4,
+    "description": "Create column URI ESPECIE at index 4 based on column NOMBRE_ESPECIE using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer negundo",
+                "l": "Acer negundo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acer negundo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AcerN"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acer pseudoplatanus",
+                "l": "Acer pseudoplatanus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acer pseudoplatanus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AcerP"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Aesculus hippocastanum",
+                "l": "Aesculus hippocastanum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aesculus hippocastanum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AesculusH"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Catalpa bignonioides",
+                "l": "Catalpa bignonioides"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Catalpa bignonioides"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CatalpaB"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cedrus deodara",
+                "l": "Cedrus deodara"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cedrus deodara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CedrusD"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Celtis australis",
+                "l": "Celtis australis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Celtis australis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CeltisA"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cercis siliquastrum",
+                "l": "Cercis siliquastrum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cercis siliquastrum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CercisS"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cupressocyparis leilandii",
+                "l": "Cupressocyparis leilandii"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cupressocyparis leilandii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CupressocyparisL"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cupressus arizonica",
+                "l": "Cupressus arizonica"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cupressus arizonica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CupressusA"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cupressus sempervirens",
+                "l": "Cupressus sempervirens"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cupressus sempervirens"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CupressusS"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Gleditsia triacanthos",
+                "l": "Gleditsia triacanthos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gleditsia triacanthos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GleditsiaT"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Koelreuteria paniculata",
+                "l": "Koelreuteria paniculata"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Koelreuteria paniculata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "KoelreuteriaP"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ligustrum japonicum",
+                "l": "Ligustrum japonicum"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ligustrum japonicum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LigustrumJ"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ligustrum japonicum 'variegata'",
+                "l": "Ligustrum japonicum 'variegata'"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ligustrum japonicum 'variegata'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LigustrumJVariegata"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Liquidambar styraciflua",
+                "l": "Liquidambar styraciflua"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Liquidambar styraciflua"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LiquidambarS"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Melia azedarach",
+                "l": "Melia azedarach"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Melia azedarach"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MeliaA"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Morus alba",
+                "l": "Morus alba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Morus alba"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MorusA"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinus halepensis",
+                "l": "Pinus halepensis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinus halepensis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PinusH"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pinus pinea",
+                "l": "Pinus pinea"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pinus pinea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PinusP"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Platanus orientalis",
+                "l": "Platanus orientalis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Platanus orientalis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PlatanusO"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Platanus x hybrida",
+                "l": "Platanus x hybrida"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Platanus x hybrida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PlatanusX"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Populus alba",
+                "l": "Populus alba"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Populus alba"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PopulusA"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Populus alba 'bolleana'",
+                "l": "Populus alba 'bolleana'"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Populus alba 'bolleana'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PopulusABolleana"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Populus x canadensis",
+                "l": "Populus x canadensis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Populus x canadensis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PopulusX"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus cerasifera",
+                "l": "Prunus cerasifera"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Prunus cerasifera"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PrunusC"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus cerasifera pisardii",
+                "l": "Prunus cerasifera pisardii"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Prunus cerasifera pisardii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PrunusC"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Prunus cerasifera subsp. Pissartii",
+                "l": "Prunus cerasifera subsp. Pissartii"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Prunus cerasifera subsp. Pissartii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PrunusCPissartii"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Robinia pseudoacacia",
+                "l": "Robinia pseudoacacia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Robinia pseudoacacia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RobiniaP"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sophora japonica",
+                "l": "Sophora japonica"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sophora japonica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SophoraJ"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ulmus minor",
+                "l": "Ulmus minor"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ulmus minor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UlmusM"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ulmus pumila",
+                "l": "Ulmus pumila"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ulmus pumila"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UlmusP"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ulmus sp",
+                "l": "Ulmus sp"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URI ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ulmus sp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UlmusS"
+      }
+    ],
+    "description": "Mass edit cells in column URI ESPECIE"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUENCARRAL - EL PARDO",
+                "l": "FUENCARRAL - EL PARDO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FUENCARRAL - EL PARDO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FUENCARRALPARDO"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "MONCLOA-ARAVACA",
+                "l": "MONCLOA-ARAVACA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MONCLOA-ARAVACA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MONCLOAARAVACA"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PUENTE DE VALLECAS",
+                "l": "PUENTE DE VALLECAS"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PUENTE DE VALLECAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PUENTEVALLECAS"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "SAN BLAS - CANILLEJAS",
+                "l": "SAN BLAS - CANILLEJAS"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SAN BLAS - CANILLEJAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SANBLASCANILLEJAS"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "TETUÁN",
+                "l": "TETUÁN"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TETUÁN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TETUAN"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CHAMBERÍ",
+                "l": "CHAMBERÍ"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CHAMBERÍ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHAMBERI"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "VICÁLVARO",
+                "l": "VICÁLVARO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VICÁLVARO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VICALVARO"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nombre_distrito",
+          "expression": "value",
+          "columnName": "Nombre_distrito",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "VILLA DE VALLECAS",
+                "l": "VILLA DE VALLECAS"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "URIDISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VILLA DE VALLECAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VILLAVALLECAS"
+      }
+    ],
+    "description": "Mass edit cells in column URIDISTRITO"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Total",
+                "l": "Total"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE_ESPECIE",
+          "expression": "value",
+          "columnName": "NOMBRE_ESPECIE",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Otros",
+                "l": "Otros"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Nombre_distrito",
+      "Nº_Distrito",
+      "NOMBRE_ESPECIE",
+      "Nº_Unidades",
+      "URIDISTRITO",
+      "URI ESPECIE"
+    ],
+    "description": "Reorder columns"
+  }
+]

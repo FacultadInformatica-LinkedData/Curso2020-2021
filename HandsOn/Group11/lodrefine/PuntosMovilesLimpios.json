@@ -1,0 +1,600 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column DIRECCION_COMPLETA by separator"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column DIRECCION_COMPLETA 2 by separator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA 2 3",
+    "expression": "join ([coalesce(cells['DIRECCION_COMPLETA 2 3'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 2'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 4'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 5'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 6'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 7'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 8'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 9'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 10'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 11'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 12'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 13'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 14'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 15'].value,'')],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION_COMPLETA 2 3 using expression join ([coalesce(cells['DIRECCION_COMPLETA 2 3'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 2'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 4'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 5'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 6'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 7'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 8'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 9'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 10'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 11'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 12'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 13'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 14'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 15'].value,'')],' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA 2 1",
+    "expression": "join ([coalesce(cells['DIRECCION_COMPLETA 2 1'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 2'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION_COMPLETA 2 1 using expression join ([coalesce(cells['DIRECCION_COMPLETA 2 1'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 2'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 2",
+    "description": "Remove column DIRECCION_COMPLETA 2 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 4",
+    "description": "Remove column DIRECCION_COMPLETA 2 4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 5",
+    "description": "Remove column DIRECCION_COMPLETA 2 5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 6",
+    "description": "Remove column DIRECCION_COMPLETA 2 6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 7",
+    "description": "Remove column DIRECCION_COMPLETA 2 7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 8",
+    "description": "Remove column DIRECCION_COMPLETA 2 8"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 9",
+    "description": "Remove column DIRECCION_COMPLETA 2 9"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 10",
+    "description": "Remove column DIRECCION_COMPLETA 2 10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 11",
+    "description": "Remove column DIRECCION_COMPLETA 2 11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 12",
+    "description": "Remove column DIRECCION_COMPLETA 2 12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 13",
+    "description": "Remove column DIRECCION_COMPLETA 2 13"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 14",
+    "description": "Remove column DIRECCION_COMPLETA 2 14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 15",
+    "description": "Remove column DIRECCION_COMPLETA 2 15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 16",
+    "description": "Remove column DIRECCION_COMPLETA 2 16"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA 2 3",
+    "expression": "join ([coalesce(cells['DIRECCION_COMPLETA 2 3'].value,''),coalesce(cells['DIRECCION_COMPLETA 3'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION_COMPLETA 2 3 using expression join ([coalesce(cells['DIRECCION_COMPLETA 2 3'].value,''),coalesce(cells['DIRECCION_COMPLETA 3'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 3",
+    "description": "Remove column DIRECCION_COMPLETA 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 4",
+    "description": "Remove column DIRECCION_COMPLETA 4"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA 2 3",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column DIRECCION_COMPLETA 2 3 by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 1",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "DIRECCION_COMPLETA 2 3 1",
+          "expression": "value",
+          "columnName": "DIRECCION_COMPLETA 2 3 1",
+          "from": 12,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": false,
+          "selectBlank": false,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "DIRECCION_COMPLETA 2 3 2",
+          "expression": "value",
+          "columnName": "DIRECCION_COMPLETA 2 3 2",
+          "from": 0,
+          "to": 290,
+          "selectNumeric": true,
+          "selectNonNumeric": false,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA 2 1",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION_COMPLETA 2 1 using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 3",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 4",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 4"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DIRECCION_COMPLETA 2 1",
+    "newColumnName": "NUMBER",
+    "description": "Rename column DIRECCION_COMPLETA 2 1 to NUMBER"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 2",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 5",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 6",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 7",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 8",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 8"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 9",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 9"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 10",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 11",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 12",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 13",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 13"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "DIRECCION_COMPLETA 2 3 14",
+          "expression": "value",
+          "columnName": "DIRECCION_COMPLETA 2 3 14",
+          "from": 0,
+          "to": 240,
+          "selectNumeric": true,
+          "selectNonNumeric": false,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NUMBER",
+    "expression": "join ([coalesce(cells['NUMBER'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 3 14'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUMBER using expression join ([coalesce(cells['NUMBER'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 3 14'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 14",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 15",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 16",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 16"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 17",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 17"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 18",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 18"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 19",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 19"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "DIRECCION_COMPLETA 2 3 20",
+          "expression": "value",
+          "columnName": "DIRECCION_COMPLETA 2 3 20",
+          "from": 116,
+          "to": 117,
+          "selectNumeric": true,
+          "selectNonNumeric": false,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NUMBER",
+    "expression": "join ([coalesce(cells['NUMBER'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 3 20'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUMBER using expression join ([coalesce(cells['NUMBER'].value,''),coalesce(cells['DIRECCION_COMPLETA 2 3 20'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 20",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 21",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 21"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 22",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 22"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 23",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 23"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 24",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 24"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION_COMPLETA 2 3 25",
+    "description": "Remove column DIRECCION_COMPLETA 2 3 25"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCION_COMPLETA 1",
+    "expression": "grel:value.replace('Calle','')",
+    "onError": "set-to-blank",
+    "newColumnName": "Direcion",
+    "columnInsertIndex": 1,
+    "description": "Create column Direcion at index 1 based on column DIRECCION_COMPLETA 1 using expression grel:value.replace('Calle','')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Direcion",
+    "newColumnName": "Direccion",
+    "description": "Rename column Direcion to Direccion"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Direccion",
+    "expression": "grel:value.replace('Avenida','')",
+    "onError": "set-to-blank",
+    "newColumnName": "DIRECCION1",
+    "columnInsertIndex": 2,
+    "description": "Create column DIRECCION1 at index 2 based on column Direccion using expression grel:value.replace('Avenida','')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Direccion",
+    "description": "Remove column Direccion"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCION1",
+    "expression": "grel:value.replace('Paseo','')",
+    "onError": "set-to-blank",
+    "newColumnName": "DIRECCION",
+    "columnInsertIndex": 2,
+    "description": "Create column DIRECCION at index 2 based on column DIRECCION1 using expression grel:value.replace('Paseo','')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION1",
+    "description": "Remove column DIRECCION1"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCION",
+    "expression": "grel:value.replace('Plaza','')",
+    "onError": "set-to-blank",
+    "newColumnName": "DIRECCION1",
+    "columnInsertIndex": 2,
+    "description": "Create column DIRECCION1 at index 2 based on column DIRECCION using expression grel:value.replace('Plaza','')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIRECCION",
+    "description": "Remove column DIRECCION"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCION1",
+    "expression": "grel:value.replace(' ','')",
+    "onError": "set-to-blank",
+    "newColumnName": "URI1",
+    "columnInsertIndex": 2,
+    "description": "Create column URI1 at index 2 based on column DIRECCION1 using expression grel:value.replace(' ','')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "URI1",
+    "expression": "grel:'PVM'+value",
+    "onError": "set-to-blank",
+    "newColumnName": "URI",
+    "columnInsertIndex": 3,
+    "description": "Create column URI at index 3 based on column URI1 using expression grel:'PVM'+value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "URI1",
+    "description": "Remove column URI1"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NUMBER",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "NUMBER1",
+    "columnInsertIndex": 4,
+    "description": "Create column NUMBER1 at index 4 based on column NUMBER using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI",
+    "expression": "join ([coalesce(cells['URI'].value,''),coalesce(cells['NUMBER1'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI using expression join ([coalesce(cells['URI'].value,''),coalesce(cells['NUMBER1'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NUMBER1",
+    "description": "Remove column NUMBER1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMBER",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUMBER using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COD_DISTRITO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COD_DISTRITO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION_COMPLETA 1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION_COMPLETA 1 using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION1 using expression value.toString()"
+  }
+]
