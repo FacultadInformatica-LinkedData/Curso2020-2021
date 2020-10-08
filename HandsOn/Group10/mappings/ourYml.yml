@@ -6,8 +6,8 @@ rdf: <http://www.w3.org/2000/01/rdf-schema#>
 mappings: 
 
 TriplesMap1: 
-sources: 
-  - [environment_sgp-updated.csv~csv]
+  sources: 
+- [environment_sgp-updated.csv~csv]
   s: http://group10.org/hands-on/ontology/$(Country Name)
   po:
   - [a, ns:Country]
