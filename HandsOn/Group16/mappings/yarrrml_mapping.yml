@@ -27,7 +27,7 @@ mappings:
     
     TriplesMap2:
         sources:
-            - [csv-updated.csv~csv]
+            - [csv-shortened.csv~csv]
         s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ID)
         po:
             - [a, ns:Measurement]

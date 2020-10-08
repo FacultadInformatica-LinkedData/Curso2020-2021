@@ -16,7 +16,7 @@ map:map_TriplesMap2_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "TriplesMap2";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11.
+    rr:predicateObjectMap map:pom_7, map:pom_8, map:pom_9, map:pom_10.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://www.semanticweb.org/group16/ontologies/air-quality#Station";
     rr:termType rr:IRI.
@@ -24,9 +24,6 @@ map:om_1 a rr:ObjectMap;
     rml:reference "ESTACION_ID";
     rr:termType rr:Literal.
 map:om_10 a rr:ObjectMap;
-    rml:reference "MAGNITUD";
-    rr:termType rr:Literal.
-map:om_11 a rr:ObjectMap;
     rml:reference "VALOR";
     rr:termType rr:Literal.
 map:om_2 a rr:ObjectMap;
@@ -48,18 +45,16 @@ map:om_7 a rr:ObjectMap;
     rr:constant "http://www.semanticweb.org/group16/ontologies/air-quality#Measurement";
     rr:termType rr:IRI.
 map:om_8 a rr:ObjectMap;
-    rml:reference "PUNTO_MUESTREO";
+    rml:reference "FECHA";
     rr:termType rr:Literal.
 map:om_9 a rr:ObjectMap;
-    rml:reference "FECHA";
+    rml:reference "MAGNITUD";
     rr:termType rr:Literal.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#stationCode>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measureType>.
-map:pm_11 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measureValue>.
 map:pm_2 a rr:PredicateMap;
     rr:constant rdfs:label.
@@ -74,9 +69,9 @@ map:pm_6 a rr:PredicateMap;
 map:pm_7 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_8 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measuredAt>.
-map:pm_9 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#dateOfMeasure>.
+map:pm_9 a rr:PredicateMap;
+    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measureType>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -86,9 +81,6 @@ map:pom_1 a rr:PredicateObjectMap;
 map:pom_10 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_10;
     rr:objectMap map:om_10.
-map:pom_11 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_11;
-    rr:objectMap map:om_11.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
@@ -121,5 +113,5 @@ map:source_0 a rml:LogicalSource;
     rml:source "estaciones.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
-    rml:source "csv-updated.csv";
+    rml:source "csv-shortened.csv";
     rml:referenceFormulation ql:CSV.
