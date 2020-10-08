@@ -1,0 +1,100 @@
+@prefix : <http://group11.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://group11.com/>.
+
+<http://group11.com/ontology#> rdfs:type owl:Ontology.
+
+
+#               Classes                #
+
+
+## http://group11.com/Location
+
+:Location rdf:type owl:Class.
+
+## http://group11.com/MobileRecyclePoint
+
+:MobileRecyclePoint rdf:type owl:Class.
+
+
+#             Data Properties          #
+
+## http://group11.com/isInDistrict
+
+:isInDistrict rdf:type owl:DatatypeProperty;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range xsd:string.
+
+## http://group11.com/hasLatitude
+
+:hasLatitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range xsd:double.
+
+## http://group11.com/hasLongitude
+
+:hasLongitude rdf:type owl:DatatypeProperty;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range xsd:double.
+
+## http://group11.com/isOpen
+
+:isOpen rdf:type owl:DatatypeProperty;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range xsd:string.
+
+## http://group11.com/itStarts
+
+:isOpen rdf:type owl:DatatypeProperty;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range xsd:time.
+
+## http://group11.com/itEnds
+
+:isOpen rdf:type owl:DatatypeProperty;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range xsd:time.
+
+## http://group11.com/addressFullName
+
+:isOpen rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+## http://group11.com/addressFullName
+
+:isOpen rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:string.
+
+## http://group11.com/districtCode
+
+:districCode rdf:type owl:DatatypeProperty;
+    rdfs:domain :Location;
+    rdfs:range xsd:integer.
+
+## http://group11.com/districtName
+
+:districName rdf:type owl:DatatypeProperty;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range xsd:string.
+
+#            Object Properties         #
+
+## http://gruop11.com/hasLocation
+
+:hasLocation rdf:type owl:Class;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range :Location.
+
+
+
+
+
+
+    
+

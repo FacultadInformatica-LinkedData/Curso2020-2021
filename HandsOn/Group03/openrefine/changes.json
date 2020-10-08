@@ -1,0 +1,91 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nidem biblioteca",
+    "newColumnName": "ID",
+    "description": "Rename column Nidem biblioteca to ID"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Datos",
+    "description": "Remove column Datos"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nombre Unidad Administrativa",
+    "newColumnName": "LibraryAdministration",
+    "description": "Rename column Nombre Unidad Administrativa to LibraryAdministration"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Código Biblioteca",
+    "newColumnName": "LibraryCode",
+    "description": "Rename column Código Biblioteca to LibraryCode"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nombre biblioteca",
+    "newColumnName": "Library",
+    "description": "Rename column Nombre biblioteca to Library"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Dirección",
+    "newColumnName": "Address",
+    "description": "Rename column Dirección to Address"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Código postal",
+    "newColumnName": "ZIPcode",
+    "description": "Rename column Código postal to ZIPcode"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Municipio",
+    "newColumnName": "Municipe",
+    "description": "Rename column Municipio to Municipe"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Municipe",
+    "newColumnName": "Town",
+    "description": "Rename column Municipe to Town"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Provincia",
+    "newColumnName": "Province",
+    "description": "Rename column Provincia to Province"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Teléfono",
+    "newColumnName": "Telephone",
+    "description": "Rename column Teléfono to Telephone"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Correo electrónico",
+    "newColumnName": "Email",
+    "description": "Rename column Correo electrónico to Email"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "expression": "grel:value.replace(\"-\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID using expression grel:value.replace(\"-\",\"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tipo de servicio",
+    "description": "Remove column Tipo de servicio"
+  }
+]
