@@ -7,34 +7,30 @@ mappings:
     
     TriplesMap1:
         sources:
-            - [csv-updated.csv~csv, "$1"]
-            - [estaciones.csv~csv, "$2"]
-        s:
-            - http://www.semanticweb.org/group16/ontologies/air-quality/$1(PUNTO_MUESTREO)
+            - [estaciones.csv~csv]
+        s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ESTACION_ID)
         po:
             - [a, ns:Station]
-            - [ns:stationCode, $1(PUNTO_MUESTREO)]
-            - [rdfs:label, $2(NOMBRE)]
-            - [sc:address, $2(DIRECCION)]
-            - [sc:latitude, $2(LATITUD)]
-            - [sc:longitude, $2(LONGITUD)]
-            - p: ns:Station
+            - [ns:stationCode, $(ESTACION_ID)]
+            - [rdfs:label, $(NOMBRE)]
+            - [sc:address, $(DIRECCION)]
+            - [sc:latitude, $(LATITUD)]
+            - [sc:longitude, $(LONGITUD)]
+            - p: ns:measuredAt
               o:
                 - mapping: TriplesMap2
                   condition:
                     function: equal
                     parameters:
-                      - [str1, $1(PUNTO_MUESTREO)]
-                      - [str2, $2(ESTACION_ID)]
+                      - [str1, $(ESTACION_ID)]
+                      - [str2, $(PUNTO_MUESTREO)]
     
     TriplesMap2:
         sources:
-            - [csv-updated.csv~csv, "$1"]
-        s:
-            - http://www.semanticweb.org/group16/ontologies/air-quality/$1(ID)
+            - [csv-updated.csv~csv]
+        s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ID)
         po:
             - [a, ns:Measurement]
-            - [ns:measuredAt, $1(PUNTO_MUESTREO)]
-            - [ns:dateOfMeasure, $1(FECHA)]
-            - [ns:measureType, $1(MAGNITUD)]
-            - [ns:measureValue, $1(VALOR)]
+            - [ns:dateOfMeasure, $(FECHA)]
+            - [ns:measureType, $(MAGNITUD)]
+            - [ns:measureValue, $(VALOR)]
