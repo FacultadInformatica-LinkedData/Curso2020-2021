@@ -5,26 +5,35 @@ rdf: <http://www.w3.org/2000/01/rdf-schema#>
 
 mappings: 
 
-TriplesMap1: 
-  sources: 
-    - [environment_sgp-updated.csv~csv]
-  s: http://group10.org/hands-on/ontology/$(Country Name)
+Countries: 
+    sources: 
+      - [environment_sgp-updated.csv~csv]
+  s: http://group10.org/hands-on/resource/$(Country Name)
   po:
-    - [a, ns:Country]
-    - [ns:countryName, $(Country Name)]
-    - [ns:countryISO3, $(Country ISO3)]
+      - [a, ns:Country]
+    - [ns:countryName, $(Country Name), xsd:string]
+    - [ns:countryISO3, $(Country ISO3), xsd:string]
+    - p: ns:hasIndicator
+      o:
+        mapping: Indicators
 
-TriplesMap2:
-  sources:
-    - [environment_sgp-updated.csv~csv]
-  s: http://group10.org/hands-on/ontology/$(Indicator Code)
+Indicators:
+sources:
+        - [environment_sgp-updated.csv~csv]
+  s: http://group10.org/hands-on/resource/$(Indicator Code)
   po:
-    - [a, ns:Indicator]
-    - [ns:indicatorName, $(Country )]
+      - [a, ns:Indicator]
+    - [ns:indicatorName, $(Indicator Name), xsd:string]
+    - [ns:indicatorCode, $(Indicator Code), xsd:string]
+    - p: ns: hasMeasure
+      o:
+          mapping: Measures
 
-TriplesMap3:
-  sources:
-    - [environment_sgp-updated.csv~csv]
-  s: http://group10.org/hands-on/ontology/$(Value)
+Measures:
+    sources:
+      - [environment_sgp-updated.csv~csv]
+  s: http://group10.org/hands-on/resource/$(Value)???
   po:
-    - [a, ns:Measure]
+      - [a, ns:Measure]
+    - [ns:value, $(Value), xsd:double]
+    - [ns:date, $(Year), xsd:integer]
