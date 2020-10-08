@@ -1,0 +1,36 @@
+prefixes:
+  ns: "http://www.semanticweb.org/group16/ontologies/air-quality#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  sc: "http://www.schema.org#"
+
+mappings:
+    
+    TriplesMap1:
+        sources:
+            - [estaciones.csv~csv]
+        s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ESTACION_ID)
+        po:
+            - [a, ns:Station]
+            - [ns:stationCode, $(ESTACION_ID)]
+            - [rdfs:label, $(NOMBRE)]
+            - [sc:address, $(DIRECCION)]
+            - [sc:latitude, $(LATITUD)]
+            - [sc:longitude, $(LONGITUD)]
+            - p: ns:measuredAt
+              o:
+                - mapping: TriplesMap2
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(ESTACION_ID)]
+                      - [str2, $(PUNTO_MUESTREO)]
+    
+    TriplesMap2:
+        sources:
+            - [csv-shortened.csv~csv]
+        s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ID)
+        po:
+            - [a, ns:Measurement]
+            - [ns:dateOfMeasure, $(FECHA)]
+            - [ns:measureType, $(MAGNITUD)]
+            - [ns:measureValue, $(VALOR)]
