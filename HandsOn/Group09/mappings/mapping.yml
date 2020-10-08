@@ -7,20 +7,26 @@ prefixes:
   xsd: http://www.w3.org/2001/XMLSchema#
   
 mappings:
-  triplesmap1:
+  accident:
     sources:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
     s: res:accident/$(N EXPEDIENTE)
     po:
       - [a, ont:Accident]
       - [ont:hasExpedient,$(N EXPEDIENTE)]
-      - [ont:occursAt,res:time/$(URI-DATE)~iri]
-      - [ont:occursOn,res:streetcrossing/$(URI-CRUCE)~iri]
-      - [ont:occursTo,res:person/$(URI-PERSONA)~iri]
       - [ont:typeOfAccident,$(TIPO ACCIDENTE)]
       - [ont:weather,$(ESTADO METEREOLÓGICO)]
+      - p: ont:occursAt
+        o:
+          mapping: date
+      - p: ont:occursOn
+        o:
+          mapping: crossing
+      - p: ont:occursTo
+        o:
+          mapping: person
 
-  triplesmap2:
+  date:
     sources:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
     s: res:time/$(URI-DATE)
@@ -29,18 +35,20 @@ mappings:
       - [ont:date,$(DATE),xsd:dateTime]
       - [ont:hourInterval,$(HORA INTERVALO)]
       
-  triplesmap3:
+  crossing:
     sources:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
     s: res:streetcrossing/$(URI-CRUCE)
     po:
       - [a, ont:StreetCrossing]
-      - [ont:locatedIn,res:district/$(URI-DISTRITO)~iri]
       - [ont:hasStreet1,$(CALLE 1)]
       - [ont:hasStreet2,$(CALLE 2)]
       - [ont:hasNumber,$(NUMERO)]
+      - p: ont:locatedIn
+        o:
+          mapping: district
       
-  triplesmap4:
+  person:
     sources:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
     s: res:person/$(URI-PERSONA)
@@ -52,7 +60,7 @@ mappings:
       - [ont:typeOfVehicle,$(TIPO VEHÍCULO)]
       - [ont:injuryStatus,$(LESIVIDAD),xsd:integer]
       
-  triplesmap5:
+  district:
     sources:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
     s: res:district/$(URI-DISTRITO)
