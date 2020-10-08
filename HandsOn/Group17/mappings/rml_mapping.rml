@@ -32,10 +32,10 @@ map:om_1 a rr:ObjectMap;
     rml:reference "PUNTO_MUESTREO";
     rr:termType rr:Literal.
 map:om_10 a rr:ObjectMap;
-    rml:reference "http://www.wsld.org/grupo17/ontology/Provincia";
+    rml:reference "PROVINCIA";
     rr:termType rr:IRI.
 map:om_11 a rr:ObjectMap;
-    rml:reference "integer-column";
+    rml:reference "ESTACION";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_12 a rr:ObjectMap;
@@ -70,7 +70,7 @@ map:om_19 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_2 a rr:ObjectMap;
-    rml:reference "http://www.wsld.org/grupo17/ontology/esPuntoMuestreo";
+    rml:reference "PUNTO_MUESTREO";
     rr:termType rr:IRI.
 map:om_20 a rr:ObjectMap;
     rml:reference "Hora4";
@@ -113,7 +113,7 @@ map:om_29 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_3 a rr:ObjectMap;
-    rml:reference "string-column";
+    rml:reference "PUNTO_MUESTREO";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_30 a rr:ObjectMap;
@@ -243,7 +243,7 @@ map:om_59 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_6 a rr:ObjectMap;
-    rml:reference "http://www.wsld.org/grupo17/ontology/Estacion";
+    rml:reference "ESTACION";
     rr:termType rr:IRI.
 map:om_60 a rr:ObjectMap;
     rml:reference "Hora24";
@@ -254,7 +254,7 @@ map:om_61 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_7 a rr:ObjectMap;
-    rml:reference "integer-column";
+    rml:reference "ESTACION";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_8 a rr:ObjectMap;
