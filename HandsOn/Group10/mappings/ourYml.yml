@@ -1,1 +1,9 @@
-sobrescribir
+prefixes:
+rr: <http://www.w3.org/ns/r2rml#>.
+ns: <http://group10.org/hands-on/ontology#>.
+rml: <http://semweb.mmlab.be/ns/rml#>.
+
+mappings:
+TriplesMap1:
+sources:
+- [environment_sgp-updated.csv~csv]
