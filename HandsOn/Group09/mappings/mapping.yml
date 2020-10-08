@@ -1,0 +1,70 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  ont: http://linkeddata.es/group09/ontology/TrafficAccident#
+  dbo: http://dbpedia.org/ontology/
+  res: http://linkeddata.es/group09/resource/
+  rml: http://semweb.mmlab.be/ns/rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  
+mappings:
+  accident:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
+    s: res:accident/$(N EXPEDIENTE)
+    po:
+      - [a, ont:Accident]
+      - [ont:hasExpedient,$(N EXPEDIENTE)]
+      - [ont:typeOfAccident,$(TIPO ACCIDENTE)]
+      - [ont:weather,$(ESTADO METEREOLÓGICO)]
+      - p: ont:occursAt
+        o:
+          mapping: date
+      - p: ont:occursOn
+        o:
+          mapping: crossing
+      - p: ont:occursTo
+        o:
+          mapping: person
+
+  date:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
+    s: res:time/$(URI-DATE)
+    po:
+      - [a, ont:Time]
+      - [ont:date,$(DATE),xsd:dateTime]
+      - [ont:hourInterval,$(HORA INTERVALO)]
+      
+  crossing:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
+    s: res:streetcrossing/$(URI-CRUCE)
+    po:
+      - [a, ont:StreetCrossing]
+      - [ont:hasStreet1,$(CALLE 1)]
+      - [ont:hasStreet2,$(CALLE 2)]
+      - [ont:hasNumber,$(NUMERO)]
+      - p: ont:locatedIn
+        o:
+          mapping: district
+      
+  person:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
+    s: res:person/$(URI-PERSONA)
+    po:
+      - [a, dbo:Person]
+      - [dbo:sex,$(SEXO)]
+      - [ont:ageRange,$(RANGO DE EDAD)]
+      - [ont:typeOfPerson,$(TIPO PERSONA)]
+      - [ont:typeOfVehicle,$(TIPO VEHÍCULO)]
+      - [ont:injuryStatus,$(LESIVIDAD),xsd:integer]
+      
+  district:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv.-updated.csv~csv]
+    s: res:district/$(URI-DISTRITO)
+    po:
+      - [a, ont:District]
+      - [ont:districtName,$(DISTRITO)] 
+      

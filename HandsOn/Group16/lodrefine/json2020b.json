@@ -1127,5 +1127,30 @@
     "columnName": "ID",
     "index": 0,
     "description": "Move column ID to position 0"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ANO",
+    "expression": "join ([coalesce(cells['ANO'].value,''),coalesce(cells['MES'].value,''),coalesce(cells['DIA'].value,'')],'/')",
+    "onError": "keep-original",
+    "newColumnName": "FECHA",
+    "columnInsertIndex": 5,
+    "description": "Create column FECHA at index 5 based on column ANO using expression join ([coalesce(cells['ANO'].value,''),coalesce(cells['MES'].value,''),coalesce(cells['DIA'].value,'')],'/')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "ID",
+      "ESTACION",
+      "MAGNITUD",
+      "PUNTO_MUESTREO",
+      "FECHA",
+      "VALOR"
+    ],
+    "description": "Reorder columns"
   }
 ]
