@@ -1,0 +1,42 @@
+[
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "CODIGO",
+      "newColumnName": "ESTACION_ID",
+      "description": "Rename column CODIGO to ESTACION_ID"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "CODIGO_CORTO",
+      "description": "Remove column CODIGO_CORTO"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "ESTACION",
+      "newColumnName": "NOMBRE",
+      "description": "Rename column ESTACION to NOMBRE"
+    },
+    {
+      "op": "core/column-reorder",
+      "columnNames": [
+        "ESTACION_ID",
+        "NOMBRE",
+        "DIRECCION",
+        "LONGITUD_ETRS89",
+        "LATITUD_ETRS89"
+      ],
+      "description": "Reorder columns"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "LONGITUD_ETRS89",
+      "newColumnName": "LONGITUD",
+      "description": "Rename column LONGITUD_ETRS89 to LONGITUD"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "LATITUD_ETRS89",
+      "newColumnName": "LATITUD",
+      "description": "Rename column LATITUD_ETRS89 to LATITUD"
+    }
+  ]

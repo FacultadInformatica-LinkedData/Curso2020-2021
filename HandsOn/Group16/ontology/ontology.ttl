@@ -12,11 +12,6 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#locatedAt
-:locatedAt rdf:type owl:ObjectProperty ;
-           rdfs:domain :Station .
-
-
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#measuredAt
 :measuredAt rdf:type owl:ObjectProperty ;
             rdfs:domain :Measurement ;
@@ -27,13 +22,6 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#co_val
-:co_val rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf :measureType ;
-        rdfs:domain :Measurement ;
-        rdfs:range xsd:float .
-
-
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#dateOfMeasure
 :dateOfMeasure rdf:type owl:DatatypeProperty ;
                rdfs:domain :Measurement ;
@@ -41,48 +29,15 @@
 
 
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#measureType
-:measureType rdf:type owl:DatatypeProperty .
+:measureType rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Measurement ;
+             rdfs:range xsd:integer .
 
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#measuredWithTechnique
-:measuredWithTechnique rdf:type owl:DatatypeProperty ;
-                       rdfs:domain :Measurement ;
-                       rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group16/ontologies/air-quality#no2_val
-:no2_val rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf :measureType ;
-         rdfs:domain :Measurement ;
-         rdfs:range xsd:float .
-
-
-###  http://www.semanticweb.org/group16/ontologies/air-quality#o3_val
-:o3_val rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf :measureType ;
-        rdfs:domain :Measurement ;
-        rdfs:range xsd:float .
-
-
-###  http://www.semanticweb.org/group16/ontologies/air-quality#pm10_val
-:pm10_val rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :measureType ;
-          rdfs:domain :Measurement ;
-          rdfs:range xsd:float .
-
-
-###  http://www.semanticweb.org/group16/ontologies/air-quality#pm25_val
-:pm25_val rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf :measureType ;
-          rdfs:domain :Measurement ;
-          rdfs:range xsd:float .
-
-
-###  http://www.semanticweb.org/group16/ontologies/air-quality#so2_val
-:so2_val rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf :measureType ;
-         rdfs:domain :Measurement ;
-         rdfs:range xsd:float .
+###  http://www.semanticweb.org/group16/ontologies/air-quality#measureValue
+:measureValue rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Measurement ;
+              rdfs:range xsd:float .
 
 
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#stationCode
