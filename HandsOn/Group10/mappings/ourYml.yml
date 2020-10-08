@@ -2,38 +2,36 @@ prefixes:
 ns: <http://group10.org/hands-on/ontology#>
 rdf: <http://www.w3.org/2000/01/rdf-schema#>
 
-
 mappings: 
-
-Countries: 
+  Countries: 
     sources: 
-      - [environment_sgp-updated.csv~csv]
-  s: http://group10.org/hands-on/resource/$(Country Name)
-  po:
+    - [environment_sgp-updated.csv~csv]
+    s: http://group10.org/hands-on/resource/$(Country Name)
+    po:
       - [a, ns:Country]
-    - [ns:countryName, $(Country Name), xsd:string]
-    - [ns:countryISO3, $(Country ISO3), xsd:string]
-    - p: ns:hasIndicator
-      o:
-        mapping: Indicators
-
-Indicators:
-sources:
-        - [environment_sgp-updated.csv~csv]
-  s: http://group10.org/hands-on/resource/$(Indicator Code)
-  po:
-      - [a, ns:Indicator]
-    - [ns:indicatorName, $(Indicator Name), xsd:string]
-    - [ns:indicatorCode, $(Indicator Code), xsd:string]
-    - p: ns: hasMeasure
-      o:
-          mapping: Measures
-
-Measures:
+      - [ns:countryName, $(Country Name), xsd:string]
+      - [ns:countryISO3, $(Country ISO3), xsd:string]
+      - p: ns:hasIndicator
+        o:
+          mapping: Indicators
+          
+  Indicators:
     sources:
-      - [environment_sgp-updated.csv~csv]
-  s: http://group10.org/hands-on/resource/$(Value)???
-  po:
+    - [environment_sgp-updated.csv~csv]
+    s: http://group10.org/hands-on/resource/$(Indicator Code)
+    po:
+      - [a, ns:Indicator]
+      - [ns:indicatorName, $(Indicator Name), xsd:string]
+      - [ns:indicatorCode, $(Indicator Code), xsd:string]
+      - p: ns: hasMeasure
+        o:
+          mapping: Measures
+          
+  Measures:
+   sources:
+   - [environment_sgp-updated.csv~csv]
+   s: http://group10.org/hands-on/resource/$(Row Index)
+    po:
       - [a, ns:Measure]
-    - [ns:value, $(Value), xsd:double]
-    - [ns:date, $(Year), xsd:integer]
+      - [ns:value, $(Value), xsd:double]
+      - [ns:date, $(Year), xsd:integer]
