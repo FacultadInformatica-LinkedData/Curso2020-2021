@@ -1,0 +1,125 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Número de archivo",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Número de archivo using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Solar",
+    "expression": "grel:value.replace(\" m2\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Solar using expression grel:value.replace(\" m2\", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Solar",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Solar using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Situación Destino",
+    "expression": "grel:value.replace(\"NUM\", \"Nº\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Situación Destino using expression grel:value.replace(\"NUM\", \"Nº\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Situación Destino",
+    "expression": "grel:value.replace(\" C/ \", \" CALLE \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Situación Destino using expression grel:value.replace(\" C/ \", \" CALLE \")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Subepígrafe",
+    "newColumnName": "Subepigrafe",
+    "description": "Rename column Subepígrafe to Subepigrafe"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número de archivo",
+    "newColumnName": "Numero_de_archivo",
+    "description": "Rename column Número de archivo to Numero_de_archivo"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Naturaleza del inmueble",
+    "newColumnName": "Naturaleza_del_inmueble",
+    "description": "Rename column Naturaleza del inmueble to Naturaleza_del_inmueble"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Situación Destino",
+    "newColumnName": "Situacion_Destino",
+    "description": "Rename column Situación Destino to Situacion_Destino"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Solar",
+    "newColumnName": "Tamanio_Solar",
+    "description": "Rename column Solar to Tamanio_Solar"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]

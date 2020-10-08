@@ -12,7 +12,7 @@ mappings:
     s: http://group56.org/zonas-verdes/Apartado/$(Apartado)
     po:
       - [a, ex:Apartado]    
-      - [ex:apartado, $(Apartado),xsd:string]
+      - [ex:apartado, $(Apartado),xsd:string]    
 
   destino:
     sources:
@@ -28,7 +28,16 @@ mappings:
     s: http://group56.org/zonas-verdes/Districto/$(Distrito)
     po:
       - [a, ex:Distrito]
-      - [ex:distrito, $(Distrito),xsd:string]    
+      - [ex:distrito, $(Distrito),xsd:string] 
+      - p: ex:tieneCalle
+        o:
+           mapping: situaciondestino  
+      - p: ex:tieneSubepigrafe
+        o:
+           mapping: subepigrafe    
+      - p: ex:tieneNaturaleza
+        o:
+           mapping: naturaleza           
 
   naturaleza:
     sources:
@@ -70,5 +79,19 @@ mappings:
     po:
       - [a, ex:Subepigrafe]
       - [ex:Subepigrafe, $(Subepigrafe),xsd:string]
-
+      - p: ex:situadoen
+        o:
+           mapping: situaciondestino
+      - p: ex:tieneApartado
+        o:
+           mapping: apartado           
+      - p: ex:tieneDestino
+        o:
+           mapping: destino             
+      - p: ex:tieneNdeArchivo
+        o:
+           mapping: numerodearchivo 
+      - p: ex:tieneSolar
+        o:
+           mapping: solar           
       
