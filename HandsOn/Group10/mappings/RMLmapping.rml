@@ -60,7 +60,7 @@ map:pm_5 a rr:PredicateMap;
 map:pm_6 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#indicatorCode>.
 map:pm_7 a rr:PredicateMap;
-    rr:constant <ns: hasMeasure>.
+    rr:constant <ns:hasMeasure>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
