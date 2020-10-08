@@ -23,15 +23,15 @@ mappings:
       - [a, ns:Indicator]
       - [ns:indicatorName, $(Indicator Name), xsd:string]
       - [ns:indicatorCode, $(Indicator Code), xsd:string]
-      - p: ns: hasMeasure
+      - p: ns:hasMeasure
         o:
           mapping: Measures
           
   Measures:
    sources:
    - [environment_sgp-updated.csv~csv]
-   s: http://group10.org/hands-on/resource/$(Row Index)
-    po:
+   s: http://group10.org/hands-on/resource/$(Indicator Code)$(Year)
+   po:
       - [a, ns:Measure]
       - [ns:value, $(Value), xsd:double]
       - [ns:date, $(Year), xsd:integer]
