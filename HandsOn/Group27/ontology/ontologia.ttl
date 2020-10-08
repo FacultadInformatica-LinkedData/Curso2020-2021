@@ -54,33 +54,15 @@
           rdfs:range :Other .
 
 
-###  http://api.zonasverdesmadrid.es#hasPark
-:hasPark rdf:type owl:ObjectProperty ;
-         rdfs:domain :District ;
-         rdfs:range :Park .
-
-
-###  http://api.zonasverdesmadrid.es#hasParkName
-:hasParkName rdf:type owl:ObjectProperty ;
-             rdfs:domain :Park ;
-             rdfs:range :ParkName .
-
-
 ###  http://api.zonasverdesmadrid.es#hasPerimeterAverage
 :hasPerimeterAverage rdf:type owl:ObjectProperty ;
                      rdfs:domain :District ;
                      rdfs:range :PerimeterAverage .
 
 
-###  http://api.zonasverdesmadrid.es#hasSpecies
-:hasSpecies rdf:type owl:ObjectProperty ;
-            rdfs:domain :Park ;
-            rdfs:range :Species .
-
-
 ###  http://api.zonasverdesmadrid.es#hasSpeciesName
 :hasSpeciesName rdf:type owl:ObjectProperty ;
-                rdfs:domain :Species ;
+                rdfs:domain :District ;
                 rdfs:range :SpeciesName .
 
 
@@ -92,7 +74,7 @@
 
 ###  http://api.zonasverdesmadrid.es#hasUnits
 :hasUnits rdf:type owl:ObjectProperty ;
-          rdfs:domain :Species ;
+          rdfs:domain :District ;
           rdfs:range :Units .
 
 
@@ -108,9 +90,7 @@
 
 ###  http://api.zonasverdesmadrid.es#name
 :name rdf:type owl:DatatypeProperty ;
-      rdfs:domain :District ,
-                  :Park ,
-                  :Species ;
+      rdfs:domain :DistrictName ;
       rdfs:range xsd:string .
 
 
@@ -150,20 +130,8 @@
 :Other rdf:type owl:Class .
 
 
-###  http://api.zonasverdesmadrid.es#Park
-:Park rdf:type owl:Class .
-
-
-###  http://api.zonasverdesmadrid.es#ParkName
-:ParkName rdf:type owl:Class .
-
-
 ###  http://api.zonasverdesmadrid.es#PerimeterAverage
 :PerimeterAverage rdf:type owl:Class .
-
-
-###  http://api.zonasverdesmadrid.es#Species
-:Species rdf:type owl:Class .
 
 
 ###  http://api.zonasverdesmadrid.es#SpeciesName
