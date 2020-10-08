@@ -120,25 +120,25 @@ map:om_9 a rr:ObjectMap;
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/apartado>.
+    rr:constant <http://group56.org/zonas-verdes/nombreApartado>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/naturaleza>.
+    rr:constant <http://group56.org/zonas-verdes/nombreNaturaleza>.
 map:pm_11 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_12 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/NdeArchivo>.
+    rr:constant <http://group56.org/zonas-verdes/numeroArchivo>.
 map:pm_13 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_14 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/SituacionDestino>.
+    rr:constant <http://group56.org/zonas-verdes/nombreCalle>.
 map:pm_15 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_16 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/solar>.
+    rr:constant <http://group56.org/zonas-verdes/tamanioSolar>.
 map:pm_17 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_18 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/Subepigrafe>.
+    rr:constant <http://group56.org/zonas-verdes/nombreSubepigrafe>.
 map:pm_19 a rr:PredicateMap;
     rr:constant <http://group56.org/zonas-verdes/situadoen>.
 map:pm_2 a rr:PredicateMap;
@@ -152,11 +152,11 @@ map:pm_22 a rr:PredicateMap;
 map:pm_23 a rr:PredicateMap;
     rr:constant <http://group56.org/zonas-verdes/tieneSolar>.
 map:pm_3 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/destino>.
+    rr:constant <http://group56.org/zonas-verdes/nombreDestino>.
 map:pm_4 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_5 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/distrito>.
+    rr:constant <http://group56.org/zonas-verdes/nombreDistrito>.
 map:pm_6 a rr:PredicateMap;
     rr:constant <http://group56.org/zonas-verdes/tieneCalle>.
 map:pm_7 a rr:PredicateMap;

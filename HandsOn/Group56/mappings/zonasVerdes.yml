@@ -12,7 +12,7 @@ mappings:
     s: http://group56.org/zonas-verdes/Apartado/$(Apartado)
     po:
       - [a, ex:Apartado]    
-      - [ex:apartado, $(Apartado),xsd:string]    
+      - [ex:nombreApartado, $(Apartado),xsd:string]    
 
   destino:
     sources:
@@ -20,7 +20,7 @@ mappings:
     s: http://group56.org/zonas-verdes/Destino/$(Destino)
     po:
       - [a, ex:Destino]    
-      - [ex:destino, $(Destino),xsd:string]
+      - [ex:nombreDestino, $(Destino),xsd:string]
 
   distrito:
     sources:
@@ -28,7 +28,7 @@ mappings:
     s: http://group56.org/zonas-verdes/Districto/$(Distrito)
     po:
       - [a, ex:Distrito]
-      - [ex:distrito, $(Distrito),xsd:string] 
+      - [ex:nombreDistrito, $(Distrito),xsd:string] 
       - p: ex:tieneCalle
         o:
            mapping: situaciondestino  
@@ -45,7 +45,7 @@ mappings:
     s: http://group56.org/zonas-verdes/NaturalezaInmueble/$(Naturaleza_del_inmueble)
     po:
       - [a, ex:Naturaleza]    
-      - [ex:naturaleza, $(Naturaleza_del_inmueble),xsd:string]
+      - [ex:nombreNaturaleza, $(Naturaleza_del_inmueble),xsd:string]
   
 
   numerodearchivo:
@@ -54,15 +54,15 @@ mappings:
     s: http://group56.org/zonas-verdes/NdeArchivo/$(Numero_de_archivo)
     po:
       - [a, ex:NdeArchivo]
-      - [ex:NdeArchivo, $(Numero_de_archivo),xsd:integer]
+      - [ex:numeroArchivo, $(Numero_de_archivo),xsd:integer]
 
   situaciondestino:
     sources:
       - [ZonasVerdes-updated.csv~csv]
     s: http://group56.org/zonas-verdes/SituacionDestino/$(Situacion_Destino)
     po:
-      - [a, ex:SituacionDestino]
-      - [ex:SituacionDestino, $(Situacion_Destino),xsd:string]
+      - [a, ex:SituacionDestino]      
+      - [ex:nombreCalle, $(Situacion_Destino),xsd:string]
 
   solar:
     sources:
@@ -70,7 +70,7 @@ mappings:
     s: http://group56.org/zonas-verdes/Solar/$(Tamanio_Solar)
     po:
       - [a, ex:Solar]    
-      - [ex:solar, $(Tamanio_Solar),xsd:double]
+      - [ex:tamanioSolar, $(Tamanio_Solar),xsd:double]
       
   subepigrafe:
     sources:
@@ -78,7 +78,7 @@ mappings:
     s: http://group56.org/zonas-verdes/Subepigrafe/$(Subepigrafe)
     po:
       - [a, ex:Subepigrafe]
-      - [ex:Subepigrafe, $(Subepigrafe),xsd:string]
+      - [ex:nombreSubepigrafe, $(Subepigrafe),xsd:string]
       - p: ex:situadoen
         o:
            mapping: situaciondestino
