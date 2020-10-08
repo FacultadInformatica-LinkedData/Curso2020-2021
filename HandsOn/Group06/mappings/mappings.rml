@@ -13,7 +13,7 @@
 
 <#ReciclyingBinMap1> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "../csv/Contenedores_varios-updated.csv";
+        rml:source "../csv/Contenedores_varios-updated2.csv";
         rml:referenceFormulation ql:CSV
     ];
 
@@ -105,7 +105,7 @@
 
 <#ReciclyingBinMap2>  a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "../csv/Contenedores_varios-updated.csv";
+        rml:source "../csv/Contenedores_varios-updated2.csv";
         rml:referenceFormulation ql:CSV
     ];
 
@@ -117,7 +117,7 @@
     
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant pos:streetName; 
+            rr:constant prop:streetName; 
             rr:termType rr:IRI 
         ];
         rr:objectMap [
@@ -128,7 +128,7 @@
 
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant pos:streetNum; 
+            rr:constant prop:streetNum; 
             rr:termType rr:IRI 
         ];
         rr:objectMap [
@@ -144,7 +144,7 @@
 
 <#ReciclyingBinMap3>  a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "../csv/Contenedores_varios-updated.csv";
+        rml:source "../csv/Contenedores_varios-updated2.csv";
         rml:referenceFormulation ql:CSV
     ];
 
@@ -156,7 +156,7 @@
 
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant pos:districtName; 
+            rr:constant prop:districtName; 
             rr:termType rr:IRI 
         ];
         rr:objectMap [
@@ -173,7 +173,7 @@
 
 <#ReciclyingBinMap4>  a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "../csv/Contenedores_varios-updated.csv";
+        rml:source "../csv/Contenedores_varios-updated2.csv";
         rml:referenceFormulation ql:CSV
     ];
 
@@ -185,7 +185,7 @@
 
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant pos:type; 
+            rr:constant prop:type; 
             rr:termType rr:IRI 
         ];
         rr:objectMap [

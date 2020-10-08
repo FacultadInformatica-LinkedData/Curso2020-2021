@@ -10,28 +10,57 @@ prefixes:
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   vocab: http://example.org#
+  pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+  prop: <http://contenedoresdemadrid.com/Properties#>.
+  class: <http://contenedoresdemadrid.com/Classes#>.
 
   mappings:
-    reciclyingBins:
+
+    ReciclyingBinMap1:
       sources:
         - [Contenedores_varios-updated.csv~csv]
-        s: http://contenedoresdemadrid.com/
+        s: http://contenedoresdemadrid.com/Classes#{Id}
         po:
-          - [rdf:type, vocab:reciclyingBins]
-          - [vocab:id, $(Id), xsd:integer]
-          - [vocab:tipoContenedor, $(Tipo contenedor), xsd:string]
-          - [vocab:modelo, $(Modelo), xsd:string]
-          - [vocab:descModelo, $(Descripcion Modelo), xsd:string]
-          - [vocab:cant, $(Cantidad), xsd:integer]
-          - [vocab:lote, $(Lote), xsd:integer]
-          - [vocab:distrito, $(Distrito), xsd:string]
-          - [vocab:barrio, $(Barrio), xsd:string]
-          - [vocab:tipoVia, $(Tipo Via), xsd:string]
-          - [vocab:nombre, $(Nombre), xsd:string]
-          - [vocab:num, $(Numero), xsd:integer]
-          - [vocab:coordX, $(COORDENADA X), xsd:float]
-          - [vocab:coordY, $(COORDENADA Y), xsd:float]
-          - [vocab:long, $(LONGITUD), xsd:float]
-          - [vocab:lat, $(LATITUD), xsd:float]
-          - [vocab:dir, $(DIRECCION), xsd:string]
+          - [rdf:type, class:ReciclyingBin]
+          - [pos:coordinateX, $(COORDENADA X), xsd:float]
+          - [pos:coordinateY, $(COORDENADA Y), xsd:float]
+          - [pos:latitude, $(LATITUD), xsd:float]
+          - [pos:longitude, $(LONGITUD), xsd:float]
+          - p: prop:locatedStreet
+            o:
+              mapping:ReciclyingBinMap2
+          - p: prop:locatedDistrict
+            o:
+              mapping:ReciclyingBinMap3
+          - p: prop:typeResidue
+            o:
+              mapping:ReciclyingBinMap4
+
+
+    ReciclyingBinMap2:
+      sources:
+        - [Contenedores_varios-updated.csv~csv]
+        s: http://contenedoresdemadrid.com/Classes#{Nombre}
+        po:
+          - [rdf:type, class:Street]
+          - [prop:streetName, $(Nombre), xsd:string]
+          - [prop:streetNum, $(Numero), xsd:integer]
+
+
+    ReciclyingBinMap3:
+      sources:
+        - [Contenedores_varios-updated.csv~csv]
+        s: http://contenedoresdemadrid.com/Classes#{Distrito}
+        po:
+          - [rdf:type, class:District]
+          - [prop:districtName, $(Distrito), xsd:string]
+
+
+    ReciclyingBinMap4:
+      sources:
+        - [Contenedores_varios-updated.csv~csv]
+        s: http://contenedoresdemadrid.com/Classes#{Tipo Contenedor}
+        po:
+          - [rdf:type, class:TypeResidue]
+          - [prop:type, $(Tipo Contenedor), xsd:string]
 
