@@ -10,7 +10,7 @@ properties: <http://www.semanticweb.org/bicimad/properties#> .
 
 mappings:
 
-TriplesMap1:
+ TriplesMap1:
   sources: 
     - [bases_bicimad-updated2.csv~csv]
 
@@ -29,7 +29,7 @@ TriplesMap1:
         o:
             -mapping: Triplesmap4
 
-TriplesMap2:
+ TriplesMap2:
     sources: 
     - [bases_bicimad-updated2.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#District/{district_number}
@@ -40,7 +40,7 @@ TriplesMap2:
     - [properties:district_number, $(district_number)]
 
 
-TriplesMap3:
+ TriplesMap3:
     sources: 
     - [bases_bicimad-updated2.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}
@@ -56,7 +56,7 @@ TriplesMap3:
         -mapping: Triplesmap2
        
 
-TriplesMap4:
+ TriplesMap4:
     sources: 
         - [bases_bicimad-updated2.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#Street/{street_name}
