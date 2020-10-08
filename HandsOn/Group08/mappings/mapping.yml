@@ -24,6 +24,9 @@ mappings:
       - [vocab:conectores,$(CONECTORES),xsd:string]
       - [vocab:potencia,$(POTENCIA),xsd:string]
       - [vocab:codigo,$(CODIGO),xsd:string]
+      - p: vocab:localizacion
+        o:
+          mapping: triplesmap2
       
 
   triplesmap2:
