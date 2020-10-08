@@ -18,7 +18,7 @@ prefixes:
 
     ReciclyingBinMap1:
       sources:
-        - [Contenedores_varios-updated.csv~csv]
+        - [Contenedores_varios-updated2.csv~csv]
         s: http://contenedoresdemadrid.com/Classes#{Id}
         po:
           - [rdf:type, class:ReciclyingBin]
@@ -39,7 +39,7 @@ prefixes:
 
     ReciclyingBinMap2:
       sources:
-        - [Contenedores_varios-updated.csv~csv]
+        - [Contenedores_varios-updated2.csv~csv]
         s: http://contenedoresdemadrid.com/Classes#{Nombre}
         po:
           - [rdf:type, class:Street]
@@ -49,7 +49,7 @@ prefixes:
 
     ReciclyingBinMap3:
       sources:
-        - [Contenedores_varios-updated.csv~csv]
+        - [Contenedores_varios-updated2.csv~csv]
         s: http://contenedoresdemadrid.com/Classes#{Distrito}
         po:
           - [rdf:type, class:District]
@@ -58,7 +58,7 @@ prefixes:
 
     ReciclyingBinMap4:
       sources:
-        - [Contenedores_varios-updated.csv~csv]
+        - [Contenedores_varios-updated2.csv~csv]
         s: http://contenedoresdemadrid.com/Classes#{Tipo Contenedor}
         po:
           - [rdf:type, class:TypeResidue]
