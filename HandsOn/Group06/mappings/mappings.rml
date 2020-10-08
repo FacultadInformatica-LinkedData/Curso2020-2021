@@ -11,7 +11,7 @@
 @prefix class: <http://contenedoresdemadrid.com/Classes#>.
 
 
-<#ReciclyingBinMap1>
+<#ReciclyingBinMap1> a rr:TriplesMap;
     rml:logicalSource [
         rml:source "../csv/Contenedores_varios-updated.csv";
         rml:referenceFormulation ql:CSV
@@ -103,7 +103,7 @@
 
 
 
-<#ReciclyingBinMap2>
+<#ReciclyingBinMap2>  a rr:TriplesMap;
     rml:logicalSource [
         rml:source "../csv/Contenedores_varios-updated.csv";
         rml:referenceFormulation ql:CSV
@@ -142,7 +142,7 @@
 
 
 
-<#ReciclyingBinMap3>
+<#ReciclyingBinMap3>  a rr:TriplesMap;
     rml:logicalSource [
         rml:source "../csv/Contenedores_varios-updated.csv";
         rml:referenceFormulation ql:CSV
@@ -171,7 +171,7 @@
 
 
 
-<#ReciclyingBinMap4>
+<#ReciclyingBinMap4>  a rr:TriplesMap;
     rml:logicalSource [
         rml:source "../csv/Contenedores_varios-updated.csv";
         rml:referenceFormulation ql:CSV
