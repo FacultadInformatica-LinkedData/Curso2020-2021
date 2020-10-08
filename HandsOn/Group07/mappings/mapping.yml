@@ -5,7 +5,7 @@ prefixes:
   res: http://www.grupo07.es/resource/
   rml: http://semweb.mmlab.be/ns/rml#
   xsd: http://www.w3.org/2001/XMLSchema#
-  
+
 mappings:
   MUNICIPIO:
     sources:
@@ -23,7 +23,7 @@ mappings:
     po:
       - [a, ont:OBJECTID]
       - [ont:tieneNombre,$(DENOMINACION)]
-	   
+      
   DENOMINACION:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
@@ -31,8 +31,8 @@ mappings:
     po:
       - [a, ont:DENOMINACION]
       - [ont:tieneLinea,$(NUMEROLINEAUSUARIO)]
-	  - [ont:tieneTarifa,$(CORONATARIFARIA)]
-	  
+      - [ont:tieneTarifa,$(CORONATARIFARIA)]
+      
   NUMEROLINEAUSUARIO:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
@@ -40,7 +40,7 @@ mappings:
     po:
       - [a, ont:NUMEROLINEAUSUARIO]
       - [ont:tieneSentido,$(SENTIDO)]  
-	  
+      
   SENTIDO:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
@@ -48,6 +48,4 @@ mappings:
     po:
       - [a, ont:SENTIDO]
       - [ont:tieneLongitud,$(LONGITUDTRAMOANTERIOR)]  
-	  - [ont:tieneVelocidad,$(VELOCIDADTRAMOANTERIOR)]  
-      
-  
+      - [ont:tieneVelocidad,$(VELOCIDADTRAMOANTERIOR)]
