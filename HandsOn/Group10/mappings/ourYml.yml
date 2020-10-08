@@ -6,25 +6,25 @@ rdf: <http://www.w3.org/2000/01/rdf-schema#>
 mappings: 
 
 TriplesMap1: 
-	sources: 
-  	- [environment_sgp-updated.csv~csv]
+sources: 
+  - [environment_sgp-updated.csv~csv]
   s: http://group10.org/hands-on/ontology/$(Country Name)
   po:
-  	- [a, ns:Country]
+  - [a, ns:Country]
     - [ns:countryName, $(Country Name)]
     - [ns:countryISO3, $(Country ISO3)]
 
 TriplesMap2:
 sources:
-		- [environment_sgp-updated.csv~csv]
+- [environment_sgp-updated.csv~csv]
   s: http://group10.org/hands-on/ontology/$(Indicator Code)
   po:
-  	- [a, ns:Indicator]
+  - [a, ns:Indicator]
     - [ns:indicatorName, $(Country )]
 
 TriplesMap3:
-	sources:
-  	- [environment_sgp-updated.csv~csv]
+sources:
+  - [environment_sgp-updated.csv~csv]
   s: http://group10.org/hands-on/ontology/$(Value)
   po:
-  	- [a, ns:Measure]
+  - [a, ns:Measure]
