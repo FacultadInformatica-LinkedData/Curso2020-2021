@@ -1,0 +1,98 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número",
+    "newColumnName": "Id",
+    "description": "Rename column Número to Id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Id",
+    "newColumnName": "BSID",
+    "description": "Rename column Id to BSID"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BSID",
+    "newColumnName": "BS_ID",
+    "description": "Rename column BSID to BS_ID"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Gis_X",
+    "newColumnName": "position_x",
+    "description": "Rename column Gis_X to position_x"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Gis_Y",
+    "newColumnName": "position_y",
+    "description": "Rename column Gis_Y to position_y"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha de Alta",
+    "newColumnName": "registration_Date",
+    "description": "Rename column Fecha de Alta to registration_Date"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito",
+    "newColumnName": "district",
+    "description": "Rename column Distrito to district"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "district",
+    "newColumnName": "District",
+    "description": "Rename column district to District"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Numero Districto",
+    "newColumnName": "district_number",
+    "description": "Rename column Numero Districto to district_number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Barrio",
+    "newColumnName": "neighbourhood_name",
+    "description": "Rename column Barrio to neighbourhood_name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Numero Barrio",
+    "newColumnName": "neighbourhood_number",
+    "description": "Rename column Numero Barrio to neighbourhood_number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Calle",
+    "newColumnName": "street_name",
+    "description": "Rename column Calle to street_name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nº Calle",
+    "newColumnName": "street_number",
+    "description": "Rename column Nº Calle to street_number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Número de Plazas",
+    "newColumnName": "spots",
+    "description": "Rename column Número de Plazas to spots"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Longitud",
+    "newColumnName": "longitude",
+    "description": "Rename column Longitud to longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Latitud",
+    "newColumnName": "latitude",
+    "description": "Rename column Latitud to latitude"
+  }
+]
