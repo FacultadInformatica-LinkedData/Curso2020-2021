@@ -1,0 +1,86 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_tipo_desc_abreviada",
+    "description": "Remove column centro_tipo_desc_abreviada"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "direccion_via_tipo",
+    "expression": "join ([coalesce(cells['direccion_via_tipo'].value,''),coalesce(cells['direccion_via_nombre'].value,''),coalesce(cells['direccion_numero'].value,''),coalesce(cells['direccion_codigo_postal'].value,'')],' ')",
+    "onError": "keep-original",
+    "newColumnName": "direccion",
+    "columnInsertIndex": 9,
+    "description": "Create column direccion at index 9 based on column direccion_via_tipo using expression join ([coalesce(cells['direccion_via_tipo'].value,''),coalesce(cells['direccion_via_nombre'].value,''),coalesce(cells['direccion_numero'].value,''),coalesce(cells['direccion_codigo_postal'].value,'')],' ')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "centro_codigo",
+      "centro_nombre",
+      "centro_tipo_codigo",
+      "centro_tipo_descripcion",
+      "centro_titularidad",
+      "centro_titular",
+      "dat_codigo",
+      "dat_nombre",
+      "direccion",
+      "municipio_codigo",
+      "municipio_nombre",
+      "distrito_codigo",
+      "distrito_nombre",
+      "contacto_telefono1",
+      "contacto_telefono2",
+      "contacto_telefono3",
+      "contacto_telefono4",
+      "contacto_fax",
+      "contacto_web",
+      "contacto_email1",
+      "direccion_coor_x",
+      "direccion_coor_y"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "contacto_telefono1",
+    "expression": "join ([coalesce(cells['contacto_telefono1'].value,''),coalesce(cells['contacto_telefono2'].value,''),coalesce(cells['contacto_telefono3'].value,''),coalesce(cells['contacto_telefono4'].value,'')],' ')",
+    "onError": "keep-original",
+    "newColumnName": "contacto_telefonos",
+    "columnInsertIndex": 14,
+    "description": "Create column contacto_telefonos at index 14 based on column contacto_telefono1 using expression join ([coalesce(cells['contacto_telefono1'].value,''),coalesce(cells['contacto_telefono2'].value,''),coalesce(cells['contacto_telefono3'].value,''),coalesce(cells['contacto_telefono4'].value,'')],' ')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "centro_codigo",
+      "centro_nombre",
+      "centro_tipo_codigo",
+      "centro_tipo_descripcion",
+      "centro_titularidad",
+      "centro_titular",
+      "dat_codigo",
+      "dat_nombre",
+      "direccion",
+      "municipio_codigo",
+      "municipio_nombre",
+      "distrito_codigo",
+      "distrito_nombre",
+      "contacto_telefonos",
+      "contacto_fax",
+      "contacto_web",
+      "contacto_email1",
+      "direccion_coor_x",
+      "direccion_coor_y"
+    ],
+    "description": "Reorder columns"
+  }
+]

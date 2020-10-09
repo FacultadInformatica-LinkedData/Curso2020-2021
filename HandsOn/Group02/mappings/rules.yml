@@ -1,0 +1,154 @@
+  prefixes:
+    rr: http://www.w3.org/ns/r2rml#
+    foaf: http://xmlns.com/foaf/0.1/
+    xsd: http://www.w3.org/2001/XMLSchema#
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    rev: http://purl.org/stuff/rev#
+    schema: http://schema.org/
+    dct: http://purl.org/dc/terms/
+    rml: http://semweb.mmlab.be/ns/rml#
+    ql: http://semweb.mmlab.be/ns/ql#
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    findparking: http://findyourparking.es/lcc/ontology/Parking#
+
+  mappings:
+   mappingProvince:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Province/$(Province)
+      po:
+       - [a, findparking:Province]
+       - [findparking:hasProvince, $(Province),xsd:string]
+   mappingCity:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/City/$(City)
+      po:
+       - [a, findparking:City]
+       - [findparking:hasCity, $(City),xsd:string]
+   mappingNeighborhood:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Neighborhood/$(Neighborhood)
+      po:
+       - [a, findparking:Neighborhood]
+       - [findparking:hasNeighborhood, $(Neighborhood),xsd:string]
+   mappingPostalCode:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/PostalCode/$(Postal Code)
+      po:
+       - [a, findparking:PostalCode]
+       - [findparking:hasPostalCode, $(Postal Code),xsd:string] 
+   mappingStreetName:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/StreetName/$(Street Name)
+      po:
+       - [a, findparking:StreetName]
+       - [findparking:hasStreetName, $(Street Name),xsd:string]
+   mappingNumber:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Number/$(Number)
+      po:
+       - [a, findparking:Number]
+       - [findparking:hasNumber, $(Number),xsd:integer]
+   mappingStreetType:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/StreetType/$(Street Type)
+      po:
+       - [a, findparking:StreetType]
+       - [findparking:hasStreetType, $(Street Type),xsd:string]
+   mappingTelephone:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Telephone/$(Telephone)
+      po:
+       - [a, findparking:Telephone]
+       - [findparking:hasTelephone, $(Telephone),xsd:string]
+   mappingEmail:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Email/$(Email)
+      po:
+       - [a, findparking:Email]
+       - [findparking:hasEmail, $(Email),xsd:string]
+   mappingCoordX:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/CoordX/$(CoordX)
+      po:
+       - [a, findparking:CoordX]
+       - [findparking:hasCoordX, $(CoordX),xsd:double]
+   mappingCoordY:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/CoordY/$(CoordY)
+      po:
+       - [a, findparking:CoordY]
+       - [findparking:hasCoordY, $(CoordY),xsd:double]
+   mappingLatitude:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Latitude/$(Latitude)
+      po:
+       - [a, findparking:Latitude]
+       - [findparking:hasLatitude, $(Latitude),xsd:double]
+   mappingLongitude:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Longitude/$(Longitude)
+      po:
+       - [a, findparking:Longitude]
+       - [findparking:hasLongitude, $(Longitude),xsd:double]
+   mappingId:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Id/$(Id)
+      po:
+       - [a, findparking:Id]
+       - [findparking:hasId, $(Id),xsd:integer]
+   mappingName:
+              sources:
+                    - [Parking_Slots-updated.csv~csv]
+              s: http://findyourparking.es/lcc/Name/$(Name)
+              po:
+                   - [a, findparking:Name]
+                   - [findparking:hasName, $(Name),xsd:string]
+   mappingPublicSlots:
+              sources:
+                    - [Parking_Slots-updated.csv~csv]
+              s: http://findyourparking.es/lcc/PublicSlots/$(Public Slots)
+              po:
+                   - [a, findparking:PublicSlots]
+                   - [findparking:hasPublicSlots, $(Public Slots),xsd:integer]
+   mappingResidentialSlots:
+              sources:
+                    - [Parking_Slots-updated.csv~csv]
+              s: http://findyourparking.es/lcc/ResidentialSlots/$(Residential Slots)
+              po:
+                   - [a, findparking:ResidentialSlots]
+                   - [findparking:hasResidentialSlots, $(Residential Slots),xsd:integer]
+   mappingSchedule:
+              sources:
+                    - [Parking_Slots-updated.csv~csv]
+              s: http://findyourparking.es/lcc/Schedule/$(Schedule)
+              po:
+                   - [a, findparking:Schedule]
+                   - [findparking:hasSchedule, $(Schedule),xsd:string]
+   mappingTotalSlots:
+              sources:
+                    - [Parking_Slots-updated.csv~csv]
+              s: http://findyourparking.es/lcc/TotalSlots/$(Total Slots)
+              po:
+                   - [a, findparking:TotalSlots]
+                   - [findparking:hasTotalSlots, $(Total Slots),xsd:integer]
+   mappingURLMoreInfo:
+              sources:
+                    - [Parking_Slots-updated.csv~csv]
+              s: http://findyourparking.es/lcc/URLMoreInfo/$(URLMoreInfo)
+              po:
+                   - [a, findparking:URLMoreInfo]
+                   - [findparking:hasURLMoreInfo, $(URLMoreInfo),xsd:string]
