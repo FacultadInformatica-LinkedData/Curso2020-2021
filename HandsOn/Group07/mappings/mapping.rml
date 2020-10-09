@@ -137,13 +137,13 @@ map:pom_9 a rr:PredicateObjectMap;
 map:s_0 a rr:SubjectMap;
     rr:template "http://www.grupo07.es/resource/MUNICIPIO/{CODIGOMUNICIPIO}".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/OBJECTID/{OBJECTID}".
+    rr:template "http://www.grupo07.es/resource/ID/{OBJECTID}".
 map:s_2 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/DENOMINACION/{DENOMINACION}".
+    rr:template "http://www.grupo07.es/resource/{OBJECTID}/{DENOMINACION}".
 map:s_3 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/NUMEROLINEAUSUARIO/{NUMEROLINEAUSUARIO}".
+    rr:template "http://www.grupo07.es/resource/{OBJECTID}/{DENOMINACION}/{NUMEROLINEAUSUARIO}".
 map:s_4 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/SENTIDO/{SENTIDO}".
+    rr:template "http://www.grupo07.es/resource/{OBJECTID}/{DENOMINACION}/{NUMEROLINEAUSUARIO}/{SENTIDO}".
 map:source_0 a rml:LogicalSource;
     rml:source "Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv";
     rml:referenceFormulation ql:CSV.
