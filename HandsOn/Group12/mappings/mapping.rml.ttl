@@ -258,6 +258,12 @@
     rr:termType rr:Literal;
     rr:datatype xsd:string.
 :om_016 a rr:ObjectMap;
-    rr:parentTriplesMap :map_district_000.
+    rr:parentTriplesMap :map_district_000;
+    rr:joinCondition :jc_000.
+:jc_000 rr:child "District";
+    rr:parent "District".
 :om_017 a rr:ObjectMap;
-    rr:parentTriplesMap :map_neighbourhood_000.
+    rr:parentTriplesMap :map_neighbourhood_000;
+    rr:joinCondition :jc_001.
+:jc_001 rr:child "Neighbourhood";
+    rr:parent "Neighbourhood".

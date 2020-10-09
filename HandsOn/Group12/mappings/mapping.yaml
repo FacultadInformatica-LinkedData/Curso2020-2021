@@ -36,10 +36,20 @@ mappings:
      - [properties:quantitySjvConsulting,$(SJV CONSULTING),xsd:integer]
      - p: properties:hasDistrict
        o:
-        mapping: district
+        - mapping: district
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(District)]
+              - [str2, $(District)]
      - p: properties:hasNeighbourhood
        o:
-         mapping: neighbourhood
+        - mapping: neighbourhood
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Neighbourhood)]
+              - [str2, $(Neighbourhood)]
  district:
     sources:
       - [Asignacion_patinetes-updated.csv~csv]
