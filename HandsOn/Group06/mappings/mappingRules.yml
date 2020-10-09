@@ -28,13 +28,28 @@ prefixes:
         - [pos:longitude, $(LONGITUD), xsd:float]
         - p: prop:locatedStreet
           o:
-             mapping: ReciclyingBinMap2
+           - mapping: ReciclyingBinMap2
+             condition:
+              function: equal
+              parameters:
+                - [n1, $(Nombre)]
+                - [n2, $(Nombre)]
         - p: prop:locatedDistrict
           o:
-             mapping: ReciclyingBinMap3
+           - mapping: ReciclyingBinMap3
+             condition:
+              function: equal
+              parameters:
+                - [d1, $(Distrito)]
+                - [d2, $(Distrito)]
         - p: prop:typeResidue
           o:
-             mapping: ReciclyingBinMap4
+           - mapping: ReciclyingBinMap4
+              condition:
+               function: equal
+               parameters:
+                 - [t1, $(Tipo Contenedor)]
+                 - [t2, $(Tipo Contenedor)]
 
 
     ReciclyingBinMap2:
