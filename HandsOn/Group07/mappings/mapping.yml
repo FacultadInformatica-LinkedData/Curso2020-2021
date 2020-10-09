@@ -19,7 +19,7 @@ mappings:
   OBJECTID:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
-    s: res:ID/$(OBJECTID)
+    s: res:OBJECTID/$(OBJECTID)
     po:
       - [a, ont:OBJECTID]
       - [ont:tieneNombre,$(DENOMINACION)]

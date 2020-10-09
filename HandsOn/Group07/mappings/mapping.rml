@@ -137,7 +137,7 @@ map:pom_9 a rr:PredicateObjectMap;
 map:s_0 a rr:SubjectMap;
     rr:template "http://www.grupo07.es/resource/MUNICIPIO/{CODIGOMUNICIPIO}".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/ID/{OBJECTID}".
+    rr:template "http://www.grupo07.es/resource/OBJECTID/{OBJECTID}".
 map:s_2 a rr:SubjectMap;
     rr:template "http://www.grupo07.es/resource/{OBJECTID}/{DENOMINACION}".
 map:s_3 a rr:SubjectMap;
