@@ -19,7 +19,7 @@ mappings:
   OBJECTID:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
-    s: res:OBJECTID/$(OBJECTID)
+    s: res:ID/$(OBJECTID)
     po:
       - [a, ont:OBJECTID]
       - [ont:tieneNombre,$(DENOMINACION)]
@@ -27,7 +27,7 @@ mappings:
   DENOMINACION:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
-    s: res:DENOMINACION/$(DENOMINACION)
+    s: res:$(OBJECTID)/$(DENOMINACION)
     po:
       - [a, ont:DENOMINACION]
       - [ont:tieneLinea,$(NUMEROLINEAUSUARIO)]
@@ -36,7 +36,7 @@ mappings:
   NUMEROLINEAUSUARIO:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
-    s: res:NUMEROLINEAUSUARIO/$(NUMEROLINEAUSUARIO)
+    s: res:$(OBJECTID)/$(DENOMINACION)/$(NUMEROLINEAUSUARIO)
     po:
       - [a, ont:NUMEROLINEAUSUARIO]
       - [ont:tieneSentido,$(SENTIDO)]  
@@ -44,7 +44,7 @@ mappings:
   SENTIDO:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
-    s: res:SENTIDO/$(SENTIDO)
+    s: res:$(OBJECTID)/$(DENOMINACION)/$(NUMEROLINEAUSUARIO)/$(SENTIDO)
     po:
       - [a, ont:SENTIDO]
       - [ont:tieneLongitud,$(LONGITUDTRAMOANTERIOR)]  
