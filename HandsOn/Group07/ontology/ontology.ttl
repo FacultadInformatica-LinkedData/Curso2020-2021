@@ -33,7 +33,7 @@
 ###  http://www.grupo07.es/ontology#tieneLinea
 :tieneLinea rdf:type owl:ObjectProperty ;
             rdfs:domain :DENOMINACION ;
-            rdfs:range xsd:string .
+            rdfs:range :NUMEROLINEAUSUARIO .
 
 
 ###  http://www.grupo07.es/ontology#tieneLongitud
@@ -81,6 +81,10 @@
 
 ###  http://www.grupo07.es/ontology#SENTIDO
 :SENTIDO rdf:type owl:Class .
+
+
+###  http://www.grupo07.es/ontology#NUMEROLINEAUSUARIO
+:NUMEROLINEAUSUARIO rdf:type owl:Class .
 
 
 ###  http://www.grupo07.es/ontology#OBJECTID
