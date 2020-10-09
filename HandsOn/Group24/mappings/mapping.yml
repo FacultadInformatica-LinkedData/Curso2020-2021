@@ -11,13 +11,10 @@ properties: <http://www.semanticweb.org/bicimad/properties#> .
 mappings:
 
  TriplesMap1:
-  sources: 
+  sources:
     - [bases_bicimad-updated2.csv~csv]
-
-
   s: http://www.semanticweb.org/bicimad/classes#Bike_Station/{bs_id}
-
-  po: 
+  po:
       - [rdf:type, classes:Bike_Station]
       - [properties:position_x, $(position_x)]
       - [properties:position_y, $(position_y)]
@@ -27,13 +24,13 @@ mappings:
       - [properties:latitude, $(latitude)]
       - p: properties:has_street
         o:
-            -mapping: Triplesmap4
+            - mapping: Triplesmap4
 
  TriplesMap2:
-    sources: 
+    sources:
     - [bases_bicimad-updated2.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#District/{district_number}
-    po: 
+    po:
 
     - [rdf_type, classes:District]
     - [properties:district_name, $(district_name)]
@@ -41,32 +38,28 @@ mappings:
 
 
  TriplesMap3:
-    sources: 
+    sources:
     - [bases_bicimad-updated2.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}
+    po:
 
-
-    po: 
-
-    - [rdf_type, classes_Neighbourhood]
+    - [rdf_type, classes:Neighbourhood]
     - [properties:neighbourhood_name, $(neighbourhood_name)]
     - [properties:neighbourhood_number, $(neighbourhood_number)]
     - p: properties:has_district
         o:
-        -mapping: Triplesmap2
-       
+        - mapping: Triplesmap2
+
 
  TriplesMap4:
-    sources: 
+    sources:
         - [bases_bicimad-updated2.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#Street/{street_name}
     po:
 
-    - [rdf_type, classes_Street]
+    - [rdf_type, classes:Street]
     - [properties:street_name, $(street_name)]
     - [properties:street_number, $(street_number)]
     - p: properties:has_neighbourhood
     o:
-        -mapping: Triplesmap3
-        
-
+        - mapping: Triplesmap3
