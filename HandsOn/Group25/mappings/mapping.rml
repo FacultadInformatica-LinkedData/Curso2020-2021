@@ -3,17 +3,16 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix vocab: <http://datos.santander.es/api/datos/calidad_agua/#> .
-
 @base <http://datos.santander.es/api/datos/calidad_agua/#>.
 
-<#TriplesMap1> a rr:TriplesMap
+<#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "calidad_agua.csv";
+    rml:source "calidad_agua-updated2.csv";
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://datos.santander.es/api/datos/calidad_agua/{dc:identifier}";
-    rr:class vocab:calidad_del_agua
+    rr:template "http://datos.santander.es/api/datos/medida_calidad_agua/{dc:identifier}";
+    rr:class vocab:Medida_Calidad_Del_Agua
   ];
   rr:predicateObjectMap [
     rr:predicate vocab:modified;
@@ -22,46 +21,40 @@
       rr:datatype xsd:date
       ]
   ];
-  rr:predicateObjectMap [
-    rr:predicate vocab:PuntoMuestreo;
-    rr:objectMap [
-      rml:reference "ayto:PuntoMuestreo"
-      ]
-  ];
 
   rr:predicateObjectMap [
-    rr:predicate vocab:Fecha;
+    rr:predicate vocab:fecha;
     rr:objectMap [
       rml:reference "ayto:Fecha";
       rr:datatype xsd:date
       ]
   ];
   rr:predicateObjectMap [
-    rr:predicate vocab:Olor;
+    rr:predicate vocab:olor;
     rr:objectMap [
       rml:reference "ayto:Olor"
       ]
   ];
   rr:predicateObjectMap [
-    rr:predicate vocab:Sabor;
+    rr:predicate vocab:sabor;
     rr:objectMap [
       rml:reference "ayto:Sabor"
       ]
   ];
   rr:predicateObjectMap [
-    rr:predicate vocab:Turbidez;
+    rr:predicate vocab:turbidez;
     rr:objectMap [
       rml:reference "ayto:Turbidez"
       ]
   ];
   rr:predicateObjectMap [
-    rr:predicate vocab:Color;
+    rr:predicate vocab:color;
     rr:objectMap [
       rml:reference "ayto:Color"
       ]
   ];
   rr:predicateObjectMap [
-    rr:predicate vocab:Conductividad;
+    rr:predicate vocab:conductividad;
     rr:objectMap [
       rml:reference "ayto:Conductividad"
       ]
@@ -73,19 +66,19 @@ rr:predicateObjectMap [
       ]
   ];
 rr:predicateObjectMap [
-    rr:predicate vocab:Oxidabilidad;
+    rr:predicate vocab:oxidabilidad;
     rr:objectMap [
       rml:reference "ayto:Oxidabilidad"
       ]
   ];
 rr:predicateObjectMap [
-    rr:predicate vocab:CloroLibre;
+    rr:predicate vocab:cloroLibre;
     rr:objectMap [
       rml:reference "ayto:CloroLibre"
       ]
   ];
 rr:predicateObjectMap [
-    rr:predicate vocab:BacteriasColiformes;
+    rr:predicate vocab:bacteriasColiformes;
     rr:objectMap [
       rml:reference "ayto:BacteriasColiformes"
       ]
@@ -97,37 +90,37 @@ rr:predicateObjectMap [
       ]
   ];
 rr:predicateObjectMap [
-    rr:predicate vocab:BacteriasAerobias;
+    rr:predicate vocab:bacteriasAerobias;
     rr:objectMap [
       rml:reference "ayto:BacteriasAerobias"
       ]
   ];
 rr:predicateObjectMap [
-    rr:predicate vocab:ClostridiumPerfringes;
+    rr:predicate vocab:clostridiumPerfringes;
     rr:objectMap [
       rml:reference "ayto:ClostridiumPerfringes"
       ]
   ];
 rr:predicateObjectMap [
-    rr:predicate vocab:uri;
+    rr:predicate rdfs:seeAlso;
     rr:objectMap [
       rml:reference "uri";
       rr:termType rr:IRI;
       ]
 ];
 rr:predicateObjectMap [
-    rr:predicate vocab:relation;
+    rr:predicate vocab:seMideEn;
     rr:objectMap [
       rr:parentTriplesMap <#TriplesMap2>
     ]
   ].
 
-<#TriplesMap2> a rr:TriplesMap
+<#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "calidad_agua.csv" ;
+    rml:source "calidad_agua-updated2.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-   rr:template "http://datos.santander.es/api/datos/calidad_agua/{dc:identifier}";
-    rr:class vocab:calidad_del_agua
+   rr:template "http://datos.santander.es/api/datos/lugar/{ayto:PuntoMuestreo}";
+    rr:class vocab:Lugar
   ].

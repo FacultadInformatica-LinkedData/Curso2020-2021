@@ -13,43 +13,43 @@
 #################################################################
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#CloroLibre
-:CloroLibre rdf:type owl:DatatypeProperty .
+:cloroLibre rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Color
-:Color rdf:type owl:DatatypeProperty .
+:color rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Conductividad
-:Conductividad rdf:type owl:DatatypeProperty .
+:conductividad rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Fecha
-:Fecha rdf:type owl:DatatypeProperty .
+:fecha rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Olor
-:Olor rdf:type owl:DatatypeProperty .
+:olor rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Oxidabilidad
-:Oxidabilidad rdf:type owl:DatatypeProperty .
+:oxidabilidad rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Ph
-:Ph rdf:type owl:DatatypeProperty .
+:ph rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#PuntoMuestreo
-:PuntoMuestreo rdf:type owl:DatatypeProperty .
+:puntoMuestreo rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Sabor
-:Sabor rdf:type owl:DatatypeProperty .
+:sabor rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#Turbidez
-:Turbidez rdf:type owl:DatatypeProperty .
+:turbidez rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#id
@@ -61,15 +61,15 @@
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#BacteriasAerobias
-:BacteriasAerobias rdf:type owl:DatatypeProperty .
+:bacteriasAerobias rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#ClostridiumPerfringes
-:ClostridiumPerfringes rdf:type owl:DatatypeProperty .
+:clostridiumPerfringes rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#BacteriasColiformes
-:BacteriasColiformes rdf:type owl:DatatypeProperty .
+:bacteriasColiformes rdf:type owl:DatatypeProperty .
 
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#eColi
@@ -85,7 +85,7 @@
 #################################################################
 
 ###  http://practicagrupo25.es/api/datos/calidad_agua#calidad_del_agua
-:calidad_del_agua rdf:type owl:Class ;
+:Medida_calidad_del_agua rdf:type owl:Class ;
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :Sabor ;
                                     owl:someValuesFrom xsd:string
@@ -167,6 +167,18 @@
                                   ] ,
 				  [ rdf:type owl:Restriction ;
                                     owl:onProperty :uri;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] .
+
+:Localizacion rdf:type owl:Class ;
+		 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty :id ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ,
+				[ rdf:type owl:Restriction ;
+                                    owl:onProperty :PuntoMuestreo ;
                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                     owl:onDataRange xsd:string
                                   ] .
