@@ -45,11 +45,15 @@ properties:terminales rdf:type owl:DatatypeProperty ;
 
 properties:conectores rdf:type owl:DatatypeProperty ;
 		      rdfs:domain classes:Punto_recarga ;
-		      rdfs:range xsd:integer .
+		      rdfs:range xsd:string .
 
 properties:potencia rdf:type owl:DatatypeProperty ;
 		    rdfs:domain classes:Punto_recarga ;
 		    rdfs:range xsd:integer .
+
+properties:codigo rdf:type owl:DatatypeProperty ;
+		  rdfs:domain classes:Punto_recarga ;
+		  rdfs:range xsd:string .
 
 # Object properties
 properties:localizacion rdf:type owl:ObjectProperty ;
