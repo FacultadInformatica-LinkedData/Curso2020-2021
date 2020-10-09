@@ -1,0 +1,61 @@
+@base <http://www.semanticweb.org/activitiesMadrid/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix properties: <http://www.semanticweb.org/activitiesMadrid/properties#> .
+@prefix classes: <http://www.semanticweb.org/activitiesMadrid/classes#> .
+@prefix individuals: <http://www.semanticweb.org/activitiesMadrid/individuals#> .
+
+# Ontology
+<http://www.semanticweb.org/activitiesMadrid/> rdf:type owl:Ontology .
+
+# Classes
+classes:Actividad rdf:type owl:Class .
+classes:Ubicación rdf:type owl:Class .
+
+# Data properties
+properties:nombre_actividad rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Actividad ;
+                    rdfs:range xsd:string .
+
+properties:id_actividad rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Actividad ;
+                    rdfs:range xsd:integer .
+
+properties:precio rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Actividad ;
+                    rdfs:range xsd:integer .
+
+properties:fecha rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Actividad ;
+                    rdfs:range xsd:date .
+
+properties:descripcion rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Actividad ;
+                    rdfs:range xsd:string .
+
+properties:tipo rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Actividad ;
+                    rdfs:range xsd:string .
+
+
+properties:longitud rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Ubicación ;
+                    rdfs:range xsd:float .
+
+properties:latitud rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Ubicación ;
+                    rdfs:range xsd:float .
+
+properties:direccion rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Ubicación ;
+                    rdfs:range xsd:float .
+
+
+# Object properties
+properties:ubicado_en rdf:type owl:ObjectProperty ;
+                    rdfs:domain classes:Actividad ;
+                    rdfs:range classes:Ubicación .
+
+

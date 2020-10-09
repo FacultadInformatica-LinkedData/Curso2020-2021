@@ -1,11 +1,6 @@
 [
   {
     "op": "core/column-removal",
-    "columnName": "CÓDIGO",
-    "description": "Remove column CÓDIGO"
-  },
-  {
-    "op": "core/column-removal",
     "columnName": "AÑO INSTALACIÓN",
     "description": "Remove column AÑO INSTALACIÓN"
   },
@@ -88,6 +83,55 @@
     "op": "core/column-removal",
     "columnName": "Column16",
     "description": "Remove column Column16"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "﻿DISTRITO",
+          "expression": "value",
+          "columnName": "﻿DISTRITO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "TOTAL: 261 TERMINALES DE RECARGA INSTALADAS EN 69 EDIFICIOS MUNICIPALES (FEBRERO 2020)",
+                "l": "TOTAL: 261 TERMINALES DE RECARGA INSTALADAS EN 69 EDIFICIOS MUNICIPALES (FEBRERO 2020)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "﻿DISTRITO",
+          "expression": "value",
+          "columnName": "﻿DISTRITO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
   },
   {
     "op": "core/mass-edit",
@@ -201,52 +245,15 @@
     "description": "Mass edit cells in column POTENCIA"
   },
   {
-    "op": "core/row-removal",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "﻿DISTRITO",
-          "expression": "value",
-          "columnName": "﻿DISTRITO",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [],
-          "selectBlank": true,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "description": "Remove rows"
+    "op": "core/column-rename",
+    "oldColumnName": "CÓDIGO",
+    "newColumnName": "CODIGO",
+    "description": "Rename column CÓDIGO to CODIGO"
   },
   {
-    "op": "core/row-removal",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "﻿DISTRITO",
-          "expression": "value",
-          "columnName": "﻿DISTRITO",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "TOTAL: 261 TERMINALES DE RECARGA INSTALADAS EN 69 EDIFICIOS MUNICIPALES (FEBRERO 2020)",
-                "l": "TOTAL: 261 TERMINALES DE RECARGA INSTALADAS EN 69 EDIFICIOS MUNICIPALES (FEBRERO 2020)"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "description": "Remove rows"
+    "op": "core/column-rename",
+    "oldColumnName": "UBICACIÓN",
+    "newColumnName": "UBICACION",
+    "description": "Rename column UBICACIÓN to UBICACION"
   }
 ]
