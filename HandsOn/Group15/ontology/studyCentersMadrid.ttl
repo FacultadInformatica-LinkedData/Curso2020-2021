@@ -1,0 +1,89 @@
+@base <http://www.semanticweb.org/studyCentersMadrid/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix properties: <http://www.semanticweb.org/studyCentersMadrid/properties#> .
+@prefix classes: <http://www.semanticweb.org/studyCentersMadrid/classes#> .
+@prefix individuals: <http://www.semanticweb.org/studyCentersMadrid/individuals#> .
+
+# Ontology
+<http://www.semanticweb.org/studyCentersMadrid/> rdf:type owl:Ontology .
+
+# Classes
+classes:Activity rdf:type owl:Class .
+classes:Center rdf:type owl:Class .
+
+# Data properties
+properties:centerName rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:centerTypeCod rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:description rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:titularity rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:email rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:fax rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:phone rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:webpage rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:cityName rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:cityCod rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:districtName rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:districtCod rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:longitude rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:float .
+
+properties:latitude rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:float .
+
+properties:address rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:postalCode rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range xsd:string .
+
+properties:activityDescription rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Activity ;
+                    rdfs:range xsd:string .
+
+# Object properties
+properties:takePlace rdf:type owl:ObjectProperty ;
+                    rdfs:domain classes:Center ;
+                    rdfs:range classes:Activity .
