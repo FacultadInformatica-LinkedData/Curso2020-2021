@@ -1,0 +1,58 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "actividad_extraexcolar_descrip",
+    "expression": "join ([coalesce(cells['actividad_extraexcolar_descrip'].value,''),coalesce(cells['centro_nombre'].value,'')],'-')",
+    "onError": "keep-original",
+    "newColumnName": "actividad_centro",
+    "columnInsertIndex": 12,
+    "description": "Create column actividad_centro at index 12 based on column actividad_extraexcolar_descrip using expression join ([coalesce(cells['actividad_extraexcolar_descrip'].value,''),coalesce(cells['centro_nombre'].value,'')],'-')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "actividad_centro",
+    "newColumnName": "actividad_centro_nombre",
+    "description": "Rename column actividad_centro to actividad_centro_nombre"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "actividad_extraexcolar_codigo",
+    "expression": "join ([coalesce(cells['actividad_extraexcolar_codigo'].value,''),coalesce(cells['centro_codigo'].value,'')],'-')",
+    "onError": "keep-original",
+    "newColumnName": "actividad-centro-codigo",
+    "columnInsertIndex": 11,
+    "description": "Create column actividad-centro-codigo at index 11 based on column actividad_extraexcolar_codigo using expression join ([coalesce(cells['actividad_extraexcolar_codigo'].value,''),coalesce(cells['centro_codigo'].value,'')],'-')"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "actividad_centro_nombre",
+    "index": 0,
+    "description": "Move column actividad_centro_nombre to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "actividad_extraexcolar_descrip",
+    "index": 0,
+    "description": "Move column actividad_extraexcolar_descrip to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "actividad_extraexcolar_descrip",
+    "index": 13,
+    "description": "Move column actividad_extraexcolar_descrip to position 13"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "actividad-centro-codigo",
+    "index": 0,
+    "description": "Move column actividad-centro-codigo to position 0"
+  }
+]
