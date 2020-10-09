@@ -22,45 +22,45 @@
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:position_x; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "position_x"; rr:termType rr:Literal
+      rml:reference "position_x"; rr:termType rr:Literal; rr:datatype xsd:float
       ]
   ];
 
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:position_y; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "position_y"; rr:termType rr:Literal
+      rml:reference "position_y"; rr:termType rr:Literal; rr:datatype xsd:float
       ]
   ];
 
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:registration_date; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "registration_date"; rr:termType rr:Literal
+      rml:reference "registration_date"; rr:termType rr:Literal; rr:datatype xsd:date
       ]
   ];
 
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:spots; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "spots"; rr:termType rr:Literal
+      rml:reference "spots"; rr:termType rr:Literal; rr:datatype xsd:integer
       ]
   ];
 
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:longitude; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "longitude"; rr:termType rr:Literal
+      rml:reference "longitude"; rr:termType rr:Literal; rr:datatype xsd:float
       ]
   ];
 
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:latitude; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "latitude"; rr:termType rr:Literal
+      rml:reference "latitude"; rr:termType rr:Literal; rr:datatype xsd:float
       ]
   ];
-  
+
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:has_street; rr:termType rr:IRI ];
     rr:objectMap [
@@ -82,14 +82,14 @@
 	rr:predicateObjectMap [
 	  rr:predicateMap[rr:constant properties:district_name; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "district_name"; rr:termType rr:Literal
+		rml:reference "district_name"; rr:termType rr:Literal; rr:datatype xsd:string
 		]
 	];
 
 	rr:predicateObjectMap [
 	  rr:predicateMap[rr:constant properties:district_number; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "district_number"; rr:termType rr:Literal
+		rml:reference "district_number"; rr:termType rr:Literal; rr:datatype xsd:integer
 		]
 	].
 
@@ -107,14 +107,14 @@
 	rr:predicateObjectMap [
 	  rr:predicateMap[rr:constant properties:neighbourhood_name; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "neighbourhood_name"; rr:termType rr:Literal
+		rml:reference "neighbourhood_name"; rr:termType rr:Literal; rr:datatype xsd:string
 		]
 	];
 
 	rr:predicateObjectMap [
 	  rr:predicateMap[rr:constant properties:neighbourhood_number; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "neighbourhood_number"; rr:termType rr:Literal
+		rml:reference "neighbourhood_number"; rr:termType rr:Literal; rr:datatype xsd:integer
 		]
 	];
 
@@ -139,14 +139,14 @@
 	rr:predicateObjectMap [
 	  rr:predicateMap[rr:constant properties:street_name; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "street_name"; rr:termType rr:Literal
+		rml:reference "street_name"; rr:termType rr:Literal; rr:datatype xsd:string
 		]
 	];
 
 	rr:predicateObjectMap [
 	  rr:predicateMap[rr:constant properties:street_number; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "street_number"; rr:termType rr:Literal
+		rml:reference "street_number"; rr:termType rr:Literal; rr:datatype xsd:integer
 		]
 	];
 
