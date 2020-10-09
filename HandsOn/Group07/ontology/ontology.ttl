@@ -11,6 +11,7 @@
 #    Object Properties
 #################################################################
 
+
 ###  http://www.grupo07.es/ontology#tieneCodigo
 :tieneCodigo rdf:type owl:ObjectProperty ;
              rdfs:domain :MUNICIPIO ;
@@ -21,6 +22,12 @@
 :tieneDireccion rdf:type owl:ObjectProperty ;
                 rdfs:domain :MUNICIPIO ;
                 rdfs:range xsd:string .
+
+
+###  http://www.grupo07.es/ontology#perteneceA
+:perteneceA rdf:type owl:ObjectProperty ;
+             rdfs:domain :DENOMINACION ;
+             rdfs:range :MUNICIPIO .
 
 
 ###  http://www.grupo07.es/ontology#tieneLinea
@@ -38,13 +45,13 @@
 ###  http://www.grupo07.es/ontology#tieneNombre
 :tieneNombre rdf:type owl:ObjectProperty ;
              rdfs:domain :OBJECTID ;
-             rdfs:range xsd:string .
+             rdfs:range :DENOMINACION .
 
 
 ###  http://www.grupo07.es/ontology#tieneSentido
 :tieneSentido rdf:type owl:ObjectProperty ;
               rdfs:domain :NUMEROLINEAUSUARIO ;
-              rdfs:range xsd:integer .
+              rdfs:range :SENTIDO .
 
 
 ###  http://www.grupo07.es/ontology#tieneTarifa
@@ -66,6 +73,14 @@
 
 ###  http://www.grupo07.es/ontology#MUNICIPIO
 :MUNICIPIO rdf:type owl:Class .
+
+
+###  http://www.grupo07.es/ontology#DENOMINACION
+:DENOMINACION rdf:type owl:Class .
+
+
+###  http://www.grupo07.es/ontology#SENTIDO
+:SENTIDO rdf:type owl:Class .
 
 
 ###  http://www.grupo07.es/ontology#OBJECTID
