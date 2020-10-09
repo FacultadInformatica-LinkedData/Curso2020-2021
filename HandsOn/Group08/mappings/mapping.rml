@@ -16,7 +16,7 @@ map:map_triplesmap2_0 rml:logicalSource map:source_1;
     rr:subjectMap map:s_1;
     rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10, map:pom_11.
 map:om_0 a rr:ObjectMap;
-    rr:constant "http://example.org#Punto_recarga";
+    rr:constant "http://www.eletricrechargemadrid.com/Punto_recarga";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
     rml:reference "DISTRITO";
@@ -53,7 +53,7 @@ map:om_6 a rr:ObjectMap;
 map:om_7 a rr:ObjectMap;
     rr:parentTriplesMap map:map_triplesmap2_0.
 map:om_8 a rr:ObjectMap;
-    rr:constant "http://example.org#Ubicacion";
+    rr:constant "http://www.eletricrechargemadrid.com/Ubicacion";
     rr:termType rr:IRI.
 map:om_9 a rr:ObjectMap;
     rml:reference "UBICACION";
@@ -62,27 +62,27 @@ map:om_9 a rr:ObjectMap;
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
-    rr:constant <http://example.org#distrito>.
+    rr:constant <http://www.eletricrechargemadrid.com/distrito>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <http://example.org#coordenada_x>.
+    rr:constant <http://www.eletricrechargemadrid.com/coordenada_x>.
 map:pm_11 a rr:PredicateMap;
-    rr:constant <http://example.org#coordenada_y>.
+    rr:constant <http://www.eletricrechargemadrid.com/coordenada_y>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant <http://example.org#edificio>.
+    rr:constant <http://www.eletricrechargemadrid.com/edificio>.
 map:pm_3 a rr:PredicateMap;
-    rr:constant <http://example.org#terminales>.
+    rr:constant <http://www.eletricrechargemadrid.com/terminales>.
 map:pm_4 a rr:PredicateMap;
-    rr:constant <http://example.org#conectores>.
+    rr:constant <http://www.eletricrechargemadrid.com/conectores>.
 map:pm_5 a rr:PredicateMap;
-    rr:constant <http://example.org#potencia>.
+    rr:constant <http://www.eletricrechargemadrid.com/potencia>.
 map:pm_6 a rr:PredicateMap;
-    rr:constant <http://example.org#codigo>.
+    rr:constant <http://www.eletricrechargemadrid.com/codigo>.
 map:pm_7 a rr:PredicateMap;
-    rr:constant <http://example.org#localizacion>.
+    rr:constant <http://www.eletricrechargemadrid.com/localizacion>.
 map:pm_8 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_9 a rr:PredicateMap;
-    rr:constant <http://example.org#calle>.
+    rr:constant <http://www.eletricrechargemadrid.com/calle>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.

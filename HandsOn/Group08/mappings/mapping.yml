@@ -9,7 +9,7 @@ prefixes:
   rml: http://semweb.mmlab.be/ns/rml#
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-  vocab: http://example.org#
+  vocab: http://www.eletricrechargemadrid.com/
   
 mappings:
   triplesmap1:
