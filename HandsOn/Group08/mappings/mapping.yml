@@ -1,0 +1,40 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://www.eletricrechargemadrid.com/
+  
+mappings:
+  triplesmap1:
+    sources:
+      - [Red_recarga_flota_municipal_publicable_20200227-updated.csv~csv]
+    s: http://www.eletricrechargemadrid.com/Punto_recarga/$(CODIGO)
+    po:
+      - [a, vocab:Punto_recarga]
+      - [vocab:distrito,$(DISTRITO),xsd:string]
+      - [vocab:edificio,$(EDIFICIO),xsd:string]
+      - [vocab:terminales,$(TERMINALES),xsd:integer]
+      - [vocab:conectores,$(CONECTORES),xsd:string]
+      - [vocab:potencia,$(POTENCIA),xsd:string]
+      - [vocab:codigo,$(CODIGO),xsd:string]
+      - p: vocab:localizacion
+        o:
+          mapping: triplesmap2
+      
+
+  triplesmap2:
+    sources:
+      - [Red_recarga_flota_municipal_publicable_20200227-updated.csv~csv]
+    s: http://www.eletricrechargemadrid.com/Ubicacion/$(UBICACION)
+    po:
+      - [a, vocab:Ubicacion]
+      - [vocab:calle,$(UBICACION),xsd:string]
+      - [vocab:coordenada_x,$(COORDENADA X),xsd:integer]
+      - [vocab:coordenada_y,$(COORDENADA Y),xsd:integer]
