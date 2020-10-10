@@ -2,6 +2,7 @@ prefixes:
   ns: "http://www.semanticweb.org/group16/ontologies/air-quality#"
   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
   sc: "http://www.schema.org#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
 
 mappings:
     
@@ -11,11 +12,11 @@ mappings:
         s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ESTACION_ID)
         po:
             - [a, ns:Station]
-            - [ns:stationCode, $(ESTACION_ID)]
-            - [rdfs:label, $(NOMBRE)]
-            - [sc:address, $(DIRECCION)]
-            - [sc:latitude, $(LATITUD)]
-            - [sc:longitude, $(LONGITUD)]
+            - [ns:stationCode, $(ESTACION_ID),xsd:string]
+            - [rdfs:label, $(NOMBRE),xsd:string]
+            - [sc:address, $(DIRECCION),xsd:string]
+            - [sc:latitude, $(LATITUD),xsd:string]
+            - [sc:longitude, $(LONGITUD),xsd:string]
             - p: ns:measuredAt
               o:
                 - mapping: TriplesMap2
@@ -31,6 +32,6 @@ mappings:
         s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ID)
         po:
             - [a, ns:Measurement]
-            - [ns:dateOfMeasure, $(FECHA)]
-            - [ns:measureType, $(MAGNITUD)]
-            - [ns:measureValue, $(VALOR)]
+            - [ns:dateOfMeasure, $(FECHA),xsd:dateTime]
+            - [ns:measureType, $(MAGNITUD),xsd:integer]
+            - [ns:measureValue, $(VALOR),xsd:float]
