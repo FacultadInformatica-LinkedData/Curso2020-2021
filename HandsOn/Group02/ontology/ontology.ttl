@@ -31,18 +31,6 @@
                 rdfs:range :Coordinates .
 
 
-###  http://findyourparking.es/lcc/ontology/Parking#hasId
-:hasId rdf:type owl:ObjectProperty ;
-       rdfs:domain [ rdf:type owl:Restriction ;
-                     owl:onProperty :hasId ;
-                     owl:cardinality "1"^^xsd:nonNegativeInteger
-                   ] ;
-       rdfs:range [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasId ;
-                    owl:someValuesFrom :Id
-                  ] .
-
-
 ###  http://findyourparking.es/lcc/ontology/Parking#hasInformation
 :hasInformation rdf:type owl:ObjectProperty ;
                 rdfs:domain owl:Thing ;
@@ -50,20 +38,166 @@
 
 
 #################################################################
+#    Data properties
+#################################################################
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasCity
+:hasCity rdf:type owl:DatatypeProperty ;
+         rdfs:domain :City ;
+         rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasCoordX
+:hasCoordX rdf:type owl:DatatypeProperty ;
+           rdfs:domain :CoordX ;
+           rdfs:range xsd:double .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasCoordY
+:hasCoordY rdf:type owl:DatatypeProperty ;
+           rdfs:domain :CoordY ;
+           rdfs:range xsd:double .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasDistrict
+:hasDistrict rdf:type owl:DatatypeProperty ;
+             rdfs:domain :District ;
+             rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasEmail
+:hasEmail rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Email ;
+          rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasId
+:hasId rdf:type owl:DatatypeProperty ;
+       rdfs:domain owl:Thing ;
+       rdfs:range xsd:integer .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasLatitude
+:hasLatitude rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Latitude ;
+             rdfs:range xsd:double .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasLongitude
+:hasLongitude rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Longitude ;
+              rdfs:range xsd:double .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Name ;
+         rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood
+:hasNeighborhood rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Neighborhood ;
+                 rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasNumber
+:hasNumber rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Number ;
+           rdfs:range xsd:integer .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasPostalCode
+:hasPostalCode rdf:type owl:DatatypeProperty ;
+               rdfs:domain :PostalCode ;
+               rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasProvince
+:hasProvince rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Province ;
+             rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots
+:hasPublicSlots rdf:type owl:DatatypeProperty ;
+                rdfs:domain :PublicSlots ;
+                rdfs:range xsd:integer .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots
+:hasResidentialSlots rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :ResidentialSlots ;
+                     rdfs:range xsd:integer .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasSchedule
+:hasSchedule rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Schedule ;
+             rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasStreetName
+:hasStreetName rdf:type owl:DatatypeProperty ;
+               rdfs:domain :StreetName ;
+               rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasStreetType
+:hasStreetType rdf:type owl:DatatypeProperty ;
+               rdfs:domain :StreetType ;
+               rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasTelephone
+:hasTelephone rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Telephone ;
+              rdfs:range xsd:string .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots
+:hasTotalSlots rdf:type owl:DatatypeProperty ;
+               rdfs:domain :TotalSlots ;
+               rdfs:range xsd:integer .
+
+
+###  http://findyourparking.es/lcc/ontology/Parking#hasURLmoreinfo
+:hasURLmoreinfo rdf:type owl:DatatypeProperty ;
+                rdfs:domain :URLmoreinfo ;
+                rdfs:range xsd:string .
+
+
+#################################################################
 #    Classes
 #################################################################
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Address
-:Address rdf:type owl:Class .
+:Address rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasProvince ;
+                               owl:someValuesFrom xsd:string
+                             ] .
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#City
 :City rdf:type owl:Class ;
-      rdfs:subClassOf :Locality .
+      owl:equivalentClass [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasDistrict ;
+                            owl:someValuesFrom xsd:string
+                          ] ;
+      rdfs:subClassOf :Province .
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Contact
-:Contact rdf:type owl:Class .
+:Contact rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasEmail ;
+                               owl:someValuesFrom xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasTelephone ;
+                               owl:someValuesFrom xsd:string
+                             ] .
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#CoordX
@@ -77,11 +211,35 @@
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Coordinates
-:Coordinates rdf:type owl:Class .
+:Coordinates rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasCoordX ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:integer
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasCoordY ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:integer
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasLatitude ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:integer
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasLongitude ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:integer
+                                 ] .
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#District
 :District rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasNeighborhood ;
+                                owl:someValuesFrom xsd:string
+                              ] ;
           rdfs:subClassOf :City .
 
 
@@ -95,17 +253,42 @@
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Information
-:Information rdf:type owl:Class .
+:Information rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasName ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasPublicSlots ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:integer
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasResidentialSlots ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:integer
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasSchedule ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTotalSlots ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:integer
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasURLmoreinfo ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] .
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Latitude
 :Latitude rdf:type owl:Class ;
           rdfs:subClassOf :Coordinates .
-
-
-###  http://findyourparking.es/lcc/ontology/Parking#Locality
-:Locality rdf:type owl:Class ;
-          rdfs:subClassOf :Province .
 
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Longitude
@@ -120,6 +303,19 @@
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Neighborhood
 :Neighborhood rdf:type owl:Class ;
+              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasStreetName ;
+                                    owl:someValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasStreetType ;
+                                    owl:someValuesFrom xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasPostalCode ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ;
               rdfs:subClassOf :District .
 
 
@@ -135,6 +331,10 @@
 
 ###  http://findyourparking.es/lcc/ontology/Parking#Province
 :Province rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasCity ;
+                                owl:someValuesFrom xsd:string
+                              ] ;
           rdfs:subClassOf :Address .
 
 
@@ -155,6 +355,11 @@
 
 ###  http://findyourparking.es/lcc/ontology/Parking#StreetName
 :StreetName rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasNumber ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:integer
+                                ] ;
             rdfs:subClassOf :Neighborhood .
 
 
@@ -200,7 +405,7 @@ owl:Thing owl:equivalentClass [ rdf:type owl:Restriction ;
                               [ rdf:type owl:Restriction ;
                                 owl:onProperty :hasId ;
                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                owl:onClass :Id
+                                owl:onDataRange xsd:integer
                               ] .
 
 

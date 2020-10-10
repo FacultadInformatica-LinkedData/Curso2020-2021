@@ -1972,5 +1972,31 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column URLMoreInfo using expression value.trim()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Locality",
+    "newColumnName": "City",
+    "description": "Rename column Locality to City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Public Slots",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36 Titularidad : Ayuntamiento de Madr"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 36
+      }
+    ],
+    "description": "Mass edit cells in column Public Slots"
   }
 ]

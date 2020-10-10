@@ -1,0 +1,65 @@
+prefixes:
+xsd: <http://www.w3.org/2001/XMLSchema#> .
+rr: <http://www.w3.org/ns/r2rml#> .
+rml: <http://semweb.mmlab.be/ns/rml#> .
+ql: <http://semweb.mmlab.be/ns/ql#> .
+transit: <http://vocab.org/transit/terms/> .
+wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+classes: <http://www.semanticweb.org/bicimad/classes#> .
+properties: <http://www.semanticweb.org/bicimad/properties#> .
+
+mappings:
+
+ TriplesMap1:
+  sources:
+    - [bases_bicimad-updated2.csv~csv]
+  s: http://www.semanticweb.org/bicimad/classes#Bike_Station/{bs_id}
+  po:
+      - [rdf:type, classes:Bike_Station]
+      - [properties:position_x, $(position_x)]
+      - [properties:position_y, $(position_y)]
+      - [properties:registration_date, $(registration_date)]
+      - [properties:spots, $(spots)]
+      - [properties:longitude, $(longitude)]
+      - [properties:latitude, $(latitude)]
+      - p: properties:has_street
+        o:
+            - mapping: Triplesmap4
+
+ TriplesMap2:
+    sources:
+    - [bases_bicimad-updated2.csv~csv]
+    s: http://www.semanticweb.org/bicimad/classes#District/{district_number}
+    po:
+
+    - [rdf_type, classes:District]
+    - [properties:district_name, $(district_name)]
+    - [properties:district_number, $(district_number)]
+
+
+ TriplesMap3:
+    sources:
+    - [bases_bicimad-updated2.csv~csv]
+    s: http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}
+    po:
+
+    - [rdf_type, classes:Neighbourhood]
+    - [properties:neighbourhood_name, $(neighbourhood_name)]
+    - [properties:neighbourhood_number, $(neighbourhood_number)]
+    - p: properties:has_district
+        o:
+        - mapping: Triplesmap2
+
+
+ TriplesMap4:
+    sources:
+        - [bases_bicimad-updated2.csv~csv]
+    s: http://www.semanticweb.org/bicimad/classes#Street/{street_name}
+    po:
+
+    - [rdf_type, classes:Street]
+    - [properties:street_name, $(street_name)]
+    - [properties:street_number, $(street_number)]
+    - p: properties:has_neighbourhood
+    o:
+        - mapping: Triplesmap3
