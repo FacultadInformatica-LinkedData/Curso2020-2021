@@ -1,0 +1,46 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  schema: http://schema.org#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  ns: http://linkeddata.es/group15/ontology/studyCentersMadrid#
+  
+mappings:
+  centros:
+    sources:
+      - [centros_educativos-updated.csv~csv]
+    s: http://http://linkeddata.es/group15/ontology/studyCentersMadrid/$(Centro_codigo)
+    po:
+      - [a, ns:Center]
+      - [ns:centerName,$(Centro_nombre)]
+      - [ns:centerTypeCod,$(Centro_tipo_codigo)]
+      - [ns:description,$(Centro_tipo_descripcion)]
+      - [ns:titularity,$(Centro_titularidad)]
+      - [vcard:hasEmail ,$(Contacto_email)]
+      - [vcard:hasTelephone ,$(Contacto_telefono)]
+      - [vcard:fax,$(Contacto_fax)]
+      - [ns:webpage,$(Contacto_web)]
+      - [vcard:street-address ,$(Direccion)]
+      - [ns:cityName,$(Municipio_nombre)]
+      - [ns:cityCod,$(Municipio_codigo)]
+      - [ns:districtName,$(Distrito_nombre)]
+      - [ns:districtCod,$(Distrito_codigo)]
+      - [schema:longitude,$(Direccion_coor_x)]
+      - [schema:latitude,$(Direccion_coor_y)]
+      - [vcard:postal-code ,$(Direccion_codigo_postal)]      
+
+  actividades:
+    sources:
+      - [actividades_extraescolares_institucionales-updated.csv~csv]
+    s: http://linkeddata.es/group15/ontology/studyCentersMadrid/$(Actividad_extraexcolar_codigo)
+    po:
+      - [a, ns:Activity]
+      - [ns:activityDescription,$(Actividad_extraexcolar_descrip)]
+      - p: ns:takePlace
+        o:
+          mapping: centros
+          condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(Centro_codigo)]
+                      - [str2, $(Centro_codigo)]

@@ -1,6 +1,6 @@
-#Hands-on assignment 1 – Self assessment#
+# Hands-on assignment 1 – Self assessment
 
-##Checklist##
+## Checklist
 
 **The “README.md” file:**
 
@@ -21,6 +21,5 @@
 
 - [] Includes a description of the application user interface
 
-##Comments on the self-assessment##
+## Comments on the self-assessment
 _(If required)_
-

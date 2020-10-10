@@ -1,0 +1,198 @@
+@prefix : <http://linkeddata.es/group09/ontology/TrafficAccident#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix res: <http://linkeddata.es/group09/resource/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://linkeddata.es/group09/ontology/TrafficAccident#> .
+
+<http://linkeddata.es/group09/ontology/TrafficAccident#> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#dateTime
+xsd:dateTime rdfs:comment """The <xs:datetime> data type is used to represent date and time in YYYY-MM-DDThh:mm:ss format
+
+YYYY − represents year
+MM − represents month
+DD − represents day
+T − represents start of time section
+hh − represents hours
+mm − represents minutes
+ss − represents seconds""" .
+
+
+###  http://www.w3.org/2001/XMLSchema#integer
+xsd:integer rdfs:comment "The integer data type is used to specify a numeric value without a fractional component" .
+
+
+###  http://www.w3.org/2001/XMLSchema#string
+xsd:string rdfs:comment "The string data type can contain characters, line feeds, carriage returns, and tab characters" .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn
+:locatedIn rdf:type owl:ObjectProperty ;
+           rdfs:domain :StreetCrossing ;
+           rdfs:range :District ;
+           rdfs:comment "A Street Crossing is located in a District" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#occursAt
+:occursAt rdf:type owl:ObjectProperty ;
+          rdfs:domain :Accident ;
+          rdfs:range :Time ;
+          rdfs:comment "An Accident occurs at a Time" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#occursOn
+:occursOn rdf:type owl:ObjectProperty ;
+          rdfs:domain :Accident ;
+          rdfs:range :StreetCrossing ;
+          rdfs:comment "An Accident occurs on a Street Crossing" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#occursTo
+:occursTo rdf:type owl:ObjectProperty ;
+          rdfs:domain :Accident ;
+          rdfs:range dbo:Person ;
+          rdfs:comment "An Accident occurs to a Person" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://dbpedia.org/ontology/sex
+dbo:sex rdf:type owl:DatatypeProperty ;
+        rdfs:domain dbo:Person ;
+        rdfs:range xsd:string ;
+        rdfs:comment "Gender of the person who suffered the accident" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#ageRange
+:ageRange rdf:type owl:DatatypeProperty ;
+          rdfs:domain dbo:Person ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Age range of the person who suffered the accident" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Time ;
+      rdfs:range xsd:dateTime ;
+      rdfs:comment "Date and hour of an accident" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#districtName
+:districtName rdf:type owl:DatatypeProperty ;
+              rdfs:domain :District ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Name of the district where the accident occurred" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient
+:hasExpedient rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Accident ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Identifier of an accident" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber
+:hasNumber rdf:type owl:DatatypeProperty ;
+           rdfs:domain :StreetCrossing ;
+           rdfs:range xsd:string ;
+           rdfs:comment "Street crossing number where the accident occurred. If it has no number it is an empty value" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1
+:hasStreet1 rdf:type owl:DatatypeProperty ;
+            rdfs:domain :StreetCrossing ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Name of the first street of the street crossing" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2
+:hasStreet2 rdf:type owl:DatatypeProperty ;
+            rdfs:domain :StreetCrossing ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Name of the second street of the street crossing.  It can be empty if the accident occurs only on a street" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#hourInterval
+:hourInterval rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Time ;
+              rdfs:range xsd:string ;
+              rdfs:comment "1-hour interval in which the accident occurred" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus
+:injuryStatus rdf:type owl:DatatypeProperty ;
+              rdfs:domain dbo:Person ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "Level of damage suffered by the person in the accident. Being 0 if the person did not suffer any damage" .
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident
+:typeOfAccident rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Accident ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Type of accident" .
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson
+:typeOfPerson rdf:type owl:DatatypeProperty ;
+              rdfs:domain dbo:Person ;
+              rdfs:range xsd:string ;
+              rdfs:comment "The person who suffered the accident could be a pedestrian or a driver" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#typeOfVehicle
+:typeOfVehicle rdf:type owl:DatatypeProperty ;
+               rdfs:domain dbo:Person ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Vehicle with which the person suffered the accident" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#weather
+:weather rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Accident ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Weather at the time of the accident" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Person
+dbo:Person rdf:type owl:Class ;
+           rdfs:comment "Person having an accident" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#Accident
+:Accident rdf:type owl:Class ;
+          rdfs:comment "Accident that takes place in Madrid" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#District
+:District rdf:type owl:Class ;
+          rdfs:comment "District in which an accident occurs" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing
+:StreetCrossing rdf:type owl:Class ;
+                rdfs:comment "Street crossing in which an accident occurs. It can also be just a street" .
+
+
+###  http://linkeddata.es/group09/ontology/TrafficAccident#Time
+:Time rdf:type owl:Class ;
+      rdfs:comment "Date and time of an accident" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

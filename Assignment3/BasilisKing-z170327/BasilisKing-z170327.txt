@@ -1,0 +1,96 @@
+select distinct ?x
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>}
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#domain
+http://www.w3.org/2000/01/rdf-schema#range
+http://www.w3.org/2000/01/rdf-schema#subClassOf
+
+---------
+
+select distinct ?x
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>.
+FILTER (?x != rdf:type)}
+
+http://www.w3.org/2000/01/rdf-schema#domain
+http://www.w3.org/2000/01/rdf-schema#range
+http://www.w3.org/2000/01/rdf-schema#subClassOf
+
+--------
+
+select distinct ?a
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>.
+?y ?x ?a.
+FILTER (?x != rdf:type)
+}
+LIMIT 25
+
+http://dbpedia.org/ontology/Politician
+http://dbpedia.org/ontology/Person
+http://dbpedia.org/ontology/Activity
+http://dbpedia.org/ontology/compiler
+http://dbpedia.org/ontology/curator
+http://dbpedia.org/ontology/keyPerson
+http://dbpedia.org/ontology/vicePrincipal
+http://dbpedia.org/ontology/Cleric
+http://dbpedia.org/ontology/Event
+http://dbpedia.org/ontology/deathPlace
+http://dbpedia.org/ontology/deathDate
+http://dbpedia.org/ontology/birthPlace
+http://dbpedia.org/ontology/birthDate
+http://dbpedia.org/ontology/measurements
+http://dbpedia.org/ontology/member
+http://dbpedia.org/ontology/shoeNumber
+http://dbpedia.org/ontology/Person/height
+http://dbpedia.org/ontology/Person/weight
+http://dbpedia.org/ontology/achievement
+http://dbpedia.org/ontology/dean
+http://dbpedia.org/ontology/primeMinister
+http://dbpedia.org/ontology/rector
+http://dbpedia.org/ontology/showJudge
+http://dbpedia.org/ontology/Architect
+http://dbpedia.org/ontology/Artist
+
+----------
+
+select distinct ?y
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>.
+FILTER (?x != rdf:type).
+}
+
+http://dbpedia.org/ontology/prefect
+http://dbpedia.org/ontology/minister
+http://dbpedia.org/ontology/politician
+http://dbpedia.org/ontology/Politician
+http://dbpedia.org/ontology/President
+http://dbpedia.org/ontology/Ambassador
+http://dbpedia.org/ontology/Chancellor
+http://dbpedia.org/ontology/Congressman
+http://dbpedia.org/ontology/Deputy
+http://dbpedia.org/ontology/Governor
+http://dbpedia.org/ontology/Lieutenant
+http://dbpedia.org/ontology/Mayor
+http://dbpedia.org/ontology/MemberOfParliament
+http://dbpedia.org/ontology/Minister
+http://dbpedia.org/ontology/PrimeMinister
+http://dbpedia.org/ontology/Senator
+http://dbpedia.org/ontology/VicePresident
+http://dbpedia.org/ontology/VicePrimeMinister
+http://dbpedia.org/ontology/Person
+http://localhost:8890/about/id/http/dbpedia.org/ontology/Politician
+http://dbpedia.org/ontology/
+http://dbpedia.org/ontology/data/definitions.ttl
+
+----------
+
+select distinct (count(?y) AS ?iters)
+where
+{?y ?x <http://dbpedia.org/ontology/Politician>.
+FILTER (?x != rdf:type).
+}
+
+35
