@@ -28,4 +28,3 @@ This is the directory where students have to upload their materials related to t
 * /openrefine/*.json - A JSON file with the operations performed over the data for fixing and transforming them.
 * /csv/*-updated.csv - An CSV file with the updated versions of the datasets.
 * /selfAssessmentHandsOn3.md - A Markdown document with the hands-on 3 self-assessment
-
