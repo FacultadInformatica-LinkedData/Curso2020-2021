@@ -1,0 +1,87 @@
+@prefix : <http://recargamadrid.es/lcc/ontology/Recarga#> .
+@prefix g: <http://recargamadrid.es/lcc/ontology/Recarga/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://recargamadrid.es/lcc/ontology/Recarga#> .
+
+<http://recargamadrid.es/lcc/ontology/Recarga#> rdf:type owl:Ontology .
+
+#################################################################
+#    Clases
+#################################################################
+
+###  http://recargamadrid.es/lcc/ontology/Puesto#Distrito
+:Distrito rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasProvince ;
+                               owl:someValuesFrom xsd:string
+                             ] .
+                             
+                             
+###  http://recargamadrid.es/lcc/ontology/Puesto#Direccion
+:Direccion rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasProvince ;
+                               owl:someValuesFrom xsd:string
+                             ] .
+                             
+                             
+###  http://recargamadrid.es/lcc/ontology/Puesto#Emplazamiento
+:Emplazamiento rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasProvince ;
+                               owl:someValuesFrom xsd:string
+                             ] .
+                             
+                             
+ ###  http://recargamadrid.es/lcc/ontology/Puesto#Numero
+:Numero rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasProvince ;
+                               owl:someValuesFrom xsd:string
+                             ] .   
+                             
+                             
+ ###  http://recargamadrid.es/lcc/ontology/Puesto#Operador
+:Operador rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasProvince ;
+                               owl:someValuesFrom xsd:string
+                             ] .
+                             
+                             
+#################################################################
+#    Objetos
+#################################################################
+
+###  http://recargamadrid.es/lcc/ontology/Puesto#hasDistrito
+:hasDistrito rdf:type owl:ObjectProperty ;
+             rdfs:domain owl:Thing ;
+             rdfs:range :Distrito .
+            
+            
+###  http://recargamadrid.es/lcc/ontology/Puesto#hasDireccion
+:hasDireccion rdf:type owl:ObjectProperty ;
+              rdfs:domain owl:Thing ;
+              rdfs:range :Direccion .
+
+
+###  http://recargamadrid.es/lcc/ontology/Puesto#hasNumero
+:hasNumero rdf:type owl:ObjectProperty ;
+           rdfs:domain owl:Thing ;
+           rdfs:range :Numero .
+
+
+###  http://recargamadrid.es/lcc/ontology/Puesto#hasCoordenadas
+:hasCoordenadas rdf:type owl:ObjectProperty ;
+                rdfs:domain owl:Thing ;
+                rdfs:range :Coordenadas .
+
+
+###  http://recargamadrid.es/lcc/ontology/Puesto#hasOperador
+:hasOperador rdf:type owl:ObjectProperty ;
+             rdfs:domain owl:Thing ;
+             rdfs:range :Operador .                             
