@@ -10,7 +10,7 @@ mappings:
     s: http://dbpedia.org/ontology/province/$(PROVINCIA)
     po:
       - [a, dbp:province]
-      - [swo:Codigo, $(PROVINCIA)]
+      - [swo:codigo, $(PROVINCIA)]
     
   municipio:
     source:
@@ -18,7 +18,7 @@ mappings:
     s: http://dbpedia.org/ontology/Municipality/$(MUNICIPIO)
     po:
       - [a, dbp:Municipality]
-      - [swo:Codigo, $(MUNICIPIO)]
+      - [swo:codigo, $(MUNICIPIO)]
       - p: swo:formaParteDe
         o:
           - mapping: provincia
@@ -31,8 +31,7 @@ mappings:
       - [../csv/MadridAirQuality2020-update.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(ESTACION)
     po:
-      - [a, swo:Estacion]
-      - [swo:Codigo, $(ESTACION)]
+      - [swo:codigo, $(ESTACION)]
       - [swo:lugarEstacion, $(LUGAR_ESTACION)]
       - p: swo:tomaMuestras
         o:
@@ -44,7 +43,8 @@ mappings:
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
     po:
       - [a, swo:Muestra]
-      - [swo:Codigo, $(ID)]
-      - [swo:Compuesto_medido, $(COMPUESTO_MEDIDO)]
-      - [xsd:date, $(FECHA)] # No tengo claro si XSD sigue el mismo formato que nuestro CSV, creo que no y el formato correcto es YYYY-MM-DD
-      - [swo:Tecnica_de_medicion, $(TECNICA_DE_MEDICION)]
+      - [swo:codigo, $(ID)]
+      - [swo:compuesto, $(COMPUESTO_MEDIDO)]
+      - [swo:valido, $(VALIDEZ)]
+      - [xsd:date, $(FECHA)]
+      - [swo:tecnicaMedicion, $(TECNICA_DE_MEDICION)]
