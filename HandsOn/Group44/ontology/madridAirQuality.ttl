@@ -38,7 +38,8 @@
 :codigo rdf:type owl:DatatypeProperty ;
         rdfs:domain <http://dbpedia.org/ontology/Municipality> ,
                     <http://dbpedia.org/ontology/province> ,
-                    :Estacion ;
+                    :Estacion ,
+                    :Muestra;
         rdfs:range xsd:int .
 
 
