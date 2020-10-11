@@ -1,17 +1,5 @@
 prefixes:
-  rr: http://www.w3.org/ns/r2rml#
-  foaf: http://xmlns.com/foaf/0.1/
   xsd: http://www.w3.org/2001/XMLSchema#
-  rdfs: http://www.w3.org/2000/01/rdf-schema#
-  dc: http://purl.org/dc/elements/1.1/
-  rev: http://purl.org/stuff/rev#
-  gtfs: http://vocab.gtfs.org/terms#
-  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
-  schema: http://schema.org/
-  dct: http://purl.org/dc/terms/
-  rml: http://semweb.mmlab.be/ns/rml#
-  ql: http://semweb.mmlab.be/ns/ql#
-  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   swo: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#
   dbp: http://dbpedia.org/ontology/
 
@@ -50,13 +38,13 @@ mappings:
         o:
           - mapping: muestra
     
-  Muestra:
+  muestra:
     source:
       - [../csv/MadridAirQuality2020-update.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
     po:
       - [a, swo:Muestra]
-      # - [swo:Codigo, ???]
-      - [swo:Compuesto_medido, $(COMPUESTOS_MEDIDOS)]
-      # - [swo:Date, $(???)]
-      - [swo:Tecnica_de_medicion, $(TECNICA_DE_MEDIDA)]
+      - [swo:Codigo, $(ID)]
+      - [swo:Compuesto_medido, $(COMPUESTO_MEDIDO)]
+      - [xsd:date, $(FECHA)] # No tengo claro si XSD sigue el mismo formato que nuestro CSV, creo que no y el formato correcto es YYYY-MM-DD
+      - [swo:Tecnica_de_medicion, $(TECNICA_DE_MEDICION)]
