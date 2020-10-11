@@ -1,4 +1,4 @@
-@prefix : <http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#> .
+@prefix : <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -12,19 +12,19 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#contieneEstaciones
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#contieneEstaciones
 :contieneEstaciones rdf:type owl:ObjectProperty ;
                     rdfs:domain <http://dbpedia.org/ontology/Municipality> ;
                     rdfs:range :Estacion .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#formaParteDe
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#formaParteDe
 :formaParteDe rdf:type owl:ObjectProperty ;
               rdfs:domain <http://dbpedia.org/ontology/Municipality> ;
               rdfs:range <http://dbpedia.org/ontology/province> .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#tomaMuestras
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tomaMuestras
 :tomaMuestras rdf:type owl:ObjectProperty ;
               rdfs:domain :Estacion ;
               rdfs:range :Muestra .
@@ -34,7 +34,7 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#codigo
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo
 :codigo rdf:type owl:DatatypeProperty ;
         rdfs:domain <http://dbpedia.org/ontology/Municipality> ,
                     <http://dbpedia.org/ontology/province> ,
@@ -42,31 +42,31 @@
         rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#compuesto
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#compuesto
 :compuesto rdf:type owl:DatatypeProperty ;
            rdfs:domain :Muestra ;
            rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#date
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#date
 :date rdf:type owl:DatatypeProperty ;
       rdfs:domain :Muestra ;
       rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#lugarEstacion
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#lugarEstacion
 :lugarEstacion rdf:type owl:DatatypeProperty ;
                rdfs:domain :Estacion ;
                rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#tecnicaMedicion
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion
 :tecnicaMedicion rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Muestra ;
                  rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#valido
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valido
 :valido rdf:type owl:DatatypeProperty ;
         rdfs:domain :Muestra ;
         rdfs:range xsd:boolean .
@@ -84,11 +84,11 @@
 <http://dbpedia.org/ontology/province> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Estacion
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion
 :Estacion rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Muestra
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra
 :Muestra rdf:type owl:Class .
 
 

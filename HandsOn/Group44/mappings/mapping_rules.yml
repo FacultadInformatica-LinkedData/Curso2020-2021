@@ -12,24 +12,25 @@ prefixes:
   rml: http://semweb.mmlab.be/ns/rml#
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-  swo: http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#
+  swo: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#
+  dbp: http://dbpedia.org/ontology/
 
 mappings:
   provincia:
     source:
       - [../csv/MadridAirQuality2020-update.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Provincia
-    por:
-      - [a, swo:Provincia]
-      # - [swo:Codigo, ???]
+    s: http://dbpedia.org/ontology/province/$(PROVINCIA)
+    po:
+      - [a, dbp:province]
+      - [swo:Codigo, $(PROVINCIA)]
     
   municipio:
     source:
       - [../csv/MadridAirQuality2020-update.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4/Municipio/$(MUNICIPIO)
+    s: http://dbpedia.org/ontology/Municipality/$(MUNICIPIO)
     po:
-      - [a, swo:Municipio]
-      # - [swo:Codigo, ???]
+      - [a, dbp:Municipality]
+      - [swo:Codigo, $(MUNICIPIO)]
       - p: swo:formaParteDe
         o:
           - mapping: provincia
@@ -40,19 +41,19 @@ mappings:
   estacion:
     source:
       - [../csv/MadridAirQuality2020-update.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4/Estacion/$(ESTACION)
+    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(ESTACION)
     po:
       - [a, swo:Estacion]
-      # - [swo:Codigo, ???]
-      - [swo:Lugar_estacion, $(LUGAR_ESTACION)]
+      - [swo:Codigo, $(ESTACION)]
+      - [swo:lugarEstacion, $(LUGAR_ESTACION)]
       - p: swo:tomaMuestras
         o:
           - mapping: muestra
     
-  muestra:
+  Muestra:
     source:
       - [../csv/MadridAirQuality2020-update.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4/Muestra/$(ANO)
+    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
     po:
       - [a, swo:Muestra]
       # - [swo:Codigo, ???]
