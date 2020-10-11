@@ -13,15 +13,15 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#RecargaMadrid/{PR_ID}";
+    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Puesto/{PR_ID}";
     rr:termType rr:IRI;
     rr:class classes:RecargaMadrid
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap[rr:constant properties:tieneDistrito; rr:termType rr:IRI ];
+    rr:predicateMap[rr:constant properties:TieneDistrito; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "tieneDistrito"; rr:termType rr:Literal
+      rml:reference "TieneDistrito"; rr:termType rr:Literal
       ]
   ];
 
@@ -29,13 +29,6 @@
     rr:predicateMap[rr:constant properties:tieneDireccion; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "tieneDireccion"; rr:termType rr:Literal
-      ]
-  ];
-
-  rr:predicateObjectMap [
-    rr:predicateMap[rr:constant properties:tieneNumero; rr:termType rr:IRI ];
-    rr:objectMap [
-      rml:reference "tieneNumero"; rr:termType rr:Number
       ]
   ];
 
@@ -55,89 +48,82 @@
 
 <#TriplesMap2>
 	rml:logicalSource [
-	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/bicimad/classes#District/{district_number}";
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Distrito/";
 	  rr:termType rr:IRI;
-	  rr:class classes:District
+	  rr:class classes:Distrito
 	];
 
 	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:district_name; rr:termType rr:IRI ];
+	  rr:predicateMap[rr:constant properties:tieneNumero; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "district_name"; rr:termType rr:Literal
+		rml:reference "tieneNumero"; rr:termType rr:Number
 		]
 	];
-
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:district_number; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rml:reference "district_number"; rr:termType rr:Literal
-		]
-	].
 
 <#TriplesMap3>
 	rml:logicalSource [
-	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}";
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Direccion/";
 	  rr:termType rr:IRI;
-	  rr:class classes:Neighbourhood
+	  rr:class classes:Direccion
 	];
 
 	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:neighbourhood_name; rr:termType rr:IRI ];
+	  rr:predicateMap[rr:constant properties:tieneDireccion; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "neighbourhood_name"; rr:termType rr:Literal
+		rml:reference "tieneDireccion"; rr:termType rr:Literal
 		]
 	];
 
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:neighbourhood_number; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rml:reference "neighbourhood_number"; rr:termType rr:Literal
-		]
-	];
-
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:has_district; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rr:parentTriplesMap <#TriplesMap2>;
-		]
-	].
 
 <#TriplesMap4>
 	rml:logicalSource [
-	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/bicimad/classes#Street/{street_name}";
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#NumeroPuestos/";
 	  rr:termType rr:IRI;
-	  rr:class classes:Street
+	  rr:class classes:NumeroPuestos
 	];
 
 	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:street_name; rr:termType rr:IRI ];
+	  rr:predicateMap[rr:constant properties:tieneNumeros; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "street_name"; rr:termType rr:Literal
+		rml:reference "tieneNumeros"; rr:termType rr:Number
 		]
 	];
 
+<#TriplesMap5>
+	rml:logicalSource [
+	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+	
+	rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Coordenadas/";
+	  rr:termType rr:IRI;
+	  rr:class classes:Coordenadas
+	];
+	
 	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:street_number; rr:termType rr:IRI ];
+	  rr:predicateMap[rr:constant properties:coordenadaX; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rml:reference "street_number"; rr:termType rr:Literal
+		rml:reference "coordenadaX"; rr:termType rr:Number
 		]
 	];
-
+	
 	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:has_neighbourhood; rr:termType rr:IRI ];
+	  rr:predicateMap[rr:constant properties:coordenadaY; rr:termType rr:IRI ];
 	  rr:objectMap [
-		rr:parentTriplesMap <#TriplesMap3>;
+		rml:reference "coordenadaY"; rr:termType rr:Number
 		]
-	].
+	];
+	
