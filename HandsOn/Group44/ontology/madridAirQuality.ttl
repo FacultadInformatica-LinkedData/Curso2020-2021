@@ -4,33 +4,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4> .
+@base <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality> .
 
-<http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4> rdf:type owl:Ontology .
+<http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#contieneEstaciones
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#contieneEstaciones
 :contieneEstaciones rdf:type owl:ObjectProperty ;
                     rdfs:domain :Municipio ;
                     rdfs:range :Estacion .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#deCompuesto
-:deCompuesto rdf:type owl:ObjectProperty ;
-             rdfs:domain :Muestra ;
-             rdfs:range :Compuesto .
-
-
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#formaParteDe
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#formaParteDe
 :formaParteDe rdf:type owl:ObjectProperty ;
               rdfs:domain :Municipio ;
               rdfs:range :Provincia .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#tomaMuestras
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tomaMuestras
 :tomaMuestras rdf:type owl:ObjectProperty ;
               rdfs:domain :Estacion ;
               rdfs:range :Muestra .
@@ -40,41 +34,40 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Codigo
-:Codigo rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Compuesto ,
-                    :Estacion ,
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#codigo
+:codigo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Estacion ,
                     :Municipio ,
                     :Provincia ;
         rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Date
-:Date rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#compuesto
+:compuesto rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Muestra ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#date
+:date rdf:type owl:DatatypeProperty ;
       rdfs:domain :Muestra ;
       rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Lugar_estacion
-:Lugar_estacion rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#lugarEstacion
+:lugarEstacion rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Estacion ;
                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Nombre_Compuesto
-:Nombre_Compuesto rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :Compuesto ;
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion
+:tecnicaMedicion rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Muestra ;
                   rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Tecnica_de_medicion
-:Tecnica_de_medicion rdf:type owl:DatatypeProperty ;
-                     rdfs:domain :Muestra ;
-                     rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Valido
-:Valido rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valido
+:valido rdf:type owl:DatatypeProperty ;
         rdfs:domain :Muestra ;
         rdfs:range xsd:boolean .
 
@@ -83,23 +76,19 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Compuesto
-:Compuesto rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Estacion
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Estacion
 :Estacion rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Muestra
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra
 :Muestra rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Municipio
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Municipio
 :Municipio rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Provincia
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Provincia
 :Provincia rdf:type owl:Class .
 
 
