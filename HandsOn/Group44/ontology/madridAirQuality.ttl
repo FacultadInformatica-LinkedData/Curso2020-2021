@@ -73,6 +73,12 @@
         rdfs:range xsd:boolean .
 
 
+###  http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valorMedido
+:valorMedido rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Muestra ;
+        rdfs:range xsd:integer .
+
+
 #################################################################
 #    Classes
 #################################################################

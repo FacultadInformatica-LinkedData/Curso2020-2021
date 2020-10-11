@@ -14,7 +14,7 @@ map:map_muestra_0 rml:logicalSource map:source_3;
     a rr:TriplesMap;
     rdfs:label "muestra";
     rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14.
+    rr:predicateObjectMap map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15.
 map:map_municipio_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "municipio";
@@ -30,38 +30,51 @@ map:om_0 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
     rml:reference "PROVINCIA";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_10 a rr:ObjectMap;
     rml:reference "ID";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_11 a rr:ObjectMap;
     rml:reference "COMPUESTO_MEDIDO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_12 a rr:ObjectMap;
     rml:reference "VALIDEZ";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_13 a rr:ObjectMap;
     rml:reference "FECHA";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime>.
 map:om_14 a rr:ObjectMap;
     rml:reference "TECNICA_DE_MEDICION";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_15 a rr:ObjectMap;
+    rml:reference "VALOR";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_2 a rr:ObjectMap;
     rr:constant "http://dbpedia.org/ontology/Municipality";
     rr:termType rr:IRI.
 map:om_3 a rr:ObjectMap;
     rml:reference "MUNICIPIO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_4 a rr:ObjectMap;
     rr:parentTriplesMap map:map_provincia_0.
 map:om_5 a rr:ObjectMap;
     rr:parentTriplesMap map:map_estacion_0.
 map:om_6 a rr:ObjectMap;
     rml:reference "ESTACION";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_7 a rr:ObjectMap;
     rml:reference "LUGAR_ESTACION";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_8 a rr:ObjectMap;
     rr:parentTriplesMap map:map_muestra_0.
 map:om_9 a rr:ObjectMap;
@@ -81,6 +94,8 @@ map:pm_13 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2001/XMLSchema#date>.
 map:pm_14 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#tecnicaMedicion>.
+map:pm_15 a rr:PredicateMap;
+    rr:constant <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#valorMedido>.
 map:pm_2 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_3 a rr:PredicateMap;
@@ -118,6 +133,9 @@ map:pom_13 a rr:PredicateObjectMap;
 map:pom_14 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_14;
     rr:objectMap map:om_14.
+map:pom_15 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_15;
+    rr:objectMap map:om_15.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
