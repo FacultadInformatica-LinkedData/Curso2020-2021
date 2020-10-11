@@ -1,0 +1,143 @@
+@prefix : http://semantic.web.es/group33/ontology/RecargaMadrid/ .
+@prefix g: http://semantic.web.es/group33/ontology/RecargaMadrid/ .
+@prefix owl: http://www.w3.org/2002/07/owl# .
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# .
+@prefix xml: http://www.w3.org/XML/1998/namespace .
+@prefix xsd: http://www.w3.org/2001/XMLSchema# .
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+@base http://semantic.web.es/group33/ontology/RecargaMadrid/ .
+
+<#TriplesMap1>
+  rml:logicalSource [
+    rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#RecargaMadrid/{PR_ID}";
+    rr:termType rr:IRI;
+    rr:class classes:RecargaMadrid
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:tieneDistrito; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "tieneDistrito"; rr:termType rr:Literal
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:tieneDireccion; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "tieneDireccion"; rr:termType rr:Literal
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:tieneNumero; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "tieneNumero"; rr:termType rr:Number
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:tieneCoordenadas; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "tieneCoordenadas"; rr:termType rr:Literal
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:tieneOperador; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "tieneOperador"; rr:termType rr:Literal
+      ]
+  ];
+
+<#TriplesMap2>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+	rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#District/{district_number}";
+	  rr:termType rr:IRI;
+	  rr:class classes:District
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:district_name; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rml:reference "district_name"; rr:termType rr:Literal
+		]
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:district_number; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rml:reference "district_number"; rr:termType rr:Literal
+		]
+	].
+
+<#TriplesMap3>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+	rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Neighbourhood
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:neighbourhood_name; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rml:reference "neighbourhood_name"; rr:termType rr:Literal
+		]
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:neighbourhood_number; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rml:reference "neighbourhood_number"; rr:termType rr:Literal
+		]
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:has_district; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rr:parentTriplesMap <#TriplesMap2>;
+		]
+	].
+
+<#TriplesMap4>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+	rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Street/{street_name}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Street
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:street_name; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rml:reference "street_name"; rr:termType rr:Literal
+		]
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:street_number; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rml:reference "street_number"; rr:termType rr:Literal
+		]
+	];
+
+	rr:predicateObjectMap [
+	  rr:predicateMap[rr:constant properties:has_neighbourhood; rr:termType rr:IRI ];
+	  rr:objectMap [
+		rr:parentTriplesMap <#TriplesMap3>;
+		]
+	].
