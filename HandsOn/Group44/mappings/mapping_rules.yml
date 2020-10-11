@@ -10,7 +10,7 @@ mappings:
     s: http://dbpedia.org/ontology/province/$(PROVINCIA)
     po:
       - [a, dbp:province]
-      - [swo:codigo, $(PROVINCIA)]
+      - [swo:codigo, $(PROVINCIA), xsd:integer]
     
   municipio:
     source:
@@ -18,7 +18,7 @@ mappings:
     s: http://dbpedia.org/ontology/Municipality/$(MUNICIPIO)
     po:
       - [a, dbp:Municipality]
-      - [swo:codigo, $(MUNICIPIO)]
+      - [swo:codigo, $(MUNICIPIO), xsd:integer]
       - p: swo:formaParteDe
         o:
           - mapping: provincia
@@ -31,8 +31,8 @@ mappings:
       - [../csv/MadridAirQuality2020-update.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(ESTACION)
     po:
-      - [swo:codigo, $(ESTACION)]
-      - [swo:lugarEstacion, $(LUGAR_ESTACION)]
+      - [swo:codigo, $(ESTACION), xsd:integer]
+      - [swo:lugarEstacion, $(LUGAR_ESTACION), xsd:string]
       - p: swo:tomaMuestras
         o:
           - mapping: muestra
@@ -43,8 +43,9 @@ mappings:
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
     po:
       - [a, swo:Muestra]
-      - [swo:codigo, $(ID)]
-      - [swo:compuesto, $(COMPUESTO_MEDIDO)]
-      - [swo:valido, $(VALIDEZ)]
-      - [xsd:date, $(FECHA)]
-      - [swo:tecnicaMedicion, $(TECNICA_DE_MEDICION)]
+      - [swo:codigo, $(ID), xsd:integer]
+      - [swo:compuesto, $(COMPUESTO_MEDIDO), xsd:string]
+      - [swo:valido, $(VALIDEZ), xsd:boolean]
+      - [xsd:date, $(FECHA), xsd:dateTime]
+      - [swo:tecnicaMedicion, $(TECNICA_DE_MEDICION), xsd:string]
+      - [swo:valorMedido, $(VALOR), xsd:integer]
