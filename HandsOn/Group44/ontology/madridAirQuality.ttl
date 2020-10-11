@@ -18,6 +18,12 @@
                     rdfs:range :Estacion .
 
 
+###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#deCompuesto
+:deCompuesto rdf:type owl:ObjectProperty ;
+             rdfs:domain :Muestra ;
+             rdfs:range :Compuesto .
+
+
 ###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#formaParteDe
 :formaParteDe rdf:type owl:ObjectProperty ;
               rdfs:domain :Municipio ;
@@ -36,16 +42,11 @@
 
 ###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Codigo
 :Codigo rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Estacion ,
+        rdfs:domain :Compuesto ,
+                    :Estacion ,
                     :Municipio ,
                     :Provincia ;
         rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Compuesto_medido
-:Compuesto_medido rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :Muestra ;
-                  rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Date
@@ -60,15 +61,31 @@
                 rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Nombre_Compuesto
+:Nombre_Compuesto rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Compuesto ;
+                  rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Tecnica_de_medicion
 :Tecnica_de_medicion rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Muestra ;
                      rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Valido
+:Valido rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Muestra ;
+        rdfs:range xsd:boolean .
+
+
 #################################################################
 #    Classes
 #################################################################
+
+###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Compuesto
+:Compuesto rdf:type owl:Class .
+
 
 ###  http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4#Estacion
 :Estacion rdf:type owl:Class .
