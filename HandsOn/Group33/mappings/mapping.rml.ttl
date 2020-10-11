@@ -45,7 +45,7 @@
     rr:objectMap [
       rml:reference "tieneOperador"; rr:termType rr:Literal
       ]
-  ];
+  ].
 
 <#TriplesMap2>
 	rml:logicalSource [
@@ -63,7 +63,7 @@
 	  rr:objectMap [
 		rml:reference "tieneNumero"; rr:termType rr:Number
 		]
-	];
+	].
 
 <#TriplesMap3>
 	rml:logicalSource [
@@ -81,7 +81,7 @@
 	  rr:objectMap [
 		rml:reference "tieneDireccion"; rr:termType rr:Literal
 		]
-	];
+	].
 
 
 <#TriplesMap4>
@@ -100,7 +100,7 @@
 	  rr:objectMap [
 		rml:reference "tieneNumeros"; rr:termType rr:Number
 		]
-	];
+	].
 
 <#TriplesMap5>
 	rml:logicalSource [
@@ -126,5 +126,5 @@
 	  rr:objectMap [
 		rml:reference "coordenadaY"; rr:termType rr:Number
 		]
-	];
+	].
 	
