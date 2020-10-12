@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "vocab": "http://example.org#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+        "Student": "http://example.org/Student",
+        "Subject": "http://example.org/Subject",
+        "name": "rdfs:label",
+        "hometown": "vocab:hometown",
+        "age": "vocab:age",
+        "parents": "vocab:parents",
+        "almaMater": "vocab:almaMater",
+        "subjects": "vocab:subjects",
+        "teachers": "vocab:teachers",
+        "description": "rdfs:comment"
+    },
+    "@id" : "http://example.org/andresgomez",
+    "@type" : "Student",
+    "fullname":"Andrés Gómez Alfonso",
+    "hometwon":"Madrid",
+    "age":23,
+    "almaMater":"UPM",
+    "parents":[
+        "Jose Enrique",
+        "María de la Soledad"
+    ],
+    "subjects":[
+        {
+            "@type":"Subject",
+            "name":"Web Semantic, Linked data and Knowledge Graphs",
+            "teachers":[
+                "Oscar Corcho García",
+                "Raul García Castro"
+            ],
+            "description":"The objective of this course is to gain theoretical and practical knowledge about the methodological and technological foundations of the generation and publication of vocabularies and data on the Web of Linked Data, as well as knowledge graphs. More specifically, the course deals with the concepts of Semantic Web, Web of Linked Data and knowledge graphs, open data, languages for the representation of data on the Web, methodologies and technologies to support the generation and publication of Linked Data, ontologies and vocabularies used for this purpose, representative data sources such as DBpedia, Geonames, Wikidata, etc., and applications that make use of Linked Data and knowledge graphs."
+        },
+        {
+            "name":"English for Professional and Academic Communication",
+            "teachers":[
+                "Elena Montiel",
+                "Jelena Bobkina"
+            ],
+            "description":"The main objective of this course is to make students aware of the importance of effective communication skills in academic or professional settings, with a strong focus on contemporary issues related to computer engineering, and to help them develop those skills to communicate effectively in both settings."
+        }
+    ]
+}
+

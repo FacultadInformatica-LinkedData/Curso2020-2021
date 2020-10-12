@@ -1,0 +1,49 @@
+{
+    "@context":{
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prop": "http://www.examples.org/properties/"
+    },
+    "@graph" : [
+        {
+            "@id":"prop:Class01",
+            "prop:includes": [
+                {
+                    "@id":"prop:Sensor029"
+                },
+                {
+                    "@id":"prop:Computer101"
+                }
+            ]
+        },
+        {
+            "@id":"prop:Sensor029",
+            "prop:hasMeasurement":{
+                "@id":"prop:Measurement8401"
+            }
+        },
+        {
+            "@id":"prop:Measurement8401",
+            "prop:hasTemperature":{
+                "@type":"xsd:integer",
+                "@value":"29"
+            },
+            "prop:atTime":{
+                "@type":"xsd:dateTime",
+                "@value":"2010-06-12T12:00:12"
+            }
+        },
+        {
+            "@id":"prop:Computer101",
+            "prop:hasOwner":{
+                "@id":"prop:User10A"
+            }
+        },
+        {
+            "@id":"prop:User10A",
+            "prop:hasName": {
+                "@type":"xsd:normalizedstring",
+                "@value":"Pedro"
+            }
+        }
+    ]
+}

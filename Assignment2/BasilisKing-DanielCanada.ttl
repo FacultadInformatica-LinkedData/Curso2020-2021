@@ -1,0 +1,24 @@
+@base  <http://www.example.net/ontologies/>
+
+@prefix cl: <http://www.example.org/ontologies/class/>
+@prefix class: <http://www.example.org/ontologies/class#>
+@prefix s: <http://www.example.org/ontologies/sensor/>
+@prefix sensor: <http://www.example.org/ontologies/sensor#>
+@prefix c: <http://www.example.org/ontologies/computer/>
+@prefix comp: <http://www.example.org/ontologies/computer#>
+@prefix m: <http://www.example.org/ontologies/measurement/>
+@prefix mes: <http://www.example.org/ontologies/measurement#>
+@prefix o: <http://www.example.org/ontologies/owner/>
+@prefix own: <http://www.example.org/ontologies/owner#>
+
+cl:Class1 class:includes s:Sensor029;
+          class:includes c:Computer101.
+
+s:Sensor029 sensor:hasMeasurement m:Measurement8401.
+
+c:Computer101 comp:hasOwner o:User10A.
+
+m:Measurement8401 mes:hasTemperature "29"^^xsd:integer;
+                  mes:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+
+o:User10A own:hasName "Pedro".

@@ -1,0 +1,36 @@
+{
+	"@context":{
+	"pr":"http://example.org/elements/properties",
+	"xsd":"http://www.w3.org/2001/XMLSchema#",	
+	"integer":"xsd:integer",
+	"dataTime":"xsd:dataTime",
+	"string":"xsd:string",
+	"includes":"pr:include",
+	"dimension":"pr:hasMeasurement",
+	"owner":"pr:hasOwner",
+	"temperature":"pr:hasTemperature",
+	"time":"pr:atTime",
+	"name":"pr:hasName",
+	"Class01":"pr:Class01",
+	"Sensor029":"pr:Sensor029",
+	"Measurement8401":"pr:Measurement8401",
+	"Computer101":"pr:Computer101",
+	"User10A":"pr:User10A"
+	},
+	"Class01":{"@id":"http://example.org/class/Class01", 
+			"includes":[
+			{"@id":"http://example.org/class/Class01/Sensor029","@type":"pr:Sensor029","hasMeasurement":
+							{
+							"@id":"http://example.org/class/Class01/Measurement8401","@type":"pr:Measurement8401", 
+								"temperature":{
+										"@value":"29","@type":"integer"}, 
+								"time":{
+										"@value":"2010-06-12T12:00:12","@type":"dataTime"}}						
+			 },
+			 {"@id":"http://example.org/class/Class01/Computer101","@type":"pr:Computer101","hasOwner":
+							{"@id":"http://example.org/class/Class01/User10A","@type":"pr:User10A",
+								"name":{
+										"@value":"Pedro","@type":"string"}}
+			}] 
+		}	
+}
