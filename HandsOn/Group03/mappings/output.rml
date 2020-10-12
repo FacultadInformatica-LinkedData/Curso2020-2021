@@ -9,156 +9,102 @@ map:map_triplesmap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "triplesmap1";
     rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1.
-map:map_triplesmap10_0 rml:logicalSource map:source_9;
-    a rr:TriplesMap;
-    rdfs:label "triplesmap10";
-    rr:subjectMap map:s_9;
-    rr:predicateObjectMap map:pom_18, map:pom_19.
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6.
 map:map_triplesmap2_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "triplesmap2";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_2, map:pom_3.
+    rr:predicateObjectMap map:pom_7, map:pom_8, map:pom_9.
 map:map_triplesmap3_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "triplesmap3";
     rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_4, map:pom_5.
+    rr:predicateObjectMap map:pom_10, map:pom_11, map:pom_12.
 map:map_triplesmap4_0 rml:logicalSource map:source_3;
     a rr:TriplesMap;
     rdfs:label "triplesmap4";
     rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_6, map:pom_7.
-map:map_triplesmap5_0 rml:logicalSource map:source_4;
-    a rr:TriplesMap;
-    rdfs:label "triplesmap5";
-    rr:subjectMap map:s_4;
-    rr:predicateObjectMap map:pom_8, map:pom_9.
-map:map_triplesmap6_0 rml:logicalSource map:source_5;
-    a rr:TriplesMap;
-    rdfs:label "triplesmap6";
-    rr:subjectMap map:s_5;
-    rr:predicateObjectMap map:pom_10, map:pom_11.
-map:map_triplesmap7_0 rml:logicalSource map:source_6;
-    a rr:TriplesMap;
-    rdfs:label "triplesmap7";
-    rr:subjectMap map:s_6;
-    rr:predicateObjectMap map:pom_12, map:pom_13.
-map:map_triplesmap8_0 rml:logicalSource map:source_7;
-    a rr:TriplesMap;
-    rdfs:label "triplesmap8";
-    rr:subjectMap map:s_7;
-    rr:predicateObjectMap map:pom_14, map:pom_15.
-map:map_triplesmap9_0 rml:logicalSource map:source_8;
-    a rr:TriplesMap;
-    rdfs:label "triplesmap9";
-    rr:subjectMap map:s_8;
-    rr:predicateObjectMap map:pom_16, map:pom_17.
+    rr:predicateObjectMap map:pom_13, map:pom_14, map:pom_15.
 map:om_0 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#LibraryCode";
-    rr:termType rr:IRI.
-map:om_1 a rr:ObjectMap;
-    rml:reference "LibraryCode";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_10 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#ID";
-    rr:termType rr:IRI.
-map:om_11 a rr:ObjectMap;
-    rml:reference "ID";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_12 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#ZIPcode";
-    rr:termType rr:IRI.
-map:om_13 a rr:ObjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#ZIPcode/{ZIPcode}";
-    rr:termType rr:IRI.
-map:om_14 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#Email";
-    rr:termType rr:IRI.
-map:om_15 a rr:ObjectMap;
-    rml:reference "Email";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#String>.
-map:om_16 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#Address";
-    rr:termType rr:IRI.
-map:om_17 a rr:ObjectMap;
-    rml:reference "Address";
-    rr:termType rr:Literal.
-map:om_18 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#LibraryAdministration";
-    rr:termType rr:IRI.
-map:om_19 a rr:ObjectMap;
-    rml:reference "LibraryAdministration";
-    rr:termType rr:Literal.
-map:om_2 a rr:ObjectMap;
     rr:constant "http://www.example.org/CastillaLaMancha#Library";
     rr:termType rr:IRI.
-map:om_3 a rr:ObjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#Library/{Library}";
-    rr:termType rr:IRI.
-map:om_4 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#Province";
-    rr:termType rr:IRI.
-map:om_5 a rr:ObjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#Province/{Province}";
-    rr:termType rr:IRI.
-map:om_6 a rr:ObjectMap;
+map:om_1 a rr:ObjectMap;
+    rml:reference "Telephone";
+    rr:termType rr:Literal.
+map:om_10 a rr:ObjectMap;
     rr:constant "http://www.example.org/CastillaLaMancha#Town";
     rr:termType rr:IRI.
+map:om_11 a rr:ObjectMap;
+    rml:reference "Town";
+    rr:termType rr:Literal.
+map:om_12 a rr:ObjectMap;
+    rr:template "http://www.example.org/CastillaLaMancha#{Town}";
+    rr:termType rr:IRI.
+map:om_13 a rr:ObjectMap;
+    rr:constant "http://www.example.org/CastillaLaMancha#LibraryAdministration";
+    rr:termType rr:IRI.
+map:om_14 a rr:ObjectMap;
+    rr:constant "$LibraryAdministration";
+    rr:termType rr:Literal.
+map:om_15 a rr:ObjectMap;
+    rr:template "http://www.example.org/CastillaLaMancha#{LibraryAdministration}";
+    rr:termType rr:IRI.
+map:om_2 a rr:ObjectMap;
+    rml:reference "Email";
+    rr:termType rr:Literal.
+map:om_3 a rr:ObjectMap;
+    rml:reference "ID";
+    rr:termType rr:Literal.
+map:om_4 a rr:ObjectMap;
+    rml:reference "Library";
+    rr:termType rr:Literal.
+map:om_5 a rr:ObjectMap;
+    rml:reference "LibraryCode";
+    rr:termType rr:Literal.
+map:om_6 a rr:ObjectMap;
+    rr:template "http://www.example.org/CastillaLaMancha#{Library}";
+    rr:termType rr:IRI.
 map:om_7 a rr:ObjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#Town/{Town}";
+    rr:constant "http://www.example.org/CastillaLaMancha#Province";
     rr:termType rr:IRI.
 map:om_8 a rr:ObjectMap;
-    rr:constant "http://www.example.org/CastillaLaMancha#Telephone";
-    rr:termType rr:IRI.
+    rml:reference "Province";
+    rr:termType rr:Literal.
 map:om_9 a rr:ObjectMap;
-    rml:reference "Telephone";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+    rr:template "http://www.example.org/CastillaLaMancha#{Province}";
+    rr:termType rr:IRI.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#LibraryCode>.
+    rr:constant <http://www.example.org/CastillaLaMancha#hasTelephone>.
 map:pm_10 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_11 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#id>.
+    rr:constant rdf:label.
 map:pm_12 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://www.example.org/CastillaLaMancha#Town>.
 map:pm_13 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#ZIPcode>.
+    rr:constant rdf:type.
 map:pm_14 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant rdf:label.
 map:pm_15 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#Email>.
-map:pm_16 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_17 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#Address>.
-map:pm_18 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_19 a rr:PredicateMap;
     rr:constant <http://www.example.org/CastillaLaMancha#LibraryAdministration>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://www.example.org/CastillaLaMancha#hasEmail>.
 map:pm_3 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#Library>.
+    rr:constant <http://www.example.org/CastillaLaMancha#hasID>.
 map:pm_4 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant rdf:label.
 map:pm_5 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#Province>.
+    rr:constant <http://www.example.org/CastillaLaMancha#hasCode>.
 map:pm_6 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://www.example.org/CastillaLaMancha#Library>.
 map:pm_7 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#Town>.
-map:pm_8 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_8 a rr:PredicateMap;
+    rr:constant rdf:label.
 map:pm_9 a rr:PredicateMap;
-    rr:constant <http://www.example.org/CastillaLaMancha#telephone>.
+    rr:constant <http://www.example.org/CastillaLaMancha#Province>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -183,18 +129,6 @@ map:pom_14 a rr:PredicateObjectMap;
 map:pom_15 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_15;
     rr:objectMap map:om_15.
-map:pom_16 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_16;
-    rr:objectMap map:om_16.
-map:pom_17 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_17;
-    rr:objectMap map:om_17.
-map:pom_18 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_18;
-    rr:objectMap map:om_18.
-map:pom_19 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_19;
-    rr:objectMap map:om_19.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
@@ -220,25 +154,13 @@ map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
 map:s_0 a rr:SubjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#LibraryCode/{LibraryCode}".
-map:s_1 a rr:SubjectMap;
     rr:template "http://www.example.org/CastillaLaMancha#Library/{Library}".
-map:s_2 a rr:SubjectMap;
+map:s_1 a rr:SubjectMap;
     rr:template "http://www.example.org/CastillaLaMancha#Province/{Province}".
-map:s_3 a rr:SubjectMap;
+map:s_2 a rr:SubjectMap;
     rr:template "http://www.example.org/CastillaLaMancha#Town/{Town}".
-map:s_4 a rr:SubjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#Telephone/{Telephone}".
-map:s_5 a rr:SubjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#ID/{ID}".
-map:s_6 a rr:SubjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#ZIPcode/{ZIPcode}".
-map:s_7 a rr:SubjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#Email/{Email}".
-map:s_8 a rr:SubjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#Address/{Address}".
-map:s_9 a rr:SubjectMap;
-    rr:template "http://www.example.org/CastillaLaMancha#LibraryAdministration/{LibraryAdministration}".
+map:s_3 a rr:SubjectMap;
+    rr:template "http://www.example.org/CastillaLaMancha#{LibraryAdministration}".
 map:source_0 a rml:LogicalSource;
     rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
     rml:referenceFormulation ql:CSV.
@@ -249,23 +171,5 @@ map:source_2 a rml:LogicalSource;
     rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
     rml:referenceFormulation ql:CSV.
 map:source_3 a rml:LogicalSource;
-    rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_4 a rml:LogicalSource;
-    rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_5 a rml:LogicalSource;
-    rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_6 a rml:LogicalSource;
-    rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_7 a rml:LogicalSource;
-    rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_8 a rml:LogicalSource;
-    rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_9 a rml:LogicalSource;
     rml:source "Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv";
     rml:referenceFormulation ql:CSV.
