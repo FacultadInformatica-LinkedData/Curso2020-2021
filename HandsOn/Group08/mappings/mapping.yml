@@ -26,7 +26,13 @@ mappings:
       - [vocab:codigo,$(CODIGO),xsd:string]
       - p: vocab:localizacion
         o:
-          mapping: triplesmap2
+         - mapping: triplesmap2
+           condition:
+            function: equal
+            parameters:
+              - [str1, $(UBICACION)]
+              - [str2, $(UBICACION)]
+
       
 
   triplesmap2:

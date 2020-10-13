@@ -1,86 +1,172 @@
 [
-  {
-    "op": "core/column-removal",
-    "columnName": "centro_tipo_desc_abreviada",
-    "description": "Remove column centro_tipo_desc_abreviada"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "direccion_via_tipo",
-    "expression": "join ([coalesce(cells['direccion_via_tipo'].value,''),coalesce(cells['direccion_via_nombre'].value,''),coalesce(cells['direccion_numero'].value,''),coalesce(cells['direccion_codigo_postal'].value,'')],' ')",
-    "onError": "keep-original",
-    "newColumnName": "direccion",
-    "columnInsertIndex": 9,
-    "description": "Create column direccion at index 9 based on column direccion_via_tipo using expression join ([coalesce(cells['direccion_via_tipo'].value,''),coalesce(cells['direccion_via_nombre'].value,''),coalesce(cells['direccion_numero'].value,''),coalesce(cells['direccion_codigo_postal'].value,'')],' ')"
-  },
-  {
-    "op": "core/column-reorder",
-    "columnNames": [
-      "centro_codigo",
-      "centro_nombre",
-      "centro_tipo_codigo",
-      "centro_tipo_descripcion",
-      "centro_titularidad",
-      "centro_titular",
-      "dat_codigo",
-      "dat_nombre",
-      "direccion",
-      "municipio_codigo",
-      "municipio_nombre",
-      "distrito_codigo",
-      "distrito_nombre",
-      "contacto_telefono1",
-      "contacto_telefono2",
-      "contacto_telefono3",
-      "contacto_telefono4",
-      "contacto_fax",
-      "contacto_web",
-      "contacto_email1",
-      "direccion_coor_x",
-      "direccion_coor_y"
-    ],
-    "description": "Reorder columns"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "contacto_telefono1",
-    "expression": "join ([coalesce(cells['contacto_telefono1'].value,''),coalesce(cells['contacto_telefono2'].value,''),coalesce(cells['contacto_telefono3'].value,''),coalesce(cells['contacto_telefono4'].value,'')],' ')",
-    "onError": "keep-original",
-    "newColumnName": "contacto_telefonos",
-    "columnInsertIndex": 14,
-    "description": "Create column contacto_telefonos at index 14 based on column contacto_telefono1 using expression join ([coalesce(cells['contacto_telefono1'].value,''),coalesce(cells['contacto_telefono2'].value,''),coalesce(cells['contacto_telefono3'].value,''),coalesce(cells['contacto_telefono4'].value,'')],' ')"
-  },
-  {
-    "op": "core/column-reorder",
-    "columnNames": [
-      "centro_codigo",
-      "centro_nombre",
-      "centro_tipo_codigo",
-      "centro_tipo_descripcion",
-      "centro_titularidad",
-      "centro_titular",
-      "dat_codigo",
-      "dat_nombre",
-      "direccion",
-      "municipio_codigo",
-      "municipio_nombre",
-      "distrito_codigo",
-      "distrito_nombre",
-      "contacto_telefonos",
-      "contacto_fax",
-      "contacto_web",
-      "contacto_email1",
-      "direccion_coor_x",
-      "direccion_coor_y"
-    ],
-    "description": "Reorder columns"
-  }
-]
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "centro_codigo",
+        "newColumnName": "Centro_codigo",
+        "description": "Rename column centro_codigo to Centro_codigo"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "centro_nombre",
+        "newColumnName": "Centro_nombre",
+        "description": "Rename column centro_nombre to Centro_nombre"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "centro_tipo_codigo",
+        "newColumnName": "Centro_tipo_codigo",
+        "description": "Rename column centro_tipo_codigo to Centro_tipo_codigo"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "centro_tipo_desc_abreviada",
+        "description": "Remove column centro_tipo_desc_abreviada"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "centro_tipo_descripcion",
+        "newColumnName": "Centro_tipo_descripcion",
+        "description": "Rename column centro_tipo_descripcion to Centro_tipo_descripcion"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "centro_titularidad",
+        "newColumnName": "Centro_titularidad",
+        "description": "Rename column centro_titularidad to Centro_titularidad"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "centro_titular",
+        "description": "Remove column centro_titular"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "dat_codigo",
+        "description": "Remove column dat_codigo"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "dat_nombre",
+        "description": "Remove column dat_nombre"
+      },
+      {
+        "op": "core/column-addition",
+        "engineConfig": {
+          "facets": [],
+          "mode": "row-based"
+        },
+        "baseColumnName": "direccion_via_tipo",
+        "expression": "join ([coalesce(cells['direccion_via_tipo'].value,''),coalesce(cells['direccion_via_nombre'].value,''),coalesce(cells['direccion_numero'].value,'')],' ')",
+        "onError": "keep-original",
+        "newColumnName": "Direccion",
+        "columnInsertIndex": 6,
+        "description": "Create column Direccion at index 6 based on column direccion_via_tipo using expression join ([coalesce(cells['direccion_via_tipo'].value,''),coalesce(cells['direccion_via_nombre'].value,''),coalesce(cells['direccion_numero'].value,'')],' ')"
+      },
+      {
+        "op": "core/column-reorder",
+        "columnNames": [
+          "Centro_codigo",
+          "Centro_nombre",
+          "Centro_tipo_codigo",
+          "Centro_tipo_descripcion",
+          "Centro_titularidad",
+          "Direccion",
+          "direccion_codigo_postal",
+          "municipio_codigo",
+          "municipio_nombre",
+          "distrito_codigo",
+          "distrito_nombre",
+          "contacto_telefono1",
+          "contacto_telefono2",
+          "contacto_telefono3",
+          "contacto_telefono4",
+          "contacto_fax",
+          "contacto_web",
+          "contacto_email1",
+          "direccion_coor_x",
+          "direccion_coor_y"
+        ],
+        "description": "Reorder columns"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "direccion_codigo_postal",
+        "newColumnName": "Direccion_codigo_postal",
+        "description": "Rename column direccion_codigo_postal to Direccion_codigo_postal"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "municipio_codigo",
+        "newColumnName": "Municipio_codigo",
+        "description": "Rename column municipio_codigo to Municipio_codigo"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "municipio_nombre",
+        "newColumnName": "Municipio_nombre",
+        "description": "Rename column municipio_nombre to Municipio_nombre"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "distrito_codigo",
+        "newColumnName": "Distrito_codigo",
+        "description": "Rename column distrito_codigo to Distrito_codigo"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "distrito_nombre",
+        "newColumnName": "Distrito_nombre",
+        "description": "Rename column distrito_nombre to Distrito_nombre"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "contacto_telefono1",
+        "newColumnName": "Contacto_telefono",
+        "description": "Rename column contacto_telefono1 to Contacto_telefono"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "contacto_telefono2",
+        "description": "Remove column contacto_telefono2"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "contacto_telefono3",
+        "description": "Remove column contacto_telefono3"
+      },
+      {
+        "op": "core/column-removal",
+        "columnName": "contacto_telefono4",
+        "description": "Remove column contacto_telefono4"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "contacto_fax",
+        "newColumnName": "Contacto_fax",
+        "description": "Rename column contacto_fax to Contacto_fax"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "contacto_web",
+        "newColumnName": "Contacto_web",
+        "description": "Rename column contacto_web to Contacto_web"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "contacto_email1",
+        "newColumnName": "Contacto_email",
+        "description": "Rename column contacto_email1 to Contacto_email"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "direccion_coor_x",
+        "newColumnName": "Direccion_coor_x",
+        "description": "Rename column direccion_coor_x to Direccion_coor_x"
+      },
+      {
+        "op": "core/column-rename",
+        "oldColumnName": "direccion_coor_y",
+        "newColumnName": "Direccion_coor_y",
+        "description": "Rename column direccion_coor_y to Direccion_coor_y"
+      }
+    ]
