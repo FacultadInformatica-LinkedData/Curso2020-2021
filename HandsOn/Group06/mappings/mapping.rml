@@ -5,9 +5,12 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:jc_0 rr:parent "Nombre", "Nombre".
-map:jc_1 rr:parent "Distrito", "Distrito".
-map:jc_2 rr:parent "Tipo Contenedor", "Tipo Contenedor".
+map:jc_0 rr:child "Nombre";
+    rr:parent "Nombre".
+map:jc_1 rr:child "Distrito";
+    rr:parent "Distrito".
+map:jc_2 rr:child "Tipo Contenedor";
+    rr:parent "Tipo Contenedor".
 map:map_ReciclyingBinMap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "ReciclyingBinMap1";
