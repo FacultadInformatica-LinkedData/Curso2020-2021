@@ -1,0 +1,59 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  ont: http://linkeddata.es/group04/ontology/EstacionesMedidaControlAcustico#
+  dbo: http://dbpedia.org/ontology/
+  res: http://linkeddata.es/group04/resource/
+  rml: http://semweb.mmlab.be/ns/rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  
+  mappings:
+  estaciones:
+    sources:
+      - [EstacionesMedidaControlAcustico_mod.csv~csv]
+      s: res:estaciones/$(N)
+       po:
+      - [a, ont:Estacion]
+      - [ont:hasNumber,$(N)]
+      - [ont:hasName,$(Nombre)]
+      - p: ont:isLocated
+        o:
+          mapping: ubicacion
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(VIA_CLASE)]
+              - [str2, $(VIA_NOMBRE)]
+              - [str3, $(Direccion)]
+              - [str4, $(Longitud)]
+              - [str5, $(Latitud)]
+              - [str6, $(Altitud)]
+
+      - p: ont: fechaDeAlta
+        o:
+          mapping: alta
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Fecha)]
+
+  ubicacion:
+    sources:
+      - [EstacionesMedidaControlAcustico_mod.csv~csv]            
+       s: res:ubicacion/$(COD_VIA)
+       po:
+      - [a, ont:Ubicacion]
+      - [ont:hasCode,$(COD_VIA)]
+      - [ont:hasClass,$(VIA_CLASE)]
+      - [ont:hasName,$(VIA_NOMBRE)]
+      - [ont:hasAdress,$(Direccion)]
+      - [ont:hasLongitud,$(Longitud)]
+      - [ont:hasLatitud,$(Latitud)]
+      - [ont:hasAltitud,$(Altitud)]
+
+  alta:
+    sources:
+      - [EstacionesMedidaControlAcustico_mod.csv~csv]            
+       s: res:fecha/$(Fecha)
+       po:
+      - [a, ont:Fecha]
+      - [ont:hasDate,$(Fecha)]

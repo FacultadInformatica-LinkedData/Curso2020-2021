@@ -1,32 +1,32 @@
-N;Nombre;COD_VIA;VIA_CLASE;VIA_NOMBRE;Direccion;Longitud;Latitud;Altitud;Fecha alta
-1;Pบ Recoletos;633005;PASEO;DE RECOLETOS;Frente calle Almirante;3บ41'27'' O;40บ25'24'' N;648;40609
-2;Carlos V;264800;PLAZA;DEL EMPERADOR CARLOS V;Pza del Emperador Carlos V/ Infanta Isabel;3บ41'25 O;"40บ24'36"" N";629;36130
-3;Plaza del Carmen;145800;PLAZA;DEL CARMEN;Plaza del Carmen;"3บ42'17"" O";"40บ25'16"" N";657;36465
-4;Plaza de Espa๑a;273600;PLAZA;DE ESPAัA;Frente Edificio Espa๑a;"3บ42'40"" O";"40บ25'40"" N";637;36130
-5;Bบ del Pilar;514425;AVENIDA;DE MONFORTE DE LEMOS;Monforte Lemos-Av.Betanzos-La Vaguada;"3บ42'55"" O";"40บ28'37"" N";673;36318
-6;Gregorio Mara๑๓n;153600;PASEO;DE LA CASTELLANA;Lateral Pบ Castellana-C/Miguel Angel;"3บ41'22"" O";"40บ26'33"" N";669;36312
-8;Escuelas Aguirre;18900;CALLE;DE ALCALA;Alcala-Odonnell;"3บ40'52"" O";"40บ25'32"" N";672;36130
-10;Cuatro Caminos;554550;AVENIDA;DE PABLO IGLESIAS;Av.Pablo Iglesias-PบS.Fco de Sales;"3บ42'18"" O";"40บ26'38"" N";699;36244
-11;Ram๓n y Cajal;610450;CALLE;DEL PRINCIPE DE VERGARA;Ppe.Vergara-Parque Berlํn;"3บ40'33"" O";"40บ27' 9"" N";708;36130
-12;Manuel Becerra;242000;CALLE;DEL DOCTOR GOMEZ ULLA;Dr.G๓mez Ulla-Jardines Eva Duarte;"3บ40'02"" O";"40บ25'52"" N";678;36130
-13;Vallecas;75500;CALLE;DEL ARROYO DEL OLIVAR;C/Arroyo del Olivar-Rio San Lorenzo;"3บ40'03"" O";"40บ23'50"" N";677;36475
-14;Fernแndez Ladreda;293200;PLAZA;ELIPTICA;Plaza Fernแndez Ladreda, 4;"3บ43'7,4"" O";"40บ23'5,8"" N";605;40169
-16;Arturo Soria;798700;CALLE;DEL VIZCONDE DE LOS ASILOS;C/Vizconde de los Asilos;"3บ38'15"" O";"40บ20'49,56"" N";698;36130
-17;Villaverde;417200;CALLE;DE JUAN PEัALVER;C/ Juan Pe๑alver;"3บ42'47,98""O";"40บ20'49,6""N";601;36130
-18;Farolillo;1903;CALLE;DEL FAROLILLO;C/ Farolillo;"3บ43'48"" O";"40บ23'44"" N";625;36130
-19;Alto Extremadura;367300;CALLE;DE LA HUERTA DE CASTAัEDA;C/Huerta Casta๑eda;"3บ44'16"" O";"40บ24'40"" N";632;36130
-20;Avda Moratalaz;522000;AVENIDA;DE MORATALAZ;Av.Moratalaz-Camino Vinateros;"3บ38'59"" O";"40บ24'25"" N";671;36130
-24;Casa de Campo;905219;CARRETERA;DEL TELEFERICO;Junto a Telef้rico-Cerro de las Animas;"3บ44'56"" O";"40บ25'18"" N";645;36130
-25;Santa Eugenia;604750;CALLE;DE POZA DE LA SAL;C/ Poza de la Sal;"3บ36' 4"" O";"40บ22'48"" N";653;36130
-26;Embajada;729200;CALLE;DE SOTO HIDALGO;Parque Soto Hidalgo, 2;"3บ34'44""O";"40บ27'37,7""N";618;40605
-27;Barajas Pueblo;425700;CALLE;DE JUPITER;J๚piter (frente al 21);"3บ34'43,8""O";"40บ28'41,2""N";627;37400
-28;Cuatro Vientos;84000;AVENIDA;DE LA AVIACION;Avd. de la Aviaci๓n;"3บ46'35,9""O";"40บ22'34,9"" N";677,5;37741
-29;El Pardo;348500;AVENIDA;DE LA GUARDIA;Avd. de la Guardia;"3บ46'24,4""O";"40บ31'9,4""N";616;37895
-30;Campo de las Naciones;1111;CALLE;DE LA RIBERA DEL SENA;Rivera del Sena S/N;"3บ36'54,9""O";"40บ27'42,9""N";686,5;37935
-31;Sanchinarro;31000002;CALLE;DE LA PRINCESA DE EBOLI;C/ Princesa de ษvoli esq. C/ Marํa Tudor;"3บ39'37,82""O";"40บ29'39,14""N";700;40008
-47;Mendez มlvaro;414800;CALLE;DE JUAN DE MARIANA;C/ Juan de Mariana-Pz Amanecer en M้ndez มlvaro;3บ41'12,57''O;40บ23'53,21'';609;40196
-48;Castellana;401400;CALLE;DE JOSE GUTIERREZ ABASCAL;C/ Jos้ Gutierrez Abascal;"3ฐ41'25.28""O";"40ฐ26'23.44""N";685;40302
-50;Pza de Castilla;154500;PLAZA;DE CASTILLA;Plaza Castilla (Canal);"3บ41'19""O";"40บ27'56""N";728;40602
-54;Ensanche de Vallecas;31000516;AVENIDA;DE LA GAVIA;Avda. de Gavia / Avda. de las Suertes;"3บ36'43,7""O";"40บ27'45,1""N";619;40162
-55;Urb Embajada 2;639250;CALLE;DE RIAัO;C/ Ria๑o;"3บ34'50,4""O";"40บ27'45,1""N";619;40254
-86;Tres Olivos;1427;PLAZA;DE LOS TRES OLIVOS;Plaza de Tres Olivos;"3บ41'23""O";40บ30'2''N;715;40217
+N,Nombre,COD_VIA,VIA_CLASE,VIA_NOMBRE,Direccion,Longitud,Latitud,Altitud,Fecha
+1,Paseo Recoletos,633005,PASEO,DE RECOLETOS,Frente calle Almirante,3ยบ41'27'' O,40ยบ25'24'' N,648,40609
+2,Carlos V,264800,PLAZA,DEL EMPERADOR CARLOS V,Pza del Emperador Carlos V/ Infanta Isabel,3ยบ41'25 O,"40ยบ24'36"" N",629,36130
+3,Plaza del Carmen,145800,PLAZA,DEL CARMEN,Plaza del Carmen,"3ยบ42'17"" O","40ยบ25'16"" N",657,36465
+4,Plaza de Espalรฑa,273600,PLAZA,DE ESPAร‘A,Frente Edificio Espaรฑa,"3ยบ42'40"" O","40ยบ25'40"" N",637,36130
+5,Barrio del Pilar,514425,AVENIDA,DE MONFORTE DE LEMOS,Monforte Lemos-Av.Betanzos-La Vaguada,"3ยบ42'55"" O","40ยบ28'37"" N",673,36318
+6,Gregorio Maraรฑรณn,153600,PASEO,DE LA CASTELLANA,Lateral Paseo Castellana-C/Miguel Angel,"3ยบ41'22"" O","40ยบ26'33"" N",669,36312
+8,Escuelas Aguirre,18900,CALLE,DE ALCALA,Alcala-Odonnell,"3ยบ40'52"" O","40ยบ25'32"" N",672,36130
+10,Cuatro Caminos,554550,AVENIDA,DE PABLO IGLESIAS,Av.Pablo Iglesias-PS.Fco de Sales,"3ยบ42'18"" O","40ยบ26'38"" N",699,36244
+11,Ramรณn y Cajal,610450,CALLE,DEL PRINCIPE DE VERGARA,Ppe.Vergara-Parque Berlรญn,"3ยบ40'33"" O","40ยบ27' 9"" N",708,36130
+12,Manuel Becerra,242000,CALLE,DEL DOCTOR GOMEZ ULLA,Dr.Gรณmez Ulla-Jardines Eva Duarte,"3ยบ40'02"" O","40ยบ25'52"" N",678,36130
+13,Vallecas,75500,CALLE,DEL ARROYO DEL OLIVAR,C/Arroyo del Olivar-Rio San Lorenzo,"3ยบ40'03"" O","40ยบ23'50"" N",677,36475
+14,Fernandez Ladreda,293200,PLAZA,ELIPTICA,Plaza Fernรกndez Ladreda, 4,"3ยบ43'7,4"" O","40ยบ23'5,8"" N",605,40169
+16,Arturo Soria,798700,CALLE,DEL VIZCONDE DE LOS ASILOS,C/Vizconde de los Asilos,"3ยบ38'15"" O","40ยบ20'49,56"" N",698,36130
+17,Villaverde,417200,CALLE,DE JUAN PEร‘ALVER,C/ Juan Peรฑalver,"3ยบ42'47,98""O","40ยบ20'49,6""N",601,36130
+18,Farolillo,1903,CALLE,DEL FAROLILLO,C/ Farolillo,"3ยบ43'48"" O","40ยบ23'44"" N",625,36130
+19,Alto Extremadura,367300,CALLE,DE LA HUERTA DE CASTAร‘EDA,C/Huerta Castaยบeda,"3ยบ44'16"" O","40ยบ24'40"" N",632,36130
+20,Avda Moratalaz,522000,AVENIDA,DE MORATALAZ,Av.Moratalaz-Camino Vinateros,"3ยบ38'59"" O","40ยบ24'25"" N",671,36130
+24,Casa de Campo,905219,CARRETERA,DEL TELEFERICO,Junto a Telefรฉrico-Cerro de las Animas,"3ยบ44'56"" O","40ยบ25'18"" N",645,36130
+25,Santa Eugenia,604750,CALLE,DE POZA DE LA SAL,C/ Poza de la Sal,"3ยบ36' 4"" O","40ยบ22'48"" N",653,36130
+26,Embajada,729200,CALLE,DE SOTO HIDALGO,Parque Soto Hidalgo, 2,"3ยบ34'44""O","40ยบ27'37,7""N",618,40605
+27,Barajas Pueblo,425700,CALLE,DE JUPITER,Jรบpiter (frente al 21),"3ยบ34'43,8""O","40ยบ28'41,2""N",627,37400
+28,Cuatro Vientos,84000,AVENIDA,DE LA AVIACION,Avd. de la Aviaciยบn,"3ยบ46'35,9""O","40ยบ22'34,9"" N",677,5,37741
+29,El Pardo,348500,AVENIDA,DE LA GUARDIA,Avd. de la Guardia,"3ยบ46'24,4""O","40ยบ31'9,4""N",616,37895
+30,Campo de las Naciones,1111,CALLE,DE LA RIBERA DEL SENA,Rivera del Sena S/N,"3ยบ36'54,9""O","40ยบ27'42,9""N",686,5,37935
+31,Sanchinarro,31000002,CALLE,DE LA PRINCESA DE EBOLI,C/ Princesa de ยบvoli esq. C/ Marยบa Tudor,"3ยบ39'37,82""O","40ยบ29'39,14""N",700,40008
+47,Mendez รlvaro,414800,CALLE,DE JUAN DE MARIANA,C/ Juan de Mariana-Pz Amanecer en Mยบndez ยบlvaro,3ยบ41'12,57''O,40ยบ23'53,21'',609,40196
+48,Castellana,401400,CALLE,DE JOSE GUTIERREZ ABASCAL,C/ Josยบ Gutierrez Abascal,"3ยบ41'25.28""O","40ยบ26'23.44""N",685,40302
+50,Pza de Castilla,154500,PLAZA,DE CASTILLA,Plaza Castilla (Canal),"3ยบ41'19""O","40ยบ27'56""N",728,40602
+54,Ensanche de Vallecas,31000516,AVENIDA,DE LA GAVIA,Avda. de Gavia / Avda. de las Suertes,"3ยบ36'43,7""O","40ยบ27'45,1""N",619,40162
+55,Urb Embajada 2,639250,CALLE,DE RIAร‘O,C/ Riaร‘o,"3ยบ34'50,4""O","40ยบ27'45,1""N",619,40254
+86,Tres Olivos,1427,PLAZA,DE LOS TRES OLIVOS,Plaza de Tres Olivos,"3ยบ41'23""O",40ยบ30'2''N,715,40217
