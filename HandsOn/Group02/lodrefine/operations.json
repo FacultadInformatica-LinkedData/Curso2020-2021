@@ -1998,5 +1998,18 @@
       }
     ],
     "description": "Mass edit cells in column Public Slots"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Id",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Id using expression value.toString()"
   }
 ]
