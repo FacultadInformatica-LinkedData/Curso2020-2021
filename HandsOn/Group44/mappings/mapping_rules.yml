@@ -6,7 +6,7 @@ prefixes:
 mappings:
   provincia:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://dbpedia.org/ontology/province/$(PROVINCIA)
     po:
       - [a, dbp:province]
@@ -14,7 +14,7 @@ mappings:
     
   municipio:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://dbpedia.org/ontology/Municipality/$(MUNICIPIO)
     po:
       - [a, dbp:Municipality]
@@ -38,7 +38,7 @@ mappings:
 
   estacion:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(ESTACION)
     po:
       - [swo:codigo, $(ESTACION), xsd:integer]
@@ -53,7 +53,7 @@ mappings:
                   - [str2, $(ID)]
   muestra:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
     po:
       - [a, swo:Muestra]
