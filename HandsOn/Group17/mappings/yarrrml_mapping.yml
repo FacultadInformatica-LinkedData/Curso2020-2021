@@ -20,12 +20,12 @@ mappings:
     po:
       - [a, vocab:esPunto]
       - [vocab:esPunto,$(PUNTO_MUESTREO)]
-      - [vocab:esPunto2,$(PUNTO_MUESTREO)~iri]
-      - [vocab:esPunto3,$(PUNTO_MUESTREO),xsd:string]
+      - [vocab:esPunto2,$(http://www.wsld.org/grupo17/ontology/esPuntoMuestreo)~iri]
+      - [vocab:esPunto3,$(string-column),xsd:string]
       - p: vocab:mide
         o:
         mapping: triplesmapmedida
-      - p: vocab:estaEn1
+      - p: vocab:estaEnEstacion
         o:
         mapping: triplesmapestacion
 
@@ -36,9 +36,9 @@ mappings:
     po:
       - [a, vocab:Estacion]
       - [vocab:estacion,$(ESTACION)]
-      - [vocab:estacion2,$(ESTACION)~iri]
-      - [vocab:estacion3,$(ESTACION),xsd:integer]
-      - p: vocab:estaEn2
+      - [vocab:estacion2,$(http://www.wsld.org/grupo17/ontology/Estacion)~iri]
+      - [vocab:estacion3,$(integer-column),xsd:integer]
+      - p: vocab:estaEnProvincia
         o:
         mapping: triplesmapprovincia 
 
@@ -49,11 +49,11 @@ mappings:
     po:
       - [a, vocab:Provincia]
       - [vocab:provincia,$(PROVINCIA)]
-      - [vocab:provincia2,$(PROVINCIA)~iri]
-      - [vocab:provincia3,$(ESTACION),xsd:integer]
+      - [vocab:provincia2,$(http://www.wsld.org/grupo17/ontology/Provincia)~iri]
+      - [vocab:provincia3,$(integer-column),xsd:integer]
       - p:
         o:
-        mapping:
+        mapping: triplesmapestacion ##########?######
 
   triplesmapmedida:
     sources:
@@ -112,4 +112,4 @@ mappings:
       - [vocab:valido24, $(V24), xsd:boolean]
       - p:
         o:
-        mapping:
+        mapping: triplesmappuntodemuestreo
