@@ -321,5 +321,29 @@
     "op": "core/column-removal",
     "columnName": "Column 13",
     "description": "Remove column Column 13"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Total árboles",
+    "newColumnName": "TotalArboles",
+    "description": "Rename column Total árboles to TotalArboles"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Altura media",
+    "newColumnName": "AlturaMedia",
+    "description": "Rename column Altura media to AlturaMedia"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Perímetro medio",
+    "newColumnName": "PerimetroMedio",
+    "description": "Rename column Perímetro medio to PerimetroMedio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Recién plantado",
+    "newColumnName": "RecienPlantado",
+    "description": "Rename column Recién plantado to RecienPlantado"
   }
 ]
