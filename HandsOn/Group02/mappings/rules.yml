@@ -24,22 +24,34 @@
        - [findparking:hasResidentialSlots, $(Residential Slots),xsd:integer]
        - [findparking:hasTotalSlots, $(Total Slots),xsd:integer]
        - [findparking:hasSchedule, $(Schedule),xsd:string]
-       - [findparking:hasURLMoreInfo, $(URLMoreInfo),xsd:string]
-       - [findparking:hasProvince, $(Province),xsd:string]
-       - [findparking:hasCity, $(City),xsd:string]
-       - [findparking:hasDistrict, $(District),xsd:string]
-       - [findparking:hasNeighborhood, $(Neighborhood),xsd:string]
-       - [findparking:hasStreetType, $(Street Type),xsd:string]
-       - [findparking:hasStreetName, $(Street Name),xsd:string]
-       - [findparking:hasNumber, $(Number),xsd:integer]
-       - [findparking:hasPostalCode, $(Postal Code),xsd:string]
+       - [findparking:hasURLMoreInfo, $(URLMoreInfo),xsd:anyURI]
        - [findparking:hasCoordX, $(CoordX),xsd:double]
        - [findparking:hasCoordY, $(CoordY),xsd:double]
        - [findparking:hasLatitude, $(Latitude),xsd:double]
        - [findparking:hasLongitude, $(Longitude),xsd:double]
        - [findparking:hasEmail, $(Email),xsd:string]
        - [findparking:hasTelephone, $(Telephone),xsd:string]
+       - p: findparking:hasAddress
+         o:
+          mapping: Address
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Address-Id)]
+              - [str2, $(Address-Id)]
 
-
+    Address:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Address/$(Address-Id)
+      po:
+       - [findparking:hasAddressId, $(Address-Id),xsd:string]
+       - [findparking:hasProvince, $(Province),xsd:string]
+       - [findparking:hasCity, $(City),xsd:string]
+       - [findparking:hasDistrict, $(District),xsd:string]
+       - [findparking:hasNeighborhood, $(Neighborhood),xsd:string]
+       - [findparking:hasStreet, $(Street),xsd:string]
+       - [findparking:hasNumber, $(Number),xsd:string]
+       - [findparking:hasPostalCode, $(Postal Code),xsd:string]
          
   
