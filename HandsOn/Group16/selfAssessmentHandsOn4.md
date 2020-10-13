@@ -11,7 +11,7 @@
 
 **Every URI in the RDF files:**
 
-- [ ] Is "readable" and has some meaning (e.g., it is not an auto-increased integer) 
+- [X] Is "readable" and has some meaning (e.g., it is not an auto-increased integer) 
 - [X] Is not encoded as a string
 - [X] Does not contain a double slash (i.e., “//”)
 
@@ -24,8 +24,12 @@
 
 - [X] Is trimmed
 - [X] Is properly encoded (e.g., dates, booleans)
-- [ ] Includes its datatype
+- [X] Includes its datatype
 - [X] Uses the correct datatype (e.g., values of 0-1 may be booleans and not integers, not every string made of numbers is a number)
 
 ## Comments on the self-assessment
-_(If required)_
+
+### v1
+* Initial mappings and NTriples file uploaded.
+### v2
+* Included the datatypes of the literals.

@@ -5,6 +5,14 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
+map:jc_0 rr:child "URI-DATE";
+    rr:parent "URI-DATE".
+map:jc_1 rr:child "URI-CRUCE";
+    rr:parent "URI-CRUCE".
+map:jc_2 rr:child "URI-PERSONA";
+    rr:parent "URI-PERSONA".
+map:jc_3 rr:child "URI-DISTRITO";
+    rr:parent "URI-DISTRITO".
 map:map_accident_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "accident";
@@ -49,7 +57,8 @@ map:om_13 a rr:ObjectMap;
     rml:reference "NUMERO";
     rr:termType rr:Literal.
 map:om_14 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_district_0.
+    rr:parentTriplesMap map:map_district_0;
+    rr:joinCondition map:jc_3.
 map:om_15 a rr:ObjectMap;
     rr:constant "http://dbpedia.org/ontology/Person";
     rr:termType rr:IRI.
@@ -82,11 +91,14 @@ map:om_3 a rr:ObjectMap;
     rml:reference "ESTADO METEREOLÓGICO";
     rr:termType rr:Literal.
 map:om_4 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_date_0.
+    rr:parentTriplesMap map:map_date_0;
+    rr:joinCondition map:jc_0.
 map:om_5 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_crossing_0.
+    rr:parentTriplesMap map:map_crossing_0;
+    rr:joinCondition map:jc_1.
 map:om_6 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_person_0.
+    rr:parentTriplesMap map:map_person_0;
+    rr:joinCondition map:jc_2.
 map:om_7 a rr:ObjectMap;
     rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#Time";
     rr:termType rr:IRI.

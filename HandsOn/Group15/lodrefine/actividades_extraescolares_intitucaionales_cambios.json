@@ -1,0 +1,65 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "centro_codigo",
+    "newColumnName": "Centro_codigo",
+    "description": "Rename column centro_codigo to Centro_codigo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_nombre",
+    "description": "Remove column centro_nombre"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_tipo_codigo",
+    "description": "Remove column centro_tipo_codigo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_tipo_desc_abreviada",
+    "description": "Remove column centro_tipo_desc_abreviada"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_tipo_descripcion",
+    "description": "Remove column centro_tipo_descripcion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_titularidad",
+    "description": "Remove column centro_titularidad"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "dat_codigo",
+    "description": "Remove column dat_codigo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "dat_nombre",
+    "description": "Remove column dat_nombre"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_direccion_coor_x",
+    "description": "Remove column centro_direccion_coor_x"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "centro_direccion_coor_y",
+    "description": "Remove column centro_direccion_coor_y"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "actividad_extraexcolar_codigo",
+    "newColumnName": "Actividad_extraexcolar_codigo",
+    "description": "Rename column actividad_extraexcolar_codigo to Actividad_extraexcolar_codigo"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "actividad_extraexcolar_descrip",
+    "newColumnName": "Actividad_extraexcolar_descrip",
+    "description": "Rename column actividad_extraexcolar_descrip to Actividad_extraexcolar_descrip"
+  }
+]
