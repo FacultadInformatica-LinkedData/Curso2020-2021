@@ -5,6 +5,8 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
+map:jc_0 rr:child "UBICACION";
+    rr:parent "UBICACION".
 map:map_triplesmap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "triplesmap1";
@@ -51,7 +53,8 @@ map:om_6 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_7 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_triplesmap2_0.
+    rr:parentTriplesMap map:map_triplesmap2_0;
+    rr:joinCondition map:jc_0.
 map:om_8 a rr:ObjectMap;
     rr:constant "http://www.eletricrechargemadrid.com/Ubicacion";
     rr:termType rr:IRI.
