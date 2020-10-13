@@ -6,7 +6,7 @@ prefixes:
 mappings:
   provincia:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://dbpedia.org/ontology/province/$(PROVINCIA)
     po:
       - [a, dbp:province]
@@ -14,7 +14,7 @@ mappings:
     
   municipio:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://dbpedia.org/ontology/Municipality/$(MUNICIPIO)
     po:
       - [a, dbp:Municipality]
@@ -25,20 +25,20 @@ mappings:
             condition:
               function: equal
               parameters:
-                -[str1, $(PROVINCIA)]
-                -[str2, $(PROVINCIA)]
+                - [str1, $(PROVINCIA)]
+                - [str2, $(PROVINCIA)]
       - p: swo:contieneEstaciones
         o:
           - mapping: estacion
             condition:
               function: equal
               parameters:
-                -[str1, $(ESTACION)]
-                -[str2, $(ESTACION)]
+                - [str1, $(ESTACION)]
+                - [str2, $(ESTACION)]
 
   estacion:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(ESTACION)
     po:
       - [swo:codigo, $(ESTACION), xsd:integer]
@@ -46,14 +46,14 @@ mappings:
       - p: swo:tomaMuestras
         o:
           - mapping: muestra
-              condition:
+            condition:
                 function: equal
                 parameters:
-                  -[str1, $(ID)]
-                  -[str2, $(ID)]
+                  - [str1, $(ID)]
+                  - [str2, $(ID)]
   muestra:
     source:
-      - [../csv/MadridAirQuality2020-update.csv~csv]
+      - [../csv/MadridAirQuality2020.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
     po:
       - [a, swo:Muestra]

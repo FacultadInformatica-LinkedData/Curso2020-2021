@@ -5,6 +5,12 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
+map:jc_0 rr:child "PROVINCIA";
+    rr:parent "PROVINCIA".
+map:jc_1 rr:child "ESTACION";
+    rr:parent "ESTACION".
+map:jc_2 rr:child "ID";
+    rr:parent "ID".
 map:map_estacion_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "estacion";
@@ -64,9 +70,11 @@ map:om_3 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_4 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_provincia_0.
+    rr:parentTriplesMap map:map_provincia_0;
+    rr:joinCondition map:jc_0.
 map:om_5 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_estacion_0.
+    rr:parentTriplesMap map:map_estacion_0;
+    rr:joinCondition map:jc_1.
 map:om_6 a rr:ObjectMap;
     rml:reference "ESTACION";
     rr:termType rr:Literal;
@@ -76,7 +84,8 @@ map:om_7 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_8 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_muestra_0.
+    rr:parentTriplesMap map:map_muestra_0;
+    rr:joinCondition map:jc_2.
 map:om_9 a rr:ObjectMap;
     rr:constant "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#Muestra";
     rr:termType rr:IRI.
@@ -169,14 +178,14 @@ map:s_2 a rr:SubjectMap;
 map:s_3 a rr:SubjectMap;
     rr:template "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/{ID}".
 map:source_0 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020-update.csv";
+    rml:source "../csv/MadridAirQuality2020.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020-update.csv";
+    rml:source "../csv/MadridAirQuality2020.csv";
     rml:referenceFormulation ql:CSV.
 map:source_2 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020-update.csv";
+    rml:source "../csv/MadridAirQuality2020.csv";
     rml:referenceFormulation ql:CSV.
 map:source_3 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020-update.csv";
+    rml:source "../csv/MadridAirQuality2020.csv";
     rml:referenceFormulation ql:CSV.
