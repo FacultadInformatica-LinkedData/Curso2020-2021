@@ -22,4 +22,9 @@
 
 ## Comments on the self-assessment ##
 
-
+### v1
+* Initial version of the ontology developed, 2 object properties, 8 data properties and 2 classes.
+### v2
+* Changed object property _locatedAt_ by defining class _Station_ as subclass of _schema:Place_.
+### v3
+* Reduced data properties to 4 in order to lightweight the ontology and making the mapping easier.

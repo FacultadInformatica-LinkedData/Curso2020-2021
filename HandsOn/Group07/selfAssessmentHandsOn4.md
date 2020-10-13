@@ -28,8 +28,4 @@
 - [X] Uses the correct datatype (e.g., values of 0-1 may be booleans and not integers, not every string made of numbers is a number)
 
 ## Comments on the self-assessment
-
-### v1
-* Initial mappings and NTriples file uploaded.
-### v2
-* Included the datatypes of the literals.
+_(If required)_

@@ -70,14 +70,10 @@
                 rdfs:range xsd:string .
 
 
-###  http://semantic.web.es/group05/ontology/BiciMAD/numeroCalle
-:numeroCalle rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Calle .
-
-
 ###  http://semantic.web.es/group05/ontology/BiciMAD/numeroEstacion
 :numeroEstacion rdf:type owl:DatatypeProperty ;
-                rdfs:domain :EstacionBicicleta .
+                rdfs:domain :EstacionBicicleta ;
+                rdfs:range xsd:string .
 
 
 ###  http://semantic.web.es/group05/ontology/BiciMAD/puestos
