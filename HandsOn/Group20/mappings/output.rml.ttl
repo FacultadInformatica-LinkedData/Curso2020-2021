@@ -11,12 +11,12 @@ map:map_location_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "location";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27.
+    rr:predicateObjectMap map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31.
 map:map_space_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "space";
     rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12.
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13.
 map:om_0 a rr:ObjectMap;
     rr:constant "https://freewifizones/madrid/space";
     rr:termType rr:IRI.
@@ -27,61 +27,73 @@ map:om_10 a rr:ObjectMap;
     rml:reference "EMAIL";
     rr:termType rr:Literal.
 map:om_11 a rr:ObjectMap;
-    rml:reference "TIPO";
+    rml:reference "CONTACTO";
     rr:termType rr:Literal.
 map:om_12 a rr:ObjectMap;
+    rml:reference "TIPO";
+    rr:termType rr:Literal.
+map:om_13 a rr:ObjectMap;
     rr:parentTriplesMap map:map_location_0;
     rr:joinCondition map:jc_0.
-map:om_13 a rr:ObjectMap;
+map:om_14 a rr:ObjectMap;
     rr:constant "https://freewifizones/madrid/location";
     rr:termType rr:IRI.
-map:om_14 a rr:ObjectMap;
-    rml:reference "NOMBRE-VIA";
-    rr:termType rr:Literal.
 map:om_15 a rr:ObjectMap;
-    rml:reference "CLASE-VIAL";
+    rml:reference "DIRECCION";
     rr:termType rr:Literal.
 map:om_16 a rr:ObjectMap;
-    rml:reference "TIPO-NUM";
+    rml:reference "NOMBRE-VIA";
     rr:termType rr:Literal.
 map:om_17 a rr:ObjectMap;
-    rml:reference "NUM";
+    rml:reference "CLASE-VIAL";
     rr:termType rr:Literal.
 map:om_18 a rr:ObjectMap;
-    rml:reference "PLANTA";
+    rml:reference "TIPO-NUM";
     rr:termType rr:Literal.
 map:om_19 a rr:ObjectMap;
-    rml:reference "LOCALIDAD";
+    rml:reference "NUM";
     rr:termType rr:Literal.
 map:om_2 a rr:ObjectMap;
     rml:reference "HORARIO";
     rr:termType rr:Literal.
 map:om_20 a rr:ObjectMap;
-    rml:reference "PROVINCIA";
+    rml:reference "PLANTA";
     rr:termType rr:Literal.
 map:om_21 a rr:ObjectMap;
-    rml:reference "CODIGO-POSTAL";
+    rml:reference "ORIENTACION";
     rr:termType rr:Literal.
 map:om_22 a rr:ObjectMap;
-    rml:reference "BARRIO";
+    rml:reference "LOCALIDAD";
     rr:termType rr:Literal.
 map:om_23 a rr:ObjectMap;
-    rml:reference "DISTRITO";
+    rml:reference "PROVINCIA";
     rr:termType rr:Literal.
 map:om_24 a rr:ObjectMap;
-    rml:reference "COORDENADA-X";
+    rml:reference "CODIGO-POSTAL";
     rr:termType rr:Literal.
 map:om_25 a rr:ObjectMap;
-    rml:reference "COORDENADA-Y";
+    rml:reference "BARRIO";
     rr:termType rr:Literal.
 map:om_26 a rr:ObjectMap;
-    rml:reference "LATITUD";
+    rml:reference "DISTRITO";
     rr:termType rr:Literal.
 map:om_27 a rr:ObjectMap;
-    rml:reference "LONGITUD";
+    rml:reference "COORDENADA-X";
+    rr:termType rr:Literal.
+map:om_28 a rr:ObjectMap;
+    rml:reference "COORDENADA-Y";
+    rr:termType rr:Literal.
+map:om_29 a rr:ObjectMap;
+    rml:reference "LATITUD";
     rr:termType rr:Literal.
 map:om_3 a rr:ObjectMap;
     rml:reference "EQUIPAMIENTO";
+    rr:termType rr:Literal.
+map:om_30 a rr:ObjectMap;
+    rml:reference "LONGITUD";
+    rr:termType rr:Literal.
+map:om_31 a rr:ObjectMap;
+    rml:reference "COORDENADAS-GEO";
     rr:termType rr:Literal.
 map:om_4 a rr:ObjectMap;
     rml:reference "DESCRIPCION-ENTIDAD";
@@ -99,7 +111,7 @@ map:om_8 a rr:ObjectMap;
     rml:reference "ACCESIBILIDAD";
     rr:termType rr:Literal.
 map:om_9 a rr:ObjectMap;
-    rr:template "https://freewifizones/madrid/space/{CONTENT-URL}";
+    rml:reference "CONTENT-URL";
     rr:termType rr:IRI.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
@@ -108,43 +120,51 @@ map:pm_1 a rr:PredicateMap;
 map:pm_10 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/space#hasEmail>.
 map:pm_11 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/space#hasType>.
+    rr:constant <https://freewifizones/madrid/space#hasContact>.
 map:pm_12 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/space#hasLocation>.
+    rr:constant <https://freewifizones/madrid/space#hasType>.
 map:pm_13 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <https://freewifizones/madrid/space#hasLocation>.
 map:pm_14 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#address>.
+    rr:constant rdf:type.
 map:pm_15 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#addresType>.
+    rr:constant <https://freewifizones/madrid/location#address>.
 map:pm_16 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#typeNum>.
+    rr:constant <https://freewifizones/madrid/location#addressName>.
 map:pm_17 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#num>.
+    rr:constant <https://freewifizones/madrid/location#addressType>.
 map:pm_18 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#floor>.
+    rr:constant <https://freewifizones/madrid/location#typeNum>.
 map:pm_19 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#locality>.
+    rr:constant <https://freewifizones/madrid/location#num>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/space#hasSchedule>.
 map:pm_20 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#province>.
+    rr:constant <https://freewifizones/madrid/location#floor>.
 map:pm_21 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#cp>.
+    rr:constant <https://freewifizones/madrid/location#orientation>.
 map:pm_22 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#neighbourhood>.
+    rr:constant <https://freewifizones/madrid/location#locality>.
 map:pm_23 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#district>.
+    rr:constant <https://freewifizones/madrid/location#province>.
 map:pm_24 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#xcoordinate>.
+    rr:constant <https://freewifizones/madrid/location#cp>.
 map:pm_25 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#ycoordinate>.
+    rr:constant <https://freewifizones/madrid/location#neighbourhood>.
 map:pm_26 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#latitude>.
+    rr:constant <https://freewifizones/madrid/location#district>.
 map:pm_27 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#longitude>.
+    rr:constant <https://freewifizones/madrid/location#xcoordinate>.
+map:pm_28 a rr:PredicateMap;
+    rr:constant <https://freewifizones/madrid/location#ycoordinate>.
+map:pm_29 a rr:PredicateMap;
+    rr:constant <https://freewifizones/madrid/location#latitude>.
 map:pm_3 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/space#hasEquipment>.
+map:pm_30 a rr:PredicateMap;
+    rr:constant <https://freewifizones/madrid/location#longitude>.
+map:pm_31 a rr:PredicateMap;
+    rr:constant <https://freewifizones/madrid/location#geographicalCoordinates>.
 map:pm_4 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/space#hasDescriptionEntity>.
 map:pm_5 a rr:PredicateMap;
@@ -220,9 +240,21 @@ map:pom_26 a rr:PredicateObjectMap;
 map:pom_27 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_27;
     rr:objectMap map:om_27.
+map:pom_28 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_28;
+    rr:objectMap map:om_28.
+map:pom_29 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_29;
+    rr:objectMap map:om_29.
 map:pom_3 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_3;
     rr:objectMap map:om_3.
+map:pom_30 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_30;
+    rr:objectMap map:om_30.
+map:pom_31 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_31;
+    rr:objectMap map:om_31.
 map:pom_4 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_4;
     rr:objectMap map:om_4.

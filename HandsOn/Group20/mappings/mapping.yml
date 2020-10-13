@@ -34,8 +34,9 @@ mappings:
       - [space:hasRoute, $(TRANSPORTE)]
       - [space:hasTelephone, $(TELEFONO)]
       - [space:hasAccesibility, $(ACCESIBILIDAD)]
-      - [space:hasUrl, https://freewifizones/madrid/space/$(CONTENT-URL)~iri]
+      - [space:hasUrl, $(CONTENT-URL)~iri]
       - [space:hasEmail, $(EMAIL)]
+      - [space:hasContact, $(CONTACTO)]
       - [space:hasType, $(TIPO)]
       - p: space:hasLocation
         o:
@@ -51,11 +52,13 @@ mappings:
     s: https://freewifizones/madrid/location/$(COORDENADAS)
     po:
       - [a, uri_base:location]
-      - [location:address, $(NOMBRE-VIA)]
-      - [location:addresType, $(CLASE-VIAL)]
+      - [location:address, $(DIRECCION)]
+      - [location:addressName, $(NOMBRE-VIA)]
+      - [location:addressType, $(CLASE-VIAL)]
       - [location:typeNum, $(TIPO-NUM)]
       - [location:num, $(NUM)]
       - [location:floor, $(PLANTA)]
+      - [location:orientation, $(ORIENTACION)]
       - [location:locality, $(LOCALIDAD)]
       - [location:province, $(PROVINCIA)]
       - [location:cp, $(CODIGO-POSTAL)]
@@ -65,3 +68,4 @@ mappings:
       - [location:ycoordinate, $(COORDENADA-Y)]
       - [location:latitude, $(LATITUD)]
       - [location:longitude, $(LONGITUD)]
+      - [location:geographicalCoordinates, $(COORDENADAS-GEO)]
