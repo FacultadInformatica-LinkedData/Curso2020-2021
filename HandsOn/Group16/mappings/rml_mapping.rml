@@ -22,22 +22,28 @@ map:om_0 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
     rml:reference "ESTACION_ID";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_10 a rr:ObjectMap;
     rml:reference "VALOR";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
 map:om_2 a rr:ObjectMap;
     rml:reference "NOMBRE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_3 a rr:ObjectMap;
     rml:reference "DIRECCION";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_4 a rr:ObjectMap;
     rml:reference "LATITUD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_5 a rr:ObjectMap;
     rml:reference "LONGITUD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_6 a rr:ObjectMap;
     rr:parentTriplesMap map:map_TriplesMap2_0;
     rr:joinCondition map:jc_0.
@@ -46,10 +52,12 @@ map:om_7 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_8 a rr:ObjectMap;
     rml:reference "FECHA";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime>.
 map:om_9 a rr:ObjectMap;
     rml:reference "MAGNITUD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;

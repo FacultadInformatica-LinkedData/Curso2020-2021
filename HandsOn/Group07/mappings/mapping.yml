@@ -1,0 +1,51 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  ont: http://www.grupo07.es/ontology/
+  dbo: http://dbpedia.org/ontology/
+  res: http://www.grupo07.es/resource/
+  rml: http://semweb.mmlab.be/ns/rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+mappings:
+  MUNICIPIO:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
+    s: res:MUNICIPIO/$(CODIGOMUNICIPIO)
+    po:
+      - [a, ont:MUNICIPIO]
+      - [ont:tieneCodigo,$(CODIGOMUNICIPIO)]
+      - [ont:tieneDireccion,$(DIRECCION)]
+
+  OBJECTID:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
+    s: res:OBJECTID/$(OBJECTID)
+    po:
+      - [a, ont:OBJECTID]
+      - [ont:tieneNombre,$(DENOMINACION)]
+      
+  DENOMINACION:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
+    s: res:$(OBJECTID)/$(DENOMINACION)
+    po:
+      - [a, ont:DENOMINACION]
+      - [ont:tieneLinea,$(NUMEROLINEAUSUARIO)]
+      - [ont:tieneTarifa,$(CORONATARIFARIA)]
+      
+  NUMEROLINEAUSUARIO:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
+    s: res:$(OBJECTID)/$(DENOMINACION)/$(NUMEROLINEAUSUARIO)
+    po:
+      - [a, ont:NUMEROLINEAUSUARIO]
+      - [ont:tieneSentido,$(SENTIDO)]  
+      
+  SENTIDO:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated.csv~csv]
+    s: res:$(OBJECTID)/$(DENOMINACION)/$(NUMEROLINEAUSUARIO)/$(SENTIDO)
+    po:
+      - [a, ont:SENTIDO]
+      - [ont:tieneLongitud,$(LONGITUDTRAMOANTERIOR)]  
+      - [ont:tieneVelocidad,$(VELOCIDADTRAMOANTERIOR)]
