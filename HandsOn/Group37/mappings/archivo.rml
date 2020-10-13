@@ -5,6 +5,8 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
+map:jc_0 rr:child "coord_x";
+    rr:parent "coord_x".
 map:map_triplesmap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "triplesmap1";
@@ -14,7 +16,7 @@ map:map_triplesmap2_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "triplesmap2";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12.
+    rr:predicateObjectMap map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente";
     rr:termType rr:IRI.
@@ -30,16 +32,13 @@ map:om_11 a rr:ObjectMap;
     rml:reference "via_publica";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_12 a rr:ObjectMap;
-    rr:template "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4/{codigo}";
-    rr:termType rr:IRI.
 map:om_2 a rr:ObjectMap;
     rml:reference "en_funcionamiento";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_3 a rr:ObjectMap;
-    rr:template "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4/{coord_x}";
-    rr:termType rr:IRI.
+    rr:parentTriplesMap map:map_triplesmap2_0;
+    rr:joinCondition map:jc_0.
 map:om_4 a rr:ObjectMap;
     rr:constant "http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Localizacion";
     rr:termType rr:IRI.
@@ -71,12 +70,10 @@ map:pm_10 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#direccion>.
 map:pm_11 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#via_publica>.
-map:pm_12 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#tiene>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#en_funcionamiento>.
 map:pm_3 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#seEncuentraEn>.
+    rr:constant <http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#Fuente>.
 map:pm_4 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_5 a rr:PredicateMap;
@@ -101,9 +98,6 @@ map:pom_10 a rr:PredicateObjectMap;
 map:pom_11 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_11;
     rr:objectMap map:om_11.
-map:pom_12 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_12;
-    rr:objectMap map:om_12.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
@@ -136,5 +130,5 @@ map:source_0 a rml:LogicalSource;
     rml:source "Fuentes2019-updated.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
-    rml:source "Fuentes2019-updated";
+    rml:source "Fuentes2019-updated.csv";
     rml:referenceFormulation ql:CSV.

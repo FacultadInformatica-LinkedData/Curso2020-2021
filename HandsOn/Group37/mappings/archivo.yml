@@ -15,12 +15,19 @@ mappings:
       - [a, base:Fuente]
       - [base:codigo,$(codigo),xsd:string]
       - [base:en_funcionamiento,$(en_funcionamiento),xsd:boolean]
-      - [base:seEncuentraEn,http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4/$(coord_x)~iri]
+      - p: base:Fuente 
+        o: 
+            - mapping: triplesmap2
+              condition: 
+                function: equal
+                parameters:
+                    - [str1, $(coord_x)]
+                    - [str2, $(coord_x)]
     
 
   triplesmap2:
     sources:
-      - [Fuentes2019-updated~csv]
+      - [Fuentes2019-updated.csv~csv]
     s: http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4/$(coord_x)
     po:
       - [a, base:Localizacion]
@@ -31,4 +38,5 @@ mappings:
       - [base:distrito,$(distrito),xsd:string]
       - [base:direccion,$(direccion),xsd:string]
       - [base:via_publica,$(via_publica),xsd:string]
-      - [base:tiene,http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4/$(codigo)~iri]
+      
+      
