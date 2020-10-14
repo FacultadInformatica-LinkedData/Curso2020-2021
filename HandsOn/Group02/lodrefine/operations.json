@@ -1998,5 +1998,73 @@
       }
     ],
     "description": "Mass edit cells in column Public Slots"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Id",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Id using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toString()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Street Name",
+    "expression": "grel:cells[\"Street Type\"].value + \" \" + value",
+    "onError": "set-to-blank",
+    "newColumnName": "Street",
+    "columnInsertIndex": 4,
+    "description": "Create column Street at index 4 based on column Street Name using expression grel:cells[\"Street Type\"].value + \" \" + value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Street Name",
+    "description": "Remove column Street Name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Street Type",
+    "description": "Remove column Street Type"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Street",
+    "expression": "grel:value + \" \" + cells[\"Number\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "Address-Id",
+    "columnInsertIndex": 3,
+    "description": "Create column Address-Id at index 3 based on column Street using expression grel:value + \" \" + cells[\"Number\"].value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Address-Id",
+    "index": 2,
+    "description": "Move column Address-Id to position 2"
   }
 ]

@@ -4050,15 +4050,15 @@
     "baseColumnName": "LATITUD",
     "expression": "grel:value+\" , \"+cells[\"LONGITUD\"].value",
     "onError": "set-to-blank",
-    "newColumnName": "COORDENADAS GEOGRÁFICAS",
+    "newColumnName": "COORDENADAS-GEO",
     "columnInsertIndex": 24,
-    "description": "Create column COORDENADAS GEOGRÁFICAS at index 24 based on column LATITUD using expression grel:value+\" , \"+cells[\"LONGITUD\"].value"
+    "description": "Create column COORDENADAS-GEO at index 24 based on column LATITUD using expression grel:value+\" , \"+cells[\"LONGITUD\"].value"
   },
   {
     "op": "core/column-move",
-    "columnName": "COORDENADAS GEOGRÁFICAS",
+    "columnName": "COORDENADAS-GEO",
     "index": 25,
-    "description": "Move column COORDENADAS GEOGRÁFICAS to position 25"
+    "description": "Move column COORDENADAS-GEO to position 25"
   },
   {
     "op": "core/column-addition",
@@ -4115,5 +4115,48 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column COORDENADAS using expression value.replace(\" - \",\" , \")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "PKURI",
+    "description": "Remove column PKURI"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "COORDENADAS",
+    "expression": "value.replace(\" , \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column COORDENADAS using expression value.replace(\" , \",\"-\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "CLASE-VIAL",
+    "expression": "grel:value+\"/ \"+cells[\"NOMBRE-VIA\"].value+\" \"+cells[\"TIPO-NUM\"].value+\" \"+cells[\"NUM\"].value+\", \"+cells[\"LOCALIDAD\"].value+\", \"+cells[\"PROVINCIA\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "DIRECCION",
+    "columnInsertIndex": 11,
+    "description": "Create column DIRECCION at index 11 based on column CLASE-VIAL using expression grel:value+\"/ \"+cells[\"NOMBRE-VIA\"].value+\" \"+cells[\"TIPO-NUM\"].value+\" \"+cells[\"NUM\"].value+\", \"+cells[\"LOCALIDAD\"].value+\", \"+cells[\"PROVINCIA\"].value"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "DIRECCION",
+    "index": 10,
+    "description": "Move column DIRECCION to position 10"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "DIRECCION",
+    "index": 9,
+    "description": "Move column DIRECCION to position 9"
   }
 ]

@@ -1,0 +1,705 @@
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum 'variegata'".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "300".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "1".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Centro".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "320".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "348".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "367".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "510".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1367".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1585".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2646".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "717".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "2".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Arganzuela".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1047".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1205".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1275".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1284".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1298".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1371".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1434".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2414".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3428".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "299".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "3".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Retiro".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "303".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Liquidambar styraciflua".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "328".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus arizonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "344".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "418".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "432".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressocyparis leilandii".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "455".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "487".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "892".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "981".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1948".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2297".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2585".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Populus alba 'bolleana'".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "361".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "4".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Salamanca".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "404".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "545".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "581".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "667".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "912".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "928".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1854".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2497".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5921".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Populus alba 'bolleana'".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "598".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "5".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Chamartín".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "645".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "722".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "938".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "971".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1146".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1164".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1344".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2611".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3744".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamart%C3%ADn> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "6080".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "423".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "6".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Tetuán".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "455".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "466".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "507".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "522".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "529".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "731".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "821".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "925".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetu%C3%A1n> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4519".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "167".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "7".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Chamberí".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cercis siliquastrum".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "183".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "252".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Koelreuteria paniculata".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "261".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "267".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "276".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "332".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "639".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "677".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "875".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1696".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamber%C3%AD> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5807".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1046".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "8".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "FuencarralElPardo".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1196".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Morus alba".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1381".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1408".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1412".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Populus x canadensis".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1421".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1735".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1798".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2049".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2455".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3221".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3847".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5354".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "9424".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "747".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "9".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "MoncloaAravaca".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus arizonica".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "817".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "941".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "951".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Catalpa bignonioides".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "988".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1353".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1399".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1988".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2035".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2380".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2735".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5489".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "989".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "10".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Latina".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1063".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1146".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1572".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1726".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1858".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2001".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2641".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4442".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5338".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "785".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "11".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Carabanchel".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "911".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "932".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1000".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Gleditsia triacanthos".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1399".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1609".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1914".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2401".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2740".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2907".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4338".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "7508".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus orientalis".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "600".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "12".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Usera".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "608".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Populus alba".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "676".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "683".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "705".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cedrus deodara".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "771".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1253".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1284".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1315".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2115".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2143".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3834".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5125".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1110".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "13".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "PuenteDeVallecas".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Catalpa bignonioides".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1240".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer pseudoplatanus".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1287".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1312".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2146".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2378".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2668".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3213".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3268".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3729".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus orientalis".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4477".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4701".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "561".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "14".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Moratalaz".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Catalpa bignonioides".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "727".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer pseudoplatanus".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "750".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "897".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus orientalis".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1125".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1374".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1493".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2029".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2037".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5925".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus halepensis".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "967".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "15".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "CiudadLineal".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1005".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1112".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1390".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1448".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1504".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1667".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3963".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4243".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4702".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1099".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "16".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Hortaleza".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus minor".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1197".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1226".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Populus alba".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1257".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1395".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1488".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1662".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2024".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2066".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2155".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2239".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2945".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4440".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "4485".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Catalpa bignonioides".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1114".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "17".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Villaverde".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1287".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1604".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1610".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus halepensis".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1764".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1776".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1798".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2020".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2352".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3064".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3324".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5525".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera subsp. Pissartii".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1163".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "18".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "VillaDeVallecas".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1223".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Cupressus sempervirens".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1254".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1932".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2029".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2333".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2433".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus halepensis".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2894".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "5241".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "805".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "19".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Vicálvaro".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1179".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1206".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1308".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1431".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1488".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1513".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1655".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus orientalis".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1802".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Vic%C3%A1lvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1890".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "959".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "20".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "SanBlasCanillejas".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1109".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1171".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus sp".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1197".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Aesculus hippocastanum".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1516".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus halepensis".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1654".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "1941".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2042".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2162".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "2910".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "7489".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ulmus pumila".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "359".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId> "21".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName> "Barajas".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Acer negundo".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "399".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus halepensis".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "462".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Pinus pinea".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "517".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Melia azedarach".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "535".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Prunus cerasifera pisardii".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "568".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Catalpa bignonioides".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "706".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Robinia pseudoacacia".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "716".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Ligustrum japonicum".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "717".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Celtis australis".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "801".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Sophora japonica".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "914".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies> "Platanus x hybrida".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits> "3062".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "2059".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "3787".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "152".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "96".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "6214".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "8.47".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "68.57".
+<http://api.zonasverdesmadrid.com/resources/districts/Centro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "120".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "8825".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "11445".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "175".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "886".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "21509".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "6.32".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "52.56".
+<http://api.zonasverdesmadrid.com/resources/districts/Arganzuela> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "178".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "9628".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "16055".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "1361".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "191".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "27508".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "9.26".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "85.24".
+<http://api.zonasverdesmadrid.com/resources/districts/Retiro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "273".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "2668".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "6370".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "87".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "718".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "9968".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "7.81".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "69.98".
+<http://api.zonasverdesmadrid.com/resources/districts/Salamanca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "125".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "3241".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "8219".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "49".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "794".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "12408".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "8.41".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "70.35".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamartin> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "105".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "4464".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "7016".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "29".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "238".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "12313".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "6.23".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "50.38".
+<http://api.zonasverdesmadrid.com/resources/districts/Tetuan> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "566".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "645".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "1687".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "121".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "68".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "2536".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "8.68".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "67.74".
+<http://api.zonasverdesmadrid.com/resources/districts/Chamberi> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "15".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "28573".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "32715".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "1161".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "6574".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "71724".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "7.54".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "54.48".
+<http://api.zonasverdesmadrid.com/resources/districts/FuencarralElPardo> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "2699".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "22682".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "43831".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "3615".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "3547".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "88558".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "8.47".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "35.88".
+<http://api.zonasverdesmadrid.com/resources/districts/MoncloaAravaca> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "14882".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "11057".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "43833".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "448".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "2121".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "58446".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "7.31".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "64.87".
+<http://api.zonasverdesmadrid.com/resources/districts/Latina> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "987".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "21707".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "26490".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "168".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "316".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "59643".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "6.3".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "55.87".
+<http://api.zonasverdesmadrid.com/resources/districts/Carabanchel> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "10962".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "7555".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "18811".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "55".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "2655".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "29230".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "7.71".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "67.66".
+<http://api.zonasverdesmadrid.com/resources/districts/Usera> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "154".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "24115".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "29757".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "235".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "2993".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "57540".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "6.89".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "52.3".
+<http://api.zonasverdesmadrid.com/resources/districts/PuenteDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "440".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "14879".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "17847".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "505".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "218".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "35135".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "6.84".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "57.62".
+<http://api.zonasverdesmadrid.com/resources/districts/Moratalaz> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "1686".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "7366".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "25130".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "805".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "495".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "33795".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "7.04".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "58.4".
+<http://api.zonasverdesmadrid.com/resources/districts/CiudadLineal> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "0".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "63511".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "33527".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "5252".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "7285".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "114639".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "4.43".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "31.69".
+<http://api.zonasverdesmadrid.com/resources/districts/Hortaleza> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "5064".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "35222".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "19896".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "157".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "226".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "57918".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "5.99".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "49.89".
+<http://api.zonasverdesmadrid.com/resources/districts/Villaverde> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "2417".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "49195".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "4078".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "12".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "184".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "58925".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "5.03".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "30.08".
+<http://api.zonasverdesmadrid.com/resources/districts/VillaDeVallecas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "5456".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "16527".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "8863".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "53".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "155".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://api.zonasVerdesMadrid.com/ontologies#district>.
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "30187".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "5.87".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "47.58".
+<http://api.zonasverdesmadrid.com/resources/districts/Vicalvaro> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "4589".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "8742".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "28121".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "670".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "696".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "38367".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "8.09".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "56.16".
+<http://api.zonasverdesmadrid.com/resources/districts/SanBlasCanillejas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "138".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung> "4453".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature> "21705".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld> "1067".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers> "917".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal> "28619".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage> "6.21".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage> "45.19".
+<http://api.zonasverdesmadrid.com/resources/districts/Barajas> <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted> "477".

@@ -1,0 +1,3083 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID-EVENTO",
+    "newColumnName": "Id Actividad",
+    "description": "Rename column ID-EVENTO to Id Actividad"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TITULO",
+    "newColumnName": "Titulo Actividad",
+    "description": "Rename column TITULO to Titulo Actividad"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TITULO",
+          "columnName": "TITULO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Titulo Actividad",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ActividadURI",
+    "columnInsertIndex": 2,
+    "description": "Create column ActividadURI at index 2 based on column Titulo Actividad using expression grel:value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PRECIO",
+    "newColumnName": "Precio",
+    "description": "Rename column PRECIO to Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GRATUITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gratuito"
+      }
+    ],
+    "description": "Mass edit cells in column GRATUITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GRATUITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column GRATUITO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "join ([coalesce(cells['Precio'].value,''),coalesce(cells['GRATUITO'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Precio using expression join ([coalesce(cells['Precio'].value,''),coalesce(cells['GRATUITO'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "GRATUITO",
+    "description": "Remove column GRATUITO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LARGA-DURACION",
+    "description": "Remove column LARGA-DURACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "20 euros",
+          "20 euros."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "20€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "20? "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "20?"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10 euros general (entradas a la venta a partir del 3 de septiembre)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "18?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "15 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2,20 euros."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2,20€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "20?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "20€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10 euros / 8 euros entrada reducida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8€(reducida)/10€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "5 a 22 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5€ a 22€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8€(reducida)/10€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8€(reducida) a 10€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "6 euros por familia (2 personas)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acceso libre hasta completar ocupaciónConsulta las normas para una visita segura"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gratuito"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DE 5 A 22 ?  "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5€ a 22€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DE 5 A 22?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "5€ a 22€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8€(reducida) a 10€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8€ a 10€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "El coste total de la matrícula es de 80 euros. Descuento del 50% para estudiantes, jubilados y desempleados. Es necesario presentar un documento acreditativo de este descuento."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "80€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general - 18 eurosAmigos TFG - 15 eurosOTRAS TARIFAS:Venta anticipada:  16 euros (tarifa disponible hasta el comienzo del festival).Tarifa reducida - 16 euros. Todos los días: Carné joven, mayores de 65, familia numerosa, desempleados, discapacitados y Carné de bibliotecas municipales de Madrid.Descuentos no acumulables y sujetos a disponibilidad de la Sala.Este espectáculo está acogido al Joven Bono Cultural. si tienes entre 16 y 26 años, apúntate aquí al JOBO y ven gratis (De martes a viernes incluidos).Para descuentos Online consultar en entradas@teatrofernangomez.esTeléfono de atención al espectador (Servicios de información y atención a consultas sobre compra de entradas): 913 184 700. Horario de atención: De lunes a domingo de 11:00 a 14:00 y de 16:30 a 20:30 horas."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15€ a 18€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general - 18 eurosAmigos TFG - 15 eurosOTRAS TARIFAS:Venta anticipada:  16 euros (tarifa disponible hasta el comienzo del festival).Tarifa reducida - 16 euros. Todos los días: Carné joven, mayores de 65, familia numerosa, desempleados, discapacitados y Carné de bibliotecas municipales de Madrid.Descuentos no acumulables y sujetos a disponibilidad de la Sala.Para descuentos Online consultar en entradas@teatrofernangomez.esTeléfono de atención al espectador (Servicios de información y atención a consultas sobre compra de entradas): 913 184 700. Horario de atención: De lunes a domingo de 11:00 a 14:00 y de 16:30 a 20:30 horas."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15€ a 18€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general - 20 eurosAmigos TFG - 17 eurosOTRAS TARIFAS:Venta anticipada:  18 euros (tarifa disponible hasta el comienzo del festival).Tarifa reducida - 18 euros. Todos los días: Carné joven, mayores de 65, familia numerosa, desempleados, discapacitados y Carné de bibliotecas municipales de Madrid.Descuentos no acumulables y sujetos a disponibilidad de la Sala.Este espectáculo está acogido al Joven Bono Cultural. si tienes entre 16 y 26 años, apúntate aquí al JOBO y ven gratis (De martes a viernes incluidos).Para descuentos Online consultar en entradas@teatrofernangomez.esTeléfono de atención al espectador (Servicios de información y atención a consultas sobre compra de entradas): 913 184 700. Horario de atención: De lunes a domingo de 11:00 a 14:00 y de 16:30 a 20:30 horas."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "17€ a 20€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general - 20 eurosVenta anticipada - 16 eurosMartes y Miércoles - 18 euros (día del espectador)Amigos TFG - 16 euros.Grupos (+ de 15) - 17 eurosOTRAS TARIFAS:Tarifa reducida: 17 euros (Todos los días): Carné joven, mayores de 65, familia numerosa, desempleados, diversidad funcional y Carné de bibliotecas municipales de Madrid.Grupos escolares (hasta 18 años) - 14 euros (todos los días por la tarde).Funciones matinales - 10 euros (campaña escolar)Reservas de grupos y Amigos TFG:  Contactar previamente en amigos@teatrofernangomez.com y grupos@teatrofernangomez.comTlfonos: 913 184 733 / 734 / Extensiones - 1733/1734/1742Descuentos no acumulables y sujetos a disponibilidad de la Sala.Este espectáculo está acogido al Joven Bono Cultural. si tienes entre 16 y 26 años, apúntate aquí al JOBO y ven gratis (De martes a viernes incluidos).Para descuentos Online consultar en entradas@teatrofernangomez.es Teléfono de atención al espectador"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16€ a 20€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general: 10 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general: 12 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general: 12?Entrada reducida: 9 ? Personas con discapacidad y su acompañante, personas en situación de desempleo, personas mayores de 65 años, titulares del carné joven, estudiantes menores de 25 años y miembros de familias numerosas.Entrada gratuitaNiños menores de 12 años, guías Oficiales de Turismo de Madrid, y grupos de 15-25 personas pertenecientes a asociaciones y colectivos de interés público y social (con reserva previa). Entrada de grupo: 8 ?Grupos de 15-25 personasEntrada de grupos escolares: 5 ? por alumno (con reserva previa) "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "9€ a 12€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general: 15 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general: 15.00 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada general: 8 euros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada gratuita"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gratuito"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada libre"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gratuito"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada libre hasta completar aforo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gratuito"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada libre hasta completar aforo "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gratuito"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entrada libre previa inscripción"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gratuito"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entradas 15?Pack tres entradas: 12? entradaPack de 5 a 7 entradas: 10? entrada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10€ a 15€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ENTRADAS 18 ?(Incluido en Abonos de temporada)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18€"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Consultar Web"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Consultar Web"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Precio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "HORA",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "19:19"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "19:20"
+      }
+    ],
+    "description": "Mass edit cells in column HORA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DIAS-SEMANA",
+    "newColumnName": "Dias Actividad",
+    "description": "Rename column DIAS-SEMANA to Dias Actividad"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DIAS-EXCLUIDOS",
+    "newColumnName": "Dias Excluidos",
+    "description": "Rename column DIAS-EXCLUIDOS to Dias Excluidos"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TITULO-ACTIVIDAD",
+    "description": "Remove column TITULO-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA",
+    "newColumnName": "Fecha Inicio",
+    "description": "Rename column FECHA to Fecha Inicio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA-FIN",
+    "newColumnName": "Fecha Final",
+    "description": "Rename column FECHA-FIN to Fecha Final"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "HORA",
+    "newColumnName": "Hora",
+    "description": "Rename column HORA to Hora"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DESCRIPCION",
+    "newColumnName": "Descripcion",
+    "description": "Rename column DESCRIPCION to Descripcion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Descripcion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Descripcion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Unico Dia"
+      }
+    ],
+    "description": "Mass edit cells in column Dias Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Unico Dia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dia Unico"
+      }
+    ],
+    "description": "Mass edit cells in column Dias Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias Excluidos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se aplica"
+      }
+    ],
+    "description": "Mass edit cells in column Dias Excluidos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Todo el Dia"
+      }
+    ],
+    "description": "Mass edit cells in column Hora"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Todo el Dia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Todo el dia"
+      }
+    ],
+    "description": "Mass edit cells in column Hora"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dia Unico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dia unico"
+      }
+    ],
+    "description": "Mass edit cells in column Dias Actividad"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "URL-ACTIVIDAD",
+    "description": "Remove column URL-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CONTENT-URL",
+    "newColumnName": "URL Actividad",
+    "description": "Rename column CONTENT-URL to URL Actividad"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "URL-INSTALACION",
+    "newColumnName": "URL Ubicacion",
+    "description": "Rename column URL-INSTALACION to URL Ubicacion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE-INSTALACION",
+    "newColumnName": "Nombre Ubicacion",
+    "description": "Rename column NOMBRE-INSTALACION to Nombre Ubicacion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "description": "Remove column ACCESIBILIDAD-INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CLASE-VIAL-INSTALACION",
+    "newColumnName": "Tipo Direccion",
+    "description": "Rename column CLASE-VIAL-INSTALACION to Tipo Direccion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE-VIA-INSTALACION",
+    "newColumnName": "Nombre Direccion",
+    "description": "Rename column NOMBRE-VIA-INSTALACION to Nombre Direccion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NUM-INSTALACION",
+    "newColumnName": "Numero Instalacion",
+    "description": "Rename column NUM-INSTALACION to Numero Instalacion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO-INSTALACION",
+    "newColumnName": "Distrito Ubicacion",
+    "description": "Rename column DISTRITO-INSTALACION to Distrito Ubicacion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BARRIO-INSTALACION",
+    "newColumnName": "Barrio Ubicacion",
+    "description": "Rename column BARRIO-INSTALACION to Barrio Ubicacion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO-POSTAL-INSTALACION",
+    "newColumnName": "Codigo Postal",
+    "description": "Rename column CODIGO-POSTAL-INSTALACION to Codigo Postal"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LATITUD",
+    "newColumnName": "Latitud",
+    "description": "Rename column LATITUD to Latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD",
+    "newColumnName": "Longitud",
+    "description": "Rename column LONGITUD to Longitud"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADA-X",
+    "newColumnName": "Coordenada X",
+    "description": "Rename column COORDENADA-X to Coordenada X"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "COORDENADA-Y",
+    "newColumnName": "Coordenada Y",
+    "description": "Rename column COORDENADA-Y to Coordenada Y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "AUDIENCIA",
+    "newColumnName": "Tipo de Publico",
+    "description": "Rename column AUDIENCIA to Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Todos los publicos"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/usuario/Niños"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Niños"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/usuario/Mujeres"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mujeres"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/usuario/Mayores"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mayores"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/usuario/Jovenes,/usuario/Niños"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jovenes y Niños"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/usuario/Mujeres,/usuario/Familias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mujeres y Familias"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/usuario/Jovenes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jovenes"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/usuario/Familias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Familias"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO",
+    "newColumnName": "Tipo Actividad",
+    "description": "Rename column TIPO to Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Todos los publicos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo de Publico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/ConcursosCertamenes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Concurso"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/CircoMagia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Circo y Magia"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/CuentacuentosTiteresMarionetas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Teatro Infantil"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/DanzaBaile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Danza"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/Exposiciones"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Exposicion"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/Musica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Musical"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/Musica/JazzSoulFunkySwingReagge"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Musical"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/Musica/RockPop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Musical"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/Musica/Zarzuela"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zarzuela"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/ProgramacionDestacadaAgendaCultura"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cultural"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/TeatroPerformance"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Teatro"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/TeatroPerformance/MusicalCabaret"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cabaret"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/RecitalesPresentacionesActosLiterarios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Acto Literario"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/ItinerariosOtrasActividadesAmbientales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ambiental"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/CineActividadesAudiovisuales/CineFiccion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cine"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/CineActividadesAudiovisuales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Audiovisual"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/ActividadesCalleArteUrbano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Arte Urbano"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/ConferenciasColoquios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Conferencia"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/CursosTalleres"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Taller"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/ExcursionesItinerariosVisitas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Excursion"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "/contenido/actividades/FiestasNavidadesReyes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fiesta Reyes Magos"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fiesta Reyes Magos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fiesta Religiosa"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "No se Indica"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se Indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Actividad"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre Direccion",
+    "expression": "join ([coalesce(cells['Nombre Direccion'].value,''),coalesce(cells['Numero Instalacion'].value,'')],', ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nombre Direccion using expression join ([coalesce(cells['Nombre Direccion'].value,''),coalesce(cells['Numero Instalacion'].value,'')],', ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Numero Instalacion",
+    "description": "Remove column Numero Instalacion"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Direccion",
+    "expression": "join ([coalesce(cells['Tipo Direccion'].value,''),coalesce(cells['Nombre Direccion'].value,'')],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tipo Direccion using expression join ([coalesce(cells['Tipo Direccion'].value,''),coalesce(cells['Nombre Direccion'].value,'')],' ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Nombre Direccion",
+    "description": "Remove column Nombre Direccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Direccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Tipo Direccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre Ubicacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Nombre Ubicacion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tipo Direccion",
+    "newColumnName": "Direccion",
+    "description": "Rename column Tipo Direccion to Direccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URL Ubicacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column URL Ubicacion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio Ubicacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Barrio Ubicacion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito Ubicacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Distrito Ubicacion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio Ubicacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LOS JERÓNIMOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LOS JERONIMOS"
+      }
+    ],
+    "description": "Mass edit cells in column Barrio Ubicacion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito Ubicacion",
+    "newColumnName": "Distrito ",
+    "description": "Rename column Distrito Ubicacion to Distrito "
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Barrio Ubicacion",
+    "newColumnName": "Barrio",
+    "description": "Rename column Barrio Ubicacion to Barrio"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Barrio Ubicacion",
+          "expression": "value",
+          "columnName": "Barrio Ubicacion",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "FUENTE DEL BERRO",
+                "l": "FUENTE DEL BERRO"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo Postal",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Codigo Postal"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Latitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Longitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada X",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Coordenada X"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada Y",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Coordenada Y"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Nombre Ubicacion",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "UbicacionURI",
+    "columnInsertIndex": 13,
+    "description": "Create column UbicacionURI at index 13 based on column Nombre Ubicacion using expression grel:value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nombre Ubicacion",
+    "newColumnName": "Ubicacion",
+    "description": "Rename column Nombre Ubicacion to Ubicacion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Conde Duque"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Espacio Cultural Conde Duque"
+      }
+    ],
+    "description": "Mass edit cells in column Ubicacion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "UbicacionURI",
+    "description": "Remove column UbicacionURI"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Ubicacion",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "UbicacionURI",
+    "columnInsertIndex": 13,
+    "description": "Create column UbicacionURI at index 13 based on column Ubicacion using expression grel:value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Titulo Actividad",
+    "newColumnName": "Titulo",
+    "description": "Rename column Titulo Actividad to Titulo"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Dias Actividad",
+    "newColumnName": "Dias",
+    "description": "Rename column Dias Actividad to Dias"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha Inicio",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Fecha Inicio by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha Inicio",
+    "description": "Remove column Fecha Inicio"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha Final",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Fecha Final by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha Final 2",
+    "description": "Remove column Fecha Final 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha Inicio 2",
+    "description": "Remove column Fecha Inicio 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha Final",
+    "description": "Remove column Fecha Final"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha Inicio 1",
+    "newColumnName": "Fecha de Inicio ",
+    "description": "Rename column Fecha Inicio 1 to Fecha de Inicio "
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha Final 1",
+    "newColumnName": "Fecha de Finalizacion",
+    "description": "Rename column Fecha Final 1 to Fecha de Finalizacion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Todo el dia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "No se indica"
+      }
+    ],
+    "description": "Mass edit cells in column Hora"
+  }
+{
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha de Inicio",
+    "expression": "grel:value.toDate('yy/MM/d','MMM-yy').toString('dd/MM/yyy')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha de Inicio using expression grel:value.toDate('yy/MM/d','MMM-yy').toString('dd/MM/yyy')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha de Finalizacion",
+    "expression": "grel:value.toDate('yy/MM/d','MMM-yy').toString('dd/MM/yyy')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha de Finalizacion using expression grel:value.toDate('yy/MM/d','MMM-yy').toString('dd/MM/yyy')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Id Actividad",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Id Actividad using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Titulo",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Titulo using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ActividadURI",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ActividadURI using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Precio using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Dias using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias Excluidos",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Dias Excluidos using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hora using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Descripcion",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Descripcion using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UbicacionURI",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UbicacionURI using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distrito using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Barrio using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo Postal",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Codigo Postal using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada X",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Coordenada X using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada Y",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Coordenada Y using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitud using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitud using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tipo Actividad using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tipo de Publico using expression value.toString()"
+  }
+{
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hora using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hora using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hora using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias Excluidos",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Dias Excluidos using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Id Actividad",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Id Actividad using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Titulo",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Titulo using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ActividadURI",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ActividadURI using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Precio",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Precio using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Dias using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dias Excluidos",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Dias Excluidos using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha de Inicio",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha de Inicio using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha de Inicio",
+    "expression": "join ([coalesce(cells['Fecha de Inicio'].value,''),coalesce(cells['Fecha de Finalizacion'].value,'')],' - ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha de Inicio using expression join ([coalesce(cells['Fecha de Inicio'].value,''),coalesce(cells['Fecha de Finalizacion'].value,'')],' - ')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Id Actividad",
+      "Titulo",
+      "ActividadURI",
+      "Precio",
+      "Dias",
+      "Dias Excluidos",
+      "Fecha de Inicio",
+      "Hora",
+      "Descripcion",
+      "URL Actividad",
+      "URL Ubicacion",
+      "Ubicacion",
+      "UbicacionURI",
+      "Direccion",
+      "Distrito",
+      "Barrio",
+      "Codigo Postal",
+      "Coordenada X",
+      "Coordenada Y",
+      "Latitud",
+      "Longitud",
+      "Tipo Actividad",
+      "Tipo de Publico"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Fecha de Inicio",
+    "newColumnName": "Fecha",
+    "description": "Rename column Fecha de Inicio to Fecha"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Fecha",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Fecha using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hora using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Descripcion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Descripcion using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URL Actividad",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URL Actividad using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URL Ubicacion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URL Ubicacion using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UbicacionURI",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column UbicacionURI using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Direccion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Direccion using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distrito using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Barrio using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo Postal",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Codigo Postal using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada X",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Coordenada X using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitud",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitud using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitud using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tipo Actividad using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tipo de Publico using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo Postal",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Codigo Postal using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada X",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Coordenada X using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coordenada X",
+    "description": "Remove column Coordenada X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Coordenada Y",
+    "description": "Remove column Coordenada Y"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitud using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitud using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Barrio using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distrito using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Actividad",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tipo Actividad using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de Publico",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tipo de Publico using expression value.toString()"
+  }
+]
