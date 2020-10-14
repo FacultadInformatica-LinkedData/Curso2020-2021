@@ -7,7 +7,7 @@
 - [x] Uses the .nt extension
 - [x] Is serialized in the NTriples format
 - [ ] Follows the resource naming strategy
-- [ ] Uses class and property URIs that are the same as those used in the ontology
+- [x] Uses class and property URIs that are the same as those used in the ontology
 
 **Every URI in the RDF files:**
 
