@@ -24,15 +24,10 @@ mappings:
       - [vocab:esPunto3,$(string-column),xsd:string]
       - p: vocab:mide
         o:
-      #  mapping: triplesmapmedida #MIRAR ESTO¡¡¡¡¡
-      #- p: vocab:estaEnEstacion
-      #  o:
+        mapping: triplesmapmedida
+      - p: vocab:estaEnEstacion
+        o:
         mapping: triplesmapestacion
-         condition:
-          function: equal
-          parameters:
-             - [str1, $(ESTACION)]
-             - [str2, $(ESTACION)]
 
   triplesmapestacion:
     sources:
@@ -46,11 +41,6 @@ mappings:
       - p: vocab:estaEnProvincia
         o:
         mapping: triplesmapprovincia 
-        condition:
-           function: equal
-           parameters:
-             - [str1, $(ESTACION)]
-             - [str2, $(PROVINCIA)]
 
   triplesmapprovincia:
     sources:
@@ -63,12 +53,7 @@ mappings:
       - [vocab:provincia3,$(integer-column),xsd:integer]
       - p:
         o:
-        mapping: triplesmapestacion ##########ESTO ES REDUNDANTE YO LO QUITARIA SEGUN DIBUJO DE ONTOLOGIA######
-        condition:
-           function: equal
-           parameters:
-             - [str1, $(PROVINCIA)]
-             - [str2, $(ESTACION)]
+        mapping: triplesmapestacion ##########?######
 
   triplesmapmedida:
     sources:
@@ -127,4 +112,4 @@ mappings:
       - [vocab:valido24, $(V24), xsd:boolean]
       - p:
         o:
-        mapping: 
+        mapping: triplesmappuntodemuestreo
