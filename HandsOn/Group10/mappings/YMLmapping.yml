@@ -14,6 +14,12 @@ mappings:
       - p: ns:hasIndicator
         o:
           mapping: Indicators
+            condition:
+          function: equal
+          parameters:
+           - [str1, $(Indicator Code)]
+           - [str2, $(Indictaro Code)]
+                
           
   Indicators:
     sources:
@@ -26,7 +32,13 @@ mappings:
       - p: ns:hasMeasure
         o:
           mapping: Measures
-          
+          condition:
+          function: equal
+          parameters:
+           - [str1, $(Value)]
+           - [str2, $(Value)]
+           
+                
   Measures:
    sources:
    - [environment_sgp-updated.csv~csv]
@@ -35,3 +47,8 @@ mappings:
       - [a, ns:Measure]
       - [ns:value, $(Value), xsd:double]
       - [ns:date, $(Year), xsd:integer]
+      - p: ns:hasMeasure
+        o:
+          mapping: Measures
+           
+               
