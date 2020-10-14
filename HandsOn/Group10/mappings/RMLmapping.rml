@@ -5,6 +5,10 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
+map:jc_0 rr:child "Indicator Code";
+    rr:parent "Indicator Code".
+map:jc_1 rr:child "Value";
+    rr:parent "Value".
 map:map_Countries_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "Countries";
@@ -19,7 +23,7 @@ map:map_Measures_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "Measures";
     rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10.
+    rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10, map:pom_11.
 map:om_0 a rr:ObjectMap;
     rr:constant "ns:Country";
     rr:termType rr:IRI.
@@ -31,12 +35,15 @@ map:om_10 a rr:ObjectMap;
     rml:reference "Year";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+map:om_11 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_Measures_0.
 map:om_2 a rr:ObjectMap;
     rml:reference "Country ISO3";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_3 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_Indicators_0.
+    rr:parentTriplesMap map:map_Measures_0;
+    rr:joinCondition map:jc_0.
 map:om_4 a rr:ObjectMap;
     rr:constant "ns:Indicator";
     rr:termType rr:IRI.
@@ -49,7 +56,8 @@ map:om_6 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_7 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_Measures_0.
+    rr:parentTriplesMap map:map_Measures_0;
+    rr:joinCondition map:jc_1.
 map:om_8 a rr:ObjectMap;
     rr:constant "ns:Measure";
     rr:termType rr:IRI.
@@ -63,6 +71,8 @@ map:pm_1 a rr:PredicateMap;
     rr:constant <ns:countryName>.
 map:pm_10 a rr:PredicateMap;
     rr:constant <ns:date>.
+map:pm_11 a rr:PredicateMap;
+    rr:constant <ns:hasMeasure>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <ns:countryISO3>.
 map:pm_3 a rr:PredicateMap;
@@ -88,6 +98,9 @@ map:pom_1 a rr:PredicateObjectMap;
 map:pom_10 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_10;
     rr:objectMap map:om_10.
+map:pom_11 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_11;
+    rr:objectMap map:om_11.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
