@@ -27,12 +27,23 @@ mappings:
       - [ont:hasCode, $(LibraryCode)]
       - [ont:Library, http://www.example.org/CastillaLaMancha#$(Library)~iri]
 
-    mappings:
-      predicateobjects:
-       - predicates: ont:locatedIn
-         objects: $(Town)
-       - predicates: ont:partOf
-         objects: $(LibraryAdministration)
+      - p: ont:locatedIn
+        o:
+        - mapping: triplesmap3
+          condition: 
+            function: equal
+            parameters:
+                - [str1, $(Town)]
+                - [str2, $(Town)]
+    
+      - p: ont:partOf
+        o:
+        - mapping: triplesmap4
+          condition:
+              function: equal
+              parameters:
+                - [str1, $(LibraryAdministration)]
+                - [str2, $(LibraryAdministration)]
 
   triplesmap2:
     sources:
@@ -52,10 +63,14 @@ mappings:
       - [rdf:label, $(Town)]
       - [ont:Town, http://www.example.org/CastillaLaMancha#$(Town)~iri]
 
-    mappings:
-      predicateobjects:
-       - predicates: ont:partOf
-         objects: $(Province)
+      - p: ont:partOf
+        o:
+        - mapping: triplesmap2
+          condition:
+              function: equal
+              parameters:
+                - [str1, $(Province)]
+                - [str2, $(Province)]
 
   triplesmap4:
     sources:
