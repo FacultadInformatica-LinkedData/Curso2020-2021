@@ -1,0 +1,108 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix class: <http://www.semanticweb.org/daniel/ontologies/2020/8/arboles#>.
+@prefix map: <http://mapping.example.com/>.
+@base <http://example.com/ns#>.
+
+<#TriplesMap1>
+	rml:logicalSource [
+		rml:source "ArboladoParquesHistoricoSingularesForestales_2019-update.csv";
+		rml:referenceFormulation ql:CSV
+	];
+	rr:subjectMap [
+		rr:template "http://www.semanticweb.org/daniel/ontologies/2020/8/arboles#Species/{ARBOLURI}";
+		rr:termType rr:IRI;
+		 rr:class class:Species
+	];
+	rr:predicateObjectMap[
+		rr:predicateMap[ rr:constant class:speciesName; rr:termType rr:IRI];
+		rr:objectMap[
+			rml:reference "ESPECIE"; rr:termtype rr:Literal
+			]
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant class:quantityPark;
+			rr:termtype rr:IRI
+		];
+			rr:objectMap [ rml:reference "UNIDADES";
+				rr:dataType <http://www.w3.org/2001/XMLSchema#integer> ]
+		];
+		rr:predicateObjectMap[
+			rr:predicateMap[rr:constant class:IsInPark; rr:termType rr:IRI];
+			rr:objectMap[
+				rr:parentTriplesMap <#TriplesMap3>;
+				rr:joinCondition[
+				rr:child "PARQUE"; rr:parent "PARQUE"
+				];
+			];
+		].
+
+<#TriplesMap2>
+	rml:logicalSource [
+		rml:source "ArboladoZonasVerdesDistritosCalles_2019-update.csv";
+		rml:referenceFormulation ql:CSV
+		];
+	rr:subjectMap [
+		rr:template
+			"http://www.semanticweb.org/daniel/ontologies/2020/8/arboles#Species/{URIESPECIE}";
+			rr:termType rr:IRI;
+		rr:class class:Species
+	];
+
+	rr:predicateObjectMap[
+		rr:predicateMap[ rr:constant class:speciesName; rr:termType rr:IRI];
+		rr:objectMap[
+			rml:reference "NOMBRE_ESPECIE"; rr:termtype rr:Literal
+			]
+	];
+		rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant class:quantityDistrict;
+			rr:termType rr:IRI
+			];
+			rr:objectMap [ rml:reference "Unidades";
+				rr:dataType <http://www.w3.org/2001/XMLSchema#integer> ]
+		];
+		rr:predicateObjectMap[
+			rr:predicateMap[rr:constant class:IsInDistrict; rr:termType rr:IRI];
+			rr:objectMap[
+				rr:parentTriplesMap <#TriplesMap4>;
+				rr:joinCondition[
+				rr:child "Nombre_distrito"; rr:parent "Nombre_distrito"
+				];
+			];
+		].
+
+<#TriplesMap3>
+	rml:logicalSource[
+		rml:source "ArboladoParquesHistoricoSingularesForestales_2019-update.csv";
+		rml:referenceFormulation ql:CSV
+	];
+	rr:subjectMap[
+		rr:template "http://www.semanticweb.org/daniel/ontologies/2020/8/arboles#Park/{PARQUEURI}";
+		rr:termType rr:IRI;
+		rr:class class:Park
+	];
+
+	rr:predicateObjectMap[
+		rr:predicateMap[rr:constant class:parkName; rr:termType rr:IRI];
+		rr:objectMap[rml:reference "PARQUE"; rr:termtype rr:Literal];
+	].
+
+<#TriplesMap4>
+	rml:logicalSource[
+		rml:source "ArboladoZonasVerdesDistritosCalles_2019-update.csv";
+		rml:referenceFormulation ql:CSV
+	];
+	rr:subjectMap[
+		rr:template "http://www.semanticweb.org/daniel/ontologies/2020/8/arboles#District/{URIDISTRITO}";
+		rr:termType rr:IRI;
+		rr:class class:Park
+	];
+
+	rr:predicateObjectMap[
+		rr:predicateMap[rr:constant class:districtName; rr:termType rr:IRI];
+		rr:objectMap[rml:reference "Nombre_distrito"; rr:termtype rr:Literal];
+	].
