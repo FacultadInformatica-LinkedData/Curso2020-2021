@@ -11,7 +11,7 @@
 
 **Every URI in the RDF files:**
 
-- [ ] Is "readable" and has some meaning (e.g., it is not an auto-increased integer) 
+- [x] Is "readable" and has some meaning (e.g., it is not an auto-increased integer) 
 - [ ] Is not encoded as a string
 - [ ] Does not contain a double slash (i.e., “//”)
 
