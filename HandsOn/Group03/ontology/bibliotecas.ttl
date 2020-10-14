@@ -30,86 +30,60 @@
 ### http://http://www.example.org/CastillaLaMancha#Town
 :Town 	 	rdf:type 	owl:Class.
 
-### http://http://www.example.org/CastillaLaMancha#Telephone
-:Telephone 	rdf:type 	owl:Class.
-
-### http://http://www.example.org/CastillaLaMancha#ID
-:ID 	 	rdf:type 	owl:Class.
-
-### http://http://www.example.org/CastillaLaMancha#LibraryCode
-:LibraryCode 	rdf:type 	owl:Class.
-
-### http://http://www.example.org/CastillaLaMancha#Email
-:Email  	rdf:type 	owl:Class.
-
-### http://http://www.example.org/CastillaLaMancha#Address
-:Address 	rdf:type 	owl:Class.
-
-### http://http://www.example.org/CastillaLaMancha#ZIPcode
-:ZIPCode 	rdf:type 	owl:Class.
-
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://http://www.example.org/CastillaLaMancha#hasTelephone
-:hasTelephone		rdf:type 		owl:ObjectProperty;
-                 	rdfs:domain 	:Library;
-                 	rdfs:range 		:Telephone.
-
-###  http://http://www.example.org/CastillaLaMancha#hasCode
-:hasCode	 		rdf:type 		owl:ObjectProperty;
-                 	rdfs:domain 	:Library;
-                 	rdfs:range 		:LibraryCode.
-
-###  http://http://www.example.org/CastillaLaMancha#hasEmail
-:hasEmail	 		rdf:type 		owl:ObjectProperty;
-                 	rdfs:domain 	:Library;
-	                rdfs:range 		:Email.
-
 ###  http://http://www.example.org/CastillaLaMancha#locatedIn
 :locatedIn	 		rdf:type 		owl:ObjectProperty;
                  	rdfs:domain 	:Library;
-                 	rdfs:range 		:Address.
-
-###  http://http://www.example.org/CastillaLaMancha#belongsTo
-:locatedIn	 		rdf:type 		owl:ObjectProperty;
-                 	rdfs:domain 	:Address;
                  	rdfs:range 		:Town.
 
-###  http://http://www.example.org/CastillaLaMancha#hasZIPcode
-:hasZIPcode	 		rdf:type 		owl:ObjectProperty;
-                 	rdfs:domain 	:Town;
-                 	rdfs:range 		:ZIPcode.
-
 ###  http://http://www.example.org/CastillaLaMancha#partOf
-:partOf	 	rdf:type 		owl:ObjectProperty;
-                 rdfs:domain 	:Town;
-                 rdfs:range 	:Province.
+:partOf	 			rdf:type 		owl:ObjectProperty;
+                 	rdfs:domain 	:Town;
+                 	rdfs:range 		:Province.
 
-###  http://http://www.example.org/CastillaLaMancha#hasID
-:subClassOf	 		rdf:type 		owl:ObjectProperty;
+###  http://http://www.example.org/CastillaLaMancha#subClassOf
+:partOf	 			rdf:type 		owl:ObjectProperty;
                  	rdfs:domain 	:Library;
                  	rdfs:range 		:LibraryAdministration.
-
-###  http://http://www.example.org/CastillaLaMancha#hasID
-:hasID 		 		rdf:type 		owl:ObjectProperty;
-                 	rdfs:domain 	:Library;
-                 	rdfs:range 		:ID.
-
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://api.zonasverdesmadrid.es#name
-:name 				rdf:type 		owl:DatatypeProperty ;
-      				rdfs:domain 	:Library;
-      				rdfs:range 		xsd:string.
+###  http://http://www.example.org/CastillaLaMancha#Library/hasID
+:hasID 		 		rdf:type 		owl:ObjectProperty;
+                 	rdfs:domain 	:Library;
+                 	rdfs:range 		xsd:integer.
 
+###  http://http://www.example.org/CastillaLaMancha#Town/hasZIPcode
+:hasZIPcode	 		rdf:type 		owl:ObjectProperty;
+                 	rdfs:domain 	:Town;
+                 	rdfs:range 		xsd:integer
 
+###  http://http://www.example.org/CastillaLaMancha#Library/hasTelephone
+:hasTelephone		rdf:type 		owl:ObjectProperty;
+                 	rdfs:domain 	:Library;
+                 	rdfs:range 		xsd:integer
+
+###  http://http://www.example.org/CastillaLaMancha#Library/hasCode
+:hasCode	 		rdf:type 		owl:ObjectProperty;
+                 	rdfs:domain 	:Library;
+                 	rdfs:range 		xsd:integer
+
+###  http://http://www.example.org/CastillaLaMancha#Library/hasEmail
+:hasEmail	 		rdf:type 		owl:ObjectProperty;
+                 	rdfs:domain 	:Library;
+	                rdfs:range 		xsd:string
+
+###  http://http://www.example.org/CastillaLaMancha#Library/hasAddress
+:hasAddress	 		rdf:type 		owl:ObjectProperty;
+                 	rdfs:domain 	:Library;
+	                rdfs:range 		xsd:string
 
 
 

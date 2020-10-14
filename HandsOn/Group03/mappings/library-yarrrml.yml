@@ -1,0 +1,82 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://example.org#
+  owl: http://www.w3.org/2002/07/owl#
+  ont: http://www.example.org/CastillaLaMancha#
+  
+mappings:
+  triplesmap1:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#Library/$(Library)
+    po:
+      - [a, ont:Library]
+      - [ont:hasTelephone, $(Telephone)] 
+      - [ont:hasEmail, $(Email)]
+      - [ont:hasID, $(ID)]
+      - [rdf:label, $(Library)]
+      - [ont:hasCode, $(LibraryCode)]
+      - [ont:Library, http://www.example.org/CastillaLaMancha#$(Library)~iri]
+
+      - p: ont:locatedIn
+        o:
+        - mapping: triplesmap3
+          condition: 
+            function: equal
+            parameters:
+                - [str1, $(Town)]
+                - [str2, $(Town)]
+    
+      - p: ont:partOf
+        o:
+        - mapping: triplesmap4
+          condition:
+              function: equal
+              parameters:
+                - [str1, $(LibraryAdministration)]
+                - [str2, $(LibraryAdministration)]
+
+  triplesmap2:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#Province/$(Province)
+    po:
+      - [a, ont:Province]
+      - [rdf:label, $(Province)]
+      - [ont:Province, http://www.example.org/CastillaLaMancha#$(Province)~iri]
+
+  triplesmap3:
+    sources:
+      - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s: http://www.example.org/CastillaLaMancha#Town/$(Town)
+    po:
+      - [a, ont:Town]
+      - [rdf:label, $(Town)]
+      - [ont:Town, http://www.example.org/CastillaLaMancha#$(Town)~iri]
+
+      - p: ont:partOf
+        o:
+        - mapping: triplesmap2
+          condition:
+              function: equal
+              parameters:
+                - [str1, $(Province)]
+                - [str2, $(Province)]
+
+  triplesmap4:
+    sources:
+    - [Directorio_Bibliotecas_P-blicas_CLM_2019-updated.csv~csv]
+    s : http://www.example.org/CastillaLaMancha#$(LibraryAdministration)
+    po:
+    - [a, ont:LibraryAdministration]
+    - [rdf:label, $LibraryAdministration]
+    - [ont:LibraryAdministration, http://www.example.org/CastillaLaMancha#$(LibraryAdministration)~iri ]
