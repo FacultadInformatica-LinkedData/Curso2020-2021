@@ -29,7 +29,7 @@ prefixes:
           condition:
             function: equal
             parameters:
-              - [str1, $(UNICACION)]
+              - [str1, $(UBICACION)]
               - [str2, $(UBICACION)]
 
 
