@@ -1,0 +1,130 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://example.org#
+  
+mappings:
+
+  triplesmappuntodemuestreo:
+    sources:
+      - [abr_mo19-updated.csv~csv]
+    s: http://www.wsld.org/grupo17/ontology/$(PUNTO_MUESTREO)
+    po:
+      - [a, vocab:esPunto]
+      - [vocab:esPunto,$(PUNTO_MUESTREO)]
+      - [vocab:esPunto2,$(http://www.wsld.org/grupo17/ontology/esPuntoMuestreo)~iri]
+      - [vocab:esPunto3,$(string-column),xsd:string]
+      - p: vocab:mide
+        o:
+      #  mapping: triplesmapmedida #MIRAR ESTO¡¡¡¡¡
+      #- p: vocab:estaEnEstacion
+      #  o:
+        mapping: triplesmapestacion
+         condition:
+          function: equal
+          parameters:
+             - [str1, $(ESTACION)]
+             - [str2, $(ESTACION)]
+
+  triplesmapestacion:
+    sources:
+      - [abr_mo19-updated.csv~csv]
+    s: http://www.wsld.org/grupo17/ontology/$(ESTACION)
+    po:
+      - [a, vocab:Estacion]
+      - [vocab:estacion,$(ESTACION)]
+      - [vocab:estacion2,$(http://www.wsld.org/grupo17/ontology/Estacion)~iri]
+      - [vocab:estacion3,$(integer-column),xsd:integer]
+      - p: vocab:estaEnProvincia
+        o:
+        mapping: triplesmapprovincia 
+        condition:
+           function: equal
+           parameters:
+             - [str1, $(ESTACION)]
+             - [str2, $(PROVINCIA)]
+
+  triplesmapprovincia:
+    sources:
+      - [abr_mo19-updated.csv~csv]
+    s: http://www.wsld.org/grupo17/ontology/$(PROVINCIA)
+    po:
+      - [a, vocab:Provincia]
+      - [vocab:provincia,$(PROVINCIA)]
+      - [vocab:provincia2,$(http://www.wsld.org/grupo17/ontology/Provincia)~iri]
+      - [vocab:provincia3,$(integer-column),xsd:integer]
+      - p:
+        o:
+        mapping: triplesmapestacion ##########ESTO ES REDUNDANTE YO LO QUITARIA SEGUN DIBUJO DE ONTOLOGIA######
+        condition:
+           function: equal
+           parameters:
+             - [str1, $(PROVINCIA)]
+             - [str2, $(ESTACION)]
+
+  triplesmapmedida:
+    sources:
+      - [abr_mo19-updated.csv~csv]
+    s: http://www.wsld.org/grupo17/ontology/$(DIA)-$(MES)-$(ANO)
+    po:
+      - [a, vocab:esMedida]
+      - [vocab:fecha,$(ANO)-$(MES)-$(DIA), xsd:date]
+      - [vocab:hora1, $(Hora1), xsd:double]
+      - [vocab:valido1, $(V01), xsd:boolean]
+      - [vocab:hora2, $(Hora2), xsd:double]
+      - [vocab:valido2, $(V02), xsd:boolean]
+      - [vocab:hora3, $(Hora3), xsd:double]
+      - [vocab:valido3, $(V03), xsd:boolean]
+      - [vocab:hora4, $(Hora4), xsd:double]
+      - [vocab:valido4, $(V04), xsd:boolean]
+      - [vocab:hora5, $(Hora5), xsd:double]
+      - [vocab:valido5, $(V05), xsd:boolean]
+      - [vocab:hora6, $(Hora6), xsd:double]
+      - [vocab:valido6, $(V06), xsd:boolean]
+      - [vocab:hora7, $(Hora7), xsd:double]
+      - [vocab:valido7, $(V07), xsd:boolean]
+      - [vocab:hora8, $(Hora8), xsd:double]
+      - [vocab:valido8, $(V08), xsd:boolean]
+      - [vocab:hora9, $(Hora9), xsd:double]
+      - [vocab:valido9, $(V09), xsd:boolean]
+      - [vocab:hora10, $(Hora10), xsd:double]
+      - [vocab:valido10, $(V10), xsd:boolean]
+      - [vocab:hora11, $(Hora11), xsd:double]
+      - [vocab:valido11, $(V11), xsd:boolean]
+      - [vocab:hora12, $(Hora12), xsd:double]
+      - [vocab:valido12, $(V12), xsd:boolean]
+      - [vocab:hora13, $(Hora13), xsd:double]
+      - [vocab:valido13, $(V13), xsd:boolean]
+      - [vocab:hora14, $(Hora14), xsd:double]
+      - [vocab:valido14, $(V14), xsd:boolean]
+      - [vocab:hora15, $(Hora15), xsd:double]
+      - [vocab:valido15, $(V15), xsd:boolean]
+      - [vocab:hora16, $(Hora16), xsd:double]
+      - [vocab:valido16, $(V16), xsd:boolean]
+      - [vocab:hora17, $(Hora17), xsd:double]
+      - [vocab:valido17, $(V17), xsd:boolean]
+      - [vocab:hora18, $(Hora18), xsd:double]
+      - [vocab:valido18, $(V18), xsd:boolean]
+      - [vocab:hora19, $(Hora19), xsd:double]
+      - [vocab:valido19, $(V19), xsd:boolean]
+      - [vocab:hora20, $(Hora20), xsd:double]
+      - [vocab:valido20, $(V20), xsd:boolean]
+      - [vocab:hora21, $(Hora21), xsd:double]
+      - [vocab:valido21, $(V21), xsd:boolean]
+      - [vocab:hora22, $(Hora22), xsd:double]
+      - [vocab:valido22, $(V22), xsd:boolean]
+      - [vocab:hora23, $(Hora23), xsd:double]
+      - [vocab:valido23, $(V23), xsd:boolean]
+      - [vocab:hora24, $(Hora24), xsd:double]
+      - [vocab:valido24, $(V24), xsd:boolean]
+      - p:
+        o:
+        mapping: 

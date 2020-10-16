@@ -54,6 +54,10 @@ prop:districtName rdf:type owl:DatatypeProperty;
                   rdfs:domain class:District;
                   rdfs:range xsd:string.
 
+prop:type rdf:type owl:DatatypeProperty;
+          rdfs:domain class:TypeResidue;
+          rdfs:range xsd:string.
+
 ##################### Classes #####################
 
 # http://contenedoresdemadrid.com/Street

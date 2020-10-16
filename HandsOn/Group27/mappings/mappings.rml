@@ -16,7 +16,7 @@ map:map_triplesmap2_0 rml:logicalSource map:source_1;
     rr:subjectMap map:s_1;
     rr:predicateObjectMap map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13.
 map:om_0 a rr:ObjectMap;
-    rr:constant "district";
+    rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
     rml:reference "NOMBRE_ESPECIE";
@@ -43,7 +43,7 @@ map:om_4 a rr:ObjectMap;
     rml:reference "NombreDistritoURI";
     rr:termType rr:Literal.
 map:om_5 a rr:ObjectMap;
-    rr:constant "district";
+    rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
 map:om_6 a rr:ObjectMap;
     rml:reference "TotalArboles";
@@ -137,3 +137,4 @@ map:source_0 a rml:LogicalSource;
 map:source_1 a rml:LogicalSource;
     rml:source "Estado_arbolado_Parque_Zonas_Verdes-updated.csv";
     rml:referenceFormulation ql:CSV.
+

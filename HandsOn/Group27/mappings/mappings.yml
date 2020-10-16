@@ -11,6 +11,7 @@ prefixes:
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   vocab: http://api.zonasverdesmadrid.es#
   district: http://api.zonasVerdesMadrid.com/ontologies/districts#
+  ontologies: http://api.zonasVerdesMadrid.com/ontologies#
   
 mappings:
   triplesmap1:
@@ -18,7 +19,7 @@ mappings:
       - [ArboladoZonasVerdesDistritosCalles_2019-updated.csv~csv]
     s: http://api.zonasverdesmadrid.com/resources/districts/$(NombreDistritoURI)
     po:
-      - [a, district]
+      - [a, ontologies:district]
       - [district:hasSpecies,$(NOMBRE_ESPECIE)]
       - [district:hasUnits,$(Num_Unidades)]
       - [district:hasId,$(Num_Distrito)]
@@ -29,7 +30,7 @@ mappings:
       - [Estado_arbolado_Parque_Zonas_Verdes-updated.csv~csv]
     s: http://api.zonasverdesmadrid.com/resources/districts/$(DISTRITOURI)
     po:
-      - [a, district]
+      - [a, ontologies:district]
       - [district:hasTotal,$(TotalArboles)]
       - [district:hasHeightAverage,$(AlturaMedia)]
       - [district:hasPerimeterAverage,$(PerimetroMedio)]
