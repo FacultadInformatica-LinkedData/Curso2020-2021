@@ -1,4 +1,4 @@
- prefixes:
+prefixes:
     rr: http://www.w3.org/ns/r2rml#
     foaf: http://xmlns.com/foaf/0.1/
     xsd: http://www.w3.org/2001/XMLSchema#
@@ -11,10 +11,10 @@
     rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
     findparking: http://findyourparking.es/lcc/ontology/Parking#
 
-  mappings:
+mappings:
     Parking:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/Parking/$(Id)
       po:
        - [a, findparking:Parking]
@@ -42,15 +42,21 @@
 
     Address:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/Address/$(Address-Id)
       po:
        - [findparking:hasAddressId, $(Address-Id),xsd:string]
        - [findparking:hasProvince, $(Province),xsd:string]
+       - [owl:sameAs, $(Province Wikidata)~iri]
        - [findparking:hasCity, $(City),xsd:string]
+       - [owl:sameAs, $(City Wikidata)~iri]
        - [findparking:hasDistrict, $(District),xsd:string]
+       - [owl:sameAs, $(District Wikidata)~iri]
        - [findparking:hasNeighborhood, $(Neighborhood),xsd:string]
+       - [owl:sameAs, $(Neighborhood Wikidata)~iri]
        - [findparking:hasStreet, $(Street),xsd:string]
+       - [owl:sameAs, $(Street Wikidata)~iri]
        - [findparking:hasNumber, $(Number),xsd:string]
        - [findparking:hasPostalCode, $(Postal Code),xsd:string]
          
+  
