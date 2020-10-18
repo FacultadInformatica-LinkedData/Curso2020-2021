@@ -30,8 +30,8 @@
     "baseColumnName": "Country Name",
     "expression": "grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id",
     "onError": "set-to-blank",
-    "newColumnName": "wikidata:City",
+    "newColumnName": "wikidata:Country",
     "columnInsertIndex": 1,
-    "description": "Create column wikidata:City at index 1 based on column Country Name using expression grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id"
+    "description": "Create column wikidata:Country at index 1 based on column Country Name using expression grel:\"https://wikidata.org/wiki/\"+cell.recon.match.id"
   }
 ]
