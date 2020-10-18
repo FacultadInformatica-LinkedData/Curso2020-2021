@@ -2,47 +2,51 @@ prefixes:
   xsd: http://www.w3.org/2001/XMLSchema#
   swo: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#
   dbp: http://dbpedia.org/ontology/
+  owl: http://www.w3.org/2002/07/owl#
+  wiki: https://www.wikidata.org/wiki/
 
 mappings:
   provincia:
     source:
       - [../csv/MadridAirQuality2020.csv~csv]
-    s: http://dbpedia.org/ontology/province/$(PROVINCIA)
+    s: http://dbpedia.org/ontology/province/$(PROVINCE)
     po:
       - [a, dbp:province]
-      - [swo:codigo, $(PROVINCIA), xsd:integer]
+      - [swo:codigo, $(PROVINCE), xsd:string]
+      - [owl:sameAs, wiki:Q162620]
     
   municipio:
     source:
       - [../csv/MadridAirQuality2020.csv~csv]
-    s: http://dbpedia.org/ontology/Municipality/$(MUNICIPIO)
+    s: http://dbpedia.org/ontology/Municipality/$(MUNICIPALITY)
     po:
       - [a, dbp:Municipality]
-      - [swo:codigo, $(MUNICIPIO), xsd:integer]
+      - [swo:codigo, $(MUNICIPALITY), xsd:string]
+      - [owl:sameAs, wiki:Q2074737]
       - p: swo:formaParteDe
         o:
           - mapping: provincia
             condition:
               function: equal
               parameters:
-                - [str1, $(PROVINCIA)]
-                - [str2, $(PROVINCIA)]
+                - [str1, $(PROVINCE)]
+                - [str2, $(PROVINCE)]
       - p: swo:contieneEstaciones
         o:
           - mapping: estacion
             condition:
               function: equal
               parameters:
-                - [str1, $(ESTACION)]
-                - [str2, $(ESTACION)]
+                - [str1, $(STATION)]
+                - [str2, $(STATION)]
 
   estacion:
     source:
       - [../csv/MadridAirQuality2020.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(ESTACION)
+    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(STATION)
     po:
-      - [swo:codigo, $(ESTACION), xsd:integer]
-      - [swo:lugarEstacion, $(LUGAR_ESTACION), xsd:string]
+      - [swo:codigo, $(STATION), xsd:integer]
+      - [swo:lugarEstacion, $(STATION_LOCATION), xsd:string]
       - p: swo:tomaMuestras
         o:
           - mapping: muestra
@@ -58,8 +62,8 @@ mappings:
     po:
       - [a, swo:Muestra]
       - [swo:codigo, $(ID), xsd:integer]
-      - [swo:compuesto, $(COMPUESTO_MEDIDO), xsd:string]
-      - [swo:valido, $(VALIDEZ), xsd:boolean]
-      - [xsd:date, $(FECHA), xsd:dateTime]
-      - [swo:tecnicaMedicion, $(TECNICA_DE_MEDICION), xsd:string]
-      - [swo:valorMedido, $(VALOR), xsd:integer]
+      - [swo:compuesto, $(MEASURED_COMPOUND), xsd:string]
+      - [swo:valido, $(IS_VALID), xsd:boolean]
+      - [xsd:date, $(DATE), xsd:dateTime]
+      - [swo:tecnicaMedicion, $(MEASUREMENT_TECHNIQUE), xsd:string]
+      - [swo:valorMedido, $(VALUE), xsd:integer]
