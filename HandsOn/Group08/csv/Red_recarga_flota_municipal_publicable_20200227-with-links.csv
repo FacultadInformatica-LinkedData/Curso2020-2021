@@ -1,0 +1,250 @@
+﻿DISTRITO;EDIFICIO;UBICACION;COORDENADA Y;COORDENADA X;TERMINALES;CONECTORES;POTENCIA;CODIGO
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG07-10a
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG07-10b
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG07-10c
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG07-10d
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG07-10e
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04a
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04b
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04c
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04d
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04e
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04f
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04g
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04h
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-04i
+Arganzuela;building;street;latitude;longitude;2;Mennekes;7.3 KW  32 A mono;PRM-AG08-05
+Arganzuela;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04j
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-02b
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-02a
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-03a
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-03b
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-03c
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-03d
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-01a
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-01b
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-01c
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-01d
+Arganzuela;building;street;latitude;longitude;1;Mennekes;7.3 KW  32 A mono;PRM-AG08-01e
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG01-10a
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG01-10b
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;3.7 kW;PRM-AG01-01a
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG01-01b
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;3.7 kW;PRM-AG01-01b
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;3.7 kW;PRM-AG01-01c
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;3.7 kW;PRM-AG01-01d
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;3.7 kW;PRM-AG01-01e
+Arganzuela;building;street;latitude;longitude;1;Mennekes manguera;3.7 kW;PRM-AG01-01f
+Arganzuela;building;street;latitude;longitude;1;mennekes Hembra;32 A trifásico;PRM-AG01-01b
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7;PRM-AG05-03d
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7;PRM-AG05-03b
+Arganzuela;building;street;latitude;longitude;1;Mennekes conector hembra sin manguera;22 kW;PRM-AG05-03c
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG01-02a
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG01-02b
+Arganzuela;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG01-02c
+Barajas;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-JM21-10
+Barajas;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG07-01a
+Barajas;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG07-01b
+Barajas;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG07-01c
+Barajas;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG07-01d
+Barajas;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG07-01e
+Barajas;building;street;latitude;longitude;2;Mennekes;16 A Trifásico 11 kW;PRM-AG07-01f
+Barajas;building;street;latitude;longitude;1;Mennekes;16A monofásico;PRM-AG07-01g
+Barajas;building;street;latitude;longitude;1;Mennekes;16A monofásico;PRM-AG07-01h
+Barajas;building;street;latitude;longitude;1;Mennekes;16A monofásico;PRM-AG07-01i
+Barajas;building;street;latitude;longitude;1;Mennekes;16A monofásico;PRM-AG07-01j
+Barajas;building;street;latitude;longitude;1;Mennekes;16A monofásico;PRM-AG07-01k
+Barajas;building;street;latitude;longitude;1;Yazaki con manguera;16 A monofásico;PRM-AG05-01c
+Carabanchel;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-JM
+Centro;building;street;latitude;longitude;1;Mennekes manguera;16 A;PRM-AG04-02a
+Centro;building;street;latitude;longitude;1;Mennekes manguera;16 A;PRM-AG04-02b
+Centro;building;street;latitude;longitude;1;Mennekes;16 A;PRM-AG04-02c
+Centro;building;street;latitude;longitude;1;Mennekes;16 A;PRM-AG06-01
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-01a
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-01b
+Centro;building;street;latitude;longitude;1;Mennekes/Schuko;3.7 kW;PRM-AG04-10a
+Centro;building;street;latitude;longitude;1;Mennekes/Schuko;3.7 kW;PRM-AG04-10B
+Centro;building;street;latitude;longitude;1;Mennekes/Schuko;3.7 kW;PRM-AG04-10C
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-10d
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-10e
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-10f
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-10g
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-10h
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG04-10i
+Centro;building;street;latitude;longitude;1;Mennekes;7.3 KW 32 A configuracion  mono;PRM-AG04-
+Centro;building;street;latitude;longitude;1;Mennekes;7.3 KW 32 A configuracion  mono;PRM-AG04-
+Centro;building;street;latitude;longitude;1;Mennekes;7.3 KW 32 A configuracion  mono;PRM-AG04-
+Centro;building;street;latitude;longitude;1;Mennekes;7.3 KW 32 A configuracion  mono;PRM-AG04-
+Centro;building;street;latitude;longitude;1;Mennekes;7.3 KW 32 A configuracion  mono;PRM-AG04-
+Centro;building;street;latitude;longitude;1;Mennekes;7.3 KW 32 A configuracion  mono;PRM-AG04-
+Centro;building;street;latitude;longitude;1;Mennekes con manguera;32 A modificado a trifásico;PRM-AG05-04c
+Centro;building;street;latitude;longitude;1;Mennekes con manguera;32 A modificado a trifásico;PRM-AG05-04c
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-04a
+Centro;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-04b
+Centro;building;street;latitude;longitude;1;Mennekes;11 kW;PRM-AG05-04c
+Chamartín;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-JM05-01
+Chamartín;building;street;latitude;longitude;1;Mennekes;32 A configurado inteligente;PRM-AG05-03a
+Chamartín;building;street;latitude;longitude;1;Mennekes;33 A configurado inteligente;PRM-AG05-03a
+Chamartín;building;street;latitude;longitude;1;Schuko;3.7 kW;PRM-AG05-03a
+Chamartín;building;street;latitude;longitude;1;Schuko;3.7 kW;PRM-AG05-03a
+Chamartín;building;street;latitude;longitude;1;Schuko;3.7 kW;PRM-AG05-03a
+Chamartín;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Chamberí;building;street;latitude;longitude;1;Mennekes manguera;32 A limitados a 10 kW;PRM-AG05-0
+Chamberí;building;street;latitude;longitude;1;Mennekes manguera;32 A limitados a 10 kW;PRM-AG05-0
+Chamberí;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-JM
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes/Schuko;;PRM-AG05-20a
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05a
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05b
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05c
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05d
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05e
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05f
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05g
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05i
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05j
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05k
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05l
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05m
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;22 Kw Gestion de potencia;PRM-AG08-05n
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes con manguera;22 kW;PRM-AG08-05h
+Ciudad Lineal;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-JM15-01a
+Fuencarral-El Pardo;building;street;latitude;longitude;1;Mennekes con manguera;22 kW 32 A Trifásico Inteligente Blaudrive;PRM-AG05-
+Fuencarral-El Pardo;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásio;PRM-JM
+Fuencarral-El Pardo;building;street;latitude;longitude;1;Sucko;3.7 kW;PRM-JM08-01a
+Hortaleza;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-14a
+Hortaleza;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-14b
+Hortaleza;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-JM16-01a
+Latina;building;street;latitude;longitude;1;Mennekes;32 A manguera;PRM-JM
+Latina;building;street;latitude;longitude;1;Mennekes;32 A manguera;PRM-JM
+Latina;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Latina;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Latina;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Latina;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12a
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12b
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12c
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12d
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12e
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12f
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12g
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-12h
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-07a
+Latina;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-07b
+Latina;building;street;latitude;longitude;1;Mennekes conector hembra sin manguera;16 A monofásico;PRM-AG05-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes con manguera;32 A trifásico;PRM-AG05-01d
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;7.4 Kw;PRM-AG05-01a
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;7.4 Kw;PRM-AG05-01b
+Moncloa-Aravaca;building;street;latitude;longitude;1;mennekes Hembra/Schuko;3.7 kW monofasico Blaudrive;PRM-AG05-09
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW PlgT2 Circutor Simple monofásico;PRM-AG05-13a
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW PlgT2 Circutor Simple monofásico;PRM-AG05-13b
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;380 V en trifasica;PRM-AG05-02a
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;;PRM-AG05-02a
+Moncloa-Aravaca;building;street;latitude;longitude;1;Chademo - COMBO;22 kW corriente continua;PRM-AG05-02a
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG08-01
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 K Plug T2 Monofásico;PRM-AG08-01a
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 K Plug T2 Monofásico;PRM-AG08-01b
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 K Plug T2 Monofásico;PRM-AG08-01c
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 K Plug T2 Monofásico;PRM-AG08-01d
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 K Plug T2 Monofásico;PRM-AG08-01e
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 K Plug T2 Monofásico;PRM-AG08-01f
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-JM09-01
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-08
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-08
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-08
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-08
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG08-06a
+Moncloa-Aravaca;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG08-06b
+Moratalaz;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásio;PRM-JM
+Moratalaz;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-JM14-01
+Puente de Vallecas;building;street;latitude;longitude;1;Mennekes / Schuco;32 A monofásico;PRM-AG05-04c
+Puente de Vallecas;building;street;latitude;longitude;1;Mennekes manguera;32 A trifásico;PRM-JM
+Retiro;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-JM
+Retiro;building;street;latitude;longitude;1;Mennekes;3.7 kW Plug T2 circutor;PRM-AG05-10a
+Retiro;building;street;latitude;longitude;1;Mennekes;3.7 kW Plug T2 circutor;PRM-AG05-10b
+Retiro;building;street;latitude;longitude;1;Mennekes/Schuko;3.7 kW;PRM-AG02-01a
+Retiro;building;street;latitude;longitude;1;Mennekes/Schuko;3.7 kW;PRM-AG02-01b
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG08-07a
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG08-07b
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG08-07c
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG08-07d
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG08-07e
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG08-07f
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG03-02a
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG03-01c
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG03-01a
+Retiro;building;street;latitude;longitude;1;Mennekes/Schuko;33 A gestión potencia plataforma IBIL;PRM-AL01-01a
+Retiro;building;street;latitude;longitude;1;Mennekes/Schuko;34 A gestión potencia plataforma IBIL;PRM-AL01-01b
+Retiro;building;street;latitude;longitude;1;Mennekes;32 A gestión potencia plataforma IBIL;PRM-AG09-01
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04a
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04b
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04c
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04c
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04c
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04c
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04c
+Salamanca;building;street;latitude;longitude;1;Mennekes;32 A trifásico 22 Kw;PRM-AG08-04c
+Salamanca;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-11a
+Salamanca;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-AG05-11b
+Salamanca;building;street;latitude;longitude;1;Mennekes manguera;32 A gestion potencia;PRM-AG05-05a
+Salamanca;building;street;latitude;longitude;1;Mennekes manguera;32 A gestion potencia;PRM-AG05-05b
+Salamanca;building;street;latitude;longitude;1;Mennekes manguera;32 A gestion potencia;PRM-AG05-05c
+Salamanca;building;street;latitude;longitude;1;Mennekes / Schuco;32 A monofásico;PRM-AG05-04c
+San Blas;building;street;latitude;longitude;1;Mennekes;3.7 KW Plug T2 monofásico;PRM-JM20-01a
+San Blas;building;street;latitude;longitude;1;Mennekes;32 A trifásico;PRM-JM
+San Blas;building;street;latitude;longitude;1;Mennekes;;PRM-AL01-10
+San Blas;building;street;latitude;longitude;2;Yazaki con manguera;16 A monofásico;PRM-AG05-04c
+San Blas;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+San Blas;building;street;latitude;longitude;1;Mennekes manguera;32 A monofásico;PRM-AG08-
+Tetuán;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-06a
+Tetuán;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG05-06b
+Tetuán;building;street;latitude;longitude;1;Mennekes;3.7 kW Plug T2 Circutor simple monofásico;PRM-JM06-01a
+Usera;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-JM
+Usera;building;street;latitude;longitude;1;yazaki;16 A manguera Yazaki;PRM-AG05-
+Usera;building;street;latitude;longitude;1;Mennekes;32 A manguera;PRM-AG05-
+Vicálvaro;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-JM
+Vicálvaro;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-JM
+Vicálvaro;building;street;latitude;longitude;1;Mennekes / Schuco;32 A monofásico;PRM-AG05-04c
+Villa de Vallecas;building;street;latitude;longitude;1;Mennekes / Schuco;32 A monofásico;PRM-AG05-04c
+Villa de Vallecas;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-AG01
+Villa de Vallecas;building;street;latitude;longitude;1;Mennekes manguera;16 A monofásico;PRM-JM
+Villa de Vallecas;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-AG08-08
+Villa de Vallecas;building;street;latitude;longitude;1;Mennekes;16 A monofásico;PRM-AG08-09
+Villaverde;building;street;latitude;longitude;1;Mennekes;3.7 kW;PRM-JM17-01
+Villaverde;building;street;latitude;longitude;1;Mennekes / Schuco;32 A monofásico;PRM-AG05-04c
