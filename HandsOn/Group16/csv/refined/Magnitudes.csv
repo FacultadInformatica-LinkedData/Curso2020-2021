@@ -1,0 +1,15 @@
+magnitud,notation,nombre,name
+01,SO2,Dióxido de Azufre,Sulfur Dioxide
+06,CO,Monóxido de Carbono,Carbon Monoxide
+07,NO,Monóxido de Nitrógeno,Nitrogen Monoxide
+08,NO2,Dióxido de Nitrógeno,Nitrogen Dioxide
+09,PM2.5,Partículas <2.5 μm,Particles <2.5 μm
+10,PM10,Partículas <10 μm,Particles <10 μm
+12,NOx,Óxidos de Nitrógeno,Nitrogen Oxides
+14,O3,Ozono,Ozone
+20,TOL,Tolueno,Toluene
+30,BEN,Benceno,Benzene
+35,EBE,Etilbenceno,Ethylbenzene
+42,TCH,Hidrocarburos totales (hexano),Total Hydrocarbons (hexane)
+43,CH4,Metano,Methane
+44,NMHC,Hidrocarburosno metánicos (hexano),Non-methane hydrocarbons (hexane)
