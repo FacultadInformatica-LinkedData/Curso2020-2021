@@ -1,0 +1,10 @@
+//Query 1: Population
+
+SELECT ?lib ?town ?pop
+WHERE {
+	?town rdf:type Town.
+	?lib ont:locatedIn ?town.
+	?town  wdt:population ?pop.
+	}
+LIMIT 100
+
