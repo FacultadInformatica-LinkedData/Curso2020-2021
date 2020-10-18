@@ -1,0 +1,16 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX findparking: <http://findyourparking.es/lcc/ontology/Parking#>
+
+#Resultado de la query: Madrid
+SELECT DISTINCT ?city
+	WHERE{
+		?city rdf:type <http://findyourparking.es/lcc/Parking/Address>.
+		?city owl:sameAs <https://www.wikidata.org/wiki/Q2807>
+	}
+#Resultado de la query: Calle de Montalbán, Madrid
+SELECT DISTINCT ?street 
+	WHERE{
+		?street owl:sameAs <https://www.wikidata.org/wiki/Q29903983>
+	}
