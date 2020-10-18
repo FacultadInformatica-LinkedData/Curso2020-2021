@@ -4,7 +4,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix class: <http://www.semanticweb.org/daniel/ontologies/2020/8/arboles#>.
-@prefix owl: <http://w3/2002/07/owl#>.
 @prefix map: <http://mapping.example.com/>.
 @base <http://example.com/ns#>.
 
@@ -41,12 +40,9 @@
 			];
 		];
 		rr:predicateObjectMap[
-			rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI];
-			rr:objectMap [ 
-				rr:template "wikidataESPECIE";
-				rr:termtype rr:IRI]
-		];
-.
+		rr:predicateMap[ rr:constant owl:sameAs; rr:termType rr:IRI];
+		rr:objectMap[ rml:reference "wikidataESPECIE"; rr:termType rr:IRI ]
+		].
 
 <#TriplesMap2>
 	rml:logicalSource [
@@ -83,9 +79,9 @@
 			];
 		];
 		rr:predicateObjectMap[
-			rr:predicateMap[rr:constant owl:sameAs; rr:termType rr:IRI];
-			rr:objectMap [ rr:template "wikidataNOMBRE_ESPECIE";
-			rr:termtype rr:IRI];
+			rr:predicateMap [rr:constant owl:sameAs; rr:termType rr:IRI];
+			rr:objectMap [ rml:reference "wikidataNOMBRE_ESPECIE";
+			rr:termType rr:IRI];
 		].
 
 <#TriplesMap3>
@@ -104,9 +100,9 @@
 		rr:objectMap[rml:reference "PARQUE"; rr:termtype rr:Literal];
 	];
 	rr:predicateObjectMap[
-		rr:predicateMap[rr:constant owl:sameAs; rr:termType rr:IRI];
-		rr:objectMap [ rr:template "wikidataPARQUE";
-		rr:termtype rr:IRI];
+		rr:predicateMap [rr:constant owl:sameAs; rr:termType rr:IRI];
+		rr:objectMap [ rml:reference "wikidataPARQUE";
+		rr:termType rr:IRI];
 	].
 
 <#TriplesMap4>
@@ -126,6 +122,6 @@
 	];
 	rr:predicateObjectMap[
 		rr:predicateMap[rr:constant owl:sameAs; rr:termType rr:IRI];
-		rr:objectMap [ rr:template "wikidataNombre_distrito";
-		rr:termtype rr:IRI];
+		rr:objectMap [ rml:reference "wikidataNombre_distrito";
+		rr:termType rr:IRI];
 	].
