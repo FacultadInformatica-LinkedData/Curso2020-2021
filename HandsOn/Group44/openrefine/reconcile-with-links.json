@@ -1,0 +1,608 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCE",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q162620",
+        "name": "province of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column PROVINCE to type Q162620"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PROVINCE",
+    "similarValue": "Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24004405",
+      "name": "Madrid Province",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Province (Q24004405) for cells containing \"Madrid\" in column PROVINCE"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MUNICIPALITY",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipality of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column MUNICIPALITY to type Q2074737"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q11173",
+        "name": "chemical compound"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column MEASURED_COMPOUND to type Q11173"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Dióxido de Azufre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5282",
+      "name": "sulfur dioxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sulfur dioxide (Q5282) for cells containing \"Dióxido de Azufre\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Benceno",
+                "l": "Benceno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Benceno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2270",
+      "name": "benzene",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item benzene (Q2270) for cells containing \"Benceno\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Dióxido de falseitrógeno",
+                "l": "Dióxido de falseitrógeno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Dióxido de falseitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207895",
+      "name": "nitrogen dioxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitrogen dioxide (Q207895) for cells containing \"Dióxido de falseitrógeno\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Etilbenceno",
+                "l": "Etilbenceno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Etilbenceno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q409184",
+      "name": "ethylbenzene",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ethylbenzene (Q409184) for cells containing \"Etilbenceno\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Hidrocarburos no metánicos",
+                "l": "Hidrocarburos no metánicos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Hidrocarburos no metánicos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1616687",
+      "name": "Hexanol",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hexanol (Q1616687) for cells containing \"Hidrocarburos no metánicos\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Hidrocarburos totales",
+                "l": "Hidrocarburos totales"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Hidrocarburos totales",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1616687",
+      "name": "Hexanol",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hexanol (Q1616687) for cells containing \"Hidrocarburos totales\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Metano",
+                "l": "Metano"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Metano",
+    "judgment": "matched",
+    "match": {
+      "id": "Q37129",
+      "name": "methane",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item methane (Q37129) for cells containing \"Metano\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Monóxido de Carbono",
+                "l": "Monóxido de Carbono"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Monóxido de Carbono",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2025",
+      "name": "carbon monoxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item carbon monoxide (Q2025) for cells containing \"Monóxido de Carbono\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Monóxido de falseitrógeno",
+                "l": "Monóxido de falseitrógeno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Monóxido de falseitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207843",
+      "name": "nitric oxide (radical)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitric oxide (radical) (Q207843) for cells containing \"Monóxido de falseitrógeno\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Óxidos de falseitrógeno",
+                "l": "Óxidos de falseitrógeno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Óxidos de falseitrógeno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q424418",
+      "name": "nitrogen oxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitrogen oxide (Q424418) for cells containing \"Óxidos de falseitrógeno\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ozono",
+                "l": "Ozono"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Ozono",
+    "judgment": "matched",
+    "match": {
+      "id": "Q36933",
+      "name": "ozone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ozone (Q36933) for cells containing \"Ozono\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Partículas < 10 μm",
+                "l": "Partículas < 10 μm"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Partículas < 10 μm",
+    "description": "Clear recon data for cells containing \"Partículas < 10 μm\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Partículas < 2.5 μm",
+                "l": "Partículas < 2.5 μm"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Partículas < 2.5 μm",
+    "description": "Clear recon data for cells containing \"Partículas < 2.5 μm\" in column MEASURED_COMPOUND"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "MEASURED_COMPOUND",
+          "expression": "value",
+          "columnName": "MEASURED_COMPOUND",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tolueno",
+                "l": "Tolueno"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "MEASURED_COMPOUND",
+    "similarValue": "Tolueno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q15779",
+      "name": "toluene",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item toluene (Q15779) for cells containing \"Tolueno\" in column MEASURED_COMPOUND"
+  }
+]
