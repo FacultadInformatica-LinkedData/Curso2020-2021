@@ -1,0 +1,20 @@
+1. Obtener todas las estaciones de bicis
+select distinct ?bikeSt
+where{
+?bikeSt rdf:type <http://www.semanticweb.org/bicimad/classes#Bike_Station>. }
+
+2. Contar cuantas estaciones de bici hay
+SELECT COUNT (?nStations)
+
+    WHERE {
+?bikeSt rdf:type <http://www.semanticweb.org/bicimad/classes#Bike_Station>. }
+
+3. Que barrios tiene el distrito 1 (Centro)
+
+select distinct ?neigh 
+where {
+?neigh has_district <http://dbpedia.org/page/Category:Centro_(Madrid)>. 
+
+?neigh has_district <http://www.semanticweb.org/bicimad/classes#District/1>. 
+
+}

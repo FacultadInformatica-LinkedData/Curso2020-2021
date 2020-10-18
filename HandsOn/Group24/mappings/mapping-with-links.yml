@@ -11,7 +11,7 @@ prefixes:
 mappings:
  TriplesMap1:
   sources:
-    - [bases_bicimad-updated2.csv~csv]
+    - [bases_bicimad-with-links.csv~csv]
   s: http://www.semanticweb.org/bicimad/classes#Bike_Station/$(bs_id)
   po:
     - [rdf:type, classes:Bike_Station]
@@ -32,7 +32,7 @@ mappings:
            - [str2, $(street_name)]
  TriplesMap2:
     sources:
-    - [bases_bicimad-updated2.csv~csv]
+    - [bases_bicimad-with-links.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#District/$(district_number)
     po:
       - [rdf:type, classes:District]
@@ -40,7 +40,7 @@ mappings:
       - [properties:district_number, $(district_number), xsd:integer]
  TriplesMap3:
     sources:
-    - [bases_bicimad-updated2.csv~csv]
+    - [bases_bicimad-with-links.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#Neighbourhood/$(neighbourhood_number)
     po:
       - [rdf:type, classes:Neighbourhood]
@@ -56,7 +56,7 @@ mappings:
              - [str2, $(district_number)]
  TriplesMap4:
   sources:
-      - [bases_bicimad-updated2.csv~csv]
+      - [bases_bicimad-with-links.csv~csv]
   s: http://www.semanticweb.org/bicimad/classes#Street/$(street_name)
   po:
     - [rdf:type, classes:Street]
