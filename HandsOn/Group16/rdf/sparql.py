@@ -4,7 +4,7 @@
     SPARQL queries for checking WikiData liking
 """
 
-local_storage = "/home/hxshfx/Descargas/output2.ttl"
+github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/HandsOn/Group16/rdf/"
 
 "Data loading and graph building"
 
@@ -13,7 +13,7 @@ from rdflib.namespace import RDF, RDFS, OWL
 from rdflib.plugins.sparql import prepareQuery
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#"), override=False)
-g.parse(local_storage, format="nt")
+g.parse(github_storage + "output-with-links.ttl", format="nt")
 
 ns = Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#")
 
