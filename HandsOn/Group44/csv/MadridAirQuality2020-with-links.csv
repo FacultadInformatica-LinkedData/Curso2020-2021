@@ -1,0 +1,1489 @@
+ID,PROVINCE,MUNICIPALITY,STATION,STATION_LOCATION,MEASURED_COMPOUND,MEASUREMENT_TECHNIQUE,DATE,VALUE,IS_VALID
+820592020101,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-01,3.2,true
+820592020102,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-02,3.9,true
+820592020103,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-03,7.1,true
+820592020104,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-04,1.5,true
+820592020105,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-05,1.6,true
+820592020106,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-06,2.3,true
+820592020107,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-07,5.7,true
+820592020108,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-08,9.3,true
+820592020109,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-09,8.0,true
+820592020110,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-10,3.1,true
+820592020111,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-11,1.8,true
+820592020112,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-12,3.2,true
+820592020113,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-13,6.6,true
+820592020114,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-14,11.7,true
+820592020115,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-15,3.5,true
+820592020116,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-16,5.9,true
+820592020117,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-17,3.4,true
+820592020118,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-18,2.6,true
+820592020119,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-19,1.4,true
+820592020120,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-20,4.1,false
+820592020121,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-21,1.9,true
+820592020122,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-22,2.3,true
+820592020123,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-23,2.8,true
+820592020124,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-24,2.0,true
+820592020125,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-25,1.4,true
+820592020126,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-26,1.5,true
+820592020127,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-27,2.4,true
+820592020128,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-28,1.7,true
+820592020129,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-29,2.0,true
+820592020130,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-30,2.2,true
+820592020131,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-31,1.9,true
+820592020201,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-01,1.4,true
+820592020202,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-02,1.4,true
+820592020203,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-03,4.1,true
+820592020204,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-04,7.1,true
+820592020205,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-05,2.9,true
+820592020206,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-06,3.8,true
+820592020207,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-07,3.2,true
+820592020208,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-08,3.3,true
+820592020209,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-09,1.8,true
+820592020210,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-10,3.8,true
+820592020211,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-11,5.6,true
+820592020212,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-12,4.7,true
+820592020213,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-13,3.1,true
+820592020214,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-14,3.8,true
+820592020215,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-15,3.6,true
+820592020216,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-16,3.5,true
+820592020217,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-17,2.5,true
+820592020218,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-18,2.4,true
+820592020219,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-19,4.5,true
+820592020220,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-20,6.2,true
+820592020221,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-21,5.1,true
+820592020222,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-22,5.0,true
+820592020223,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-23,2.8,true
+820592020224,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-24,4.1,true
+820592020225,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-25,6.1,true
+820592020226,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-26,2.5,true
+820592020227,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-27,3.4,true
+820592020228,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-28,3.9,true
+820592020229,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-29,2.2,true
+820592020230,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-30,0,false
+820592020231,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-31,0,false
+820592020301,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-01,0.7,true
+820592020302,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-02,1.1,true
+820592020303,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-03,1.5,true
+820592020304,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-04,2.4,true
+820592020305,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-05,1.7,true
+820592020306,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-06,1.4,true
+820592020307,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-07,1.6,true
+820592020308,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-08,1.6,true
+820592020309,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-09,1.8,true
+820592020310,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-10,4.3,true
+820592020311,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-11,6.3,true
+820592020312,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-12,5.6,true
+820592020313,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-13,3.8,true
+820592020314,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-14,1.1,true
+820592020315,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-15,0.7,true
+820592020316,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-16,0.5,true
+820592020317,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-17,0.8,true
+820592020318,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-18,1.6,true
+820592020319,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-19,0.8,true
+820592020320,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-20,0.6,true
+820592020321,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-21,0.5,true
+820592020322,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-22,0.3,true
+820592020323,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-23,0.6,true
+820592020324,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-24,0.6,true
+820592020325,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-25,0.6,true
+820592020326,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-26,1.6,true
+820592020327,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-27,0.8,true
+820592020328,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-28,0.8,true
+820592020329,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-29,1.0,true
+820592020330,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-30,0.3,true
+820592020331,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-31,0.4,true
+820592020401,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-01,0.4,true
+820592020402,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-02,0.6,true
+820592020403,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-03,0.3,true
+820592020404,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-04,0.5,true
+820592020405,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-05,0.2,true
+820592020406,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-06,0.4,true
+820592020407,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-07,0.4,true
+820592020408,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-08,0.6,true
+820592020409,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-09,0.6,true
+820592020410,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-10,0.4,true
+820592020411,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-11,0.3,true
+820592020412,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-12,0.3,true
+820592020413,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-13,0.5,true
+820592020414,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-14,0.7,true
+820592020415,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-15,0.4,true
+820592020416,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-16,0.4,true
+820592020417,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-17,0.8,true
+820592020418,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-18,1.0,true
+820592020419,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-19,0.5,true
+820592020420,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-20,0.9,true
+820592020421,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-21,0.5,true
+820592020422,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-22,0.8,true
+820592020423,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-23,1.1,true
+820592020424,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-24,0.8,true
+820592020425,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-25,0.5,true
+820592020426,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-26,0.4,true
+820592020427,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-27,0.4,true
+820592020428,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-28,0.4,true
+820592020429,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-29,0.6,true
+820592020430,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-30,0.5,true
+820592020431,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-31,0,false
+820592020501,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-01,0.5,true
+820592020502,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-02,0.6,true
+820592020503,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-03,1.3,true
+820592020504,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-04,1.7,true
+820592020505,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-05,0.8,true
+820592020506,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-06,1.8,true
+820592020507,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-07,1.7,true
+820592020508,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-08,0.9,true
+820592020509,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-09,1.2,true
+820592020510,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-10,0.3,true
+820592020511,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-11,0.6,true
+820592020512,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-12,0.9,true
+820592020513,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-13,0.7,true
+820592020514,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-14,0.9,true
+820592020515,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-15,0.8,true
+820592020516,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-16,0.5,true
+820592020517,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-17,0.4,true
+820592020518,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-18,2.0,true
+820592020519,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-19,4.9,true
+820592020520,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-20,3.5,true
+820592020521,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-21,4.2,true
+820592020522,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-22,2.4,true
+820592020523,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-23,1.8,true
+820592020524,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-24,0.7,true
+820592020525,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-25,1.1,true
+820592020526,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-26,1.4,true
+820592020527,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-27,1.5,true
+820592020528,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-28,1.3,true
+820592020529,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-29,2.3,true
+820592020530,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-30,1.8,true
+820592020531,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-31,1.1,true
+820592020601,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-01,1.3,true
+820592020602,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-02,2.5,true
+820592020603,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-03,1.6,true
+820592020604,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-04,1.1,true
+820592020605,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-05,1.2,true
+820592020606,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-06,0.8,true
+820592020607,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-07,0.7,true
+820592020608,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-08,6.6,false
+820592020609,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-09,2.4,true
+820592020610,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-10,1.9,true
+820592020611,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-11,1.6,true
+820592020612,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-12,1.2,true
+820592020613,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-13,0.9,true
+820592020614,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-14,1.1,true
+820592020615,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-15,1.5,true
+820592020616,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-16,1.7,true
+820592020617,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-17,1.5,true
+820592020618,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-18,1.8,true
+820592020619,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-19,1.5,true
+820592020620,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-20,2.0,true
+820592020621,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-21,1.8,true
+820592020622,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-22,2.3,true
+820592020623,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-23,2.7,true
+820592020624,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-24,2.6,true
+820592020625,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-25,2.0,true
+820592020626,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-26,1.7,true
+820592020627,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-27,1.2,true
+820592020628,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-28,1.1,true
+820592020629,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-29,1.8,true
+820592020630,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-30,1.8,true
+820592020631,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-31,0,false
+820592020701,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-01,2.1,true
+820592020702,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-02,1.9,true
+820592020703,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-03,2.1,true
+820592020704,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-04,1.1,true
+820592020705,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-05,0.3,true
+820592020706,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-06,0.9,true
+820592020707,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-07,1.6,true
+820592020708,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-08,3.5,true
+820592020709,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-09,2.2,true
+820592020710,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-10,2.0,true
+820592020711,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-11,1.9,true
+820592020712,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-12,0.8,true
+820592020713,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-13,1.7,true
+820592020714,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-14,1.3,true
+820592020715,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-15,1.8,true
+820592020716,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-16,2.1,true
+820592020717,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-17,1.5,true
+820592020718,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-18,1.3,true
+820592020719,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-19,1.7,true
+820592020720,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-20,2.5,true
+820592020721,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-21,2.5,true
+820592020722,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-22,2.6,true
+820592020723,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-23,2.7,true
+820592020724,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-24,3.5,true
+820592020725,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-25,1.7,true
+820592020726,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-26,3.0,true
+820592020727,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-27,3.4,true
+820592020728,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-28,2.7,true
+820592020729,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-29,2.9,true
+820592020730,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-30,2.5,true
+820592020731,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-31,3.4,true
+820592020801,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-01,3.1,true
+820592020802,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-02,1.6,true
+820592020803,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-03,1.4,true
+820592020804,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-04,1.6,true
+820592020805,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-05,2.9,true
+820592020806,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-06,5.0,true
+820592020807,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-07,2.1,true
+820592020808,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-08,3.0,true
+820592020809,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-09,2.8,true
+820592020810,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-10,2.4,true
+820592020811,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-11,2.6,true
+820592020812,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-12,1.7,true
+820592020813,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-13,2.8,true
+820592020814,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-14,3.2,true
+820592020815,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-15,1.2,true
+820592020816,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-16,1.0,true
+820592020817,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-17,1.3,true
+820592020818,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-18,2.1,true
+820592020819,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-19,2.4,true
+820592020820,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-20,3.3,true
+820592020821,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-21,1.9,true
+820592020822,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-22,2.1,true
+820592020823,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-23,1.4,true
+820592020824,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-24,1.5,true
+820592020825,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-25,0.6,false
+820592020826,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-26,5.0,true
+820592020827,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-27,3.5,true
+820592020828,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-28,3.5,true
+820592020829,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-29,0.9,true
+820592020830,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-30,0.5,true
+820592020831,Madrid Province,Madrid,8,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-31,1.5,true
+1120592020101,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-01,2.8,true
+1120592020102,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-02,4.7,true
+1120592020103,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-03,4.4,true
+1120592020104,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-04,0.7,true
+1120592020105,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-05,2.6,true
+1120592020106,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-06,1.9,true
+1120592020107,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-07,5.6,true
+1120592020108,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-08,10.9,true
+1120592020109,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-09,5.0,true
+1120592020110,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-10,1.0,true
+1120592020111,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-11,1.1,true
+1120592020112,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-12,2.5,true
+1120592020113,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-13,3.1,true
+1120592020114,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-14,2.9,true
+1120592020115,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-15,3.2,true
+1120592020116,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-16,2.5,true
+1120592020117,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-17,1.2,true
+1120592020118,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-18,1.5,true
+1120592020119,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-19,0.3,true
+1120592020120,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-20,0.3,true
+1120592020121,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-21,0.3,true
+1120592020122,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-22,0.5,true
+1120592020123,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-23,0.9,true
+1120592020124,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-24,1.0,true
+1120592020125,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-25,0.8,true
+1120592020126,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-26,0.9,true
+1120592020127,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-27,1.2,true
+1120592020128,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-28,0.4,true
+1120592020129,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-29,0.7,true
+1120592020130,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-30,0.2,true
+1120592020131,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-1-31,0.2,true
+1120592020201,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-01,0.3,true
+1120592020202,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-02,0.8,true
+1120592020203,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-03,3.2,true
+1120592020204,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-04,4.5,true
+1120592020205,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-05,1.6,true
+1120592020206,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-06,2.5,true
+1120592020207,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-07,2.2,true
+1120592020208,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-08,2.5,true
+1120592020209,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-09,1.1,true
+1120592020210,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-10,2.4,true
+1120592020211,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-11,3.5,true
+1120592020212,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-12,3.1,true
+1120592020213,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-13,1.4,true
+1120592020214,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-14,2.1,true
+1120592020215,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-15,1.6,true
+1120592020216,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-16,1.4,true
+1120592020217,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-17,1.1,true
+1120592020218,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-18,1.0,true
+1120592020219,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-19,1.9,true
+1120592020220,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-20,4.0,true
+1120592020221,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-21,5.1,true
+1120592020222,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-22,3.4,true
+1120592020223,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-23,1.6,true
+1120592020224,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-24,2.0,true
+1120592020225,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-25,2.6,true
+1120592020226,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-26,1.9,true
+1120592020227,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-27,0.8,true
+1120592020228,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-28,2.1,true
+1120592020229,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-29,1.0,true
+1120592020230,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-30,0,false
+1120592020231,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-2-31,0,false
+1120592020301,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-01,0.2,true
+1120592020302,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-02,0.6,true
+1120592020303,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-03,0.6,true
+1120592020304,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-04,0.8,true
+1120592020305,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-05,0.6,true
+1120592020306,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-06,1.1,true
+1120592020307,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-07,0.7,true
+1120592020308,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-08,0.6,true
+1120592020309,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-09,0.9,true
+1120592020310,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-10,2.8,true
+1120592020311,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-11,5.0,true
+1120592020312,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-12,2.8,true
+1120592020313,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-13,2.2,true
+1120592020314,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-14,0.5,true
+1120592020315,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-15,0.3,true
+1120592020316,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-16,0.3,true
+1120592020317,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-17,0.2,true
+1120592020318,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-18,0.7,true
+1120592020319,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-19,0.5,true
+1120592020320,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-20,0.2,true
+1120592020321,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-21,0.2,true
+1120592020322,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-22,0.1,true
+1120592020323,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-23,0.2,true
+1120592020324,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-24,0.2,true
+1120592020325,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-25,0.4,true
+1120592020326,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-26,0.4,true
+1120592020327,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-27,0.2,true
+1120592020328,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-28,0.3,true
+1120592020329,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-29,0.4,true
+1120592020330,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-30,0.1,true
+1120592020331,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-3-31,0.2,true
+1120592020401,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-01,0.2,true
+1120592020402,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-02,0.2,true
+1120592020403,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-03,0.4,true
+1120592020404,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-04,0.3,true
+1120592020405,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-05,0.2,true
+1120592020406,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-06,0.2,true
+1120592020407,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-07,0.3,true
+1120592020408,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-08,0.3,true
+1120592020409,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-09,0.3,true
+1120592020410,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-10,0.1,true
+1120592020411,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-11,0.2,true
+1120592020412,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-12,0.2,true
+1120592020413,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-13,0.2,true
+1120592020414,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-14,0.3,true
+1120592020415,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-15,0.2,true
+1120592020416,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-16,0.2,true
+1120592020417,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-17,0.3,true
+1120592020418,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-18,0.5,true
+1120592020419,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-19,0.2,true
+1120592020420,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-20,0.4,true
+1120592020421,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-21,0.2,true
+1120592020422,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-22,0.3,true
+1120592020423,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-23,0.3,true
+1120592020424,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-24,0.4,true
+1120592020425,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-25,0.2,true
+1120592020426,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-26,0.2,true
+1120592020427,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-27,0.2,true
+1120592020428,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-28,0.2,true
+1120592020429,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-29,0.2,true
+1120592020430,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-30,0.2,true
+1120592020431,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-4-31,0,false
+1120592020501,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-01,0.2,true
+1120592020502,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-02,0.2,true
+1120592020503,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-03,0.4,true
+1120592020504,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-04,0.4,true
+1120592020505,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-05,0.2,true
+1120592020506,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-06,1.0,true
+1120592020507,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-07,0.5,true
+1120592020508,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-08,0.3,true
+1120592020509,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-09,0.4,true
+1120592020510,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-10,0.1,true
+1120592020511,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-11,0.2,true
+1120592020512,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-12,0.5,true
+1120592020513,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-13,0.3,true
+1120592020514,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-14,0.5,true
+1120592020515,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-15,0.3,true
+1120592020516,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-16,0.2,true
+1120592020517,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-17,0.2,true
+1120592020518,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-18,0.6,true
+1120592020519,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-19,0.5,true
+1120592020520,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-20,0.6,true
+1120592020521,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-21,0.8,true
+1120592020522,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-22,1.1,true
+1120592020523,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-23,0.8,true
+1120592020524,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-24,0.3,true
+1120592020525,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-25,0.4,true
+1120592020526,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-26,0.4,true
+1120592020527,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-27,0.4,true
+1120592020528,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-28,0.7,true
+1120592020529,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-29,0.7,true
+1120592020530,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-30,1.1,true
+1120592020531,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-5-31,0.4,true
+1120592020601,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-01,0.7,true
+1120592020602,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-02,0.9,true
+1120592020603,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-03,0.6,true
+1120592020604,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-04,0.5,true
+1120592020605,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-05,1.3,false
+1120592020606,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-06,0.4,true
+1120592020607,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-07,0.4,true
+1120592020608,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-08,0.3,true
+1120592020609,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-09,0.2,true
+1120592020610,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-10,0.5,true
+1120592020611,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-11,0.8,true
+1120592020612,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-12,0.3,true
+1120592020613,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-13,0.4,true
+1120592020614,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-14,0.5,true
+1120592020615,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-15,0.7,true
+1120592020616,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-16,0.6,true
+1120592020617,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-17,0.8,true
+1120592020618,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-18,0.8,true
+1120592020619,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-19,0.5,true
+1120592020620,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-20,1.0,true
+1120592020621,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-21,0.7,true
+1120592020622,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-22,0.9,true
+1120592020623,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-23,1.3,true
+1120592020624,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-24,0.6,true
+1120592020625,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-25,0.8,true
+1120592020626,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-26,0.5,true
+1120592020627,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-27,0.5,true
+1120592020628,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-28,0.3,true
+1120592020629,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-29,0.6,true
+1120592020630,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-30,0.6,true
+1120592020631,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-6-31,0,false
+1120592020701,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-01,1.1,true
+1120592020702,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-02,1.0,true
+1120592020703,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-03,0.4,true
+1120592020704,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-04,0.4,true
+1120592020705,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-05,0.4,true
+1120592020706,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-06,0.3,true
+1120592020707,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-07,0.6,true
+1120592020708,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-08,0.8,true
+1120592020709,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-09,0.4,true
+1120592020710,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-10,0.5,true
+1120592020711,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-11,0.4,true
+1120592020712,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-12,0.2,true
+1120592020713,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-13,0.3,true
+1120592020714,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-14,0.3,true
+1120592020715,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-15,0.3,true
+1120592020716,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-16,0.7,true
+1120592020717,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-17,0.4,true
+1120592020718,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-18,0.5,true
+1120592020719,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-19,0.3,true
+1120592020720,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-20,0.8,true
+1120592020721,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-21,0.5,true
+1120592020722,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-22,0.5,true
+1120592020723,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-23,0.9,true
+1120592020724,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-24,0.7,true
+1120592020725,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-25,0.3,true
+1120592020726,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-26,0.7,true
+1120592020727,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-27,0.8,true
+1120592020728,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-28,1.2,true
+1120592020729,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-29,0.8,true
+1120592020730,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-30,0.6,true
+1120592020731,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-7-31,1.1,true
+1120592020801,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-01,0.8,true
+1120592020802,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-02,0.4,true
+1120592020803,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-03,0.2,true
+1120592020804,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-04,0.3,true
+1120592020805,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-05,0.9,true
+1120592020806,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-06,1.0,true
+1120592020807,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-07,0.6,true
+1120592020808,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-08,1.2,true
+1120592020809,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-09,0.6,true
+1120592020810,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-10,0.6,true
+1120592020811,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-11,0.5,true
+1120592020812,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-12,0.4,true
+1120592020813,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-13,0.8,true
+1120592020814,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-14,0.6,true
+1120592020815,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-15,0.2,true
+1120592020816,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-16,0.3,true
+1120592020817,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-17,0.5,true
+1120592020818,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-18,0.4,true
+1120592020819,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-19,0.7,true
+1120592020820,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-20,1.0,true
+1120592020821,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-21,0.3,true
+1120592020822,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-22,0.2,true
+1120592020823,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-23,0.3,true
+1120592020824,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-24,1.1,true
+1120592020825,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-25,1.0,true
+1120592020826,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-26,2.0,true
+1120592020827,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-27,1.1,true
+1120592020828,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-28,0.6,true
+1120592020829,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-29,0.2,true
+1120592020830,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-30,0.1,true
+1120592020831,Madrid Province,Madrid,11,Av. Ramón y Cajal,toluene,Cromatografía de gases,2020-8-31,0.5,true
+1820592020101,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-01,4.4,true
+1820592020102,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-02,6.4,true
+1820592020103,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-03,5.8,true
+1820592020104,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-04,2.3,true
+1820592020105,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-05,3.2,true
+1820592020106,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-06,3.6,true
+1820592020107,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-07,11.0,true
+1820592020108,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-08,10.7,true
+1820592020109,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-09,6.3,true
+1820592020110,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-10,2.3,true
+1820592020111,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-11,3.0,true
+1820592020112,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-12,3.1,true
+1820592020113,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-13,4.0,true
+1820592020114,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-14,3.9,true
+1820592020115,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-15,3.9,true
+1820592020116,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-16,3.7,true
+1820592020117,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-17,1.4,true
+1820592020118,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-18,1.8,true
+1820592020119,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-19,0.7,true
+1820592020120,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-20,0.4,true
+1820592020121,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-21,0.5,true
+1820592020122,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-22,1.0,true
+1820592020123,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-23,1.2,true
+1820592020124,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-24,1.6,true
+1820592020125,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-25,1.1,true
+1820592020126,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-26,0.9,true
+1820592020127,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-27,1.6,true
+1820592020128,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-28,0.6,true
+1820592020129,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-29,0.7,true
+1820592020130,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-30,0.9,true
+1820592020131,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-31,0.9,true
+1820592020201,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-01,0.5,true
+1820592020202,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-02,0.7,true
+1820592020203,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-03,3.3,true
+1820592020204,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-04,5.1,true
+1820592020205,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-05,9.0,true
+1820592020206,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-06,4.7,true
+1820592020207,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-07,6.7,true
+1820592020208,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-08,3.9,true
+1820592020209,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-09,2.0,true
+1820592020210,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-10,4.0,true
+1820592020211,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-11,4.2,true
+1820592020212,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-12,3.3,true
+1820592020213,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-13,2.1,true
+1820592020214,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-14,3.8,true
+1820592020215,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-15,3.6,true
+1820592020216,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-16,2.0,true
+1820592020217,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-17,1.6,true
+1820592020218,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-18,1.7,true
+1820592020219,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-19,3.1,true
+1820592020220,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-20,5.6,true
+1820592020221,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-21,11.5,true
+1820592020222,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-22,6.4,true
+1820592020223,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-23,3.3,true
+1820592020224,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-24,3.9,true
+1820592020225,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-25,5.0,true
+1820592020226,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-26,0.8,true
+1820592020227,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-27,0.9,true
+1820592020228,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-28,3.2,true
+1820592020229,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-29,1.0,true
+1820592020230,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-30,0,false
+1820592020231,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-31,0,false
+1820592020301,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-01,0.3,true
+1820592020302,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-02,0.5,true
+1820592020303,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-03,0.6,true
+1820592020304,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-04,0.5,true
+1820592020305,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-05,0.7,true
+1820592020306,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-06,0.6,true
+1820592020307,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-07,1.0,true
+1820592020308,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-08,1.0,true
+1820592020309,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-09,1.2,true
+1820592020310,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-10,2.8,true
+1820592020311,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-11,5.4,true
+1820592020312,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-12,4.0,true
+1820592020313,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-13,2.6,true
+1820592020314,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-14,1.1,true
+1820592020315,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-15,0.8,true
+1820592020316,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-16,0.4,true
+1820592020317,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-17,0.4,true
+1820592020318,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-18,0.8,true
+1820592020319,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-19,0.5,true
+1820592020320,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-20,0.6,true
+1820592020321,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-21,0.3,true
+1820592020322,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-22,0.2,true
+1820592020323,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-23,0.3,true
+1820592020324,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-24,0.3,true
+1820592020325,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-25,0.4,true
+1820592020326,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-26,0.9,true
+1820592020327,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-27,0.4,true
+1820592020328,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-28,0.5,true
+1820592020329,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-29,0.6,true
+1820592020330,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-30,0.2,true
+1820592020331,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-31,0.3,true
+1820592020401,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-01,0.4,true
+1820592020402,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-02,0.5,true
+1820592020403,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-03,0.5,true
+1820592020404,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-04,0.5,true
+1820592020405,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-05,0.2,true
+1820592020406,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-06,0.3,true
+1820592020407,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-07,0.3,true
+1820592020408,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-08,0.5,true
+1820592020409,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-09,0.3,true
+1820592020410,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-10,0.2,true
+1820592020411,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-11,0.3,true
+1820592020412,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-12,0.4,true
+1820592020413,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-13,0.4,true
+1820592020414,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-14,0.5,true
+1820592020415,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-15,0.4,true
+1820592020416,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-16,0.3,true
+1820592020417,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-17,0.5,true
+1820592020418,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-18,0.7,true
+1820592020419,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-19,0.3,true
+1820592020420,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-20,0.5,true
+1820592020421,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-21,0.3,true
+1820592020422,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-22,0.6,true
+1820592020423,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-23,0.4,true
+1820592020424,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-24,0.8,true
+1820592020425,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-25,0.3,true
+1820592020426,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-26,0.3,true
+1820592020427,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-27,0.3,true
+1820592020428,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-28,0.3,true
+1820592020429,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-29,0.3,true
+1820592020430,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-30,0.2,true
+1820592020431,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-31,0,false
+1820592020501,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-01,0.2,true
+1820592020502,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-02,0.3,true
+1820592020503,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-03,0.8,true
+1820592020504,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-04,0.8,true
+1820592020505,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-05,0.4,true
+1820592020506,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-06,1.0,true
+1820592020507,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-07,0.8,true
+1820592020508,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-08,0.5,true
+1820592020509,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-09,0.3,true
+1820592020510,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-10,0.1,true
+1820592020511,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-11,0.2,true
+1820592020512,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-12,0.4,true
+1820592020513,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-13,0.4,true
+1820592020514,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-14,0.5,true
+1820592020515,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-15,0.4,true
+1820592020516,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-16,0.3,true
+1820592020517,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-17,0.2,true
+1820592020518,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-18,0.7,true
+1820592020519,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-19,0.8,true
+1820592020520,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-20,0.9,true
+1820592020521,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-21,1.2,true
+1820592020522,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-22,0.9,true
+1820592020523,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-23,0.8,true
+1820592020524,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-24,0.3,true
+1820592020525,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-25,0.4,true
+1820592020526,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-26,0.4,true
+1820592020527,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-27,0.5,true
+1820592020528,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-28,0.4,true
+1820592020529,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-29,0.7,true
+1820592020530,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-30,0.9,true
+1820592020531,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-31,0.4,true
+1820592020601,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-01,0.5,true
+1820592020602,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-02,0.8,true
+1820592020603,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-03,0.6,true
+1820592020604,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-04,0.4,true
+1820592020605,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-05,0.4,true
+1820592020606,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-06,0.3,true
+1820592020607,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-07,0.3,true
+1820592020608,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-08,0.4,true
+1820592020609,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-09,0.3,true
+1820592020610,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-10,0.4,true
+1820592020611,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-11,0.9,true
+1820592020612,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-12,0.4,true
+1820592020613,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-13,0.2,true
+1820592020614,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-14,0.3,true
+1820592020615,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-15,0.4,true
+1820592020616,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-16,0.7,true
+1820592020617,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-17,0.6,true
+1820592020618,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-18,0.7,true
+1820592020619,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-19,0.5,true
+1820592020620,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-20,0.6,true
+1820592020621,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-21,0.6,true
+1820592020622,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-22,0.5,true
+1820592020623,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-23,0.8,true
+1820592020624,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-24,0.7,true
+1820592020625,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-25,0.4,true
+1820592020626,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-26,0.5,true
+1820592020627,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-27,0.3,true
+1820592020628,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-28,0.3,true
+1820592020629,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-29,0.7,true
+1820592020630,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-30,0.5,true
+1820592020631,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-31,0,false
+1820592020701,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-01,0.6,true
+1820592020702,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-02,0.5,true
+1820592020703,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-03,0.3,true
+1820592020704,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-04,0.4,true
+1820592020705,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-05,0.3,true
+1820592020706,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-06,0.4,true
+1820592020707,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-07,0.5,true
+1820592020708,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-08,0.6,true
+1820592020709,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-09,0.3,true
+1820592020710,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-10,0.4,true
+1820592020711,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-11,0.4,true
+1820592020712,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-12,0.1,true
+1820592020713,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-13,0.3,true
+1820592020714,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-14,0.3,true
+1820592020715,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-15,0.2,true
+1820592020716,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-16,0.4,true
+1820592020717,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-17,0.3,true
+1820592020718,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-18,0.4,true
+1820592020719,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-19,0.7,true
+1820592020720,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-20,0.8,true
+1820592020721,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-21,0.5,true
+1820592020722,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-22,0.6,true
+1820592020723,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-23,3.6,false
+1820592020724,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-24,3.0,true
+1820592020725,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-25,1.1,true
+1820592020726,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-26,3.0,true
+1820592020727,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-27,3.8,true
+1820592020728,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-28,1.8,true
+1820592020729,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-29,2.0,true
+1820592020730,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-30,1.3,true
+1820592020731,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-31,2.8,true
+1820592020801,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-01,2.9,true
+1820592020802,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-02,1.2,true
+1820592020803,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-03,0.8,true
+1820592020804,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-04,1.2,true
+1820592020805,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-05,2.0,true
+1820592020806,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-06,2.0,true
+1820592020807,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-07,1.7,true
+1820592020808,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-08,3.0,true
+1820592020809,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-09,2.7,true
+1820592020810,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-10,2.2,true
+1820592020811,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-11,1.8,true
+1820592020812,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-12,1.4,true
+1820592020813,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-13,2.8,true
+1820592020814,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-14,3.2,true
+1820592020815,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-15,1.4,true
+1820592020816,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-16,0.8,true
+1820592020817,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-17,2.0,true
+1820592020818,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-18,1.4,true
+1820592020819,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-19,2.1,true
+1820592020820,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-20,4.3,true
+1820592020821,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-21,1.7,true
+1820592020822,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-22,1.2,true
+1820592020823,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-23,1.1,true
+1820592020824,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-24,1.0,true
+1820592020825,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-25,2.8,true
+1820592020826,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-26,3.2,true
+1820592020827,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-27,3.4,true
+1820592020828,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-28,1.8,true
+1820592020829,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-29,0.5,true
+1820592020830,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-30,0.4,true
+1820592020831,Madrid Province,Madrid,18,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-31,1.0,true
+2420592020101,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-01,4.4,true
+2420592020102,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-02,5.2,true
+2420592020103,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-03,7.5,true
+2420592020104,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-04,1.9,true
+2420592020105,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-05,2.2,true
+2420592020106,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-06,2.7,true
+2420592020107,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-07,5.4,true
+2420592020108,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-08,6.8,true
+2420592020109,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-09,6.5,true
+2420592020110,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-10,0.9,true
+2420592020111,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-11,1.4,true
+2420592020112,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-12,2.8,true
+2420592020113,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-13,3.5,true
+2420592020114,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-14,3.2,true
+2420592020115,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-15,4.5,true
+2420592020116,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-16,3.5,true
+2420592020117,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-17,0.7,true
+2420592020118,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-18,1.7,true
+2420592020119,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-19,0.2,true
+2420592020120,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-20,0.3,true
+2420592020121,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-21,0.5,true
+2420592020122,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-22,0.8,true
+2420592020123,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-23,1.7,true
+2420592020124,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-24,1.5,true
+2420592020125,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-25,1.4,true
+2420592020126,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-26,0.7,true
+2420592020127,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-27,1.0,true
+2420592020128,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-28,0.2,false
+2420592020129,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-29,0.3,true
+2420592020130,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-30,0.3,true
+2420592020131,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-1-31,0.3,true
+2420592020201,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-01,0.2,true
+2420592020202,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-02,0.6,true
+2420592020203,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-03,3.0,true
+2420592020204,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-04,5.3,true
+2420592020205,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-05,2.0,true
+2420592020206,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-06,2.6,true
+2420592020207,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-07,3.6,true
+2420592020208,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-08,2.5,true
+2420592020209,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-09,1.0,true
+2420592020210,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-10,3.0,true
+2420592020211,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-11,5.8,true
+2420592020212,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-12,5.8,true
+2420592020213,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-13,1.9,true
+2420592020214,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-14,3.7,true
+2420592020215,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-15,2.7,true
+2420592020216,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-16,1.7,true
+2420592020217,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-17,0.7,true
+2420592020218,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-18,1.2,true
+2420592020219,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-19,2.5,true
+2420592020220,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-20,4.1,true
+2420592020221,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-21,2.8,true
+2420592020222,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-22,3.4,true
+2420592020223,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-23,1.6,true
+2420592020224,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-24,2.8,true
+2420592020225,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-25,3.4,true
+2420592020226,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-26,0.3,true
+2420592020227,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-27,0.2,true
+2420592020228,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-28,2.1,true
+2420592020229,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-29,0.8,true
+2420592020230,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-30,0,false
+2420592020231,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-2-31,0,false
+2420592020301,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-01,0.1,true
+2420592020302,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-02,0.1,true
+2420592020303,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-03,0.2,true
+2420592020304,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-04,0.2,true
+2420592020305,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-05,0.1,true
+2420592020306,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-06,0.1,true
+2420592020307,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-07,0.3,true
+2420592020308,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-08,0.9,true
+2420592020309,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-09,0.4,true
+2420592020310,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-10,2.1,true
+2420592020311,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-11,4.2,true
+2420592020312,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-12,3.8,true
+2420592020313,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-13,2.5,true
+2420592020314,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-14,0.8,true
+2420592020315,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-15,0.8,true
+2420592020316,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-16,0.4,true
+2420592020317,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-17,0.5,true
+2420592020318,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-18,1.5,true
+2420592020319,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-19,1.0,true
+2420592020320,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-20,0.4,true
+2420592020321,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-21,0.4,true
+2420592020322,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-22,0.2,true
+2420592020323,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-23,0.4,true
+2420592020324,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-24,0.3,true
+2420592020325,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-25,0.4,true
+2420592020326,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-26,0.7,true
+2420592020327,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-27,0.4,true
+2420592020328,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-28,0.5,true
+2420592020329,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-29,0.6,true
+2420592020330,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-30,0.2,true
+2420592020331,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-3-31,0.3,true
+2420592020401,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-01,0.4,true
+2420592020402,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-02,0.3,true
+2420592020403,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-03,0.5,true
+2420592020404,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-04,0.4,true
+2420592020405,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-05,0.2,true
+2420592020406,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-06,0.4,true
+2420592020407,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-07,0.5,true
+2420592020408,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-08,0.7,true
+2420592020409,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-09,0.4,true
+2420592020410,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-10,0.4,true
+2420592020411,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-11,0.3,true
+2420592020412,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-12,0.2,true
+2420592020413,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-13,0.4,true
+2420592020414,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-14,0.6,true
+2420592020415,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-15,0.4,true
+2420592020416,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-16,0.4,true
+2420592020417,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-17,0.5,true
+2420592020418,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-18,0.6,true
+2420592020419,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-19,0.3,true
+2420592020420,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-20,0.4,true
+2420592020421,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-21,0.1,true
+2420592020422,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-22,0.5,true
+2420592020423,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-23,0.7,true
+2420592020424,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-24,0.8,true
+2420592020425,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-25,0.4,true
+2420592020426,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-26,0.2,true
+2420592020427,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-27,0.1,true
+2420592020428,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-28,0.1,true
+2420592020429,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-29,0.2,true
+2420592020430,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-30,0.1,true
+2420592020431,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-4-31,0,false
+2420592020501,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-01,0.1,true
+2420592020502,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-02,0.2,true
+2420592020503,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-03,0.4,true
+2420592020504,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-04,1.0,true
+2420592020505,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-05,0.2,true
+2420592020506,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-06,1.2,true
+2420592020507,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-07,0.8,true
+2420592020508,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-08,0.5,true
+2420592020509,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-09,0.1,true
+2420592020510,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-10,0.1,true
+2420592020511,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-11,0.1,true
+2420592020512,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-12,0.7,true
+2420592020513,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-13,0.2,true
+2420592020514,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-14,0.4,true
+2420592020515,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-15,0.7,true
+2420592020516,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-16,0.2,true
+2420592020517,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-17,0.2,true
+2420592020518,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-18,0.9,true
+2420592020519,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-19,1.0,true
+2420592020520,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-20,1.1,true
+2420592020521,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-21,1.3,true
+2420592020522,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-22,1.5,true
+2420592020523,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-23,0.8,true
+2420592020524,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-24,0.2,true
+2420592020525,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-25,1.1,true
+2420592020526,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-26,1.0,true
+2420592020527,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-27,0.6,true
+2420592020528,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-28,0.8,true
+2420592020529,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-29,1.6,true
+2420592020530,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-30,1.1,true
+2420592020531,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-5-31,0.7,true
+2420592020601,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-01,0.9,true
+2420592020602,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-02,1.6,true
+2420592020603,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-03,0.5,true
+2420592020604,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-04,0.2,true
+2420592020605,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-05,0.5,true
+2420592020606,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-06,0.2,true
+2420592020607,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-07,0.2,true
+2420592020608,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-08,0.3,true
+2420592020609,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-09,0.5,true
+2420592020610,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-10,0.6,true
+2420592020611,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-11,0.2,true
+2420592020612,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-12,0.1,true
+2420592020613,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-13,0.1,true
+2420592020614,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-14,0.3,true
+2420592020615,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-15,0.3,true
+2420592020616,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-16,0.2,true
+2420592020617,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-17,0.4,true
+2420592020618,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-18,0.7,true
+2420592020619,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-19,0.7,true
+2420592020620,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-20,0.8,true
+2420592020621,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-21,0.6,true
+2420592020622,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-22,0.7,true
+2420592020623,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-23,1.3,true
+2420592020624,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-24,1.6,true
+2420592020625,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-25,1.3,true
+2420592020626,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-26,0.9,true
+2420592020627,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-27,0.4,true
+2420592020628,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-28,0.3,true
+2420592020629,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-29,0.8,true
+2420592020630,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-30,1.5,false
+2420592020631,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-6-31,0,false
+2420592020701,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-01,1.4,false
+2420592020702,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-02,0.3,true
+2420592020703,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-03,0.5,true
+2420592020704,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-04,0.5,true
+2420592020705,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-05,0.3,true
+2420592020706,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-06,0.7,true
+2420592020707,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-07,1.0,true
+2420592020708,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-08,1.4,true
+2420592020709,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-09,1.0,true
+2420592020710,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-10,1.2,true
+2420592020711,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-11,0.7,true
+2420592020712,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-12,0.3,true
+2420592020713,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-13,0.6,true
+2420592020714,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-14,0.8,true
+2420592020715,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-15,0.8,true
+2420592020716,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-16,0.9,true
+2420592020717,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-17,0.5,true
+2420592020718,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-18,0.6,true
+2420592020719,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-19,0.9,true
+2420592020720,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-20,1.2,true
+2420592020721,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-21,1.2,true
+2420592020722,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-22,1.4,true
+2420592020723,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-23,1.6,true
+2420592020724,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-24,2.0,true
+2420592020725,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-25,0.7,true
+2420592020726,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-26,1.0,true
+2420592020727,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-27,10.1,false
+2420592020728,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-28,0.3,false
+2420592020729,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-29,1.3,true
+2420592020730,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-30,0.9,true
+2420592020731,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-7-31,1.4,true
+2420592020801,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-01,0.8,true
+2420592020802,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-02,0.4,true
+2420592020803,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-03,0.3,true
+2420592020804,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-04,0.7,true
+2420592020805,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-05,1.1,true
+2420592020806,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-06,1.6,true
+2420592020807,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-07,1.1,true
+2420592020808,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-08,1.1,true
+2420592020809,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-09,0.8,true
+2420592020810,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-10,1.6,true
+2420592020811,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-11,0.8,true
+2420592020812,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-12,0.8,true
+2420592020813,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-13,1.0,true
+2420592020814,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-14,1.2,true
+2420592020815,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-15,0.3,false
+2420592020816,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-16,0.1,false
+2420592020817,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-17,0.5,true
+2420592020818,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-18,0.7,true
+2420592020819,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-19,0.7,true
+2420592020820,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-20,1.3,true
+2420592020821,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-21,0.6,true
+2420592020822,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-22,0.3,true
+2420592020823,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-23,0.3,true
+2420592020824,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-24,0.7,true
+2420592020825,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-25,1.3,true
+2420592020826,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-26,1.5,true
+2420592020827,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-27,1.6,true
+2420592020828,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-28,0.7,true
+2420592020829,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-29,0.1,true
+2420592020830,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-30,0.1,true
+2420592020831,Madrid Province,Madrid,24,Casa de Campo,toluene,Cromatografía de gases,2020-8-31,0.7,true
+3820592020101,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-01,2.8,true
+3820592020102,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-02,4.3,true
+3820592020103,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-03,3.9,true
+3820592020104,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-04,1.1,true
+3820592020105,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-05,1.7,true
+3820592020106,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-06,2.7,true
+3820592020107,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-07,6.0,true
+3820592020108,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-08,10.7,true
+3820592020109,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-09,7.0,true
+3820592020110,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-10,1.4,true
+3820592020111,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-11,1.2,true
+3820592020112,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-12,2.6,true
+3820592020113,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-13,3.5,true
+3820592020114,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-14,2.4,true
+3820592020115,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-15,2.7,true
+3820592020116,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-16,2.2,true
+3820592020117,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-17,0.7,true
+3820592020118,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-18,0.9,true
+3820592020119,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-19,0.5,true
+3820592020120,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-20,0.6,true
+3820592020121,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-21,0.5,true
+3820592020122,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-22,0.9,true
+3820592020123,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-23,0.8,true
+3820592020124,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-24,0.8,true
+3820592020125,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-25,0.5,true
+3820592020126,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-26,0.5,true
+3820592020127,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-27,0.7,true
+3820592020128,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-28,0.3,true
+3820592020129,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-29,0.3,true
+3820592020130,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-30,0.3,true
+3820592020131,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-1-31,0.4,true
+3820592020201,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-01,0.2,true
+3820592020202,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-02,0.4,true
+3820592020203,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-03,1.3,true
+3820592020204,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-04,3.9,true
+3820592020205,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-05,2.2,true
+3820592020206,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-06,2.1,true
+3820592020207,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-07,1.8,true
+3820592020208,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-08,1.6,true
+3820592020209,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-09,0.8,true
+3820592020210,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-10,1.7,true
+3820592020211,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-11,2.8,true
+3820592020212,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-12,2.1,true
+3820592020213,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-13,1.0,true
+3820592020214,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-14,1.7,true
+3820592020215,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-15,1.5,true
+3820592020216,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-16,1.2,true
+3820592020217,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-17,0.8,true
+3820592020218,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-18,1.2,true
+3820592020219,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-19,1.9,true
+3820592020220,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-20,4.5,true
+3820592020221,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-21,4.0,true
+3820592020222,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-22,4.0,true
+3820592020223,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-23,2.0,true
+3820592020224,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-24,2.8,true
+3820592020225,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-25,1.6,true
+3820592020226,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-26,0.4,true
+3820592020227,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-27,0.3,true
+3820592020228,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-28,1.4,true
+3820592020229,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-29,0.6,true
+3820592020230,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-30,0,false
+3820592020231,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-2-31,0,false
+3820592020301,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-01,0.1,true
+3820592020302,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-02,0.2,true
+3820592020303,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-03,0.3,true
+3820592020304,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-04,0.3,true
+3820592020305,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-05,0.2,true
+3820592020306,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-06,0.3,true
+3820592020307,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-07,0.4,true
+3820592020308,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-08,0.5,true
+3820592020309,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-09,0.5,true
+3820592020310,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-10,1.6,true
+3820592020311,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-11,2.8,true
+3820592020312,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-12,3.9,true
+3820592020313,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-13,2.0,true
+3820592020314,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-14,1.1,true
+3820592020315,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-15,0.7,true
+3820592020316,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-16,0.6,true
+3820592020317,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-17,0.6,true
+3820592020318,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-18,0.8,true
+3820592020319,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-19,0.6,true
+3820592020320,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-20,0.5,true
+3820592020321,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-21,0.4,true
+3820592020322,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-22,0.3,true
+3820592020323,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-23,0.5,true
+3820592020324,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-24,0.4,true
+3820592020325,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-25,0.4,true
+3820592020326,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-26,0.7,true
+3820592020327,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-27,0.3,true
+3820592020328,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-28,0.4,true
+3820592020329,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-29,0.6,true
+3820592020330,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-30,0.3,true
+3820592020331,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-3-31,0.3,true
+3820592020401,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-01,0.3,true
+3820592020402,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-02,0.4,true
+3820592020403,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-03,0.4,true
+3820592020404,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-04,0.5,true
+3820592020405,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-05,0.2,true
+3820592020406,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-06,0.3,true
+3820592020407,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-07,0.3,true
+3820592020408,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-08,0.4,true
+3820592020409,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-09,0.4,true
+3820592020410,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-10,0.3,true
+3820592020411,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-11,0.2,true
+3820592020412,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-12,0.3,true
+3820592020413,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-13,0.3,true
+3820592020414,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-14,0.4,true
+3820592020415,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-15,0.3,true
+3820592020416,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-16,0.3,true
+3820592020417,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-17,0.3,true
+3820592020418,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-18,0.5,true
+3820592020419,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-19,0.3,true
+3820592020420,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-20,0.5,true
+3820592020421,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-21,0.2,true
+3820592020422,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-22,0.5,true
+3820592020423,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-23,0.5,true
+3820592020424,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-24,0.6,true
+3820592020425,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-25,0.4,true
+3820592020426,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-26,0.3,true
+3820592020427,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-27,0.2,true
+3820592020428,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-28,0.2,true
+3820592020429,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-29,0.3,true
+3820592020430,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-30,0.2,true
+3820592020431,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-4-31,0,false
+3820592020501,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-01,0.2,true
+3820592020502,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-02,0.4,true
+3820592020503,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-03,0.9,true
+3820592020504,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-04,1.1,true
+3820592020505,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-05,0.3,true
+3820592020506,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-06,0.9,true
+3820592020507,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-07,0.8,true
+3820592020508,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-08,0.5,true
+3820592020509,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-09,0.4,true
+3820592020510,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-10,0.2,true
+3820592020511,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-11,0.2,true
+3820592020512,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-12,0.5,true
+3820592020513,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-13,0.3,true
+3820592020514,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-14,1.0,true
+3820592020515,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-15,0.5,true
+3820592020516,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-16,0.4,true
+3820592020517,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-17,0.3,true
+3820592020518,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-18,1.2,true
+3820592020519,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-19,1.0,true
+3820592020520,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-20,1.2,true
+3820592020521,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-21,1.4,true
+3820592020522,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-22,1.3,true
+3820592020523,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-23,1.1,true
+3820592020524,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-24,0.5,true
+3820592020525,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-25,0.9,true
+3820592020526,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-26,0.9,true
+3820592020527,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-27,1.5,true
+3820592020528,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-28,0.8,true
+3820592020529,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-29,0.9,true
+3820592020530,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-30,1.0,false
+3820592020531,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-5-31,0,false
+3820592020601,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-01,1.3,false
+3820592020602,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-02,1.9,true
+3820592020603,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-03,0.7,false
+3820592020604,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-04,0.6,true
+3820592020605,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-05,1.1,true
+3820592020606,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-06,0.5,true
+3820592020607,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-07,0.5,true
+3820592020608,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-08,0.8,true
+3820592020609,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-09,1.1,true
+3820592020610,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-10,1.2,true
+3820592020611,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-11,0.7,true
+3820592020612,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-12,0.5,true
+3820592020613,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-13,0.4,true
+3820592020614,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-14,0.6,true
+3820592020615,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-15,0.8,true
+3820592020616,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-16,0.7,true
+3820592020617,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-17,1.0,true
+3820592020618,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-18,1.6,true
+3820592020619,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-19,1.3,true
+3820592020620,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-20,1.4,true
+3820592020621,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-21,1.4,true
+3820592020622,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-22,1.9,true
+3820592020623,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-23,2.6,true
+3820592020624,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-24,2.1,true
+3820592020625,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-25,1.5,true
+3820592020626,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-26,1.2,true
+3820592020627,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-27,1.1,true
+3820592020628,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-28,0.8,true
+3820592020629,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-29,1.8,true
+3820592020630,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-30,95.2,false
+3820592020631,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-6-31,0,false
+3820592020701,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-01,2.0,true
+3820592020702,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-02,1.1,true
+3820592020703,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-03,1.1,true
+3820592020704,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-04,1.2,true
+3820592020705,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-05,1.2,true
+3820592020706,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-06,1.7,true
+3820592020707,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-07,1.5,true
+3820592020708,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-08,1.7,true
+3820592020709,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-09,1.3,true
+3820592020710,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-10,1.2,true
+3820592020711,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-11,1.0,true
+3820592020712,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-12,0.5,true
+3820592020713,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-13,1.1,true
+3820592020714,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-14,1.1,true
+3820592020715,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-15,1.0,true
+3820592020716,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-16,1.1,true
+3820592020717,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-17,1.1,true
+3820592020718,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-18,0.8,true
+3820592020719,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-19,1.1,true
+3820592020720,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-20,3.0,true
+3820592020721,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-21,2.0,true
+3820592020722,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-22,1.7,true
+3820592020723,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-23,1.8,true
+3820592020724,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-24,1.7,true
+3820592020725,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-25,0.8,true
+3820592020726,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-26,0.6,true
+3820592020727,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-27,0.8,true
+3820592020728,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-28,1.4,true
+3820592020729,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-29,1.6,true
+3820592020730,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-30,1.2,true
+3820592020731,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-7-31,1.8,true
+3820592020801,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-01,0.9,true
+3820592020802,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-02,0.7,true
+3820592020803,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-03,0.7,true
+3820592020804,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-04,0.8,true
+3820592020805,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-05,1.4,true
+3820592020806,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-06,1.8,true
+3820592020807,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-07,1.1,true
+3820592020808,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-08,1.5,true
+3820592020809,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-09,1.4,true
+3820592020810,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-10,1.3,true
+3820592020811,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-11,1.0,true
+3820592020812,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-12,0.9,true
+3820592020813,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-13,1.0,true
+3820592020814,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-14,1.4,true
+3820592020815,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-15,0.4,true
+3820592020816,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-16,0.4,true
+3820592020817,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-17,0.7,true
+3820592020818,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-18,1.0,true
+3820592020819,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-19,1.4,true
+3820592020820,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-20,3.1,true
+3820592020821,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-21,0.9,true
+3820592020822,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-22,0.6,true
+3820592020823,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-23,0.6,true
+3820592020824,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-24,1.0,true
+3820592020825,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-25,2.1,true
+3820592020826,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-26,2.4,true
+3820592020827,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-27,2.9,true
+3820592020828,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-28,1.4,true
+3820592020829,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-29,0.4,true
+3820592020830,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-30,0.5,true
+3820592020831,Madrid Province,Madrid,38,Escuelas Aguirre,toluene,Cromatografía de gases,2020-8-31,1.0,true
+5520592020101,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-01,3.2,true
+5520592020102,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-02,4.1,true
+5520592020103,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-03,5.2,true
+5520592020104,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-04,2.5,true
+5520592020105,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-05,2.8,true
+5520592020106,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-06,2.9,true
+5520592020107,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-07,5.2,true
+5520592020108,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-08,7.3,true
+5520592020109,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-09,5.7,true
+5520592020110,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-10,3.1,true
+5520592020111,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-11,2.0,true
+5520592020112,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-12,2.6,true
+5520592020113,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-13,4.7,true
+5520592020114,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-14,4.1,true
+5520592020115,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-15,5.2,true
+5520592020116,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-16,4.8,true
+5520592020117,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-17,5.8,true
+5520592020118,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-18,2.6,true
+5520592020119,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-19,0.7,true
+5520592020120,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-20,0.6,true
+5520592020121,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-21,0.8,true
+5520592020122,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-22,1.0,true
+5520592020123,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-23,3.2,true
+5520592020124,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-24,3.0,true
+5520592020125,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-25,1.8,true
+5520592020126,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-26,2.3,true
+5520592020127,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-27,3.8,true
+5520592020128,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-28,1.6,true
+5520592020129,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-29,2.1,true
+5520592020130,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-30,2.2,true
+5520592020131,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-1-31,2.3,true
+5520592020201,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-01,1.9,true
+5520592020202,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-02,2.1,true
+5520592020203,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-03,3.8,true
+5520592020204,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-04,6.4,true
+5520592020205,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-05,2.2,true
+5520592020206,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-06,1.9,true
+5520592020207,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-07,2.5,true
+5520592020208,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-08,3.0,true
+5520592020209,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-09,1.7,true
+5520592020210,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-10,5.6,true
+5520592020211,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-11,3.5,true
+5520592020212,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-12,3.8,true
+5520592020213,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-13,3.0,true
+5520592020214,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-14,2.2,true
+5520592020215,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-15,2.0,true
+5520592020216,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-16,1.3,true
+5520592020217,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-17,1.7,true
+5520592020218,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-18,0.7,true
+5520592020219,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-19,1.4,true
+5520592020220,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-20,2.2,true
+5520592020221,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-21,2.2,true
+5520592020222,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-22,1.9,true
+5520592020223,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-23,2.0,true
+5520592020224,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-24,2.0,true
+5520592020225,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-25,1.8,true
+5520592020226,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-26,0.5,true
+5520592020227,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-27,0.9,true
+5520592020228,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-28,2.0,true
+5520592020229,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-29,0.8,true
+5520592020230,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-30,0,false
+5520592020231,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-2-31,0,false
+5520592020301,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-01,0.2,true
+5520592020302,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-02,0.2,true
+5520592020303,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-03,0.4,true
+5520592020304,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-04,0.4,true
+5520592020305,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-05,1.3,true
+5520592020306,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-06,0.9,true
+5520592020307,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-07,1.6,true
+5520592020308,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-08,1.3,true
+5520592020309,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-09,0.8,true
+5520592020310,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-10,4.3,true
+5520592020311,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-11,4.7,true
+5520592020312,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-12,4.1,true
+5520592020313,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-13,3.2,true
+5520592020314,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-14,1.0,true
+5520592020315,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-15,0.8,true
+5520592020316,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-16,0.5,true
+5520592020317,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-17,0.4,true
+5520592020318,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-18,1.7,true
+5520592020319,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-19,0.9,true
+5520592020320,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-20,0.4,true
+5520592020321,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-21,0.5,true
+5520592020322,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-22,0.3,true
+5520592020323,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-23,0.4,true
+5520592020324,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-24,0.3,true
+5520592020325,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-25,0.6,true
+5520592020326,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-26,0.5,true
+5520592020327,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-27,0.4,true
+5520592020328,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-28,0.6,true
+5520592020329,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-29,0.6,true
+5520592020330,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-30,0.1,true
+5520592020331,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-3-31,0.4,true
+5520592020401,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-01,0.5,true
+5520592020402,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-02,0.5,true
+5520592020403,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-03,0.5,true
+5520592020404,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-04,0.6,true
+5520592020405,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-05,0.3,true
+5520592020406,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-06,0.4,true
+5520592020407,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-07,0.7,true
+5520592020408,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-08,0.8,true
+5520592020409,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-09,0.6,true
+5520592020410,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-10,0.3,true
+5520592020411,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-11,0.2,true
+5520592020412,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-12,0.3,true
+5520592020413,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-13,0.4,true
+5520592020414,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-14,0.6,true
+5520592020415,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-15,0.5,true
+5520592020416,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-16,0.5,true
+5520592020417,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-17,0.6,true
+5520592020418,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-18,0.6,true
+5520592020419,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-19,0.3,true
+5520592020420,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-20,0.9,true
+5520592020421,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-21,0.7,true
+5520592020422,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-22,0.3,true
+5520592020423,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-23,0.8,true
+5520592020424,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-24,0.6,true
+5520592020425,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-25,0.6,true
+5520592020426,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-26,0.7,true
+5520592020427,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-27,0.4,true
+5520592020428,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-28,0.7,true
+5520592020429,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-29,0.8,true
+5520592020430,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-30,0.4,true
+5520592020431,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-4-31,0,false
+5520592020501,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-01,0.4,true
+5520592020502,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-02,0.8,true
+5520592020503,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-03,0.7,true
+5520592020504,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-04,0.9,true
+5520592020505,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-05,0.8,true
+5520592020506,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-06,1.3,true
+5520592020507,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-07,0.9,true
+5520592020508,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-08,0.7,true
+5520592020509,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-09,0.7,true
+5520592020510,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-10,0.3,true
+5520592020511,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-11,0.5,true
+5520592020512,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-12,1.0,true
+5520592020513,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-13,0.8,true
+5520592020514,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-14,0.8,true
+5520592020515,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-15,0.6,true
+5520592020516,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-16,0.2,true
+5520592020517,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-17,0.4,true
+5520592020518,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-18,0.7,true
+5520592020519,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-19,0.6,true
+5520592020520,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-20,1.5,true
+5520592020521,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-21,1.6,true
+5520592020522,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-22,2.4,true
+5520592020523,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-23,2.4,true
+5520592020524,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-24,1.8,true
+5520592020525,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-25,1.3,true
+5520592020526,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-26,0.5,true
+5520592020527,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-27,0.2,true
+5520592020528,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-28,0.3,true
+5520592020529,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-29,0.2,true
+5520592020530,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-30,0.2,true
+5520592020531,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-5-31,0.2,true
+5520592020601,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-01,0.2,true
+5520592020602,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-02,0.2,true
+5520592020603,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-03,0.2,true
+5520592020604,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-04,0.2,true
+5520592020605,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-05,0.1,true
+5520592020606,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-06,0.2,true
+5520592020607,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-07,0.1,true
+5520592020608,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-08,0.1,true
+5520592020609,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-09,0.1,true
+5520592020610,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-10,0.1,true
+5520592020611,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-11,0.2,true
+5520592020612,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-12,0.4,true
+5520592020613,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-13,0.5,true
+5520592020614,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-14,0.6,true
+5520592020615,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-15,0.7,true
+5520592020616,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-16,0.5,true
+5520592020617,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-17,0.5,true
+5520592020618,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-18,0.5,true
+5520592020619,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-19,0.6,true
+5520592020620,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-20,0.9,true
+5520592020621,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-21,0.9,true
+5520592020622,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-22,0.5,true
+5520592020623,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-23,0.9,true
+5520592020624,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-24,0.7,true
+5520592020625,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-25,0.8,true
+5520592020626,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-26,0.7,true
+5520592020627,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-27,1.1,true
+5520592020628,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-28,0.8,true
+5520592020629,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-29,1.0,true
+5520592020630,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-30,1.0,true
+5520592020631,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-6-31,0,false
+5520592020701,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-01,0.9,false
+5520592020702,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-02,0.8,false
+5520592020703,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-03,0.5,true
+5520592020704,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-04,0.5,true
+5520592020705,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-05,0.5,true
+5520592020706,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-06,0.5,true
+5520592020707,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-07,0.6,true
+5520592020708,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-08,1.0,true
+5520592020709,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-09,0.5,true
+5520592020710,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-10,0.6,true
+5520592020711,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-11,0.4,true
+5520592020712,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-12,0.4,true
+5520592020713,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-13,0.4,true
+5520592020714,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-14,0.4,true
+5520592020715,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-15,0.4,true
+5520592020716,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-16,0.6,true
+5520592020717,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-17,0.4,true
+5520592020718,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-18,0.5,true
+5520592020719,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-19,0.7,true
+5520592020720,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-20,1.2,true
+5520592020721,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-21,1.3,true
+5520592020722,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-22,0.8,true
+5520592020723,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-23,1.2,true
+5520592020724,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-24,1.0,true
+5520592020725,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-25,0.5,true
+5520592020726,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-26,1.5,true
+5520592020727,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-27,1.2,true
+5520592020728,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-28,2.1,true
+5520592020729,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-29,1.2,false
+5520592020730,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-30,1.4,true
+5520592020731,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-7-31,1.8,true
+5520592020801,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-01,2.0,true
+5520592020802,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-02,0.8,true
+5520592020803,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-03,0.3,true
+5520592020804,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-04,0.6,true
+5520592020805,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-05,1.2,true
+5520592020806,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-06,1.8,true
+5520592020807,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-07,1.5,true
+5520592020808,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-08,1.8,true
+5520592020809,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-09,1.6,true
+5520592020810,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-10,2.1,true
+5520592020811,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-11,1.4,true
+5520592020812,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-12,0.9,true
+5520592020813,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-13,2.0,true
+5520592020814,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-14,1.8,true
+5520592020815,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-15,1.4,true
+5520592020816,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-16,0.9,true
+5520592020817,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-17,1.9,true
+5520592020818,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-18,2.4,true
+5520592020819,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-19,2.3,true
+5520592020820,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-20,3.3,false
+5520592020821,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-21,0,false
+5520592020822,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-22,0,false
+5520592020823,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-23,0,false
+5520592020824,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-24,1.2,false
+5520592020825,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-25,2.2,true
+5520592020826,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-26,2.7,true
+5520592020827,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-27,2.5,true
+5520592020828,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-28,2.4,true
+5520592020829,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-29,0.2,true
+5520592020830,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-30,0.1,true
+5520592020831,Madrid Province,Madrid,55,Urb. Embajada (Barajas),toluene,Cromatografía de gases,2020-8-31,1.9,true
