@@ -28,3 +28,7 @@
 * Changed object property _locatedAt_ by defining class _Station_ as subclass of _schema:Place_.
 ### v3
 * Reduced data properties to 4 in order to lightweight the ontology and making the mapping easier.
+### v4
+* Modified _csv-shortened.csv_ document in order to restore _date_ column, which was lost in the shortening process.
+### v5
+* Included _Magnitude_ entity, used for identifying each magnitude with its name and code.

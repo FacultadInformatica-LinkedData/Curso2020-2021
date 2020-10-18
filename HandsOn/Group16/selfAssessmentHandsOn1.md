@@ -28,3 +28,8 @@
 * Preliminary requirements documents included.
 ### v2
 * Update of the dataset requirements document _(R6)_.
+### v3
+* Divided the _csv/_ directory into _/refined_ and /_unrefined_ subdirectories.
+* Included _stations_ csv files (both refined and unrefined) with the data of the sampling points.
+### v4
+* Included _magnitudes_ csv file.

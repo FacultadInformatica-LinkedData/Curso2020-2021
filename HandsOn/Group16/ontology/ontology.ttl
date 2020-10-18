@@ -28,6 +28,17 @@
                rdfs:range xsd:dateTime .
 
 
+###  http://www.semanticweb.org/group16/ontologies/air-quality#measureCode
+:measureCode rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Magnitude ;
+             rdfs:range xsd:integer .
+
+###  http://www.semanticweb.org/group16/ontologies/air-quality#measureNotation
+:measureNotation rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Magnitude ;
+             rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#measureType
 :measureType rdf:type owl:DatatypeProperty ;
              rdfs:domain :Measurement ;
@@ -49,6 +60,10 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  http://www.semanticweb.org/group16/ontologies/air-quality#Magnitude
+:Magnitude rdf:type owl:Class .
+
 
 ###  http://www.semanticweb.org/group16/ontologies/air-quality#Measurement
 :Measurement rdf:type owl:Class .
