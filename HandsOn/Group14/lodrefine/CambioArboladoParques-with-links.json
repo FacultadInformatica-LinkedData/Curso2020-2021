@@ -1,76 +1,11 @@
 [
   {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
-    },
-    "baseColumnName": "PARQUE",
-    "expression": "grel:value",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidataPARQUE",
-    "columnInsertIndex": 1,
-    "description": "Create column wikidataPARQUE at index 1 based on column PARQUE using expression grel:value"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
-    },
-    "baseColumnName": "ESPECIE",
-    "expression": "grel:value",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidataESPECIE",
-    "columnInsertIndex": 3,
-    "description": "Create column wikidataESPECIE at index 3 based on column ESPECIE using expression grel:value"
-  },
-  {
     "op": "core/recon",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "config": {
       "mode": "standard-service",
       "service": "https://wdreconcile.toolforge.org/en/api",
@@ -84,28 +19,15 @@
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column wikidataPARQUE to type Q22698"
+    "description": "Reconcile cells in column PARQUE to type Q22698"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "QUINTA FUENTE DEL BERRO",
     "judgment": "matched",
     "match": {
@@ -117,28 +39,15 @@
       "score": 71
     },
     "shareNewTopics": false,
-    "description": "Match item Parque de la Quinta de la Fuente del Berro (Q5411839) for cells containing \"QUINTA FUENTE DEL BERRO\" in column wikidataPARQUE"
+    "description": "Match item Parque de la Quinta de la Fuente del Berro (Q5411839) for cells containing \"QUINTA FUENTE DEL BERRO\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "CAPRICHO DE LA ALAMEDA DE OSUNA",
     "judgment": "matched",
     "match": {
@@ -151,28 +60,15 @@
       "score": 80
     },
     "shareNewTopics": false,
-    "description": "Match item Parque de El Capricho (Q2054035) for cells containing \"CAPRICHO DE LA ALAMEDA DE OSUNA\" in column wikidataPARQUE"
+    "description": "Match item Parque de El Capricho (Q2054035) for cells containing \"CAPRICHO DE LA ALAMEDA DE OSUNA\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "CUÑA VERDE DE O´DONNELL Y P. F. FUENTE CARRANTONA",
     "judgment": "matched",
     "match": {
@@ -184,28 +80,35 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Parque de la Cuña Verde de Latina (Q24024726) for cells containing \"CUÑA VERDE DE O´DONNELL Y P. F. FUENTE CARRANTONA\" in column wikidataPARQUE"
+    "description": "Match item Parque de la Cuña Verde de Latina (Q24024726) for cells containing \"CUÑA VERDE DE O´DONNELL Y P. F. FUENTE CARRANTONA\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
+    "similarValue": "Z.V.DISTRITO C-LAS TABLAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24021909",
+      "name": "Zona verde",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Zona verde (Q24021909) for cells containing \"Z.V.DISTRITO C-LAS TABLAS\" in column PARQUE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PARQUE",
     "similarValue": "PARQUE JUAN CARLOS I",
     "judgment": "matched",
     "match": {
@@ -217,28 +120,35 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Juan Carlos I Park (Q1583169) for cells containing \"PARQUE JUAN CARLOS I\" in column wikidataPARQUE"
+    "description": "Match item Juan Carlos I Park (Q1583169) for cells containing \"PARQUE JUAN CARLOS I\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
+    "similarValue": "PARQUE JUAN CARLOS I",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1583169",
+      "name": "Juan Carlos I Park",
+      "types": [
+        "Q1759852"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Juan Carlos I Park (Q1583169) for cells containing \"PARQUE JUAN CARLOS I\" in column PARQUE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PARQUE",
     "similarValue": "PARQUE JUAN PABLO II",
     "judgment": "matched",
     "match": {
@@ -250,28 +160,15 @@
       "score": 42.5
     },
     "shareNewTopics": false,
-    "description": "Match item Parque Juan Pablo II (Madrid) (Q89488172) for cells containing \"PARQUE JUAN PABLO II\" in column wikidataPARQUE"
+    "description": "Match item Parque Juan Pablo II (Madrid) (Q89488172) for cells containing \"PARQUE JUAN PABLO II\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "QUINTA DE LOS MOLINOS",
     "judgment": "matched",
     "match": {
@@ -283,28 +180,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Quinta de los Molinos park (Q6062479) for cells containing \"QUINTA DE LOS MOLINOS\" in column wikidataPARQUE"
+    "description": "Match item Quinta de los Molinos park (Q6062479) for cells containing \"QUINTA DE LOS MOLINOS\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "PARQUE DEL OESTE- TEMPLO DE DEBOD",
     "judgment": "matched",
     "match": {
@@ -316,28 +200,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Temple of Debod (Q1140249) for cells containing \"PARQUE DEL OESTE- TEMPLO DE DEBOD\" in column wikidataPARQUE"
+    "description": "Match item Temple of Debod (Q1140249) for cells containing \"PARQUE DEL OESTE- TEMPLO DE DEBOD\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "ROSALEDA DE MADRID (PARQUE DEL OESTE)",
     "judgment": "matched",
     "match": {
@@ -349,28 +220,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Parque del Oeste (Q2369398) for cells containing \"ROSALEDA DE MADRID (PARQUE DEL OESTE)\" in column wikidataPARQUE"
+    "description": "Match item Parque del Oeste (Q2369398) for cells containing \"ROSALEDA DE MADRID (PARQUE DEL OESTE)\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "JARDINES PZA DE ORIENTE-JARDÍN DEL CABO NOVAL-JARDÍN DE LEPANTO",
     "judgment": "matched",
     "match": {
@@ -382,61 +240,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Plaza de Oriente (Q2193218) for cells containing \"JARDINES PZA DE ORIENTE-JARDÍN DEL CABO NOVAL-JARDÍN DE LEPANTO\" in column wikidataPARQUE"
+    "description": "Match item Plaza de Oriente (Q2193218) for cells containing \"JARDINES PZA DE ORIENTE-JARDÍN DEL CABO NOVAL-JARDÍN DE LEPANTO\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
-    "similarValue": "PARQUE FORESTAL VALDEBEBAS",
-    "judgment": "matched",
-    "match": {
-      "id": "Q6062702",
-      "name": "Felipe VI Park",
-      "types": [
-        "Q22698"
-      ],
-      "score": 95
-    },
-    "shareNewTopics": false,
-    "description": "Match item Felipe VI Park (Q6062702) for cells containing \"PARQUE FORESTAL VALDEBEBAS\" in column wikidataPARQUE"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataPARQUE",
+    "columnName": "PARQUE",
     "similarValue": "JARDINES DE SABATINI",
     "judgment": "matched",
     "match": {
@@ -448,61 +260,55 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Sabatini Gardens (Q2419365) for cells containing \"JARDINES DE SABATINI\" in column wikidataPARQUE"
+    "description": "Match item Sabatini Gardens (Q2419365) for cells containing \"JARDINES DE SABATINI\" in column PARQUE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataPARQUE",
-    "similarValue": "Z.V.DISTRITO C-LAS TABLAS",
+    "columnName": "PARQUE",
+    "similarValue": "PARQUE FORESTAL VALDEBEBAS",
     "judgment": "matched",
     "match": {
-      "id": "Q3076589",
-      "name": "Las Tablas",
+      "id": "Q6062702",
+      "name": "Felipe VI Park",
+      "types": [
+        "Q22698"
+      ],
+      "score": 95
+    },
+    "shareNewTopics": false,
+    "description": "Match item Felipe VI Park (Q6062702) for cells containing \"PARQUE FORESTAL VALDEBEBAS\" in column PARQUE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PARQUE",
+    "similarValue": "TOTAL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7827948",
+      "name": "Total",
       "types": [
         ""
       ],
-      "score": 100
+      "score": 50
     },
     "shareNewTopics": false,
-    "description": "Match item Las Tablas (Q3076589) for cells containing \"Z.V.DISTRITO C-LAS TABLAS\" in column wikidataPARQUE"
+    "description": "Match item Total (Q7827948) for cells containing \"TOTAL\" in column PARQUE"
   },
   {
     "op": "core/recon",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "config": {
       "mode": "standard-service",
       "service": "https://wdreconcile.toolforge.org/en/api",
@@ -516,28 +322,28 @@
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column wikidataESPECIE to type Q16521"
+    "description": "Reconcile cells in column ESPECIE to type Q16521"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "PARQUE",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidataPARQUE",
+    "columnInsertIndex": 1,
+    "description": "Create column wikidataPARQUE at index 1 based on column PARQUE using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Platanus hybrida",
     "judgment": "matched",
     "match": {
@@ -549,28 +355,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Platanus hybrida (Q59420135) for cells containing \"Platanus hybrida\" in column wikidataESPECIE"
+    "description": "Match item Platanus hybrida (Q59420135) for cells containing \"Platanus hybrida\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Sophora japonica",
     "judgment": "matched",
     "match": {
@@ -582,53 +375,35 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Sophora japonica (Q10881597) for cells containing \"Sophora japonica\" in column wikidataESPECIE"
+    "description": "Match item Sophora japonica (Q10881597) for cells containing \"Sophora japonica\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Otros",
-    "judgment": "new",
-    "shareNewTopics": true,
-    "description": "Mark to create one single new item for all cells containing \"Otros\" in column wikidataESPECIE"
+    "judgment": "matched",
+    "match": {
+      "id": "Q86630688",
+      "name": "Other",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Other (Q86630688) for cells containing \"Otros\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Prunus cerasifera pissardii",
     "judgment": "matched",
     "match": {
@@ -640,28 +415,15 @@
       "score": 93
     },
     "shareNewTopics": false,
-    "description": "Match item Prunus cerasifera var. pissardii (Q6089457) for cells containing \"Prunus cerasifera pissardii\" in column wikidataESPECIE"
+    "description": "Match item Prunus cerasifera var. pissardii (Q6089457) for cells containing \"Prunus cerasifera pissardii\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Fraxinus angustifolia",
     "judgment": "matched",
     "match": {
@@ -673,28 +435,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Fraxinus angustifolia (Q518949) for cells containing \"Fraxinus angustifolia\" in column wikidataESPECIE"
+    "description": "Match item Fraxinus angustifolia (Q518949) for cells containing \"Fraxinus angustifolia\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Robinia pseudoacacia",
     "judgment": "matched",
     "match": {
@@ -706,28 +455,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Robinia pseudoacacia (Q157417) for cells containing \"Robinia pseudoacacia\" in column wikidataESPECIE"
+    "description": "Match item Robinia pseudoacacia (Q157417) for cells containing \"Robinia pseudoacacia\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Olea europaea",
     "judgment": "matched",
     "match": {
@@ -739,28 +475,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Olea europaea (Q37083) for cells containing \"Olea europaea\" in column wikidataESPECIE"
+    "description": "Match item Olea europaea (Q37083) for cells containing \"Olea europaea\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Gleditsia triacanthos inermes",
     "judgment": "matched",
     "match": {
@@ -772,28 +495,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Gleditsia triacanthos (Q157650) for cells containing \"Gleditsia triacanthos inermes\" in column wikidataESPECIE"
+    "description": "Match item Gleditsia triacanthos (Q157650) for cells containing \"Gleditsia triacanthos inermes\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Morus alba",
     "judgment": "matched",
     "match": {
@@ -805,28 +515,35 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Morus alba (Q157307) for cells containing \"Morus alba\" in column wikidataESPECIE"
+    "description": "Match item Morus alba (Q157307) for cells containing \"Morus alba\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
+    "similarValue": "Acer x freemanii (Arce)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q9577378",
+      "name": "Acer ×freemanii",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Acer ×freemanii (Q9577378) for cells containing \"Acer x freemanii (Arce)\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
     "similarValue": "Populus nigra",
     "judgment": "matched",
     "match": {
@@ -838,61 +555,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Populus nigra (Q147064) for cells containing \"Populus nigra\" in column wikidataESPECIE"
+    "description": "Match item Populus nigra (Q147064) for cells containing \"Populus nigra\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
-    "similarValue": "Acer x freemanii (Arce)",
-    "judgment": "matched",
-    "match": {
-      "id": "Q9579706",
-      "name": "Acer × freemanii",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Acer × freemanii (Q9579706) for cells containing \"Acer x freemanii (Arce)\" in column wikidataESPECIE"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Eucalyptus sp",
     "judgment": "matched",
     "match": {
@@ -904,61 +575,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Eucalyptus camaldulensis (Q162822) for cells containing \"Eucalyptus sp\" in column wikidataESPECIE"
+    "description": "Match item Eucalyptus camaldulensis (Q162822) for cells containing \"Eucalyptus sp\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
-    "similarValue": "Ligustrum japonicum",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1209219",
-      "name": "Ligustrum japonicum",
-      "types": [
-        "Q16521"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Ligustrum japonicum (Q1209219) for cells containing \"Ligustrum japonicum\" in column wikidataESPECIE"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Ulmus sp.",
     "judgment": "matched",
     "match": {
@@ -970,28 +595,35 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Ulmus minor (Q147487) for cells containing \"Ulmus sp.\" in column wikidataESPECIE"
+    "description": "Match item Ulmus minor (Q147487) for cells containing \"Ulmus sp.\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
+    "similarValue": "Ligustrum japonicum",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1209219",
+      "name": "Ligustrum japonicum",
+      "types": [
+        "Q16521"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ligustrum japonicum (Q1209219) for cells containing \"Ligustrum japonicum\" in column ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ESPECIE",
     "similarValue": "Cedrus libani",
     "judgment": "matched",
     "match": {
@@ -1003,94 +635,15 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Cedrus libani (Q61105) for cells containing \"Cedrus libani\" in column wikidataESPECIE"
+    "description": "Match item Cedrus libani (Q61105) for cells containing \"Cedrus libani\" in column ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
-    "similarValue": "Cedrus atlantica 'Glauca'",
-    "judgment": "matched",
-    "match": {
-      "id": "Q20667332",
-      "name": "Cedrus atlantica 'Glauca Pendula'",
-      "types": [
-        "Q4886"
-      ],
-      "score": 85
-    },
-    "shareNewTopics": false,
-    "description": "Match item Cedrus atlantica 'Glauca Pendula' (Q20667332) for cells containing \"Cedrus atlantica 'Glauca'\" in column wikidataESPECIE"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataESPECIE",
-    "similarValue": "Populus nigra var. Italica",
-    "judgment": "matched",
-    "match": {
-      "id": "Q3377825",
-      "name": "Populus nigra var. italica",
-      "types": [
-        "Q16521"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Populus nigra var. italica (Q3377825) for cells containing \"Populus nigra var. Italica\" in column wikidataESPECIE"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataESPECIE",
+    "columnName": "ESPECIE",
     "similarValue": "Prunus amygdalus",
     "judgment": "matched",
     "match": {
@@ -1102,39 +655,19 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Prunus amygdalus (Q15545507) for cells containing \"Prunus amygdalus\" in column wikidataESPECIE"
+    "description": "Match item Prunus amygdalus (Q15545507) for cells containing \"Prunus amygdalus\" in column ESPECIE"
   },
   {
-    "op": "core/recon-judge-similar-cells",
+    "op": "core/column-addition",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "range",
-          "name": "ESPECIE: best candidate's score",
-          "expression": "cell.recon.best.score",
-          "columnName": "ESPECIE",
-          "from": 85,
-          "to": 101,
-          "selectNumeric": true,
-          "selectNonNumeric": true,
-          "selectBlank": true,
-          "selectError": true
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataESPECIE",
-    "similarValue": "Cercis siliquastrum",
-    "judgment": "matched",
-    "match": {
-      "id": "Q29488",
-      "name": "Judas tree",
-      "types": [
-        "Q16521"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Judas tree (Q29488) for cells containing \"Cercis siliquastrum\" in column wikidataESPECIE"
+    "baseColumnName": "ESPECIE",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidataESPECIE",
+    "columnInsertIndex": 3,
+    "description": "Create column wikidataESPECIE at index 3 based on column ESPECIE using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
   }
 ]

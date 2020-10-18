@@ -1,37 +1,11 @@
 [
   {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "Nombre_distrito",
-    "expression": "grel:value",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidataNombre_distrito",
-    "columnInsertIndex": 1,
-    "description": "Create column wikidataNombre_distrito at index 1 based on column Nombre_distrito using expression grel:value"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "NOMBRE_ESPECIE",
-    "expression": "grel:value",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidataNOMBRE_ESPECIE",
-    "columnInsertIndex": 4,
-    "description": "Create column wikidataNOMBRE_ESPECIE at index 4 based on column NOMBRE_ESPECIE using expression grel:value"
-  },
-  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNombre_distrito",
+    "columnName": "Nombre_distrito",
     "config": {
       "mode": "standard-service",
       "service": "https://wdreconcile.toolforge.org/en/api",
@@ -45,27 +19,7 @@
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column wikidataNombre_distrito to type Q3032114"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataNombre_distrito",
-    "similarValue": "CENTRO",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1763376",
-      "name": "Centro",
-      "types": [
-        "Q3032114"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Centro (Q1763376) for cells containing \"CENTRO\" in column wikidataNombre_distrito"
+    "description": "Reconcile cells in column Nombre_distrito to type Q3032114"
   },
   {
     "op": "core/recon",
@@ -73,7 +27,7 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
     "config": {
       "mode": "standard-service",
       "service": "https://wdreconcile.toolforge.org/en/api",
@@ -87,7 +41,20 @@
       "columnDetails": [],
       "limit": 0
     },
-    "description": "Reconcile cells in column wikidataNOMBRE_ESPECIE to type Q16521"
+    "description": "Reconcile cells in column NOMBRE_ESPECIE to type Q16521"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Nombre_distrito",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidataNombre_distrito",
+    "columnInsertIndex": 1,
+    "description": "Create column wikidataNombre_distrito at index 1 based on column Nombre_distrito using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -95,7 +62,7 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
     "similarValue": "Ligustrum japonicum 'variegata'",
     "judgment": "matched",
     "match": {
@@ -107,7 +74,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Ligustrum japonicum (Q1209219) for cells containing \"Ligustrum japonicum 'variegata'\" in column wikidataNOMBRE_ESPECIE"
+    "description": "Match item Ligustrum japonicum (Q1209219) for cells containing \"Ligustrum japonicum 'variegata'\" in column NOMBRE_ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -115,7 +82,7 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
     "similarValue": "Robinia pseudoacacia",
     "judgment": "matched",
     "match": {
@@ -127,7 +94,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Robinia pseudoacacia (Q157417) for cells containing \"Robinia pseudoacacia\" in column wikidataNOMBRE_ESPECIE"
+    "description": "Match item Robinia pseudoacacia (Q157417) for cells containing \"Robinia pseudoacacia\" in column NOMBRE_ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -135,27 +102,7 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
-    "similarValue": "Prunus cerasifera subsp. Pissartii",
-    "judgment": "matched",
-    "match": {
-      "id": "Q6089457",
-      "name": "Prunus cerasifera var. pissardii",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Prunus cerasifera var. pissardii (Q6089457) for cells containing \"Prunus cerasifera subsp. Pissartii\" in column wikidataNOMBRE_ESPECIE"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
     "similarValue": "Sophora japonica",
     "judgment": "matched",
     "match": {
@@ -167,7 +114,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Sophora japonica (Q10881597) for cells containing \"Sophora japonica\" in column wikidataNOMBRE_ESPECIE"
+    "description": "Match item Sophora japonica (Q10881597) for cells containing \"Sophora japonica\" in column NOMBRE_ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -175,7 +122,7 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
     "similarValue": "Ligustrum japonicum",
     "judgment": "matched",
     "match": {
@@ -187,7 +134,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Ligustrum japonicum (Q1209219) for cells containing \"Ligustrum japonicum\" in column wikidataNOMBRE_ESPECIE"
+    "description": "Match item Ligustrum japonicum (Q1209219) for cells containing \"Ligustrum japonicum\" in column NOMBRE_ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -195,7 +142,27 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
+    "similarValue": "Prunus cerasifera subsp. Pissartii",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6089457",
+      "name": "Prunus cerasifera var. pissardii",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Prunus cerasifera var. pissardii (Q6089457) for cells containing \"Prunus cerasifera subsp. Pissartii\" in column NOMBRE_ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE_ESPECIE",
     "similarValue": "Prunus cerasifera pisardii",
     "judgment": "matched",
     "match": {
@@ -207,7 +174,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Prunus cerasifera var. pissardii (Q6089457) for cells containing \"Prunus cerasifera pisardii\" in column wikidataNOMBRE_ESPECIE"
+    "description": "Match item Prunus cerasifera var. pissardii (Q6089457) for cells containing \"Prunus cerasifera pisardii\" in column NOMBRE_ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -215,27 +182,7 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
-    "similarValue": "Cupressocyparis leilandii",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1290970",
-      "name": "Cupressus × leylandii",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Cupressus × leylandii (Q1290970) for cells containing \"Cupressocyparis leilandii\" in column wikidataNOMBRE_ESPECIE"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
     "similarValue": "Populus alba 'bolleana'",
     "judgment": "matched",
     "match": {
@@ -247,7 +194,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Populus alba (Q146269) for cells containing \"Populus alba 'bolleana'\" in column wikidataNOMBRE_ESPECIE"
+    "description": "Match item Populus alba (Q146269) for cells containing \"Populus alba 'bolleana'\" in column NOMBRE_ESPECIE"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -255,7 +202,47 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
+    "columnName": "NOMBRE_ESPECIE",
+    "similarValue": "Cupressocyparis leilandii",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1290970",
+      "name": "Cupressus × leylandii",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cupressus × leylandii (Q1290970) for cells containing \"Cupressocyparis leilandii\" in column NOMBRE_ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "similarValue": "Ulmus sp",
+    "judgment": "matched",
+    "match": {
+      "id": "Q147487",
+      "name": "Ulmus minor",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ulmus minor (Q147487) for cells containing \"Ulmus sp\" in column NOMBRE_ESPECIE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE_ESPECIE",
     "similarValue": "Morus alba",
     "judgment": "matched",
     "match": {
@@ -267,26 +254,19 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item Morus alba (Q157307) for cells containing \"Morus alba\" in column wikidataNOMBRE_ESPECIE"
+    "description": "Match item Morus alba (Q157307) for cells containing \"Morus alba\" in column NOMBRE_ESPECIE"
   },
   {
-    "op": "core/recon-judge-similar-cells",
+    "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "wikidataNOMBRE_ESPECIE",
-    "similarValue": "Ulmus sp",
-    "judgment": "matched",
-    "match": {
-      "id": "Q131113",
-      "name": "Ulmus",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item Ulmus (Q131113) for cells containing \"Ulmus sp\" in column wikidataNOMBRE_ESPECIE"
+    "baseColumnName": "NOMBRE_ESPECIE",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidataNOMBRE_ESPECIE",
+    "columnInsertIndex": 4,
+    "description": "Create column wikidataNOMBRE_ESPECIE at index 4 based on column NOMBRE_ESPECIE using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
   }
 ]
