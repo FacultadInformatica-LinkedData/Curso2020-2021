@@ -1,0 +1,38 @@
+prefixes:
+  rr: <http://www.w3.org/ns/r2rml#> .
+  xsd: <http://www.w3.org/2001/XMLSchema#> .
+  rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+  rml: <http://semweb.mmlab.be/ns/rml#> .
+  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+  properties: <http://www.semanticweb.org/activitiesMadrid/properties#> .
+  classes: <http://www.semanticweb.org/activitiesMadrid/classes#> .
+  
+mappings:
+  actividad:
+   sources:
+      - [agenda-eventos-culturales-updated.csv~csv]
+    s: http://www.semanticweb.org/activitiesMadrid/classes/actividad/$(ActividadURI)
+    po:
+	
+      - [a, properties:Actividad]
+	  - [properties:nombre_actividad,$(Titulo)]
+      - [properties:id_actividad,$(Id Actividad),xsd:integer]
+	  - [properties:precio,$(Precio),xsd:integer]
+	  - [properties:fecha,$(Fecha),xsd:dateTime]
+	  - [properties:descripcion,$(Descripcion)]
+	  - [properties:tipo,$(Tipo Actividad)]
+	  
+	  - p: properties:ubicado_en
+	    o: - mapping: ubicacion
+
+  ubicacion:
+    sources:
+      - [agenda-eventos-culturales-updated.csv~csv]
+    s: http://www.semanticweb.org/activitiesMadrid/classes/ubicacion/$(UbicacionURI)
+    po:
+	
+      - [a, properties:Ubicacion]
+	  - [properties:latitud,$(Latitud),xsd:integer]
+      - [properties:longitud,$(Longitud),xsd:integer]
+	  - [properties:direccion,$(Direccion)]
+

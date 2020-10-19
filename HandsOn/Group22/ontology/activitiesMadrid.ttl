@@ -1,61 +1,123 @@
-@base <http://www.semanticweb.org/activitiesMadrid/> .
+@prefix : <urn:webprotege:ontology:82245285-009f-4501-a734-64b3cba8c457#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix properties: <http://www.semanticweb.org/activitiesMadrid/properties#> .
-@prefix classes: <http://www.semanticweb.org/activitiesMadrid/classes#> .
-@prefix individuals: <http://www.semanticweb.org/activitiesMadrid/individuals#> .
+@base <urn:webprotege:ontology:82245285-009f-4501-a734-64b3cba8c457> .
 
-# Ontology
-<http://www.semanticweb.org/activitiesMadrid/> rdf:type owl:Ontology .
+<urn:webprotege:ontology:82245285-009f-4501-a734-64b3cba8c457> rdf:type owl:Ontology .
 
-# Classes
-classes:Actividad rdf:type owl:Class .
-classes:Ubicación rdf:type owl:Class .
+#################################################################
+#    Object Properties
+#################################################################
 
-# Data properties
-properties:nombre_actividad rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Actividad ;
-                    rdfs:range xsd:string .
-
-properties:id_actividad rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Actividad ;
-                    rdfs:range xsd:integer .
-
-properties:precio rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Actividad ;
-                    rdfs:range xsd:integer .
-
-properties:fecha rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Actividad ;
-                    rdfs:range xsd:date .
-
-properties:descripcion rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Actividad ;
-                    rdfs:range xsd:string .
-
-properties:tipo rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Actividad ;
-                    rdfs:range xsd:string .
+###  http://webprotege.stanford.edu/R7y6VPV9HZTr9oQxeK7AKbs
+<http://webprotege.stanford.edu/R7y6VPV9HZTr9oQxeK7AKbs> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCXPaW9g9Pw8Wz3Mazd0fhC> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R9ZnoXZwxJs5QZaKhtbpdaO> ;
+                                                         rdfs:label "ubicado_en"@es .
 
 
-properties:longitud rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Ubicación ;
-                    rdfs:range xsd:float .
+#################################################################
+#    Data properties
+#################################################################
 
-properties:latitud rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Ubicación ;
-                    rdfs:range xsd:float .
-
-properties:direccion rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:Ubicación ;
-                    rdfs:range xsd:float .
+###  http://webprotege.stanford.edu/R7Ymz4oqVxxx0AeGprvsIpo
+<http://webprotege.stanford.edu/R7Ymz4oqVxxx0AeGprvsIpo> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "nombre_actividad"@es .
 
 
-# Object properties
-properties:ubicado_en rdf:type owl:ObjectProperty ;
-                    rdfs:domain classes:Actividad ;
-                    rdfs:range classes:Ubicación .
+###  http://webprotege.stanford.edu/R8fAe6fyvH1Vcp3MTFt1Tdv
+<http://webprotege.stanford.edu/R8fAe6fyvH1Vcp3MTFt1Tdv> rdf:type owl:DatatypeProperty .
 
+
+###  http://webprotege.stanford.edu/R9DIExBUfMNfu5wgSAr0jLp
+<http://webprotege.stanford.edu/R9DIExBUfMNfu5wgSAr0jLp> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "descripcion"@es .
+
+
+###  http://webprotege.stanford.edu/R9cePanHV2QmVRi1doJFsr
+<http://webprotege.stanford.edu/R9cePanHV2QmVRi1doJFsr> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RCXPaW9g9Pw8Wz3Mazd0fhC> ;
+                                                        rdfs:range xsd:integer ;
+                                                        rdfs:label "precio"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RC3LrY9zFNUShCeW1M7Kt2
+<http://webprotege.stanford.edu/RC3LrY9zFNUShCeW1M7Kt2> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RCXPaW9g9Pw8Wz3Mazd0fhC> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "tipo"@es .
+
+
+###  http://webprotege.stanford.edu/RCO1zG4SZfwur5HKJWn1b9r
+<http://webprotege.stanford.edu/RCO1zG4SZfwur5HKJWn1b9r> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9ZnoXZwxJs5QZaKhtbpdaO> ;
+                                                         rdfs:range xsd:float ;
+                                                         rdfs:label "longitud"@es .
+
+
+###  http://webprotege.stanford.edu/RCWFADEznEPt81KGFQAiJhN
+<http://webprotege.stanford.edu/RCWFADEznEPt81KGFQAiJhN> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "id_actividad"@es .
+
+
+###  http://webprotege.stanford.edu/RCmjsa7humD1GrLBeSxjwRG
+<http://webprotege.stanford.edu/RCmjsa7humD1GrLBeSxjwRG> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCXPaW9g9Pw8Wz3Mazd0fhC> ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "fecha"@es .
+
+
+###  http://webprotege.stanford.edu/RCxwQO815wjocoFLSUryylL
+<http://webprotege.stanford.edu/RCxwQO815wjocoFLSUryylL> rdf:type owl:DatatypeProperty .
+
+
+###  http://webprotege.stanford.edu/RDT6Npeaygxz5hz1tDZN8kn
+<http://webprotege.stanford.edu/RDT6Npeaygxz5hz1tDZN8kn> rdf:type owl:DatatypeProperty .
+
+
+###  http://webprotege.stanford.edu/Ri2iIonAWyhpqaDRL5u6Ew
+<http://webprotege.stanford.edu/Ri2iIonAWyhpqaDRL5u6Ew> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R9ZnoXZwxJs5QZaKhtbpdaO> ;
+                                                        rdfs:range xsd:float ;
+                                                        rdfs:label "latitud"@es .
+
+
+###  http://webprotege.stanford.edu/RoZtVDlbBI9bp3iAzZm5GP
+<http://webprotege.stanford.edu/RoZtVDlbBI9bp3iAzZm5GP> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R9ZnoXZwxJs5QZaKhtbpdaO> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "Direccion"@es .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R9ZnoXZwxJs5QZaKhtbpdaO
+<http://webprotege.stanford.edu/R9ZnoXZwxJs5QZaKhtbpdaO> rdf:type owl:Class ;
+                                                         rdfs:label "Ubicacion"@es .
+
+
+###  http://webprotege.stanford.edu/RCXPaW9g9Pw8Wz3Mazd0fhC
+<http://webprotege.stanford.edu/RCXPaW9g9Pw8Wz3Mazd0fhC> rdf:type owl:Class ;
+                                                         rdfs:label "Actividad"@es .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
 
