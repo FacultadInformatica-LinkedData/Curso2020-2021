@@ -3,6 +3,7 @@ prefixes:
   rml: http://semweb.mmlab.be/ns/rml#
   ex: http://group56.org/zonas-verdes/
   xsd: http://www.w3.org/2001/XMLSchema#
+  owl: http://www.w3.org/2002/07/owl#
 
 mappings:
 
@@ -29,6 +30,7 @@ mappings:
     po:
       - [a, ex:Distrito]
       - [ex:nombreDistrito, $(Distrito),xsd:string] 
+      - [owl:sameAs, $(DistritoURI)~iri]
       - p: ex:tieneCalle
         o:
            mapping: situaciondestino  
@@ -37,7 +39,7 @@ mappings:
            mapping: subepigrafe    
       - p: ex:tieneNaturaleza
         o:
-           mapping: naturaleza           
+           mapping: naturaleza            
 
   naturaleza:
     sources:

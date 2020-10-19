@@ -143,5 +143,18 @@
       "limit": 0
     },
     "description": "Reconcile cells in column Distrito to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Distrito",
+    "expression": "grel:'https://www.wikidata.org/wiki/' + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "DistritoURI",
+    "columnInsertIndex": 1,
+    "description": "Create column DistritoURI at index 1 based on column Distrito using expression grel:'https://www.wikidata.org/wiki/' + cell.recon.match.id"
   }
 ]
