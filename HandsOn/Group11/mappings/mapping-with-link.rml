@@ -27,14 +27,14 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap[rr:constant :itStart; rr:termType rr:IRI ];
+    rr:predicateMap[rr:constant :itStarts; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "HORA INICIO"; rr:termtype <http://www.w3.org/2001/XMLSchema#time>
       ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap[rr:constant :itStart; rr:termType rr:IRI ];
+    rr:predicateMap[rr:constant :itEnds; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "HORA FINAL"; rr:dataType <http://www.w3.org/2001/XMLSchema#time>
       ]
@@ -52,20 +52,16 @@
           rml:reference "LATITUD"; rr:dataType <http://www.w3.org/2001/XMLSchema#integer>
           ]
       ];
-
-rr:predicateObjectMap [
-    rr:predicateMap[rr:constant :districtName; rr:termType rr:IRI ];
-    rr:objectMap [
-      rml:reference "DISTRITO"; rr:dataType rr:Literal
-      ]
-  ];
-
-rr:predicateObjectMap [
-    rr:predicateMap[rr:constant owl:sameAs; rr:termType rr:IRI ];
-    rr:objectMap [
-      rml:reference "wikidata:Distrito"; rr:termType rr:IRI
-      ]
-  ];
+  
+  rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :isInDistrict; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap3>;
+      rr:joinCondition [
+          rr:child "DISTRITO"; rr:parent "DISTRITO";
+      ];
+    ];
+  ] ;
 
   rr:predicateObjectMap [
      rr:predicateMap[rr:constant :hasLocation; rr:termType rr:IRI ];
@@ -75,7 +71,7 @@ rr:predicateObjectMap [
           rr:child "DIRURI"; rr:parent "DIRURI";
       ];
     ];
-  ] .
+  ].
 
 <#TriplesMap2>
   rml:logicalSource [
@@ -92,6 +88,31 @@ rr:predicateObjectMap [
     rr:predicateMap[rr:constant :districtCode; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "DISTRITO"; rr:dataType <http://www.w3.org/2001/XMLSchema#integer>
+      ]
+  ].
+  
+<#TriplesMap3>
+  rml:logicalSource [
+    rml:source "/csv/PuntosLimpiosMoviles-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://group11.com/District#{DISTRITO}";
+    rr:termType rr:IRI;
+    rr:class :District
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant :districtName; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "DISTRITO"; rr:dataType rr:Literal
+      ]
+  ];
+
+ rr:predicateObjectMap [
+    rr:predicateMap[rr:constant owl:sameAs; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "wikidata:Distrito"; rr:termType rr:IRI
       ]
   ].
 
