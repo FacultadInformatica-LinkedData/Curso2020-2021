@@ -21,9 +21,8 @@ mappings:
     po:
       - [a, vocab:Punto_recarga]
       - [vocab:distrito,$(DISTRITO),xsd:string]
-      - [owl:sameAs, wiki:Q3032114]
+      - [owl:sameAs,$(wikidata DISTRITO)~iri]
       - [vocab:edificio,$(EDIFICIO),xsd:string]
-      - [owl:sameAs, wiki:Q41176]
       - [vocab:terminales,$(TERMINALES),xsd:integer]
       - [vocab:conectores,$(CONECTORES),xsd:string]
       - [vocab:potencia,$(POTENCIA),xsd:string]
@@ -46,8 +45,5 @@ mappings:
     po:
       - [a, vocab:Ubicacion]
       - [vocab:calle,$(UBICACION),xsd:string]
-      - [owl:sameAs, wiki:Q79007]
       - [vocab:coordenada_x,$(COORDENADA X),xsd:integer]
-      - [owl:sameAs, wiki:Q36477]
       - [vocab:coordenada_y,$(COORDENADA Y),xsd:integer]
-      - [owl:sameAs, wiki:Q34027]
