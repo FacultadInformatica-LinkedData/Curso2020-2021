@@ -42,7 +42,7 @@ map:om_10 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_11 a rr:ObjectMap;
     rml:reference "wikidata:Province";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_12 a rr:ObjectMap;
     rr:template "http://www.example.org/CastillaLaMancha#{Province}";
     rr:termType rr:IRI.
@@ -54,7 +54,7 @@ map:om_14 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_15 a rr:ObjectMap;
     rml:reference "wikidata:Town";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_16 a rr:ObjectMap;
     rr:template "http://www.example.org/CastillaLaMancha#{Town}";
     rr:termType rr:IRI.
