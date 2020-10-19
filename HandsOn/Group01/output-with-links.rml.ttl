@@ -68,7 +68,7 @@ map:om_13 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_14 a rr:ObjectMap;
     rml:reference "wikidata:residuos_pelig_año";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_15 a rr:ObjectMap;
     rml:reference "residuos_pelig_opcion_gestion";
     rr:termType rr:Literal.
@@ -77,7 +77,7 @@ map:om_16 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_17 a rr:ObjectMap;
     rml:reference "wikidata:residuos_pelig_tratamiento";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_18 a rr:ObjectMap;
     rml:reference "residuos_pelig_cantidad_ton";
     rr:termType rr:Literal.
@@ -86,7 +86,7 @@ map:om_19 a rr:ObjectMap;
     rr:joinCondition map:jc_4.
 map:om_2 a rr:ObjectMap;
     rml:reference "wikidata:residuos_domestic_año";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_20 a rr:ObjectMap;
     rr:constant "http://Group01.com/Residuos_plantas_envases";
     rr:termType rr:IRI.
@@ -95,13 +95,13 @@ map:om_21 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_22 a rr:ObjectMap;
     rml:reference "wikidata:planta_año";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_23 a rr:ObjectMap;
     rml:reference "planta_clasificacion_envases";
     rr:termType rr:Literal.
 map:om_24 a rr:ObjectMap;
     rml:reference "wikidata:planta_clasificacion_envases";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_25 a rr:ObjectMap;
     rml:reference "planta_tipo_residuo_desc";
     rr:termType rr:Literal.
@@ -131,13 +131,13 @@ map:om_32 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_33 a rr:ObjectMap;
     rml:reference "wikidata:vidrio_municipio_nombre";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_34 a rr:ObjectMap;
     rml:reference "vidrio_año";
     rr:termType rr:Literal.
 map:om_35 a rr:ObjectMap;
     rml:reference "wikidata:vidrio_año";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_36 a rr:ObjectMap;
     rml:reference "vidrio_indicador_descripcion";
     rr:termType rr:Literal.
@@ -152,7 +152,7 @@ map:om_39 a rr:ObjectMap;
     rr:joinCondition map:jc_8.
 map:om_4 a rr:ObjectMap;
     rml:reference "wikidata:residuos_domestic_ambito";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_40 a rr:ObjectMap;
     rr:constant "http://Group01.com/Residuos_transportistas";
     rr:termType rr:IRI.
@@ -185,7 +185,7 @@ map:om_5 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_6 a rr:ObjectMap;
     rml:reference "wikidata:residuos_domestic_tipo";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_7 a rr:ObjectMap;
     rml:reference "residuos_domestic_cantidad_ton";
     rr:termType rr:Literal.
@@ -204,13 +204,13 @@ map:pm_10 a rr:PredicateMap;
 map:pm_11 a rr:PredicateMap;
     rr:constant <http://Group01.com/peligroso_año>.
 map:pm_12 a rr:PredicateMap;
-    rr:constant <http://Group01.com/peligroso_año_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_13 a rr:PredicateMap;
     rr:constant <http://Group01.com/peligroso_gestion>.
 map:pm_14 a rr:PredicateMap;
     rr:constant <http://Group01.com/peligroso_tratamiento>.
 map:pm_15 a rr:PredicateMap;
-    rr:constant <http://Group01.com/peligroso_tratamiento_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_16 a rr:PredicateMap;
     rr:constant <http://Group01.com/peligroso_cantidad_ton>.
 map:pm_17 a rr:PredicateMap;
@@ -220,13 +220,13 @@ map:pm_18 a rr:PredicateMap;
 map:pm_19 a rr:PredicateMap;
     rr:constant <http://Group01.com/planta_año>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant <http://Group01.com/domestic_año_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_20 a rr:PredicateMap;
-    rr:constant <http://Group01.com/planta_año_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_21 a rr:PredicateMap;
     rr:constant <http://Group01.com/planta_clasif>.
 map:pm_22 a rr:PredicateMap;
-    rr:constant <http://Group01.com/planta_clasif_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_23 a rr:PredicateMap;
     rr:constant <http://Group01.com/planta_tipo>.
 map:pm_24 a rr:PredicateMap;
@@ -244,11 +244,11 @@ map:pm_29 a rr:PredicateMap;
 map:pm_3 a rr:PredicateMap;
     rr:constant <http://Group01.com/domestic_ambito>.
 map:pm_30 a rr:PredicateMap;
-    rr:constant <http://Group01.com/vidrio_municipio_nombre_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_31 a rr:PredicateMap;
     rr:constant <http://Group01.com/vidrio_año>.
 map:pm_32 a rr:PredicateMap;
-    rr:constant <http://Group01.com/vidrio_año_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_33 a rr:PredicateMap;
     rr:constant <http://Group01.com/vidrio_desc>.
 map:pm_34 a rr:PredicateMap;
@@ -264,7 +264,7 @@ map:pm_38 a rr:PredicateMap;
 map:pm_39 a rr:PredicateMap;
     rr:constant <http://Group01.com/res_nif>.
 map:pm_4 a rr:PredicateMap;
-    rr:constant <http://Group01.com/domestic_ambito_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_40 a rr:PredicateMap;
     rr:constant <http://Group01.com/res_dir_vial>.
 map:pm_41 a rr:PredicateMap;
@@ -274,13 +274,13 @@ map:pm_42 a rr:PredicateMap;
 map:pm_43 a rr:PredicateMap;
     rr:constant <http://Group01.com/res_muni_dir_desc>.
 map:pm_44 a rr:PredicateMap;
-    rr:constant <http://Group01.com/res_muni_dir_desc_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_45 a rr:PredicateMap;
     rr:constant <http://Group01.com/res_desc>.
 map:pm_5 a rr:PredicateMap;
     rr:constant <http://Group01.com/domestic_tipo>.
 map:pm_6 a rr:PredicateMap;
-    rr:constant <http://Group01.com/domestic_tipo_wiki>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_7 a rr:PredicateMap;
     rr:constant <http://Group01.com/domestic_cantidad_ton>.
 map:pm_8 a rr:PredicateMap;

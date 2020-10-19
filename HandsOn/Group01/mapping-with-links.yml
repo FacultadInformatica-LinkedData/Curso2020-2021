@@ -10,6 +10,8 @@ prefixes:
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   vocab: http://Group01.com/
+  owl: http://www.w3.org/2002/07/owl#
+
   
 mappings:
   triplesmap1:
@@ -19,11 +21,11 @@ mappings:
     po:
         - [a, vocab:Residuos_domesticos]
         - [vocab:domestic_año,$(residuos_domestic_año)]
-        - [vocab:domestic_año_wiki,$(wikidata:residuos_domestic_año)]
+        - [owl:sameAs,$(wikidata:residuos_domestic_año)~iri]
         - [vocab:domestic_ambito,$(residuos_domestic_ambito)]
-        - [vocab:domestic_ambito_wiki,$(wikidata:residuos_domestic_ambito)]
+        - [owl:sameAs,$(wikidata:residuos_domestic_ambito)~iri]
         - [vocab:domestic_tipo,$(residuos_domestic_tipo)]
-        - [vocab:domestic_tipo_wiki,$(wikidata:residuos_domestic_tipo)]
+        - [owl:sameAs,$(wikidata:residuos_domestic_tipo)~iri]
         - [vocab:domestic_cantidad_ton,$(residuos_domestic_cantidad_ton)]
         - p: vocab:año
           o:
@@ -62,10 +64,10 @@ mappings:
     po:
         - [a, vocab:Residuos_peligrosos]
         - [vocab:peligroso_año,$(residuos_pelig_año)]
-        - [vocab:peligroso_año_wiki,$(wikidata:residuos_pelig_año)]
+        - [owl:sameAs,$(wikidata:residuos_pelig_año)~iri]
         - [vocab:peligroso_gestion,$(residuos_pelig_opcion_gestion)]
         - [vocab:peligroso_tratamiento,$(residuos_pelig_tratamiento)]
-        - [vocab:peligroso_tratamiento_wiki,$(wikidata:residuos_pelig_tratamiento)]
+        - [owl:sameAs,$(wikidata:residuos_pelig_tratamiento)~iri]
         - [vocab:peligroso_cantidad_ton,$(residuos_pelig_cantidad_ton)]
         - p: vocab:año
           o:
@@ -83,9 +85,9 @@ mappings:
     po:
         - [a, vocab:Residuos_plantas_envases]
         - [vocab:planta_año,$(planta_año)]
-        - [vocab:planta_año_wiki,$(wikidata:planta_año)]
+        - [owl:sameAs,$(wikidata:planta_año)~iri]
         - [vocab:planta_clasif,$(planta_clasificacion_envases)]
-        - [vocab:planta_clasif_wiki,$(wikidata:planta_clasificacion_envases)]
+        - [owl:sameAs,$(wikidata:planta_clasificacion_envases)~iri]
         - [vocab:planta_tipo,$(planta_tipo_residuo_desc)]
         - [vocab:planta_cantidad_tipo,$(planta_tipo_residuo_cantidad)]
         - p: vocab:año
@@ -118,9 +120,9 @@ mappings:
         - [a, vocab:Residuos_vidrio_recuperacion]
         - [vocab:vidrio_municipio_codigo,$(vidrio_municipio_codigo)]
         - [vocab:vidrio_municipio_nombre,$(vidrio_municipio_nombre)]
-        - [vocab:vidrio_municipio_nombre_wiki,$(wikidata:vidrio_municipio_nombre)]
+        - [owl:sameAs,$(wikidata:vidrio_municipio_nombre)~iri]
         - [vocab:vidrio_año,$(vidrio_año)]
-        - [vocab:vidrio_año_wiki,$(wikidata:vidrio_año)]
+        - [owl:sameAs,$(wikidata:vidrio_año)~iri]
         - [vocab:vidrio_desc,$(vidrio_indicador_descripcion)]
         - [vocab:vidrio_unidades,$(vidrio_indicador_unidades)]
         - [vocab:vidrio_valor,$(vidrio_indicador_valor)]
@@ -144,5 +146,5 @@ mappings:
         - [vocab:res_dir_nombre,$(res_tra_direccion_via_nombre)]
         - [vocab:res_dir_num,$(res_tra_direccion_via_num)]
         - [vocab:res_muni_dir_desc,$(res_tra_direccion_muni_desc)]
-        - [vocab:res_muni_dir_desc_wiki,$(wikidata:res_tra_direccion_muni_desc)]
+        - [owl:sameAs,$(wikidata:res_tra_direccion_muni_desc)]
         - [vocab:res_desc,$(res_tra_residuo_ler_desc)]
