@@ -1,0 +1,15 @@
+SELECT DISTINCT ?calle
+			WHERE { 
+				?calle rdf:type <http://semantic.web.es/group05/ontology/BiciMAD/Calle> .
+				?calle owl:sameAs <https://wikidata.org/wiki/Q28016771> .
+			}
+		
+		
+SELECT DISTINCT ?estacionbicicleta
+		WHERE { 
+			?estacionbicicleta <http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito> ?distrito
+			?distrito rdf:type <http://semantic.web.es/group05/ontology/BiciMAD/Distrito> .
+			?distrito owl:sameAs <https://wikidata.org/wiki/Q2003054> .
+		}		
+
+	
