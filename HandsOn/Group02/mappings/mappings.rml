@@ -7,16 +7,44 @@
 
 map:jc_0 rr:child "Address-Id";
     rr:parent "Address-Id".
+map:jc_1 rr:child "Province";
+    rr:parent "Province".
+map:jc_2 rr:child "City";
+    rr:parent "City".
+map:jc_3 rr:child "District";
+    rr:parent "District".
+map:jc_4 rr:child "Neighborhood";
+    rr:parent "Neighborhood".
 map:map_Address_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "Address";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22.
+    rr:predicateObjectMap map:pom_19, map:pom_20, map:pom_21, map:pom_22.
+map:map_City_0 rml:logicalSource map:source_3;
+    a rr:TriplesMap;
+    rdfs:label "City";
+    rr:subjectMap map:s_3;
+    rr:predicateObjectMap map:pom_24.
+map:map_District_0 rml:logicalSource map:source_4;
+    a rr:TriplesMap;
+    rdfs:label "District";
+    rr:subjectMap map:s_4;
+    rr:predicateObjectMap map:pom_25.
+map:map_Neighborhood_0 rml:logicalSource map:source_5;
+    a rr:TriplesMap;
+    rdfs:label "Neighborhood";
+    rr:subjectMap map:s_5;
+    rr:predicateObjectMap map:pom_26.
 map:map_Parking_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "Parking";
     rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14.
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18.
+map:map_Province_0 rml:logicalSource map:source_2;
+    a rr:TriplesMap;
+    rdfs:label "Province";
+    rr:subjectMap map:s_2;
+    rr:predicateObjectMap map:pom_23.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://findyourparking.es/lcc/ontology/Parking#Parking";
     rr:termType rr:IRI.
@@ -44,23 +72,19 @@ map:om_14 a rr:ObjectMap;
     rr:parentTriplesMap map:map_Address_0;
     rr:joinCondition map:jc_0.
 map:om_15 a rr:ObjectMap;
-    rml:reference "Address-Id";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+    rr:parentTriplesMap map:map_Province_0;
+    rr:joinCondition map:jc_1.
 map:om_16 a rr:ObjectMap;
-    rml:reference "Province";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+    rr:parentTriplesMap map:map_City_0;
+    rr:joinCondition map:jc_2.
 map:om_17 a rr:ObjectMap;
-    rml:reference "City";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+    rr:parentTriplesMap map:map_District_0;
+    rr:joinCondition map:jc_3.
 map:om_18 a rr:ObjectMap;
-    rml:reference "District";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+    rr:parentTriplesMap map:map_Neighborhood_0;
+    rr:joinCondition map:jc_4.
 map:om_19 a rr:ObjectMap;
-    rml:reference "Neighborhood";
+    rml:reference "Address-Id";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_2 a rr:ObjectMap;
@@ -77,6 +101,22 @@ map:om_21 a rr:ObjectMap;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_22 a rr:ObjectMap;
     rml:reference "Postal Code";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_23 a rr:ObjectMap;
+    rml:reference "Province";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_24 a rr:ObjectMap;
+    rml:reference "City";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_25 a rr:ObjectMap;
+    rml:reference "District";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_26 a rr:ObjectMap;
+    rml:reference "Neighborhood";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_3 a rr:ObjectMap;
@@ -122,15 +162,15 @@ map:pm_13 a rr:PredicateMap;
 map:pm_14 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasAddress>.
 map:pm_15 a rr:PredicateMap;
-    rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasAddressId>.
-map:pm_16 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasProvince>.
-map:pm_17 a rr:PredicateMap;
+map:pm_16 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasCity>.
-map:pm_18 a rr:PredicateMap;
+map:pm_17 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasDistrict>.
-map:pm_19 a rr:PredicateMap;
+map:pm_18 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood>.
+map:pm_19 a rr:PredicateMap;
+    rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasAddressId>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasName>.
 map:pm_20 a rr:PredicateMap;
@@ -139,6 +179,14 @@ map:pm_21 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasNumber>.
 map:pm_22 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode>.
+map:pm_23 a rr:PredicateMap;
+    rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasProvince>.
+map:pm_24 a rr:PredicateMap;
+    rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasCity>.
+map:pm_25 a rr:PredicateMap;
+    rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasDistrict>.
+map:pm_26 a rr:PredicateMap;
+    rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood>.
 map:pm_3 a rr:PredicateMap;
     rr:constant <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots>.
 map:pm_4 a rr:PredicateMap;
@@ -201,6 +249,18 @@ map:pom_21 a rr:PredicateObjectMap;
 map:pom_22 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_22;
     rr:objectMap map:om_22.
+map:pom_23 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_23;
+    rr:objectMap map:om_23.
+map:pom_24 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_24;
+    rr:objectMap map:om_24.
+map:pom_25 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_25;
+    rr:objectMap map:om_25.
+map:pom_26 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_26;
+    rr:objectMap map:om_26.
 map:pom_3 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_3;
     rr:objectMap map:om_3.
@@ -226,9 +286,29 @@ map:s_0 a rr:SubjectMap;
     rr:template "http://findyourparking.es/lcc/Parking/{Id}".
 map:s_1 a rr:SubjectMap;
     rr:template "http://findyourparking.es/lcc/Address/{Address-Id}".
+map:s_2 a rr:SubjectMap;
+    rr:template "http://findyourparking.es/lcc/Province/{Province}".
+map:s_3 a rr:SubjectMap;
+    rr:template "http://findyourparking.es/lcc/City/{City}".
+map:s_4 a rr:SubjectMap;
+    rr:template "http://findyourparking.es/lcc/District/{District}".
+map:s_5 a rr:SubjectMap;
+    rr:template "http://findyourparking.es/lcc/Neighborhood/{Neighborhood}".
 map:source_0 a rml:LogicalSource;
     rml:source "Parking_Slots-updated.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
+    rml:source "Parking_Slots-updated.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_2 a rml:LogicalSource;
+    rml:source "Parking_Slots-updated.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_3 a rml:LogicalSource;
+    rml:source "Parking_Slots-updated.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_4 a rml:LogicalSource;
+    rml:source "Parking_Slots-updated.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_5 a rml:LogicalSource;
     rml:source "Parking_Slots-updated.csv";
     rml:referenceFormulation ql:CSV.
