@@ -25,7 +25,7 @@ mappings:
       - [district:hasUnits,$(Num_Unidades)]
       - [district:hasId,$(Num_Distrito)]
       - [district:hasName,$(NombreDistritoURI)]
-      - [owl:sameAs,$(wikidata:Distrito)]
+      - [owl:sameAs,$(wikidata:Distrito)~iri]
 
   triplesmap2:
     sources:
@@ -41,4 +41,4 @@ mappings:
       - [district:hasMature,$(Maduro)]
       - [district:hasOld,$(Viejo)]      
       - [district:hasOthers,$(Otros)]
-      - [owl:sameAs,$(wikidata:Distrito)]
+      - [owl:sameAs,$(wikidata:Distrito)~iri]
