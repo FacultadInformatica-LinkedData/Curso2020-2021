@@ -30,7 +30,7 @@ mappings:
             - [ns:measureValue, $(VALOR),xsd:float]
             - p: ns:measuredAt
               o:
-                - mapping: TriplesMap2
+                - mapping: TriplesMap1
                   condition:
                     function: equal
                     parameters:

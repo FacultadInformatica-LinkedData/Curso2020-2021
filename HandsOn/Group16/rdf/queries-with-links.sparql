@@ -229,7 +229,8 @@
         ?Measure
     WHERE {
         ?St rdf:type ns:Station .
-        ?St owl:sameAs "https://www.wikidata.org/wiki/Q807230"^^<http://www.w3.org/2001/XMLSchema#string> .
+        ?St ns:inDistrict ?District .
+        ?District owl:sameAs <https://www.wikidata.org/wiki/Q807230> .
         ?Measure rdf:type ns:Measurement .
         ?Measure ns:measuredAt ?St .
     }

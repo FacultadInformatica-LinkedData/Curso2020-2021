@@ -18,10 +18,15 @@ mappings:
             - [sc:address, $(DIRECCION), xsd:string]
             - [sc:latitude, $(LATITUD), xsd:string]
             - [sc:longitude, $(LONGITUD), xsd:string]
-            - [owl:sameAs, $(WIKIDATA_DISTRITO_ID), xsd:string]
-            - [owl:sameAs, $(WIKIDATA_DIRECCION_ID), xsd:string]
+            - p: ns:inDistrict
+              o:
+                - mapping: TriplesMap4
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DISTRITO_LINK)]
+                      - [str2, $(DISTRITO_LINK)]
             
-    
     TriplesMap2:
         sources:
             - [csv-shortened.csv~csv]
@@ -48,14 +53,39 @@ mappings:
             - [a, ns:Magnitude]
             - [ns:measureCode, $(MAGNITUD), xsd:integer]
             - [ns:measureNotation, $(NOTACION), xsd:string]
-            - [rdfs:label@en, $(NAME), xsd:string]
-            - [rdfs:label@es, $(NOMBRE), xsd:string]
-            - p: ns:measuredAt
+            - p: rdfs:label
               o:
-                - mapping: TriplesMap2
+                value: $(NAME)
+                language: en
+            - p: rdfs:label
+              o:
+                value: $(NOMBRE)
+                language: es
+
+    TriplesMap4:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/ontologies/air-quality/district_$(DISTRITO_ID)
+        po:
+            - [a, ns:District]
+            - [rdfs:label, $(DISTRITO_LINK), xsd:string]
+            - [ns:districtID, $(DISTRITO_ID), xsd:integer]
+            - [owl:sameAs, $(WIKIDATA_DISTRITO_ID)~iri]
+
+    TriplesMap5:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/ontologies/air-quality/street_$(DIRECCION_ID)
+        po:
+            - [a, ns:Street]
+            - [rdfs:label, $(DIRECCION_LINK), xsd:string]
+            - [ns:streetID, $(DIRECCION_ID), xsd:integer]
+            - [owl:sameAs, $(WIKIDATA_DIRECCION_ID)~iri]
+            - p: ns:inDistrict
+              o:
+                - mapping: TriplesMap4
                   condition:
                     function: equal
                     parameters:
-                      - [str1, $(MAGNITUD)]
-                      - [str2, $(MAGNITUD)]
-      
+                      - [str1, $(DIRECCION_LINK)]
+                      - [str2, $(DIRECCION_LINK)]

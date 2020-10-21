@@ -11,3 +11,6 @@
 # v1
 * Made _sameAs_ properties with stations street and district locations.
 * In order to obtain the results shown in _rdf/queries-with-links.sparql_, run _rdf/sparql.py_.
+# v2
+* Changed _sameAs_ properties from strings to iris in the mapping.
+* Created entities that are correctly defined to be linked with _sameAs_ properties.
