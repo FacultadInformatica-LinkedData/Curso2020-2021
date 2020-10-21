@@ -1,0 +1,19 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX metromadrid: <http://grupo07.es/ontology/>
+
+#Resultado de la query: Madrid
+SELECT DISTINCT ?MUNICIPIO
+	WHERE{
+		?MUNICIPIO rdf:type <http://www.grupo07.es/ontology/MUNICIPIO>.
+		?MUNICIPIO owl:sameAs <https://www.wikidata.org/wiki/Q2807>
+	}
+	
+#Resultado de la query: La Moraleja
+SELECT DISTINCT ?DENOMINACION
+	WHERE{
+		?DENOMINACION rdf:type <http://www.grupo07.es/ontology/DENOMINACION>.
+		?DENOMINACION owl:sameAs <https://www.wikidata.org/wiki/Q2059047>
+	}
+	
