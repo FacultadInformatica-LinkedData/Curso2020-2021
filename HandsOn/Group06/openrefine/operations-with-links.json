@@ -1,0 +1,268 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo Contenedor",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/wikidata",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Tipo Contenedor to type null"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Distrito to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Distrito",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:districtURI",
+    "columnInsertIndex": 7,
+    "description": "Create column wikidata:districtURI at index 7 based on column Distrito using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "grel:value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column wikidata:districtURI using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1763370"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1763370"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1763376"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1763376"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1763694"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1763694"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1773540"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1773540"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q1928529"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q1928529"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2017682"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2017682"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q2076109"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q2076109"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q656196"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q656196"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q794954"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q794954"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "wikidata:districtURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Q807230"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "https://www.wikidata.org/wiki/Q807230"
+      }
+    ],
+    "description": "Mass edit cells in column wikidata:districtURI"
+  }
+]

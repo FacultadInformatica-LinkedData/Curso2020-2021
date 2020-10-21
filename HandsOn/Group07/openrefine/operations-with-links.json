@@ -1,0 +1,999 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q928830",
+        "name": "metro station"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column DENOMINACION to type Q928830"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "PUERTA DEL SUR",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2484406",
+      "name": "Puerta del Sur",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Puerta del Sur (Q2484406) for cells containing \"PUERTA DEL SUR\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "HOSPITAL DEL HENARES",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3786852",
+      "name": "Hospital del Henares",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hospital del Henares (Q3786852) for cells containing \"HOSPITAL DEL HENARES\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "CONSERVATORIO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q602081",
+      "name": "Conservatorio",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Conservatorio (Q602081) for cells containing \"CONSERVATORIO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "CALLAO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2055072",
+      "name": "Callao",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Callao (Q2055072) for cells containing \"CALLAO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "SERRANO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2481179",
+      "name": "Serrano",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Serrano (Q2481179) for cells containing \"SERRANO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "NOVICIADO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19951196",
+      "name": "Noviciado",
+      "types": [
+        "Q928830"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Noviciado (Q19951196) for cells containing \"NOVICIADO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "NOVICIADO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q19951196",
+      "name": "Noviciado",
+      "types": [
+        "Q928830"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Noviciado (Q19951196) for cells containing \"NOVICIADO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2056874",
+      "name": "Retiro",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Retiro (Q2056874) for cells containing \"RETIRO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2056874",
+      "name": "Retiro",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Retiro (Q2056874) for cells containing \"RETIRO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "PRINCIPE DE VERGARA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q582040",
+      "name": "Príncipe de Vergara",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Príncipe de Vergara (Q582040) for cells containing \"PRINCIPE DE VERGARA\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "CUATRO CAMINOS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2420839",
+      "name": "Cuatro Caminos",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cuatro Caminos (Q2420839) for cells containing \"CUATRO CAMINOS\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "PLAZA DE ESPAÑA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q776249",
+      "name": "Estación de Plaza de España (Metro de Madrid)",
+      "types": [
+        "Q928830"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Estación de Plaza de España (Metro de Madrid) (Q776249) for cells containing \"PLAZA DE ESPAÑA\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "BATAN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2059269",
+      "name": "Batán",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Batán (Q2059269) for cells containing \"BATAN\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "VINATEROS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2479812",
+      "name": "Vinateros",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vinateros (Q2479812) for cells containing \"VINATEROS\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "VALDEBERNARDO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2696095",
+      "name": "Valdebernardo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Valdebernardo (Q2696095) for cells containing \"VALDEBERNARDO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "PUEBLO NUEVO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q384453",
+      "name": "Pueblo Nuevo",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pueblo Nuevo (Q384453) for cells containing \"PUEBLO NUEVO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "OPERA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2736048",
+      "name": "Ópera",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ópera (Q2736048) for cells containing \"OPERA\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "URGEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2696501",
+      "name": "Urgel",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Urgel (Q2696501) for cells containing \"URGEL\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "COLON",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2481248",
+      "name": "Colón",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colón (Q2481248) for cells containing \"COLON\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q515413",
+      "name": "Tetuán",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tetuán (Q515413) for cells containing \"TETUAN\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "CIUDAD UNIVERSITARIA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2482378",
+      "name": "Ciudad Universitaria",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ciudad Universitaria (Q2482378) for cells containing \"CIUDAD UNIVERSITARIA\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "ACACIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2305840",
+      "name": "Acacias / Embajadores",
+      "types": [
+        "Q55488",
+        "Q928830"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Acacias / Embajadores (Q2305840) for cells containing \"ACACIAS\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "ACACIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2305840",
+      "name": "Acacias / Embajadores",
+      "types": [
+        "Q55488",
+        "Q928830"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Acacias / Embajadores (Q2305840) for cells containing \"ACACIAS\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "AVDA. DE LA ILUSTRACION",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2482086",
+      "name": "Avenida de la Ilustración",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Avenida de la Ilustración (Q2482086) for cells containing \"AVDA. DE LA ILUSTRACION\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "HORTALEZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2056542",
+      "name": "Hortaleza",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hortaleza (Q2056542) for cells containing \"HORTALEZA\" in column DENOMINACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DENOMINACION",
+    "similarValue": "SAN FRANCISCO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2061686",
+      "name": "San Francisco",
+      "types": [
+        "Q928830",
+        "Q22808403"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Francisco (Q2061686) for cells containing \"SAN FRANCISCO\" in column DENOMINACION"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DENOMINACION",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:DENOMINACION",
+    "columnInsertIndex": 4,
+    "description": "Create column wikidata:DENOMINACION at index 4 based on column DENOMINACION using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MUNICIPIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipality of Spain"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column MUNICIPIO to type Q2074737"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "MUNICIPIO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:MUNICIPIO",
+    "columnInsertIndex": 7,
+    "description": "Create column wikidata:MUNICIPIO at index 7 based on column MUNICIPIO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q21199",
+        "name": "natural number"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column NUMEROLINEAUSUARIO to type Q21199"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "10b",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1760090",
+      "name": "Madrid Metro Line 10",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 10 (Q1760090) for cells containing \"10b\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "10a",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1760090",
+      "name": "Madrid Metro Line 10",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 10 (Q1760090) for cells containing \"10a\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "12-1",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1558864",
+      "name": "Madrid Metro Line 12",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 12 (Q1558864) for cells containing \"12-1\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "12-2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1558864",
+      "name": "Madrid Metro Line 12",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 12 (Q1558864) for cells containing \"12-2\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "9B",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1759707",
+      "name": "Madrid Metro Line 9",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 9 (Q1759707) for cells containing \"9B\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "7b",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1826683",
+      "name": "Madrid Metro Line 7",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 7 (Q1826683) for cells containing \"7b\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "11",
+    "judgment": "matched",
+    "match": {
+      "id": "Q608251",
+      "name": "Madrid Metro Line 11",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 11 (Q608251) for cells containing \"11\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "1",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1826675",
+      "name": "Madrid Metro Line 1",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 1 (Q1826675) for cells containing \"1\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "7a",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1826683",
+      "name": "Madrid Metro Line 7",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 7 (Q1826683) for cells containing \"7a\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "5",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1568028",
+      "name": "Madrid Metro Line 5",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 5 (Q1568028) for cells containing \"5\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "3",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1826673",
+      "name": "Madrid Metro Line 3",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 3 (Q1826673) for cells containing \"3\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "4",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1826677",
+      "name": "Madrid Metro Line 4",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 4 (Q1826677) for cells containing \"4\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1826679",
+      "name": "Madrid Metro Line 2",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 2 (Q1826679) for cells containing \"2\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "9A",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1759707",
+      "name": "Madrid Metro Line 9",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 9 (Q1759707) for cells containing \"9A\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "6-1",
+    "judgment": "matched",
+    "match": {
+      "id": "Q514227",
+      "name": "Madrid Metro Line 6",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 6 (Q514227) for cells containing \"6-1\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "8",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1475527",
+      "name": "Madrid Metro Line 8",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 8 (Q1475527) for cells containing \"8\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "R",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1496137",
+      "name": "Ramal",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ramal (Q1496137) for cells containing \"R\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUMEROLINEAUSUARIO",
+    "similarValue": "6-2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q514227",
+      "name": "Madrid Metro Line 6",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Metro Line 6 (Q514227) for cells containing \"6-2\" in column NUMEROLINEAUSUARIO"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NUMEROLINEAUSUARIO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:NUMEROLINEAUSUARIO",
+    "columnInsertIndex": 2,
+    "description": "Create column wikidata:NUMEROLINEAUSUARIO at index 2 based on column NUMEROLINEAUSUARIO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  }
+]
