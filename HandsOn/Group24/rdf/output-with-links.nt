@@ -1989,15 +1989,15 @@
 <http://www.semanticweb.org/bicimad/classes#Bike_Station/213> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes#Street/CALLE%20DE%20ANTONIO%20LOPEZ>.
 <http://www.semanticweb.org/bicimad/classes#District/1> <http://www.semanticweb.org/bicimad/properties#district_name> "Centro (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/1> <http://www.semanticweb.org/bicimad/properties#district_number> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://www.semanticweb.org/bicimad/classes#District/1> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Category:Centro_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes#District/1> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Centro_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes#District/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
 <http://www.semanticweb.org/bicimad/classes#District/7> <http://www.semanticweb.org/bicimad/properties#district_name> "Chamberi (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/7> <http://www.semanticweb.org/bicimad/properties#district_number> "7"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://www.semanticweb.org/bicimad/classes#District/7> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Chamberi_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes#District/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
-<http://www.semanticweb.org/bicimad/classes#District/9> <http://www.semanticweb.org/bicimad/properties#district_name> "Aravaca (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes#District/9> <http://www.semanticweb.org/bicimad/properties#district_name> "Moncloa-Aravaca"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/9> <http://www.semanticweb.org/bicimad/properties#district_number> "9"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://www.semanticweb.org/bicimad/classes#District/9> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Aravaca>.
+<http://www.semanticweb.org/bicimad/classes#District/9> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Moncloa-Aravaca>.
 <http://www.semanticweb.org/bicimad/classes#District/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
 <http://www.semanticweb.org/bicimad/classes#District/2> <http://www.semanticweb.org/bicimad/properties#district_name> "Arganzuela"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/2> <http://www.semanticweb.org/bicimad/properties#district_number> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -2005,26 +2005,24 @@
 <http://www.semanticweb.org/bicimad/classes#District/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
 <http://www.semanticweb.org/bicimad/classes#District/3> <http://www.semanticweb.org/bicimad/properties#district_name> "Retiro (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/3> <http://www.semanticweb.org/bicimad/properties#district_number> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://www.semanticweb.org/bicimad/classes#District/3> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Category:Retiro_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes#District/3> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Retiro_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes#District/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
 <http://www.semanticweb.org/bicimad/classes#District/4> <http://www.semanticweb.org/bicimad/properties#district_name> "Salamanca (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/4> <http://www.semanticweb.org/bicimad/properties#district_number> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://www.semanticweb.org/bicimad/classes#District/4> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Category:Salamanca_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes#District/4> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Salamanca_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes#District/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
-<http://www.semanticweb.org/bicimad/classes#District/6> <http://www.semanticweb.org/bicimad/properties#district_name> "Tetuán (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes#District/6> <http://www.semanticweb.org/bicimad/properties#district_name> "Tetuan (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/6> <http://www.semanticweb.org/bicimad/properties#district_number> "6"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://www.semanticweb.org/bicimad/classes#District/6> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Category:Tetuán_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes#District/6> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Tetuan_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes#District/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
-<http://www.semanticweb.org/bicimad/classes#District/5> <http://www.semanticweb.org/bicimad/properties#district_name> "Cuatro Torres Business Area"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes#District/5> <http://www.semanticweb.org/bicimad/properties#district_name> "Chamartin (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/5> <http://www.semanticweb.org/bicimad/properties#district_number> "5"^^<http://www.w3.org/2001/XMLSchema#integer>.
-<http://www.semanticweb.org/bicimad/classes#District/5> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Cuatro_Torres_Business_Area>.
+<http://www.semanticweb.org/bicimad/classes#District/5> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Chamartin_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes#District/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes#District".
 <http://www.semanticweb.org/bicimad/classes#District/3> <http://www.semanticweb.org/bicimad/properties#district_name> "Puente de Vallecas"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/3> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Puente_de_Vallecas>.
 <http://www.semanticweb.org/bicimad/classes#District/5> <http://www.semanticweb.org/bicimad/properties#district_name> "Ciudad Lineal"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/5> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ciudad_Lineal>.
-<http://www.semanticweb.org/bicimad/classes#District/6> <http://www.semanticweb.org/bicimad/properties#district_name> "TETUÁN"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes#District/6> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://www.semanticweb.org/bicimad/classes#District/1> <http://www.semanticweb.org/bicimad/properties#district_name> "Carabanchel"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes#District/1> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Carabanchel>.
 <http://www.semanticweb.org/bicimad/classes#District/2> <http://www.semanticweb.org/bicimad/properties#district_name> "Usera"^^<http://www.w3.org/2001/XMLSchema#string>.
