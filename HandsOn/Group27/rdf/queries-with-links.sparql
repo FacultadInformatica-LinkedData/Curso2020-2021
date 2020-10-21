@@ -1,4 +1,5 @@
-PREFIX zvm: <http://api.zonasverdesmadrid.es>
+PREFIX zvm: <http://api.zonasverdesmadrid.es#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 # Get all the district names with the total number of trees
 SELECT DISTINCT ?name ?total WHERE {
@@ -17,7 +18,7 @@ SELECT DISTINCT ?list_species ?list_units WHERE {
 # Get the number of just planted, young, mature, old and other trees from a specific district 
 SELECT DISTINCT ?just_planted ?young ?mature ?old ?others WHERE {
 {?x a zvm:District .
-?x zvm:hasYoung ?just_planted .
+?x zvm:hasJustPlanted ?just_planted .
 ?x zvm:hasYoung ?young .
 ?x zvm:hasMature ?mature .
 ?x zvm:hasOld ?old .
@@ -30,3 +31,11 @@ SELECT DISTINCT ?perimeter_avg ?height_avg WHERE {
 ?x zvm:hasPerimeterAverage ?perimeter_avg .
 ?x zvm:hasHeightAverage ?height_avg} 
 } FILTER (?x == "district_name")
+
+
+# Get all the district names with the wikidata links
+SELECT DISTINCT ?name ?linked WHERE {
+{?x a zvm:District .
+?x zvm:hasName ?name .
+?x owl:sameAs ?linked} 
+}
