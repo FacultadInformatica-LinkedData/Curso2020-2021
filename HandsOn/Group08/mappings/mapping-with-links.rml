@@ -11,86 +11,96 @@ map:map_triplesmap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "triplesmap1";
     rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8.
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6.
 map:map_triplesmap2_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "triplesmap2";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_9, map:pom_10, map:pom_11, map:pom_12.
+    rr:predicateObjectMap map:pom_7, map:pom_8, map:pom_9, map:pom_10.
+map:map_triplesmap3_0 rml:logicalSource map:source_2;
+    a rr:TriplesMap;
+    rdfs:label "triplesmap3";
+    rr:subjectMap map:s_2;
+    rr:predicateObjectMap map:pom_11, map:pom_12, map:pom_13.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://www.eletricrechargemadrid.com/Punto_recarga";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
-    rml:reference "DISTRITO";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_10 a rr:ObjectMap;
-    rml:reference "UBICACION";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_11 a rr:ObjectMap;
-    rml:reference "COORDENADA X";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_12 a rr:ObjectMap;
-    rml:reference "COORDENADA Y";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_2 a rr:ObjectMap;
-    rml:reference "wikidata DISTRITO";
-    rr:termType rr:IRI.
-map:om_3 a rr:ObjectMap;
     rml:reference "EDIFICIO";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_4 a rr:ObjectMap;
+map:om_10 a rr:ObjectMap;
+    rml:reference "COORDENADA Y";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+map:om_11 a rr:ObjectMap;
+    rr:constant "http://www.eletricrechargemadrid.com/District";
+    rr:termType rr:IRI.
+map:om_12 a rr:ObjectMap;
+    rml:reference "DISTRITO";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_13 a rr:ObjectMap;
+    rml:reference "wikidata DISTRITO";
+    rr:termType rr:IRI.
+map:om_2 a rr:ObjectMap;
     rml:reference "TERMINALES";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_5 a rr:ObjectMap;
+map:om_3 a rr:ObjectMap;
     rml:reference "CONECTORES";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_6 a rr:ObjectMap;
+map:om_4 a rr:ObjectMap;
     rml:reference "POTENCIA";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_7 a rr:ObjectMap;
+map:om_5 a rr:ObjectMap;
     rml:reference "CODIGO";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_8 a rr:ObjectMap;
+map:om_6 a rr:ObjectMap;
     rr:parentTriplesMap map:map_triplesmap2_0;
     rr:joinCondition map:jc_0.
-map:om_9 a rr:ObjectMap;
+map:om_7 a rr:ObjectMap;
     rr:constant "http://www.eletricrechargemadrid.com/Ubicacion";
     rr:termType rr:IRI.
+map:om_8 a rr:ObjectMap;
+    rml:reference "UBICACION";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_9 a rr:ObjectMap;
+    rml:reference "COORDENADA X";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/distrito>.
-map:pm_10 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/calle>.
-map:pm_11 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/coordenada_x>.
-map:pm_12 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/coordenada_y>.
-map:pm_2 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_3 a rr:PredicateMap;
     rr:constant <http://www.eletricrechargemadrid.com/edificio>.
-map:pm_4 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/terminales>.
-map:pm_5 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/conectores>.
-map:pm_6 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/potencia>.
-map:pm_7 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/codigo>.
-map:pm_8 a rr:PredicateMap;
-    rr:constant <http://www.eletricrechargemadrid.com/localizacion>.
-map:pm_9 a rr:PredicateMap;
+map:pm_10 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/coordenada_y>.
+map:pm_11 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_12 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/distrito>.
+map:pm_13 a rr:PredicateMap;
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+map:pm_2 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/terminales>.
+map:pm_3 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/conectores>.
+map:pm_4 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/potencia>.
+map:pm_5 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/codigo>.
+map:pm_6 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/localizacion>.
+map:pm_7 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_8 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/calle>.
+map:pm_9 a rr:PredicateMap;
+    rr:constant <http://www.eletricrechargemadrid.com/coordenada_x>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -106,6 +116,9 @@ map:pom_11 a rr:PredicateObjectMap;
 map:pom_12 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_12;
     rr:objectMap map:om_12.
+map:pom_13 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_13;
+    rr:objectMap map:om_13.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
@@ -134,9 +147,14 @@ map:s_0 a rr:SubjectMap;
     rr:template "http://www.eletricrechargemadrid.com/Punto_recarga/{CODIGO}".
 map:s_1 a rr:SubjectMap;
     rr:template "http://www.eletricrechargemadrid.com/Ubicacion/{UBICACION}".
+map:s_2 a rr:SubjectMap;
+    rr:template "http://www.eletricrechargemadrid.com/District/{DISTRITO}".
 map:source_0 a rml:LogicalSource;
     rml:source "Red_recarga_flota_municipal_publicable_20200227-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
+    rml:source "Red_recarga_flota_municipal_publicable_20200227-with-links.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_2 a rml:LogicalSource;
     rml:source "Red_recarga_flota_municipal_publicable_20200227-with-links.csv";
     rml:referenceFormulation ql:CSV.

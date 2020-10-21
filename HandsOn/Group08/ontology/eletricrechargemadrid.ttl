@@ -13,10 +13,11 @@
 # Classes
 classes:Punto_recarga rdf:type owl:Class .
 classes:Ubicacion rdf:type owl:Class .
+classes:District rdf:type owl:Class .
 
 # Data Properties
 properties:distrito rdf:type owl:DatatypeProperty ;
-		    rdfs:domain classes:Punto_recarga ;
+		    rdfs:domain classes:District ;
                     rdfs:range xsd:string .
 
 properties:edificio rdf:type owl:DatatypeProperty ;
@@ -60,3 +61,4 @@ properties:localizacion rdf:type owl:ObjectProperty ;
                     	rdfs:domain classes:Punto_recarga ;
                     	rdfs:range classes:Ubicacion .
 
+classes:District rdf:type owl:Class .

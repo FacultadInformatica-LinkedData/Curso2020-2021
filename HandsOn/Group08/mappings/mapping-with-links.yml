@@ -20,8 +20,6 @@ mappings:
     s: http://www.eletricrechargemadrid.com/Punto_recarga/$(CODIGO)
     po:
       - [a, vocab:Punto_recarga]
-      - [vocab:distrito,$(DISTRITO),xsd:string]
-      - [owl:sameAs,$(wikidata DISTRITO)~iri]
       - [vocab:edificio,$(EDIFICIO),xsd:string]
       - [vocab:terminales,$(TERMINALES),xsd:integer]
       - [vocab:conectores,$(CONECTORES),xsd:string]
@@ -36,8 +34,6 @@ mappings:
               - [str1, $(UBICACION)]
               - [str2, $(UBICACION)]
 
-      
-
   triplesmap2:
     sources:
       - [Red_recarga_flota_municipal_publicable_20200227-with-links.csv~csv]
@@ -47,3 +43,12 @@ mappings:
       - [vocab:calle,$(UBICACION),xsd:string]
       - [vocab:coordenada_x,$(COORDENADA X),xsd:integer]
       - [vocab:coordenada_y,$(COORDENADA Y),xsd:integer]
+
+  triplesmap3:
+    sources:
+      - [Red_recarga_flota_municipal_publicable_20200227-with-links.csv~csv]
+    s: http://www.eletricrechargemadrid.com/District/$(DISTRITO)
+    po:
+      - [a, vocab:District]
+      - [vocab:distrito,$(DISTRITO),xsd:string]
+      - [owl:sameAs,$(wikidata DISTRITO)~iri]
