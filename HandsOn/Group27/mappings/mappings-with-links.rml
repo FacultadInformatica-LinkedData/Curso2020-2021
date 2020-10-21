@@ -38,7 +38,7 @@ map:om_14 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_15 a rr:ObjectMap;
     rml:reference "wikidata:Distrito";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_2 a rr:ObjectMap;
     rml:reference "Num_Unidades";
     rr:termType rr:Literal.
@@ -50,7 +50,7 @@ map:om_4 a rr:ObjectMap;
     rr:termType rr:Literal.
 map:om_5 a rr:ObjectMap;
     rml:reference "wikidata:Distrito";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 map:om_6 a rr:ObjectMap;
     rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
