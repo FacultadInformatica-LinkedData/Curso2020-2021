@@ -81,6 +81,7 @@
         - [Parking_Slots-updated.csv~csv]
       s: http://findyourparking.es/lcc/Address/$(Address-Id)
       po:
+       - [a, findparking:Address]
        - [findparking:hasAddressId, $(Address-Id),xsd:string]
        - [findparking:hasStreet, $(Street),xsd:string]
        - [findparking:hasNumber, $(Number),xsd:string]
@@ -91,6 +92,7 @@
         - [Parking_Slots-updated.csv~csv]
       s: http://findyourparking.es/lcc/Province/$(Province)
       po:
+       - [a, findparking:Province] 
        - [findparking:hasProvince, $(Province),xsd:string]
 
     City:
@@ -98,6 +100,7 @@
         - [Parking_Slots-updated.csv~csv]
       s: http://findyourparking.es/lcc/City/$(City)
       po:
+       - [a, findparking:City]
        - [findparking:hasCity, $(City),xsd:string]
 
     District:
@@ -105,6 +108,7 @@
         - [Parking_Slots-updated.csv~csv]
       s: http://findyourparking.es/lcc/District/$(District)
       po:
+       - [a, findparking:District] 
        - [findparking:hasDistrict, $(District),xsd:string]   
 
     Neighborhood:
@@ -112,6 +116,7 @@
         - [Parking_Slots-updated.csv~csv]
       s: http://findyourparking.es/lcc/Neighborhood/$(Neighborhood)
       po:
+       - [a, findparking:Neighborhood]
        - [findparking:hasNeighborhood, $(Neighborhood),xsd:string]
 
   
