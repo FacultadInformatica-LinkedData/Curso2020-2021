@@ -4,7 +4,7 @@
     SPARQL queries for checking WikiData liking
 """
 
-github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/a55262ba6c32d20de4c9c3c44d9126bf08b886cd/HandsOn/Group16/rdf/output-with-links.ttl"
+github_storage = "/home/hxshfx/Descargas/output-with-links.ttl"
 
 "Data loading and graph building"
 
@@ -109,7 +109,8 @@ q5 = prepareQuery('''
         ?Measure
     WHERE {
         ?Measure rdf:type ns:Measurement .
-        ?Measure ns:dateOfMeasure "2016/4/27"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        ?Measure ns:dateOfMeasure ?Date .
+            FILTER REGEX (STR(?Date), "^2016-04-27", "i") 
     }
     ''',
     initNs = {"rdf":RDF, "ns":ns}

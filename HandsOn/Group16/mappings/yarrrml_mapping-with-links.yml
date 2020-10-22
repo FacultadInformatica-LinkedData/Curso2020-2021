@@ -16,8 +16,8 @@ mappings:
             - [ns:stationCode, $(ESTACION_ID), xsd:string]
             - [rdfs:label, $(NOMBRE), xsd:string]
             - [sc:address, $(DIRECCION), xsd:string]
-            - [sc:latitude, $(LATITUD), xsd:string]
-            - [sc:longitude, $(LONGITUD), xsd:string]
+            - [sc:latitude, $(LATITUD), sc:Number]
+            - [sc:longitude, $(LONGITUD), sc:Number]
             - p: ns:inDistrict
               o:
                 - mapping: TriplesMap4
@@ -34,7 +34,7 @@ mappings:
         po:
             - [a, ns:Measurement]
             - [ns:dateOfMeasure, $(FECHA), xsd:dateTime]
-            - [ns:measureType, $(MAGNITUD), xsd:integer]
+            - [ns:measureType, $(MAGNITUD), xsd:string]
             - [ns:measureValue, $(VALOR), xsd:float]
             - p: ns:measuredAt
               o:
@@ -51,7 +51,7 @@ mappings:
         s:  http://www.semanticweb.org/group16/air-quality/resource/$(NOTACION)
         po:
             - [a, ns:Magnitude]
-            - [ns:measureCode, $(MAGNITUD), xsd:integer]
+            - [ns:measureCode, $(MAGNITUD), xsd:string]
             - [ns:measureNotation, $(NOTACION), xsd:string]
             - p: rdfs:label
               o:

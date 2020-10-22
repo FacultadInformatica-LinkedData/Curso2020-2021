@@ -9,6 +9,14 @@
 <http://www.semanticweb.org/group16/ontology/air-quality> rdf:type owl:Ontology .
 
 #################################################################
+#    Datatypes
+#################################################################
+
+###  https://schema.org/Number
+<https://schema.org/Number> rdf:type rdfs:Datatype .
+
+
+#################################################################
 #    Object Properties
 #################################################################
 
@@ -44,7 +52,7 @@
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
 :measureCode rdf:type owl:DatatypeProperty ;
              rdfs:domain :Magnitude ;
-             rdfs:range xsd:integer .
+             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureNotation
@@ -56,7 +64,7 @@
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureType
 :measureType rdf:type owl:DatatypeProperty ;
              rdfs:domain :Measurement ;
-             rdfs:range xsd:integer .
+             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureValue

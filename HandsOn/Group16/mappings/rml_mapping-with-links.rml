@@ -56,7 +56,7 @@ map:om_12 a rr:ObjectMap;
 map:om_13 a rr:ObjectMap;
     rml:reference "MAGNITUD";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_14 a rr:ObjectMap;
     rml:reference "NOTACION";
     rr:termType rr:Literal;
@@ -111,11 +111,11 @@ map:om_3 a rr:ObjectMap;
 map:om_4 a rr:ObjectMap;
     rml:reference "LATITUD";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+    rr:datatype <http://www.schema.org#Number>.
 map:om_5 a rr:ObjectMap;
     rml:reference "LONGITUD";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+    rr:datatype <http://www.schema.org#Number>.
 map:om_6 a rr:ObjectMap;
     rr:parentTriplesMap map:map_TriplesMap4_0;
     rr:joinCondition map:jc_0.
@@ -129,7 +129,7 @@ map:om_8 a rr:ObjectMap;
 map:om_9 a rr:ObjectMap;
     rml:reference "MAGNITUD";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
