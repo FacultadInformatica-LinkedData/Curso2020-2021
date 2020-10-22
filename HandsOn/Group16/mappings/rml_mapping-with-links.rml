@@ -261,15 +261,15 @@ map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
 map:s_0 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/group16/ontologies/air-quality/{ESTACION_ID}".
+    rr:template "http://www.semanticweb.org/group16/air-quality/resource/{ESTACION_ID}".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/group16/ontologies/air-quality/{ID}".
+    rr:template "http://www.semanticweb.org/group16/air-quality/resource/{ID}".
 map:s_2 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/group16/ontologies/air-quality/{NOTACION}".
+    rr:template "http://www.semanticweb.org/group16/air-quality/resource/{NOTACION}".
 map:s_3 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/group16/ontologies/air-quality/district_{DISTRITO_ID}".
+    rr:template "http://www.semanticweb.org/group16/air-quality/resource/district_{DISTRITO_ID}".
 map:s_4 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/group16/ontologies/air-quality/street_{DIRECCION_ID}".
+    rr:template "http://www.semanticweb.org/group16/air-quality/resource/street_{DIRECCION_ID}".
 map:source_0 a rml:LogicalSource;
     rml:source "estaciones-with-links.csv";
     rml:referenceFormulation ql:CSV.

@@ -10,7 +10,7 @@ mappings:
     TriplesMap1:
         sources:
             - [estaciones-with-links.csv~csv]
-        s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ESTACION_ID)
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(ESTACION_ID)
         po:
             - [a, ns:Station]
             - [ns:stationCode, $(ESTACION_ID), xsd:string]
@@ -30,7 +30,7 @@ mappings:
     TriplesMap2:
         sources:
             - [csv-shortened.csv~csv]
-        s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(ID)
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(ID)
         po:
             - [a, ns:Measurement]
             - [ns:dateOfMeasure, $(FECHA), xsd:dateTime]
@@ -48,7 +48,7 @@ mappings:
     TriplesMap3:
         sources:
             - [magnitudes.csv~csv]
-        s:  http://www.semanticweb.org/group16/ontologies/air-quality/$(NOTACION)
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(NOTACION)
         po:
             - [a, ns:Magnitude]
             - [ns:measureCode, $(MAGNITUD), xsd:integer]
@@ -65,7 +65,7 @@ mappings:
     TriplesMap4:
         sources:
             - [estaciones-with-links.csv~csv]
-        s:  http://www.semanticweb.org/group16/ontologies/air-quality/district_$(DISTRITO_ID)
+        s:  http://www.semanticweb.org/group16/air-quality/resource/district_$(DISTRITO_ID)
         po:
             - [a, ns:District]
             - [rdfs:label, $(DISTRITO_LINK), xsd:string]
@@ -75,7 +75,7 @@ mappings:
     TriplesMap5:
         sources:
             - [estaciones-with-links.csv~csv]
-        s:  http://www.semanticweb.org/group16/ontologies/air-quality/street_$(DIRECCION_ID)
+        s:  http://www.semanticweb.org/group16/air-quality/resource/street_$(DIRECCION_ID)
         po:
             - [a, ns:Street]
             - [rdfs:label, $(DIRECCION_LINK), xsd:string]

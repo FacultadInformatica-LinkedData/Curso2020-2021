@@ -4,7 +4,7 @@
     SPARQL queries for checking WikiData liking
 """
 
-github_storage = "/home/hxshfx/Descargas/a.ttl"
+github_storage = "/home/hxshfx/Descargas/output-with-links.ttl"
 
 "Data loading and graph building"
 
