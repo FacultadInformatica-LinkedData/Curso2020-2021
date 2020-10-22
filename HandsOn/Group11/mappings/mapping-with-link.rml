@@ -4,7 +4,8 @@
 @prefix transit: <http://vocab.org/transit/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
-@prefix : <http://group11.com/> .
+@prefix : <http://group11.com/ontology#> .
+@prefix resource: <http://group11.com/resource> .
 @prefix owl:<http://www.w3.org/2002/07/owl#>.
 @base <http://example.com/ns#>.
 
@@ -14,7 +15,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://group11.com/MobileRecyclePoint#{URI}";
+    rr:template "http://group11.com/resource/MovileRecyclePoint/{URI}";
     rr:termType rr:IRI;
     rr:class :MovileRecyclePoint
   ];
@@ -79,7 +80,7 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://group11.com/Location#{DIRURI}";
+    rr:template "http://group11.com/resource/Location/{DIRURI}";
     rr:termType rr:IRI;
     rr:class :Location
   ];
@@ -97,7 +98,7 @@ rr:predicateObjectMap [
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://group11.com/District#{DISTRITO}";
+    rr:template "http://group11.com/resource/District/{DISTRITO}";
     rr:termType rr:IRI;
     rr:class :District
   ];
