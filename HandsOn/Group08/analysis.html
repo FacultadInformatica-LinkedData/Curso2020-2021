@@ -23,6 +23,113 @@
 			</li>	
 		</ul>
 	
+	<h3>Analising dataset</h3>
+	
+		<table class="egt">
+		<tbody style="background: rgba(2, 254, 252, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+			<tr>
+
+				<th>Columna</th>
+
+				<th>Tipo</th>
+
+				<th>Descripción</th>
+
+			</tr>
+		</tbody>
+		
+		<tbody style="background: rgba(254, 219, 2, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+
+		
+		<tr>
+
+			<td>Distrito</td>
+			<td>String</td>
+			<td>Indica el distrito al que pertenece el punto de recarga</td>
+		
+		</tr>
+
+		<tr>
+
+			<td>Edificio</td>
+			<td>String</td>
+			<td>Indica el edificio en el que se encuentra el punto de recarga</td>
+		
+		</tr>
+		
+		<tr>
+
+			<td>Ubicación</td>
+			<td>String</td>
+			<td>Indica la calle en la que se encuentra el punto de recarga</td>
+
+		</tr>
+		
+		<tr>
+
+			<td>Coordenada Y</td>
+			<td>Float</td>
+			<td>Indica la latitud en la que se encuentra el punto de recarga</td>
+		
+		</tr>
+		
+		<tr>
+
+			<td>Coordenada X</td>
+			<td>Float</td>
+			<td>Indica la longitud en la que se encuentra el punto de recarga</td>
+
+		
+		</tr>
+		
+		<tr>
+
+			<td>Terminales</td>
+			<td>Integer</td>
+			<td>Indica el numero de terminales que se encuentran en el punto de recarga</td>
+
+		
+		</tr>
+
+		<tr>
+
+			<td>Conectores</td>
+			<td>String</td>
+			<td>Indica el modelo de terminal que se encuentra en el punto de recarga</td>
+
+		
+		</tr>
+		
+		<tr>
+
+			<td>Potencia</td>
+			<td>String</td>
+			<td>Indica la potencia suministrada en el punto de recarga</td>
+
+		</tr>
+
+		<tr>
+
+			<td>Código</td>
+			<td>String</td>
+			<td>Indica el código del punto de recarga</td>
+
+		</tr>
+
+
+		<tr>
+
+			<td>Año instalación</td>
+			<td>Integer</td>
+			<td>Indica el año en el que fue instalado el punto de recarga</td>
+
+		</tr>
+		</tbody>
+
+		</table>
+	
+	
+	
 	<h3>Resource naming strategy</h3>
 		<ul>
 			<li><b>Domain: </b><a href="https://www.eletricrechargemadrid.com/">https://www.eletricrechargemadrid.com/</a> </li>
@@ -30,11 +137,11 @@
 				<ul>
 					<li type="circle">Punto_recarga</li>
 					<li type="circle">Ubicacion</li>
+					<li type="circle">District</li>
 				</ul>
 			</li>
 			<li><b>Properties: </b><a href="https://www.eletricrechargemadrid.com/properties#">https://www.eletricrechargemadrid.com/properties#</a> 
 				<ul>
-					<li type="circle">distrito</li>
 					<li type="circle">edificio</li>
 					<li type="circle">calle</li>
 					<li type="circle">coordX</li>
