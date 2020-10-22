@@ -14,7 +14,7 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Puesto/{id}";
+    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Puesto/{PR_ID}";
     rr:termType rr:IRI;
     rr:class classes:Puesto
   ];
@@ -22,21 +22,21 @@
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:TieneDistrito; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "tieneDistrito"; rr:termType rr:Literal
+      rml:reference "DISTRITO"; rr:termType rr:Literal
       ]
   ];
 
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:tieneDireccion; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "tieneDireccion"; rr:termType rr:Literal
+      rml:reference "DIRECCION"; rr:termType rr:Literal
       ]
   ];
 
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:tieneOperador; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "tieneOperador"; rr:termType rr:Literal
+      rml:reference "OPERADOR"; rr:termType rr:Literal
       ]
   ].
 
@@ -46,10 +46,10 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Distrito/";
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Distrito/{DISTRITO}";
 	  rr:termType rr:IRI;
 	  rr:class classes:Distrito
-	];
+	].
 
 <#DireccionMapping> a rr:TriplesMap;
 	rml:logicalSource [
@@ -57,10 +57,10 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Direccion/";
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Direccion/{DIRECCION}";
 	  rr:termType rr:IRI;
 	  rr:class classes:Direccion
-	];
+	].
 
 <#OperadorMapping> a rr:TriplesMap;
 	rml:logicalSource [
@@ -68,7 +68,7 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Operador/";
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Operador/{OPERADOR}";
 	  rr:termType rr:IRI;
 	  rr:class classes:Operador
-	];
+	].
