@@ -8,15 +8,15 @@
 @prefix classes: <http://www.semanticweb.org/RecargaMadrid/classes#> .
 @prefix properties: <http://www.semanticweb.org/RecargaMadrid/properties#> .
 
-<#TriplesMap1>
+<#PuestoMapping> a rr:TriplesMap;
   rml:logicalSource [
     rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Puesto/{PR_ID}";
+    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Puesto/{id}";
     rr:termType rr:IRI;
-    rr:class classes:RecargaMadrid
+    rr:class classes:Puesto
   ];
 
   rr:predicateObjectMap [
@@ -34,20 +34,13 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap[rr:constant properties:tieneCoordenadas; rr:termType rr:IRI ];
-    rr:objectMap [
-      rml:reference "tieneCoordenadas"; rr:termType rr:Literal
-      ]
-  ];
-
-  rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:tieneOperador; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "tieneOperador"; rr:termType rr:Literal
       ]
   ].
 
-<#TriplesMap2>
+<#DistritoMapping> a rr:TriplesMap;
 	rml:logicalSource [
 	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
 	  rml:referenceFormulation ql:CSV
@@ -58,14 +51,7 @@
 	  rr:class classes:Distrito
 	];
 
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:tieneNumero; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rml:reference "tieneNumero"; rr:termType rr:Number
-		]
-	].
-
-<#TriplesMap3>
+<#DireccionMapping> a rr:TriplesMap;
 	rml:logicalSource [
 	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
 	  rml:referenceFormulation ql:CSV
@@ -76,55 +62,13 @@
 	  rr:class classes:Direccion
 	];
 
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:tieneDireccion; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rml:reference "tieneDireccion"; rr:termType rr:Literal
-		]
-	].
-
-
-<#TriplesMap4>
+<#OperadorMapping> a rr:TriplesMap;
 	rml:logicalSource [
 	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#NumeroPuestos/";
+	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Operador/";
 	  rr:termType rr:IRI;
-	  rr:class classes:NumeroPuestos
+	  rr:class classes:Operador
 	];
-
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:tieneNumeros; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rml:reference "tieneNumeros"; rr:termType rr:Number
-		]
-	].
-
-<#TriplesMap5>
-	rml:logicalSource [
-	  rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
-	  rml:referenceFormulation ql:CSV
-	];
-	
-	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes#Coordenadas/";
-	  rr:termType rr:IRI;
-	  rr:class classes:Coordenadas
-	];
-	
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:coordenadaX; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rml:reference "coordenadaX"; rr:termType rr:Number
-		]
-	];
-	
-	rr:predicateObjectMap [
-	  rr:predicateMap[rr:constant properties:coordenadaY; rr:termType rr:IRI ];
-	  rr:objectMap [
-		rml:reference "coordenadaY"; rr:termType rr:Number
-		]
-	].
-	
