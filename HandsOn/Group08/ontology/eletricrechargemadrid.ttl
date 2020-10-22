@@ -18,19 +18,15 @@ classes:District rdf:type owl:Class .
 # Data Properties
 properties:distrito rdf:type owl:DatatypeProperty ;
 		    rdfs:domain classes:District ;
-                    rdfs:range xsd:string .
+            rdfs:range xsd:string .
 
 properties:edificio rdf:type owl:DatatypeProperty ;
 		    rdfs:domain classes:Punto_recarga ;
 		    rdfs:range xsd:string .
 
-properties:nombre_calle rdf:type owl:DatatypeProperty ;
+properties:calle rdf:type owl:DatatypeProperty ;
                     	rdfs:domain classes:Ubicacion ;
                     	rdfs:range xsd:string .
-
-properties:numero_calle rdf:type owl:DatatypeProperty ;
-			rdfs:domain classes:Ubicacion ;
-			rdfs:range xsd:integer .
 
 properties:coordenada_y rdf:type owl:DatatypeProperty ;
                     	rdfs:domain classes:Ubicacion ;
@@ -50,7 +46,7 @@ properties:conectores rdf:type owl:DatatypeProperty ;
 
 properties:potencia rdf:type owl:DatatypeProperty ;
 		    rdfs:domain classes:Punto_recarga ;
-		    rdfs:range xsd:integer .
+		    rdfs:range xsd:string .
 
 properties:codigo rdf:type owl:DatatypeProperty ;
 		  rdfs:domain classes:Punto_recarga ;
@@ -61,4 +57,6 @@ properties:localizacion rdf:type owl:ObjectProperty ;
                     	rdfs:domain classes:Punto_recarga ;
                     	rdfs:range classes:Ubicacion .
 
-classes:District rdf:type owl:Class .
+properties:relacion rdf:type owl:ObjectProperty ;
+                    	rdfs:domain classes:Punto_recarga ;
+                    	rdfs:range classes:District .

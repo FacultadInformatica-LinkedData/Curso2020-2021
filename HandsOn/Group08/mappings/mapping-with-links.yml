@@ -33,6 +33,14 @@ mappings:
             parameters:
               - [str1, $(UBICACION)]
               - [str2, $(UBICACION)]
+      - p: vocab:relacion
+        o:
+         - mapping: triplesmap3
+           condition:
+            function: equal
+            parameters:
+              - [str1, $(DISTRITO)]
+              - [str2, $(DISTRITO)]
 
   triplesmap2:
     sources:
@@ -41,8 +49,8 @@ mappings:
     po:
       - [a, vocab:Ubicacion]
       - [vocab:calle,$(UBICACION),xsd:string]
-      - [vocab:coordenada_x,$(COORDENADA X),xsd:integer]
-      - [vocab:coordenada_y,$(COORDENADA Y),xsd:integer]
+      - [vocab:coordenada_x,$(COORDENADA X),xsd:float]
+      - [vocab:coordenada_y,$(COORDENADA Y),xsd:float]
 
   triplesmap3:
     sources:
