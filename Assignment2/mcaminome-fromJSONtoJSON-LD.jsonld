@@ -1,0 +1,62 @@
+{
+    "@context": {
+    "people": "http://www.oeg-upm.net/ontologies/people/",
+    "fullname": "people:fullname",
+    "hometown": "people:hometown",
+    "age": "people:age",
+    "almamater":"people:almamater",
+    "parents":"people:parents",
+    "mother":"parents:mother",
+    "father":"parents:father",
+    "subjects":"people:subjects",
+    "subject":"subjects:subject",
+    "name": "subject:name",
+    "teachers":"subject:teachers",
+    "teacher":"teachers:teacher",
+    "description":"subject:description"
+  },
+  "@id": "http://www.oeg-upm.net/ontologies/people/mcaminome",
+  "@type": "people:mcaminome",
+  "fullname":"Macarena Camino Martinez-Echevarria",
+  "hometown":"Madrid",
+  "age":"22",
+  "university":"Universidad Politecnica de Madrid",
+  "parents": {
+		"mother":"Blanca Martinez-Echevarria",
+		"father":"Juan Camino"
+	},
+	"subjects": {
+		"subject": [{
+				"name":"Ingenieria del Software II",
+				"teachers": {
+					"teacher": [
+						{"@value":"Jose Calvo-Manzano Villalón"},
+						{"@value":"Tomás San Feliu Gilabert"}
+					]
+				},
+				"description":"Aplicar los aspectos de gestión al desarrollo software"
+			},
+			{
+				"name":"Semantic Web, Linked Data and Knowledge Graphs",
+				"teachers": {
+					"teacher": [
+						{"@value":"Oscar Corcho Garcia"},
+						{"@value":"Raul Garcia Castro"},
+						{"@value":"Paola Espinoza"}
+					]
+				},
+				"description":"El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+			},
+			{
+				"name":"Tecnicas de Computacion Cientifica",
+				"teachers": {
+					"teacher": [
+						{"@value":"Vicente Martin"},
+						{"@value":"Juan Pedro Brito"}
+					]
+				},
+				"description":"Optimización de arquitecturas secuenciales, coprocesadores y programación paralela"
+			}
+		]
+	}
+}
