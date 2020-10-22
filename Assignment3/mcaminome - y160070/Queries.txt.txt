@@ -1,0 +1,60 @@
+Assignment 3
+
+Queries:
+
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician> or its equivalent in Wikidata):
+	- Query:
+		SELECT DISTINCT ?property 
+		WHERE { 
+		?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		?politician ?property ?x .
+		}
+		LIMIT 100
+	
+2. Get all the properties, except for rdf:type, that are applied to instances of the Politician class:
+	- Query:
+		SELECT DISTINCT ?property 
+		WHERE { 
+		?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		FILTER (?property != rdf:type)
+		?politician ?property ?x .
+		}
+		LIMIT 100
+
+3. Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?:
+	- Query:
+		SELECT DISTINCT ?value
+		WHERE { 
+		?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		FILTER (?property != rdf:type)
+		?politician ?property ?value .
+		}
+		LIMIT 100
+
+4. For each of these properties, except for rdf:type, which different values do they take in those instances?:
+	- Query:
+		SELECT DISTINCT ?value
+		WHERE { 
+		?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		FILTER (?property != rdf:type)
+		?politician ?property ?value .
+		}
+		LIMIT 100
+
+5. or each of the properties, except for rdf:type, how many distinct values do they take?:
+	- Query:
+		SELECT DISTINCT ?value
+		WHERE { 
+		?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		FILTER (?property != rdf:type)
+		?politician ?property ?value .
+		}
+		LIMIT 100
+
+
+
+
+
+
+
+
