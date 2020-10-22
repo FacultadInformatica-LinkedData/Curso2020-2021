@@ -1,0 +1,341 @@
+<http://group04.com/633005> <http://group04.com/hasID> "P? Recoletos".
+<http://group04.com/264800> <http://group04.com/hasID> "Carlos V".
+<http://group04.com/145800> <http://group04.com/hasID> "Plaza del Carmen".
+<http://group04.com/273600> <http://group04.com/hasID> "Plaza de Espa?a".
+<http://group04.com/514425> <http://group04.com/hasID> "B? del Pilar".
+<http://group04.com/153600> <http://group04.com/hasID> "Gregorio Mara??n".
+<http://group04.com/18900> <http://group04.com/hasID> "Escuelas Aguirre".
+<http://group04.com/554550> <http://group04.com/hasID> "Cuatro Caminos".
+<http://group04.com/610450> <http://group04.com/hasID> "Ram?n y Cajal".
+<http://group04.com/242000> <http://group04.com/hasID> "Manuel Becerra".
+<http://group04.com/75500> <http://group04.com/hasID> "Vallecas".
+<http://group04.com/293200> <http://group04.com/hasID> "Fern?ndez Ladreda".
+<http://group04.com/798700> <http://group04.com/hasID> "Arturo Soria".
+<http://group04.com/417200> <http://group04.com/hasID> "Villaverde".
+<http://group04.com/1903> <http://group04.com/hasID> "Farolillo".
+<http://group04.com/367300> <http://group04.com/hasID> "Alto Extremadura".
+<http://group04.com/522000> <http://group04.com/hasID> "Avda Moratalaz".
+<http://group04.com/905219> <http://group04.com/hasID> "Casa de Campo".
+<http://group04.com/604750> <http://group04.com/hasID> "Santa Eugenia".
+<http://group04.com/729200> <http://group04.com/hasID> "Embajada".
+<http://group04.com/425700> <http://group04.com/hasID> "Barajas Pueblo".
+<http://group04.com/84000> <http://group04.com/hasID> "Cuatro Vientos".
+<http://group04.com/348500> <http://group04.com/hasID> "El Pardo".
+<http://group04.com/1111> <http://group04.com/hasID> "Campo de las Naciones".
+<http://group04.com/31000002> <http://group04.com/hasID> "Sanchinarro".
+<http://group04.com/414800> <http://group04.com/hasID> "Mendez ?lvaro".
+<http://group04.com/401400> <http://group04.com/hasID> "Castellana".
+<http://group04.com/154500> <http://group04.com/hasID> "Pza de Castilla".
+<http://group04.com/31000516> <http://group04.com/hasID> "Ensanche de Vallecas".
+<http://group04.com/639250> <http://group04.com/hasID> "Urb Embajada 2".
+<http://group04.com/1427> <http://group04.com/hasID> "Tres Olivos".
+<http://group04.com/Frente%20calle%20Almirante> <http://group04.com/hasName> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Frente%20calle%20Almirante> <http://group04.com/hasCode> "633005".
+<http://group04.com/Frente%20calle%20Almirante> <http://group04.com/ViaClass> "PASEO".
+<http://group04.com/Frente%20calle%20Almirante> <http://group04.com/ViaName> "DE RECOLETOS".
+<http://group04.com/Frente%20calle%20Almirante> <http://group04.com/hasDir> "Frente calle Almirante".
+<http://group04.com/Pza%20del%20Emperador%20Carlos%20V%2F%20Infanta%20Isabel> <http://group04.com/hasName> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Pza%20del%20Emperador%20Carlos%20V%2F%20Infanta%20Isabel> <http://group04.com/hasCode> "264800".
+<http://group04.com/Pza%20del%20Emperador%20Carlos%20V%2F%20Infanta%20Isabel> <http://group04.com/ViaClass> "PLAZA".
+<http://group04.com/Pza%20del%20Emperador%20Carlos%20V%2F%20Infanta%20Isabel> <http://group04.com/ViaName> "DEL EMPERADOR CARLOS V".
+<http://group04.com/Pza%20del%20Emperador%20Carlos%20V%2F%20Infanta%20Isabel> <http://group04.com/hasDir> "Pza del Emperador Carlos V/ Infanta Isabel".
+<http://group04.com/Plaza%20del%20Carmen> <http://group04.com/hasName> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Plaza%20del%20Carmen> <http://group04.com/hasCode> "145800".
+<http://group04.com/Plaza%20del%20Carmen> <http://group04.com/ViaClass> "PLAZA".
+<http://group04.com/Plaza%20del%20Carmen> <http://group04.com/ViaName> "DEL CARMEN".
+<http://group04.com/Plaza%20del%20Carmen> <http://group04.com/hasDir> "Plaza del Carmen".
+<http://group04.com/Frente%20Edificio%20Espa%EF%BF%BDa> <http://group04.com/hasName> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Frente%20Edificio%20Espa%EF%BF%BDa> <http://group04.com/hasCode> "273600".
+<http://group04.com/Frente%20Edificio%20Espa%EF%BF%BDa> <http://group04.com/ViaClass> "PLAZA".
+<http://group04.com/Frente%20Edificio%20Espa%EF%BF%BDa> <http://group04.com/ViaName> "DE ESPA?A".
+<http://group04.com/Frente%20Edificio%20Espa%EF%BF%BDa> <http://group04.com/hasDir> "Frente Edificio Espa?a".
+<http://group04.com/Monforte%20Lemos-Av.Betanzos-La%20Vaguada> <http://group04.com/hasName> "5"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Monforte%20Lemos-Av.Betanzos-La%20Vaguada> <http://group04.com/hasCode> "514425".
+<http://group04.com/Monforte%20Lemos-Av.Betanzos-La%20Vaguada> <http://group04.com/ViaClass> "AVENIDA".
+<http://group04.com/Monforte%20Lemos-Av.Betanzos-La%20Vaguada> <http://group04.com/ViaName> "DE MONFORTE DE LEMOS".
+<http://group04.com/Monforte%20Lemos-Av.Betanzos-La%20Vaguada> <http://group04.com/hasDir> "Monforte Lemos-Av.Betanzos-La Vaguada".
+<http://group04.com/Lateral%20P%EF%BF%BD%20Castellana-C%2FMiguel%20Angel> <http://group04.com/hasName> "6"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Lateral%20P%EF%BF%BD%20Castellana-C%2FMiguel%20Angel> <http://group04.com/hasCode> "153600".
+<http://group04.com/Lateral%20P%EF%BF%BD%20Castellana-C%2FMiguel%20Angel> <http://group04.com/ViaClass> "PASEO".
+<http://group04.com/Lateral%20P%EF%BF%BD%20Castellana-C%2FMiguel%20Angel> <http://group04.com/ViaName> "DE LA CASTELLANA".
+<http://group04.com/Lateral%20P%EF%BF%BD%20Castellana-C%2FMiguel%20Angel> <http://group04.com/hasDir> "Lateral P? Castellana-C/Miguel Angel".
+<http://group04.com/Alcala-Odonnell> <http://group04.com/hasName> "8"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Alcala-Odonnell> <http://group04.com/hasCode> "18900".
+<http://group04.com/Alcala-Odonnell> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/Alcala-Odonnell> <http://group04.com/ViaName> "DE ALCALA".
+<http://group04.com/Alcala-Odonnell> <http://group04.com/hasDir> "Alcala-Odonnell".
+<http://group04.com/Av.Pablo%20Iglesias-P%EF%BF%BDS.Fco%20de%20Sales> <http://group04.com/hasName> "10"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Av.Pablo%20Iglesias-P%EF%BF%BDS.Fco%20de%20Sales> <http://group04.com/hasCode> "554550".
+<http://group04.com/Av.Pablo%20Iglesias-P%EF%BF%BDS.Fco%20de%20Sales> <http://group04.com/ViaClass> "AVENIDA".
+<http://group04.com/Av.Pablo%20Iglesias-P%EF%BF%BDS.Fco%20de%20Sales> <http://group04.com/ViaName> "DE PABLO IGLESIAS".
+<http://group04.com/Av.Pablo%20Iglesias-P%EF%BF%BDS.Fco%20de%20Sales> <http://group04.com/hasDir> "Av.Pablo Iglesias-P?S.Fco de Sales".
+<http://group04.com/Ppe.Vergara-Parque%20Berl%EF%BF%BDn> <http://group04.com/hasName> "11"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Ppe.Vergara-Parque%20Berl%EF%BF%BDn> <http://group04.com/hasCode> "610450".
+<http://group04.com/Ppe.Vergara-Parque%20Berl%EF%BF%BDn> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/Ppe.Vergara-Parque%20Berl%EF%BF%BDn> <http://group04.com/ViaName> "DEL PRINCIPE DE VERGARA".
+<http://group04.com/Ppe.Vergara-Parque%20Berl%EF%BF%BDn> <http://group04.com/hasDir> "Ppe.Vergara-Parque Berl?n".
+<http://group04.com/Dr.G%EF%BF%BDmez%20Ulla-Jardines%20Eva%20Duarte> <http://group04.com/hasName> "12"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Dr.G%EF%BF%BDmez%20Ulla-Jardines%20Eva%20Duarte> <http://group04.com/hasCode> "242000".
+<http://group04.com/Dr.G%EF%BF%BDmez%20Ulla-Jardines%20Eva%20Duarte> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/Dr.G%EF%BF%BDmez%20Ulla-Jardines%20Eva%20Duarte> <http://group04.com/ViaName> "DEL DOCTOR GOMEZ ULLA".
+<http://group04.com/Dr.G%EF%BF%BDmez%20Ulla-Jardines%20Eva%20Duarte> <http://group04.com/hasDir> "Dr.G?mez Ulla-Jardines Eva Duarte".
+<http://group04.com/C%2FArroyo%20del%20Olivar-Rio%20San%20Lorenzo> <http://group04.com/hasName> "13"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2FArroyo%20del%20Olivar-Rio%20San%20Lorenzo> <http://group04.com/hasCode> "75500".
+<http://group04.com/C%2FArroyo%20del%20Olivar-Rio%20San%20Lorenzo> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2FArroyo%20del%20Olivar-Rio%20San%20Lorenzo> <http://group04.com/ViaName> "DEL ARROYO DEL OLIVAR".
+<http://group04.com/C%2FArroyo%20del%20Olivar-Rio%20San%20Lorenzo> <http://group04.com/hasDir> "C/Arroyo del Olivar-Rio San Lorenzo".
+<http://group04.com/Plaza%20Fern%EF%BF%BDndez%20Ladreda> <http://group04.com/hasName> "14"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Plaza%20Fern%EF%BF%BDndez%20Ladreda> <http://group04.com/hasCode> "293200".
+<http://group04.com/Plaza%20Fern%EF%BF%BDndez%20Ladreda> <http://group04.com/ViaClass> "PLAZA".
+<http://group04.com/Plaza%20Fern%EF%BF%BDndez%20Ladreda> <http://group04.com/ViaName> "ELIPTICA".
+<http://group04.com/Plaza%20Fern%EF%BF%BDndez%20Ladreda> <http://group04.com/hasDir> "Plaza Fern?ndez Ladreda".
+<http://group04.com/C%2FVizconde%20de%20los%20Asilos> <http://group04.com/hasName> "16"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2FVizconde%20de%20los%20Asilos> <http://group04.com/hasCode> "798700".
+<http://group04.com/C%2FVizconde%20de%20los%20Asilos> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2FVizconde%20de%20los%20Asilos> <http://group04.com/ViaName> "DEL VIZCONDE DE LOS ASILOS".
+<http://group04.com/C%2FVizconde%20de%20los%20Asilos> <http://group04.com/hasDir> "C/Vizconde de los Asilos".
+<http://group04.com/C%2F%20Juan%20Pe%EF%BF%BDalver> <http://group04.com/hasName> "17"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2F%20Juan%20Pe%EF%BF%BDalver> <http://group04.com/hasCode> "417200".
+<http://group04.com/C%2F%20Juan%20Pe%EF%BF%BDalver> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2F%20Juan%20Pe%EF%BF%BDalver> <http://group04.com/ViaName> "DE JUAN PE?ALVER".
+<http://group04.com/C%2F%20Juan%20Pe%EF%BF%BDalver> <http://group04.com/hasDir> "C/ Juan Pe?alver".
+<http://group04.com/C%2F%20Farolillo> <http://group04.com/hasName> "18"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2F%20Farolillo> <http://group04.com/hasCode> "1903".
+<http://group04.com/C%2F%20Farolillo> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2F%20Farolillo> <http://group04.com/ViaName> "DEL FAROLILLO".
+<http://group04.com/C%2F%20Farolillo> <http://group04.com/hasDir> "C/ Farolillo".
+<http://group04.com/C%2FHuerta%20Casta%EF%BF%BDeda> <http://group04.com/hasName> "19"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2FHuerta%20Casta%EF%BF%BDeda> <http://group04.com/hasCode> "367300".
+<http://group04.com/C%2FHuerta%20Casta%EF%BF%BDeda> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2FHuerta%20Casta%EF%BF%BDeda> <http://group04.com/ViaName> "DE LA HUERTA DE CASTA?EDA".
+<http://group04.com/C%2FHuerta%20Casta%EF%BF%BDeda> <http://group04.com/hasDir> "C/Huerta Casta?eda".
+<http://group04.com/Av.Moratalaz-Camino%20Vinateros> <http://group04.com/hasName> "20"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Av.Moratalaz-Camino%20Vinateros> <http://group04.com/hasCode> "522000".
+<http://group04.com/Av.Moratalaz-Camino%20Vinateros> <http://group04.com/ViaClass> "AVENIDA".
+<http://group04.com/Av.Moratalaz-Camino%20Vinateros> <http://group04.com/ViaName> "DE MORATALAZ".
+<http://group04.com/Av.Moratalaz-Camino%20Vinateros> <http://group04.com/hasDir> "Av.Moratalaz-Camino Vinateros".
+<http://group04.com/Junto%20a%20Telef%EF%BF%BDrico-Cerro%20de%20las%20Animas> <http://group04.com/hasName> "24"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Junto%20a%20Telef%EF%BF%BDrico-Cerro%20de%20las%20Animas> <http://group04.com/hasCode> "905219".
+<http://group04.com/Junto%20a%20Telef%EF%BF%BDrico-Cerro%20de%20las%20Animas> <http://group04.com/ViaClass> "CARRETERA".
+<http://group04.com/Junto%20a%20Telef%EF%BF%BDrico-Cerro%20de%20las%20Animas> <http://group04.com/ViaName> "DEL TELEFERICO".
+<http://group04.com/Junto%20a%20Telef%EF%BF%BDrico-Cerro%20de%20las%20Animas> <http://group04.com/hasDir> "Junto a Telef?rico-Cerro de las Animas".
+<http://group04.com/C%2F%20Poza%20de%20la%20Sal> <http://group04.com/hasName> "25"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2F%20Poza%20de%20la%20Sal> <http://group04.com/hasCode> "604750".
+<http://group04.com/C%2F%20Poza%20de%20la%20Sal> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2F%20Poza%20de%20la%20Sal> <http://group04.com/ViaName> "DE POZA DE LA SAL".
+<http://group04.com/C%2F%20Poza%20de%20la%20Sal> <http://group04.com/hasDir> "C/ Poza de la Sal".
+<http://group04.com/Parque%20Soto%20Hidalgo> <http://group04.com/hasName> "26"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Parque%20Soto%20Hidalgo> <http://group04.com/hasCode> "729200".
+<http://group04.com/Parque%20Soto%20Hidalgo> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/Parque%20Soto%20Hidalgo> <http://group04.com/ViaName> "DE SOTO HIDALGO".
+<http://group04.com/Parque%20Soto%20Hidalgo> <http://group04.com/hasDir> "Parque Soto Hidalgo".
+<http://group04.com/J%EF%BF%BDpiter%20%28frente%20al%2021%29> <http://group04.com/hasName> "27"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/J%EF%BF%BDpiter%20%28frente%20al%2021%29> <http://group04.com/hasCode> "425700".
+<http://group04.com/J%EF%BF%BDpiter%20%28frente%20al%2021%29> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/J%EF%BF%BDpiter%20%28frente%20al%2021%29> <http://group04.com/ViaName> "DE JUPITER".
+<http://group04.com/J%EF%BF%BDpiter%20%28frente%20al%2021%29> <http://group04.com/hasDir> "J?piter (frente al 21)".
+<http://group04.com/Avd.%20de%20la%20Aviaci%EF%BF%BDn> <http://group04.com/hasName> "28"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Avd.%20de%20la%20Aviaci%EF%BF%BDn> <http://group04.com/hasCode> "84000".
+<http://group04.com/Avd.%20de%20la%20Aviaci%EF%BF%BDn> <http://group04.com/ViaClass> "AVENIDA".
+<http://group04.com/Avd.%20de%20la%20Aviaci%EF%BF%BDn> <http://group04.com/ViaName> "DE LA AVIACION".
+<http://group04.com/Avd.%20de%20la%20Aviaci%EF%BF%BDn> <http://group04.com/hasDir> "Avd. de la Aviaci?n".
+<http://group04.com/Avd.%20de%20la%20Guardia> <http://group04.com/hasName> "29"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Avd.%20de%20la%20Guardia> <http://group04.com/hasCode> "348500".
+<http://group04.com/Avd.%20de%20la%20Guardia> <http://group04.com/ViaClass> "AVENIDA".
+<http://group04.com/Avd.%20de%20la%20Guardia> <http://group04.com/ViaName> "DE LA GUARDIA".
+<http://group04.com/Avd.%20de%20la%20Guardia> <http://group04.com/hasDir> "Avd. de la Guardia".
+<http://group04.com/Rivera%20del%20Sena%20S%2FN> <http://group04.com/hasName> "30"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Rivera%20del%20Sena%20S%2FN> <http://group04.com/hasCode> "1111".
+<http://group04.com/Rivera%20del%20Sena%20S%2FN> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/Rivera%20del%20Sena%20S%2FN> <http://group04.com/ViaName> "DE LA RIBERA DEL SENA".
+<http://group04.com/Rivera%20del%20Sena%20S%2FN> <http://group04.com/hasDir> "Rivera del Sena S/N".
+<http://group04.com/C%2F%20Princesa%20de%20%EF%BF%BDvoli%20esq.%20C%2F%20Mar%EF%BF%BDa%20Tudor> <http://group04.com/hasName> "31"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2F%20Princesa%20de%20%EF%BF%BDvoli%20esq.%20C%2F%20Mar%EF%BF%BDa%20Tudor> <http://group04.com/hasCode> "31000002".
+<http://group04.com/C%2F%20Princesa%20de%20%EF%BF%BDvoli%20esq.%20C%2F%20Mar%EF%BF%BDa%20Tudor> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2F%20Princesa%20de%20%EF%BF%BDvoli%20esq.%20C%2F%20Mar%EF%BF%BDa%20Tudor> <http://group04.com/ViaName> "DE LA PRINCESA DE EBOLI".
+<http://group04.com/C%2F%20Princesa%20de%20%EF%BF%BDvoli%20esq.%20C%2F%20Mar%EF%BF%BDa%20Tudor> <http://group04.com/hasDir> "C/ Princesa de ?voli esq. C/ Mar?a Tudor".
+<http://group04.com/C%2F%20Juan%20de%20Mariana-Pz%20Amanecer%20en%20M%EF%BF%BDndez%20%EF%BF%BDlvaro> <http://group04.com/hasName> "47"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2F%20Juan%20de%20Mariana-Pz%20Amanecer%20en%20M%EF%BF%BDndez%20%EF%BF%BDlvaro> <http://group04.com/hasCode> "414800".
+<http://group04.com/C%2F%20Juan%20de%20Mariana-Pz%20Amanecer%20en%20M%EF%BF%BDndez%20%EF%BF%BDlvaro> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2F%20Juan%20de%20Mariana-Pz%20Amanecer%20en%20M%EF%BF%BDndez%20%EF%BF%BDlvaro> <http://group04.com/ViaName> "DE JUAN DE MARIANA".
+<http://group04.com/C%2F%20Juan%20de%20Mariana-Pz%20Amanecer%20en%20M%EF%BF%BDndez%20%EF%BF%BDlvaro> <http://group04.com/hasDir> "C/ Juan de Mariana-Pz Amanecer en M?ndez ?lvaro".
+<http://group04.com/C%2F%20Jos%EF%BF%BD%20Gutierrez%20Abascal> <http://group04.com/hasName> "48"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2F%20Jos%EF%BF%BD%20Gutierrez%20Abascal> <http://group04.com/hasCode> "401400".
+<http://group04.com/C%2F%20Jos%EF%BF%BD%20Gutierrez%20Abascal> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2F%20Jos%EF%BF%BD%20Gutierrez%20Abascal> <http://group04.com/ViaName> "DE JOSE GUTIERREZ ABASCAL".
+<http://group04.com/C%2F%20Jos%EF%BF%BD%20Gutierrez%20Abascal> <http://group04.com/hasDir> "C/ Jos? Gutierrez Abascal".
+<http://group04.com/Plaza%20Castilla%20%28Canal%29> <http://group04.com/hasName> "50"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Plaza%20Castilla%20%28Canal%29> <http://group04.com/hasCode> "154500".
+<http://group04.com/Plaza%20Castilla%20%28Canal%29> <http://group04.com/ViaClass> "PLAZA".
+<http://group04.com/Plaza%20Castilla%20%28Canal%29> <http://group04.com/ViaName> "DE CASTILLA".
+<http://group04.com/Plaza%20Castilla%20%28Canal%29> <http://group04.com/hasDir> "Plaza Castilla (Canal)".
+<http://group04.com/Avda.%20de%20Gavia%20%2F%20Avda.%20de%20las%20Suertes> <http://group04.com/hasName> "54"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Avda.%20de%20Gavia%20%2F%20Avda.%20de%20las%20Suertes> <http://group04.com/hasCode> "31000516".
+<http://group04.com/Avda.%20de%20Gavia%20%2F%20Avda.%20de%20las%20Suertes> <http://group04.com/ViaClass> "AVENIDA".
+<http://group04.com/Avda.%20de%20Gavia%20%2F%20Avda.%20de%20las%20Suertes> <http://group04.com/ViaName> "DE LA GAVIA".
+<http://group04.com/Avda.%20de%20Gavia%20%2F%20Avda.%20de%20las%20Suertes> <http://group04.com/hasDir> "Avda. de Gavia / Avda. de las Suertes".
+<http://group04.com/C%2F%20Ria%EF%BF%BDo> <http://group04.com/hasName> "55"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/C%2F%20Ria%EF%BF%BDo> <http://group04.com/hasCode> "639250".
+<http://group04.com/C%2F%20Ria%EF%BF%BDo> <http://group04.com/ViaClass> "CALLE".
+<http://group04.com/C%2F%20Ria%EF%BF%BDo> <http://group04.com/ViaName> "DE RIA?O".
+<http://group04.com/C%2F%20Ria%EF%BF%BDo> <http://group04.com/hasDir> "C/ Ria?o".
+<http://group04.com/Plaza%20de%20Tres%20Olivos> <http://group04.com/hasName> "86"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/Plaza%20de%20Tres%20Olivos> <http://group04.com/hasCode> "1427".
+<http://group04.com/Plaza%20de%20Tres%20Olivos> <http://group04.com/ViaClass> "PLAZA".
+<http://group04.com/Plaza%20de%20Tres%20Olivos> <http://group04.com/ViaName> "DE LOS TRES OLIVOS".
+<http://group04.com/Plaza%20de%20Tres%20Olivos> <http://group04.com/hasDir> "Plaza de Tres Olivos".
+<http://group04.com/3%EF%BF%BD41%2727%27%27%20O/40%EF%BF%BD25%2724%27%27%20N> <http://group04.com/long> "3?41'27'' O".
+<http://group04.com/3%EF%BF%BD41%2727%27%27%20O/40%EF%BF%BD25%2724%27%27%20N> <http://group04.com/lat> "40?25'24'' N".
+<http://group04.com/3%EF%BF%BD41%2727%27%27%20O/40%EF%BF%BD25%2724%27%27%20N> <http://group04.com/hasAlt> "648".
+<http://group04.com/3%EF%BF%BD41%2725%20O/40%EF%BF%BD24%2736%22%20N> <http://group04.com/long> "3?41'25 O".
+<http://group04.com/3%EF%BF%BD41%2725%20O/40%EF%BF%BD24%2736%22%20N> <http://group04.com/lat> "40?24'36\" N".
+<http://group04.com/3%EF%BF%BD41%2725%20O/40%EF%BF%BD24%2736%22%20N> <http://group04.com/hasAlt> "629".
+<http://group04.com/3%EF%BF%BD42%2717%22%20O/40%EF%BF%BD25%2716%22%20N> <http://group04.com/long> "3?42'17\" O".
+<http://group04.com/3%EF%BF%BD42%2717%22%20O/40%EF%BF%BD25%2716%22%20N> <http://group04.com/lat> "40?25'16\" N".
+<http://group04.com/3%EF%BF%BD42%2717%22%20O/40%EF%BF%BD25%2716%22%20N> <http://group04.com/hasAlt> "657".
+<http://group04.com/3%EF%BF%BD42%2740%22%20O/40%EF%BF%BD25%2740%22%20N> <http://group04.com/long> "3?42'40\" O".
+<http://group04.com/3%EF%BF%BD42%2740%22%20O/40%EF%BF%BD25%2740%22%20N> <http://group04.com/lat> "40?25'40\" N".
+<http://group04.com/3%EF%BF%BD42%2740%22%20O/40%EF%BF%BD25%2740%22%20N> <http://group04.com/hasAlt> "637".
+<http://group04.com/3%EF%BF%BD42%2755%22%20O/40%EF%BF%BD28%2737%22%20N> <http://group04.com/long> "3?42'55\" O".
+<http://group04.com/3%EF%BF%BD42%2755%22%20O/40%EF%BF%BD28%2737%22%20N> <http://group04.com/lat> "40?28'37\" N".
+<http://group04.com/3%EF%BF%BD42%2755%22%20O/40%EF%BF%BD28%2737%22%20N> <http://group04.com/hasAlt> "673".
+<http://group04.com/3%EF%BF%BD41%2722%22%20O/40%EF%BF%BD26%2733%22%20N> <http://group04.com/long> "3?41'22\" O".
+<http://group04.com/3%EF%BF%BD41%2722%22%20O/40%EF%BF%BD26%2733%22%20N> <http://group04.com/lat> "40?26'33\" N".
+<http://group04.com/3%EF%BF%BD41%2722%22%20O/40%EF%BF%BD26%2733%22%20N> <http://group04.com/hasAlt> "669".
+<http://group04.com/3%EF%BF%BD40%2752%22%20O/40%EF%BF%BD25%2732%22%20N> <http://group04.com/long> "3?40'52\" O".
+<http://group04.com/3%EF%BF%BD40%2752%22%20O/40%EF%BF%BD25%2732%22%20N> <http://group04.com/lat> "40?25'32\" N".
+<http://group04.com/3%EF%BF%BD40%2752%22%20O/40%EF%BF%BD25%2732%22%20N> <http://group04.com/hasAlt> "672".
+<http://group04.com/3%EF%BF%BD42%2718%22%20O/40%EF%BF%BD26%2738%22%20N> <http://group04.com/long> "3?42'18\" O".
+<http://group04.com/3%EF%BF%BD42%2718%22%20O/40%EF%BF%BD26%2738%22%20N> <http://group04.com/lat> "40?26'38\" N".
+<http://group04.com/3%EF%BF%BD42%2718%22%20O/40%EF%BF%BD26%2738%22%20N> <http://group04.com/hasAlt> "699".
+<http://group04.com/3%EF%BF%BD40%2733%22%20O/40%EF%BF%BD27%27%209%22%20N> <http://group04.com/long> "3?40'33\" O".
+<http://group04.com/3%EF%BF%BD40%2733%22%20O/40%EF%BF%BD27%27%209%22%20N> <http://group04.com/lat> "40?27' 9\" N".
+<http://group04.com/3%EF%BF%BD40%2733%22%20O/40%EF%BF%BD27%27%209%22%20N> <http://group04.com/hasAlt> "708".
+<http://group04.com/3%EF%BF%BD40%2702%22%20O/40%EF%BF%BD25%2752%22%20N> <http://group04.com/long> "3?40'02\" O".
+<http://group04.com/3%EF%BF%BD40%2702%22%20O/40%EF%BF%BD25%2752%22%20N> <http://group04.com/lat> "40?25'52\" N".
+<http://group04.com/3%EF%BF%BD40%2702%22%20O/40%EF%BF%BD25%2752%22%20N> <http://group04.com/hasAlt> "678".
+<http://group04.com/3%EF%BF%BD40%2703%22%20O/40%EF%BF%BD23%2750%22%20N> <http://group04.com/long> "3?40'03\" O".
+<http://group04.com/3%EF%BF%BD40%2703%22%20O/40%EF%BF%BD23%2750%22%20N> <http://group04.com/lat> "40?23'50\" N".
+<http://group04.com/3%EF%BF%BD40%2703%22%20O/40%EF%BF%BD23%2750%22%20N> <http://group04.com/hasAlt> "677".
+<http://group04.com/%204/3%EF%BF%BD43%277%2C4%22%20O> <http://group04.com/long> " 4".
+<http://group04.com/%204/3%EF%BF%BD43%277%2C4%22%20O> <http://group04.com/lat> "3?43'7,4\" O".
+<http://group04.com/%204/3%EF%BF%BD43%277%2C4%22%20O> <http://group04.com/hasAlt> "40?23'5,8\" N".
+<http://group04.com/3%EF%BF%BD38%2715%22%20O/40%EF%BF%BD20%2749%2C56%22%20N> <http://group04.com/long> "3?38'15\" O".
+<http://group04.com/3%EF%BF%BD38%2715%22%20O/40%EF%BF%BD20%2749%2C56%22%20N> <http://group04.com/lat> "40?20'49,56\" N".
+<http://group04.com/3%EF%BF%BD38%2715%22%20O/40%EF%BF%BD20%2749%2C56%22%20N> <http://group04.com/hasAlt> "698".
+<http://group04.com/3%EF%BF%BD42%2747%2C98%22O/40%EF%BF%BD20%2749%2C6%22N> <http://group04.com/long> "3?42'47,98\"O".
+<http://group04.com/3%EF%BF%BD42%2747%2C98%22O/40%EF%BF%BD20%2749%2C6%22N> <http://group04.com/lat> "40?20'49,6\"N".
+<http://group04.com/3%EF%BF%BD42%2747%2C98%22O/40%EF%BF%BD20%2749%2C6%22N> <http://group04.com/hasAlt> "601".
+<http://group04.com/3%EF%BF%BD43%2748%22%20O/40%EF%BF%BD23%2744%22%20N> <http://group04.com/long> "3?43'48\" O".
+<http://group04.com/3%EF%BF%BD43%2748%22%20O/40%EF%BF%BD23%2744%22%20N> <http://group04.com/lat> "40?23'44\" N".
+<http://group04.com/3%EF%BF%BD43%2748%22%20O/40%EF%BF%BD23%2744%22%20N> <http://group04.com/hasAlt> "625".
+<http://group04.com/3%EF%BF%BD44%2716%22%20O/40%EF%BF%BD24%2740%22%20N> <http://group04.com/long> "3?44'16\" O".
+<http://group04.com/3%EF%BF%BD44%2716%22%20O/40%EF%BF%BD24%2740%22%20N> <http://group04.com/lat> "40?24'40\" N".
+<http://group04.com/3%EF%BF%BD44%2716%22%20O/40%EF%BF%BD24%2740%22%20N> <http://group04.com/hasAlt> "632".
+<http://group04.com/3%EF%BF%BD38%2759%22%20O/40%EF%BF%BD24%2725%22%20N> <http://group04.com/long> "3?38'59\" O".
+<http://group04.com/3%EF%BF%BD38%2759%22%20O/40%EF%BF%BD24%2725%22%20N> <http://group04.com/lat> "40?24'25\" N".
+<http://group04.com/3%EF%BF%BD38%2759%22%20O/40%EF%BF%BD24%2725%22%20N> <http://group04.com/hasAlt> "671".
+<http://group04.com/3%EF%BF%BD44%2756%22%20O/40%EF%BF%BD25%2718%22%20N> <http://group04.com/long> "3?44'56\" O".
+<http://group04.com/3%EF%BF%BD44%2756%22%20O/40%EF%BF%BD25%2718%22%20N> <http://group04.com/lat> "40?25'18\" N".
+<http://group04.com/3%EF%BF%BD44%2756%22%20O/40%EF%BF%BD25%2718%22%20N> <http://group04.com/hasAlt> "645".
+<http://group04.com/3%EF%BF%BD36%27%204%22%20O/40%EF%BF%BD22%2748%22%20N> <http://group04.com/long> "3?36' 4\" O".
+<http://group04.com/3%EF%BF%BD36%27%204%22%20O/40%EF%BF%BD22%2748%22%20N> <http://group04.com/lat> "40?22'48\" N".
+<http://group04.com/3%EF%BF%BD36%27%204%22%20O/40%EF%BF%BD22%2748%22%20N> <http://group04.com/hasAlt> "653".
+<http://group04.com/%202/3%EF%BF%BD34%2744%22O> <http://group04.com/long> " 2".
+<http://group04.com/%202/3%EF%BF%BD34%2744%22O> <http://group04.com/lat> "3?34'44\"O".
+<http://group04.com/%202/3%EF%BF%BD34%2744%22O> <http://group04.com/hasAlt> "40?27'37,7\"N".
+<http://group04.com/3%EF%BF%BD34%2743%2C8%22O/40%EF%BF%BD28%2741%2C2%22N> <http://group04.com/long> "3?34'43,8\"O".
+<http://group04.com/3%EF%BF%BD34%2743%2C8%22O/40%EF%BF%BD28%2741%2C2%22N> <http://group04.com/lat> "40?28'41,2\"N".
+<http://group04.com/3%EF%BF%BD34%2743%2C8%22O/40%EF%BF%BD28%2741%2C2%22N> <http://group04.com/hasAlt> "627".
+<http://group04.com/3%EF%BF%BD46%2735%2C9%22O/40%EF%BF%BD22%2734%2C9%22%20N> <http://group04.com/long> "3?46'35,9\"O".
+<http://group04.com/3%EF%BF%BD46%2735%2C9%22O/40%EF%BF%BD22%2734%2C9%22%20N> <http://group04.com/lat> "40?22'34,9\" N".
+<http://group04.com/3%EF%BF%BD46%2735%2C9%22O/40%EF%BF%BD22%2734%2C9%22%20N> <http://group04.com/hasAlt> "677".
+<http://group04.com/3%EF%BF%BD46%2724%2C4%22O/40%EF%BF%BD31%279%2C4%22N> <http://group04.com/long> "3?46'24,4\"O".
+<http://group04.com/3%EF%BF%BD46%2724%2C4%22O/40%EF%BF%BD31%279%2C4%22N> <http://group04.com/lat> "40?31'9,4\"N".
+<http://group04.com/3%EF%BF%BD46%2724%2C4%22O/40%EF%BF%BD31%279%2C4%22N> <http://group04.com/hasAlt> "616".
+<http://group04.com/3%EF%BF%BD36%2754%2C9%22O/40%EF%BF%BD27%2742%2C9%22N> <http://group04.com/long> "3?36'54,9\"O".
+<http://group04.com/3%EF%BF%BD36%2754%2C9%22O/40%EF%BF%BD27%2742%2C9%22N> <http://group04.com/lat> "40?27'42,9\"N".
+<http://group04.com/3%EF%BF%BD36%2754%2C9%22O/40%EF%BF%BD27%2742%2C9%22N> <http://group04.com/hasAlt> "686".
+<http://group04.com/3%EF%BF%BD39%2737%2C82%22O/40%EF%BF%BD29%2739%2C14%22N> <http://group04.com/long> "3?39'37,82\"O".
+<http://group04.com/3%EF%BF%BD39%2737%2C82%22O/40%EF%BF%BD29%2739%2C14%22N> <http://group04.com/lat> "40?29'39,14\"N".
+<http://group04.com/3%EF%BF%BD39%2737%2C82%22O/40%EF%BF%BD29%2739%2C14%22N> <http://group04.com/hasAlt> "700".
+<http://group04.com/3%EF%BF%BD41%2712/57%27%27O> <http://group04.com/long> "3?41'12".
+<http://group04.com/3%EF%BF%BD41%2712/57%27%27O> <http://group04.com/lat> "57''O".
+<http://group04.com/3%EF%BF%BD41%2712/57%27%27O> <http://group04.com/hasAlt> "40?23'53".
+<http://group04.com/3%EF%BF%BD41%2725.28%22O/40%EF%BF%BD26%2723.44%22N> <http://group04.com/long> "3?41'25.28\"O".
+<http://group04.com/3%EF%BF%BD41%2725.28%22O/40%EF%BF%BD26%2723.44%22N> <http://group04.com/lat> "40?26'23.44\"N".
+<http://group04.com/3%EF%BF%BD41%2725.28%22O/40%EF%BF%BD26%2723.44%22N> <http://group04.com/hasAlt> "685".
+<http://group04.com/3%EF%BF%BD41%2719%22O/40%EF%BF%BD27%2756%22N> <http://group04.com/long> "3?41'19\"O".
+<http://group04.com/3%EF%BF%BD41%2719%22O/40%EF%BF%BD27%2756%22N> <http://group04.com/lat> "40?27'56\"N".
+<http://group04.com/3%EF%BF%BD41%2719%22O/40%EF%BF%BD27%2756%22N> <http://group04.com/hasAlt> "728".
+<http://group04.com/3%EF%BF%BD36%2743%2C7%22O/40%EF%BF%BD27%2745%2C1%22N> <http://group04.com/long> "3?36'43,7\"O".
+<http://group04.com/3%EF%BF%BD36%2743%2C7%22O/40%EF%BF%BD27%2745%2C1%22N> <http://group04.com/lat> "40?27'45,1\"N".
+<http://group04.com/3%EF%BF%BD36%2743%2C7%22O/40%EF%BF%BD27%2745%2C1%22N> <http://group04.com/hasAlt> "619".
+<http://group04.com/3%EF%BF%BD34%2750%2C4%22O/40%EF%BF%BD27%2745%2C1%22N> <http://group04.com/long> "3?34'50,4\"O".
+<http://group04.com/3%EF%BF%BD34%2750%2C4%22O/40%EF%BF%BD27%2745%2C1%22N> <http://group04.com/lat> "40?27'45,1\"N".
+<http://group04.com/3%EF%BF%BD34%2750%2C4%22O/40%EF%BF%BD27%2745%2C1%22N> <http://group04.com/hasAlt> "619".
+<http://group04.com/3%EF%BF%BD41%2723%22O/40%EF%BF%BD30%272%27%27N> <http://group04.com/long> "3?41'23\"O".
+<http://group04.com/3%EF%BF%BD41%2723%22O/40%EF%BF%BD30%272%27%27N> <http://group04.com/lat> "40?30'2''N".
+<http://group04.com/3%EF%BF%BD41%2723%22O/40%EF%BF%BD30%272%27%27N> <http://group04.com/hasAlt> "715".
+<http://group04.com/40609> <http://group04.com/fechAlta> "40609".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36465> <http://group04.com/fechAlta> "36465".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36318> <http://group04.com/fechAlta> "36318".
+<http://group04.com/36312> <http://group04.com/fechAlta> "36312".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36244> <http://group04.com/fechAlta> "36244".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36475> <http://group04.com/fechAlta> "36475".
+<http://group04.com/605> <http://group04.com/fechAlta> "605".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/36130> <http://group04.com/fechAlta> "36130".
+<http://group04.com/618> <http://group04.com/fechAlta> "618".
+<http://group04.com/37400> <http://group04.com/fechAlta> "37400".
+<http://group04.com/5> <http://group04.com/fechAlta> "5".
+<http://group04.com/37895> <http://group04.com/fechAlta> "37895".
+<http://group04.com/5> <http://group04.com/fechAlta> "5".
+<http://group04.com/40008> <http://group04.com/fechAlta> "40008".
+<http://group04.com/21%27%27> <http://group04.com/fechAlta> "21''".
+<http://group04.com/40302> <http://group04.com/fechAlta> "40302".
+<http://group04.com/40602> <http://group04.com/fechAlta> "40602".
+<http://group04.com/40162> <http://group04.com/fechAlta> "40162".
+<http://group04.com/40254> <http://group04.com/fechAlta> "40254".
+<http://group04.com/40217> <http://group04.com/fechAlta> "40217".
+<http://group04.com/633005> <http://group04.com/hasName> "1"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/264800> <http://group04.com/hasName> "2"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/145800> <http://group04.com/hasName> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/273600> <http://group04.com/hasName> "4"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/514425> <http://group04.com/hasName> "5"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/153600> <http://group04.com/hasName> "6"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/18900> <http://group04.com/hasName> "8"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/554550> <http://group04.com/hasName> "10"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/610450> <http://group04.com/hasName> "11"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/242000> <http://group04.com/hasName> "12"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/75500> <http://group04.com/hasName> "13"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/293200> <http://group04.com/hasName> "14"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/798700> <http://group04.com/hasName> "16"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/417200> <http://group04.com/hasName> "17"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/1903> <http://group04.com/hasName> "18"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/367300> <http://group04.com/hasName> "19"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/522000> <http://group04.com/hasName> "20"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/905219> <http://group04.com/hasName> "24"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/604750> <http://group04.com/hasName> "25"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/729200> <http://group04.com/hasName> "26"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/425700> <http://group04.com/hasName> "27"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/84000> <http://group04.com/hasName> "28"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/348500> <http://group04.com/hasName> "29"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/1111> <http://group04.com/hasName> "30"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/31000002> <http://group04.com/hasName> "31"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/414800> <http://group04.com/hasName> "47"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/401400> <http://group04.com/hasName> "48"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/154500> <http://group04.com/hasName> "50"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/31000516> <http://group04.com/hasName> "54"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/639250> <http://group04.com/hasName> "55"^^<http://www.w3.org/2001/XMLSchema#integer>.
+<http://group04.com/1427> <http://group04.com/hasName> "86"^^<http://www.w3.org/2001/XMLSchema#integer>.

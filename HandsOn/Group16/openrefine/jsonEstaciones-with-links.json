@@ -1,0 +1,258 @@
+[
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "DIRECCION",
+      "expression": "grel:value",
+      "onError": "set-to-blank",
+      "newColumnName": "DIRECCION_LINK",
+      "columnInsertIndex": 3,
+      "description": "Create column DIRECCION_LINK at index 3 based on column DIRECCION using expression grel:value"
+    },
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wdreconcile.toolforge.org/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q79007",
+          "name": "street"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column DIRECCION_LINK to type Q79007"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "similarValue": "Plaza de España",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1326261",
+        "name": "plaza de España",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item plaza de España (Q1326261) for cells containing \"Plaza de España\" in column DIRECCION_LINK"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "similarValue": "Casa de Campo",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1046524",
+        "name": "Casa de Campo",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Casa de Campo (Q1046524) for cells containing \"Casa de Campo\" in column DIRECCION_LINK"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "similarValue": "Plaza del Carmen",
+      "judgment": "matched",
+      "match": {
+        "id": "Q6080406",
+        "name": "Plaza del Carmen",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Plaza del Carmen (Q6080406) for cells containing \"Plaza del Carmen\" in column DIRECCION_LINK"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "similarValue": "Parque del Retiro",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1131807",
+        "name": "Buen Retiro park",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Buen Retiro park (Q1131807) for cells containing \"Parque del Retiro\" in column DIRECCION_LINK"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "similarValue": "Plaza de Castilla",
+      "judgment": "matched",
+      "match": {
+        "id": "Q786291",
+        "name": "plaza de Castilla",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item plaza de Castilla (Q786291) for cells containing \"Plaza de Castilla\" in column DIRECCION_LINK"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "similarValue": "Parque Juan Carlos I",
+      "judgment": "matched",
+      "match": {
+        "id": "Q24023451",
+        "name": "parque Juan Carlos I",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item parque Juan Carlos I (Q24023451) for cells containing \"Parque Juan Carlos I\" in column DIRECCION_LINK"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION_LINK",
+      "similarValue": "Plaza Elíptica",
+      "judgment": "matched",
+      "match": {
+        "id": "Q16619985",
+        "name": "Plaza Elíptica",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Plaza Elíptica (Q16619985) for cells containing \"Plaza Elíptica\" in column DIRECCION_LINK"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "NOMBRE",
+      "expression": "grel:value",
+      "onError": "set-to-blank",
+      "newColumnName": "DISTRITO_LINK",
+      "columnInsertIndex": 2,
+      "description": "Create column DISTRITO_LINK at index 2 based on column NOMBRE using expression grel:value"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "DIRECCION_LINK",
+      "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "WIKIDATA_DIRECCION_ID",
+      "columnInsertIndex": 5,
+      "description": "Create column WIKIDATA_DIRECCION_ID at index 5 based on column DIRECCION_LINK using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+    },
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRITO_LINK",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wdreconcile.toolforge.org/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q3032114",
+          "name": "district of Madrid"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column DISTRITO_LINK to type Q3032114"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRITO_LINK",
+      "similarValue": "Argüelles",
+      "judgment": "matched",
+      "match": {
+        "id": "Q64874",
+        "name": "Argüelles",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Argüelles (Q64874) for cells containing \"Argüelles\" in column DISTRITO_LINK"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "DISTRITO_LINK",
+      "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "WIKIDATA_DISTRITO_ID",
+      "columnInsertIndex": 3,
+      "description": "Create column WIKIDATA_DISTRITO_ID at index 3 based on column DISTRITO_LINK using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+    }
+  ]

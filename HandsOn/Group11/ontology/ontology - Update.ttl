@@ -20,14 +20,13 @@
 
 :MobileRecyclePoint rdf:type owl:Class.
 
+## http://group11.com/District
+
+:District rdf:type owl:Class.
+
 
 #             Data Properties          #
 
-## http://group11.com/isInDistrict
-
-:isInDistrict rdf:type owl:DatatypeProperty;
-    rdfs:domain :MobileRecyclePoint;
-    rdfs:range xsd:string.
 
 ## http://group11.com/hasLatitude
 
@@ -49,27 +48,22 @@
 
 ## http://group11.com/itStarts
 
-:isOpen rdf:type owl:DatatypeProperty;
+:itStarts rdf:type owl:DatatypeProperty;
     rdfs:domain :MobileRecyclePoint;
     rdfs:range xsd:time.
 
 ## http://group11.com/itEnds
 
-:isOpen rdf:type owl:DatatypeProperty;
+:itEnds rdf:type owl:DatatypeProperty;
     rdfs:domain :MobileRecyclePoint;
     rdfs:range xsd:time.
 
 ## http://group11.com/addressFullName
 
-:isOpen rdf:type owl:DatatypeProperty;
+:addressFullName rdf:type owl:DatatypeProperty;
     rdfs:domain :Location;
     rdfs:range xsd:string.
 
-## http://group11.com/addressFullName
-
-:isOpen rdf:type owl:DatatypeProperty;
-    rdfs:domain :Location;
-    rdfs:range xsd:string.
 
 ## http://group11.com/districtCode
 
@@ -80,7 +74,7 @@
 ## http://group11.com/districtName
 
 :districName rdf:type owl:DatatypeProperty;
-    rdfs:domain :MobileRecyclePoint;
+    rdfs:domain :District;
     rdfs:range xsd:string.
 
 #            Object Properties         #
@@ -90,6 +84,12 @@
 :hasLocation rdf:type owl:Class;
     rdfs:domain :MobileRecyclePoint;
     rdfs:range :Location.
+
+## http://gruop11.com/isInDistrict
+
+:isInDistrict rdf:type owl:Class;
+    rdfs:domain :MobileRecyclePoint;
+    rdfs:range :District.
 
 
 

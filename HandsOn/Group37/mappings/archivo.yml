@@ -1,0 +1,42 @@
+prefixes:
+    base: http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4#
+    owl: http://www.w3.org/2002/07/owl# 
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#   
+    xml: http://www.w3.org/XML/1998/namespace
+    xsd: http://www.w3.org/2001/XMLSchema#  
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+
+mappings:
+  triplesmap1:
+    sources:
+      - [Fuentes2019-updated.csv~csv]
+    s: http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4/$(codigo)
+    po:
+      - [a, base:Fuente]
+      - [base:codigo,$(codigo),xsd:string]
+      - [base:en_funcionamiento,$(en_funcionamiento),xsd:boolean]
+      - p: base:Fuente 
+        o: 
+            - mapping: triplesmap2
+              condition: 
+                function: equal
+                parameters:
+                    - [str1, $(coord_x)]
+                    - [str2, $(coord_x)]
+    
+
+  triplesmap2:
+    sources:
+      - [Fuentes2019-updated.csv~csv]
+    s: http://www.semanticweb.org/ontologies/2020/8/untitled-ontology-4/$(coord_x)
+    po:
+      - [a, base:Localizacion]
+      - [base:coord_x,$(coord_x),xsd:double]
+      - [base:coord_y,$(coord_y),xsd:double]
+      - [base:latitud,$(latitud),xsd:double]
+      - [base:longitud,$(longitud),xsd:double]
+      - [base:distrito,$(distrito),xsd:string]
+      - [base:direccion,$(direccion),xsd:string]
+      - [base:via_publica,$(via_publica),xsd:string]
+      
+      

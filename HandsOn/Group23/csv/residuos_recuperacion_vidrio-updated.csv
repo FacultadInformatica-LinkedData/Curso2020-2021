@@ -1,0 +1,3227 @@
+Codigo_Municipio,Nombre_Municipio,Año_Recogida,Tipo_De_Dato,Indicador_Unidades,Valor
+0014,"Acebeda, La",2013,habitantes,número,67
+0014,"Acebeda, La",2013,contenedores,unidades,2
+0014,"Acebeda, La",2013,vidrio recogido,kg,4213
+0029,Ajalvir,2013,habitantes,número,4261
+0029,Ajalvir,2013,contenedores,unidades,33
+0029,Ajalvir,2013,vidrio recogido,kg,90679
+0035,Alameda del Valle,2013,habitantes,número,248
+0035,Alameda del Valle,2013,contenedores,unidades,5
+0035,Alameda del Valle,2013,vidrio recogido,kg,7355
+0040,"Álamo, El",2013,habitantes,número,8845
+0040,"Álamo, El",2013,contenedores,unidades,45
+0040,"Álamo, El",2013,vidrio recogido,kg,62696
+0053,Alcalá de Henares,2013,habitantes,número,204823
+0053,Alcalá de Henares,2013,contenedores,unidades,610
+0053,Alcalá de Henares,2013,vidrio recogido,kg,1956609
+0066,Alcobendas,2013,habitantes,número,112196
+0066,Alcobendas,2013,contenedores,unidades,260
+0066,Alcobendas,2013,vidrio recogido,kg,2379008
+0072,Alcorcón,2013,habitantes,número,169773
+0072,Alcorcón,2013,contenedores,unidades,474
+0072,Alcorcón,2013,vidrio recogido,kg,2088214
+0088,Aldea del Fresno,2013,habitantes,número,2574
+0088,Aldea del Fresno,2013,contenedores,unidades,15
+0088,Aldea del Fresno,2013,vidrio recogido,kg,34474
+0091,Algete,2013,habitantes,número,20136
+0091,Algete,2013,contenedores,unidades,107
+0091,Algete,2013,vidrio recogido,kg,340574
+0105,Alpedrete,2013,habitantes,número,13996
+0105,Alpedrete,2013,contenedores,unidades,71
+0105,Alpedrete,2013,vidrio recogido,kg,183939
+0112,Ambite,2013,habitantes,número,586
+0112,Ambite,2013,contenedores,unidades,6
+0112,Ambite,2013,vidrio recogido,kg,8459
+0127,Anchuelo,2013,habitantes,número,1209
+0127,Anchuelo,2013,contenedores,unidades,11
+0127,Anchuelo,2013,vidrio recogido,kg,16134
+0133,Aranjuez,2013,habitantes,número,57728
+0133,Aranjuez,2013,contenedores,unidades,254
+0133,Aranjuez,2013,vidrio recogido,kg,578669
+0148,Arganda del Rey,2013,habitantes,número,55981
+0148,Arganda del Rey,2013,contenedores,unidades,185
+0148,Arganda del Rey,2013,vidrio recogido,kg,377966
+0151,Arroyomolinos,2013,habitantes,número,24313
+0151,Arroyomolinos,2013,contenedores,unidades,105
+0151,Arroyomolinos,2013,vidrio recogido,kg,180453
+0164,"Atazar, El",2013,habitantes,número,103
+0164,"Atazar, El",2013,contenedores,unidades,5
+0164,"Atazar, El",2013,vidrio recogido,kg,4670
+0170,Batres,2013,habitantes,número,1558
+0170,Batres,2013,contenedores,unidades,18
+0170,Batres,2013,vidrio recogido,kg,22727
+0186,Becerril de la Sierra,2013,habitantes,número,5388
+0186,Becerril de la Sierra,2013,contenedores,unidades,44
+0186,Becerril de la Sierra,2013,vidrio recogido,kg,93152
+0199,Belmonte de Tajo,2013,habitantes,número,1591
+0199,Belmonte de Tajo,2013,contenedores,unidades,11
+0199,Belmonte de Tajo,2013,vidrio recogido,kg,18850
+0210,"Berrueco, El",2013,habitantes,número,633
+0210,"Berrueco, El",2013,contenedores,unidades,6
+0210,"Berrueco, El",2013,vidrio recogido,kg,13534
+0203,Berzosa del Lozoya,2013,habitantes,número,214
+0203,Berzosa del Lozoya,2013,contenedores,unidades,5
+0203,Berzosa del Lozoya,2013,vidrio recogido,kg,4860
+0225,Boadilla del Monte,2013,habitantes,número,47587
+0225,Boadilla del Monte,2013,contenedores,unidades,103
+0225,Boadilla del Monte,2013,vidrio recogido,kg,518971
+0231,"Boalo, El",2013,habitantes,número,7050
+0231,"Boalo, El",2013,contenedores,unidades,61
+0231,"Boalo, El",2013,vidrio recogido,kg,123710
+0246,Braojos,2013,habitantes,número,210
+0246,Braojos,2013,contenedores,unidades,3
+0246,Braojos,2013,vidrio recogido,kg,5213
+0259,Brea de Tajo,2013,habitantes,número,563
+0259,Brea de Tajo,2013,contenedores,unidades,11
+0259,Brea de Tajo,2013,vidrio recogido,kg,8870
+0262,Brunete,2013,habitantes,número,10075
+0262,Brunete,2013,contenedores,unidades,42
+0262,Brunete,2013,vidrio recogido,kg,106277
+0278,Buitrago del Lozoya,2013,habitantes,número,1964
+0278,Buitrago del Lozoya,2013,contenedores,unidades,14
+0278,Buitrago del Lozoya,2013,vidrio recogido,kg,41746
+0284,Bustarviejo,2013,habitantes,número,2372
+0284,Bustarviejo,2013,contenedores,unidades,26
+0284,Bustarviejo,2013,vidrio recogido,kg,70914
+0297,Cabanillas de la Sierra,2013,habitantes,número,743
+0297,Cabanillas de la Sierra,2013,contenedores,unidades,13
+0297,Cabanillas de la Sierra,2013,vidrio recogido,kg,22220
+0301,"Cabrera, La",2013,habitantes,número,2613
+0301,"Cabrera, La",2013,contenedores,unidades,30
+0301,"Cabrera, La",2013,vidrio recogido,kg,94595
+0318,Cadalso de los Vidrios,2013,habitantes,número,2915
+0318,Cadalso de los Vidrios,2013,contenedores,unidades,13
+0318,Cadalso de los Vidrios,2013,vidrio recogido,kg,20893
+0323,Camarma de Esteruelas,2013,habitantes,número,6995
+0323,Camarma de Esteruelas,2013,contenedores,unidades,37
+0323,Camarma de Esteruelas,2013,vidrio recogido,kg,127211
+0339,Campo Real,2013,habitantes,número,5715
+0339,Campo Real,2013,contenedores,unidades,21
+0339,Campo Real,2013,vidrio recogido,kg,40451
+0344,Canencia,2013,habitantes,número,483
+0344,Canencia,2013,contenedores,unidades,4
+0344,Canencia,2013,vidrio recogido,kg,7562
+0357,Carabaña,2013,habitantes,número,2017
+0357,Carabaña,2013,contenedores,unidades,17
+0357,Carabaña,2013,vidrio recogido,kg,21900
+0360,Casarrubuelos,2013,habitantes,número,3361
+0360,Casarrubuelos,2013,contenedores,unidades,22
+0360,Casarrubuelos,2013,vidrio recogido,kg,38135
+0376,Cenicientos,2013,habitantes,número,2091
+0376,Cenicientos,2013,contenedores,unidades,8
+0376,Cenicientos,2013,vidrio recogido,kg,7863
+0382,Cercedilla,2013,habitantes,número,6890
+0382,Cercedilla,2013,contenedores,unidades,53
+0382,Cercedilla,2013,vidrio recogido,kg,85429
+0395,Cervera de Buitrago,2013,habitantes,número,180
+0395,Cervera de Buitrago,2013,contenedores,unidades,6
+0395,Cervera de Buitrago,2013,vidrio recogido,kg,5836
+0513,Chapinería,2013,habitantes,número,2194
+0513,Chapinería,2013,contenedores,unidades,14
+0513,Chapinería,2013,vidrio recogido,kg,28226
+0528,Chinchón,2013,habitantes,número,5428
+0528,Chinchón,2013,contenedores,unidades,26
+0528,Chinchón,2013,vidrio recogido,kg,77371
+0409,Ciempozuelos,2013,habitantes,número,23950
+0409,Ciempozuelos,2013,contenedores,unidades,80
+0409,Ciempozuelos,2013,vidrio recogido,kg,167721
+0416,Cobeña,2013,habitantes,número,6984
+0416,Cobeña,2013,contenedores,unidades,40
+0416,Cobeña,2013,vidrio recogido,kg,142906
+0468,Collado Mediano,2013,habitantes,número,6746
+0468,Collado Mediano,2013,contenedores,unidades,28
+0468,Collado Mediano,2013,vidrio recogido,kg,76078
+0474,Collado Villalba,2013,habitantes,número,62684
+0474,Collado Villalba,2013,contenedores,unidades,230
+0474,Collado Villalba,2013,vidrio recogido,kg,665679
+0437,Colmenar de Oreja,2013,habitantes,número,8424
+0437,Colmenar de Oreja,2013,contenedores,unidades,34
+0437,Colmenar de Oreja,2013,vidrio recogido,kg,67107
+0421,Colmenar del Arroyo,2013,habitantes,número,1581
+0421,Colmenar del Arroyo,2013,contenedores,unidades,11
+0421,Colmenar del Arroyo,2013,vidrio recogido,kg,17916
+0455,Colmenar Viejo,2013,habitantes,número,46955
+0455,Colmenar Viejo,2013,contenedores,unidades,132
+0455,Colmenar Viejo,2013,vidrio recogido,kg,480443
+0442,Colmenarejo,2013,habitantes,número,8919
+0442,Colmenarejo,2013,contenedores,unidades,48
+0442,Colmenarejo,2013,vidrio recogido,kg,86816
+0480,Corpa,2013,habitantes,número,658
+0480,Corpa,2013,contenedores,unidades,4
+0480,Corpa,2013,vidrio recogido,kg,5282
+0493,Coslada,2013,habitantes,número,91425
+0493,Coslada,2013,contenedores,unidades,221
+0493,Coslada,2013,vidrio recogido,kg,870508
+0506,Cubas de la Sagra,2013,habitantes,número,5525
+0506,Cubas de la Sagra,2013,contenedores,unidades,44
+0506,Cubas de la Sagra,2013,vidrio recogido,kg,62155
+0534,Daganzo de Arriba,2013,habitantes,número,9793
+0534,Daganzo de Arriba,2013,contenedores,unidades,44
+0534,Daganzo de Arriba,2013,vidrio recogido,kg,140813
+0549,"Escorial, El",2013,habitantes,número,15197
+0549,"Escorial, El",2013,contenedores,unidades,73
+0549,"Escorial, El",2013,vidrio recogido,kg,167589
+0552,Estremera,2013,habitantes,número,1468
+0552,Estremera,2013,contenedores,unidades,21
+0552,Estremera,2013,vidrio recogido,kg,15045
+0565,Fresnedillas de la Oliva,2013,habitantes,número,1577
+0565,Fresnedillas de la Oliva,2013,contenedores,unidades,12
+0565,Fresnedillas de la Oliva,2013,vidrio recogido,kg,26942
+0571,Fresno de Torote,2013,habitantes,número,2043
+0571,Fresno de Torote,2013,contenedores,unidades,10
+0571,Fresno de Torote,2013,vidrio recogido,kg,17365
+0587,Fuenlabrada,2013,habitantes,número,197520
+0587,Fuenlabrada,2013,contenedores,unidades,526
+0587,Fuenlabrada,2013,vidrio recogido,kg,1824751
+0590,Fuente el Saz de Jarama,2013,habitantes,número,6324
+0590,Fuente el Saz de Jarama,2013,contenedores,unidades,34
+0590,Fuente el Saz de Jarama,2013,vidrio recogido,kg,113380
+0604,Fuentidueña de Tajo,2013,habitantes,número,2108
+0604,Fuentidueña de Tajo,2013,contenedores,unidades,18
+0604,Fuentidueña de Tajo,2013,vidrio recogido,kg,20620
+0611,Galapagar,2013,habitantes,número,32523
+0611,Galapagar,2013,contenedores,unidades,139
+0611,Galapagar,2013,vidrio recogido,kg,383725
+0626,Garganta de los Montes,2013,habitantes,número,393
+0626,Garganta de los Montes,2013,contenedores,unidades,9
+0626,Garganta de los Montes,2013,vidrio recogido,kg,12595
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2013,habitantes,número,368
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2013,contenedores,unidades,9
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2013,vidrio recogido,kg,25290
+0647,Gascones,2013,habitantes,número,176
+0647,Gascones,2013,contenedores,unidades,2
+0647,Gascones,2013,vidrio recogido,kg,1205
+0650,Getafe,2013,habitantes,número,172526
+0650,Getafe,2013,contenedores,unidades,479
+0650,Getafe,2013,vidrio recogido,kg,1622777
+0663,Griñón,2013,habitantes,número,9873
+0663,Griñón,2013,contenedores,unidades,52
+0663,Griñón,2013,vidrio recogido,kg,111301
+0679,Guadalix de la Sierra,2013,habitantes,número,6071
+0679,Guadalix de la Sierra,2013,contenedores,unidades,31
+0679,Guadalix de la Sierra,2013,vidrio recogido,kg,134932
+0685,Guadarrama,2013,habitantes,número,15712
+0685,Guadarrama,2013,contenedores,unidades,66
+0685,Guadarrama,2013,vidrio recogido,kg,161677
+0698,"Hiruela, La",2013,habitantes,número,51
+0698,"Hiruela, La",2013,contenedores,unidades,2
+0698,"Hiruela, La",2013,vidrio recogido,kg,3758
+0702,Horcajo de la Sierra-Aoslos,2013,habitantes,número,169
+0702,Horcajo de la Sierra-Aoslos,2013,contenedores,unidades,6
+0702,Horcajo de la Sierra-Aoslos,2013,vidrio recogido,kg,4603
+0719,Horcajuelo de la Sierra,2013,habitantes,número,86
+0719,Horcajuelo de la Sierra,2013,contenedores,unidades,3
+0719,Horcajuelo de la Sierra,2013,vidrio recogido,kg,2539
+0724,Hoyo de Manzanares,2013,habitantes,número,7872
+0724,Hoyo de Manzanares,2013,contenedores,unidades,38
+0724,Hoyo de Manzanares,2013,vidrio recogido,kg,139734
+0730,Humanes de Madrid,2013,habitantes,número,19248
+0730,Humanes de Madrid,2013,contenedores,unidades,99
+0730,Humanes de Madrid,2013,vidrio recogido,kg,202435
+0745,Leganés,2013,habitantes,número,186995
+0745,Leganés,2013,contenedores,unidades,442
+0745,Leganés,2013,vidrio recogido,kg,1919377
+0758,Loeches,2013,habitantes,número,8078
+0758,Loeches,2013,contenedores,unidades,50
+0758,Loeches,2013,vidrio recogido,kg,77334
+0761,Lozoya,2013,habitantes,número,625
+0761,Lozoya,2013,contenedores,unidades,6
+0761,Lozoya,2013,vidrio recogido,kg,10472
+9015,Lozoyuela-Navas-Sieteiglesias,2013,habitantes,número,1216
+9015,Lozoyuela-Navas-Sieteiglesias,2013,contenedores,unidades,17
+9015,Lozoyuela-Navas-Sieteiglesias,2013,vidrio recogido,kg,22363
+0783,Madarcos,2013,habitantes,número,55
+0783,Madarcos,2013,contenedores,unidades,3
+0783,Madarcos,2013,vidrio recogido,kg,1951
+0796,Madrid,2013,habitantes,número,3207247
+0796,Madrid,2013,contenedores,unidades,6080
+0796,Madrid,2013,vidrio recogido,kg,41348940
+0800,Majadahonda,2013,habitantes,número,70386
+0800,Majadahonda,2013,contenedores,unidades,157
+0800,Majadahonda,2013,vidrio recogido,kg,891644
+0822,Manzanares el Real,2013,habitantes,número,8053
+0822,Manzanares el Real,2013,contenedores,unidades,53
+0822,Manzanares el Real,2013,vidrio recogido,kg,141931
+0838,Meco,2013,habitantes,número,12925
+0838,Meco,2013,contenedores,unidades,62
+0838,Meco,2013,vidrio recogido,kg,206005
+0843,Mejorada del Campo,2013,habitantes,número,23048
+0843,Mejorada del Campo,2013,contenedores,unidades,64
+0843,Mejorada del Campo,2013,vidrio recogido,kg,185179
+0856,Miraflores de la Sierra,2013,habitantes,número,5907
+0856,Miraflores de la Sierra,2013,contenedores,unidades,39
+0856,Miraflores de la Sierra,2013,vidrio recogido,kg,119853
+0869,"Molar, El",2013,habitantes,número,8365
+0869,"Molar, El",2013,contenedores,unidades,33
+0869,"Molar, El",2013,vidrio recogido,kg,69417
+0875,"Molinos, Los",2013,habitantes,número,4485
+0875,"Molinos, Los",2013,contenedores,unidades,19
+0875,"Molinos, Los",2013,vidrio recogido,kg,46446
+0881,Montejo de la Sierra,2013,habitantes,número,359
+0881,Montejo de la Sierra,2013,contenedores,unidades,6
+0881,Montejo de la Sierra,2013,vidrio recogido,kg,7840
+0894,Moraleja de Enmedio,2013,habitantes,número,4937
+0894,Moraleja de Enmedio,2013,contenedores,unidades,34
+0894,Moraleja de Enmedio,2013,vidrio recogido,kg,29855
+0908,Moralzarzal,2013,habitantes,número,12168
+0908,Moralzarzal,2013,contenedores,unidades,40
+0908,Moralzarzal,2013,vidrio recogido,kg,147780
+0915,Morata de Tajuña,2013,habitantes,número,7553
+0915,Morata de Tajuña,2013,contenedores,unidades,35
+0915,Morata de Tajuña,2013,vidrio recogido,kg,76179
+0920,Móstoles,2013,habitantes,número,206451
+0920,Móstoles,2013,contenedores,unidades,348
+0920,Móstoles,2013,vidrio recogido,kg,1711844
+0936,Navacerrada,2013,habitantes,número,2863
+0936,Navacerrada,2013,contenedores,unidades,43
+0936,Navacerrada,2013,vidrio recogido,kg,63214
+0941,Navalafuente,2013,habitantes,número,1223
+0941,Navalafuente,2013,contenedores,unidades,18
+0941,Navalafuente,2013,vidrio recogido,kg,25083
+0954,Navalagamella,2013,habitantes,número,2436
+0954,Navalagamella,2013,contenedores,unidades,13
+0954,Navalagamella,2013,vidrio recogido,kg,20422
+0967,Navalcarnero,2013,habitantes,número,26085
+0967,Navalcarnero,2013,contenedores,unidades,102
+0967,Navalcarnero,2013,vidrio recogido,kg,190930
+0973,Navarredonda y San Mamés,2013,habitantes,número,128
+0973,Navarredonda y San Mamés,2013,contenedores,unidades,3
+0973,Navarredonda y San Mamés,2013,vidrio recogido,kg,4531
+0992,Navas del Rey,2013,habitantes,número,2684
+0992,Navas del Rey,2013,contenedores,unidades,16
+0992,Navas del Rey,2013,vidrio recogido,kg,23836
+1006,Nuevo Baztán,2013,habitantes,número,6299
+1006,Nuevo Baztán,2013,contenedores,unidades,41
+1006,Nuevo Baztán,2013,vidrio recogido,kg,77595
+1013,Olmeda de las Fuentes,2013,habitantes,número,340
+1013,Olmeda de las Fuentes,2013,contenedores,unidades,6
+1013,Olmeda de las Fuentes,2013,vidrio recogido,kg,5688
+1028,Orusco de Tajuña,2013,habitantes,número,1308
+1028,Orusco de Tajuña,2013,contenedores,unidades,7
+1028,Orusco de Tajuña,2013,vidrio recogido,kg,12020
+1049,Paracuellos de Jarama,2013,habitantes,número,21128
+1049,Paracuellos de Jarama,2013,contenedores,unidades,115
+1049,Paracuellos de Jarama,2013,vidrio recogido,kg,370499
+1065,Parla,2013,habitantes,número,125634
+1065,Parla,2013,contenedores,unidades,357
+1065,Parla,2013,vidrio recogido,kg,796840
+1071,Patones,2013,habitantes,número,502
+1071,Patones,2013,contenedores,unidades,5
+1071,Patones,2013,vidrio recogido,kg,8270
+1087,Pedrezuela,2013,habitantes,número,5082
+1087,Pedrezuela,2013,contenedores,unidades,34
+1087,Pedrezuela,2013,vidrio recogido,kg,122079
+1090,Pelayos de la Presa,2013,habitantes,número,2537
+1090,Pelayos de la Presa,2013,contenedores,unidades,13
+1090,Pelayos de la Presa,2013,vidrio recogido,kg,23397
+1104,Perales de Tajuña,2013,habitantes,número,2990
+1104,Perales de Tajuña,2013,contenedores,unidades,24
+1104,Perales de Tajuña,2013,vidrio recogido,kg,36050
+1111,Pezuela de las Torres,2013,habitantes,número,798
+1111,Pezuela de las Torres,2013,contenedores,unidades,5
+1111,Pezuela de las Torres,2013,vidrio recogido,kg,8602
+1126,Pinilla del Valle,2013,habitantes,número,210
+1126,Pinilla del Valle,2013,contenedores,unidades,4
+1126,Pinilla del Valle,2013,vidrio recogido,kg,5978
+1132,Pinto,2013,habitantes,número,46870
+1132,Pinto,2013,contenedores,unidades,144
+1132,Pinto,2013,vidrio recogido,kg,505319
+1147,Piñuécar-Gandullas,2013,habitantes,número,176
+1147,Piñuécar-Gandullas,2013,contenedores,unidades,9
+1147,Piñuécar-Gandullas,2013,vidrio recogido,kg,4466
+1150,Pozuelo de Alarcón,2013,habitantes,número,84474
+1150,Pozuelo de Alarcón,2013,contenedores,unidades,205
+1150,Pozuelo de Alarcón,2013,vidrio recogido,kg,1100830
+1163,Pozuelo del Rey,2013,habitantes,número,1052
+1163,Pozuelo del Rey,2013,contenedores,unidades,8
+1163,Pozuelo del Rey,2013,vidrio recogido,kg,9952
+1179,Prádena del Rincón,2013,habitantes,número,126
+1179,Prádena del Rincón,2013,contenedores,unidades,9
+1179,Prádena del Rincón,2013,vidrio recogido,kg,7357
+1185,Puebla de la Sierra,2013,habitantes,número,96
+1185,Puebla de la Sierra,2013,contenedores,unidades,3
+1185,Puebla de la Sierra,2013,vidrio recogido,kg,1693
+9020,Puentes Viejas,2013,habitantes,número,648
+9020,Puentes Viejas,2013,contenedores,unidades,12
+9020,Puentes Viejas,2013,vidrio recogido,kg,24322
+1198,Quijorna,2013,habitantes,número,3190
+1198,Quijorna,2013,contenedores,unidades,14
+1198,Quijorna,2013,vidrio recogido,kg,33553
+1202,Rascafría,2013,habitantes,número,1893
+1202,Rascafría,2013,contenedores,unidades,29
+1202,Rascafría,2013,vidrio recogido,kg,77327
+1219,Redueña,2013,habitantes,número,284
+1219,Redueña,2013,contenedores,unidades,2
+1219,Redueña,2013,vidrio recogido,kg,1807
+1224,Ribatejada,2013,habitantes,número,696
+1224,Ribatejada,2013,contenedores,unidades,5
+1224,Ribatejada,2013,vidrio recogido,kg,14969
+1230,Rivas-Vaciamadrid,2013,habitantes,número,78133
+1230,Rivas-Vaciamadrid,2013,contenedores,unidades,255
+1230,Rivas-Vaciamadrid,2013,vidrio recogido,kg,794214
+1245,Robledillo de la Jara,2013,habitantes,número,102
+1245,Robledillo de la Jara,2013,contenedores,unidades,5
+1245,Robledillo de la Jara,2013,vidrio recogido,kg,4722
+1258,Robledo de Chavela,2013,habitantes,número,4137
+1258,Robledo de Chavela,2013,contenedores,unidades,25
+1258,Robledo de Chavela,2013,vidrio recogido,kg,61362
+1261,Robregordo,2013,habitantes,número,60
+1261,Robregordo,2013,contenedores,unidades,4
+1261,Robregordo,2013,vidrio recogido,kg,3009
+1277,"Rozas de Madrid, Las",2013,habitantes,número,91806
+1277,"Rozas de Madrid, Las",2013,contenedores,unidades,351
+1277,"Rozas de Madrid, Las",2013,vidrio recogido,kg,1085832
+1283,Rozas de Puerto Real,2013,habitantes,número,484
+1283,Rozas de Puerto Real,2013,contenedores,unidades,3
+1283,Rozas de Puerto Real,2013,vidrio recogido,kg,3995
+1296,San Agustín del Guadalix,2013,habitantes,número,12955
+1296,San Agustín del Guadalix,2013,contenedores,unidades,64
+1296,San Agustín del Guadalix,2013,vidrio recogido,kg,263845
+1300,San Fernando de Henares,2013,habitantes,número,41226
+1300,San Fernando de Henares,2013,contenedores,unidades,116
+1300,San Fernando de Henares,2013,vidrio recogido,kg,434122
+1317,San Lorenzo de El Escorial,2013,habitantes,número,18495
+1317,San Lorenzo de El Escorial,2013,contenedores,unidades,185
+1317,San Lorenzo de El Escorial,2013,vidrio recogido,kg,208076
+1322,San Martín de la Vega,2013,habitantes,número,19672
+1322,San Martín de la Vega,2013,contenedores,unidades,53
+1322,San Martín de la Vega,2013,vidrio recogido,kg,109301
+1338,San Martín de Valdeiglesias,2013,habitantes,número,8524
+1338,San Martín de Valdeiglesias,2013,contenedores,unidades,62
+1338,San Martín de Valdeiglesias,2013,vidrio recogido,kg,75568
+1343,San Sebastián de los Reyes,2013,habitantes,número,82090
+1343,San Sebastián de los Reyes,2013,contenedores,unidades,251
+1343,San Sebastián de los Reyes,2013,vidrio recogido,kg,1813108
+1356,Santa María de la Alameda,2013,habitantes,número,1214
+1356,Santa María de la Alameda,2013,contenedores,unidades,16
+1356,Santa María de la Alameda,2013,vidrio recogido,kg,25738
+1369,Santorcaz,2013,habitantes,número,845
+1369,Santorcaz,2013,contenedores,unidades,10
+1369,Santorcaz,2013,vidrio recogido,kg,15260
+1375,"Santos de la Humosa, Los",2013,habitantes,número,2421
+1375,"Santos de la Humosa, Los",2013,contenedores,unidades,23
+1375,"Santos de la Humosa, Los",2013,vidrio recogido,kg,27073
+1381,"Serna del Monte, La",2013,habitantes,número,93
+1381,"Serna del Monte, La",2013,contenedores,unidades,3
+1381,"Serna del Monte, La",2013,vidrio recogido,kg,2828
+1408,Serranillos del Valle,2013,habitantes,número,3816
+1408,Serranillos del Valle,2013,contenedores,unidades,37
+1408,Serranillos del Valle,2013,vidrio recogido,kg,40357
+1415,Sevilla la Nueva,2013,habitantes,número,8925
+1415,Sevilla la Nueva,2013,contenedores,unidades,60
+1415,Sevilla la Nueva,2013,vidrio recogido,kg,87883
+1436,Somosierra,2013,habitantes,número,82
+1436,Somosierra,2013,contenedores,unidades,3
+1436,Somosierra,2013,vidrio recogido,kg,1976
+1441,Soto del Real,2013,habitantes,número,8519
+1441,Soto del Real,2013,contenedores,unidades,74
+1441,Soto del Real,2013,vidrio recogido,kg,162998
+1454,Talamanca de Jarama,2013,habitantes,número,3211
+1454,Talamanca de Jarama,2013,contenedores,unidades,19
+1454,Talamanca de Jarama,2013,vidrio recogido,kg,82617
+1467,Tielmes,2013,habitantes,número,2658
+1467,Tielmes,2013,contenedores,unidades,18
+1467,Tielmes,2013,vidrio recogido,kg,35940
+1473,Titulcia,2013,habitantes,número,1237
+1473,Titulcia,2013,contenedores,unidades,6
+1473,Titulcia,2013,vidrio recogido,kg,9245
+1489,Torrejón de Ardoz,2013,habitantes,número,123761
+1489,Torrejón de Ardoz,2013,contenedores,unidades,383
+1489,Torrejón de Ardoz,2013,vidrio recogido,kg,1388320
+1492,Torrejón de la Calzada,2013,habitantes,número,7743
+1492,Torrejón de la Calzada,2013,contenedores,unidades,32
+1492,Torrejón de la Calzada,2013,vidrio recogido,kg,51964
+1505,Torrejón de Velasco,2013,habitantes,número,4177
+1505,Torrejón de Velasco,2013,contenedores,unidades,34
+1505,Torrejón de Velasco,2013,vidrio recogido,kg,39642
+1512,Torrelaguna,2013,habitantes,número,4861
+1512,Torrelaguna,2013,contenedores,unidades,22
+1512,Torrelaguna,2013,vidrio recogido,kg,75564
+1527,Torrelodones,2013,habitantes,número,22782
+1527,Torrelodones,2013,contenedores,unidades,112
+1527,Torrelodones,2013,vidrio recogido,kg,316130
+1533,Torremocha de Jarama,2013,habitantes,número,892
+1533,Torremocha de Jarama,2013,contenedores,unidades,10
+1533,Torremocha de Jarama,2013,vidrio recogido,kg,19742
+1548,Torres de la Alameda,2013,habitantes,número,7899
+1548,Torres de la Alameda,2013,contenedores,unidades,50
+1548,Torres de la Alameda,2013,vidrio recogido,kg,83907
+9036,Tres Cantos,2013,habitantes,número,41896
+9036,Tres Cantos,2013,contenedores,unidades,159
+9036,Tres Cantos,2013,vidrio recogido,kg,666878
+1551,Valdaracete,2013,habitantes,número,669
+1551,Valdaracete,2013,contenedores,unidades,7
+1551,Valdaracete,2013,vidrio recogido,kg,4770
+1564,Valdeavero,2013,habitantes,número,1494
+1564,Valdeavero,2013,contenedores,unidades,15
+1564,Valdeavero,2013,vidrio recogido,kg,12591
+1570,Valdelaguna,2013,habitantes,número,871
+1570,Valdelaguna,2013,contenedores,unidades,9
+1570,Valdelaguna,2013,vidrio recogido,kg,11340
+1586,Valdemanco,2013,habitantes,número,958
+1586,Valdemanco,2013,contenedores,unidades,12
+1586,Valdemanco,2013,vidrio recogido,kg,30972
+1599,Valdemaqueda,2013,habitantes,número,882
+1599,Valdemaqueda,2013,contenedores,unidades,10
+1599,Valdemaqueda,2013,vidrio recogido,kg,11547
+1603,Valdemorillo,2013,habitantes,número,11988
+1603,Valdemorillo,2013,contenedores,unidades,72
+1603,Valdemorillo,2013,vidrio recogido,kg,166750
+1610,Valdemoro,2013,habitantes,número,71578
+1610,Valdemoro,2013,contenedores,unidades,213
+1610,Valdemoro,2013,vidrio recogido,kg,507231
+1625,Valdeolmos-Alalpardo,2013,habitantes,número,3633
+1625,Valdeolmos-Alalpardo,2013,contenedores,unidades,24
+1625,Valdeolmos-Alalpardo,2013,vidrio recogido,kg,59780
+1631,Valdepiélagos,2013,habitantes,número,574
+1631,Valdepiélagos,2013,contenedores,unidades,5
+1631,Valdepiélagos,2013,vidrio recogido,kg,7381
+1646,Valdetorres de Jarama,2013,habitantes,número,4176
+1646,Valdetorres de Jarama,2013,contenedores,unidades,11
+1646,Valdetorres de Jarama,2013,vidrio recogido,kg,59632
+1659,Valdilecha,2013,habitantes,número,2910
+1659,Valdilecha,2013,contenedores,unidades,11
+1659,Valdilecha,2013,vidrio recogido,kg,26365
+1662,Valverde de Alcalá,2013,habitantes,número,453
+1662,Valverde de Alcalá,2013,contenedores,unidades,8
+1662,Valverde de Alcalá,2013,vidrio recogido,kg,3924
+1678,Velilla de San Antonio,2013,habitantes,número,12246
+1678,Velilla de San Antonio,2013,contenedores,unidades,42
+1678,Velilla de San Antonio,2013,vidrio recogido,kg,109977
+1684,"Vellón, El",2013,habitantes,número,1824
+1684,"Vellón, El",2013,contenedores,unidades,5
+1684,"Vellón, El",2013,vidrio recogido,kg,11581
+1697,Venturada,2013,habitantes,número,1968
+1697,Venturada,2013,contenedores,unidades,15
+1697,Venturada,2013,vidrio recogido,kg,40235
+1718,Villa del Prado,2013,habitantes,número,6502
+1718,Villa del Prado,2013,contenedores,unidades,24
+1718,Villa del Prado,2013,vidrio recogido,kg,44832
+1701,Villaconejos,2013,habitantes,número,3495
+1701,Villaconejos,2013,contenedores,unidades,19
+1701,Villaconejos,2013,vidrio recogido,kg,45128
+1723,Villalbilla,2013,habitantes,número,11643
+1723,Villalbilla,2013,contenedores,unidades,83
+1723,Villalbilla,2013,vidrio recogido,kg,134643
+1739,Villamanrique de Tajo,2013,habitantes,número,798
+1739,Villamanrique de Tajo,2013,contenedores,unidades,8
+1739,Villamanrique de Tajo,2013,vidrio recogido,kg,6300
+1744,Villamanta,2013,habitantes,número,2514
+1744,Villamanta,2013,contenedores,unidades,10
+1744,Villamanta,2013,vidrio recogido,kg,16838
+1757,Villamantilla,2013,habitantes,número,1238
+1757,Villamantilla,2013,contenedores,unidades,8
+1757,Villamantilla,2013,vidrio recogido,kg,16149
+1760,Villanueva de la Cañada,2013,habitantes,número,18734
+1760,Villanueva de la Cañada,2013,contenedores,unidades,65
+1760,Villanueva de la Cañada,2013,vidrio recogido,kg,188131
+1782,Villanueva de Perales,2013,habitantes,número,1458
+1782,Villanueva de Perales,2013,contenedores,unidades,9
+1782,Villanueva de Perales,2013,vidrio recogido,kg,11785
+1776,Villanueva del Pardillo,2013,habitantes,número,16690
+1776,Villanueva del Pardillo,2013,contenedores,unidades,66
+1776,Villanueva del Pardillo,2013,vidrio recogido,kg,144776
+1795,Villar del Olmo,2013,habitantes,número,2115
+1795,Villar del Olmo,2013,contenedores,unidades,11
+1795,Villar del Olmo,2013,vidrio recogido,kg,22643
+1809,Villarejo de Salvanés,2013,habitantes,número,7389
+1809,Villarejo de Salvanés,2013,contenedores,unidades,32
+1809,Villarejo de Salvanés,2013,vidrio recogido,kg,90530
+1816,Villaviciosa de Odón,2013,habitantes,número,26982
+1816,Villaviciosa de Odón,2013,contenedores,unidades,98
+1816,Villaviciosa de Odón,2013,vidrio recogido,kg,313404
+1821,Villavieja del Lozoya,2013,habitantes,número,277
+1821,Villavieja del Lozoya,2013,contenedores,unidades,8
+1821,Villavieja del Lozoya,2013,vidrio recogido,kg,6517
+1837,Zarzalejo,2013,habitantes,número,1553
+1837,Zarzalejo,2013,contenedores,unidades,15
+1837,Zarzalejo,2013,vidrio recogido,kg,22139
+0014,"Acebeda, La",2014,habitantes,número,67
+0014,"Acebeda, La",2014,contenedores,unidades,2
+0014,"Acebeda, La",2014,vidrio recogido,kg,4035
+0029,Ajalvir,2014,habitantes,número,4339
+0029,Ajalvir,2014,contenedores,unidades,32
+0029,Ajalvir,2014,vidrio recogido,kg,94938
+0035,Alameda del Valle,2014,habitantes,número,224
+0035,Alameda del Valle,2014,contenedores,unidades,5
+0035,Alameda del Valle,2014,vidrio recogido,kg,17694
+0040,"Álamo, El",2014,habitantes,número,8929
+0040,"Álamo, El",2014,contenedores,unidades,38
+0040,"Álamo, El",2014,vidrio recogido,kg,59200
+0053,Alcalá de Henares,2014,habitantes,número,200768
+0053,Alcalá de Henares,2014,contenedores,unidades,633
+0053,Alcalá de Henares,2014,vidrio recogido,kg,2093559
+0066,Alcobendas,2014,habitantes,número,112188
+0066,Alcobendas,2014,contenedores,unidades,256
+0066,Alcobendas,2014,vidrio recogido,kg,2375439
+0072,Alcorcón,2014,habitantes,número,170336
+0072,Alcorcón,2014,contenedores,unidades,480
+0072,Alcorcón,2014,vidrio recogido,kg,1859570
+0088,Aldea del Fresno,2014,habitantes,número,2528
+0088,Aldea del Fresno,2014,contenedores,unidades,19
+0088,Aldea del Fresno,2014,vidrio recogido,kg,37542
+0091,Algete,2014,habitantes,número,20102
+0091,Algete,2014,contenedores,unidades,107
+0091,Algete,2014,vidrio recogido,kg,344948
+0105,Alpedrete,2014,habitantes,número,14005
+0105,Alpedrete,2014,contenedores,unidades,73
+0105,Alpedrete,2014,vidrio recogido,kg,164434
+0112,Ambite,2014,habitantes,número,607
+0112,Ambite,2014,contenedores,unidades,6
+0112,Ambite,2014,vidrio recogido,kg,7329
+0127,Anchuelo,2014,habitantes,número,1211
+0127,Anchuelo,2014,contenedores,unidades,12
+0127,Anchuelo,2014,vidrio recogido,kg,10860
+0133,Aranjuez,2014,habitantes,número,57792
+0133,Aranjuez,2014,contenedores,unidades,240
+0133,Aranjuez,2014,vidrio recogido,kg,609588
+0148,Arganda del Rey,2014,habitantes,número,55307
+0148,Arganda del Rey,2014,contenedores,unidades,209
+0148,Arganda del Rey,2014,vidrio recogido,kg,390037
+0151,Arroyomolinos,2014,habitantes,número,25374
+0151,Arroyomolinos,2014,contenedores,unidades,115
+0151,Arroyomolinos,2014,vidrio recogido,kg,158063
+0164,"Atazar, El",2014,habitantes,número,98
+0164,"Atazar, El",2014,contenedores,unidades,5
+0164,"Atazar, El",2014,vidrio recogido,kg,0
+0170,Batres,2014,habitantes,número,1571
+0170,Batres,2014,contenedores,unidades,18
+0170,Batres,2014,vidrio recogido,kg,27687
+0186,Becerril de la Sierra,2014,habitantes,número,5351
+0186,Becerril de la Sierra,2014,contenedores,unidades,42
+0186,Becerril de la Sierra,2014,vidrio recogido,kg,95019
+0199,Belmonte de Tajo,2014,habitantes,número,1591
+0199,Belmonte de Tajo,2014,contenedores,unidades,11
+0199,Belmonte de Tajo,2014,vidrio recogido,kg,16120
+0210,"Berrueco, El",2014,habitantes,número,634
+0210,"Berrueco, El",2014,contenedores,unidades,6
+0210,"Berrueco, El",2014,vidrio recogido,kg,18850
+0203,Berzosa del Lozoya,2014,habitantes,número,189
+0203,Berzosa del Lozoya,2014,contenedores,unidades,5
+0203,Berzosa del Lozoya,2014,vidrio recogido,kg,4439
+0225,Boadilla del Monte,2014,habitantes,número,47852
+0225,Boadilla del Monte,2014,contenedores,unidades,140
+0225,Boadilla del Monte,2014,vidrio recogido,kg,479442
+0231,"Boalo, El",2014,habitantes,número,6982
+0231,"Boalo, El",2014,contenedores,unidades,62
+0231,"Boalo, El",2014,vidrio recogido,kg,106075
+0246,Braojos,2014,habitantes,número,199
+0246,Braojos,2014,contenedores,unidades,3
+0246,Braojos,2014,vidrio recogido,kg,7551
+0259,Brea de Tajo,2014,habitantes,número,568
+0259,Brea de Tajo,2014,contenedores,unidades,11
+0259,Brea de Tajo,2014,vidrio recogido,kg,12840
+0262,Brunete,2014,habitantes,número,10188
+0262,Brunete,2014,contenedores,unidades,45
+0262,Brunete,2014,vidrio recogido,kg,93913
+0278,Buitrago del Lozoya,2014,habitantes,número,1952
+0278,Buitrago del Lozoya,2014,contenedores,unidades,14
+0278,Buitrago del Lozoya,2014,vidrio recogido,kg,49130
+0284,Bustarviejo,2014,habitantes,número,2348
+0284,Bustarviejo,2014,contenedores,unidades,25
+0284,Bustarviejo,2014,vidrio recogido,kg,75920
+0297,Cabanillas de la Sierra,2014,habitantes,número,732
+0297,Cabanillas de la Sierra,2014,contenedores,unidades,12
+0297,Cabanillas de la Sierra,2014,vidrio recogido,kg,26322
+0301,"Cabrera, La",2014,habitantes,número,2590
+0301,"Cabrera, La",2014,contenedores,unidades,31
+0301,"Cabrera, La",2014,vidrio recogido,kg,85932
+0318,Cadalso de los Vidrios,2014,habitantes,número,2760
+0318,Cadalso de los Vidrios,2014,contenedores,unidades,9
+0318,Cadalso de los Vidrios,2014,vidrio recogido,kg,23322
+0323,Camarma de Esteruelas,2014,habitantes,número,7048
+0323,Camarma de Esteruelas,2014,contenedores,unidades,36
+0323,Camarma de Esteruelas,2014,vidrio recogido,kg,116665
+0339,Campo Real,2014,habitantes,número,5775
+0339,Campo Real,2014,contenedores,unidades,20
+0339,Campo Real,2014,vidrio recogido,kg,45973
+0344,Canencia,2014,habitantes,número,476
+0344,Canencia,2014,contenedores,unidades,4
+0344,Canencia,2014,vidrio recogido,kg,9528
+0357,Carabaña,2014,habitantes,número,1978
+0357,Carabaña,2014,contenedores,unidades,17
+0357,Carabaña,2014,vidrio recogido,kg,24140
+0360,Casarrubuelos,2014,habitantes,número,3460
+0360,Casarrubuelos,2014,contenedores,unidades,21
+0360,Casarrubuelos,2014,vidrio recogido,kg,31719
+0376,Cenicientos,2014,habitantes,número,2073
+0376,Cenicientos,2014,contenedores,unidades,8
+0376,Cenicientos,2014,vidrio recogido,kg,11470
+0382,Cercedilla,2014,habitantes,número,6831
+0382,Cercedilla,2014,contenedores,unidades,51
+0382,Cercedilla,2014,vidrio recogido,kg,76453
+0395,Cervera de Buitrago,2014,habitantes,número,174
+0395,Cervera de Buitrago,2014,contenedores,unidades,6
+0395,Cervera de Buitrago,2014,vidrio recogido,kg,4326
+0513,Chapinería,2014,habitantes,número,2140
+0513,Chapinería,2014,contenedores,unidades,13
+0513,Chapinería,2014,vidrio recogido,kg,27695
+0528,Chinchón,2014,habitantes,número,5447
+0528,Chinchón,2014,contenedores,unidades,31
+0528,Chinchón,2014,vidrio recogido,kg,74317
+0409,Ciempozuelos,2014,habitantes,número,23739
+0409,Ciempozuelos,2014,contenedores,unidades,75
+0409,Ciempozuelos,2014,vidrio recogido,kg,149538
+0416,Cobeña,2014,habitantes,número,6921
+0416,Cobeña,2014,contenedores,unidades,40
+0416,Cobeña,2014,vidrio recogido,kg,144532
+0468,Collado Mediano,2014,habitantes,número,6780
+0468,Collado Mediano,2014,contenedores,unidades,26
+0468,Collado Mediano,2014,vidrio recogido,kg,74234
+0474,Collado Villalba,2014,habitantes,número,62587
+0474,Collado Villalba,2014,contenedores,unidades,224
+0474,Collado Villalba,2014,vidrio recogido,kg,698420
+0437,Colmenar de Oreja,2014,habitantes,número,8409
+0437,Colmenar de Oreja,2014,contenedores,unidades,33
+0437,Colmenar de Oreja,2014,vidrio recogido,kg,69439
+0421,Colmenar del Arroyo,2014,habitantes,número,1581
+0421,Colmenar del Arroyo,2014,contenedores,unidades,13
+0421,Colmenar del Arroyo,2014,vidrio recogido,kg,18727
+0455,Colmenar Viejo,2014,habitantes,número,47445
+0455,Colmenar Viejo,2014,contenedores,unidades,130
+0455,Colmenar Viejo,2014,vidrio recogido,kg,471627
+0442,Colmenarejo,2014,habitantes,número,8934
+0442,Colmenarejo,2014,contenedores,unidades,47
+0442,Colmenarejo,2014,vidrio recogido,kg,74013
+0480,Corpa,2014,habitantes,número,671
+0480,Corpa,2014,contenedores,unidades,4
+0480,Corpa,2014,vidrio recogido,kg,3556
+0493,Coslada,2014,habitantes,número,88847
+0493,Coslada,2014,contenedores,unidades,215
+0493,Coslada,2014,vidrio recogido,kg,881717
+0506,Cubas de la Sagra,2014,habitantes,número,5738
+0506,Cubas de la Sagra,2014,contenedores,unidades,41
+0506,Cubas de la Sagra,2014,vidrio recogido,kg,64697
+0534,Daganzo de Arriba,2014,habitantes,número,9841
+0534,Daganzo de Arriba,2014,contenedores,unidades,43
+0534,Daganzo de Arriba,2014,vidrio recogido,kg,134827
+0549,"Escorial, El",2014,habitantes,número,15244
+0549,"Escorial, El",2014,contenedores,unidades,71
+0549,"Escorial, El",2014,vidrio recogido,kg,169086
+0552,Estremera,2014,habitantes,número,1410
+0552,Estremera,2014,contenedores,unidades,21
+0552,Estremera,2014,vidrio recogido,kg,27870
+0565,Fresnedillas de la Oliva,2014,habitantes,número,1545
+0565,Fresnedillas de la Oliva,2014,contenedores,unidades,12
+0565,Fresnedillas de la Oliva,2014,vidrio recogido,kg,20856
+0571,Fresno de Torote,2014,habitantes,número,2020
+0571,Fresno de Torote,2014,contenedores,unidades,10
+0571,Fresno de Torote,2014,vidrio recogido,kg,11391
+0587,Fuenlabrada,2014,habitantes,número,195864
+0587,Fuenlabrada,2014,contenedores,unidades,504
+0587,Fuenlabrada,2014,vidrio recogido,kg,1829971
+0590,Fuente el Saz de Jarama,2014,habitantes,número,6409
+0590,Fuente el Saz de Jarama,2014,contenedores,unidades,34
+0590,Fuente el Saz de Jarama,2014,vidrio recogido,kg,114043
+0604,Fuentidueña de Tajo,2014,habitantes,número,2026
+0604,Fuentidueña de Tajo,2014,contenedores,unidades,18
+0604,Fuentidueña de Tajo,2014,vidrio recogido,kg,24670
+0611,Galapagar,2014,habitantes,número,32380
+0611,Galapagar,2014,contenedores,unidades,139
+0611,Galapagar,2014,vidrio recogido,kg,397119
+0626,Garganta de los Montes,2014,habitantes,número,382
+0626,Garganta de los Montes,2014,contenedores,unidades,9
+0626,Garganta de los Montes,2014,vidrio recogido,kg,13297
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2014,habitantes,número,362
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2014,contenedores,unidades,9
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2014,vidrio recogido,kg,17121
+0647,Gascones,2014,habitantes,número,179
+0647,Gascones,2014,contenedores,unidades,2
+0647,Gascones,2014,vidrio recogido,kg,1036
+0650,Getafe,2014,habitantes,número,173057
+0650,Getafe,2014,contenedores,unidades,485
+0650,Getafe,2014,vidrio recogido,kg,1634474
+0663,Griñón,2014,habitantes,número,9928
+0663,Griñón,2014,contenedores,unidades,51
+0663,Griñón,2014,vidrio recogido,kg,125576
+0679,Guadalix de la Sierra,2014,habitantes,número,6057
+0679,Guadalix de la Sierra,2014,contenedores,unidades,31
+0679,Guadalix de la Sierra,2014,vidrio recogido,kg,132194
+0685,Guadarrama,2014,habitantes,número,15547
+0685,Guadarrama,2014,contenedores,unidades,66
+0685,Guadarrama,2014,vidrio recogido,kg,173579
+0698,"Hiruela, La",2014,habitantes,número,55
+0698,"Hiruela, La",2014,contenedores,unidades,2
+0698,"Hiruela, La",2014,vidrio recogido,kg,2311
+0702,Horcajo de la Sierra-Aoslos,2014,habitantes,número,179
+0702,Horcajo de la Sierra-Aoslos,2014,contenedores,unidades,6
+0702,Horcajo de la Sierra-Aoslos,2014,vidrio recogido,kg,3107
+0719,Horcajuelo de la Sierra,2014,habitantes,número,80
+0719,Horcajuelo de la Sierra,2014,contenedores,unidades,3
+0719,Horcajuelo de la Sierra,2014,vidrio recogido,kg,1243
+0724,Hoyo de Manzanares,2014,habitantes,número,7834
+0724,Hoyo de Manzanares,2014,contenedores,unidades,39
+0724,Hoyo de Manzanares,2014,vidrio recogido,kg,152567
+0730,Humanes de Madrid,2014,habitantes,número,19404
+0730,Humanes de Madrid,2014,contenedores,unidades,95
+0730,Humanes de Madrid,2014,vidrio recogido,kg,201862
+0745,Leganés,2014,habitantes,número,186696
+0745,Leganés,2014,contenedores,unidades,499
+0745,Leganés,2014,vidrio recogido,kg,1963650
+0758,Loeches,2014,habitantes,número,8159
+0758,Loeches,2014,contenedores,unidades,60
+0758,Loeches,2014,vidrio recogido,kg,73253
+0761,Lozoya,2014,habitantes,número,591
+0761,Lozoya,2014,contenedores,unidades,6
+0761,Lozoya,2014,vidrio recogido,kg,9141
+9015,Lozoyuela-Navas-Sieteiglesias,2014,habitantes,número,1196
+9015,Lozoyuela-Navas-Sieteiglesias,2014,contenedores,unidades,15
+9015,Lozoyuela-Navas-Sieteiglesias,2014,vidrio recogido,kg,20976
+0783,Madarcos,2014,habitantes,número,47
+0783,Madarcos,2014,contenedores,unidades,3
+0783,Madarcos,2014,vidrio recogido,kg,2893
+0796,Madrid,2014,habitantes,número,3165235
+0796,Madrid,2014,contenedores,unidades,6050
+0796,Madrid,2014,vidrio recogido,kg,40324719
+0800,Majadahonda,2014,habitantes,número,70359
+0800,Majadahonda,2014,contenedores,unidades,166
+0800,Majadahonda,2014,vidrio recogido,kg,891370
+0822,Manzanares el Real,2014,habitantes,número,8182
+0822,Manzanares el Real,2014,contenedores,unidades,53
+0822,Manzanares el Real,2014,vidrio recogido,kg,154297
+0838,Meco,2014,habitantes,número,13133
+0838,Meco,2014,contenedores,unidades,64
+0838,Meco,2014,vidrio recogido,kg,184153
+0843,Mejorada del Campo,2014,habitantes,número,22763
+0843,Mejorada del Campo,2014,contenedores,unidades,64
+0843,Mejorada del Campo,2014,vidrio recogido,kg,180395
+0856,Miraflores de la Sierra,2014,habitantes,número,5890
+0856,Miraflores de la Sierra,2014,contenedores,unidades,40
+0856,Miraflores de la Sierra,2014,vidrio recogido,kg,117618
+0869,"Molar, El",2014,habitantes,número,7983
+0869,"Molar, El",2014,contenedores,unidades,33
+0869,"Molar, El",2014,vidrio recogido,kg,71228
+0875,"Molinos, Los",2014,habitantes,número,4374
+0875,"Molinos, Los",2014,contenedores,unidades,21
+0875,"Molinos, Los",2014,vidrio recogido,kg,46606
+0881,Montejo de la Sierra,2014,habitantes,número,363
+0881,Montejo de la Sierra,2014,contenedores,unidades,5
+0881,Montejo de la Sierra,2014,vidrio recogido,kg,8763
+0894,Moraleja de Enmedio,2014,habitantes,número,5032
+0894,Moraleja de Enmedio,2014,contenedores,unidades,31
+0894,Moraleja de Enmedio,2014,vidrio recogido,kg,41497
+0908,Moralzarzal,2014,habitantes,número,12321
+0908,Moralzarzal,2014,contenedores,unidades,35
+0908,Moralzarzal,2014,vidrio recogido,kg,152140
+0915,Morata de Tajuña,2014,habitantes,número,7452
+0915,Morata de Tajuña,2014,contenedores,unidades,39
+0915,Morata de Tajuña,2014,vidrio recogido,kg,71098
+0920,Móstoles,2014,habitantes,número,205712
+0920,Móstoles,2014,contenedores,unidades,397
+0920,Móstoles,2014,vidrio recogido,kg,1652617
+0936,Navacerrada,2014,habitantes,número,2862
+0936,Navacerrada,2014,contenedores,unidades,43
+0936,Navacerrada,2014,vidrio recogido,kg,56772
+0941,Navalafuente,2014,habitantes,número,1194
+0941,Navalafuente,2014,contenedores,unidades,18
+0941,Navalafuente,2014,vidrio recogido,kg,20853
+0954,Navalagamella,2014,habitantes,número,2465
+0954,Navalagamella,2014,contenedores,unidades,14
+0954,Navalagamella,2014,vidrio recogido,kg,20937
+0967,Navalcarnero,2014,habitantes,número,26364
+0967,Navalcarnero,2014,contenedores,unidades,94
+0967,Navalcarnero,2014,vidrio recogido,kg,155940
+0973,Navarredonda y San Mamés,2014,habitantes,número,129
+0973,Navarredonda y San Mamés,2014,contenedores,unidades,4
+0973,Navarredonda y San Mamés,2014,vidrio recogido,kg,7649
+0992,Navas del Rey,2014,habitantes,número,2640
+0992,Navas del Rey,2014,contenedores,unidades,16
+0992,Navas del Rey,2014,vidrio recogido,kg,22678
+1006,Nuevo Baztán,2014,habitantes,número,5959
+1006,Nuevo Baztán,2014,contenedores,unidades,44
+1006,Nuevo Baztán,2014,vidrio recogido,kg,58327
+1013,Olmeda de las Fuentes,2014,habitantes,número,334
+1013,Olmeda de las Fuentes,2014,contenedores,unidades,6
+1013,Olmeda de las Fuentes,2014,vidrio recogido,kg,6713
+1028,Orusco de Tajuña,2014,habitantes,número,1283
+1028,Orusco de Tajuña,2014,contenedores,unidades,7
+1028,Orusco de Tajuña,2014,vidrio recogido,kg,9960
+1049,Paracuellos de Jarama,2014,habitantes,número,21718
+1049,Paracuellos de Jarama,2014,contenedores,unidades,110
+1049,Paracuellos de Jarama,2014,vidrio recogido,kg,362468
+1065,Parla,2014,habitantes,número,125323
+1065,Parla,2014,contenedores,unidades,360
+1065,Parla,2014,vidrio recogido,kg,730960
+1071,Patones,2014,habitantes,número,507
+1071,Patones,2014,contenedores,unidades,5
+1071,Patones,2014,vidrio recogido,kg,7340
+1087,Pedrezuela,2014,habitantes,número,5119
+1087,Pedrezuela,2014,contenedores,unidades,31
+1087,Pedrezuela,2014,vidrio recogido,kg,118294
+1090,Pelayos de la Presa,2014,habitantes,número,2502
+1090,Pelayos de la Presa,2014,contenedores,unidades,11
+1090,Pelayos de la Presa,2014,vidrio recogido,kg,21836
+1104,Perales de Tajuña,2014,habitantes,número,2945
+1104,Perales de Tajuña,2014,contenedores,unidades,24
+1104,Perales de Tajuña,2014,vidrio recogido,kg,40850
+1111,Pezuela de las Torres,2014,habitantes,número,795
+1111,Pezuela de las Torres,2014,contenedores,unidades,6
+1111,Pezuela de las Torres,2014,vidrio recogido,kg,6751
+1126,Pinilla del Valle,2014,habitantes,número,205
+1126,Pinilla del Valle,2014,contenedores,unidades,4
+1126,Pinilla del Valle,2014,vidrio recogido,kg,6426
+1132,Pinto,2014,habitantes,número,47594
+1132,Pinto,2014,contenedores,unidades,140
+1132,Pinto,2014,vidrio recogido,kg,525802
+1147,Piñuécar-Gandullas,2014,habitantes,número,172
+1147,Piñuécar-Gandullas,2014,contenedores,unidades,7
+1147,Piñuécar-Gandullas,2014,vidrio recogido,kg,2870
+1150,Pozuelo de Alarcón,2014,habitantes,número,84360
+1150,Pozuelo de Alarcón,2014,contenedores,unidades,206
+1150,Pozuelo de Alarcón,2014,vidrio recogido,kg,1133356
+1163,Pozuelo del Rey,2014,habitantes,número,1092
+1163,Pozuelo del Rey,2014,contenedores,unidades,8
+1163,Pozuelo del Rey,2014,vidrio recogido,kg,10311
+1179,Prádena del Rincón,2014,habitantes,número,132
+1179,Prádena del Rincón,2014,contenedores,unidades,3
+1179,Prádena del Rincón,2014,vidrio recogido,kg,3348
+1185,Puebla de la Sierra,2014,habitantes,número,83
+1185,Puebla de la Sierra,2014,contenedores,unidades,3
+1185,Puebla de la Sierra,2014,vidrio recogido,kg,4469
+9020,Puentes Viejas,2014,habitantes,número,620
+9020,Puentes Viejas,2014,contenedores,unidades,11
+9020,Puentes Viejas,2014,vidrio recogido,kg,12475
+1198,Quijorna,2014,habitantes,número,3221
+1198,Quijorna,2014,contenedores,unidades,12
+1198,Quijorna,2014,vidrio recogido,kg,29510
+1202,Rascafría,2014,habitantes,número,1798
+1202,Rascafría,2014,contenedores,unidades,30
+1202,Rascafría,2014,vidrio recogido,kg,77109
+1219,Redueña,2014,habitantes,número,281
+1219,Redueña,2014,contenedores,unidades,2
+1219,Redueña,2014,vidrio recogido,kg,2530
+1224,Ribatejada,2014,habitantes,número,689
+1224,Ribatejada,2014,contenedores,unidades,12
+1224,Ribatejada,2014,vidrio recogido,kg,7579
+1230,Rivas-Vaciamadrid,2014,habitantes,número,80483
+1230,Rivas-Vaciamadrid,2014,contenedores,unidades,277
+1230,Rivas-Vaciamadrid,2014,vidrio recogido,kg,877865
+1245,Robledillo de la Jara,2014,habitantes,número,103
+1245,Robledillo de la Jara,2014,contenedores,unidades,5
+1245,Robledillo de la Jara,2014,vidrio recogido,kg,3467
+1258,Robledo de Chavela,2014,habitantes,número,4037
+1258,Robledo de Chavela,2014,contenedores,unidades,27
+1258,Robledo de Chavela,2014,vidrio recogido,kg,84500
+1261,Robregordo,2014,habitantes,número,52
+1261,Robregordo,2014,contenedores,unidades,4
+1261,Robregordo,2014,vidrio recogido,kg,0
+1277,"Rozas de Madrid, Las",2014,habitantes,número,92784
+1277,"Rozas de Madrid, Las",2014,contenedores,unidades,332
+1277,"Rozas de Madrid, Las",2014,vidrio recogido,kg,1100820
+1283,Rozas de Puerto Real,2014,habitantes,número,493
+1283,Rozas de Puerto Real,2014,contenedores,unidades,2
+1283,Rozas de Puerto Real,2014,vidrio recogido,kg,32924
+1296,San Agustín del Guadalix,2014,habitantes,número,12953
+1296,San Agustín del Guadalix,2014,contenedores,unidades,65
+1296,San Agustín del Guadalix,2014,vidrio recogido,kg,266150
+1300,San Fernando de Henares,2014,habitantes,número,40781
+1300,San Fernando de Henares,2014,contenedores,unidades,123
+1300,San Fernando de Henares,2014,vidrio recogido,kg,425899
+1317,San Lorenzo de El Escorial,2014,habitantes,número,18241
+1317,San Lorenzo de El Escorial,2014,contenedores,unidades,186
+1317,San Lorenzo de El Escorial,2014,vidrio recogido,kg,230529
+1322,San Martín de la Vega,2014,habitantes,número,19092
+1322,San Martín de la Vega,2014,contenedores,unidades,52
+1322,San Martín de la Vega,2014,vidrio recogido,kg,107249
+1338,San Martín de Valdeiglesias,2014,habitantes,número,8516
+1338,San Martín de Valdeiglesias,2014,contenedores,unidades,52
+1338,San Martín de Valdeiglesias,2014,vidrio recogido,kg,66998
+1343,San Sebastián de los Reyes,2014,habitantes,número,83329
+1343,San Sebastián de los Reyes,2014,contenedores,unidades,244
+1343,San Sebastián de los Reyes,2014,vidrio recogido,kg,1760860
+1356,Santa María de la Alameda,2014,habitantes,número,1212
+1356,Santa María de la Alameda,2014,contenedores,unidades,16
+1356,Santa María de la Alameda,2014,vidrio recogido,kg,26505
+1369,Santorcaz,2014,habitantes,número,833
+1369,Santorcaz,2014,contenedores,unidades,11
+1369,Santorcaz,2014,vidrio recogido,kg,12502
+1375,"Santos de la Humosa, Los",2014,habitantes,número,2445
+1375,"Santos de la Humosa, Los",2014,contenedores,unidades,22
+1375,"Santos de la Humosa, Los",2014,vidrio recogido,kg,24204
+1381,"Serna del Monte, La",2014,habitantes,número,94
+1381,"Serna del Monte, La",2014,contenedores,unidades,3
+1381,"Serna del Monte, La",2014,vidrio recogido,kg,3943
+1408,Serranillos del Valle,2014,habitantes,número,3957
+1408,Serranillos del Valle,2014,contenedores,unidades,33
+1408,Serranillos del Valle,2014,vidrio recogido,kg,34414
+1415,Sevilla la Nueva,2014,habitantes,número,8858
+1415,Sevilla la Nueva,2014,contenedores,unidades,64
+1415,Sevilla la Nueva,2014,vidrio recogido,kg,101121
+1436,Somosierra,2014,habitantes,número,77
+1436,Somosierra,2014,contenedores,unidades,3
+1436,Somosierra,2014,vidrio recogido,kg,2051
+1441,Soto del Real,2014,habitantes,número,8482
+1441,Soto del Real,2014,contenedores,unidades,73
+1441,Soto del Real,2014,vidrio recogido,kg,149284
+1454,Talamanca de Jarama,2014,habitantes,número,3267
+1454,Talamanca de Jarama,2014,contenedores,unidades,19
+1454,Talamanca de Jarama,2014,vidrio recogido,kg,60921
+1467,Tielmes,2014,habitantes,número,2617
+1467,Tielmes,2014,contenedores,unidades,18
+1467,Tielmes,2014,vidrio recogido,kg,30650
+1473,Titulcia,2014,habitantes,número,1261
+1473,Titulcia,2014,contenedores,unidades,8
+1473,Titulcia,2014,vidrio recogido,kg,9812
+1489,Torrejón de Ardoz,2014,habitantes,número,126878
+1489,Torrejón de Ardoz,2014,contenedores,unidades,401
+1489,Torrejón de Ardoz,2014,vidrio recogido,kg,1359303
+1492,Torrejón de la Calzada,2014,habitantes,número,7739
+1492,Torrejón de la Calzada,2014,contenedores,unidades,33
+1492,Torrejón de la Calzada,2014,vidrio recogido,kg,48540
+1505,Torrejón de Velasco,2014,habitantes,número,4195
+1505,Torrejón de Velasco,2014,contenedores,unidades,34
+1505,Torrejón de Velasco,2014,vidrio recogido,kg,42402
+1512,Torrelaguna,2014,habitantes,número,4828
+1512,Torrelaguna,2014,contenedores,unidades,22
+1512,Torrelaguna,2014,vidrio recogido,kg,70816
+1527,Torrelodones,2014,habitantes,número,22838
+1527,Torrelodones,2014,contenedores,unidades,114
+1527,Torrelodones,2014,vidrio recogido,kg,343232
+1533,Torremocha de Jarama,2014,habitantes,número,926
+1533,Torremocha de Jarama,2014,contenedores,unidades,10
+1533,Torremocha de Jarama,2014,vidrio recogido,kg,17933
+1548,Torres de la Alameda,2014,habitantes,número,7939
+1548,Torres de la Alameda,2014,contenedores,unidades,43
+1548,Torres de la Alameda,2014,vidrio recogido,kg,72867
+9036,Tres Cantos,2014,habitantes,número,42546
+9036,Tres Cantos,2014,contenedores,unidades,155
+9036,Tres Cantos,2014,vidrio recogido,kg,663737
+1551,Valdaracete,2014,habitantes,número,646
+1551,Valdaracete,2014,contenedores,unidades,7
+1551,Valdaracete,2014,vidrio recogido,kg,4200
+1564,Valdeavero,2014,habitantes,número,1475
+1564,Valdeavero,2014,contenedores,unidades,15
+1564,Valdeavero,2014,vidrio recogido,kg,13184
+1570,Valdelaguna,2014,habitantes,número,855
+1570,Valdelaguna,2014,contenedores,unidades,9
+1570,Valdelaguna,2014,vidrio recogido,kg,13600
+1586,Valdemanco,2014,habitantes,número,972
+1586,Valdemanco,2014,contenedores,unidades,12
+1586,Valdemanco,2014,vidrio recogido,kg,25345
+1599,Valdemaqueda,2014,habitantes,número,804
+1599,Valdemaqueda,2014,contenedores,unidades,12
+1599,Valdemaqueda,2014,vidrio recogido,kg,6620
+1603,Valdemorillo,2014,habitantes,número,12058
+1603,Valdemorillo,2014,contenedores,unidades,76
+1603,Valdemorillo,2014,vidrio recogido,kg,170990
+1610,Valdemoro,2014,habitantes,número,72265
+1610,Valdemoro,2014,contenedores,unidades,209
+1610,Valdemoro,2014,vidrio recogido,kg,571124
+1625,Valdeolmos-Alalpardo,2014,habitantes,número,3689
+1625,Valdeolmos-Alalpardo,2014,contenedores,unidades,24
+1625,Valdeolmos-Alalpardo,2014,vidrio recogido,kg,68213
+1631,Valdepiélagos,2014,habitantes,número,563
+1631,Valdepiélagos,2014,contenedores,unidades,5
+1631,Valdepiélagos,2014,vidrio recogido,kg,5699
+1646,Valdetorres de Jarama,2014,habitantes,número,4225
+1646,Valdetorres de Jarama,2014,contenedores,unidades,11
+1646,Valdetorres de Jarama,2014,vidrio recogido,kg,48119
+1659,Valdilecha,2014,habitantes,número,2852
+1659,Valdilecha,2014,contenedores,unidades,11
+1659,Valdilecha,2014,vidrio recogido,kg,27160
+1662,Valverde de Alcalá,2014,habitantes,número,439
+1662,Valverde de Alcalá,2014,contenedores,unidades,7
+1662,Valverde de Alcalá,2014,vidrio recogido,kg,4339
+1678,Velilla de San Antonio,2014,habitantes,número,12334
+1678,Velilla de San Antonio,2014,contenedores,unidades,46
+1678,Velilla de San Antonio,2014,vidrio recogido,kg,103392
+1684,"Vellón, El",2014,habitantes,número,1814
+1684,"Vellón, El",2014,contenedores,unidades,5
+1684,"Vellón, El",2014,vidrio recogido,kg,10316
+1697,Venturada,2014,habitantes,número,1968
+1697,Venturada,2014,contenedores,unidades,12
+1697,Venturada,2014,vidrio recogido,kg,36966
+1718,Villa del Prado,2014,habitantes,número,6506
+1718,Villa del Prado,2014,contenedores,unidades,35
+1718,Villa del Prado,2014,vidrio recogido,kg,46689
+1701,Villaconejos,2014,habitantes,número,3447
+1701,Villaconejos,2014,contenedores,unidades,21
+1701,Villaconejos,2014,vidrio recogido,kg,43367
+1723,Villalbilla,2014,habitantes,número,11916
+1723,Villalbilla,2014,contenedores,unidades,82
+1723,Villalbilla,2014,vidrio recogido,kg,125200
+1739,Villamanrique de Tajo,2014,habitantes,número,738
+1739,Villamanrique de Tajo,2014,contenedores,unidades,8
+1739,Villamanrique de Tajo,2014,vidrio recogido,kg,9000
+1744,Villamanta,2014,habitantes,número,2507
+1744,Villamanta,2014,contenedores,unidades,13
+1744,Villamanta,2014,vidrio recogido,kg,22657
+1757,Villamantilla,2014,habitantes,número,1241
+1757,Villamantilla,2014,contenedores,unidades,7
+1757,Villamantilla,2014,vidrio recogido,kg,13247
+1760,Villanueva de la Cañada,2014,habitantes,número,18827
+1760,Villanueva de la Cañada,2014,contenedores,unidades,74
+1760,Villanueva de la Cañada,2014,vidrio recogido,kg,168303
+1782,Villanueva de Perales,2014,habitantes,número,1445
+1782,Villanueva de Perales,2014,contenedores,unidades,11
+1782,Villanueva de Perales,2014,vidrio recogido,kg,9774
+1776,Villanueva del Pardillo,2014,habitantes,número,16730
+1776,Villanueva del Pardillo,2014,contenedores,unidades,63
+1776,Villanueva del Pardillo,2014,vidrio recogido,kg,136401
+1795,Villar del Olmo,2014,habitantes,número,2085
+1795,Villar del Olmo,2014,contenedores,unidades,11
+1795,Villar del Olmo,2014,vidrio recogido,kg,20322
+1809,Villarejo de Salvanés,2014,habitantes,número,7301
+1809,Villarejo de Salvanés,2014,contenedores,unidades,32
+1809,Villarejo de Salvanés,2014,vidrio recogido,kg,92560
+1816,Villaviciosa de Odón,2014,habitantes,número,26911
+1816,Villaviciosa de Odón,2014,contenedores,unidades,93
+1816,Villaviciosa de Odón,2014,vidrio recogido,kg,315112
+1821,Villavieja del Lozoya,2014,habitantes,número,275
+1821,Villavieja del Lozoya,2014,contenedores,unidades,6
+1821,Villavieja del Lozoya,2014,vidrio recogido,kg,6519
+1837,Zarzalejo,2014,habitantes,número,1583
+1837,Zarzalejo,2014,contenedores,unidades,15
+1837,Zarzalejo,2014,vidrio recogido,kg,23877
+0014,"Acebeda, La",2015,habitantes,número,65
+0014,"Acebeda, La",2015,contenedores,unidades,5
+0014,"Acebeda, La",2015,vidrio recogido,kg,4251
+0029,Ajalvir,2015,habitantes,número,4343
+0029,Ajalvir,2015,contenedores,unidades,32
+0029,Ajalvir,2015,vidrio recogido,kg,55946
+0035,Alameda del Valle,2015,habitantes,número,217
+0035,Alameda del Valle,2015,contenedores,unidades,8
+0035,Alameda del Valle,2015,vidrio recogido,kg,11318
+0040,"Álamo, El",2015,habitantes,número,8965
+0040,"Álamo, El",2015,contenedores,unidades,45
+0040,"Álamo, El",2015,vidrio recogido,kg,76392
+0053,Alcalá de Henares,2015,habitantes,número,198750
+0053,Alcalá de Henares,2015,contenedores,unidades,679
+0053,Alcalá de Henares,2015,vidrio recogido,kg,2049575
+0066,Alcobendas,2015,habitantes,número,113055
+0066,Alcobendas,2015,contenedores,unidades,295
+0066,Alcobendas,2015,vidrio recogido,kg,1311558
+0072,Alcorcón,2015,habitantes,número,167136
+0072,Alcorcón,2015,contenedores,unidades,492
+0072,Alcorcón,2015,vidrio recogido,kg,1860265
+0088,Aldea del Fresno,2015,habitantes,número,2535
+0088,Aldea del Fresno,2015,contenedores,unidades,19
+0088,Aldea del Fresno,2015,vidrio recogido,kg,38552
+0091,Algete,2015,habitantes,número,20148
+0091,Algete,2015,contenedores,unidades,121
+0091,Algete,2015,vidrio recogido,kg,235692
+0105,Alpedrete,2015,habitantes,número,14248
+0105,Alpedrete,2015,contenedores,unidades,73
+0105,Alpedrete,2015,vidrio recogido,kg,203243
+0112,Ambite,2015,habitantes,número,618
+0112,Ambite,2015,contenedores,unidades,7
+0112,Ambite,2015,vidrio recogido,kg,10942
+0127,Anchuelo,2015,habitantes,número,1200
+0127,Anchuelo,2015,contenedores,unidades,12
+0127,Anchuelo,2015,vidrio recogido,kg,13379
+0133,Aranjuez,2015,habitantes,número,58168
+0133,Aranjuez,2015,contenedores,unidades,262
+0133,Aranjuez,2015,vidrio recogido,kg,605518
+0148,Arganda del Rey,2015,habitantes,número,54533
+0148,Arganda del Rey,2015,contenedores,unidades,211
+0148,Arganda del Rey,2015,vidrio recogido,kg,346419
+0151,Arroyomolinos,2015,habitantes,número,26846
+0151,Arroyomolinos,2015,contenedores,unidades,156
+0151,Arroyomolinos,2015,vidrio recogido,kg,226077
+0164,"Atazar, El",2015,habitantes,número,96
+0164,"Atazar, El",2015,contenedores,unidades,2
+0164,"Atazar, El",2015,vidrio recogido,kg,1959
+0170,Batres,2015,habitantes,número,1568
+0170,Batres,2015,contenedores,unidades,16
+0170,Batres,2015,vidrio recogido,kg,21171
+0186,Becerril de la Sierra,2015,habitantes,número,5396
+0186,Becerril de la Sierra,2015,contenedores,unidades,42
+0186,Becerril de la Sierra,2015,vidrio recogido,kg,100484
+0199,Belmonte de Tajo,2015,habitantes,número,1625
+0199,Belmonte de Tajo,2015,contenedores,unidades,11
+0199,Belmonte de Tajo,2015,vidrio recogido,kg,15450
+0210,"Berrueco, El",2015,habitantes,número,618
+0210,"Berrueco, El",2015,contenedores,unidades,6
+0210,"Berrueco, El",2015,vidrio recogido,kg,14653
+0203,Berzosa del Lozoya,2015,habitantes,número,202
+0203,Berzosa del Lozoya,2015,contenedores,unidades,5
+0203,Berzosa del Lozoya,2015,vidrio recogido,kg,4383
+0225,Boadilla del Monte,2015,habitantes,número,48775
+0225,Boadilla del Monte,2015,contenedores,unidades,168
+0225,Boadilla del Monte,2015,vidrio recogido,kg,544390
+0231,"Boalo, El",2015,habitantes,número,7157
+0231,"Boalo, El",2015,contenedores,unidades,62
+0231,"Boalo, El",2015,vidrio recogido,kg,127854
+0246,Braojos,2015,habitantes,número,203
+0246,Braojos,2015,contenedores,unidades,3
+0246,Braojos,2015,vidrio recogido,kg,3876
+0259,Brea de Tajo,2015,habitantes,número,560
+0259,Brea de Tajo,2015,contenedores,unidades,13
+0259,Brea de Tajo,2015,vidrio recogido,kg,14750
+0262,Brunete,2015,habitantes,número,10398
+0262,Brunete,2015,contenedores,unidades,45
+0262,Brunete,2015,vidrio recogido,kg,134975
+0278,Buitrago del Lozoya,2015,habitantes,número,1865
+0278,Buitrago del Lozoya,2015,contenedores,unidades,13
+0278,Buitrago del Lozoya,2015,vidrio recogido,kg,30598
+0284,Bustarviejo,2015,habitantes,número,2367
+0284,Bustarviejo,2015,contenedores,unidades,26
+0284,Bustarviejo,2015,vidrio recogido,kg,55118
+0297,Cabanillas de la Sierra,2015,habitantes,número,733
+0297,Cabanillas de la Sierra,2015,contenedores,unidades,10
+0297,Cabanillas de la Sierra,2015,vidrio recogido,kg,13356
+0301,"Cabrera, La",2015,habitantes,número,2574
+0301,"Cabrera, La",2015,contenedores,unidades,30
+0301,"Cabrera, La",2015,vidrio recogido,kg,49518
+0318,Cadalso de los Vidrios,2015,habitantes,número,2767
+0318,Cadalso de los Vidrios,2015,contenedores,unidades,13
+0318,Cadalso de los Vidrios,2015,vidrio recogido,kg,26465
+0323,Camarma de Esteruelas,2015,habitantes,número,7134
+0323,Camarma de Esteruelas,2015,contenedores,unidades,27
+0323,Camarma de Esteruelas,2015,vidrio recogido,kg,63932
+0339,Campo Real,2015,habitantes,número,5854
+0339,Campo Real,2015,contenedores,unidades,21
+0339,Campo Real,2015,vidrio recogido,kg,43588
+0344,Canencia,2015,habitantes,número,464
+0344,Canencia,2015,contenedores,unidades,5
+0344,Canencia,2015,vidrio recogido,kg,9252
+0357,Carabaña,2015,habitantes,número,2017
+0357,Carabaña,2015,contenedores,unidades,17
+0357,Carabaña,2015,vidrio recogido,kg,21070
+0360,Casarrubuelos,2015,habitantes,número,3548
+0360,Casarrubuelos,2015,contenedores,unidades,27
+0360,Casarrubuelos,2015,vidrio recogido,kg,44054
+0376,Cenicientos,2015,habitantes,número,2035
+0376,Cenicientos,2015,contenedores,unidades,10
+0376,Cenicientos,2015,vidrio recogido,kg,12023
+0382,Cercedilla,2015,habitantes,número,6781
+0382,Cercedilla,2015,contenedores,unidades,59
+0382,Cercedilla,2015,vidrio recogido,kg,96056
+0395,Cervera de Buitrago,2015,habitantes,número,164
+0395,Cervera de Buitrago,2015,contenedores,unidades,6
+0395,Cervera de Buitrago,2015,vidrio recogido,kg,4361
+0513,Chapinería,2015,habitantes,número,2158
+0513,Chapinería,2015,contenedores,unidades,12
+0513,Chapinería,2015,vidrio recogido,kg,34241
+0528,Chinchón,2015,habitantes,número,5436
+0528,Chinchón,2015,contenedores,unidades,31
+0528,Chinchón,2015,vidrio recogido,kg,81927
+0409,Ciempozuelos,2015,habitantes,número,23696
+0409,Ciempozuelos,2015,contenedores,unidades,75
+0409,Ciempozuelos,2015,vidrio recogido,kg,162910
+0416,Cobeña,2015,habitantes,número,6983
+0416,Cobeña,2015,contenedores,unidades,44
+0416,Cobeña,2015,vidrio recogido,kg,96053
+0468,Collado Mediano,2015,habitantes,número,6599
+0468,Collado Mediano,2015,contenedores,unidades,28
+0468,Collado Mediano,2015,vidrio recogido,kg,119702
+0474,Collado Villalba,2015,habitantes,número,62056
+0474,Collado Villalba,2015,contenedores,unidades,238
+0474,Collado Villalba,2015,vidrio recogido,kg,631821
+0437,Colmenar de Oreja,2015,habitantes,número,8071
+0437,Colmenar de Oreja,2015,contenedores,unidades,33
+0437,Colmenar de Oreja,2015,vidrio recogido,kg,83283
+0421,Colmenar del Arroyo,2015,habitantes,número,1611
+0421,Colmenar del Arroyo,2015,contenedores,unidades,12
+0421,Colmenar del Arroyo,2015,vidrio recogido,kg,22924
+0455,Colmenar Viejo,2015,habitantes,número,47601
+0455,Colmenar Viejo,2015,contenedores,unidades,157
+0455,Colmenar Viejo,2015,vidrio recogido,kg,479555
+0442,Colmenarejo,2015,habitantes,número,8934
+0442,Colmenarejo,2015,contenedores,unidades,39
+0442,Colmenarejo,2015,vidrio recogido,kg,85268
+0480,Corpa,2015,habitantes,número,669
+0480,Corpa,2015,contenedores,unidades,4
+0480,Corpa,2015,vidrio recogido,kg,4133
+0493,Coslada,2015,habitantes,número,86919
+0493,Coslada,2015,contenedores,unidades,238
+0493,Coslada,2015,vidrio recogido,kg,772068
+0506,Cubas de la Sagra,2015,habitantes,número,5875
+0506,Cubas de la Sagra,2015,contenedores,unidades,41
+0506,Cubas de la Sagra,2015,vidrio recogido,kg,59403
+0534,Daganzo de Arriba,2015,habitantes,número,9919
+0534,Daganzo de Arriba,2015,contenedores,unidades,44
+0534,Daganzo de Arriba,2015,vidrio recogido,kg,86801
+0549,"Escorial, El",2015,habitantes,número,15342
+0549,"Escorial, El",2015,contenedores,unidades,70
+0549,"Escorial, El",2015,vidrio recogido,kg,176804
+0552,Estremera,2015,habitantes,número,1350
+0552,Estremera,2015,contenedores,unidades,21
+0552,Estremera,2015,vidrio recogido,kg,16420
+0565,Fresnedillas de la Oliva,2015,habitantes,número,1554
+0565,Fresnedillas de la Oliva,2015,contenedores,unidades,15
+0565,Fresnedillas de la Oliva,2015,vidrio recogido,kg,22889
+0571,Fresno de Torote,2015,habitantes,número,2041
+0571,Fresno de Torote,2015,contenedores,unidades,15
+0571,Fresno de Torote,2015,vidrio recogido,kg,17094
+0587,Fuenlabrada,2015,habitantes,número,195180
+0587,Fuenlabrada,2015,contenedores,unidades,515
+0587,Fuenlabrada,2015,vidrio recogido,kg,1622496
+0590,Fuente el Saz de Jarama,2015,habitantes,número,6440
+0590,Fuente el Saz de Jarama,2015,contenedores,unidades,35
+0590,Fuente el Saz de Jarama,2015,vidrio recogido,kg,81859
+0604,Fuentidueña de Tajo,2015,habitantes,número,1954
+0604,Fuentidueña de Tajo,2015,contenedores,unidades,20
+0604,Fuentidueña de Tajo,2015,vidrio recogido,kg,19690
+0611,Galapagar,2015,habitantes,número,32294
+0611,Galapagar,2015,contenedores,unidades,142
+0611,Galapagar,2015,vidrio recogido,kg,396200
+0626,Garganta de los Montes,2015,habitantes,número,367
+0626,Garganta de los Montes,2015,contenedores,unidades,10
+0626,Garganta de los Montes,2015,vidrio recogido,kg,10182
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2015,habitantes,número,351
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2015,contenedores,unidades,9
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2015,vidrio recogido,kg,15047
+0647,Gascones,2015,habitantes,número,176
+0647,Gascones,2015,contenedores,unidades,2
+0647,Gascones,2015,vidrio recogido,kg,2796
+0650,Getafe,2015,habitantes,número,174921
+0650,Getafe,2015,contenedores,unidades,492
+0650,Getafe,2015,vidrio recogido,kg,1536207
+0663,Griñón,2015,habitantes,número,9918
+0663,Griñón,2015,contenedores,unidades,60
+0663,Griñón,2015,vidrio recogido,kg,102389
+0679,Guadalix de la Sierra,2015,habitantes,número,6039
+0679,Guadalix de la Sierra,2015,contenedores,unidades,33
+0679,Guadalix de la Sierra,2015,vidrio recogido,kg,70595
+0685,Guadarrama,2015,habitantes,número,15538
+0685,Guadarrama,2015,contenedores,unidades,66
+0685,Guadarrama,2015,vidrio recogido,kg,182892
+0698,"Hiruela, La",2015,habitantes,número,54
+0698,"Hiruela, La",2015,contenedores,unidades,2
+0698,"Hiruela, La",2015,vidrio recogido,kg,3819
+0702,Horcajo de la Sierra-Aoslos,2015,habitantes,número,159
+0702,Horcajo de la Sierra-Aoslos,2015,contenedores,unidades,6
+0702,Horcajo de la Sierra-Aoslos,2015,vidrio recogido,kg,7058
+0719,Horcajuelo de la Sierra,2015,habitantes,número,88
+0719,Horcajuelo de la Sierra,2015,contenedores,unidades,3
+0719,Horcajuelo de la Sierra,2015,vidrio recogido,kg,2705
+0724,Hoyo de Manzanares,2015,habitantes,número,7880
+0724,Hoyo de Manzanares,2015,contenedores,unidades,38
+0724,Hoyo de Manzanares,2015,vidrio recogido,kg,122021
+0730,Humanes de Madrid,2015,habitantes,número,19413
+0730,Humanes de Madrid,2015,contenedores,unidades,95
+0730,Humanes de Madrid,2015,vidrio recogido,kg,225921
+0745,Leganés,2015,habitantes,número,186907
+0745,Leganés,2015,contenedores,unidades,528
+0745,Leganés,2015,vidrio recogido,kg,2070758
+0758,Loeches,2015,habitantes,número,8212
+0758,Loeches,2015,contenedores,unidades,61
+0758,Loeches,2015,vidrio recogido,kg,83305
+0761,Lozoya,2015,habitantes,número,594
+0761,Lozoya,2015,contenedores,unidades,5
+0761,Lozoya,2015,vidrio recogido,kg,12659
+9015,Lozoyuela-Navas-Sieteiglesias,2015,habitantes,número,1203
+9015,Lozoyuela-Navas-Sieteiglesias,2015,contenedores,unidades,13
+9015,Lozoyuela-Navas-Sieteiglesias,2015,vidrio recogido,kg,18642
+0783,Madarcos,2015,habitantes,número,45
+0783,Madarcos,2015,contenedores,unidades,3
+0783,Madarcos,2015,vidrio recogido,kg,4239
+0796,Madrid,2015,habitantes,número,3141991
+0796,Madrid,2015,contenedores,unidades,5967
+0796,Madrid,2015,vidrio recogido,kg,43871585
+0800,Majadahonda,2015,habitantes,número,70800
+0800,Majadahonda,2015,contenedores,unidades,171
+0800,Majadahonda,2015,vidrio recogido,kg,905718
+0822,Manzanares el Real,2015,habitantes,número,8309
+0822,Manzanares el Real,2015,contenedores,unidades,53
+0822,Manzanares el Real,2015,vidrio recogido,kg,135740
+0838,Meco,2015,habitantes,número,13269
+0838,Meco,2015,contenedores,unidades,61
+0838,Meco,2015,vidrio recogido,kg,120873
+0843,Mejorada del Campo,2015,habitantes,número,22902
+0843,Mejorada del Campo,2015,contenedores,unidades,66
+0843,Mejorada del Campo,2015,vidrio recogido,kg,178373
+0856,Miraflores de la Sierra,2015,habitantes,número,5807
+0856,Miraflores de la Sierra,2015,contenedores,unidades,36
+0856,Miraflores de la Sierra,2015,vidrio recogido,kg,84800
+0869,"Molar, El",2015,habitantes,número,8036
+0869,"Molar, El",2015,contenedores,unidades,30
+0869,"Molar, El",2015,vidrio recogido,kg,59717
+0875,"Molinos, Los",2015,habitantes,número,4349
+0875,"Molinos, Los",2015,contenedores,unidades,21
+0875,"Molinos, Los",2015,vidrio recogido,kg,67712
+0881,Montejo de la Sierra,2015,habitantes,número,374
+0881,Montejo de la Sierra,2015,contenedores,unidades,6
+0881,Montejo de la Sierra,2015,vidrio recogido,kg,13629
+0894,Moraleja de Enmedio,2015,habitantes,número,5046
+0894,Moraleja de Enmedio,2015,contenedores,unidades,41
+0894,Moraleja de Enmedio,2015,vidrio recogido,kg,31713
+0908,Moralzarzal,2015,habitantes,número,12213
+0908,Moralzarzal,2015,contenedores,unidades,42
+0908,Moralzarzal,2015,vidrio recogido,kg,176060
+0915,Morata de Tajuña,2015,habitantes,número,7453
+0915,Morata de Tajuña,2015,contenedores,unidades,39
+0915,Morata de Tajuña,2015,vidrio recogido,kg,81462
+0920,Móstoles,2015,habitantes,número,206263
+0920,Móstoles,2015,contenedores,unidades,465
+0920,Móstoles,2015,vidrio recogido,kg,1705635
+0936,Navacerrada,2015,habitantes,número,2855
+0936,Navacerrada,2015,contenedores,unidades,38
+0936,Navacerrada,2015,vidrio recogido,kg,63224
+0941,Navalafuente,2015,habitantes,número,1201
+0941,Navalafuente,2015,contenedores,unidades,17
+0941,Navalafuente,2015,vidrio recogido,kg,26593
+0954,Navalagamella,2015,habitantes,número,2462
+0954,Navalagamella,2015,contenedores,unidades,11
+0954,Navalagamella,2015,vidrio recogido,kg,27805
+0967,Navalcarnero,2015,habitantes,número,26672
+0967,Navalcarnero,2015,contenedores,unidades,100
+0967,Navalcarnero,2015,vidrio recogido,kg,166792
+0973,Navarredonda y San Mamés,2015,habitantes,número,136
+0973,Navarredonda y San Mamés,2015,contenedores,unidades,4
+0973,Navarredonda y San Mamés,2015,vidrio recogido,kg,8536
+0992,Navas del Rey,2015,habitantes,número,2628
+0992,Navas del Rey,2015,contenedores,unidades,19
+0992,Navas del Rey,2015,vidrio recogido,kg,31250
+1006,Nuevo Baztán,2015,habitantes,número,6098
+1006,Nuevo Baztán,2015,contenedores,unidades,45
+1006,Nuevo Baztán,2015,vidrio recogido,kg,72697
+1013,Olmeda de las Fuentes,2015,habitantes,número,338
+1013,Olmeda de las Fuentes,2015,contenedores,unidades,6
+1013,Olmeda de las Fuentes,2015,vidrio recogido,kg,6819
+1028,Orusco de Tajuña,2015,habitantes,número,1260
+1028,Orusco de Tajuña,2015,contenedores,unidades,7
+1028,Orusco de Tajuña,2015,vidrio recogido,kg,11870
+1049,Paracuellos de Jarama,2015,habitantes,número,22293
+1049,Paracuellos de Jarama,2015,contenedores,unidades,101
+1049,Paracuellos de Jarama,2015,vidrio recogido,kg,219942
+1065,Parla,2015,habitantes,número,125056
+1065,Parla,2015,contenedores,unidades,381
+1065,Parla,2015,vidrio recogido,kg,663000
+1071,Patones,2015,habitantes,número,524
+1071,Patones,2015,contenedores,unidades,5
+1071,Patones,2015,vidrio recogido,kg,10135
+1087,Pedrezuela,2015,habitantes,número,5271
+1087,Pedrezuela,2015,contenedores,unidades,24
+1087,Pedrezuela,2015,vidrio recogido,kg,66056
+1090,Pelayos de la Presa,2015,habitantes,número,2455
+1090,Pelayos de la Presa,2015,contenedores,unidades,17
+1090,Pelayos de la Presa,2015,vidrio recogido,kg,28193
+1104,Perales de Tajuña,2015,habitantes,número,2871
+1104,Perales de Tajuña,2015,contenedores,unidades,26
+1104,Perales de Tajuña,2015,vidrio recogido,kg,33970
+1111,Pezuela de las Torres,2015,habitantes,número,783
+1111,Pezuela de las Torres,2015,contenedores,unidades,6
+1111,Pezuela de las Torres,2015,vidrio recogido,kg,7203
+1126,Pinilla del Valle,2015,habitantes,número,200
+1126,Pinilla del Valle,2015,contenedores,unidades,4
+1126,Pinilla del Valle,2015,vidrio recogido,kg,5604
+1132,Pinto,2015,habitantes,número,48660
+1132,Pinto,2015,contenedores,unidades,158
+1132,Pinto,2015,vidrio recogido,kg,536262
+1147,Piñuécar-Gandullas,2015,habitantes,número,175
+1147,Piñuécar-Gandullas,2015,contenedores,unidades,9
+1147,Piñuécar-Gandullas,2015,vidrio recogido,kg,7796
+1150,Pozuelo de Alarcón,2015,habitantes,número,84558
+1150,Pozuelo de Alarcón,2015,contenedores,unidades,212
+1150,Pozuelo de Alarcón,2015,vidrio recogido,kg,1074975
+1163,Pozuelo del Rey,2015,habitantes,número,1071
+1163,Pozuelo del Rey,2015,contenedores,unidades,8
+1163,Pozuelo del Rey,2015,vidrio recogido,kg,10616
+1179,Prádena del Rincón,2015,habitantes,número,122
+1179,Prádena del Rincón,2015,contenedores,unidades,3
+1179,Prádena del Rincón,2015,vidrio recogido,kg,5475
+1185,Puebla de la Sierra,2015,habitantes,número,73
+1185,Puebla de la Sierra,2015,contenedores,unidades,3
+1185,Puebla de la Sierra,2015,vidrio recogido,kg,1790
+9020,Puentes Viejas,2015,habitantes,número,644
+9020,Puentes Viejas,2015,contenedores,unidades,12
+9020,Puentes Viejas,2015,vidrio recogido,kg,17966
+1198,Quijorna,2015,habitantes,número,3196
+1198,Quijorna,2015,contenedores,unidades,15
+1198,Quijorna,2015,vidrio recogido,kg,20196
+1202,Rascafría,2015,habitantes,número,1739
+1202,Rascafría,2015,contenedores,unidades,23
+1202,Rascafría,2015,vidrio recogido,kg,62328
+1219,Redueña,2015,habitantes,número,259
+1219,Redueña,2015,contenedores,unidades,2
+1219,Redueña,2015,vidrio recogido,kg,1976
+1224,Ribatejada,2015,habitantes,número,707
+1224,Ribatejada,2015,contenedores,unidades,12
+1224,Ribatejada,2015,vidrio recogido,kg,12042
+1230,Rivas-Vaciamadrid,2015,habitantes,número,81473
+1230,Rivas-Vaciamadrid,2015,contenedores,unidades,309
+1230,Rivas-Vaciamadrid,2015,vidrio recogido,kg,805379
+1245,Robledillo de la Jara,2015,habitantes,número,100
+1245,Robledillo de la Jara,2015,contenedores,unidades,4
+1245,Robledillo de la Jara,2015,vidrio recogido,kg,3082
+1258,Robledo de Chavela,2015,habitantes,número,3955
+1258,Robledo de Chavela,2015,contenedores,unidades,33
+1258,Robledo de Chavela,2015,vidrio recogido,kg,69141
+1261,Robregordo,2015,habitantes,número,48
+1261,Robregordo,2015,contenedores,unidades,4
+1261,Robregordo,2015,vidrio recogido,kg,1933
+1277,"Rozas de Madrid, Las",2015,habitantes,número,93520
+1277,"Rozas de Madrid, Las",2015,contenedores,unidades,334
+1277,"Rozas de Madrid, Las",2015,vidrio recogido,kg,1161120
+1283,Rozas de Puerto Real,2015,habitantes,número,523
+1283,Rozas de Puerto Real,2015,contenedores,unidades,4
+1283,Rozas de Puerto Real,2015,vidrio recogido,kg,4847
+1296,San Agustín del Guadalix,2015,habitantes,número,12982
+1296,San Agustín del Guadalix,2015,contenedores,unidades,65
+1296,San Agustín del Guadalix,2015,vidrio recogido,kg,142756
+1300,San Fernando de Henares,2015,habitantes,número,40188
+1300,San Fernando de Henares,2015,contenedores,unidades,122
+1300,San Fernando de Henares,2015,vidrio recogido,kg,438689
+1317,San Lorenzo de El Escorial,2015,habitantes,número,18191
+1317,San Lorenzo de El Escorial,2015,contenedores,unidades,85
+1317,San Lorenzo de El Escorial,2015,vidrio recogido,kg,228794
+1322,San Martín de la Vega,2015,habitantes,número,18835
+1322,San Martín de la Vega,2015,contenedores,unidades,59
+1322,San Martín de la Vega,2015,vidrio recogido,kg,135267
+1338,San Martín de Valdeiglesias,2015,habitantes,número,8463
+1338,San Martín de Valdeiglesias,2015,contenedores,unidades,65
+1338,San Martín de Valdeiglesias,2015,vidrio recogido,kg,64208
+1343,San Sebastián de los Reyes,2015,habitantes,número,84944
+1343,San Sebastián de los Reyes,2015,contenedores,unidades,256
+1343,San Sebastián de los Reyes,2015,vidrio recogido,kg,840958
+1356,Santa María de la Alameda,2015,habitantes,número,1199
+1356,Santa María de la Alameda,2015,contenedores,unidades,16
+1356,Santa María de la Alameda,2015,vidrio recogido,kg,19856
+1369,Santorcaz,2015,habitantes,número,849
+1369,Santorcaz,2015,contenedores,unidades,11
+1369,Santorcaz,2015,vidrio recogido,kg,15956
+1375,"Santos de la Humosa, Los",2015,habitantes,número,2389
+1375,"Santos de la Humosa, Los",2015,contenedores,unidades,23
+1375,"Santos de la Humosa, Los",2015,vidrio recogido,kg,23188
+1381,"Serna del Monte, La",2015,habitantes,número,86
+1381,"Serna del Monte, La",2015,contenedores,unidades,3
+1381,"Serna del Monte, La",2015,vidrio recogido,kg,3817
+1408,Serranillos del Valle,2015,habitantes,número,3994
+1408,Serranillos del Valle,2015,contenedores,unidades,36
+1408,Serranillos del Valle,2015,vidrio recogido,kg,42465
+1415,Sevilla la Nueva,2015,habitantes,número,8902
+1415,Sevilla la Nueva,2015,contenedores,unidades,67
+1415,Sevilla la Nueva,2015,vidrio recogido,kg,131781
+1436,Somosierra,2015,habitantes,número,73
+1436,Somosierra,2015,contenedores,unidades,4
+1436,Somosierra,2015,vidrio recogido,kg,3411
+1441,Soto del Real,2015,habitantes,número,8456
+1441,Soto del Real,2015,contenedores,unidades,75
+1441,Soto del Real,2015,vidrio recogido,kg,150163
+1454,Talamanca de Jarama,2015,habitantes,número,3371
+1454,Talamanca de Jarama,2015,contenedores,unidades,16
+1454,Talamanca de Jarama,2015,vidrio recogido,kg,38731
+1467,Tielmes,2015,habitantes,número,2585
+1467,Tielmes,2015,contenedores,unidades,19
+1467,Tielmes,2015,vidrio recogido,kg,24990
+1473,Titulcia,2015,habitantes,número,1234
+1473,Titulcia,2015,contenedores,unidades,9
+1473,Titulcia,2015,vidrio recogido,kg,14140
+1489,Torrejón de Ardoz,2015,habitantes,número,126934
+1489,Torrejón de Ardoz,2015,contenedores,unidades,416
+1489,Torrejón de Ardoz,2015,vidrio recogido,kg,1403135
+1492,Torrejón de la Calzada,2015,habitantes,número,7901
+1492,Torrejón de la Calzada,2015,contenedores,unidades,33
+1492,Torrejón de la Calzada,2015,vidrio recogido,kg,66739
+1505,Torrejón de Velasco,2015,habitantes,número,4224
+1505,Torrejón de Velasco,2015,contenedores,unidades,34
+1505,Torrejón de Velasco,2015,vidrio recogido,kg,38176
+1512,Torrelaguna,2015,habitantes,número,4788
+1512,Torrelaguna,2015,contenedores,unidades,18
+1512,Torrelaguna,2015,vidrio recogido,kg,35135
+1527,Torrelodones,2015,habitantes,número,23117
+1527,Torrelodones,2015,contenedores,unidades,120
+1527,Torrelodones,2015,vidrio recogido,kg,313628
+1533,Torremocha de Jarama,2015,habitantes,número,948
+1533,Torremocha de Jarama,2015,contenedores,unidades,10
+1533,Torremocha de Jarama,2015,vidrio recogido,kg,14472
+1548,Torres de la Alameda,2015,habitantes,número,7877
+1548,Torres de la Alameda,2015,contenedores,unidades,45
+1548,Torres de la Alameda,2015,vidrio recogido,kg,69712
+9036,Tres Cantos,2015,habitantes,número,43309
+9036,Tres Cantos,2015,contenedores,unidades,166
+9036,Tres Cantos,2015,vidrio recogido,kg,650718
+1551,Valdaracete,2015,habitantes,número,639
+1551,Valdaracete,2015,contenedores,unidades,7
+1551,Valdaracete,2015,vidrio recogido,kg,1750
+1564,Valdeavero,2015,habitantes,número,1451
+1564,Valdeavero,2015,contenedores,unidades,19
+1564,Valdeavero,2015,vidrio recogido,kg,9866
+1570,Valdelaguna,2015,habitantes,número,837
+1570,Valdelaguna,2015,contenedores,unidades,9
+1570,Valdelaguna,2015,vidrio recogido,kg,10070
+1586,Valdemanco,2015,habitantes,número,922
+1586,Valdemanco,2015,contenedores,unidades,11
+1586,Valdemanco,2015,vidrio recogido,kg,19867
+1599,Valdemaqueda,2015,habitantes,número,786
+1599,Valdemaqueda,2015,contenedores,unidades,14
+1599,Valdemaqueda,2015,vidrio recogido,kg,13969
+1603,Valdemorillo,2015,habitantes,número,12173
+1603,Valdemorillo,2015,contenedores,unidades,75
+1603,Valdemorillo,2015,vidrio recogido,kg,185985
+1610,Valdemoro,2015,habitantes,número,72854
+1610,Valdemoro,2015,contenedores,unidades,221
+1610,Valdemoro,2015,vidrio recogido,kg,581352
+1625,Valdeolmos-Alalpardo,2015,habitantes,número,3785
+1625,Valdeolmos-Alalpardo,2015,contenedores,unidades,26
+1625,Valdeolmos-Alalpardo,2015,vidrio recogido,kg,55476
+1631,Valdepiélagos,2015,habitantes,número,566
+1631,Valdepiélagos,2015,contenedores,unidades,5
+1631,Valdepiélagos,2015,vidrio recogido,kg,7014
+1646,Valdetorres de Jarama,2015,habitantes,número,4234
+1646,Valdetorres de Jarama,2015,contenedores,unidades,20
+1646,Valdetorres de Jarama,2015,vidrio recogido,kg,40462
+1659,Valdilecha,2015,habitantes,número,2838
+1659,Valdilecha,2015,contenedores,unidades,11
+1659,Valdilecha,2015,vidrio recogido,kg,29270
+1662,Valverde de Alcalá,2015,habitantes,número,441
+1662,Valverde de Alcalá,2015,contenedores,unidades,8
+1662,Valverde de Alcalá,2015,vidrio recogido,kg,10104
+1678,Velilla de San Antonio,2015,habitantes,número,12382
+1678,Velilla de San Antonio,2015,contenedores,unidades,49
+1678,Velilla de San Antonio,2015,vidrio recogido,kg,112734
+1684,"Vellón, El",2015,habitantes,número,1803
+1684,"Vellón, El",2015,contenedores,unidades,4
+1684,"Vellón, El",2015,vidrio recogido,kg,16069
+1697,Venturada,2015,habitantes,número,1991
+1697,Venturada,2015,contenedores,unidades,15
+1697,Venturada,2015,vidrio recogido,kg,31168
+1718,Villa del Prado,2015,habitantes,número,6414
+1718,Villa del Prado,2015,contenedores,unidades,35
+1718,Villa del Prado,2015,vidrio recogido,kg,45260
+1701,Villaconejos,2015,habitantes,número,3405
+1701,Villaconejos,2015,contenedores,unidades,22
+1701,Villaconejos,2015,vidrio recogido,kg,42995
+1723,Villalbilla,2015,habitantes,número,12351
+1723,Villalbilla,2015,contenedores,unidades,86
+1723,Villalbilla,2015,vidrio recogido,kg,118376
+1739,Villamanrique de Tajo,2015,habitantes,número,720
+1739,Villamanrique de Tajo,2015,contenedores,unidades,8
+1739,Villamanrique de Tajo,2015,vidrio recogido,kg,9280
+1744,Villamanta,2015,habitantes,número,2525
+1744,Villamanta,2015,contenedores,unidades,13
+1744,Villamanta,2015,vidrio recogido,kg,27280
+1757,Villamantilla,2015,habitantes,número,1292
+1757,Villamantilla,2015,contenedores,unidades,8
+1757,Villamantilla,2015,vidrio recogido,kg,18992
+1760,Villanueva de la Cañada,2015,habitantes,número,19250
+1760,Villanueva de la Cañada,2015,contenedores,unidades,74
+1760,Villanueva de la Cañada,2015,vidrio recogido,kg,203982
+1782,Villanueva de Perales,2015,habitantes,número,1441
+1782,Villanueva de Perales,2015,contenedores,unidades,14
+1782,Villanueva de Perales,2015,vidrio recogido,kg,22822
+1776,Villanueva del Pardillo,2015,habitantes,número,16797
+1776,Villanueva del Pardillo,2015,contenedores,unidades,65
+1776,Villanueva del Pardillo,2015,vidrio recogido,kg,134919
+1795,Villar del Olmo,2015,habitantes,número,2058
+1795,Villar del Olmo,2015,contenedores,unidades,11
+1795,Villar del Olmo,2015,vidrio recogido,kg,21576
+1809,Villarejo de Salvanés,2015,habitantes,número,7288
+1809,Villarejo de Salvanés,2015,contenedores,unidades,32
+1809,Villarejo de Salvanés,2015,vidrio recogido,kg,87940
+1816,Villaviciosa de Odón,2015,habitantes,número,27075
+1816,Villaviciosa de Odón,2015,contenedores,unidades,159
+1816,Villaviciosa de Odón,2015,vidrio recogido,kg,292770
+1821,Villavieja del Lozoya,2015,habitantes,número,280
+1821,Villavieja del Lozoya,2015,contenedores,unidades,7
+1821,Villavieja del Lozoya,2015,vidrio recogido,kg,6968
+1837,Zarzalejo,2015,habitantes,número,1546
+1837,Zarzalejo,2015,contenedores,unidades,11
+1837,Zarzalejo,2015,vidrio recogido,kg,27113
+,Recogidas complementarias de residuos de envases de vidrio fuera del ámbito municipal,2015,vidrio recogido,kg,193090
+0014,"Acebeda, La",2016,habitantes,número,66
+0014,"Acebeda, La",2016,contenedores,unidades,5
+0014,"Acebeda, La",2016,vidrio recogido,kg,3923
+0029,Ajalvir,2016,habitantes,número,4440
+0029,Ajalvir,2016,contenedores,unidades,31
+0029,Ajalvir,2016,vidrio recogido,kg,60101
+0035,Alameda del Valle,2016,habitantes,número,208
+0035,Alameda del Valle,2016,contenedores,unidades,8
+0035,Alameda del Valle,2016,vidrio recogido,kg,10080
+0040,"Álamo, El",2016,habitantes,número,9017
+0040,"Álamo, El",2016,contenedores,unidades,44
+0040,"Álamo, El",2016,vidrio recogido,kg,62997
+0053,Alcalá de Henares,2016,habitantes,número,195907
+0053,Alcalá de Henares,2016,contenedores,unidades,747
+0053,Alcalá de Henares,2016,vidrio recogido,kg,2129933
+0066,Alcobendas,2016,habitantes,número,113340
+0066,Alcobendas,2016,contenedores,unidades,255
+0066,Alcobendas,2016,vidrio recogido,kg,1304387
+0072,Alcorcón,2016,habitantes,número,167354
+0072,Alcorcón,2016,contenedores,unidades,492
+0072,Alcorcón,2016,vidrio recogido,kg,1894030
+0088,Aldea del Fresno,2016,habitantes,número,2584
+0088,Aldea del Fresno,2016,contenedores,unidades,18
+0088,Aldea del Fresno,2016,vidrio recogido,kg,22626
+0091,Algete,2016,habitantes,número,20311
+0091,Algete,2016,contenedores,unidades,83
+0091,Algete,2016,vidrio recogido,kg,239492
+0105,Alpedrete,2016,habitantes,número,14417
+0105,Alpedrete,2016,contenedores,unidades,81
+0105,Alpedrete,2016,vidrio recogido,kg,167910
+0112,Ambite,2016,habitantes,número,595
+0112,Ambite,2016,contenedores,unidades,6
+0112,Ambite,2016,vidrio recogido,kg,8229
+0127,Anchuelo,2016,habitantes,número,1215
+0127,Anchuelo,2016,contenedores,unidades,11
+0127,Anchuelo,2016,vidrio recogido,kg,14555
+0133,Aranjuez,2016,habitantes,número,57932
+0133,Aranjuez,2016,contenedores,unidades,262
+0133,Aranjuez,2016,vidrio recogido,kg,609862
+0148,Arganda del Rey,2016,habitantes,número,54256
+0148,Arganda del Rey,2016,contenedores,unidades,216
+0148,Arganda del Rey,2016,vidrio recogido,kg,369326
+0151,Arroyomolinos,2016,habitantes,número,28177
+0151,Arroyomolinos,2016,contenedores,unidades,164
+0151,Arroyomolinos,2016,vidrio recogido,kg,191503
+0164,"Atazar, El",2016,habitantes,número,95
+0164,"Atazar, El",2016,contenedores,unidades,2
+0164,"Atazar, El",2016,vidrio recogido,kg,0
+0170,Batres,2016,habitantes,número,1582
+0170,Batres,2016,contenedores,unidades,19
+0170,Batres,2016,vidrio recogido,kg,18784
+0186,Becerril de la Sierra,2016,habitantes,número,5439
+0186,Becerril de la Sierra,2016,contenedores,unidades,46
+0186,Becerril de la Sierra,2016,vidrio recogido,kg,90097
+0199,Belmonte de Tajo,2016,habitantes,número,1605
+0199,Belmonte de Tajo,2016,contenedores,unidades,14
+0199,Belmonte de Tajo,2016,vidrio recogido,kg,16790
+0210,"Berrueco, El",2016,habitantes,número,752
+0210,"Berrueco, El",2016,contenedores,unidades,6
+0210,"Berrueco, El",2016,vidrio recogido,kg,22236
+0203,Berzosa del Lozoya,2016,habitantes,número,198
+0203,Berzosa del Lozoya,2016,contenedores,unidades,5
+0203,Berzosa del Lozoya,2016,vidrio recogido,kg,4142
+0225,Boadilla del Monte,2016,habitantes,número,49762
+0225,Boadilla del Monte,2016,contenedores,unidades,198
+0225,Boadilla del Monte,2016,vidrio recogido,kg,615642
+0231,"Boalo, El",2016,habitantes,número,7225
+0231,"Boalo, El",2016,contenedores,unidades,63
+0231,"Boalo, El",2016,vidrio recogido,kg,112097
+0246,Braojos,2016,habitantes,número,201
+0246,Braojos,2016,contenedores,unidades,3
+0246,Braojos,2016,vidrio recogido,kg,5558
+0259,Brea de Tajo,2016,habitantes,número,560
+0259,Brea de Tajo,2016,contenedores,unidades,12
+0259,Brea de Tajo,2016,vidrio recogido,kg,16130
+0262,Brunete,2016,habitantes,número,10374
+0262,Brunete,2016,contenedores,unidades,56
+0262,Brunete,2016,vidrio recogido,kg,102628
+0278,Buitrago del Lozoya,2016,habitantes,número,1861
+0278,Buitrago del Lozoya,2016,contenedores,unidades,13
+0278,Buitrago del Lozoya,2016,vidrio recogido,kg,36634
+0284,Bustarviejo,2016,habitantes,número,2370
+0284,Bustarviejo,2016,contenedores,unidades,26
+0284,Bustarviejo,2016,vidrio recogido,kg,58939
+0297,Cabanillas de la Sierra,2016,habitantes,número,719
+0297,Cabanillas de la Sierra,2016,contenedores,unidades,10
+0297,Cabanillas de la Sierra,2016,vidrio recogido,kg,16605
+0301,"Cabrera, La",2016,habitantes,número,2560
+0301,"Cabrera, La",2016,contenedores,unidades,30
+0301,"Cabrera, La",2016,vidrio recogido,kg,56052
+0318,Cadalso de los Vidrios,2016,habitantes,número,2788
+0318,Cadalso de los Vidrios,2016,contenedores,unidades,20
+0318,Cadalso de los Vidrios,2016,vidrio recogido,kg,23657
+0323,Camarma de Esteruelas,2016,habitantes,número,7050
+0323,Camarma de Esteruelas,2016,contenedores,unidades,28
+0323,Camarma de Esteruelas,2016,vidrio recogido,kg,62672
+0339,Campo Real,2016,habitantes,número,5888
+0339,Campo Real,2016,contenedores,unidades,24
+0339,Campo Real,2016,vidrio recogido,kg,37241
+0344,Canencia,2016,habitantes,número,451
+0344,Canencia,2016,contenedores,unidades,5
+0344,Canencia,2016,vidrio recogido,kg,10759
+0357,Carabaña,2016,habitantes,número,1948
+0357,Carabaña,2016,contenedores,unidades,18
+0357,Carabaña,2016,vidrio recogido,kg,19600
+0360,Casarrubuelos,2016,habitantes,número,3589
+0360,Casarrubuelos,2016,contenedores,unidades,25
+0360,Casarrubuelos,2016,vidrio recogido,kg,22798
+0376,Cenicientos,2016,habitantes,número,1986
+0376,Cenicientos,2016,contenedores,unidades,10
+0376,Cenicientos,2016,vidrio recogido,kg,12948
+0382,Cercedilla,2016,habitantes,número,6751
+0382,Cercedilla,2016,contenedores,unidades,58
+0382,Cercedilla,2016,vidrio recogido,kg,94115
+0395,Cervera de Buitrago,2016,habitantes,número,157
+0395,Cervera de Buitrago,2016,contenedores,unidades,6
+0395,Cervera de Buitrago,2016,vidrio recogido,kg,553
+0513,Chapinería,2016,habitantes,número,2214
+0513,Chapinería,2016,contenedores,unidades,13
+0513,Chapinería,2016,vidrio recogido,kg,24440
+0528,Chinchón,2016,habitantes,número,5294
+0528,Chinchón,2016,contenedores,unidades,32
+0528,Chinchón,2016,vidrio recogido,kg,81281
+0409,Ciempozuelos,2016,habitantes,número,23773
+0409,Ciempozuelos,2016,contenedores,unidades,95
+0409,Ciempozuelos,2016,vidrio recogido,kg,153693
+0416,Cobeña,2016,habitantes,número,7009
+0416,Cobeña,2016,contenedores,unidades,42
+0416,Cobeña,2016,vidrio recogido,kg,100581
+0468,Collado Mediano,2016,habitantes,número,6583
+0468,Collado Mediano,2016,contenedores,unidades,29
+0468,Collado Mediano,2016,vidrio recogido,kg,74347
+0474,Collado Villalba,2016,habitantes,número,61597
+0474,Collado Villalba,2016,contenedores,unidades,243
+0474,Collado Villalba,2016,vidrio recogido,kg,612744
+0437,Colmenar de Oreja,2016,habitantes,número,7946
+0437,Colmenar de Oreja,2016,contenedores,unidades,41
+0437,Colmenar de Oreja,2016,vidrio recogido,kg,72429
+0421,Colmenar del Arroyo,2016,habitantes,número,1632
+0421,Colmenar del Arroyo,2016,contenedores,unidades,13
+0421,Colmenar del Arroyo,2016,vidrio recogido,kg,22751
+0455,Colmenar Viejo,2016,habitantes,número,48020
+0455,Colmenar Viejo,2016,contenedores,unidades,166
+0455,Colmenar Viejo,2016,vidrio recogido,kg,519318
+0442,Colmenarejo,2016,habitantes,número,8945
+0442,Colmenarejo,2016,contenedores,unidades,41
+0442,Colmenarejo,2016,vidrio recogido,kg,75310
+0480,Corpa,2016,habitantes,número,672
+0480,Corpa,2016,contenedores,unidades,4
+0480,Corpa,2016,vidrio recogido,kg,3553
+0493,Coslada,2016,habitantes,número,84533
+0493,Coslada,2016,contenedores,unidades,244
+0493,Coslada,2016,vidrio recogido,kg,789994
+0506,Cubas de la Sagra,2016,habitantes,número,5971
+0506,Cubas de la Sagra,2016,contenedores,unidades,35
+0506,Cubas de la Sagra,2016,vidrio recogido,kg,43401
+0534,Daganzo de Arriba,2016,habitantes,número,9981
+0534,Daganzo de Arriba,2016,contenedores,unidades,46
+0534,Daganzo de Arriba,2016,vidrio recogido,kg,95020
+0549,"Escorial, El",2016,habitantes,número,15364
+0549,"Escorial, El",2016,contenedores,unidades,83
+0549,"Escorial, El",2016,vidrio recogido,kg,190725
+0552,Estremera,2016,habitantes,número,1319
+0552,Estremera,2016,contenedores,unidades,23
+0552,Estremera,2016,vidrio recogido,kg,25310
+0565,Fresnedillas de la Oliva,2016,habitantes,número,1547
+0565,Fresnedillas de la Oliva,2016,contenedores,unidades,12
+0565,Fresnedillas de la Oliva,2016,vidrio recogido,kg,22999
+0571,Fresno de Torote,2016,habitantes,número,2044
+0571,Fresno de Torote,2016,contenedores,unidades,13
+0571,Fresno de Torote,2016,vidrio recogido,kg,15932
+0587,Fuenlabrada,2016,habitantes,número,194171
+0587,Fuenlabrada,2016,contenedores,unidades,520
+0587,Fuenlabrada,2016,vidrio recogido,kg,1649320
+0590,Fuente el Saz de Jarama,2016,habitantes,número,6403
+0590,Fuente el Saz de Jarama,2016,contenedores,unidades,38
+0590,Fuente el Saz de Jarama,2016,vidrio recogido,kg,69191
+0604,Fuentidueña de Tajo,2016,habitantes,número,1936
+0604,Fuentidueña de Tajo,2016,contenedores,unidades,20
+0604,Fuentidueña de Tajo,2016,vidrio recogido,kg,18000
+0611,Galapagar,2016,habitantes,número,32404
+0611,Galapagar,2016,contenedores,unidades,145
+0611,Galapagar,2016,vidrio recogido,kg,388317
+0626,Garganta de los Montes,2016,habitantes,número,351
+0626,Garganta de los Montes,2016,contenedores,unidades,11
+0626,Garganta de los Montes,2016,vidrio recogido,kg,5352
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2016,habitantes,número,325
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2016,contenedores,unidades,10
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2016,vidrio recogido,kg,14268
+0647,Gascones,2016,habitantes,número,171
+0647,Gascones,2016,contenedores,unidades,2
+0647,Gascones,2016,vidrio recogido,kg,1354
+0650,Getafe,2016,habitantes,número,176659
+0650,Getafe,2016,contenedores,unidades,501
+0650,Getafe,2016,vidrio recogido,kg,1721999
+0663,Griñón,2016,habitantes,número,9938
+0663,Griñón,2016,contenedores,unidades,61
+0663,Griñón,2016,vidrio recogido,kg,87696
+0679,Guadalix de la Sierra,2016,habitantes,número,5982
+0679,Guadalix de la Sierra,2016,contenedores,unidades,33
+0679,Guadalix de la Sierra,2016,vidrio recogido,kg,72113
+0685,Guadarrama,2016,habitantes,número,15488
+0685,Guadarrama,2016,contenedores,unidades,89
+0685,Guadarrama,2016,vidrio recogido,kg,181058
+0698,"Hiruela, La",2016,habitantes,número,54
+0698,"Hiruela, La",2016,contenedores,unidades,2
+0698,"Hiruela, La",2016,vidrio recogido,kg,1695
+0702,Horcajo de la Sierra-Aoslos,2016,habitantes,número,143
+0702,Horcajo de la Sierra-Aoslos,2016,contenedores,unidades,6
+0702,Horcajo de la Sierra-Aoslos,2016,vidrio recogido,kg,9894
+0719,Horcajuelo de la Sierra,2016,habitantes,número,86
+0719,Horcajuelo de la Sierra,2016,contenedores,unidades,3
+0719,Horcajuelo de la Sierra,2016,vidrio recogido,kg,1877
+0724,Hoyo de Manzanares,2016,habitantes,número,7965
+0724,Hoyo de Manzanares,2016,contenedores,unidades,38
+0724,Hoyo de Manzanares,2016,vidrio recogido,kg,138392
+0730,Humanes de Madrid,2016,habitantes,número,19563
+0730,Humanes de Madrid,2016,contenedores,unidades,113
+0730,Humanes de Madrid,2016,vidrio recogido,kg,170700
+0745,Leganés,2016,habitantes,número,187173
+0745,Leganés,2016,contenedores,unidades,619
+0745,Leganés,2016,vidrio recogido,kg,2024740
+0758,Loeches,2016,habitantes,número,8388
+0758,Loeches,2016,contenedores,unidades,62
+0758,Loeches,2016,vidrio recogido,kg,72183
+0761,Lozoya,2016,habitantes,número,576
+0761,Lozoya,2016,contenedores,unidades,5
+0761,Lozoya,2016,vidrio recogido,kg,13640
+9015,Lozoyuela-Navas-Sieteiglesias,2016,habitantes,número,1210
+9015,Lozoyuela-Navas-Sieteiglesias,2016,contenedores,unidades,13
+9015,Lozoyuela-Navas-Sieteiglesias,2016,vidrio recogido,kg,19827
+0783,Madarcos,2016,habitantes,número,47
+0783,Madarcos,2016,contenedores,unidades,3
+0783,Madarcos,2016,vidrio recogido,kg,1717
+0796,Madrid,2016,habitantes,número,3165541
+0796,Madrid,2016,contenedores,unidades,6122
+0796,Madrid,2016,vidrio recogido,kg,45580088
+0800,Majadahonda,2016,habitantes,número,70755
+0800,Majadahonda,2016,contenedores,unidades,173
+0800,Majadahonda,2016,vidrio recogido,kg,972402
+0822,Manzanares el Real,2016,habitantes,número,8387
+0822,Manzanares el Real,2016,contenedores,unidades,61
+0822,Manzanares el Real,2016,vidrio recogido,kg,134996
+0838,Meco,2016,habitantes,número,13426
+0838,Meco,2016,contenedores,unidades,71
+0838,Meco,2016,vidrio recogido,kg,118296
+0843,Mejorada del Campo,2016,habitantes,número,22900
+0843,Mejorada del Campo,2016,contenedores,unidades,85
+0843,Mejorada del Campo,2016,vidrio recogido,kg,211667
+0856,Miraflores de la Sierra,2016,habitantes,número,5754
+0856,Miraflores de la Sierra,2016,contenedores,unidades,41
+0856,Miraflores de la Sierra,2016,vidrio recogido,kg,86287
+0869,"Molar, El",2016,habitantes,número,8263
+0869,"Molar, El",2016,contenedores,unidades,33
+0869,"Molar, El",2016,vidrio recogido,kg,68342
+0875,"Molinos, Los",2016,habitantes,número,4373
+0875,"Molinos, Los",2016,contenedores,unidades,27
+0875,"Molinos, Los",2016,vidrio recogido,kg,55503
+0881,Montejo de la Sierra,2016,habitantes,número,359
+0881,Montejo de la Sierra,2016,contenedores,unidades,6
+0881,Montejo de la Sierra,2016,vidrio recogido,kg,12302
+0894,Moraleja de Enmedio,2016,habitantes,número,4984
+0894,Moraleja de Enmedio,2016,contenedores,unidades,39
+0894,Moraleja de Enmedio,2016,vidrio recogido,kg,42344
+0908,Moralzarzal,2016,habitantes,número,12372
+0908,Moralzarzal,2016,contenedores,unidades,42
+0908,Moralzarzal,2016,vidrio recogido,kg,172540
+0915,Morata de Tajuña,2016,habitantes,número,7548
+0915,Morata de Tajuña,2016,contenedores,unidades,38
+0915,Morata de Tajuña,2016,vidrio recogido,kg,78394
+0920,Móstoles,2016,habitantes,número,205614
+0920,Móstoles,2016,contenedores,unidades,466
+0920,Móstoles,2016,vidrio recogido,kg,1737634
+0936,Navacerrada,2016,habitantes,número,2885
+0936,Navacerrada,2016,contenedores,unidades,42
+0936,Navacerrada,2016,vidrio recogido,kg,66489
+0941,Navalafuente,2016,habitantes,número,1266
+0941,Navalafuente,2016,contenedores,unidades,13
+0941,Navalafuente,2016,vidrio recogido,kg,27038
+0954,Navalagamella,2016,habitantes,número,2423
+0954,Navalagamella,2016,contenedores,unidades,12
+0954,Navalagamella,2016,vidrio recogido,kg,27028
+0967,Navalcarnero,2016,habitantes,número,26954
+0967,Navalcarnero,2016,contenedores,unidades,116
+0967,Navalcarnero,2016,vidrio recogido,kg,158633
+0973,Navarredonda y San Mamés,2016,habitantes,número,132
+0973,Navarredonda y San Mamés,2016,contenedores,unidades,4
+0973,Navarredonda y San Mamés,2016,vidrio recogido,kg,3247
+0992,Navas del Rey,2016,habitantes,número,2659
+0992,Navas del Rey,2016,contenedores,unidades,15
+0992,Navas del Rey,2016,vidrio recogido,kg,21641
+1006,Nuevo Baztán,2016,habitantes,número,6018
+1006,Nuevo Baztán,2016,contenedores,unidades,45
+1006,Nuevo Baztán,2016,vidrio recogido,kg,75535
+1013,Olmeda de las Fuentes,2016,habitantes,número,326
+1013,Olmeda de las Fuentes,2016,contenedores,unidades,4
+1013,Olmeda de las Fuentes,2016,vidrio recogido,kg,6554
+1028,Orusco de Tajuña,2016,habitantes,número,1225
+1028,Orusco de Tajuña,2016,contenedores,unidades,12
+1028,Orusco de Tajuña,2016,vidrio recogido,kg,12020
+1049,Paracuellos de Jarama,2016,habitantes,número,23104
+1049,Paracuellos de Jarama,2016,contenedores,unidades,106
+1049,Paracuellos de Jarama,2016,vidrio recogido,kg,277671
+1065,Parla,2016,habitantes,número,124661
+1065,Parla,2016,contenedores,unidades,439
+1065,Parla,2016,vidrio recogido,kg,798918
+1071,Patones,2016,habitantes,número,537
+1071,Patones,2016,contenedores,unidades,7
+1071,Patones,2016,vidrio recogido,kg,12348
+1087,Pedrezuela,2016,habitantes,número,5456
+1087,Pedrezuela,2016,contenedores,unidades,27
+1087,Pedrezuela,2016,vidrio recogido,kg,77403
+1090,Pelayos de la Presa,2016,habitantes,número,2471
+1090,Pelayos de la Presa,2016,contenedores,unidades,14
+1090,Pelayos de la Presa,2016,vidrio recogido,kg,25903
+1104,Perales de Tajuña,2016,habitantes,número,2799
+1104,Perales de Tajuña,2016,contenedores,unidades,25
+1104,Perales de Tajuña,2016,vidrio recogido,kg,36590
+1111,Pezuela de las Torres,2016,habitantes,número,793
+1111,Pezuela de las Torres,2016,contenedores,unidades,7
+1111,Pezuela de las Torres,2016,vidrio recogido,kg,11320
+1126,Pinilla del Valle,2016,habitantes,número,192
+1126,Pinilla del Valle,2016,contenedores,unidades,4
+1126,Pinilla del Valle,2016,vidrio recogido,kg,5489
+1132,Pinto,2016,habitantes,número,49522
+1132,Pinto,2016,contenedores,unidades,193
+1132,Pinto,2016,vidrio recogido,kg,531591
+1147,Piñuécar-Gandullas,2016,habitantes,número,185
+1147,Piñuécar-Gandullas,2016,contenedores,unidades,9
+1147,Piñuécar-Gandullas,2016,vidrio recogido,kg,3520
+1150,Pozuelo de Alarcón,2016,habitantes,número,84989
+1150,Pozuelo de Alarcón,2016,contenedores,unidades,229
+1150,Pozuelo de Alarcón,2016,vidrio recogido,kg,1140665
+1163,Pozuelo del Rey,2016,habitantes,número,1073
+1163,Pozuelo del Rey,2016,contenedores,unidades,8
+1163,Pozuelo del Rey,2016,vidrio recogido,kg,9607
+1179,Prádena del Rincón,2016,habitantes,número,134
+1179,Prádena del Rincón,2016,contenedores,unidades,3
+1179,Prádena del Rincón,2016,vidrio recogido,kg,6027
+1185,Puebla de la Sierra,2016,habitantes,número,66
+1185,Puebla de la Sierra,2016,contenedores,unidades,3
+1185,Puebla de la Sierra,2016,vidrio recogido,kg,1207
+9020,Puentes Viejas,2016,habitantes,número,627
+9020,Puentes Viejas,2016,contenedores,unidades,10
+9020,Puentes Viejas,2016,vidrio recogido,kg,11276
+1198,Quijorna,2016,habitantes,número,3239
+1198,Quijorna,2016,contenedores,unidades,20
+1198,Quijorna,2016,vidrio recogido,kg,16950
+1202,Rascafría,2016,habitantes,número,1692
+1202,Rascafría,2016,contenedores,unidades,27
+1202,Rascafría,2016,vidrio recogido,kg,54507
+1219,Redueña,2016,habitantes,número,261
+1219,Redueña,2016,contenedores,unidades,2
+1219,Redueña,2016,vidrio recogido,kg,4124
+1224,Ribatejada,2016,habitantes,número,689
+1224,Ribatejada,2016,contenedores,unidades,13
+1224,Ribatejada,2016,vidrio recogido,kg,7166
+1230,Rivas-Vaciamadrid,2016,habitantes,número,82715
+1230,Rivas-Vaciamadrid,2016,contenedores,unidades,304
+1230,Rivas-Vaciamadrid,2016,vidrio recogido,kg,897271
+1245,Robledillo de la Jara,2016,habitantes,número,99
+1245,Robledillo de la Jara,2016,contenedores,unidades,4
+1245,Robledillo de la Jara,2016,vidrio recogido,kg,0
+1258,Robledo de Chavela,2016,habitantes,número,4001
+1258,Robledo de Chavela,2016,contenedores,unidades,34
+1258,Robledo de Chavela,2016,vidrio recogido,kg,59062
+1261,Robregordo,2016,habitantes,número,45
+1261,Robregordo,2016,contenedores,unidades,4
+1261,Robregordo,2016,vidrio recogido,kg,2339
+1277,"Rozas de Madrid, Las",2016,habitantes,número,94471
+1277,"Rozas de Madrid, Las",2016,contenedores,unidades,334
+1277,"Rozas de Madrid, Las",2016,vidrio recogido,kg,1226860
+1283,Rozas de Puerto Real,2016,habitantes,número,533
+1283,Rozas de Puerto Real,2016,contenedores,unidades,4
+1283,Rozas de Puerto Real,2016,vidrio recogido,kg,5836
+1296,San Agustín del Guadalix,2016,habitantes,número,12862
+1296,San Agustín del Guadalix,2016,contenedores,unidades,57
+1296,San Agustín del Guadalix,2016,vidrio recogido,kg,135602
+1300,San Fernando de Henares,2016,habitantes,número,40095
+1300,San Fernando de Henares,2016,contenedores,unidades,126
+1300,San Fernando de Henares,2016,vidrio recogido,kg,426838
+1317,San Lorenzo de El Escorial,2016,habitantes,número,18038
+1317,San Lorenzo de El Escorial,2016,contenedores,unidades,91
+1317,San Lorenzo de El Escorial,2016,vidrio recogido,kg,242757
+1322,San Martín de la Vega,2016,habitantes,número,18734
+1322,San Martín de la Vega,2016,contenedores,unidades,85
+1322,San Martín de la Vega,2016,vidrio recogido,kg,130085
+1338,San Martín de Valdeiglesias,2016,habitantes,número,8344
+1338,San Martín de Valdeiglesias,2016,contenedores,unidades,66
+1338,San Martín de Valdeiglesias,2016,vidrio recogido,kg,81602
+1343,San Sebastián de los Reyes,2016,habitantes,número,86206
+1343,San Sebastián de los Reyes,2016,contenedores,unidades,257
+1343,San Sebastián de los Reyes,2016,vidrio recogido,kg,900039
+1356,Santa María de la Alameda,2016,habitantes,número,1177
+1356,Santa María de la Alameda,2016,contenedores,unidades,20
+1356,Santa María de la Alameda,2016,vidrio recogido,kg,28557
+1369,Santorcaz,2016,habitantes,número,851
+1369,Santorcaz,2016,contenedores,unidades,11
+1369,Santorcaz,2016,vidrio recogido,kg,13938
+1375,"Santos de la Humosa, Los",2016,habitantes,número,2435
+1375,"Santos de la Humosa, Los",2016,contenedores,unidades,26
+1375,"Santos de la Humosa, Los",2016,vidrio recogido,kg,27981
+1381,"Serna del Monte, La",2016,habitantes,número,77
+1381,"Serna del Monte, La",2016,contenedores,unidades,4
+1381,"Serna del Monte, La",2016,vidrio recogido,kg,3623
+1408,Serranillos del Valle,2016,habitantes,número,3990
+1408,Serranillos del Valle,2016,contenedores,unidades,37
+1408,Serranillos del Valle,2016,vidrio recogido,kg,35282
+1415,Sevilla la Nueva,2016,habitantes,número,8905
+1415,Sevilla la Nueva,2016,contenedores,unidades,74
+1415,Sevilla la Nueva,2016,vidrio recogido,kg,138273
+1436,Somosierra,2016,habitantes,número,77
+1436,Somosierra,2016,contenedores,unidades,4
+1436,Somosierra,2016,vidrio recogido,kg,4204
+1441,Soto del Real,2016,habitantes,número,8483
+1441,Soto del Real,2016,contenedores,unidades,80
+1441,Soto del Real,2016,vidrio recogido,kg,137807
+1454,Talamanca de Jarama,2016,habitantes,número,3451
+1454,Talamanca de Jarama,2016,contenedores,unidades,18
+1454,Talamanca de Jarama,2016,vidrio recogido,kg,37924
+1467,Tielmes,2016,habitantes,número,2620
+1467,Tielmes,2016,contenedores,unidades,27
+1467,Tielmes,2016,vidrio recogido,kg,31530
+1473,Titulcia,2016,habitantes,número,1258
+1473,Titulcia,2016,contenedores,unidades,9
+1473,Titulcia,2016,vidrio recogido,kg,14468
+1489,Torrejón de Ardoz,2016,habitantes,número,126981
+1489,Torrejón de Ardoz,2016,contenedores,unidades,432
+1489,Torrejón de Ardoz,2016,vidrio recogido,kg,1473759
+1492,Torrejón de la Calzada,2016,habitantes,número,8171
+1492,Torrejón de la Calzada,2016,contenedores,unidades,33
+1492,Torrejón de la Calzada,2016,vidrio recogido,kg,50136
+1505,Torrejón de Velasco,2016,habitantes,número,4243
+1505,Torrejón de Velasco,2016,contenedores,unidades,34
+1505,Torrejón de Velasco,2016,vidrio recogido,kg,30835
+1512,Torrelaguna,2016,habitantes,número,4697
+1512,Torrelaguna,2016,contenedores,unidades,22
+1512,Torrelaguna,2016,vidrio recogido,kg,38380
+1527,Torrelodones,2016,habitantes,número,23123
+1527,Torrelodones,2016,contenedores,unidades,142
+1527,Torrelodones,2016,vidrio recogido,kg,342880
+1533,Torremocha de Jarama,2016,habitantes,número,906
+1533,Torremocha de Jarama,2016,contenedores,unidades,11
+1533,Torremocha de Jarama,2016,vidrio recogido,kg,18082
+1548,Torres de la Alameda,2016,habitantes,número,7769
+1548,Torres de la Alameda,2016,contenedores,unidades,46
+1548,Torres de la Alameda,2016,vidrio recogido,kg,80621
+9036,Tres Cantos,2016,habitantes,número,44764
+9036,Tres Cantos,2016,contenedores,unidades,168
+9036,Tres Cantos,2016,vidrio recogido,kg,689556
+1551,Valdaracete,2016,habitantes,número,641
+1551,Valdaracete,2016,contenedores,unidades,10
+1551,Valdaracete,2016,vidrio recogido,kg,5900
+1564,Valdeavero,2016,habitantes,número,1407
+1564,Valdeavero,2016,contenedores,unidades,17
+1564,Valdeavero,2016,vidrio recogido,kg,13683
+1570,Valdelaguna,2016,habitantes,número,841
+1570,Valdelaguna,2016,contenedores,unidades,14
+1570,Valdelaguna,2016,vidrio recogido,kg,15070
+1586,Valdemanco,2016,habitantes,número,911
+1586,Valdemanco,2016,contenedores,unidades,11
+1586,Valdemanco,2016,vidrio recogido,kg,19516
+1599,Valdemaqueda,2016,habitantes,número,779
+1599,Valdemaqueda,2016,contenedores,unidades,13
+1599,Valdemaqueda,2016,vidrio recogido,kg,9411
+1603,Valdemorillo,2016,habitantes,número,12168
+1603,Valdemorillo,2016,contenedores,unidades,74
+1603,Valdemorillo,2016,vidrio recogido,kg,164348
+1610,Valdemoro,2016,habitantes,número,72988
+1610,Valdemoro,2016,contenedores,unidades,237
+1610,Valdemoro,2016,vidrio recogido,kg,599569
+1625,Valdeolmos-Alalpardo,2016,habitantes,número,3880
+1625,Valdeolmos-Alalpardo,2016,contenedores,unidades,26
+1625,Valdeolmos-Alalpardo,2016,vidrio recogido,kg,49994
+1631,Valdepiélagos,2016,habitantes,número,574
+1631,Valdepiélagos,2016,contenedores,unidades,5
+1631,Valdepiélagos,2016,vidrio recogido,kg,8414
+1646,Valdetorres de Jarama,2016,habitantes,número,4260
+1646,Valdetorres de Jarama,2016,contenedores,unidades,41
+1646,Valdetorres de Jarama,2016,vidrio recogido,kg,44148
+1659,Valdilecha,2016,habitantes,número,2749
+1659,Valdilecha,2016,contenedores,unidades,17
+1659,Valdilecha,2016,vidrio recogido,kg,30420
+1662,Valverde de Alcalá,2016,habitantes,número,430
+1662,Valverde de Alcalá,2016,contenedores,unidades,8
+1662,Valverde de Alcalá,2016,vidrio recogido,kg,6894
+1678,Velilla de San Antonio,2016,habitantes,número,12222
+1678,Velilla de San Antonio,2016,contenedores,unidades,51
+1678,Velilla de San Antonio,2016,vidrio recogido,kg,128254
+1684,"Vellón, El",2016,habitantes,número,1846
+1684,"Vellón, El",2016,contenedores,unidades,6
+1684,"Vellón, El",2016,vidrio recogido,kg,13970
+1697,Venturada,2016,habitantes,número,2014
+1697,Venturada,2016,contenedores,unidades,16
+1697,Venturada,2016,vidrio recogido,kg,25548
+1718,Villa del Prado,2016,habitantes,número,6295
+1718,Villa del Prado,2016,contenedores,unidades,35
+1718,Villa del Prado,2016,vidrio recogido,kg,38439
+1701,Villaconejos,2016,habitantes,número,3350
+1701,Villaconejos,2016,contenedores,unidades,19
+1701,Villaconejos,2016,vidrio recogido,kg,40329
+1723,Villalbilla,2016,habitantes,número,12719
+1723,Villalbilla,2016,contenedores,unidades,88
+1723,Villalbilla,2016,vidrio recogido,kg,144110
+1739,Villamanrique de Tajo,2016,habitantes,número,705
+1739,Villamanrique de Tajo,2016,contenedores,unidades,9
+1739,Villamanrique de Tajo,2016,vidrio recogido,kg,6300
+1744,Villamanta,2016,habitantes,número,2497
+1744,Villamanta,2016,contenedores,unidades,13
+1744,Villamanta,2016,vidrio recogido,kg,15940
+1757,Villamantilla,2016,habitantes,número,1334
+1757,Villamantilla,2016,contenedores,unidades,8
+1757,Villamantilla,2016,vidrio recogido,kg,10162
+1760,Villanueva de la Cañada,2016,habitantes,número,19611
+1760,Villanueva de la Cañada,2016,contenedores,unidades,123
+1760,Villanueva de la Cañada,2016,vidrio recogido,kg,238069
+1782,Villanueva de Perales,2016,habitantes,número,1486
+1782,Villanueva de Perales,2016,contenedores,unidades,13
+1782,Villanueva de Perales,2016,vidrio recogido,kg,11247
+1776,Villanueva del Pardillo,2016,habitantes,número,16950
+1776,Villanueva del Pardillo,2016,contenedores,unidades,84
+1776,Villanueva del Pardillo,2016,vidrio recogido,kg,119169
+1795,Villar del Olmo,2016,habitantes,número,1981
+1795,Villar del Olmo,2016,contenedores,unidades,11
+1795,Villar del Olmo,2016,vidrio recogido,kg,21133
+1809,Villarejo de Salvanés,2016,habitantes,número,7265
+1809,Villarejo de Salvanés,2016,contenedores,unidades,49
+1809,Villarejo de Salvanés,2016,vidrio recogido,kg,80920
+1816,Villaviciosa de Odón,2016,habitantes,número,27276
+1816,Villaviciosa de Odón,2016,contenedores,unidades,161
+1816,Villaviciosa de Odón,2016,vidrio recogido,kg,337984
+1821,Villavieja del Lozoya,2016,habitantes,número,270
+1821,Villavieja del Lozoya,2016,contenedores,unidades,7
+1821,Villavieja del Lozoya,2016,vidrio recogido,kg,9511
+1837,Zarzalejo,2016,habitantes,número,1565
+1837,Zarzalejo,2016,contenedores,unidades,12
+1837,Zarzalejo,2016,vidrio recogido,kg,28528
+,Recogidas complementarias de residuos de envases de vidrio fuera del ámbito municipal,2016,vidrio recogido,kg,1105480
+0014,"Acebeda, La",2017,habitantes,número,66
+0014,"Acebeda, La",2017,contenedores,unidades,5
+0014,"Acebeda, La",2017,vidrio recogido,kg,1400
+0029,Ajalvir,2017,habitantes,número,4455
+0029,Ajalvir,2017,contenedores,unidades,31
+0029,Ajalvir,2017,vidrio recogido,kg,48716
+0035,Alameda del Valle,2017,habitantes,número,199
+0035,Alameda del Valle,2017,contenedores,unidades,8
+0035,Alameda del Valle,2017,vidrio recogido,kg,10666
+0040,"Álamo, El",2017,habitantes,número,9149
+0040,"Álamo, El",2017,contenedores,unidades,44
+0040,"Álamo, El",2017,vidrio recogido,kg,60009
+0053,Alcalá de Henares,2017,habitantes,número,194310
+0053,Alcalá de Henares,2017,contenedores,unidades,751
+0053,Alcalá de Henares,2017,vidrio recogido,kg,2182849
+0066,Alcobendas,2017,habitantes,número,114864
+0066,Alcobendas,2017,contenedores,unidades,282
+0066,Alcobendas,2017,vidrio recogido,kg,1370300
+0072,Alcorcón,2017,habitantes,número,168141
+0072,Alcorcón,2017,contenedores,unidades,509
+0072,Alcorcón,2017,vidrio recogido,kg,2149857
+0088,Aldea del Fresno,2017,habitantes,número,2616
+0088,Aldea del Fresno,2017,contenedores,unidades,19
+0088,Aldea del Fresno,2017,vidrio recogido,kg,41148
+0091,Algete,2017,habitantes,número,20419
+0091,Algete,2017,contenedores,unidades,86
+0091,Algete,2017,vidrio recogido,kg,208628
+0105,Alpedrete,2017,habitantes,número,14240
+0105,Alpedrete,2017,contenedores,unidades,84
+0105,Alpedrete,2017,vidrio recogido,kg,202195
+0112,Ambite,2017,habitantes,número,677
+0112,Ambite,2017,contenedores,unidades,7
+0112,Ambite,2017,vidrio recogido,kg,19444
+0127,Anchuelo,2017,habitantes,número,1238
+0127,Anchuelo,2017,contenedores,unidades,11
+0127,Anchuelo,2017,vidrio recogido,kg,21753
+0133,Aranjuez,2017,habitantes,número,58213
+0133,Aranjuez,2017,contenedores,unidades,264
+0133,Aranjuez,2017,vidrio recogido,kg,620620
+0148,Arganda del Rey,2017,habitantes,número,53821
+0148,Arganda del Rey,2017,contenedores,unidades,222
+0148,Arganda del Rey,2017,vidrio recogido,kg,376540
+0151,Arroyomolinos,2017,habitantes,número,29128
+0151,Arroyomolinos,2017,contenedores,unidades,166
+0151,Arroyomolinos,2017,vidrio recogido,kg,220753
+0164,"Atazar, El",2017,habitantes,número,97
+0164,"Atazar, El",2017,contenedores,unidades,2
+0164,"Atazar, El",2017,vidrio recogido,kg,1616
+0170,Batres,2017,habitantes,número,1610
+0170,Batres,2017,contenedores,unidades,20
+0170,Batres,2017,vidrio recogido,kg,16952
+0186,Becerril de la Sierra,2017,habitantes,número,5457
+0186,Becerril de la Sierra,2017,contenedores,unidades,48
+0186,Becerril de la Sierra,2017,vidrio recogido,kg,95741
+0199,Belmonte de Tajo,2017,habitantes,número,1628
+0199,Belmonte de Tajo,2017,contenedores,unidades,10
+0199,Belmonte de Tajo,2017,vidrio recogido,kg,19245
+0210,"Berrueco, El",2017,habitantes,número,743
+0210,"Berrueco, El",2017,contenedores,unidades,8
+0210,"Berrueco, El",2017,vidrio recogido,kg,24336
+0203,Berzosa del Lozoya,2017,habitantes,número,203
+0203,Berzosa del Lozoya,2017,contenedores,unidades,6
+0203,Berzosa del Lozoya,2017,vidrio recogido,kg,8955
+0225,Boadilla del Monte,2017,habitantes,número,51463
+0225,Boadilla del Monte,2017,contenedores,unidades,202
+0225,Boadilla del Monte,2017,vidrio recogido,kg,679677
+0231,"Boalo, El",2017,habitantes,número,7358
+0231,"Boalo, El",2017,contenedores,unidades,65
+0231,"Boalo, El",2017,vidrio recogido,kg,134718
+0246,Braojos,2017,habitantes,número,208
+0246,Braojos,2017,contenedores,unidades,4
+0246,Braojos,2017,vidrio recogido,kg,3337
+0259,Brea de Tajo,2017,habitantes,número,539
+0259,Brea de Tajo,2017,contenedores,unidades,11
+0259,Brea de Tajo,2017,vidrio recogido,kg,16410
+0262,Brunete,2017,habitantes,número,10373
+0262,Brunete,2017,contenedores,unidades,60
+0262,Brunete,2017,vidrio recogido,kg,125494
+0278,Buitrago del Lozoya,2017,habitantes,número,1854
+0278,Buitrago del Lozoya,2017,contenedores,unidades,13
+0278,Buitrago del Lozoya,2017,vidrio recogido,kg,40295
+0284,Bustarviejo,2017,habitantes,número,2399
+0284,Bustarviejo,2017,contenedores,unidades,28
+0284,Bustarviejo,2017,vidrio recogido,kg,44695
+0297,Cabanillas de la Sierra,2017,habitantes,número,712
+0297,Cabanillas de la Sierra,2017,contenedores,unidades,11
+0297,Cabanillas de la Sierra,2017,vidrio recogido,kg,22382
+0301,"Cabrera, La",2017,habitantes,número,2570
+0301,"Cabrera, La",2017,contenedores,unidades,31
+0301,"Cabrera, La",2017,vidrio recogido,kg,46320
+0318,Cadalso de los Vidrios,2017,habitantes,número,3053
+0318,Cadalso de los Vidrios,2017,contenedores,unidades,21
+0318,Cadalso de los Vidrios,2017,vidrio recogido,kg,28388
+0323,Camarma de Esteruelas,2017,habitantes,número,7084
+0323,Camarma de Esteruelas,2017,contenedores,unidades,29
+0323,Camarma de Esteruelas,2017,vidrio recogido,kg,72740
+0339,Campo Real,2017,habitantes,número,5995
+0339,Campo Real,2017,contenedores,unidades,25
+0339,Campo Real,2017,vidrio recogido,kg,45583
+0344,Canencia,2017,habitantes,número,448
+0344,Canencia,2017,contenedores,unidades,6
+0344,Canencia,2017,vidrio recogido,kg,7754
+0357,Carabaña,2017,habitantes,número,1940
+0357,Carabaña,2017,contenedores,unidades,19
+0357,Carabaña,2017,vidrio recogido,kg,24240
+0360,Casarrubuelos,2017,habitantes,número,3650
+0360,Casarrubuelos,2017,contenedores,unidades,26
+0360,Casarrubuelos,2017,vidrio recogido,kg,27879
+0376,Cenicientos,2017,habitantes,número,1984
+0376,Cenicientos,2017,contenedores,unidades,11
+0376,Cenicientos,2017,vidrio recogido,kg,5407
+0382,Cercedilla,2017,habitantes,número,6853
+0382,Cercedilla,2017,contenedores,unidades,60
+0382,Cercedilla,2017,vidrio recogido,kg,99201
+0395,Cervera de Buitrago,2017,habitantes,número,156
+0395,Cervera de Buitrago,2017,contenedores,unidades,7
+0395,Cervera de Buitrago,2017,vidrio recogido,kg,9696
+0513,Chapinería,2017,habitantes,número,2225
+0513,Chapinería,2017,contenedores,unidades,14
+0513,Chapinería,2017,vidrio recogido,kg,30135
+0528,Chinchón,2017,habitantes,número,5240
+0528,Chinchón,2017,contenedores,unidades,33
+0528,Chinchón,2017,vidrio recogido,kg,81251
+0409,Ciempozuelos,2017,habitantes,número,23737
+0409,Ciempozuelos,2017,contenedores,unidades,97
+0409,Ciempozuelos,2017,vidrio recogido,kg,167454
+0416,Cobeña,2017,habitantes,número,7163
+0416,Cobeña,2017,contenedores,unidades,44
+0416,Cobeña,2017,vidrio recogido,kg,90264
+0468,Collado Mediano,2017,habitantes,número,6666
+0468,Collado Mediano,2017,contenedores,unidades,30
+0468,Collado Mediano,2017,vidrio recogido,kg,78800
+0474,Collado Villalba,2017,habitantes,número,62152
+0474,Collado Villalba,2017,contenedores,unidades,244
+0474,Collado Villalba,2017,vidrio recogido,kg,643603
+0437,Colmenar de Oreja,2017,habitantes,número,7810
+0437,Colmenar de Oreja,2017,contenedores,unidades,45
+0437,Colmenar de Oreja,2017,vidrio recogido,kg,83609
+0421,Colmenar del Arroyo,2017,habitantes,número,1632
+0421,Colmenar del Arroyo,2017,contenedores,unidades,14
+0421,Colmenar del Arroyo,2017,vidrio recogido,kg,28092
+0455,Colmenar Viejo,2017,habitantes,número,48614
+0455,Colmenar Viejo,2017,contenedores,unidades,172
+0455,Colmenar Viejo,2017,vidrio recogido,kg,539766
+0442,Colmenarejo,2017,habitantes,número,9015
+0442,Colmenarejo,2017,contenedores,unidades,42
+0442,Colmenarejo,2017,vidrio recogido,kg,98141
+0480,Corpa,2017,habitantes,número,684
+0480,Corpa,2017,contenedores,unidades,4
+0480,Corpa,2017,vidrio recogido,kg,2832
+0493,Coslada,2017,habitantes,número,83011
+0493,Coslada,2017,contenedores,unidades,245
+0493,Coslada,2017,vidrio recogido,kg,840945
+0506,Cubas de la Sagra,2017,habitantes,número,6112
+0506,Cubas de la Sagra,2017,contenedores,unidades,37
+0506,Cubas de la Sagra,2017,vidrio recogido,kg,36956
+0534,Daganzo de Arriba,2017,habitantes,número,10082
+0534,Daganzo de Arriba,2017,contenedores,unidades,47
+0534,Daganzo de Arriba,2017,vidrio recogido,kg,110181
+0549,"Escorial, El",2017,habitantes,número,15562
+0549,"Escorial, El",2017,contenedores,unidades,86
+0549,"Escorial, El",2017,vidrio recogido,kg,179562
+0552,Estremera,2017,habitantes,número,1261
+0552,Estremera,2017,contenedores,unidades,22
+0552,Estremera,2017,vidrio recogido,kg,26470
+0565,Fresnedillas de la Oliva,2017,habitantes,número,1550
+0565,Fresnedillas de la Oliva,2017,contenedores,unidades,13
+0565,Fresnedillas de la Oliva,2017,vidrio recogido,kg,20901
+0571,Fresno de Torote,2017,habitantes,número,2115
+0571,Fresno de Torote,2017,contenedores,unidades,14
+0571,Fresno de Torote,2017,vidrio recogido,kg,23312
+0587,Fuenlabrada,2017,habitantes,número,194669
+0587,Fuenlabrada,2017,contenedores,unidades,541
+0587,Fuenlabrada,2017,vidrio recogido,kg,1733408
+0590,Fuente el Saz de Jarama,2017,habitantes,número,6424
+0590,Fuente el Saz de Jarama,2017,contenedores,unidades,41
+0590,Fuente el Saz de Jarama,2017,vidrio recogido,kg,78470
+0604,Fuentidueña de Tajo,2017,habitantes,número,1980
+0604,Fuentidueña de Tajo,2017,contenedores,unidades,24
+0604,Fuentidueña de Tajo,2017,vidrio recogido,kg,22860
+0611,Galapagar,2017,habitantes,número,32903
+0611,Galapagar,2017,contenedores,unidades,148
+0611,Galapagar,2017,vidrio recogido,kg,393405
+0626,Garganta de los Montes,2017,habitantes,número,331
+0626,Garganta de los Montes,2017,contenedores,unidades,12
+0626,Garganta de los Montes,2017,vidrio recogido,kg,10874
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2017,habitantes,número,315
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2017,contenedores,unidades,11
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2017,vidrio recogido,kg,15367
+0647,Gascones,2017,habitantes,número,176
+0647,Gascones,2017,contenedores,unidades,2
+0647,Gascones,2017,vidrio recogido,kg,2035
+0650,Getafe,2017,habitantes,número,178288
+0650,Getafe,2017,contenedores,unidades,504
+0650,Getafe,2017,vidrio recogido,kg,1813256
+0663,Griñón,2017,habitantes,número,10060
+0663,Griñón,2017,contenedores,unidades,62
+0663,Griñón,2017,vidrio recogido,kg,106504
+0679,Guadalix de la Sierra,2017,habitantes,número,6049
+0679,Guadalix de la Sierra,2017,contenedores,unidades,34
+0679,Guadalix de la Sierra,2017,vidrio recogido,kg,58839
+0685,Guadarrama,2017,habitantes,número,15620
+0685,Guadarrama,2017,contenedores,unidades,92
+0685,Guadarrama,2017,vidrio recogido,kg,145532
+0698,"Hiruela, La",2017,habitantes,número,52
+0698,"Hiruela, La",2017,contenedores,unidades,2
+0698,"Hiruela, La",2017,vidrio recogido,kg,1338
+0702,Horcajo de la Sierra-Aoslos,2017,habitantes,número,142
+0702,Horcajo de la Sierra-Aoslos,2017,contenedores,unidades,9
+0702,Horcajo de la Sierra-Aoslos,2017,vidrio recogido,kg,5946
+0719,Horcajuelo de la Sierra,2017,habitantes,número,88
+0719,Horcajuelo de la Sierra,2017,contenedores,unidades,3
+0719,Horcajuelo de la Sierra,2017,vidrio recogido,kg,3463
+0724,Hoyo de Manzanares,2017,habitantes,número,8032
+0724,Hoyo de Manzanares,2017,contenedores,unidades,39
+0724,Hoyo de Manzanares,2017,vidrio recogido,kg,138515
+0730,Humanes de Madrid,2017,habitantes,número,19607
+0730,Humanes de Madrid,2017,contenedores,unidades,114
+0730,Humanes de Madrid,2017,vidrio recogido,kg,192248
+0745,Leganés,2017,habitantes,número,187720
+0745,Leganés,2017,contenedores,unidades,635
+0745,Leganés,2017,vidrio recogido,kg,2108192
+0758,Loeches,2017,habitantes,número,8525
+0758,Loeches,2017,contenedores,unidades,63
+0758,Loeches,2017,vidrio recogido,kg,94401
+0761,Lozoya,2017,habitantes,número,559
+0761,Lozoya,2017,contenedores,unidades,7
+0761,Lozoya,2017,vidrio recogido,kg,11679
+9015,Lozoyuela-Navas-Sieteiglesias,2017,habitantes,número,1237
+9015,Lozoyuela-Navas-Sieteiglesias,2017,contenedores,unidades,13
+9015,Lozoyuela-Navas-Sieteiglesias,2017,vidrio recogido,kg,21057
+0783,Madarcos,2017,habitantes,número,46
+0783,Madarcos,2017,contenedores,unidades,3
+0783,Madarcos,2017,vidrio recogido,kg,3385
+0796,Madrid,2017,habitantes,número,3182981
+0796,Madrid,2017,contenedores,unidades,6727
+0796,Madrid,2017,vidrio recogido,kg,48804118
+0800,Majadahonda,2017,habitantes,número,71299
+0800,Majadahonda,2017,contenedores,unidades,183
+0800,Majadahonda,2017,vidrio recogido,kg,1005648
+0822,Manzanares el Real,2017,habitantes,número,8500
+0822,Manzanares el Real,2017,contenedores,unidades,67
+0822,Manzanares el Real,2017,vidrio recogido,kg,150342
+0838,Meco,2017,habitantes,número,13570
+0838,Meco,2017,contenedores,unidades,72
+0838,Meco,2017,vidrio recogido,kg,144322
+0843,Mejorada del Campo,2017,habitantes,número,22948
+0843,Mejorada del Campo,2017,contenedores,unidades,88
+0843,Mejorada del Campo,2017,vidrio recogido,kg,191076
+0856,Miraflores de la Sierra,2017,habitantes,número,5817
+0856,Miraflores de la Sierra,2017,contenedores,unidades,44
+0856,Miraflores de la Sierra,2017,vidrio recogido,kg,95371
+0869,"Molar, El",2017,habitantes,número,8491
+0869,"Molar, El",2017,contenedores,unidades,37
+0869,"Molar, El",2017,vidrio recogido,kg,65078
+0875,"Molinos, Los",2017,habitantes,número,4345
+0875,"Molinos, Los",2017,contenedores,unidades,30
+0875,"Molinos, Los",2017,vidrio recogido,kg,66026
+0881,Montejo de la Sierra,2017,habitantes,número,356
+0881,Montejo de la Sierra,2017,contenedores,unidades,7
+0881,Montejo de la Sierra,2017,vidrio recogido,kg,12931
+0894,Moraleja de Enmedio,2017,habitantes,número,4870
+0894,Moraleja de Enmedio,2017,contenedores,unidades,40
+0894,Moraleja de Enmedio,2017,vidrio recogido,kg,42645
+0908,Moralzarzal,2017,habitantes,número,12496
+0908,Moralzarzal,2017,contenedores,unidades,45
+0908,Moralzarzal,2017,vidrio recogido,kg,171574
+0915,Morata de Tajuña,2017,habitantes,número,7482
+0915,Morata de Tajuña,2017,contenedores,unidades,40
+0915,Morata de Tajuña,2017,vidrio recogido,kg,9949
+0920,Móstoles,2017,habitantes,número,206589
+0920,Móstoles,2017,contenedores,unidades,469
+0920,Móstoles,2017,vidrio recogido,kg,1804942
+0936,Navacerrada,2017,habitantes,número,2894
+0936,Navacerrada,2017,contenedores,unidades,43
+0936,Navacerrada,2017,vidrio recogido,kg,86266
+0941,Navalafuente,2017,habitantes,número,1340
+0941,Navalafuente,2017,contenedores,unidades,15
+0941,Navalafuente,2017,vidrio recogido,kg,27167
+0954,Navalagamella,2017,habitantes,número,2443
+0954,Navalagamella,2017,contenedores,unidades,13
+0954,Navalagamella,2017,vidrio recogido,kg,37305
+0967,Navalcarnero,2017,habitantes,número,27570
+0967,Navalcarnero,2017,contenedores,unidades,106
+0967,Navalcarnero,2017,vidrio recogido,kg,195360
+0973,Navarredonda y San Mamés,2017,habitantes,número,131
+0973,Navarredonda y San Mamés,2017,contenedores,unidades,5
+0973,Navarredonda y San Mamés,2017,vidrio recogido,kg,2429
+0992,Navas del Rey,2017,habitantes,número,2751
+0992,Navas del Rey,2017,contenedores,unidades,15
+0992,Navas del Rey,2017,vidrio recogido,kg,30294
+1006,Nuevo Baztán,2017,habitantes,número,6091
+1006,Nuevo Baztán,2017,contenedores,unidades,47
+1006,Nuevo Baztán,2017,vidrio recogido,kg,73944
+1013,Olmeda de las Fuentes,2017,habitantes,número,332
+1013,Olmeda de las Fuentes,2017,contenedores,unidades,5
+1013,Olmeda de las Fuentes,2017,vidrio recogido,kg,10334
+1028,Orusco de Tajuña,2017,habitantes,número,1218
+1028,Orusco de Tajuña,2017,contenedores,unidades,12
+1028,Orusco de Tajuña,2017,vidrio recogido,kg,12380
+1049,Paracuellos de Jarama,2017,habitantes,número,23905
+1049,Paracuellos de Jarama,2017,contenedores,unidades,106
+1049,Paracuellos de Jarama,2017,vidrio recogido,kg,282132
+1065,Parla,2017,habitantes,número,125898
+1065,Parla,2017,contenedores,unidades,440
+1065,Parla,2017,vidrio recogido,kg,852864
+1071,Patones,2017,habitantes,número,553
+1071,Patones,2017,contenedores,unidades,7
+1071,Patones,2017,vidrio recogido,kg,8783
+1087,Pedrezuela,2017,habitantes,número,5613
+1087,Pedrezuela,2017,contenedores,unidades,28
+1087,Pedrezuela,2017,vidrio recogido,kg,78884
+1090,Pelayos de la Presa,2017,habitantes,número,2468
+1090,Pelayos de la Presa,2017,contenedores,unidades,14
+1090,Pelayos de la Presa,2017,vidrio recogido,kg,29131
+1104,Perales de Tajuña,2017,habitantes,número,2817
+1104,Perales de Tajuña,2017,contenedores,unidades,25
+1104,Perales de Tajuña,2017,vidrio recogido,kg,39040
+1111,Pezuela de las Torres,2017,habitantes,número,816
+1111,Pezuela de las Torres,2017,contenedores,unidades,7
+1111,Pezuela de las Torres,2017,vidrio recogido,kg,10236
+1126,Pinilla del Valle,2017,habitantes,número,185
+1126,Pinilla del Valle,2017,contenedores,unidades,4
+1126,Pinilla del Valle,2017,vidrio recogido,kg,4513
+1132,Pinto,2017,habitantes,número,50442
+1132,Pinto,2017,contenedores,unidades,193
+1132,Pinto,2017,vidrio recogido,kg,559684
+1147,Piñuécar-Gandullas,2017,habitantes,número,183
+1147,Piñuécar-Gandullas,2017,contenedores,unidades,9
+1147,Piñuécar-Gandullas,2017,vidrio recogido,kg,22574
+1150,Pozuelo de Alarcón,2017,habitantes,número,85605
+1150,Pozuelo de Alarcón,2017,contenedores,unidades,229
+1150,Pozuelo de Alarcón,2017,vidrio recogido,kg,1254030
+1163,Pozuelo del Rey,2017,habitantes,número,1099
+1163,Pozuelo del Rey,2017,contenedores,unidades,232
+1163,Pozuelo del Rey,2017,vidrio recogido,kg,12700
+1179,Prádena del Rincón,2017,habitantes,número,132
+1179,Prádena del Rincón,2017,contenedores,unidades,3
+1179,Prádena del Rincón,2017,vidrio recogido,kg,2527
+1185,Puebla de la Sierra,2017,habitantes,número,61
+1185,Puebla de la Sierra,2017,contenedores,unidades,3
+1185,Puebla de la Sierra,2017,vidrio recogido,kg,0
+9020,Puentes Viejas,2017,habitantes,número,632
+9020,Puentes Viejas,2017,contenedores,unidades,10
+9020,Puentes Viejas,2017,vidrio recogido,kg,18248
+1198,Quijorna,2017,habitantes,número,3282
+1198,Quijorna,2017,contenedores,unidades,20
+1198,Quijorna,2017,vidrio recogido,kg,23898
+1202,Rascafría,2017,habitantes,número,1672
+1202,Rascafría,2017,contenedores,unidades,27
+1202,Rascafría,2017,vidrio recogido,kg,50448
+1219,Redueña,2017,habitantes,número,248
+1219,Redueña,2017,contenedores,unidades,2
+1219,Redueña,2017,vidrio recogido,kg,1571
+1224,Ribatejada,2017,habitantes,número,702
+1224,Ribatejada,2017,contenedores,unidades,15
+1224,Ribatejada,2017,vidrio recogido,kg,14067
+1230,Rivas-Vaciamadrid,2017,habitantes,número,83767
+1230,Rivas-Vaciamadrid,2017,contenedores,unidades,310
+1230,Rivas-Vaciamadrid,2017,vidrio recogido,kg,954574
+1245,Robledillo de la Jara,2017,habitantes,número,87
+1245,Robledillo de la Jara,2017,contenedores,unidades,4
+1245,Robledillo de la Jara,2017,vidrio recogido,kg,2058
+1258,Robledo de Chavela,2017,habitantes,número,4073
+1258,Robledo de Chavela,2017,contenedores,unidades,34
+1258,Robledo de Chavela,2017,vidrio recogido,kg,85251
+1261,Robregordo,2017,habitantes,número,44
+1261,Robregordo,2017,contenedores,unidades,4
+1261,Robregordo,2017,vidrio recogido,kg,9536
+1277,"Rozas de Madrid, Las",2017,habitantes,número,95071
+1277,"Rozas de Madrid, Las",2017,contenedores,unidades,456
+1277,"Rozas de Madrid, Las",2017,vidrio recogido,kg,1241510
+1283,Rozas de Puerto Real,2017,habitantes,número,534
+1283,Rozas de Puerto Real,2017,contenedores,unidades,5
+1283,Rozas de Puerto Real,2017,vidrio recogido,kg,4033
+1296,San Agustín del Guadalix,2017,habitantes,número,13103
+1296,San Agustín del Guadalix,2017,contenedores,unidades,59
+1296,San Agustín del Guadalix,2017,vidrio recogido,kg,165421
+1300,San Fernando de Henares,2017,habitantes,número,39681
+1300,San Fernando de Henares,2017,contenedores,unidades,126
+1300,San Fernando de Henares,2017,vidrio recogido,kg,449168
+1317,San Lorenzo de El Escorial,2017,habitantes,número,18024
+1317,San Lorenzo de El Escorial,2017,contenedores,unidades,94
+1317,San Lorenzo de El Escorial,2017,vidrio recogido,kg,263192
+1322,San Martín de la Vega,2017,habitantes,número,18824
+1322,San Martín de la Vega,2017,contenedores,unidades,85
+1322,San Martín de la Vega,2017,vidrio recogido,kg,133525
+1338,San Martín de Valdeiglesias,2017,habitantes,número,8298
+1338,San Martín de Valdeiglesias,2017,contenedores,unidades,66
+1338,San Martín de Valdeiglesias,2017,vidrio recogido,kg,78942
+1343,San Sebastián de los Reyes,2017,habitantes,número,86707
+1343,San Sebastián de los Reyes,2017,contenedores,unidades,259
+1343,San Sebastián de los Reyes,2017,vidrio recogido,kg,925143
+1356,Santa María de la Alameda,2017,habitantes,número,1163
+1356,Santa María de la Alameda,2017,contenedores,unidades,20
+1356,Santa María de la Alameda,2017,vidrio recogido,kg,29714
+1369,Santorcaz,2017,habitantes,número,856
+1369,Santorcaz,2017,contenedores,unidades,11
+1369,Santorcaz,2017,vidrio recogido,kg,15988
+1375,"Santos de la Humosa, Los",2017,habitantes,número,2486
+1375,"Santos de la Humosa, Los",2017,contenedores,unidades,26
+1375,"Santos de la Humosa, Los",2017,vidrio recogido,kg,24904
+1381,"Serna del Monte, La",2017,habitantes,número,73
+1381,"Serna del Monte, La",2017,contenedores,unidades,4
+1381,"Serna del Monte, La",2017,vidrio recogido,kg,1624
+1408,Serranillos del Valle,2017,habitantes,número,3967
+1408,Serranillos del Valle,2017,contenedores,unidades,37
+1408,Serranillos del Valle,2017,vidrio recogido,kg,49730
+1415,Sevilla la Nueva,2017,habitantes,número,9093
+1415,Sevilla la Nueva,2017,contenedores,unidades,74
+1415,Sevilla la Nueva,2017,vidrio recogido,kg,86225
+1436,Somosierra,2017,habitantes,número,77
+1436,Somosierra,2017,contenedores,unidades,4
+1436,Somosierra,2017,vidrio recogido,kg,4058
+1441,Soto del Real,2017,habitantes,número,8607
+1441,Soto del Real,2017,contenedores,unidades,82
+1441,Soto del Real,2017,vidrio recogido,kg,172471
+1454,Talamanca de Jarama,2017,habitantes,número,3573
+1454,Talamanca de Jarama,2017,contenedores,unidades,22
+1454,Talamanca de Jarama,2017,vidrio recogido,kg,40045
+1467,Tielmes,2017,habitantes,número,2610
+1467,Tielmes,2017,contenedores,unidades,26
+1467,Tielmes,2017,vidrio recogido,kg,23870
+1473,Titulcia,2017,habitantes,número,1274
+1473,Titulcia,2017,contenedores,unidades,9
+1473,Titulcia,2017,vidrio recogido,kg,13262
+1489,Torrejón de Ardoz,2017,habitantes,número,128013
+1489,Torrejón de Ardoz,2017,contenedores,unidades,434
+1489,Torrejón de Ardoz,2017,vidrio recogido,kg,1545884
+1492,Torrejón de la Calzada,2017,habitantes,número,8418
+1492,Torrejón de la Calzada,2017,contenedores,unidades,33
+1492,Torrejón de la Calzada,2017,vidrio recogido,kg,77611
+1505,Torrejón de Velasco,2017,habitantes,número,4261
+1505,Torrejón de Velasco,2017,contenedores,unidades,35
+1505,Torrejón de Velasco,2017,vidrio recogido,kg,41520
+1512,Torrelaguna,2017,habitantes,número,4712
+1512,Torrelaguna,2017,contenedores,unidades,22
+1512,Torrelaguna,2017,vidrio recogido,kg,42184
+1527,Torrelodones,2017,habitantes,número,23128
+1527,Torrelodones,2017,contenedores,unidades,143
+1527,Torrelodones,2017,vidrio recogido,kg,356400
+1533,Torremocha de Jarama,2017,habitantes,número,942
+1533,Torremocha de Jarama,2017,contenedores,unidades,11
+1533,Torremocha de Jarama,2017,vidrio recogido,kg,14609
+1548,Torres de la Alameda,2017,habitantes,número,7825
+1548,Torres de la Alameda,2017,contenedores,unidades,46
+1548,Torres de la Alameda,2017,vidrio recogido,kg,85811
+9036,Tres Cantos,2017,habitantes,número,46046
+9036,Tres Cantos,2017,contenedores,unidades,170
+9036,Tres Cantos,2017,vidrio recogido,kg,705020
+1551,Valdaracete,2017,habitantes,número,643
+1551,Valdaracete,2017,contenedores,unidades,9
+1551,Valdaracete,2017,vidrio recogido,kg,5310
+1564,Valdeavero,2017,habitantes,número,1450
+1564,Valdeavero,2017,contenedores,unidades,17
+1564,Valdeavero,2017,vidrio recogido,kg,14314
+1570,Valdelaguna,2017,habitantes,número,867
+1570,Valdelaguna,2017,contenedores,unidades,14
+1570,Valdelaguna,2017,vidrio recogido,kg,18660
+1586,Valdemanco,2017,habitantes,número,916
+1586,Valdemanco,2017,contenedores,unidades,12
+1586,Valdemanco,2017,vidrio recogido,kg,13080
+1599,Valdemaqueda,2017,habitantes,número,768
+1599,Valdemaqueda,2017,contenedores,unidades,15
+1599,Valdemaqueda,2017,vidrio recogido,kg,13999
+1603,Valdemorillo,2017,habitantes,número,12300
+1603,Valdemorillo,2017,contenedores,unidades,74
+1603,Valdemorillo,2017,vidrio recogido,kg,156475
+1610,Valdemoro,2017,habitantes,número,73976
+1610,Valdemoro,2017,contenedores,unidades,238
+1610,Valdemoro,2017,vidrio recogido,kg,632731
+1625,Valdeolmos-Alalpardo,2017,habitantes,número,3906
+1625,Valdeolmos-Alalpardo,2017,contenedores,unidades,25
+1625,Valdeolmos-Alalpardo,2017,vidrio recogido,kg,51888
+1631,Valdepiélagos,2017,habitantes,número,587
+1631,Valdepiélagos,2017,contenedores,unidades,5
+1631,Valdepiélagos,2017,vidrio recogido,kg,9177
+1646,Valdetorres de Jarama,2017,habitantes,número,4316
+1646,Valdetorres de Jarama,2017,contenedores,unidades,41
+1646,Valdetorres de Jarama,2017,vidrio recogido,kg,54962
+1659,Valdilecha,2017,habitantes,número,2755
+1659,Valdilecha,2017,contenedores,unidades,17
+1659,Valdilecha,2017,vidrio recogido,kg,36720
+1662,Valverde de Alcalá,2017,habitantes,número,427
+1662,Valverde de Alcalá,2017,contenedores,unidades,8
+1662,Valverde de Alcalá,2017,vidrio recogido,kg,7860
+1678,Velilla de San Antonio,2017,habitantes,número,12111
+1678,Velilla de San Antonio,2017,contenedores,unidades,52
+1678,Velilla de San Antonio,2017,vidrio recogido,kg,136315
+1684,"Vellón, El",2017,habitantes,número,1834
+1684,"Vellón, El",2017,contenedores,unidades,7
+1684,"Vellón, El",2017,vidrio recogido,kg,16992
+1697,Venturada,2017,habitantes,número,2032
+1697,Venturada,2017,contenedores,unidades,17
+1697,Venturada,2017,vidrio recogido,kg,26939
+1718,Villa del Prado,2017,habitantes,número,6337
+1718,Villa del Prado,2017,contenedores,unidades,33
+1718,Villa del Prado,2017,vidrio recogido,kg,53602
+1701,Villaconejos,2017,habitantes,número,3350
+1701,Villaconejos,2017,contenedores,unidades,19
+1701,Villaconejos,2017,vidrio recogido,kg,43822
+1723,Villalbilla,2017,habitantes,número,13038
+1723,Villalbilla,2017,contenedores,unidades,88
+1723,Villalbilla,2017,vidrio recogido,kg,150743
+1739,Villamanrique de Tajo,2017,habitantes,número,694
+1739,Villamanrique de Tajo,2017,contenedores,unidades,9
+1739,Villamanrique de Tajo,2017,vidrio recogido,kg,11255
+1744,Villamanta,2017,habitantes,número,2491
+1744,Villamanta,2017,contenedores,unidades,13
+1744,Villamanta,2017,vidrio recogido,kg,20237
+1757,Villamantilla,2017,habitantes,número,1382
+1757,Villamantilla,2017,contenedores,unidades,8
+1757,Villamantilla,2017,vidrio recogido,kg,17202
+1760,Villanueva de la Cañada,2017,habitantes,número,20320
+1760,Villanueva de la Cañada,2017,contenedores,unidades,124
+1760,Villanueva de la Cañada,2017,vidrio recogido,kg,258666
+1782,Villanueva de Perales,2017,habitantes,número,1519
+1782,Villanueva de Perales,2017,contenedores,unidades,13
+1782,Villanueva de Perales,2017,vidrio recogido,kg,11794
+1776,Villanueva del Pardillo,2017,habitantes,número,17025
+1776,Villanueva del Pardillo,2017,contenedores,unidades,84
+1776,Villanueva del Pardillo,2017,vidrio recogido,kg,175787
+1795,Villar del Olmo,2017,habitantes,número,1997
+1795,Villar del Olmo,2017,contenedores,unidades,11
+1795,Villar del Olmo,2017,vidrio recogido,kg,15059
+1809,Villarejo de Salvanés,2017,habitantes,número,7245
+1809,Villarejo de Salvanés,2017,contenedores,unidades,51
+1809,Villarejo de Salvanés,2017,vidrio recogido,kg,86200
+1816,Villaviciosa de Odón,2017,habitantes,número,27504
+1816,Villaviciosa de Odón,2017,contenedores,unidades,161
+1816,Villaviciosa de Odón,2017,vidrio recogido,kg,366988
+1821,Villavieja del Lozoya,2017,habitantes,número,267
+1821,Villavieja del Lozoya,2017,contenedores,unidades,9
+1821,Villavieja del Lozoya,2017,vidrio recogido,kg,7991
+1837,Zarzalejo,2017,habitantes,número,1596
+1837,Zarzalejo,2017,contenedores,unidades,12
+1837,Zarzalejo,2017,vidrio recogido,kg,21553
+,Recogidas complementarias de residuos de envases de vidrio fuera del ámbito municipal,2017,vidrio recogido,kg,2154170
+0014,"Acebeda, La",2018,habitantes,número,65
+0014,"Acebeda, La",2018,contenedores,unidades,3
+0014,"Acebeda, La",2018,vidrio recogido,kg,2129
+0029,Ajalvir,2018,habitantes,número,4559
+0029,Ajalvir,2018,contenedores,unidades,30
+0029,Ajalvir,2018,vidrio recogido,kg,77200
+0035,Alameda del Valle,2018,habitantes,número,195
+0035,Alameda del Valle,2018,contenedores,unidades,7
+0035,Alameda del Valle,2018,vidrio recogido,kg,11185
+0040,"Álamo, El",2018,habitantes,número,9353
+0040,"Álamo, El",2018,contenedores,unidades,45
+0040,"Álamo, El",2018,vidrio recogido,kg,71853
+0053,Alcalá de Henares,2018,habitantes,número,193751
+0053,Alcalá de Henares,2018,contenedores,unidades,724
+0053,Alcalá de Henares,2018,vidrio recogido,kg,2264947
+0066,Alcobendas,2018,habitantes,número,116037
+0066,Alcobendas,2018,contenedores,unidades,229
+0066,Alcobendas,2018,vidrio recogido,kg,1467846
+0072,Alcorcón,2018,habitantes,número,169502
+0072,Alcorcón,2018,contenedores,unidades,581
+0072,Alcorcón,2018,vidrio recogido,kg,2290970
+0088,Aldea del Fresno,2018,habitantes,número,2698
+0088,Aldea del Fresno,2018,contenedores,unidades,17
+0088,Aldea del Fresno,2018,vidrio recogido,kg,30936
+0091,Algete,2018,habitantes,número,20473
+0091,Algete,2018,contenedores,unidades,99
+0091,Algete,2018,vidrio recogido,kg,244462
+0105,Alpedrete,2018,habitantes,número,14364
+0105,Alpedrete,2018,contenedores,unidades,90
+0105,Alpedrete,2018,vidrio recogido,kg,223417
+0112,Ambite,2018,habitantes,número,601
+0112,Ambite,2018,contenedores,unidades,6
+0112,Ambite,2018,vidrio recogido,kg,18868
+0127,Anchuelo,2018,habitantes,número,1272
+0127,Anchuelo,2018,contenedores,unidades,14
+0127,Anchuelo,2018,vidrio recogido,kg,11694
+0133,Aranjuez,2018,habitantes,número,59037
+0133,Aranjuez,2018,contenedores,unidades,296
+0133,Aranjuez,2018,vidrio recogido,kg,661019
+0148,Arganda del Rey,2018,habitantes,número,54554
+0148,Arganda del Rey,2018,contenedores,unidades,231
+0148,Arganda del Rey,2018,vidrio recogido,kg,401551
+0151,Arroyomolinos,2018,habitantes,número,30052
+0151,Arroyomolinos,2018,contenedores,unidades,174
+0151,Arroyomolinos,2018,vidrio recogido,kg,242873
+0164,"Atazar, El",2018,habitantes,número,93
+0164,"Atazar, El",2018,contenedores,unidades,4
+0164,"Atazar, El",2018,vidrio recogido,kg,3127
+0170,Batres,2018,habitantes,número,1638
+0170,Batres,2018,contenedores,unidades,21
+0170,Batres,2018,vidrio recogido,kg,18700
+0186,Becerril de la Sierra,2018,habitantes,número,5564
+0186,Becerril de la Sierra,2018,contenedores,unidades,51
+0186,Becerril de la Sierra,2018,vidrio recogido,kg,115055
+0199,Belmonte de Tajo,2018,habitantes,número,1627
+0199,Belmonte de Tajo,2018,contenedores,unidades,10
+0199,Belmonte de Tajo,2018,vidrio recogido,kg,18370
+0210,"Berrueco, El",2018,habitantes,número,741
+0210,"Berrueco, El",2018,contenedores,unidades,9
+0210,"Berrueco, El",2018,vidrio recogido,kg,16421
+0203,Berzosa del Lozoya,2018,habitantes,número,198
+0203,Berzosa del Lozoya,2018,contenedores,unidades,4
+0203,Berzosa del Lozoya,2018,vidrio recogido,kg,3210
+0225,Boadilla del Monte,2018,habitantes,número,52626
+0225,Boadilla del Monte,2018,contenedores,unidades,212
+0225,Boadilla del Monte,2018,vidrio recogido,kg,725696
+0231,"Boalo, El",2018,habitantes,número,7399
+0231,"Boalo, El",2018,contenedores,unidades,65
+0231,"Boalo, El",2018,vidrio recogido,kg,124354
+0246,Braojos,2018,habitantes,número,205
+0246,Braojos,2018,contenedores,unidades,4
+0246,Braojos,2018,vidrio recogido,kg,3055
+0259,Brea de Tajo,2018,habitantes,número,525
+0259,Brea de Tajo,2018,contenedores,unidades,13
+0259,Brea de Tajo,2018,vidrio recogido,kg,20370
+0262,Brunete,2018,habitantes,número,10596
+0262,Brunete,2018,contenedores,unidades,78
+0262,Brunete,2018,vidrio recogido,kg,148796
+0278,Buitrago del Lozoya,2018,habitantes,número,1875
+0278,Buitrago del Lozoya,2018,contenedores,unidades,12
+0278,Buitrago del Lozoya,2018,vidrio recogido,kg,34926
+0284,Bustarviejo,2018,habitantes,número,2486
+0284,Bustarviejo,2018,contenedores,unidades,27
+0284,Bustarviejo,2018,vidrio recogido,kg,55802
+0297,Cabanillas de la Sierra,2018,habitantes,número,712
+0297,Cabanillas de la Sierra,2018,contenedores,unidades,12
+0297,Cabanillas de la Sierra,2018,vidrio recogido,kg,17263
+0301,"Cabrera, La",2018,habitantes,número,2613
+0301,"Cabrera, La",2018,contenedores,unidades,36
+0301,"Cabrera, La",2018,vidrio recogido,kg,75439
+0318,Cadalso de los Vidrios,2018,habitantes,número,3049
+0318,Cadalso de los Vidrios,2018,contenedores,unidades,25
+0318,Cadalso de los Vidrios,2018,vidrio recogido,kg,30498
+0323,Camarma de Esteruelas,2018,habitantes,número,7226
+0323,Camarma de Esteruelas,2018,contenedores,unidades,32
+0323,Camarma de Esteruelas,2018,vidrio recogido,kg,69835
+0339,Campo Real,2018,habitantes,número,6075
+0339,Campo Real,2018,contenedores,unidades,29
+0339,Campo Real,2018,vidrio recogido,kg,49746
+0344,Canencia,2018,habitantes,número,423
+0344,Canencia,2018,contenedores,unidades,4
+0344,Canencia,2018,vidrio recogido,kg,10764
+0357,Carabaña,2018,habitantes,número,1905
+0357,Carabaña,2018,contenedores,unidades,19
+0357,Carabaña,2018,vidrio recogido,kg,23570
+0360,Casarrubuelos,2018,habitantes,número,3707
+0360,Casarrubuelos,2018,contenedores,unidades,27
+0360,Casarrubuelos,2018,vidrio recogido,kg,30354
+0376,Cenicientos,2018,habitantes,número,1980
+0376,Cenicientos,2018,contenedores,unidades,10
+0376,Cenicientos,2018,vidrio recogido,kg,10325
+0382,Cercedilla,2018,habitantes,número,6948
+0382,Cercedilla,2018,contenedores,unidades,61
+0382,Cercedilla,2018,vidrio recogido,kg,88357
+0395,Cervera de Buitrago,2018,habitantes,número,149
+0395,Cervera de Buitrago,2018,contenedores,unidades,7
+0395,Cervera de Buitrago,2018,vidrio recogido,kg,5004
+0513,Chapinería,2018,habitantes,número,2240
+0513,Chapinería,2018,contenedores,unidades,15
+0513,Chapinería,2018,vidrio recogido,kg,27091
+0528,Chinchón,2018,habitantes,número,5239
+0528,Chinchón,2018,contenedores,unidades,33
+0528,Chinchón,2018,vidrio recogido,kg,89777
+0409,Ciempozuelos,2018,habitantes,número,24087
+0409,Ciempozuelos,2018,contenedores,unidades,95
+0409,Ciempozuelos,2018,vidrio recogido,kg,175297
+0416,Cobeña,2018,habitantes,número,7280
+0416,Cobeña,2018,contenedores,unidades,47
+0416,Cobeña,2018,vidrio recogido,kg,120578
+0468,Collado Mediano,2018,habitantes,número,6781
+0468,Collado Mediano,2018,contenedores,unidades,26
+0468,Collado Mediano,2018,vidrio recogido,kg,86313
+0474,Collado Villalba,2018,habitantes,número,63074
+0474,Collado Villalba,2018,contenedores,unidades,282
+0474,Collado Villalba,2018,vidrio recogido,kg,648222
+0437,Colmenar de Oreja,2018,habitantes,número,7902
+0437,Colmenar de Oreja,2018,contenedores,unidades,48
+0437,Colmenar de Oreja,2018,vidrio recogido,kg,82984
+0421,Colmenar del Arroyo,2018,habitantes,número,1685
+0421,Colmenar del Arroyo,2018,contenedores,unidades,13
+0421,Colmenar del Arroyo,2018,vidrio recogido,kg,25395
+0455,Colmenar Viejo,2018,habitantes,número,49498
+0455,Colmenar Viejo,2018,contenedores,unidades,185
+0455,Colmenar Viejo,2018,vidrio recogido,kg,577494
+0442,Colmenarejo,2018,habitantes,número,9124
+0442,Colmenarejo,2018,contenedores,unidades,42
+0442,Colmenarejo,2018,vidrio recogido,kg,93797
+0480,Corpa,2018,habitantes,número,697
+0480,Corpa,2018,contenedores,unidades,4
+0480,Corpa,2018,vidrio recogido,kg,5399
+0493,Coslada,2018,habitantes,número,81860
+0493,Coslada,2018,contenedores,unidades,255
+0493,Coslada,2018,vidrio recogido,kg,817609
+0506,Cubas de la Sagra,2018,habitantes,número,6310
+0506,Cubas de la Sagra,2018,contenedores,unidades,41
+0506,Cubas de la Sagra,2018,vidrio recogido,kg,58295
+0534,Daganzo de Arriba,2018,habitantes,número,10061
+0534,Daganzo de Arriba,2018,contenedores,unidades,48
+0534,Daganzo de Arriba,2018,vidrio recogido,kg,102580
+0549,"Escorial, El",2018,habitantes,número,15842
+0549,"Escorial, El",2018,contenedores,unidades,89
+0549,"Escorial, El",2018,vidrio recogido,kg,198390
+0552,Estremera,2018,habitantes,número,1236
+0552,Estremera,2018,contenedores,unidades,21
+0552,Estremera,2018,vidrio recogido,kg,24100
+0565,Fresnedillas de la Oliva,2018,habitantes,número,1554
+0565,Fresnedillas de la Oliva,2018,contenedores,unidades,12
+0565,Fresnedillas de la Oliva,2018,vidrio recogido,kg,17820
+0571,Fresno de Torote,2018,habitantes,número,2181
+0571,Fresno de Torote,2018,contenedores,unidades,14
+0571,Fresno de Torote,2018,vidrio recogido,kg,26558
+0587,Fuenlabrada,2018,habitantes,número,193586
+0587,Fuenlabrada,2018,contenedores,unidades,530
+0587,Fuenlabrada,2018,vidrio recogido,kg,1964408
+0590,Fuente el Saz de Jarama,2018,habitantes,número,6541
+0590,Fuente el Saz de Jarama,2018,contenedores,unidades,37
+0590,Fuente el Saz de Jarama,2018,vidrio recogido,kg,94090
+0604,Fuentidueña de Tajo,2018,habitantes,número,1985
+0604,Fuentidueña de Tajo,2018,contenedores,unidades,29
+0604,Fuentidueña de Tajo,2018,vidrio recogido,kg,35340
+0611,Galapagar,2018,habitantes,número,33379
+0611,Galapagar,2018,contenedores,unidades,163
+0611,Galapagar,2018,vidrio recogido,kg,396961
+0626,Garganta de los Montes,2018,habitantes,número,348
+0626,Garganta de los Montes,2018,contenedores,unidades,10
+0626,Garganta de los Montes,2018,vidrio recogido,kg,10567
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2018,habitantes,número,318
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2018,contenedores,unidades,10
+0632,Gargantilla del Lozoya y Pinilla de Buitrago,2018,vidrio recogido,kg,17488
+0647,Gascones,2018,habitantes,número,188
+0647,Gascones,2018,contenedores,unidades,1
+0647,Gascones,2018,vidrio recogido,kg,1711
+0650,Getafe,2018,habitantes,número,180747
+0650,Getafe,2018,contenedores,unidades,527
+0650,Getafe,2018,vidrio recogido,kg,1939399
+0663,Griñón,2018,habitantes,número,10178
+0663,Griñón,2018,contenedores,unidades,62
+0663,Griñón,2018,vidrio recogido,kg,90838
+0679,Guadalix de la Sierra,2018,habitantes,número,6119
+0679,Guadalix de la Sierra,2018,contenedores,unidades,31
+0679,Guadalix de la Sierra,2018,vidrio recogido,kg,72256
+0685,Guadarrama,2018,habitantes,número,15785
+0685,Guadarrama,2018,contenedores,unidades,98
+0685,Guadarrama,2018,vidrio recogido,kg,166018
+0698,"Hiruela, La",2018,habitantes,número,48
+0698,"Hiruela, La",2018,contenedores,unidades,2
+0698,"Hiruela, La",2018,vidrio recogido,kg,1770
+0702,Horcajo de la Sierra-Aoslos,2018,habitantes,número,148
+0702,Horcajo de la Sierra-Aoslos,2018,contenedores,unidades,7
+0702,Horcajo de la Sierra-Aoslos,2018,vidrio recogido,kg,4277
+0719,Horcajuelo de la Sierra,2018,habitantes,número,89
+0719,Horcajuelo de la Sierra,2018,contenedores,unidades,3
+0719,Horcajuelo de la Sierra,2018,vidrio recogido,kg,1981
+0724,Hoyo de Manzanares,2018,habitantes,número,8222
+0724,Hoyo de Manzanares,2018,contenedores,unidades,41
+0724,Hoyo de Manzanares,2018,vidrio recogido,kg,149692
+0730,Humanes de Madrid,2018,habitantes,número,19587
+0730,Humanes de Madrid,2018,contenedores,unidades,119
+0730,Humanes de Madrid,2018,vidrio recogido,kg,184925
+0745,Leganés,2018,habitantes,número,188425
+0745,Leganés,2018,contenedores,unidades,626
+0745,Leganés,2018,vidrio recogido,kg,2272469
+0758,Loeches,2018,habitantes,número,8673
+0758,Loeches,2018,contenedores,unidades,62
+0758,Loeches,2018,vidrio recogido,kg,102427
+0761,Lozoya,2018,habitantes,número,559
+0761,Lozoya,2018,contenedores,unidades,7
+0761,Lozoya,2018,vidrio recogido,kg,22291
+9015,Lozoyuela-Navas-Sieteiglesias,2018,habitantes,número,1266
+9015,Lozoyuela-Navas-Sieteiglesias,2018,contenedores,unidades,15
+9015,Lozoyuela-Navas-Sieteiglesias,2018,vidrio recogido,kg,17989
+0783,Madarcos,2018,habitantes,número,47
+0783,Madarcos,2018,contenedores,unidades,3
+0783,Madarcos,2018,vidrio recogido,kg,2209
+0796,Madrid,2018,habitantes,número,3223334
+0796,Madrid,2018,contenedores,unidades,7588
+0796,Madrid,2018,vidrio recogido,kg,53450700
+0800,Majadahonda,2018,habitantes,número,71785
+0800,Majadahonda,2018,contenedores,unidades,186
+0800,Majadahonda,2018,vidrio recogido,kg,987730
+0822,Manzanares el Real,2018,habitantes,número,8597
+0822,Manzanares el Real,2018,contenedores,unidades,67
+0822,Manzanares el Real,2018,vidrio recogido,kg,142672
+0838,Meco,2018,habitantes,número,13959
+0838,Meco,2018,contenedores,unidades,80
+0838,Meco,2018,vidrio recogido,kg,120922
+0843,Mejorada del Campo,2018,habitantes,número,23241
+0843,Mejorada del Campo,2018,contenedores,unidades,86
+0843,Mejorada del Campo,2018,vidrio recogido,kg,213472
+0856,Miraflores de la Sierra,2018,habitantes,número,5897
+0856,Miraflores de la Sierra,2018,contenedores,unidades,43
+0856,Miraflores de la Sierra,2018,vidrio recogido,kg,96587
+0869,"Molar, El",2018,habitantes,número,8666
+0869,"Molar, El",2018,contenedores,unidades,51
+0869,"Molar, El",2018,vidrio recogido,kg,74186
+0875,"Molinos, Los",2018,habitantes,número,4328
+0875,"Molinos, Los",2018,contenedores,unidades,37
+0875,"Molinos, Los",2018,vidrio recogido,kg,70014
+0881,Montejo de la Sierra,2018,habitantes,número,363
+0881,Montejo de la Sierra,2018,contenedores,unidades,9
+0881,Montejo de la Sierra,2018,vidrio recogido,kg,9882
+0894,Moraleja de Enmedio,2018,habitantes,número,5021
+0894,Moraleja de Enmedio,2018,contenedores,unidades,47
+0894,Moraleja de Enmedio,2018,vidrio recogido,kg,47635
+0908,Moralzarzal,2018,habitantes,número,12697
+0908,Moralzarzal,2018,contenedores,unidades,69
+0908,Moralzarzal,2018,vidrio recogido,kg,178294
+0915,Morata de Tajuña,2018,habitantes,número,7553
+0915,Morata de Tajuña,2018,contenedores,unidades,43
+0915,Morata de Tajuña,2018,vidrio recogido,kg,72943
+0920,Móstoles,2018,habitantes,número,207095
+0920,Móstoles,2018,contenedores,unidades,542
+0920,Móstoles,2018,vidrio recogido,kg,2056700
+0936,Navacerrada,2018,habitantes,número,2911
+0936,Navacerrada,2018,contenedores,unidades,43
+0936,Navacerrada,2018,vidrio recogido,kg,73158
+0941,Navalafuente,2018,habitantes,número,1397
+0941,Navalafuente,2018,contenedores,unidades,19
+0941,Navalafuente,2018,vidrio recogido,kg,25580
+0954,Navalagamella,2018,habitantes,número,2601
+0954,Navalagamella,2018,contenedores,unidades,15
+0954,Navalagamella,2018,vidrio recogido,kg,27083
+0967,Navalcarnero,2018,habitantes,número,28305
+0967,Navalcarnero,2018,contenedores,unidades,110
+0967,Navalcarnero,2018,vidrio recogido,kg,191060
+0973,Navarredonda y San Mamés,2018,habitantes,número,122
+0973,Navarredonda y San Mamés,2018,contenedores,unidades,4
+0973,Navarredonda y San Mamés,2018,vidrio recogido,kg,2983
+0992,Navas del Rey,2018,habitantes,número,2819
+0992,Navas del Rey,2018,contenedores,unidades,18
+0992,Navas del Rey,2018,vidrio recogido,kg,29211
+1006,Nuevo Baztán,2018,habitantes,número,6154
+1006,Nuevo Baztán,2018,contenedores,unidades,50
+1006,Nuevo Baztán,2018,vidrio recogido,kg,95344
+1013,Olmeda de las Fuentes,2018,habitantes,número,346
+1013,Olmeda de las Fuentes,2018,contenedores,unidades,6
+1013,Olmeda de las Fuentes,2018,vidrio recogido,kg,7957
+1028,Orusco de Tajuña,2018,habitantes,número,1202
+1028,Orusco de Tajuña,2018,contenedores,unidades,12
+1028,Orusco de Tajuña,2018,vidrio recogido,kg,14820
+1049,Paracuellos de Jarama,2018,habitantes,número,24521
+1049,Paracuellos de Jarama,2018,contenedores,unidades,111
+1049,Paracuellos de Jarama,2018,vidrio recogido,kg,295085
+1065,Parla,2018,habitantes,número,128256
+1065,Parla,2018,contenedores,unidades,453
+1065,Parla,2018,vidrio recogido,kg,1026742
+1071,Patones,2018,habitantes,número,523
+1071,Patones,2018,contenedores,unidades,5
+1071,Patones,2018,vidrio recogido,kg,12458
+1087,Pedrezuela,2018,habitantes,número,5746
+1087,Pedrezuela,2018,contenedores,unidades,38
+1087,Pedrezuela,2018,vidrio recogido,kg,76898
+1090,Pelayos de la Presa,2018,habitantes,número,2475
+1090,Pelayos de la Presa,2018,contenedores,unidades,15
+1090,Pelayos de la Presa,2018,vidrio recogido,kg,33158
+1104,Perales de Tajuña,2018,habitantes,número,2831
+1104,Perales de Tajuña,2018,contenedores,unidades,25
+1104,Perales de Tajuña,2018,vidrio recogido,kg,45295
+1111,Pezuela de las Torres,2018,habitantes,número,821
+1111,Pezuela de las Torres,2018,contenedores,unidades,10
+1111,Pezuela de las Torres,2018,vidrio recogido,kg,7630
+1126,Pinilla del Valle,2018,habitantes,número,187
+1126,Pinilla del Valle,2018,contenedores,unidades,4
+1126,Pinilla del Valle,2018,vidrio recogido,kg,5625
+1132,Pinto,2018,habitantes,número,51541
+1132,Pinto,2018,contenedores,unidades,207
+1132,Pinto,2018,vidrio recogido,kg,595692
+1147,Piñuécar-Gandullas,2018,habitantes,número,171
+1147,Piñuécar-Gandullas,2018,contenedores,unidades,10
+1147,Piñuécar-Gandullas,2018,vidrio recogido,kg,3313
+1150,Pozuelo de Alarcón,2018,habitantes,número,86172
+1150,Pozuelo de Alarcón,2018,contenedores,unidades,238
+1150,Pozuelo de Alarcón,2018,vidrio recogido,kg,1321730
+1163,Pozuelo del Rey,2018,habitantes,número,1120
+1163,Pozuelo del Rey,2018,contenedores,unidades,10
+1163,Pozuelo del Rey,2018,vidrio recogido,kg,9665
+1179,Prádena del Rincón,2018,habitantes,número,117
+1179,Prádena del Rincón,2018,contenedores,unidades,2
+1179,Prádena del Rincón,2018,vidrio recogido,kg,3278
+1185,Puebla de la Sierra,2018,habitantes,número,60
+1185,Puebla de la Sierra,2018,contenedores,unidades,3
+1185,Puebla de la Sierra,2018,vidrio recogido,kg,1543
+9020,Puentes Viejas,2018,habitantes,número,642
+9020,Puentes Viejas,2018,contenedores,unidades,11
+9020,Puentes Viejas,2018,vidrio recogido,kg,20204
+1198,Quijorna,2018,habitantes,número,3357
+1198,Quijorna,2018,contenedores,unidades,19
+1198,Quijorna,2018,vidrio recogido,kg,26136
+1202,Rascafría,2018,habitantes,número,1663
+1202,Rascafría,2018,contenedores,unidades,25
+1202,Rascafría,2018,vidrio recogido,kg,49657
+1219,Redueña,2018,habitantes,número,247
+1219,Redueña,2018,contenedores,unidades,2
+1219,Redueña,2018,vidrio recogido,kg,4201
+1224,Ribatejada,2018,habitantes,número,706
+1224,Ribatejada,2018,contenedores,unidades,15
+1224,Ribatejada,2018,vidrio recogido,kg,11541
+1230,Rivas-Vaciamadrid,2018,habitantes,número,85893
+1230,Rivas-Vaciamadrid,2018,contenedores,unidades,314
+1230,Rivas-Vaciamadrid,2018,vidrio recogido,kg,996348
+1245,Robledillo de la Jara,2018,habitantes,número,87
+1245,Robledillo de la Jara,2018,contenedores,unidades,3
+1245,Robledillo de la Jara,2018,vidrio recogido,kg,3054
+1258,Robledo de Chavela,2018,habitantes,número,4159
+1258,Robledo de Chavela,2018,contenedores,unidades,43
+1258,Robledo de Chavela,2018,vidrio recogido,kg,67225
+1261,Robregordo,2018,habitantes,número,48
+1261,Robregordo,2018,contenedores,unidades,2
+1261,Robregordo,2018,vidrio recogido,kg,796
+1277,"Rozas de Madrid, Las",2018,habitantes,número,95550
+1277,"Rozas de Madrid, Las",2018,contenedores,unidades,465
+1277,"Rozas de Madrid, Las",2018,vidrio recogido,kg,1199660
+1283,Rozas de Puerto Real,2018,habitantes,número,527
+1283,Rozas de Puerto Real,2018,contenedores,unidades,6
+1283,Rozas de Puerto Real,2018,vidrio recogido,kg,3758
+1296,San Agustín del Guadalix,2018,habitantes,número,13273
+1296,San Agustín del Guadalix,2018,contenedores,unidades,64
+1296,San Agustín del Guadalix,2018,vidrio recogido,kg,177273
+1300,San Fernando de Henares,2018,habitantes,número,39466
+1300,San Fernando de Henares,2018,contenedores,unidades,126
+1300,San Fernando de Henares,2018,vidrio recogido,kg,452828
+1317,San Lorenzo de El Escorial,2018,habitantes,número,18088
+1317,San Lorenzo de El Escorial,2018,contenedores,unidades,88
+1317,San Lorenzo de El Escorial,2018,vidrio recogido,kg,260963
+1322,San Martín de la Vega,2018,habitantes,número,18784
+1322,San Martín de la Vega,2018,contenedores,unidades,85
+1322,San Martín de la Vega,2018,vidrio recogido,kg,149379
+1338,San Martín de Valdeiglesias,2018,habitantes,número,8318
+1338,San Martín de Valdeiglesias,2018,contenedores,unidades,72
+1338,San Martín de Valdeiglesias,2018,vidrio recogido,kg,76392
+1343,San Sebastián de los Reyes,2018,habitantes,número,87724
+1343,San Sebastián de los Reyes,2018,contenedores,unidades,260
+1343,San Sebastián de los Reyes,2018,vidrio recogido,kg,988299
+1356,Santa María de la Alameda,2018,habitantes,número,1182
+1356,Santa María de la Alameda,2018,contenedores,unidades,24
+1356,Santa María de la Alameda,2018,vidrio recogido,kg,9397
+1369,Santorcaz,2018,habitantes,número,850
+1369,Santorcaz,2018,contenedores,unidades,11
+1369,Santorcaz,2018,vidrio recogido,kg,16237
+1375,"Santos de la Humosa, Los",2018,habitantes,número,2542
+1375,"Santos de la Humosa, Los",2018,contenedores,unidades,31
+1375,"Santos de la Humosa, Los",2018,vidrio recogido,kg,23211
+1381,"Serna del Monte, La",2018,habitantes,número,74
+1381,"Serna del Monte, La",2018,contenedores,unidades,4
+1381,"Serna del Monte, La",2018,vidrio recogido,kg,2942
+1408,Serranillos del Valle,2018,habitantes,número,4066
+1408,Serranillos del Valle,2018,contenedores,unidades,40
+1408,Serranillos del Valle,2018,vidrio recogido,kg,41900
+1415,Sevilla la Nueva,2018,habitantes,número,9095
+1415,Sevilla la Nueva,2018,contenedores,unidades,77
+1415,Sevilla la Nueva,2018,vidrio recogido,kg,131646
+1436,Somosierra,2018,habitantes,número,80
+1436,Somosierra,2018,contenedores,unidades,2
+1436,Somosierra,2018,vidrio recogido,kg,3041
+1441,Soto del Real,2018,habitantes,número,8694
+1441,Soto del Real,2018,contenedores,unidades,79
+1441,Soto del Real,2018,vidrio recogido,kg,149489
+1454,Talamanca de Jarama,2018,habitantes,número,3725
+1454,Talamanca de Jarama,2018,contenedores,unidades,23
+1454,Talamanca de Jarama,2018,vidrio recogido,kg,44403
+1467,Tielmes,2018,habitantes,número,2604
+1467,Tielmes,2018,contenedores,unidades,26
+1467,Tielmes,2018,vidrio recogido,kg,28185
+1473,Titulcia,2018,habitantes,número,1304
+1473,Titulcia,2018,contenedores,unidades,10
+1473,Titulcia,2018,vidrio recogido,kg,10018
+1489,Torrejón de Ardoz,2018,habitantes,número,129729
+1489,Torrejón de Ardoz,2018,contenedores,unidades,487
+1489,Torrejón de Ardoz,2018,vidrio recogido,kg,1571897
+1492,Torrejón de la Calzada,2018,habitantes,número,8582
+1492,Torrejón de la Calzada,2018,contenedores,unidades,38
+1492,Torrejón de la Calzada,2018,vidrio recogido,kg,63377
+1505,Torrejón de Velasco,2018,habitantes,número,4298
+1505,Torrejón de Velasco,2018,contenedores,unidades,41
+1505,Torrejón de Velasco,2018,vidrio recogido,kg,37939
+1512,Torrelaguna,2018,habitantes,número,4724
+1512,Torrelaguna,2018,contenedores,unidades,26
+1512,Torrelaguna,2018,vidrio recogido,kg,37433
+1527,Torrelodones,2018,habitantes,número,23361
+1527,Torrelodones,2018,contenedores,unidades,150
+1527,Torrelodones,2018,vidrio recogido,kg,381118
+1533,Torremocha de Jarama,2018,habitantes,número,975
+1533,Torremocha de Jarama,2018,contenedores,unidades,8
+1533,Torremocha de Jarama,2018,vidrio recogido,kg,22886
+1548,Torres de la Alameda,2018,habitantes,número,7760
+1548,Torres de la Alameda,2018,contenedores,unidades,45
+1548,Torres de la Alameda,2018,vidrio recogido,kg,93353
+9036,Tres Cantos,2018,habitantes,número,46750
+9036,Tres Cantos,2018,contenedores,unidades,185
+9036,Tres Cantos,2018,vidrio recogido,kg,775783
+1551,Valdaracete,2018,habitantes,número,626
+1551,Valdaracete,2018,contenedores,unidades,9
+1551,Valdaracete,2018,vidrio recogido,kg,7130
+1564,Valdeavero,2018,habitantes,número,1510
+1564,Valdeavero,2018,contenedores,unidades,17
+1564,Valdeavero,2018,vidrio recogido,kg,15303
+1570,Valdelaguna,2018,habitantes,número,903
+1570,Valdelaguna,2018,contenedores,unidades,14
+1570,Valdelaguna,2018,vidrio recogido,kg,9770
+1586,Valdemanco,2018,habitantes,número,927
+1586,Valdemanco,2018,contenedores,unidades,14
+1586,Valdemanco,2018,vidrio recogido,kg,20540
+1599,Valdemaqueda,2018,habitantes,número,761
+1599,Valdemaqueda,2018,contenedores,unidades,16
+1599,Valdemaqueda,2018,vidrio recogido,kg,16580
+1603,Valdemorillo,2018,habitantes,número,12280
+1603,Valdemorillo,2018,contenedores,unidades,86
+1603,Valdemorillo,2018,vidrio recogido,kg,194092
+1610,Valdemoro,2018,habitantes,número,74745
+1610,Valdemoro,2018,contenedores,unidades,251
+1610,Valdemoro,2018,vidrio recogido,kg,738191
+1625,Valdeolmos-Alalpardo,2018,habitantes,número,4039
+1625,Valdeolmos-Alalpardo,2018,contenedores,unidades,28
+1625,Valdeolmos-Alalpardo,2018,vidrio recogido,kg,59500
+1631,Valdepiélagos,2018,habitantes,número,574
+1631,Valdepiélagos,2018,contenedores,unidades,5
+1631,Valdepiélagos,2018,vidrio recogido,kg,6853
+1646,Valdetorres de Jarama,2018,habitantes,número,4384
+1646,Valdetorres de Jarama,2018,contenedores,unidades,36
+1646,Valdetorres de Jarama,2018,vidrio recogido,kg,46742
+1659,Valdilecha,2018,habitantes,número,2840
+1659,Valdilecha,2018,contenedores,unidades,15
+1659,Valdilecha,2018,vidrio recogido,kg,40670
+1662,Valverde de Alcalá,2018,habitantes,número,432
+1662,Valverde de Alcalá,2018,contenedores,unidades,9
+1662,Valverde de Alcalá,2018,vidrio recogido,kg,8607
+1678,Velilla de San Antonio,2018,habitantes,número,12193
+1678,Velilla de San Antonio,2018,contenedores,unidades,52
+1678,Velilla de San Antonio,2018,vidrio recogido,kg,135914
+1684,"Vellón, El",2018,habitantes,número,1942
+1684,"Vellón, El",2018,contenedores,unidades,9
+1684,"Vellón, El",2018,vidrio recogido,kg,16913
+1697,Venturada,2018,habitantes,número,2081
+1697,Venturada,2018,contenedores,unidades,15
+1697,Venturada,2018,vidrio recogido,kg,29746
+1718,Villa del Prado,2018,habitantes,número,6409
+1718,Villa del Prado,2018,contenedores,unidades,34
+1718,Villa del Prado,2018,vidrio recogido,kg,53512
+1701,Villaconejos,2018,habitantes,número,3363
+1701,Villaconejos,2018,contenedores,unidades,21
+1701,Villaconejos,2018,vidrio recogido,kg,33638
+1723,Villalbilla,2018,habitantes,número,13421
+1723,Villalbilla,2018,contenedores,unidades,100
+1723,Villalbilla,2018,vidrio recogido,kg,161395
+1739,Villamanrique de Tajo,2018,habitantes,número,699
+1739,Villamanrique de Tajo,2018,contenedores,unidades,9
+1739,Villamanrique de Tajo,2018,vidrio recogido,kg,13680
+1744,Villamanta,2018,habitantes,número,2501
+1744,Villamanta,2018,contenedores,unidades,13
+1744,Villamanta,2018,vidrio recogido,kg,19333
+1757,Villamantilla,2018,habitantes,número,1420
+1757,Villamantilla,2018,contenedores,unidades,8
+1757,Villamantilla,2018,vidrio recogido,kg,13125
+1760,Villanueva de la Cañada,2018,habitantes,número,21000
+1760,Villanueva de la Cañada,2018,contenedores,unidades,130
+1760,Villanueva de la Cañada,2018,vidrio recogido,kg,113908
+1782,Villanueva de Perales,2018,habitantes,número,1547
+1782,Villanueva de Perales,2018,contenedores,unidades,12
+1782,Villanueva de Perales,2018,vidrio recogido,kg,12531
+1776,Villanueva del Pardillo,2018,habitantes,número,17127
+1776,Villanueva del Pardillo,2018,contenedores,unidades,88
+1776,Villanueva del Pardillo,2018,vidrio recogido,kg,184441
+1795,Villar del Olmo,2018,habitantes,número,1967
+1795,Villar del Olmo,2018,contenedores,unidades,12
+1795,Villar del Olmo,2018,vidrio recogido,kg,20092
+1809,Villarejo de Salvanés,2018,habitantes,número,7291
+1809,Villarejo de Salvanés,2018,contenedores,unidades,52
+1809,Villarejo de Salvanés,2018,vidrio recogido,kg,104820
+1816,Villaviciosa de Odón,2018,habitantes,número,27596
+1816,Villaviciosa de Odón,2018,contenedores,unidades,160
+1816,Villaviciosa de Odón,2018,vidrio recogido,kg,379070
+1821,Villavieja del Lozoya,2018,habitantes,número,258
+1821,Villavieja del Lozoya,2018,contenedores,unidades,7
+1821,Villavieja del Lozoya,2018,vidrio recogido,kg,9103
+1837,Zarzalejo,2018,habitantes,número,1620
+1837,Zarzalejo,2018,contenedores,unidades,19
+1837,Zarzalejo,2018,vidrio recogido,kg,20079
+,Recogidas complementarias de residuos de envases de vidrio fuera del ámbito municipal,2018,vidrio recogido,kg,12212020

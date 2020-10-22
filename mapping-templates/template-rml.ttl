@@ -7,7 +7,7 @@
 @prefix vocab: <http://example.org#> .
 @base <http://example.com/ns#>.
 
-<#TriplesMap1>
+<#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
     rml:source "PathToData.csv" ;
     rml:referenceFormulation ql:CSV 
@@ -47,7 +47,7 @@
     ]
   ] .
 
-<#TriplesMap2>
+<#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
     rml:source "PathToData.csv" ;
     rml:referenceFormulation ql:CSV 
