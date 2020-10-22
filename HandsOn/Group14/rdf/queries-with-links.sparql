@@ -1,0 +1,25 @@
+PREFIX ex: <http://www.semanticweb.org/daniel/ontologies/2020/8/arboles#>
+SELECT DISTINCT ?distrito
+WHERE
+{
+ ?distrito owl:sameAs <https://www.wikidata.org/wiki/Q1763376> . 
+}
+LIMIT 100
+
+SELECT ?distrito ?especie ?unidades
+WHERE { 
+	?especie ex:quantityDistrict ?unidades.
+	FILTER (?unidades < 1000)
+	?especie ex:IsInDistrict ?distrito.
+	?especie owl:sameAs <https://www.wikidata.org/wiki/Q26899> .
+	}
+LIMIT 100
+
+SELECT ?especie ?unidades ?parque
+WHERE {
+   	?especie ex:isInPark ?parque .
+	?especie ex:quantityPark ?unidades FILTER (?unidades <2000) .
+	?parque owl:sameAs <https://www.wikidata.org/wiki/Q1131807> .
+	}
+LIMIT 100
+	
