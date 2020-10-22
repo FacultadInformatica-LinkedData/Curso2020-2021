@@ -13,7 +13,7 @@ mappings:
     po:
       - [a, dbp:province]
       - [swo:codigo, $(PROVINCE), xsd:string]
-      - [owl:sameAs, $(PROVINCE_REC)~iri]
+      - [owl:sameAs, wiki:Q24004405~iri]
     
   municipio:
     source:
@@ -22,7 +22,7 @@ mappings:
     po:
       - [a, dbp:Municipality]
       - [swo:codigo, $(MUNICIPALITY), xsd:string]
-      - [owl:sameAs, $(MUNICIPALITY_REC)~iri]
+      - [owl:sameAs, wiki:Q2807~iri]
       - p: swo:formaParteDe
         o:
           - mapping: provincia
