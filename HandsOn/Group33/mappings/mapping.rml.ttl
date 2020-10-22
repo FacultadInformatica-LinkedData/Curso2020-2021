@@ -22,7 +22,7 @@
   rr:predicateObjectMap [
     rr:predicateMap[rr:constant properties:TieneDistrito; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "TieneDistrito"; rr:termType rr:Literal
+      rml:reference "tieneDistrito"; rr:termType rr:Literal
       ]
   ];
 
