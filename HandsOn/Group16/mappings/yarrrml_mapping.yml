@@ -17,14 +17,7 @@ mappings:
             - [sc:address, $(DIRECCION),xsd:string]
             - [sc:latitude, $(LATITUD),xsd:string]
             - [sc:longitude, $(LONGITUD),xsd:string]
-            - p: ns:measuredAt
-              o:
-                - mapping: TriplesMap2
-                  condition:
-                    function: equal
-                    parameters:
-                      - [str1, $(ESTACION_ID)]
-                      - [str2, $(PUNTO_MUESTREO)]
+            
     
     TriplesMap2:
         sources:
@@ -35,3 +28,11 @@ mappings:
             - [ns:dateOfMeasure, $(FECHA),xsd:dateTime]
             - [ns:measureType, $(MAGNITUD),xsd:integer]
             - [ns:measureValue, $(VALOR),xsd:float]
+            - p: ns:measuredAt
+              o:
+                - mapping: TriplesMap1
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(ESTACION_ID)]
+                      - [str2, $(PUNTO_MUESTREO)]
