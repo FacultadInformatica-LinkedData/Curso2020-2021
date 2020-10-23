@@ -3,6 +3,7 @@ prefixes:
   rr: http://www.w3.org/ns/r2rml#
   rml: http://semweb.mmlab.be/ns/rml#
   ql: http://semweb.mmlab.be/ns/ql#
+  owl: http://www.w3.org/2002/07/owl#
   transit: http://vocab.org/transit/terms/
   wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#
   classes: http://www.semanticweb.org/bicimad/classes#
@@ -11,7 +12,7 @@ prefixes:
 mappings:
  TriplesMap1:
   sources:
-    - [bases_bicimad-updated2.csv~csv]
+    - [bases_bicimad-with-links.csv~csv]
   s: http://www.semanticweb.org/bicimad/classes#Bike_Station/$(bs_id)
   po:
     - [rdf:type, classes:Bike_Station]
@@ -32,20 +33,22 @@ mappings:
            - [str2, $(street_name)]
  TriplesMap2:
     sources:
-    - [bases_bicimad-updated2.csv~csv]
+    - [bases_bicimad-with-links.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#District/$(district_number)
     po:
       - [rdf:type, classes:District]
       - [properties:district_name, $(district_name), xsd:string]
       - [properties:district_number, $(district_number), xsd:integer]
+      - [owl:sameAs, $(district_name's URI)~iri]
  TriplesMap3:
     sources:
-    - [bases_bicimad-updated2.csv~csv]
+    - [bases_bicimad-with-links.csv~csv]
     s: http://www.semanticweb.org/bicimad/classes#Neighbourhood/$(neighbourhood_number)
     po:
       - [rdf:type, classes:Neighbourhood]
       - [properties:neighbourhood_name, $(neighbourhood_name), xsd:string]
       - [properties:neighbourhood_number, $(neighbourhood_number), xsd:string]
+      - [owl:sameAs, $(neighbourhood_name's URI)~iri]
       - p: properties:has_district
         o:
          - mapping: TriplesMap2
@@ -56,7 +59,7 @@ mappings:
              - [str2, $(district_number)]
  TriplesMap4:
   sources:
-      - [bases_bicimad-updated2.csv~csv]
+      - [bases_bicimad-with-links.csv~csv]
   s: http://www.semanticweb.org/bicimad/classes#Street/$(street_name)
   po:
     - [rdf:type, classes:Street]
