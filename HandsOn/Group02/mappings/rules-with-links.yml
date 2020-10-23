@@ -14,7 +14,7 @@
  mappings:
     Parking:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/Parking/$(Id)
       po:
        - [a, findparking:Parking]
@@ -78,48 +78,64 @@
 
     Address:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/Address/$(Address-Id)
       po:
-       - [a, findparking:Address]
+       - [a, findparking:Address] 
        - [findparking:hasAddressId, $(Address-Id),xsd:string]
        - [findparking:hasStreet, $(Street),xsd:string]
        - [findparking:hasNumber, $(Number),xsd:string]
        - [findparking:hasPostalCode, $(Postal Code),xsd:string]
+       - [owl:sameAs, $(Street Wikidata)~iri]
    
     Province:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/Province/$(Province)
       po:
        - [a, findparking:Province] 
        - [findparking:hasProvince, $(Province),xsd:string]
+       - [owl:sameAs, $(Province Wikidata)~iri]
 
     City:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/City/$(City)
       po:
        - [a, findparking:City]
        - [findparking:hasCity, $(City),xsd:string]
+       - [owl:sameAs, $(City Wikidata)~iri]
 
     District:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/District/$(District)
       po:
-       - [a, findparking:District] 
-       - [findparking:hasDistrict, $(District),xsd:string]   
+       - [a, findparking:District]
+       - [findparking:hasDistrict, $(District),xsd:string]
+       - [owl:sameAs, $(District Wikidata)~iri]   
 
     Neighborhood:
       sources:
-        - [Parking_Slots-updated.csv~csv]
+        - [Parking_Slots-updated-with-links.csv~csv]
       s: http://findyourparking.es/lcc/Neighborhood/$(Neighborhood)
       po:
        - [a, findparking:Neighborhood]
        - [findparking:hasNeighborhood, $(Neighborhood),xsd:string]
+       - [owl:sameAs, $(Neighborhood Wikidata)~iri]
 
   
 
 
                                 
+
+  
+
+
+
+
+  
+    
+    
+     
+     
