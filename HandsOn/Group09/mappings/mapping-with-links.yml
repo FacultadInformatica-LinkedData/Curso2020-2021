@@ -17,16 +17,17 @@ mappings:
       - [a, ont:Accident]
       - [rdfs:label, $(N EXPEDIENTE)]
       - [ont:hasExpedient,$(N EXPEDIENTE)]
-      - [ont:typeOfAccident,$(TIPO ACCIDENTE)]
       - [ont:weather,$(ESTADO METEREOLÓGICO)]
-      - p: ont:occursAt
+      - [ont:hasDate,$(DATE),xsd:dateTime]
+      - [ont:occursAtPeriod,$(HORA INTERVALO)]
+      - p: ont:typeOfAccident
         o:
-          mapping: date
+          mapping: typeofaccident
           condition:
             function: equal
             parameters:
-              - [str1, $(URI-DATE)]
-              - [str2, $(URI-DATE)]
+              - [str1, $(URI-TIPO ACCIDENTE)]
+              - [str2, $(URI-TIPO ACCIDENTE)]
               
       - p: ont:occursOn
         o:
@@ -45,16 +46,14 @@ mappings:
             parameters:
               - [str1, $(URI-PERSONA)]
               - [str2, $(URI-PERSONA)]
-
-  date:
+              
+  typeofaccident:
     sources:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
-    s: res:time/$(URI-DATE)
+    s: res:typeofaccident/$(URI-TIPO ACCIDENTE)
     po:
-      - [a, ont:Time]
-      - [rdfs:label, $(DATE LABEL)]
-      - [ont:date,$(DATE),xsd:dateTime]
-      - [ont:hourInterval,$(HORA INTERVALO)]
+      - [a, ont:TypeOfAccident]
+      - [rdfs:label, $(TIPO ACCIDENTE)]
       
   crossing:
     sources:
@@ -82,12 +81,59 @@ mappings:
     po:
       - [a, dbo:Person]
       - [rdfs:label, $(PERSONA LABEL)]
-      - [dbo:sex,$(SEXO)]
-      - [ont:ageRange,$(RANGO DE EDAD)]
-      - [ont:typeOfPerson,$(TIPO PERSONA)]
-      - [ont:typeOfVehicle,$(TIPO VEHÍCULO)]
-      - [ont:injuryStatus,$(LESIVIDAD),xsd:integer]
-      
+      - [ont:hasAgeRange,$(RANGO DE EDAD)]
+      - [ont:injuryStatus,$(LESIVIDAD)]
+      - p: ont:typeOfPerson
+        o:
+          mapping: typeofperson
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-TIPO PERSONA)]
+              - [str2, $(URI-TIPO PERSONA)]
+              
+      - p: ont:hasSex
+        o:
+          mapping: sex
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-SEXO)]
+              - [str2, $(URI-SEXO)]
+              
+      - p: ont:hasTypeOfVehicle
+        o:
+          mapping: typeofvehicle
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-TIPO VEHÍCULO)]
+              - [str2, $(URI-TIPO VEHÍCULO)]
+              
+  typeofperson:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:typeofperson/$(URI-TIPO PERSONA)
+    po:
+      - [a, ont:TypeOfPerson]
+      - [rdfs:label, $(TIPO PERSONA)]
+
+  sex:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:sex/$(URI-SEXO)
+    po:
+      - [a, ont:Sex]
+      - [rdfs:label, $(SEXO)]
+
+  typeofvehicle:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:typeofvehicle/$(URI-TIPO VEHÍCULO)
+    po:
+      - [a, ont:TypeOfVehicle]
+      - [rdfs:label, $(TIPO VEHÍCULO)]
+
   district:
     sources:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
