@@ -69,7 +69,7 @@ map:om_17 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_2 a rr:ObjectMap;
-    rr:template "https://www.wikidata.org/wiki/{PROVINCE_REC}";
+    rml:reference "PROVINCE_REC";
     rr:termType rr:IRI.
 map:om_3 a rr:ObjectMap;
     rr:constant "http://dbpedia.org/ontology/Municipality";
@@ -79,7 +79,7 @@ map:om_4 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_5 a rr:ObjectMap;
-    rr:template "https://www.wikidata.org/wiki/{MUNICIPALITY_REC}";
+    rml:reference "MUNICIPALITY_REC";
     rr:termType rr:IRI.
 map:om_6 a rr:ObjectMap;
     rr:parentTriplesMap map:map_provincia_0;
@@ -194,14 +194,14 @@ map:s_2 a rr:SubjectMap;
 map:s_3 a rr:SubjectMap;
     rr:template "http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/{ID}".
 map:source_0 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020.csv";
+    rml:source "../csv/MadridAirQuality2020-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020.csv";
+    rml:source "../csv/MadridAirQuality2020-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_2 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020.csv";
+    rml:source "../csv/MadridAirQuality2020-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_3 a rml:LogicalSource;
-    rml:source "../csv/MadridAirQuality2020.csv";
+    rml:source "../csv/MadridAirQuality2020-with-links.csv";
     rml:referenceFormulation ql:CSV.
