@@ -51,6 +51,7 @@ mappings:
       - [vocab:provincia,$(PROVINCIA)]
       - [vocab:provincia2,$(http://www.wsld.org/grupo17/ontology/Provincia)~iri]
       - [vocab:provincia3,$(integer-column),xsd:integer]
+      - [owl:sameAS, $(wikidata:province)~iri]
       - p:
         o:
         mapping: triplesmapestacion ##########?######
