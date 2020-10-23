@@ -3,26 +3,25 @@ prefixes:
   swo: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#
   dbp: http://dbpedia.org/ontology/
   owl: http://www.w3.org/2002/07/owl#
-  wiki: https://www.wikidata.org/wiki/
 
 mappings:
   provincia:
     source:
-      - [../csv/MadridAirQuality2020.csv~csv]
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
     s: http://dbpedia.org/ontology/province/$(PROVINCE)
     po:
       - [a, dbp:province]
       - [swo:codigo, $(PROVINCE), xsd:string]
-      - [owl:sameAs, wiki:$(PROVINCE_REC)~iri]
+      - [owl:sameAs, $(PROVINCE_REC)~iri]
     
   municipio:
     source:
-      - [../csv/MadridAirQuality2020.csv~csv]
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
     s: http://dbpedia.org/ontology/Municipality/$(MUNICIPALITY)
     po:
       - [a, dbp:Municipality]
       - [swo:codigo, $(MUNICIPALITY), xsd:string]
-      - [owl:sameAs, wiki:$(MUNICIPALITY_REC)~iri]
+      - [owl:sameAs, $(MUNICIPALITY_REC)~iri]
       - p: swo:formaParteDe
         o:
           - mapping: provincia
@@ -42,7 +41,7 @@ mappings:
 
   estacion:
     source:
-      - [../csv/MadridAirQuality2020.csv~csv]
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(STATION)
     po:
       - [swo:codigo, $(STATION), xsd:integer]
@@ -57,7 +56,7 @@ mappings:
                   - [str2, $(ID)]
   muestra:
     source:
-      - [../csv/MadridAirQuality2020.csv~csv]
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
     s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
     po:
       - [a, swo:Muestra]
