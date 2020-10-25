@@ -1,7 +1,6 @@
 <https://freewifizones/madrid/location/435820-4471982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/435820-4471982> <https://freewifizones/madrid/location#address> "CALLE/ CAMARENA V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/435820-4471982> <https://freewifizones/madrid/location#addressName> "CAMARENA".
-<https://freewifizones/madrid/location/435820-4471982> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/435820-4471982> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/435820-4471982> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/435820-4471982> <https://freewifizones/madrid/location#num> "10".
@@ -24,7 +23,6 @@
 <https://freewifizones/madrid/location/438891-4472167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/438891-4472167> <https://freewifizones/madrid/location#address> "CALLE/ ISAAC ALBENIZ V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/438891-4472167> <https://freewifizones/madrid/location#addressName> "Isaac Albeniz".
-<https://freewifizones/madrid/location/438891-4472167> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q56752982>.
 <https://freewifizones/madrid/location/438891-4472167> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/438891-4472167> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/438891-4472167> <https://freewifizones/madrid/location#num> "1".
@@ -47,7 +45,6 @@
 <https://freewifizones/madrid/location/434954-4472113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434954-4472113> <https://freewifizones/madrid/location#address> "CALLE/ GRANJA DE TORREHERMOSA V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/434954-4472113> <https://freewifizones/madrid/location#addressName> "GRANJA DE TORREHERMOSA".
-<https://freewifizones/madrid/location/434954-4472113> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/434954-4472113> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/434954-4472113> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/434954-4472113> <https://freewifizones/madrid/location#num> "1".
@@ -70,7 +67,6 @@
 <https://freewifizones/madrid/location/439723-4475438> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439723-4475438> <https://freewifizones/madrid/location#address> "CALLE/ CONDE DUQUE V 9, MADRID, MADRID".
 <https://freewifizones/madrid/location/439723-4475438> <https://freewifizones/madrid/location#addressName> "calle del Conde Duque".
-<https://freewifizones/madrid/location/439723-4475438> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27031730>.
 <https://freewifizones/madrid/location/439723-4475438> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439723-4475438> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439723-4475438> <https://freewifizones/madrid/location#num> "9".
@@ -93,7 +89,6 @@
 <https://freewifizones/madrid/location/443092-4475923> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443092-4475923> <https://freewifizones/madrid/location#address> "AVENIDA/ TOREROS V 5, MADRID, MADRID".
 <https://freewifizones/madrid/location/443092-4475923> <https://freewifizones/madrid/location#addressName> "Avenida de los Toreros, Madrid".
-<https://freewifizones/madrid/location/443092-4475923> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q29918658>.
 <https://freewifizones/madrid/location/443092-4475923> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/443092-4475923> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443092-4475923> <https://freewifizones/madrid/location#num> "5".
@@ -116,7 +111,6 @@
 <https://freewifizones/madrid/location/448119-4477485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448119-4477485> <https://freewifizones/madrid/location#address> "CALLE/ BOLTAÑA NUM 23, MADRID, MADRID".
 <https://freewifizones/madrid/location/448119-4477485> <https://freewifizones/madrid/location#addressName> "La Valle".
-<https://freewifizones/madrid/location/448119-4477485> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q13049284>.
 <https://freewifizones/madrid/location/448119-4477485> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/448119-4477485> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/448119-4477485> <https://freewifizones/madrid/location#num> "23".
@@ -139,7 +133,6 @@
 <https://freewifizones/madrid/location/445944-4476393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445944-4476393> <https://freewifizones/madrid/location#address> "AVENIDA/ INSTITUCIÓN LIBRE DE ENSEÑANZA (ANTIGUA CALLE HERMANOS GARCÍA NOBLEJAS) V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/445944-4476393> <https://freewifizones/madrid/location#addressName> "Avenida de la Institución Libre de Enseñanza, Madrid".
-<https://freewifizones/madrid/location/445944-4476393> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5740959>.
 <https://freewifizones/madrid/location/445944-4476393> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/445944-4476393> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445944-4476393> <https://freewifizones/madrid/location#num> "14".
@@ -162,7 +155,6 @@
 <https://freewifizones/madrid/location/441962-4479867> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441962-4479867> <https://freewifizones/madrid/location#address> "CALLE/ MANUEL FERRERO V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441962-4479867> <https://freewifizones/madrid/location#addressName> "MANUEL FERRERO".
-<https://freewifizones/madrid/location/441962-4479867> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441962-4479867> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441962-4479867> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441962-4479867> <https://freewifizones/madrid/location#num> "1".
@@ -185,7 +177,6 @@
 <https://freewifizones/madrid/location/442345-4474221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442345-4474221> <https://freewifizones/madrid/location#address> "PASEO/ FERNAN NUÑEZ V 24, MADRID, MADRID".
 <https://freewifizones/madrid/location/442345-4474221> <https://freewifizones/madrid/location#addressName> "Calle del Duque de Fernán Núñez, Madrid".
-<https://freewifizones/madrid/location/442345-4474221> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q29051517>.
 <https://freewifizones/madrid/location/442345-4474221> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/442345-4474221> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442345-4474221> <https://freewifizones/madrid/location#num> "24".
@@ -208,7 +199,6 @@
 <https://freewifizones/madrid/location/447278-4472321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/447278-4472321> <https://freewifizones/madrid/location#address> "BULEVAR/ INDALECIO PRIETO V 21, MADRID, MADRID".
 <https://freewifizones/madrid/location/447278-4472321> <https://freewifizones/madrid/location#addressName> "cai Indalecio Prieto Tuero".
-<https://freewifizones/madrid/location/447278-4472321> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q62106111>.
 <https://freewifizones/madrid/location/447278-4472321> <https://freewifizones/madrid/location#addressType> "BULEVAR".
 <https://freewifizones/madrid/location/447278-4472321> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/447278-4472321> <https://freewifizones/madrid/location#num> "21".
@@ -231,7 +221,6 @@
 <https://freewifizones/madrid/location/442766-4477922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442766-4477922> <https://freewifizones/madrid/location#address> "CALLE/ MANTUANO V 51, MADRID, MADRID".
 <https://freewifizones/madrid/location/442766-4477922> <https://freewifizones/madrid/location#addressName> "Calle de Mantuano".
-<https://freewifizones/madrid/location/442766-4477922> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27048291>.
 <https://freewifizones/madrid/location/442766-4477922> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442766-4477922> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442766-4477922> <https://freewifizones/madrid/location#num> "51".
@@ -254,7 +243,6 @@
 <https://freewifizones/madrid/location/440472-4468702> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440472-4468702> <https://freewifizones/madrid/location#address> "PLAZA/ PUEBLO NUM 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/440472-4468702> <https://freewifizones/madrid/location#addressName> "pueblo".
-<https://freewifizones/madrid/location/440472-4468702> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q251749>.
 <https://freewifizones/madrid/location/440472-4468702> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/440472-4468702> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/440472-4468702> <https://freewifizones/madrid/location#num> "2".
@@ -277,7 +265,6 @@
 <https://freewifizones/madrid/location/447138-4469889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/447138-4469889> <https://freewifizones/madrid/location#address> "CALLE/ MONTE AYA NUM 12, MADRID, MADRID".
 <https://freewifizones/madrid/location/447138-4469889> <https://freewifizones/madrid/location#addressName> "MONTE AYA".
-<https://freewifizones/madrid/location/447138-4469889> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/447138-4469889> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/447138-4469889> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/447138-4469889> <https://freewifizones/madrid/location#num> "12".
@@ -300,7 +287,6 @@
 <https://freewifizones/madrid/location/449661-4479046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/449661-4479046> <https://freewifizones/madrid/location#address> "AVENIDA/ LOGROÑO V 179, MADRID, MADRID".
 <https://freewifizones/madrid/location/449661-4479046> <https://freewifizones/madrid/location#addressName> "Calle San Juan (Logroño)".
-<https://freewifizones/madrid/location/449661-4479046> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6400678>.
 <https://freewifizones/madrid/location/449661-4479046> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/449661-4479046> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/449661-4479046> <https://freewifizones/madrid/location#num> "179".
@@ -323,7 +309,6 @@
 <https://freewifizones/madrid/location/445295-4480968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445295-4480968> <https://freewifizones/madrid/location#address> "CALLE/ MAR DE LAS ANTILLAS V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/445295-4480968> <https://freewifizones/madrid/location#addressName> "MAR DE LAS ANTILLAS".
-<https://freewifizones/madrid/location/445295-4480968> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445295-4480968> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445295-4480968> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445295-4480968> <https://freewifizones/madrid/location#num> "10".
@@ -346,7 +331,6 @@
 <https://freewifizones/madrid/location/439775-4473962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439775-4473962> <https://freewifizones/madrid/location#address> "CALLE/ SAN JUSTO V 5, MADRID, MADRID".
 <https://freewifizones/madrid/location/439775-4473962> <https://freewifizones/madrid/location#addressName> "Calle de San Justo, Madrid".
-<https://freewifizones/madrid/location/439775-4473962> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q32458483>.
 <https://freewifizones/madrid/location/439775-4473962> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439775-4473962> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439775-4473962> <https://freewifizones/madrid/location#num> "5".
@@ -369,7 +353,6 @@
 <https://freewifizones/madrid/location/448214-4476029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448214-4476029> <https://freewifizones/madrid/location#address> "CALLE/ MARIA SEVILLA DIAGO V 15, MADRID, MADRID".
 <https://freewifizones/madrid/location/448214-4476029> <https://freewifizones/madrid/location#addressName> "Calle de María Sevilla Diago, Madrid".
-<https://freewifizones/madrid/location/448214-4476029> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28972080>.
 <https://freewifizones/madrid/location/448214-4476029> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/448214-4476029> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448214-4476029> <https://freewifizones/madrid/location#num> "15".
@@ -392,7 +375,6 @@
 <https://freewifizones/madrid/location/439867-4481122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439867-4481122> <https://freewifizones/madrid/location#address> "AVENIDA/ MONFORTE DE LEMOS V 38, MADRID, MADRID".
 <https://freewifizones/madrid/location/439867-4481122> <https://freewifizones/madrid/location#addressName> "Avenida de Monforte de Lemos, Madrid".
-<https://freewifizones/madrid/location/439867-4481122> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q52683954>.
 <https://freewifizones/madrid/location/439867-4481122> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/439867-4481122> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439867-4481122> <https://freewifizones/madrid/location#num> "38".
@@ -415,7 +397,6 @@
 <https://freewifizones/madrid/location/437014-4470566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/437014-4470566> <https://freewifizones/madrid/location#address> "CALLE/ GENERAL RICARDOS NUM 252, MADRID, MADRID".
 <https://freewifizones/madrid/location/437014-4470566> <https://freewifizones/madrid/location#addressName> "Calle del General Ricardos, Madrid".
-<https://freewifizones/madrid/location/437014-4470566> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5740542>.
 <https://freewifizones/madrid/location/437014-4470566> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/437014-4470566> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/437014-4470566> <https://freewifizones/madrid/location#num> "252".
@@ -438,7 +419,6 @@
 <https://freewifizones/madrid/location/444705-4474959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444705-4474959> <https://freewifizones/madrid/location#address> "CALLE/ NUESTRA SEÑORA DEL VILLAR NUM 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/444705-4474959> <https://freewifizones/madrid/location#addressName> "NUESTRA SEÑORA DEL VILLAR".
-<https://freewifizones/madrid/location/444705-4474959> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444705-4474959> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444705-4474959> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/444705-4474959> <https://freewifizones/madrid/location#num> "6".
@@ -461,7 +441,6 @@
 <https://freewifizones/madrid/location/439755-4478779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439755-4478779> <https://freewifizones/madrid/location#address> "CALLE/ FRANCOS RODRIGUEZ V 67, MADRID, MADRID".
 <https://freewifizones/madrid/location/439755-4478779> <https://freewifizones/madrid/location#addressName> "Calle de Francos Rodríguez, Madrid".
-<https://freewifizones/madrid/location/439755-4478779> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q26810988>.
 <https://freewifizones/madrid/location/439755-4478779> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439755-4478779> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439755-4478779> <https://freewifizones/madrid/location#num> "67".
@@ -484,7 +463,6 @@
 <https://freewifizones/madrid/location/444461-4482397> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444461-4482397> <https://freewifizones/madrid/location#address> "CALLE/ PRINCESA DE EBOLI V 29, MADRID, MADRID".
 <https://freewifizones/madrid/location/444461-4482397> <https://freewifizones/madrid/location#addressName> "Ana de Mendoza, Princess of Eboli".
-<https://freewifizones/madrid/location/444461-4482397> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q457676>.
 <https://freewifizones/madrid/location/444461-4482397> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444461-4482397> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444461-4482397> <https://freewifizones/madrid/location#num> "29".
@@ -507,7 +485,6 @@
 <https://freewifizones/madrid/location/440857-4480052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440857-4480052> <https://freewifizones/madrid/location#address> "PLAZA/ DONOSO V 5, MADRID, MADRID".
 <https://freewifizones/madrid/location/440857-4480052> <https://freewifizones/madrid/location#addressName> "calle de Donoso Cortés".
-<https://freewifizones/madrid/location/440857-4480052> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27243288>.
 <https://freewifizones/madrid/location/440857-4480052> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/440857-4480052> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440857-4480052> <https://freewifizones/madrid/location#num> "5".
@@ -530,7 +507,6 @@
 <https://freewifizones/madrid/location/440645-4475347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440645-4475347> <https://freewifizones/madrid/location#address> "CALLE/ BARCELO V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/440645-4475347> <https://freewifizones/madrid/location#addressName> "Barcelona Ladies Open".
-<https://freewifizones/madrid/location/440645-4475347> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q790341>.
 <https://freewifizones/madrid/location/440645-4475347> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440645-4475347> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440645-4475347> <https://freewifizones/madrid/location#num> "4".
@@ -553,7 +529,6 @@
 <https://freewifizones/madrid/location/444597-4473439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444597-4473439> <https://freewifizones/madrid/location#address> "CALLE/ ARROYO BELINCOSO NUM 11, MADRID, MADRID".
 <https://freewifizones/madrid/location/444597-4473439> <https://freewifizones/madrid/location#addressName> "ARROYO BELINCOSO".
-<https://freewifizones/madrid/location/444597-4473439> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444597-4473439> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444597-4473439> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/444597-4473439> <https://freewifizones/madrid/location#num> "11".
@@ -576,7 +551,6 @@
 <https://freewifizones/madrid/location/445570-4475617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445570-4475617> <https://freewifizones/madrid/location#address> "CALLE/ ASCAO V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/445570-4475617> <https://freewifizones/madrid/location#addressName> "ASCAO".
-<https://freewifizones/madrid/location/445570-4475617> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445570-4475617> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445570-4475617> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445570-4475617> <https://freewifizones/madrid/location#num> "4".
@@ -599,7 +573,6 @@
 <https://freewifizones/madrid/location/439967-4472399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439967-4472399> <https://freewifizones/madrid/location#address> "CALLE/ ARGANDA NUM 12, MADRID, MADRID".
 <https://freewifizones/madrid/location/439967-4472399> <https://freewifizones/madrid/location#addressName> "Arganda".
-<https://freewifizones/madrid/location/439967-4472399> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q65299478>.
 <https://freewifizones/madrid/location/439967-4472399> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439967-4472399> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/439967-4472399> <https://freewifizones/madrid/location#num> "12".
@@ -622,7 +595,6 @@
 <https://freewifizones/madrid/location/444376-4471605> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444376-4471605> <https://freewifizones/madrid/location#address> "CALLE/ CANTALAPIEDRA V 11, MADRID, MADRID".
 <https://freewifizones/madrid/location/444376-4471605> <https://freewifizones/madrid/location#addressName> "CANTALAPIEDRA".
-<https://freewifizones/madrid/location/444376-4471605> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444376-4471605> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444376-4471605> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444376-4471605> <https://freewifizones/madrid/location#num> "11".
@@ -645,7 +617,6 @@
 <https://freewifizones/madrid/location/443950-4469433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#address> "AVENIDA/ GLORIETAS NUM 19, MADRID, MADRID".
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#addressName> "Glorieta de los Insurgentes".
-<https://freewifizones/madrid/location/443950-4469433> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3941792>.
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#num> "19".
@@ -668,7 +639,6 @@
 <https://freewifizones/madrid/location/447249-4474586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/447249-4474586> <https://freewifizones/madrid/location#address> "CALLE/ SAN ROMAN DEL VALLE NUM 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/447249-4474586> <https://freewifizones/madrid/location#addressName> "SAN ROMAN DEL VALLE".
-<https://freewifizones/madrid/location/447249-4474586> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/447249-4474586> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/447249-4474586> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/447249-4474586> <https://freewifizones/madrid/location#num> "8".
@@ -691,7 +661,6 @@
 <https://freewifizones/madrid/location/443517-4471815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443517-4471815> <https://freewifizones/madrid/location#address> "CALLE/ PUERTO DEL MONASTERIO V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/443517-4471815> <https://freewifizones/madrid/location#addressName> "Avenida del Monasterio, El Puerto de Santa María".
-<https://freewifizones/madrid/location/443517-4471815> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q56683640>.
 <https://freewifizones/madrid/location/443517-4471815> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443517-4471815> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443517-4471815> <https://freewifizones/madrid/location#num> "1".
@@ -714,7 +683,6 @@
 <https://freewifizones/madrid/location/448357-4472920> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#address> "CALLE/ VILLARDONDIEGO NUM 36, MADRID, MADRID".
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#addressName> "VILLARDONDIEGO".
-<https://freewifizones/madrid/location/448357-4472920> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#num> "36".
@@ -737,7 +705,6 @@
 <https://freewifizones/madrid/location/443756-4471656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443756-4471656> <https://freewifizones/madrid/location#address> "PLAZA/ SIERRA MINISTRA V 3, MADRID, MADRID".
 <https://freewifizones/madrid/location/443756-4471656> <https://freewifizones/madrid/location#addressName> "port d'Alcolea del Pinar".
-<https://freewifizones/madrid/location/443756-4471656> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q21547954>.
 <https://freewifizones/madrid/location/443756-4471656> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/443756-4471656> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443756-4471656> <https://freewifizones/madrid/location#num> "3".
@@ -760,7 +727,6 @@
 <https://freewifizones/madrid/location/438848-4482487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/438848-4482487> <https://freewifizones/madrid/location#address> "GLORIETA/ PRADERA DE VAQUERIZAS V 9, MADRID, MADRID".
 <https://freewifizones/madrid/location/438848-4482487> <https://freewifizones/madrid/location#addressName> "PRADERA DE VAQUERIZAS".
-<https://freewifizones/madrid/location/438848-4482487> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/438848-4482487> <https://freewifizones/madrid/location#addressType> "GLORIETA".
 <https://freewifizones/madrid/location/438848-4482487> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/438848-4482487> <https://freewifizones/madrid/location#num> "9".
@@ -786,7 +752,6 @@
 <https://freewifizones/madrid/location/448023-4477305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448023-4477305> <https://freewifizones/madrid/location#address> "CALLE/ BOLTA V 27, MADRID, MADRID".
 <https://freewifizones/madrid/location/448023-4477305> <https://freewifizones/madrid/location#addressName> "BOLTA".
-<https://freewifizones/madrid/location/448023-4477305> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/448023-4477305> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/448023-4477305> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448023-4477305> <https://freewifizones/madrid/location#num> "27".
@@ -809,7 +774,6 @@
 <https://freewifizones/madrid/location/444516-4479119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444516-4479119> <https://freewifizones/madrid/location#address> "CALLE/ CARRIL DEL CONDE V 57, MADRID, MADRID".
 <https://freewifizones/madrid/location/444516-4479119> <https://freewifizones/madrid/location#addressName> "CARRIL DEL CONDE".
-<https://freewifizones/madrid/location/444516-4479119> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444516-4479119> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444516-4479119> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444516-4479119> <https://freewifizones/madrid/location#num> "57".
@@ -832,7 +796,6 @@
 <https://freewifizones/madrid/location/441967-4474495> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441967-4474495> <https://freewifizones/madrid/location#address> "PASEO/ COLOMBIA V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441967-4474495> <https://freewifizones/madrid/location#addressName> "Colombia".
-<https://freewifizones/madrid/location/441967-4474495> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5147877>.
 <https://freewifizones/madrid/location/441967-4474495> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/441967-4474495> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441967-4474495> <https://freewifizones/madrid/location#num> "1".
@@ -855,7 +818,6 @@
 <https://freewifizones/madrid/location/440586-4471782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440586-4471782> <https://freewifizones/madrid/location#address> "PASEO/ CHOPERA V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/440586-4471782> <https://freewifizones/madrid/location#addressName> "Paseo de la Chopera, Madrid".
-<https://freewifizones/madrid/location/440586-4471782> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27044458>.
 <https://freewifizones/madrid/location/440586-4471782> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/440586-4471782> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440586-4471782> <https://freewifizones/madrid/location#num> "6".
@@ -878,7 +840,6 @@
 <https://freewifizones/madrid/location/449282-4477702> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/449282-4477702> <https://freewifizones/madrid/location#address> "AVENIDA/ SÉPTIMA V 11, MADRID, MADRID".
 <https://freewifizones/madrid/location/449282-4477702> <https://freewifizones/madrid/location#addressName> "Seventh Avenue".
-<https://freewifizones/madrid/location/449282-4477702> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q109926>.
 <https://freewifizones/madrid/location/449282-4477702> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/449282-4477702> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/449282-4477702> <https://freewifizones/madrid/location#num> "11".
@@ -901,7 +862,6 @@
 <https://freewifizones/madrid/location/440979-4472617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440979-4472617> <https://freewifizones/madrid/location#address> "CALLE/ CANARIAS V 17, MADRID, MADRID".
 <https://freewifizones/madrid/location/440979-4472617> <https://freewifizones/madrid/location#addressName> "Antena 3 Canarias".
-<https://freewifizones/madrid/location/440979-4472617> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2852667>.
 <https://freewifizones/madrid/location/440979-4472617> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440979-4472617> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440979-4472617> <https://freewifizones/madrid/location#num> "17".
@@ -925,13 +885,13 @@
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#address> "CALLE/ VILLARDONDIEGO V 36, MADRID, MADRID".
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#orientation> "".
+<https://freewifizones/madrid/location/448357-4472920> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#latitude> "40.405292721436055".
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#longitude> "-3.6086161200017157".
 <https://freewifizones/madrid/location/448357-4472920> <https://freewifizones/madrid/location#geographicalCoordinates> "40.405292721436055 , -3.6086161200017157".
 <https://freewifizones/madrid/location/445141-4473033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445141-4473033> <https://freewifizones/madrid/location#address> "AVENIDA/ MORATALAZ V 130, MADRID, MADRID".
 <https://freewifizones/madrid/location/445141-4473033> <https://freewifizones/madrid/location#addressName> "Centro Deportivo Municipal Moratalaz".
-<https://freewifizones/madrid/location/445141-4473033> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q85751287>.
 <https://freewifizones/madrid/location/445141-4473033> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/445141-4473033> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445141-4473033> <https://freewifizones/madrid/location#num> "130".
@@ -954,7 +914,6 @@
 <https://freewifizones/madrid/location/435819-4471933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/435819-4471933> <https://freewifizones/madrid/location#address> "CALLE/ CAMARENA V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/435819-4471933> <https://freewifizones/madrid/location#addressName> "CAMARENA".
-<https://freewifizones/madrid/location/435819-4471933> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/435819-4471933> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/435819-4471933> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/435819-4471933> <https://freewifizones/madrid/location#num> "10".
@@ -977,7 +936,6 @@
 <https://freewifizones/madrid/location/439136-4471474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439136-4471474> <https://freewifizones/madrid/location#address> "CALLE/ VERDAD V 29, MADRID, MADRID".
 <https://freewifizones/madrid/location/439136-4471474> <https://freewifizones/madrid/location#addressName> "truth".
-<https://freewifizones/madrid/location/439136-4471474> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q7949>.
 <https://freewifizones/madrid/location/439136-4471474> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439136-4471474> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439136-4471474> <https://freewifizones/madrid/location#num> "29".
@@ -1000,7 +958,6 @@
 <https://freewifizones/madrid/location/439741-4476139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439741-4476139> <https://freewifizones/madrid/location#address> "CALLE/ GALILEO V 39, MADRID, MADRID".
 <https://freewifizones/madrid/location/439741-4476139> <https://freewifizones/madrid/location#addressName> "Galileo satellite".
-<https://freewifizones/madrid/location/439741-4476139> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28469843>.
 <https://freewifizones/madrid/location/439741-4476139> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439741-4476139> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439741-4476139> <https://freewifizones/madrid/location#num> "39".
@@ -1023,7 +980,6 @@
 <https://freewifizones/madrid/location/449666-4479054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/449666-4479054> <https://freewifizones/madrid/location#address> "AVENIDA/ LOGROÑO V 179, MADRID, MADRID".
 <https://freewifizones/madrid/location/449666-4479054> <https://freewifizones/madrid/location#addressName> "Calle San Juan (Logroño)".
-<https://freewifizones/madrid/location/449666-4479054> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6400678>.
 <https://freewifizones/madrid/location/449666-4479054> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/449666-4479054> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/449666-4479054> <https://freewifizones/madrid/location#num> "179".
@@ -1046,7 +1002,6 @@
 <https://freewifizones/madrid/location/445579-4480884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445579-4480884> <https://freewifizones/madrid/location#address> "CALLE/ SANTA VIRGILIA V 15, MADRID, MADRID".
 <https://freewifizones/madrid/location/445579-4480884> <https://freewifizones/madrid/location#addressName> "SANTA VIRGILIA".
-<https://freewifizones/madrid/location/445579-4480884> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445579-4480884> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445579-4480884> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445579-4480884> <https://freewifizones/madrid/location#num> "15".
@@ -1069,7 +1024,6 @@
 <https://freewifizones/madrid/location/445279-4480662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445279-4480662> <https://freewifizones/madrid/location#address> "CALLE/ MAR DE LAS ANTILLAS V 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/445279-4480662> <https://freewifizones/madrid/location#addressName> "MAR DE LAS ANTILLAS".
-<https://freewifizones/madrid/location/445279-4480662> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445279-4480662> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445279-4480662> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445279-4480662> <https://freewifizones/madrid/location#num> "8".
@@ -1092,7 +1046,6 @@
 <https://freewifizones/madrid/location/451431-4477509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/451431-4477509> <https://freewifizones/madrid/location#address> "CALLE/ FEBRERO V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/451431-4477509> <https://freewifizones/madrid/location#addressName> "Avenida 27 de Febrero".
-<https://freewifizones/madrid/location/451431-4477509> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q790446>.
 <https://freewifizones/madrid/location/451431-4477509> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/451431-4477509> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/451431-4477509> <https://freewifizones/madrid/location#num> "4".
@@ -1115,7 +1068,6 @@
 <https://freewifizones/madrid/location/436432-4472601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/436432-4472601> <https://freewifizones/madrid/location#address> "CALLE/ CASTROSERNA V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/436432-4472601> <https://freewifizones/madrid/location#addressName> "CASTROSERNA".
-<https://freewifizones/madrid/location/436432-4472601> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/436432-4472601> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/436432-4472601> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/436432-4472601> <https://freewifizones/madrid/location#num> "4".
@@ -1138,7 +1090,6 @@
 <https://freewifizones/madrid/location/439610-4478821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439610-4478821> <https://freewifizones/madrid/location#address> "CALLE/ FRANCOS RODRIGUEZ V 100, MADRID, MADRID".
 <https://freewifizones/madrid/location/439610-4478821> <https://freewifizones/madrid/location#addressName> "Calle de Francos Rodríguez, Madrid".
-<https://freewifizones/madrid/location/439610-4478821> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q26810988>.
 <https://freewifizones/madrid/location/439610-4478821> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439610-4478821> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439610-4478821> <https://freewifizones/madrid/location#num> "100".
@@ -1161,7 +1112,6 @@
 <https://freewifizones/madrid/location/438998-4479816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/438998-4479816> <https://freewifizones/madrid/location#address> "CALLE/ ANTONIO MACHADO V 20, MADRID, MADRID".
 <https://freewifizones/madrid/location/438998-4479816> <https://freewifizones/madrid/location#addressName> "Calle de Antonio Machado, Madrid".
-<https://freewifizones/madrid/location/438998-4479816> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28793893>.
 <https://freewifizones/madrid/location/438998-4479816> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/438998-4479816> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/438998-4479816> <https://freewifizones/madrid/location#num> "20".
@@ -1184,7 +1134,6 @@
 <https://freewifizones/madrid/location/444825-4475074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444825-4475074> <https://freewifizones/madrid/location#address> "CALLE/ SANTA FELICIDAD V 39, MADRID, MADRID".
 <https://freewifizones/madrid/location/444825-4475074> <https://freewifizones/madrid/location#addressName> "Santa Felicidade (subprefeitura)".
-<https://freewifizones/madrid/location/444825-4475074> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10367834>.
 <https://freewifizones/madrid/location/444825-4475074> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444825-4475074> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444825-4475074> <https://freewifizones/madrid/location#num> "39".
@@ -1207,7 +1156,6 @@
 <https://freewifizones/madrid/location/439894-4481167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439894-4481167> <https://freewifizones/madrid/location#address> "AVENIDA/ MONFORTE DE LEMOS V 38, MADRID, MADRID".
 <https://freewifizones/madrid/location/439894-4481167> <https://freewifizones/madrid/location#addressName> "Avenida de Monforte de Lemos, Madrid".
-<https://freewifizones/madrid/location/439894-4481167> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q52683954>.
 <https://freewifizones/madrid/location/439894-4481167> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/439894-4481167> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439894-4481167> <https://freewifizones/madrid/location#num> "38".
@@ -1230,7 +1178,6 @@
 <https://freewifizones/madrid/location/442812-4472042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442812-4472042> <https://freewifizones/madrid/location#address> "CALLE/ LUIS PEIDRO V 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/442812-4472042> <https://freewifizones/madrid/location#addressName> "LUIS PEIDRO".
-<https://freewifizones/madrid/location/442812-4472042> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/442812-4472042> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442812-4472042> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442812-4472042> <https://freewifizones/madrid/location#num> "2".
@@ -1253,7 +1200,6 @@
 <https://freewifizones/madrid/location/442974-4470850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442974-4470850> <https://freewifizones/madrid/location#address> "CALLE/ CONCEJO DE TEVERGA V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/442974-4470850> <https://freewifizones/madrid/location#addressName> "CONCEJO DE TEVERGA".
-<https://freewifizones/madrid/location/442974-4470850> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/442974-4470850> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442974-4470850> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442974-4470850> <https://freewifizones/madrid/location#num> "1".
@@ -1276,7 +1222,6 @@
 <https://freewifizones/madrid/location/442482-4466908> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442482-4466908> <https://freewifizones/madrid/location#address> "AVENIDA/ LOS ROSALES V 133, MADRID, MADRID".
 <https://freewifizones/madrid/location/442482-4466908> <https://freewifizones/madrid/location#addressName> "Los rosales".
-<https://freewifizones/madrid/location/442482-4466908> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q19457136>.
 <https://freewifizones/madrid/location/442482-4466908> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/442482-4466908> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442482-4466908> <https://freewifizones/madrid/location#num> "133".
@@ -1299,7 +1244,6 @@
 <https://freewifizones/madrid/location/442533-4474392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442533-4474392> <https://freewifizones/madrid/location#address> "CALLE/ IBIZA V 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/442533-4474392> <https://freewifizones/madrid/location#addressName> "Ibiza".
-<https://freewifizones/madrid/location/442533-4474392> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q19266804>.
 <https://freewifizones/madrid/location/442533-4474392> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442533-4474392> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442533-4474392> <https://freewifizones/madrid/location#num> "8".
@@ -1322,7 +1266,6 @@
 <https://freewifizones/madrid/location/439879-4469031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439879-4469031> <https://freewifizones/madrid/location#address> "PLAZA/ ASOCIACION V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/439879-4469031> <https://freewifizones/madrid/location#addressName> "asociación política".
-<https://freewifizones/madrid/location/439879-4469031> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q45738142>.
 <https://freewifizones/madrid/location/439879-4469031> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/439879-4469031> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439879-4469031> <https://freewifizones/madrid/location#num> "1".
@@ -1345,7 +1288,6 @@
 <https://freewifizones/madrid/location/433622-4470101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/433622-4470101> <https://freewifizones/madrid/location#address> "CALLE/ SERRADILLA V 13, MADRID, MADRID".
 <https://freewifizones/madrid/location/433622-4470101> <https://freewifizones/madrid/location#addressName> "SERRADILLA".
-<https://freewifizones/madrid/location/433622-4470101> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/433622-4470101> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/433622-4470101> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/433622-4470101> <https://freewifizones/madrid/location#num> "13".
@@ -1368,7 +1310,6 @@
 <https://freewifizones/madrid/location/439028-4476311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439028-4476311> <https://freewifizones/madrid/location#address> "PLAZA/ MONCLOA V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/439028-4476311> <https://freewifizones/madrid/location#addressName> "Moncloa Palace".
-<https://freewifizones/madrid/location/439028-4476311> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6021629>.
 <https://freewifizones/madrid/location/439028-4476311> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/439028-4476311> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439028-4476311> <https://freewifizones/madrid/location#num> "1".
@@ -1391,7 +1332,6 @@
 <https://freewifizones/madrid/location/442656-4477714> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442656-4477714> <https://freewifizones/madrid/location#address> "CALLE/ MANTUANO V 51, MADRID, MADRID".
 <https://freewifizones/madrid/location/442656-4477714> <https://freewifizones/madrid/location#addressName> "Calle de Mantuano".
-<https://freewifizones/madrid/location/442656-4477714> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27048291>.
 <https://freewifizones/madrid/location/442656-4477714> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442656-4477714> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442656-4477714> <https://freewifizones/madrid/location#num> "51".
@@ -1416,13 +1356,11 @@
 <https://freewifizones/madrid/location/440472-4468702> <https://freewifizones/madrid/location#orientation> "".
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#address> "AVENIDA/ DE LAS GLORIETAS V 19, MADRID, MADRID".
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#addressName> "DE LAS GLORIETAS".
-<https://freewifizones/madrid/location/443950-4469433> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443950-4469433> <https://freewifizones/madrid/location#orientation> "19-21".
 <https://freewifizones/madrid/location/439593-4473220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439593-4473220> <https://freewifizones/madrid/location#address> "AVENIDA/ GRAN VIA DE SAN FRANCISCO V 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/439593-4473220> <https://freewifizones/madrid/location#addressName> "Gran Vía de San Francisco".
-<https://freewifizones/madrid/location/439593-4473220> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q32035437>.
 <https://freewifizones/madrid/location/439593-4473220> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/439593-4473220> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439593-4473220> <https://freewifizones/madrid/location#num> "2".
@@ -1445,7 +1383,6 @@
 <https://freewifizones/madrid/location/443760-4474815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443760-4474815> <https://freewifizones/madrid/location#address> "CALLE/ ENRIQUE D'ALMONTE V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/443760-4474815> <https://freewifizones/madrid/location#addressName> "ENRIQUE D'ALMONTE".
-<https://freewifizones/madrid/location/443760-4474815> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/443760-4474815> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443760-4474815> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443760-4474815> <https://freewifizones/madrid/location#num> "1".
@@ -1468,7 +1405,6 @@
 <https://freewifizones/madrid/location/437044-4469856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/437044-4469856> <https://freewifizones/madrid/location#address> "CALLE/ ALISEDA V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/437044-4469856> <https://freewifizones/madrid/location#addressName> "Cruce de Aliseda".
-<https://freewifizones/madrid/location/437044-4469856> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q97652418>.
 <https://freewifizones/madrid/location/437044-4469856> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/437044-4469856> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/437044-4469856> <https://freewifizones/madrid/location#num> "4".
@@ -1491,7 +1427,6 @@
 <https://freewifizones/madrid/location/444202-4478162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444202-4478162> <https://freewifizones/madrid/location#address> "CALLE/ SAN NEMESIO V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/444202-4478162> <https://freewifizones/madrid/location#addressName> "Sân v?n ??ng Nemesio Díez".
-<https://freewifizones/madrid/location/444202-4478162> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q65171889>.
 <https://freewifizones/madrid/location/444202-4478162> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444202-4478162> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444202-4478162> <https://freewifizones/madrid/location#num> "4".
@@ -1514,7 +1449,6 @@
 <https://freewifizones/madrid/location/434222-4472418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434222-4472418> <https://freewifizones/madrid/location#address> "CARRETERA/ BOADILLA DEL MONTE V 40, MADRID, MADRID".
 <https://freewifizones/madrid/location/434222-4472418> <https://freewifizones/madrid/location#addressName> "Colegio Highlands Los Fresnos, Boadilla del Monte".
-<https://freewifizones/madrid/location/434222-4472418> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q75081793>.
 <https://freewifizones/madrid/location/434222-4472418> <https://freewifizones/madrid/location#addressType> "CARRETERA".
 <https://freewifizones/madrid/location/434222-4472418> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/434222-4472418> <https://freewifizones/madrid/location#num> "40".
@@ -1537,7 +1471,6 @@
 <https://freewifizones/madrid/location/439651-4470300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439651-4470300> <https://freewifizones/madrid/location#address> "AVENIDA/ RAFAELA YBARRA V 49, MADRID, MADRID".
 <https://freewifizones/madrid/location/439651-4470300> <https://freewifizones/madrid/location#addressName> "RAFAELA YBARRA".
-<https://freewifizones/madrid/location/439651-4470300> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/439651-4470300> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/439651-4470300> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439651-4470300> <https://freewifizones/madrid/location#num> "49".
@@ -1560,7 +1493,6 @@
 <https://freewifizones/madrid/location/439814-4470654> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439814-4470654> <https://freewifizones/madrid/location#address> "CALLE/ FELIPE CASTRO V 30, MADRID, MADRID".
 <https://freewifizones/madrid/location/439814-4470654> <https://freewifizones/madrid/location#addressName> "FELIPE CASTRO".
-<https://freewifizones/madrid/location/439814-4470654> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/439814-4470654> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439814-4470654> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439814-4470654> <https://freewifizones/madrid/location#num> "30".
@@ -1585,7 +1517,6 @@
 <https://freewifizones/madrid/location/448550-4470424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448550-4470424> <https://freewifizones/madrid/location#address> "CALLE/ ZAZUAR V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/448550-4470424> <https://freewifizones/madrid/location#addressName> "ZAZUAR".
-<https://freewifizones/madrid/location/448550-4470424> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/448550-4470424> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/448550-4470424> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448550-4470424> <https://freewifizones/madrid/location#num> "4".
@@ -1608,7 +1539,6 @@
 <https://freewifizones/madrid/location/450961-4480464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/450961-4480464> <https://freewifizones/madrid/location#address> "CALLE/ BOTICA V 7, MADRID, MADRID".
 <https://freewifizones/madrid/location/450961-4480464> <https://freewifizones/madrid/location#addressName> "Ribera de Botica Vieja".
-<https://freewifizones/madrid/location/450961-4480464> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q50233563>.
 <https://freewifizones/madrid/location/450961-4480464> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/450961-4480464> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/450961-4480464> <https://freewifizones/madrid/location#num> "7".
@@ -1631,7 +1561,6 @@
 <https://freewifizones/madrid/location/441589-4472918> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441589-4472918> <https://freewifizones/madrid/location#address> "CALLE/ ANCORA V 41, MADRID, MADRID".
 <https://freewifizones/madrid/location/441589-4472918> <https://freewifizones/madrid/location#addressName> "ANCORA".
-<https://freewifizones/madrid/location/441589-4472918> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441589-4472918> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441589-4472918> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441589-4472918> <https://freewifizones/madrid/location#num> "41".
@@ -1654,7 +1583,6 @@
 <https://freewifizones/madrid/location/450175-4478385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/450175-4478385> <https://freewifizones/madrid/location#address> "AVENIDA/ CANTABRIA V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/450175-4478385> <https://freewifizones/madrid/location#addressName> "Cantabrian Zone".
-<https://freewifizones/madrid/location/450175-4478385> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q11105047>.
 <https://freewifizones/madrid/location/450175-4478385> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/450175-4478385> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/450175-4478385> <https://freewifizones/madrid/location#num> "6".
@@ -1677,7 +1605,6 @@
 <https://freewifizones/madrid/location/443192-4477384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443192-4477384> <https://freewifizones/madrid/location#address> "CALLE/ SANTA HORTENSIA V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/443192-4477384> <https://freewifizones/madrid/location#addressName> "Calle de Santa Hortensia, Madrid".
-<https://freewifizones/madrid/location/443192-4477384> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28943619>.
 <https://freewifizones/madrid/location/443192-4477384> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443192-4477384> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443192-4477384> <https://freewifizones/madrid/location#num> "14".
@@ -1700,7 +1627,6 @@
 <https://freewifizones/madrid/location/439004-4479853> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439004-4479853> <https://freewifizones/madrid/location#address> "CALLE/ ANTONIO MACHADO V 22, MADRID, MADRID".
 <https://freewifizones/madrid/location/439004-4479853> <https://freewifizones/madrid/location#addressName> "Calle de Antonio Machado, Madrid".
-<https://freewifizones/madrid/location/439004-4479853> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28793893>.
 <https://freewifizones/madrid/location/439004-4479853> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439004-4479853> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439004-4479853> <https://freewifizones/madrid/location#num> "22".
@@ -1723,7 +1649,6 @@
 <https://freewifizones/madrid/location/441697-4466671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441697-4466671> <https://freewifizones/madrid/location#address> "CALLE/ LEONOR GONGORA V 62, MADRID, MADRID".
 <https://freewifizones/madrid/location/441697-4466671> <https://freewifizones/madrid/location#addressName> "LEONOR GONGORA".
-<https://freewifizones/madrid/location/441697-4466671> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441697-4466671> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441697-4466671> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441697-4466671> <https://freewifizones/madrid/location#num> "62".
@@ -1746,7 +1671,6 @@
 <https://freewifizones/madrid/location/443185-4469752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443185-4469752> <https://freewifizones/madrid/location#address> "CALLE/ YUSTE V 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/443185-4469752> <https://freewifizones/madrid/location#addressName> "YUSTE".
-<https://freewifizones/madrid/location/443185-4469752> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/443185-4469752> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443185-4469752> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443185-4469752> <https://freewifizones/madrid/location#num> "8".
@@ -1769,7 +1693,6 @@
 <https://freewifizones/madrid/location/443247-4476088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443247-4476088> <https://freewifizones/madrid/location#address> "CALLE/ PILAR DE ZARAGOZA V 28, MADRID, MADRID".
 <https://freewifizones/madrid/location/443247-4476088> <https://freewifizones/madrid/location#addressName> "Nuestra Señora del Pilar de Zaragoza (barco)".
-<https://freewifizones/madrid/location/443247-4476088> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6046493>.
 <https://freewifizones/madrid/location/443247-4476088> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443247-4476088> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443247-4476088> <https://freewifizones/madrid/location#num> "28".
@@ -1792,7 +1715,6 @@
 <https://freewifizones/madrid/location/446677-4475004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/446677-4475004> <https://freewifizones/madrid/location#address> "AVENIDA/ INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA V 160, MADRID, MADRID".
 <https://freewifizones/madrid/location/446677-4475004> <https://freewifizones/madrid/location#addressName> "INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA".
-<https://freewifizones/madrid/location/446677-4475004> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/446677-4475004> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/446677-4475004> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/446677-4475004> <https://freewifizones/madrid/location#num> "160".
@@ -1815,7 +1737,6 @@
 <https://freewifizones/madrid/location/445300-4470710> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445300-4470710> <https://freewifizones/madrid/location#address> "CALLE/ GERARDO DIEGO NUM 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/445300-4470710> <https://freewifizones/madrid/location#addressName> "GERARDO DIEGO".
-<https://freewifizones/madrid/location/445300-4470710> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445300-4470710> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445300-4470710> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/445300-4470710> <https://freewifizones/madrid/location#num> "8".
@@ -1838,7 +1759,6 @@
 <https://freewifizones/madrid/location/443671-4471114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443671-4471114> <https://freewifizones/madrid/location#address> "CALLE/ JAVIER DE MIGUEL NUM 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/443671-4471114> <https://freewifizones/madrid/location#addressName> "JAVIER DE MIGUEL".
-<https://freewifizones/madrid/location/443671-4471114> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/443671-4471114> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443671-4471114> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/443671-4471114> <https://freewifizones/madrid/location#num> "10".
@@ -1861,7 +1781,6 @@
 <https://freewifizones/madrid/location/443250-4477339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443250-4477339> <https://freewifizones/madrid/location#address> "CALLE/ SANTA HORTENSIA V 15, MADRID, MADRID".
 <https://freewifizones/madrid/location/443250-4477339> <https://freewifizones/madrid/location#addressName> "Calle de Santa Hortensia, Madrid".
-<https://freewifizones/madrid/location/443250-4477339> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28943619>.
 <https://freewifizones/madrid/location/443250-4477339> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443250-4477339> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443250-4477339> <https://freewifizones/madrid/location#num> "15".
@@ -1884,7 +1803,6 @@
 <https://freewifizones/madrid/location/439956-4471270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439956-4471270> <https://freewifizones/madrid/location#address> "CALLE/ CUESTA V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/439956-4471270> <https://freewifizones/madrid/location#addressName> "Cuesta de Moyano, Madrid".
-<https://freewifizones/madrid/location/439956-4471270> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5794001>.
 <https://freewifizones/madrid/location/439956-4471270> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439956-4471270> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439956-4471270> <https://freewifizones/madrid/location#num> "4".
@@ -1907,7 +1825,6 @@
 <https://freewifizones/madrid/location/434108-4485730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434108-4485730> <https://freewifizones/madrid/location#address> "CALLE/ MIRA EL RIO NUM 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/434108-4485730> <https://freewifizones/madrid/location#addressName> "calle de Mira el Río".
-<https://freewifizones/madrid/location/434108-4485730> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q56121016>.
 <https://freewifizones/madrid/location/434108-4485730> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/434108-4485730> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/434108-4485730> <https://freewifizones/madrid/location#num> "4".
@@ -1930,7 +1847,6 @@
 <https://freewifizones/madrid/location/440360-4473706> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440360-4473706> <https://freewifizones/madrid/location#address> "CALLE/ CABEZA V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/440360-4473706> <https://freewifizones/madrid/location#addressName> "head".
-<https://freewifizones/madrid/location/440360-4473706> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q23640>.
 <https://freewifizones/madrid/location/440360-4473706> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440360-4473706> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440360-4473706> <https://freewifizones/madrid/location#num> "14".
@@ -1953,7 +1869,6 @@
 <https://freewifizones/madrid/location/447365-4474799> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/447365-4474799> <https://freewifizones/madrid/location#address> "CALLE/ SAN ROMAN DEL VALLE V 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/447365-4474799> <https://freewifizones/madrid/location#addressName> "SAN ROMAN DEL VALLE".
-<https://freewifizones/madrid/location/447365-4474799> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/447365-4474799> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/447365-4474799> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/447365-4474799> <https://freewifizones/madrid/location#num> "8".
@@ -1976,7 +1891,6 @@
 <https://freewifizones/madrid/location/445600-4475637> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445600-4475637> <https://freewifizones/madrid/location#address> "CALLE/ ASCAO V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/445600-4475637> <https://freewifizones/madrid/location#addressName> "ASCAO".
-<https://freewifizones/madrid/location/445600-4475637> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445600-4475637> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445600-4475637> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445600-4475637> <https://freewifizones/madrid/location#num> "6".
@@ -1999,7 +1913,6 @@
 <https://freewifizones/madrid/location/439767-4476362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439767-4476362> <https://freewifizones/madrid/location#address> "CALLE/ BLASCO DE GARAY V 40, MADRID, MADRID".
 <https://freewifizones/madrid/location/439767-4476362> <https://freewifizones/madrid/location#addressName> "calle de Blasco de Garay".
-<https://freewifizones/madrid/location/439767-4476362> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q26831099>.
 <https://freewifizones/madrid/location/439767-4476362> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439767-4476362> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439767-4476362> <https://freewifizones/madrid/location#num> "40".
@@ -2022,7 +1935,6 @@
 <https://freewifizones/madrid/location/445758-4480434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445758-4480434> <https://freewifizones/madrid/location#address> "AVENIDA/ BARRANQUILLA V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/445758-4480434> <https://freewifizones/madrid/location#addressName> "Barranquilla".
-<https://freewifizones/madrid/location/445758-4480434> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q65298025>.
 <https://freewifizones/madrid/location/445758-4480434> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/445758-4480434> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445758-4480434> <https://freewifizones/madrid/location#num> "1".
@@ -2045,7 +1957,6 @@
 <https://freewifizones/madrid/location/434854-4472293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434854-4472293> <https://freewifizones/madrid/location#address> "CARRETERA/ BOADILLA DEL MONTE V 13, MADRID, MADRID".
 <https://freewifizones/madrid/location/434854-4472293> <https://freewifizones/madrid/location#addressName> "Colegio Highlands Los Fresnos, Boadilla del Monte".
-<https://freewifizones/madrid/location/434854-4472293> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q75081793>.
 <https://freewifizones/madrid/location/434854-4472293> <https://freewifizones/madrid/location#addressType> "CARRETERA".
 <https://freewifizones/madrid/location/434854-4472293> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/434854-4472293> <https://freewifizones/madrid/location#num> "13".
@@ -2068,7 +1979,6 @@
 <https://freewifizones/madrid/location/440714-4471656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440714-4471656> <https://freewifizones/madrid/location#address> "PASEO/ CHOPERA V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/440714-4471656> <https://freewifizones/madrid/location#addressName> "Paseo de la Chopera, Madrid".
-<https://freewifizones/madrid/location/440714-4471656> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27044458>.
 <https://freewifizones/madrid/location/440714-4471656> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/440714-4471656> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440714-4471656> <https://freewifizones/madrid/location#num> "10".
@@ -2091,7 +2001,6 @@
 <https://freewifizones/madrid/location/434718-4470197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434718-4470197> <https://freewifizones/madrid/location#address> "CALLE/ RAFAEL FINAT V 47, MADRID, MADRID".
 <https://freewifizones/madrid/location/434718-4470197> <https://freewifizones/madrid/location#addressName> "RAFAEL FINAT".
-<https://freewifizones/madrid/location/434718-4470197> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/434718-4470197> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/434718-4470197> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/434718-4470197> <https://freewifizones/madrid/location#num> "47".
@@ -2114,7 +2023,6 @@
 <https://freewifizones/madrid/location/448405-4472929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448405-4472929> <https://freewifizones/madrid/location#address> "AVENIDA/ DAROCA V 342, MADRID, MADRID".
 <https://freewifizones/madrid/location/448405-4472929> <https://freewifizones/madrid/location#addressName> "avenida de Daroca".
-<https://freewifizones/madrid/location/448405-4472929> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q62107216>.
 <https://freewifizones/madrid/location/448405-4472929> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/448405-4472929> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448405-4472929> <https://freewifizones/madrid/location#num> "342".
@@ -2137,7 +2045,6 @@
 <https://freewifizones/madrid/location/439752-4475140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439752-4475140> <https://freewifizones/madrid/location#address> "CALLE/ DOS AMIGOS V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/439752-4475140> <https://freewifizones/madrid/location#addressName> "Calle de los Dos Amigos, Madrid".
-<https://freewifizones/madrid/location/439752-4475140> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q29840780>.
 <https://freewifizones/madrid/location/439752-4475140> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439752-4475140> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439752-4475140> <https://freewifizones/madrid/location#num> "4".
@@ -2160,7 +2067,6 @@
 <https://freewifizones/madrid/location/447057-4472576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#address> "CALLE/ LADERA DE LOS ALMENDROS V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#addressName> "LADERA DE LOS ALMENDROS".
-<https://freewifizones/madrid/location/447057-4472576> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#num> "6".
@@ -2172,6 +2078,7 @@
 <https://freewifizones/madrid/location/447057-4472576> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5756>.
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#cp> "28032".
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#neighborhood> "Casco Histórico de Vicálvaro".
+<https://freewifizones/madrid/location/447057-4472576> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#district> "Vicálvaro".
 <https://freewifizones/madrid/location/447057-4472576> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q589403>.
 <https://freewifizones/madrid/location/447057-4472576> <https://freewifizones/madrid/location#xcoordinate> "447057".
@@ -2183,7 +2090,6 @@
 <https://freewifizones/madrid/location/438871-4476206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/438871-4476206> <https://freewifizones/madrid/location#address> "PASEO/ MORET V 3, MADRID, MADRID".
 <https://freewifizones/madrid/location/438871-4476206> <https://freewifizones/madrid/location#addressName> "Moretum".
-<https://freewifizones/madrid/location/438871-4476206> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q766999>.
 <https://freewifizones/madrid/location/438871-4476206> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/438871-4476206> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/438871-4476206> <https://freewifizones/madrid/location#num> "3".
@@ -2206,7 +2112,6 @@
 <https://freewifizones/madrid/location/444814-4475167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444814-4475167> <https://freewifizones/madrid/location#address> "CALLE/ NUESTRA SEÑORA DEL VILLAR NUM 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/444814-4475167> <https://freewifizones/madrid/location#addressName> "NUESTRA SEÑORA DEL VILLAR".
-<https://freewifizones/madrid/location/444814-4475167> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444814-4475167> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444814-4475167> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/444814-4475167> <https://freewifizones/madrid/location#num> "6".
@@ -2229,7 +2134,6 @@
 <https://freewifizones/madrid/location/439977-4481329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439977-4481329> <https://freewifizones/madrid/location#address> "AVENIDA/ MONFORTE DE LEMOS V 38, MADRID, MADRID".
 <https://freewifizones/madrid/location/439977-4481329> <https://freewifizones/madrid/location#addressName> "Avenida de Monforte de Lemos, Madrid".
-<https://freewifizones/madrid/location/439977-4481329> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q52683954>.
 <https://freewifizones/madrid/location/439977-4481329> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/439977-4481329> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439977-4481329> <https://freewifizones/madrid/location#num> "38".
@@ -2252,7 +2156,6 @@
 <https://freewifizones/madrid/location/439852-4478398> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439852-4478398> <https://freewifizones/madrid/location#address> "CALLE/ LEÑEROS V 25, MADRID, MADRID".
 <https://freewifizones/madrid/location/439852-4478398> <https://freewifizones/madrid/location#addressName> "Leñero Estela".
-<https://freewifizones/madrid/location/439852-4478398> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q23807391>.
 <https://freewifizones/madrid/location/439852-4478398> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439852-4478398> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439852-4478398> <https://freewifizones/madrid/location#num> "25".
@@ -2275,7 +2178,6 @@
 <https://freewifizones/madrid/location/436428-4472623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/436428-4472623> <https://freewifizones/madrid/location#address> "CALLE/ CASTROSERNA V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/436428-4472623> <https://freewifizones/madrid/location#addressName> "CASTROSERNA".
-<https://freewifizones/madrid/location/436428-4472623> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/436428-4472623> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/436428-4472623> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/436428-4472623> <https://freewifizones/madrid/location#num> "4".
@@ -2298,7 +2200,6 @@
 <https://freewifizones/madrid/location/446786-4475211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/446786-4475211> <https://freewifizones/madrid/location#address> "AVENIDA/ INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA V 160, MADRID, MADRID".
 <https://freewifizones/madrid/location/446786-4475211> <https://freewifizones/madrid/location#addressName> "INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA".
-<https://freewifizones/madrid/location/446786-4475211> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/446786-4475211> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/446786-4475211> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/446786-4475211> <https://freewifizones/madrid/location#num> "160".
@@ -2321,7 +2222,6 @@
 <https://freewifizones/madrid/location/443608-4475625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443608-4475625> <https://freewifizones/madrid/location#address> "CALLE/ MAESTRO ALONSO V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/443608-4475625> <https://freewifizones/madrid/location#addressName> "Calle del Maestro Alonso, Madrid".
-<https://freewifizones/madrid/location/443608-4475625> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q29914631>.
 <https://freewifizones/madrid/location/443608-4475625> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443608-4475625> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443608-4475625> <https://freewifizones/madrid/location#num> "6".
@@ -2344,7 +2244,6 @@
 <https://freewifizones/madrid/location/441317-4466094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441317-4466094> <https://freewifizones/madrid/location#address> "PLAZA/ PINAZO V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441317-4466094> <https://freewifizones/madrid/location#addressName> "PINAZO".
-<https://freewifizones/madrid/location/441317-4466094> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441317-4466094> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/441317-4466094> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441317-4466094> <https://freewifizones/madrid/location#num> "1".
@@ -2367,7 +2266,6 @@
 <https://freewifizones/madrid/location/445626-4472436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445626-4472436> <https://freewifizones/madrid/location#address> "CALLE/ ENCOMIENDA DE PALACIOS V 190, MADRID, MADRID".
 <https://freewifizones/madrid/location/445626-4472436> <https://freewifizones/madrid/location#addressName> "ENCOMIENDA DE PALACIOS".
-<https://freewifizones/madrid/location/445626-4472436> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445626-4472436> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445626-4472436> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445626-4472436> <https://freewifizones/madrid/location#num> "190".
@@ -2390,7 +2288,6 @@
 <https://freewifizones/madrid/location/446460-4479382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/446460-4479382> <https://freewifizones/madrid/location#address> "CALLE/ RAMON POWER V 26, MADRID, MADRID".
 <https://freewifizones/madrid/location/446460-4479382> <https://freewifizones/madrid/location#addressName> "RAMON POWER".
-<https://freewifizones/madrid/location/446460-4479382> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/446460-4479382> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/446460-4479382> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/446460-4479382> <https://freewifizones/madrid/location#num> "26".
@@ -2414,7 +2311,6 @@
 <https://freewifizones/madrid/location/440198-4478452> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440198-4478452> <https://freewifizones/madrid/location#address> "CALLE/ PAMPLONA V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/440198-4478452> <https://freewifizones/madrid/location#addressName> "Pamplona".
-<https://freewifizones/madrid/location/440198-4478452> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q7129440>.
 <https://freewifizones/madrid/location/440198-4478452> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440198-4478452> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440198-4478452> <https://freewifizones/madrid/location#num> "14".
@@ -2437,7 +2333,6 @@
 <https://freewifizones/madrid/location/442750-4473860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442750-4473860> <https://freewifizones/madrid/location#address> "CALLE/ PIO BAROJA V 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/442750-4473860> <https://freewifizones/madrid/location#addressName> "Ageda (Pío Baroja)".
-<https://freewifizones/madrid/location/442750-4473860> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q12252842>.
 <https://freewifizones/madrid/location/442750-4473860> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442750-4473860> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442750-4473860> <https://freewifizones/madrid/location#num> "8".
@@ -2460,7 +2355,6 @@
 <https://freewifizones/madrid/location/446058-4476602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/446058-4476602> <https://freewifizones/madrid/location#address> "AVENIDA/ INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/446058-4476602> <https://freewifizones/madrid/location#addressName> "INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA".
-<https://freewifizones/madrid/location/446058-4476602> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/446058-4476602> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/446058-4476602> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/446058-4476602> <https://freewifizones/madrid/location#num> "14".
@@ -2483,7 +2377,6 @@
 <https://freewifizones/madrid/location/443360-4477547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443360-4477547> <https://freewifizones/madrid/location#address> "CALLE/ SANTA HORTENSIA V 15, MADRID, MADRID".
 <https://freewifizones/madrid/location/443360-4477547> <https://freewifizones/madrid/location#addressName> "Calle de Santa Hortensia, Madrid".
-<https://freewifizones/madrid/location/443360-4477547> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28943619>.
 <https://freewifizones/madrid/location/443360-4477547> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443360-4477547> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443360-4477547> <https://freewifizones/madrid/location#num> "15".
@@ -2507,7 +2400,6 @@
 <https://freewifizones/madrid/location/444305-4478401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444305-4478401> <https://freewifizones/madrid/location#address> "CALLE/ BUESO PINEDA NUM 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/444305-4478401> <https://freewifizones/madrid/location#addressName> "Calle de Bueso de Pineda, Madrid".
-<https://freewifizones/madrid/location/444305-4478401> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q55942660>.
 <https://freewifizones/madrid/location/444305-4478401> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444305-4478401> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/444305-4478401> <https://freewifizones/madrid/location#num> "8".
@@ -2530,7 +2422,6 @@
 <https://freewifizones/madrid/location/438743-4471075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/438743-4471075> <https://freewifizones/madrid/location#address> "CALLE/ ANTONIA LANCHA V 54, MADRID, MADRID".
 <https://freewifizones/madrid/location/438743-4471075> <https://freewifizones/madrid/location#addressName> "ANTONIA LANCHA".
-<https://freewifizones/madrid/location/438743-4471075> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/438743-4471075> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/438743-4471075> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/438743-4471075> <https://freewifizones/madrid/location#num> "54".
@@ -2553,7 +2444,6 @@
 <https://freewifizones/madrid/location/440681-4477037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440681-4477037> <https://freewifizones/madrid/location#address> "CALLE/ SANTA ENGRACIA V 116, MADRID, MADRID".
 <https://freewifizones/madrid/location/440681-4477037> <https://freewifizones/madrid/location#addressName> "SANTA ENGRACIA".
-<https://freewifizones/madrid/location/440681-4477037> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/440681-4477037> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440681-4477037> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440681-4477037> <https://freewifizones/madrid/location#num> "116".
@@ -2576,7 +2466,6 @@
 <https://freewifizones/madrid/location/450174-4478461> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/450174-4478461> <https://freewifizones/madrid/location#address> "PLAZA/ NAVIO V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/450174-4478461> <https://freewifizones/madrid/location#addressName> "Navio Roman Fort".
-<https://freewifizones/madrid/location/450174-4478461> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q91915311>.
 <https://freewifizones/madrid/location/450174-4478461> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/450174-4478461> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/450174-4478461> <https://freewifizones/madrid/location#num> "4".
@@ -2599,7 +2488,6 @@
 <https://freewifizones/madrid/location/447264-4469823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#address> "CALLE/ PICO MAMPODRE V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#addressName> "PICO MAMPODRE".
-<https://freewifizones/madrid/location/447264-4469823> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#num> "6".
@@ -2611,6 +2499,7 @@
 <https://freewifizones/madrid/location/447264-4469823> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5756>.
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#cp> "28031".
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#neighborhood> "Casco Histórico de Vallecas".
+<https://freewifizones/madrid/location/447264-4469823> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#district> "Villa de Vallecas".
 <https://freewifizones/madrid/location/447264-4469823> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1947988>.
 <https://freewifizones/madrid/location/447264-4469823> <https://freewifizones/madrid/location#xcoordinate> "447264".
@@ -2621,7 +2510,6 @@
 <https://freewifizones/madrid/location/448490-4472608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448490-4472608> <https://freewifizones/madrid/location#address> "AVENIDA/ REAL V 12, MADRID, MADRID".
 <https://freewifizones/madrid/location/448490-4472608> <https://freewifizones/madrid/location#addressName> "manifestation".
-<https://freewifizones/madrid/location/448490-4472608> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q286583>.
 <https://freewifizones/madrid/location/448490-4472608> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/448490-4472608> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448490-4472608> <https://freewifizones/madrid/location#num> "12".
@@ -2644,7 +2532,6 @@
 <https://freewifizones/madrid/location/444709-4476040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444709-4476040> <https://freewifizones/madrid/location#address> "CALLE/ SIENA V 52, MADRID, MADRID".
 <https://freewifizones/madrid/location/444709-4476040> <https://freewifizones/madrid/location#addressName> "Secure Information Exchange Network Application".
-<https://freewifizones/madrid/location/444709-4476040> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q26834350>.
 <https://freewifizones/madrid/location/444709-4476040> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444709-4476040> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444709-4476040> <https://freewifizones/madrid/location#num> "52".
@@ -2667,7 +2554,6 @@
 <https://freewifizones/madrid/location/442001-4471735> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442001-4471735> <https://freewifizones/madrid/location#address> "CALLE/ DOCTOR MARTIN AREVALO V 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/442001-4471735> <https://freewifizones/madrid/location#addressName> "DOCTOR MARTIN AREVALO".
-<https://freewifizones/madrid/location/442001-4471735> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/442001-4471735> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442001-4471735> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442001-4471735> <https://freewifizones/madrid/location#num> "2".
@@ -2690,7 +2576,6 @@
 <https://freewifizones/madrid/location/444360-4471652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444360-4471652> <https://freewifizones/madrid/location#address> "CALLE/ RISCO DE PELOCHE V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/444360-4471652> <https://freewifizones/madrid/location#addressName> "RISCO DE PELOCHE".
-<https://freewifizones/madrid/location/444360-4471652> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444360-4471652> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444360-4471652> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444360-4471652> <https://freewifizones/madrid/location#num> "14".
@@ -2713,7 +2598,6 @@
 <https://freewifizones/madrid/location/434105-4485730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434105-4485730> <https://freewifizones/madrid/location#address> "CALLE/ MIRA EL RIO V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/434105-4485730> <https://freewifizones/madrid/location#addressName> "calle de Mira el Río".
-<https://freewifizones/madrid/location/434105-4485730> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q56121016>.
 <https://freewifizones/madrid/location/434105-4485730> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/434105-4485730> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/434105-4485730> <https://freewifizones/madrid/location#num> "4".
@@ -2736,7 +2620,6 @@
 <https://freewifizones/madrid/location/433786-4470559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/433786-4470559> <https://freewifizones/madrid/location#address> "CALLE/ FUENTE DEL TIRO V 72, MADRID, MADRID".
 <https://freewifizones/madrid/location/433786-4470559> <https://freewifizones/madrid/location#addressName> "FUENTE DEL TIRO".
-<https://freewifizones/madrid/location/433786-4470559> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/433786-4470559> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/433786-4470559> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/433786-4470559> <https://freewifizones/madrid/location#num> "72".
@@ -2759,7 +2642,6 @@
 <https://freewifizones/madrid/location/433370-4478937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/433370-4478937> <https://freewifizones/madrid/location#address> "CALLE/ DE LA ZARZA V 20, MADRID, MADRID".
 <https://freewifizones/madrid/location/433370-4478937> <https://freewifizones/madrid/location#addressName> "Cabezo de la Zarza".
-<https://freewifizones/madrid/location/433370-4478937> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q97245231>.
 <https://freewifizones/madrid/location/433370-4478937> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/433370-4478937> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/433370-4478937> <https://freewifizones/madrid/location#num> "20".
@@ -2782,7 +2664,6 @@
 <https://freewifizones/madrid/location/437813-4471853> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/437813-4471853> <https://freewifizones/madrid/location#address> "CALLE/ SOLDADO JOSE MARIA REY V 44, MADRID, MADRID".
 <https://freewifizones/madrid/location/437813-4471853> <https://freewifizones/madrid/location#addressName> "SOLDADO JOSE MARIA REY".
-<https://freewifizones/madrid/location/437813-4471853> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/437813-4471853> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/437813-4471853> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/437813-4471853> <https://freewifizones/madrid/location#num> "44".
@@ -2805,7 +2686,6 @@
 <https://freewifizones/madrid/location/441066-4467547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441066-4467547> <https://freewifizones/madrid/location#address> "CALLE/ LOS BOHEMIOS V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441066-4467547> <https://freewifizones/madrid/location#addressName> "LOS BOHEMIOS".
-<https://freewifizones/madrid/location/441066-4467547> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441066-4467547> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441066-4467547> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441066-4467547> <https://freewifizones/madrid/location#num> "1".
@@ -2828,7 +2708,6 @@
 <https://freewifizones/madrid/location/440579-4470866> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440579-4470866> <https://freewifizones/madrid/location#address> "CALLE/ JULIO AGUIRRE V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/440579-4470866> <https://freewifizones/madrid/location#addressName> "JULIO AGUIRRE".
-<https://freewifizones/madrid/location/440579-4470866> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/440579-4470866> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440579-4470866> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440579-4470866> <https://freewifizones/madrid/location#num> "10".
@@ -2851,7 +2730,6 @@
 <https://freewifizones/madrid/location/444717-4474895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444717-4474895> <https://freewifizones/madrid/location#address> "CALLE/ POETA BLAS DE OTERO V 81, MADRID, MADRID".
 <https://freewifizones/madrid/location/444717-4474895> <https://freewifizones/madrid/location#addressName> "POETA BLAS DE OTERO".
-<https://freewifizones/madrid/location/444717-4474895> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444717-4474895> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444717-4474895> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444717-4474895> <https://freewifizones/madrid/location#num> "81".
@@ -2874,7 +2752,6 @@
 <https://freewifizones/madrid/location/445974-4472263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445974-4472263> <https://freewifizones/madrid/location#address> "CALLE/ FUENTE CARRANTONA V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/445974-4472263> <https://freewifizones/madrid/location#addressName> "Calle de la Fuente Carrantona, Madrid".
-<https://freewifizones/madrid/location/445974-4472263> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28936137>.
 <https://freewifizones/madrid/location/445974-4472263> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445974-4472263> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445974-4472263> <https://freewifizones/madrid/location#num> "10".
@@ -2897,7 +2774,6 @@
 <https://freewifizones/madrid/location/444577-4473403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444577-4473403> <https://freewifizones/madrid/location#address> "CALLE/ ARROYO BELINCOSO V 9, MADRID, MADRID".
 <https://freewifizones/madrid/location/444577-4473403> <https://freewifizones/madrid/location#addressName> "ARROYO BELINCOSO".
-<https://freewifizones/madrid/location/444577-4473403> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/444577-4473403> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444577-4473403> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444577-4473403> <https://freewifizones/madrid/location#num> "9".
@@ -2920,7 +2796,6 @@
 <https://freewifizones/madrid/location/436578-4473235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/436578-4473235> <https://freewifizones/madrid/location#address> "CALLE/ EL GRECO V 29, MADRID, MADRID".
 <https://freewifizones/madrid/location/436578-4473235> <https://freewifizones/madrid/location#addressName> "El Grecohof".
-<https://freewifizones/madrid/location/436578-4473235> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q19116199>.
 <https://freewifizones/madrid/location/436578-4473235> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/436578-4473235> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/436578-4473235> <https://freewifizones/madrid/location#num> "29".
@@ -2943,7 +2818,6 @@
 <https://freewifizones/madrid/location/440258-4477792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440258-4477792> <https://freewifizones/madrid/location#address> "CALLE/ ALMANSA V 9, MADRID, MADRID".
 <https://freewifizones/madrid/location/440258-4477792> <https://freewifizones/madrid/location#addressName> "Calle de Almansa, Madrid".
-<https://freewifizones/madrid/location/440258-4477792> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q54564278>.
 <https://freewifizones/madrid/location/440258-4477792> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440258-4477792> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440258-4477792> <https://freewifizones/madrid/location#num> "9".
@@ -2966,7 +2840,6 @@
 <https://freewifizones/madrid/location/434982-4470177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434982-4470177> <https://freewifizones/madrid/location#address> "CALLE/ RODRIGO DE ARANA V 50, MADRID, MADRID".
 <https://freewifizones/madrid/location/434982-4470177> <https://freewifizones/madrid/location#addressName> "RODRIGO DE ARANA".
-<https://freewifizones/madrid/location/434982-4470177> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/434982-4470177> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/434982-4470177> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/434982-4470177> <https://freewifizones/madrid/location#num> "50".
@@ -2989,7 +2862,6 @@
 <https://freewifizones/madrid/location/440474-4473465> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440474-4473465> <https://freewifizones/madrid/location#address> "CALLE/ OLIVAR V 46, MADRID, MADRID".
 <https://freewifizones/madrid/location/440474-4473465> <https://freewifizones/madrid/location#addressName> "olivary body".
-<https://freewifizones/madrid/location/440474-4473465> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q452983>.
 <https://freewifizones/madrid/location/440474-4473465> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440474-4473465> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440474-4473465> <https://freewifizones/madrid/location#num> "46".
@@ -3012,7 +2884,6 @@
 <https://freewifizones/madrid/location/442496-4477359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442496-4477359> <https://freewifizones/madrid/location#address> "CALLE/ PRINCIPE DE VERGARA V 142, MADRID, MADRID".
 <https://freewifizones/madrid/location/442496-4477359> <https://freewifizones/madrid/location#addressName> "calle del Príncipe de Vergara".
-<https://freewifizones/madrid/location/442496-4477359> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5741020>.
 <https://freewifizones/madrid/location/442496-4477359> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442496-4477359> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442496-4477359> <https://freewifizones/madrid/location#num> "142".
@@ -3035,7 +2906,6 @@
 <https://freewifizones/madrid/location/443605-4475629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443605-4475629> <https://freewifizones/madrid/location#address> "CALLE/ MAESTRO ALONSO V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/443605-4475629> <https://freewifizones/madrid/location#addressName> "Calle del Maestro Alonso, Madrid".
-<https://freewifizones/madrid/location/443605-4475629> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q29914631>.
 <https://freewifizones/madrid/location/443605-4475629> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443605-4475629> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443605-4475629> <https://freewifizones/madrid/location#num> "6".
@@ -3058,7 +2928,6 @@
 <https://freewifizones/madrid/location/440472-4465148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440472-4465148> <https://freewifizones/madrid/location#address> "ACCESO/ COLONIA MARCONI V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/440472-4465148> <https://freewifizones/madrid/location#addressName> "COLONIA MARCONI".
-<https://freewifizones/madrid/location/440472-4465148> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/440472-4465148> <https://freewifizones/madrid/location#addressType> "ACCESO".
 <https://freewifizones/madrid/location/440472-4465148> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440472-4465148> <https://freewifizones/madrid/location#num> "4".
@@ -3081,7 +2950,6 @@
 <https://freewifizones/madrid/location/448148-4476402> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448148-4476402> <https://freewifizones/madrid/location#address> "CALLE/ ALIAGA V 5, MADRID, MADRID".
 <https://freewifizones/madrid/location/448148-4476402> <https://freewifizones/madrid/location#addressName> "gorse".
-<https://freewifizones/madrid/location/448148-4476402> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q75827101>.
 <https://freewifizones/madrid/location/448148-4476402> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/448148-4476402> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448148-4476402> <https://freewifizones/madrid/location#num> "5".
@@ -3104,7 +2972,6 @@
 <https://freewifizones/madrid/location/438232-4470949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/438232-4470949> <https://freewifizones/madrid/location#address> "AVENIDA/ OPORTO V 78, MADRID, MADRID".
 <https://freewifizones/madrid/location/438232-4470949> <https://freewifizones/madrid/location#addressName> "Oportohof".
-<https://freewifizones/madrid/location/438232-4470949> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q19396623>.
 <https://freewifizones/madrid/location/438232-4470949> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/438232-4470949> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/438232-4470949> <https://freewifizones/madrid/location#num> "78".
@@ -3127,7 +2994,6 @@
 <https://freewifizones/madrid/location/438850-4481314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/438850-4481314> <https://freewifizones/madrid/location#address> "CALLE/ ISLA DE ONS V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/438850-4481314> <https://freewifizones/madrid/location#addressName> "ISLA DE ONS".
-<https://freewifizones/madrid/location/438850-4481314> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/438850-4481314> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/438850-4481314> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/438850-4481314> <https://freewifizones/madrid/location#num> "14".
@@ -3150,7 +3016,6 @@
 <https://freewifizones/madrid/location/437830-4473132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/437830-4473132> <https://freewifizones/madrid/location#address> "CALLE/ MARIA DEL CARMEN V 65, MADRID, MADRID".
 <https://freewifizones/madrid/location/437830-4473132> <https://freewifizones/madrid/location#addressName> "MARIA DEL CARMEN".
-<https://freewifizones/madrid/location/437830-4473132> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/437830-4473132> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/437830-4473132> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/437830-4473132> <https://freewifizones/madrid/location#num> "65".
@@ -3173,7 +3038,6 @@
 <https://freewifizones/madrid/location/441460-4466191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441460-4466191> <https://freewifizones/madrid/location#address> "PLAZA/ PINAZO V 9, MADRID, MADRID".
 <https://freewifizones/madrid/location/441460-4466191> <https://freewifizones/madrid/location#addressName> "PINAZO".
-<https://freewifizones/madrid/location/441460-4466191> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441460-4466191> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/441460-4466191> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441460-4466191> <https://freewifizones/madrid/location#num> "9".
@@ -3196,7 +3060,6 @@
 <https://freewifizones/madrid/location/441247-4469238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441247-4469238> <https://freewifizones/madrid/location#address> "CALLE/ ESTAFETA V 33, MADRID, MADRID".
 <https://freewifizones/madrid/location/441247-4469238> <https://freewifizones/madrid/location#addressName> "post office".
-<https://freewifizones/madrid/location/441247-4469238> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q35054>.
 <https://freewifizones/madrid/location/441247-4469238> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441247-4469238> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441247-4469238> <https://freewifizones/madrid/location#num> "33".
@@ -3219,7 +3082,6 @@
 <https://freewifizones/madrid/location/441277-4466932> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441277-4466932> <https://freewifizones/madrid/location#address> "CALLE/ MARIA MARTINEZ OVIOL V 12, MADRID, MADRID".
 <https://freewifizones/madrid/location/441277-4466932> <https://freewifizones/madrid/location#addressName> "MARIA MARTINEZ OVIOL".
-<https://freewifizones/madrid/location/441277-4466932> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441277-4466932> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441277-4466932> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441277-4466932> <https://freewifizones/madrid/location#num> "12".
@@ -3242,7 +3104,6 @@
 <https://freewifizones/madrid/location/443532-4471268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443532-4471268> <https://freewifizones/madrid/location#address> "CALLE/ SIERRA CARBONERA V 74, MADRID, MADRID".
 <https://freewifizones/madrid/location/443532-4471268> <https://freewifizones/madrid/location#addressName> "SIERRA CARBONERA".
-<https://freewifizones/madrid/location/443532-4471268> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/443532-4471268> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443532-4471268> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443532-4471268> <https://freewifizones/madrid/location#num> "74".
@@ -3265,7 +3126,6 @@
 <https://freewifizones/madrid/location/440628-4478947> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440628-4478947> <https://freewifizones/madrid/location#address> "CALLE/ BRAVO MURILLO V 251, MADRID, MADRID".
 <https://freewifizones/madrid/location/440628-4478947> <https://freewifizones/madrid/location#addressName> "BRAVO MURILLO".
-<https://freewifizones/madrid/location/440628-4478947> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/440628-4478947> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440628-4478947> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440628-4478947> <https://freewifizones/madrid/location#num> "251".
@@ -3288,7 +3148,6 @@
 <https://freewifizones/madrid/location/441233-4481384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441233-4481384> <https://freewifizones/madrid/location#address> "CALLE/ ARZOBISPO MORCILLO V 7, MADRID, MADRID".
 <https://freewifizones/madrid/location/441233-4481384> <https://freewifizones/madrid/location#addressName> "ARZOBISPO MORCILLO".
-<https://freewifizones/madrid/location/441233-4481384> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441233-4481384> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441233-4481384> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441233-4481384> <https://freewifizones/madrid/location#num> "7".
@@ -3311,7 +3170,6 @@
 <https://freewifizones/madrid/location/441699-4482933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441699-4482933> <https://freewifizones/madrid/location#address> "PLAZA/ ISLAS AZORES V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441699-4482933> <https://freewifizones/madrid/location#addressName> "island of Portugal".
-<https://freewifizones/madrid/location/441699-4482933> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q41791782>.
 <https://freewifizones/madrid/location/441699-4482933> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/441699-4482933> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441699-4482933> <https://freewifizones/madrid/location#num> "1".
@@ -3334,7 +3192,6 @@
 <https://freewifizones/madrid/location/448368-4472576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448368-4472576> <https://freewifizones/madrid/location#address> "CALLE/ LAGO TITICACA V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/448368-4472576> <https://freewifizones/madrid/location#addressName> "Toma del lago Titicaca".
-<https://freewifizones/madrid/location/448368-4472576> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6148304>.
 <https://freewifizones/madrid/location/448368-4472576> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/448368-4472576> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448368-4472576> <https://freewifizones/madrid/location#num> "10".
@@ -3357,7 +3214,6 @@
 <https://freewifizones/madrid/location/441277-4474496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441277-4474496> <https://freewifizones/madrid/location#address> "PLAZA/ CIBELES V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441277-4474496> <https://freewifizones/madrid/location#addressName> "CIBELES".
-<https://freewifizones/madrid/location/441277-4474496> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441277-4474496> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/441277-4474496> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441277-4474496> <https://freewifizones/madrid/location#num> "1".
@@ -3380,7 +3236,6 @@
 <https://freewifizones/madrid/location/439759-4475508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439759-4475508> <https://freewifizones/madrid/location#address> "CALLE/ CONDE DUQUE V 11, MADRID, MADRID".
 <https://freewifizones/madrid/location/439759-4475508> <https://freewifizones/madrid/location#addressName> "calle del Conde Duque".
-<https://freewifizones/madrid/location/439759-4475508> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27031730>.
 <https://freewifizones/madrid/location/439759-4475508> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439759-4475508> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439759-4475508> <https://freewifizones/madrid/location#num> "11".
@@ -3403,7 +3258,6 @@
 <https://freewifizones/madrid/location/439820-4474291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439820-4474291> <https://freewifizones/madrid/location#address> "PLAZA/ VILLA V 5, MADRID, MADRID".
 <https://freewifizones/madrid/location/439820-4474291> <https://freewifizones/madrid/location#addressName> "villa".
-<https://freewifizones/madrid/location/439820-4474291> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3950>.
 <https://freewifizones/madrid/location/439820-4474291> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/439820-4474291> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439820-4474291> <https://freewifizones/madrid/location#num> "5".
@@ -3426,7 +3280,6 @@
 <https://freewifizones/madrid/location/442398-4471825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442398-4471825> <https://freewifizones/madrid/location#address> "CALLE/ MENDEZ ALVARO V 83, MADRID, MADRID".
 <https://freewifizones/madrid/location/442398-4471825> <https://freewifizones/madrid/location#addressName> "Calle de Méndez Álvaro, Madrid".
-<https://freewifizones/madrid/location/442398-4471825> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5553104>.
 <https://freewifizones/madrid/location/442398-4471825> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/442398-4471825> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442398-4471825> <https://freewifizones/madrid/location#num> "83".
@@ -3449,7 +3302,6 @@
 <https://freewifizones/madrid/location/445975-4476345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445975-4476345> <https://freewifizones/madrid/location#address> "AVENIDA/ INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA V 16, MADRID, MADRID".
 <https://freewifizones/madrid/location/445975-4476345> <https://freewifizones/madrid/location#addressName> "INSTITUCION LIBRE DE ENSE&amp;Ntilde;ANZA".
-<https://freewifizones/madrid/location/445975-4476345> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/445975-4476345> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/445975-4476345> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445975-4476345> <https://freewifizones/madrid/location#num> "16".
@@ -3472,7 +3324,6 @@
 <https://freewifizones/madrid/location/440550-4475251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440550-4475251> <https://freewifizones/madrid/location#address> "CALLE/ FUENCARRAL V 78, MADRID, MADRID".
 <https://freewifizones/madrid/location/440550-4475251> <https://freewifizones/madrid/location#addressName> "calle de Fuencarral".
-<https://freewifizones/madrid/location/440550-4475251> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5740840>.
 <https://freewifizones/madrid/location/440550-4475251> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440550-4475251> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440550-4475251> <https://freewifizones/madrid/location#num> "78".
@@ -3495,7 +3346,6 @@
 <https://freewifizones/madrid/location/439691-4473738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439691-4473738> <https://freewifizones/madrid/location#address> "PLAZA/ SAN ANDRES V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/439691-4473738> <https://freewifizones/madrid/location#addressName> "San Andrés".
-<https://freewifizones/madrid/location/439691-4473738> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q7413241>.
 <https://freewifizones/madrid/location/439691-4473738> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/439691-4473738> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439691-4473738> <https://freewifizones/madrid/location#num> "1".
@@ -3518,7 +3368,6 @@
 <https://freewifizones/madrid/location/440713-4471660> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440713-4471660> <https://freewifizones/madrid/location#address> "PASEO/ CHOPERA V 10, MADRID, MADRID".
 <https://freewifizones/madrid/location/440713-4471660> <https://freewifizones/madrid/location#addressName> "Paseo de la Chopera, Madrid".
-<https://freewifizones/madrid/location/440713-4471660> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27044458>.
 <https://freewifizones/madrid/location/440713-4471660> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/440713-4471660> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440713-4471660> <https://freewifizones/madrid/location#num> "10".
@@ -3541,7 +3390,6 @@
 <https://freewifizones/madrid/location/434150-4485754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/434150-4485754> <https://freewifizones/madrid/location#address> "PLAZA/ EL PARDO V 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/434150-4485754> <https://freewifizones/madrid/location#addressName> "EL PARDO".
-<https://freewifizones/madrid/location/434150-4485754> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/434150-4485754> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/434150-4485754> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/434150-4485754> <https://freewifizones/madrid/location#num> "2".
@@ -3564,7 +3412,6 @@
 <https://freewifizones/madrid/location/441701-4482933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441701-4482933> <https://freewifizones/madrid/location#address> "PLAZA/ ISLAS AZORES V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441701-4482933> <https://freewifizones/madrid/location#addressName> "island of Portugal".
-<https://freewifizones/madrid/location/441701-4482933> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q41791782>.
 <https://freewifizones/madrid/location/441701-4482933> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/441701-4482933> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441701-4482933> <https://freewifizones/madrid/location#num> "1".
@@ -3587,7 +3434,6 @@
 <https://freewifizones/madrid/location/441594-4472433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441594-4472433> <https://freewifizones/madrid/location#address> "CALLE/ BUSTAMANTE V 16, MADRID, MADRID".
 <https://freewifizones/madrid/location/441594-4472433> <https://freewifizones/madrid/location#addressName> "calle de Bustamante".
-<https://freewifizones/madrid/location/441594-4472433> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27430098>.
 <https://freewifizones/madrid/location/441594-4472433> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441594-4472433> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441594-4472433> <https://freewifizones/madrid/location#num> "16".
@@ -3610,7 +3456,6 @@
 <https://freewifizones/madrid/location/451025-4480617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/451025-4480617> <https://freewifizones/madrid/location#address> "PLAZA/ MERCURIO V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/451025-4480617> <https://freewifizones/madrid/location#addressName> "Mercurion".
-<https://freewifizones/madrid/location/451025-4480617> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q19343781>.
 <https://freewifizones/madrid/location/451025-4480617> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/451025-4480617> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/451025-4480617> <https://freewifizones/madrid/location#num> "1".
@@ -3633,7 +3478,6 @@
 <https://freewifizones/madrid/location/437305-4470969> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/437305-4470969> <https://freewifizones/madrid/location#address> "CALLE/ UTEBO V 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/437305-4470969> <https://freewifizones/madrid/location#addressName> "UTEBO".
-<https://freewifizones/madrid/location/437305-4470969> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/437305-4470969> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/437305-4470969> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/437305-4470969> <https://freewifizones/madrid/location#num> "8".
@@ -3656,7 +3500,6 @@
 <https://freewifizones/madrid/location/440800-4473667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440800-4473667> <https://freewifizones/madrid/location#address> "CALLE/ ATOCHA V 70, MADRID, MADRID".
 <https://freewifizones/madrid/location/440800-4473667> <https://freewifizones/madrid/location#addressName> "Calle de Atocha".
-<https://freewifizones/madrid/location/440800-4473667> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5492657>.
 <https://freewifizones/madrid/location/440800-4473667> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440800-4473667> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440800-4473667> <https://freewifizones/madrid/location#num> "70".
@@ -3679,7 +3522,6 @@
 <https://freewifizones/madrid/location/440550-4475783> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/440550-4475783> <https://freewifizones/madrid/location#address> "CALLE/ PALAFOX V 4, MADRID, MADRID".
 <https://freewifizones/madrid/location/440550-4475783> <https://freewifizones/madrid/location#addressName> "Calle de Palafox, Madrid".
-<https://freewifizones/madrid/location/440550-4475783> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28733295>.
 <https://freewifizones/madrid/location/440550-4475783> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/440550-4475783> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/440550-4475783> <https://freewifizones/madrid/location#num> "4".
@@ -3705,7 +3547,6 @@
 <https://freewifizones/madrid/location/439834-4481113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439834-4481113> <https://freewifizones/madrid/location#address> "AVENIDA/ MONFORTE DE LEMOS V 40, MADRID, MADRID".
 <https://freewifizones/madrid/location/439834-4481113> <https://freewifizones/madrid/location#addressName> "Avenida de Monforte de Lemos, Madrid".
-<https://freewifizones/madrid/location/439834-4481113> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q52683954>.
 <https://freewifizones/madrid/location/439834-4481113> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/439834-4481113> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439834-4481113> <https://freewifizones/madrid/location#num> "40".
@@ -3728,7 +3569,6 @@
 <https://freewifizones/madrid/location/444286-4479355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444286-4479355> <https://freewifizones/madrid/location#address> "CARRETERA/ CANILLAS V 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/444286-4479355> <https://freewifizones/madrid/location#addressName> "Carretera de Canillas, Madrid".
-<https://freewifizones/madrid/location/444286-4479355> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28973490>.
 <https://freewifizones/madrid/location/444286-4479355> <https://freewifizones/madrid/location#addressType> "CARRETERA".
 <https://freewifizones/madrid/location/444286-4479355> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444286-4479355> <https://freewifizones/madrid/location#num> "2".
@@ -3751,7 +3591,6 @@
 <https://freewifizones/madrid/location/435134-4470763> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/435134-4470763> <https://freewifizones/madrid/location#address> "AVENIDA/ LAS AGUILAS V 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/435134-4470763> <https://freewifizones/madrid/location#addressName> "Loma de Las Águilas".
-<https://freewifizones/madrid/location/435134-4470763> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q97601702>.
 <https://freewifizones/madrid/location/435134-4470763> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/435134-4470763> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/435134-4470763> <https://freewifizones/madrid/location#num> "2".
@@ -3774,7 +3613,6 @@
 <https://freewifizones/madrid/location/439029-4476310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439029-4476310> <https://freewifizones/madrid/location#address> "PLAZA/ MONCLOA V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/439029-4476310> <https://freewifizones/madrid/location#addressName> "Moncloa Palace".
-<https://freewifizones/madrid/location/439029-4476310> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6021629>.
 <https://freewifizones/madrid/location/439029-4476310> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/439029-4476310> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439029-4476310> <https://freewifizones/madrid/location#num> "1".
@@ -3797,7 +3635,6 @@
 <https://freewifizones/madrid/location/443452-4471996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443452-4471996> <https://freewifizones/madrid/location#address> "AVENIDA/ ALBUFERA V 42, MADRID, MADRID".
 <https://freewifizones/madrid/location/443452-4471996> <https://freewifizones/madrid/location#addressName> "avenida de la Albufera".
-<https://freewifizones/madrid/location/443452-4471996> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5714221>.
 <https://freewifizones/madrid/location/443452-4471996> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/443452-4471996> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443452-4471996> <https://freewifizones/madrid/location#num> "42".
@@ -3820,7 +3657,6 @@
 <https://freewifizones/madrid/location/442514-4472633> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442514-4472633> <https://freewifizones/madrid/location#address> "PLAZA/ DAOIZ Y VELARDE V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/442514-4472633> <https://freewifizones/madrid/location#addressName> "DAOIZ Y VELARDE".
-<https://freewifizones/madrid/location/442514-4472633> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/442514-4472633> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/442514-4472633> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442514-4472633> <https://freewifizones/madrid/location#num> "1".
@@ -3843,7 +3679,6 @@
 <https://freewifizones/madrid/location/441999-4475412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441999-4475412> <https://freewifizones/madrid/location#address> "CALLE/ VELAZQUEZ V 52, MADRID, MADRID".
 <https://freewifizones/madrid/location/441999-4475412> <https://freewifizones/madrid/location#addressName> "calle de Velázquez".
-<https://freewifizones/madrid/location/441999-4475412> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q20031523>.
 <https://freewifizones/madrid/location/441999-4475412> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441999-4475412> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441999-4475412> <https://freewifizones/madrid/location#num> "52".
@@ -3866,7 +3701,6 @@
 <https://freewifizones/madrid/location/448295-4476161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448295-4476161> <https://freewifizones/madrid/location#address> "AVENIDA/ ARCENTALES V 28, MADRID, MADRID".
 <https://freewifizones/madrid/location/448295-4476161> <https://freewifizones/madrid/location#addressName> "Avenida de Arcentales, Madrid".
-<https://freewifizones/madrid/location/448295-4476161> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q56155322>.
 <https://freewifizones/madrid/location/448295-4476161> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/448295-4476161> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448295-4476161> <https://freewifizones/madrid/location#num> "28".
@@ -3889,7 +3723,6 @@
 <https://freewifizones/madrid/location/441161-4479680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441161-4479680> <https://freewifizones/madrid/location#address> "CALLE/ SIMANCAS V 6, MADRID, MADRID".
 <https://freewifizones/madrid/location/441161-4479680> <https://freewifizones/madrid/location#addressName> "1911 Encyclopædia Britannica/Simancas".
-<https://freewifizones/madrid/location/441161-4479680> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q84677509>.
 <https://freewifizones/madrid/location/441161-4479680> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441161-4479680> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441161-4479680> <https://freewifizones/madrid/location#num> "6".
@@ -3912,7 +3745,6 @@
 <https://freewifizones/madrid/location/439670-4470445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439670-4470445> <https://freewifizones/madrid/location#address> "AVENIDA/ RAFAELA YBARRA V 41, MADRID, MADRID".
 <https://freewifizones/madrid/location/439670-4470445> <https://freewifizones/madrid/location#addressName> "RAFAELA YBARRA".
-<https://freewifizones/madrid/location/439670-4470445> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/439670-4470445> <https://freewifizones/madrid/location#addressType> "AVENIDA".
 <https://freewifizones/madrid/location/439670-4470445> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439670-4470445> <https://freewifizones/madrid/location#num> "41".
@@ -3935,7 +3767,6 @@
 <https://freewifizones/madrid/location/448578-4472583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#address> "PLAZA/ DON ANTONIO DE ANDRES V 18, MADRID, MADRID".
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#addressName> "DON ANTONIO DE ANDRES".
-<https://freewifizones/madrid/location/448578-4472583> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#addressType> "PLAZA".
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#num> "18".
@@ -3947,6 +3778,7 @@
 <https://freewifizones/madrid/location/448578-4472583> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5756>.
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#cp> "28032".
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#neighborhood> "Casco Histórico de Vicálvaro".
+<https://freewifizones/madrid/location/448578-4472583> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#district> "Vicálvaro".
 <https://freewifizones/madrid/location/448578-4472583> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q589403>.
 <https://freewifizones/madrid/location/448578-4472583> <https://freewifizones/madrid/location#xcoordinate> "448578".
@@ -3957,7 +3789,6 @@
 <https://freewifizones/madrid/location/447248-4469998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/447248-4469998> <https://freewifizones/madrid/location#address> "PASEO/ FEDERICO GARCIA LORCA V 12, MADRID, MADRID".
 <https://freewifizones/madrid/location/447248-4469998> <https://freewifizones/madrid/location#addressName> "collège Federico-Garcia-Lorca".
-<https://freewifizones/madrid/location/447248-4469998> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q65016460>.
 <https://freewifizones/madrid/location/447248-4469998> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/447248-4469998> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/447248-4469998> <https://freewifizones/madrid/location#num> "12".
@@ -3980,7 +3811,6 @@
 <https://freewifizones/madrid/location/439603-4466726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/439603-4466726> <https://freewifizones/madrid/location#address> "CALLE/ ARROYO BUENO V 53, MADRID, MADRID".
 <https://freewifizones/madrid/location/439603-4466726> <https://freewifizones/madrid/location#addressName> "ARROYO BUENO".
-<https://freewifizones/madrid/location/439603-4466726> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/439603-4466726> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/439603-4466726> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/439603-4466726> <https://freewifizones/madrid/location#num> "53".
@@ -4003,7 +3833,6 @@
 <https://freewifizones/madrid/location/443391-4472131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443391-4472131> <https://freewifizones/madrid/location#address> "CALLE/ MONTE OLIVETI V 14, MADRID, MADRID".
 <https://freewifizones/madrid/location/443391-4472131> <https://freewifizones/madrid/location#addressName> "Responsories for Holy Week".
-<https://freewifizones/madrid/location/443391-4472131> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q25094598>.
 <https://freewifizones/madrid/location/443391-4472131> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443391-4472131> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443391-4472131> <https://freewifizones/madrid/location#num> "14".
@@ -4029,7 +3858,6 @@
 <https://freewifizones/madrid/location/445952-4472195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/445952-4472195> <https://freewifizones/madrid/location#address> "CALLE/ FUENTE CARRANTONA V 8, MADRID, MADRID".
 <https://freewifizones/madrid/location/445952-4472195> <https://freewifizones/madrid/location#addressName> "Calle de la Fuente Carrantona, Madrid".
-<https://freewifizones/madrid/location/445952-4472195> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28936137>.
 <https://freewifizones/madrid/location/445952-4472195> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/445952-4472195> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/445952-4472195> <https://freewifizones/madrid/location#num> "8".
@@ -4052,7 +3880,6 @@
 <https://freewifizones/madrid/location/441111-4471350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441111-4471350> <https://freewifizones/madrid/location#address> "PASEO/ MOLINO V 7, MADRID, MADRID".
 <https://freewifizones/madrid/location/441111-4471350> <https://freewifizones/madrid/location#addressName> "mill".
-<https://freewifizones/madrid/location/441111-4471350> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q44494>.
 <https://freewifizones/madrid/location/441111-4471350> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/441111-4471350> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441111-4471350> <https://freewifizones/madrid/location#num> "7".
@@ -4075,7 +3902,6 @@
 <https://freewifizones/madrid/location/441581-4472427> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441581-4472427> <https://freewifizones/madrid/location#address> "CALLE/ BUSTAMANTE V 16, MADRID, MADRID".
 <https://freewifizones/madrid/location/441581-4472427> <https://freewifizones/madrid/location#addressName> "calle de Bustamante".
-<https://freewifizones/madrid/location/441581-4472427> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27430098>.
 <https://freewifizones/madrid/location/441581-4472427> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441581-4472427> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441581-4472427> <https://freewifizones/madrid/location#num> "16".
@@ -4098,7 +3924,6 @@
 <https://freewifizones/madrid/location/446472-4475961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/446472-4475961> <https://freewifizones/madrid/location#address> "CALLE/ ALBARRACIN NUM 33, MADRID, MADRID".
 <https://freewifizones/madrid/location/446472-4475961> <https://freewifizones/madrid/location#addressName> "ALBARRACIN".
-<https://freewifizones/madrid/location/446472-4475961> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/446472-4475961> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/446472-4475961> <https://freewifizones/madrid/location#typeNum> "NUM".
 <https://freewifizones/madrid/location/446472-4475961> <https://freewifizones/madrid/location#num> "33".
@@ -4121,7 +3946,6 @@
 <https://freewifizones/madrid/location/442603-4473762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/442603-4473762> <https://freewifizones/madrid/location#address> "".
 <https://freewifizones/madrid/location/442603-4473762> <https://freewifizones/madrid/location#addressName> "URUGUAY".
-<https://freewifizones/madrid/location/442603-4473762> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/442603-4473762> <https://freewifizones/madrid/location#addressType> "PASEO".
 <https://freewifizones/madrid/location/442603-4473762> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/442603-4473762> <https://freewifizones/madrid/location#num> "".
@@ -4144,7 +3968,6 @@
 <https://freewifizones/madrid/location/450618-4465420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#address> "CARRETERA/ VALDEMINGOMEZ V 201, MADRID, MADRID".
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#addressName> "VALDEMINGOMEZ".
-<https://freewifizones/madrid/location/450618-4465420> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#addressType> "CARRETERA".
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#num> "201".
@@ -4156,6 +3979,7 @@
 <https://freewifizones/madrid/location/450618-4465420> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5756>.
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#cp> "28051".
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#neighborhood> "Casco Histórico de Vallecas".
+<https://freewifizones/madrid/location/450618-4465420> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#district> "Villa de Vallecas".
 <https://freewifizones/madrid/location/450618-4465420> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1947988>.
 <https://freewifizones/madrid/location/450618-4465420> <https://freewifizones/madrid/location#xcoordinate> "450618".
@@ -4166,7 +3990,6 @@
 <https://freewifizones/madrid/location/443725-4480817> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/443725-4480817> <https://freewifizones/madrid/location#address> "CALLE/ VELEZ RUBIO V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/443725-4480817> <https://freewifizones/madrid/location#addressName> "Velez Rubio (munisipyo)".
-<https://freewifizones/madrid/location/443725-4480817> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q24009300>.
 <https://freewifizones/madrid/location/443725-4480817> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/443725-4480817> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/443725-4480817> <https://freewifizones/madrid/location#num> "1".
@@ -4191,7 +4014,6 @@
 <https://freewifizones/madrid/location/441159-4479632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441159-4479632> <https://freewifizones/madrid/location#address> "CALLE/ VIÑA VIRGEN V 2, MADRID, MADRID".
 <https://freewifizones/madrid/location/441159-4479632> <https://freewifizones/madrid/location#addressName> "VIÑA VIRGEN".
-<https://freewifizones/madrid/location/441159-4479632> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <https://freewifizones/madrid/location/441159-4479632> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441159-4479632> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441159-4479632> <https://freewifizones/madrid/location#num> "2".
@@ -4214,7 +4036,6 @@
 <https://freewifizones/madrid/location/446308-4479597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/446308-4479597> <https://freewifizones/madrid/location#address> "CALLE/ MOTILLA DEL PALANCAR V 13, MADRID, MADRID".
 <https://freewifizones/madrid/location/446308-4479597> <https://freewifizones/madrid/location#addressName> "Category:Polideportivo Municipal, Motilla del Palancar".
-<https://freewifizones/madrid/location/446308-4479597> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q63197562>.
 <https://freewifizones/madrid/location/446308-4479597> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/446308-4479597> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/446308-4479597> <https://freewifizones/madrid/location#num> "13".
@@ -4237,7 +4058,6 @@
 <https://freewifizones/madrid/location/444469-4482391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/444469-4482391> <https://freewifizones/madrid/location#address> "CALLE/ PRINCESA DE EBOLI V 29, MADRID, MADRID".
 <https://freewifizones/madrid/location/444469-4482391> <https://freewifizones/madrid/location#addressName> "Ana de Mendoza, Princess of Eboli".
-<https://freewifizones/madrid/location/444469-4482391> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q457676>.
 <https://freewifizones/madrid/location/444469-4482391> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/444469-4482391> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/444469-4482391> <https://freewifizones/madrid/location#num> "29".
@@ -4260,7 +4080,6 @@
 <https://freewifizones/madrid/location/451023-4480645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/451023-4480645> <https://freewifizones/madrid/location#address> "CALLE/ LOS PILARES V 3, MADRID, MADRID".
 <https://freewifizones/madrid/location/451023-4480645> <https://freewifizones/madrid/location#addressName> "Los Pilares".
-<https://freewifizones/madrid/location/451023-4480645> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q97601364>.
 <https://freewifizones/madrid/location/451023-4480645> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/451023-4480645> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/451023-4480645> <https://freewifizones/madrid/location#num> "3".
@@ -4283,7 +4102,6 @@
 <https://freewifizones/madrid/location/441281-4474416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://freewifizones/madrid/location>.
 <https://freewifizones/madrid/location/441281-4474416> <https://freewifizones/madrid/location#address> "CALLE/ MONTALBAN V 1, MADRID, MADRID".
 <https://freewifizones/madrid/location/441281-4474416> <https://freewifizones/madrid/location#addressName> "Calle de Montalbán, Madrid".
-<https://freewifizones/madrid/location/441281-4474416> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q29903983>.
 <https://freewifizones/madrid/location/441281-4474416> <https://freewifizones/madrid/location#addressType> "CALLE".
 <https://freewifizones/madrid/location/441281-4474416> <https://freewifizones/madrid/location#typeNum> "V".
 <https://freewifizones/madrid/location/441281-4474416> <https://freewifizones/madrid/location#num> "1".
