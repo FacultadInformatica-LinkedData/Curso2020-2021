@@ -889,5 +889,10 @@
     "newColumnName": "WIKIDATA:DISTRICT",
     "columnInsertIndex": 26,
     "description": "Create column WIKIDATA:DISTRICT at index 26 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+   {
+    "op": "core/column-removal",
+    "columnName": "WIKIDATA:STREET",
+    "description": "Remove column WIKIDATA:STREET"
   }
 ]
