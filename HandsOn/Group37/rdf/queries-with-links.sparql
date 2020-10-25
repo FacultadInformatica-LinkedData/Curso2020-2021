@@ -4,9 +4,8 @@ PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
 
 
-SELECT DISTINCT  ?distrito 
+SELECT DISTINCT  ?Distrito 
 WHERE
-  { ?distrito rdf:type <http://www.semanticweb.org/ontologies/group37/ontology-4/distrito>.
-    ?distrito owl:sameAs <https://wikidata.org/entity/Q1763376>
-    FILTER (lang(?nombre) = 'Centro')
+  { ?Distrito rdf:type <http://www.semanticweb.org/ontologies/group37/ontology-4/Distrito>.
+    ?Distrito owl:sameAs <https://wikidata.org/entity/Q1763376>
   }

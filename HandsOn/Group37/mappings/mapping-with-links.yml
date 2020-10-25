@@ -25,17 +25,6 @@ mappings:
                 parameters:
                     - [str1, $(direccion)]
                     - [str2, $(direccion)]
-      - p: base:pertenece_a 
-        o: 
-            - mapping: triplesmap3
-              condition: 
-                function: equal
-                parameters:
-                    - [str1, $(distrito)]
-                    - [str2, $(distrito)]
-    
-
-
   triplesmap2:
     sources:
       - [Fuentes2019-updated-with-links.csv~csv]
@@ -49,12 +38,20 @@ mappings:
       - [base:longitud,$(longitud),xsd:double]
       - [base:direccion,$(direccion),xsd:string]
       - [base:via_publica,$(via_publica),xsd:string]
+      - p: base:pertenece_a 
+        o: 
+            - mapping: triplesmap3
+              condition: 
+                function: equal
+                parameters:
+                    - [str1, $(distrito)]
+                    - [str2, $(distrito)]
   triplesmap3:
     sources:
       - [Fuentes2019-updated-with-links.csv~csv]
     s: http://www.semanticweb.org/ontologies/group37/ontology-4/$(distrito)
     po:
-      - [a, base:Ubicacion]
+      - [a, base:Distrito]
       - [rdfs:label, $(distrito)]
       - [owl:sameAs, $(wikiDistrito)~iri]
       - [base:distrito,$(distrito),xsd:string]
