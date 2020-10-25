@@ -5,201 +5,6 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "residuos_domestic_año",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wdreconcile.toolforge.org/es/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q3186692",
-        "name": "año natural"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column residuos_domestic_año to type Q3186692"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2013",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1998",
-      "name": "2013",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2013 (Q1998) for cells containing \"2013\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2014",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1999",
-      "name": "2014",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2014 (Q1999) for cells containing \"2014\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2015",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2002",
-      "name": "2015",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2015 (Q2002) for cells containing \"2015\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2016",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25245",
-      "name": "2016",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2016 (Q25245) for cells containing \"2016\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2017",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25290",
-      "name": "2017",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2017 (Q25290) for cells containing \"2017\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2013",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1998",
-      "name": "2013",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2013 (Q1998) for cells containing \"2013\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2013",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1998",
-      "name": "2013",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2013 (Q1998) for cells containing \"2013\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_domestic_año",
-    "similarValue": "2014",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1999",
-      "name": "2014",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2014 (Q1999) for cells containing \"2014\" in column residuos_domestic_año"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "residuos_domestic_año",
-    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidata:residuos_domestic_año",
-    "columnInsertIndex": 1,
-    "description": "Create column wikidata:residuos_domestic_año at index 1 based on column residuos_domestic_año using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
     "columnName": "residuos_domestic_ambito",
     "config": {
       "mode": "standard-service",
@@ -307,141 +112,6 @@
   }
 ]
 [
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_pelig_año",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wdreconcile.toolforge.org/es/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q3186692",
-        "name": "año natural"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column residuos_pelig_año to type Q3186692"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_pelig_año",
-    "similarValue": "2013",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1998",
-      "name": "2013",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2013 (Q1998) for cells containing \"2013\" in column residuos_pelig_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_pelig_año",
-    "similarValue": "2014",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1999",
-      "name": "2014",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2014 (Q1999) for cells containing \"2014\" in column residuos_pelig_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_pelig_año",
-    "similarValue": "2015",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2002",
-      "name": "2015",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2015 (Q2002) for cells containing \"2015\" in column residuos_pelig_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_pelig_año",
-    "similarValue": "2016",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25245",
-      "name": "2016",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2016 (Q25245) for cells containing \"2016\" in column residuos_pelig_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "residuos_pelig_año",
-    "similarValue": "2017",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25290",
-      "name": "2017",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2017 (Q25290) for cells containing \"2017\" in column residuos_pelig_año"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "residuos_pelig_año",
-    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidata:residuos_pelig_año",
-    "columnInsertIndex": 1,
-    "description": "Create column wikidata:residuos_pelig_año at index 1 based on column residuos_pelig_año using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
-  },
   {
     "op": "core/recon",
     "engineConfig": {
@@ -571,141 +241,6 @@
   }
 ]
 [
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "planta_año",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wdreconcile.toolforge.org/es/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q3186692",
-        "name": "año natural"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column planta_año to type Q3186692"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "planta_año",
-    "similarValue": "2013",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1998",
-      "name": "2013",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2013 (Q1998) for cells containing \"2013\" in column planta_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "planta_año",
-    "similarValue": "2014",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1999",
-      "name": "2014",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2014 (Q1999) for cells containing \"2014\" in column planta_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "planta_año",
-    "similarValue": "2015",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2002",
-      "name": "2015",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2015 (Q2002) for cells containing \"2015\" in column planta_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "planta_año",
-    "similarValue": "2016",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25245",
-      "name": "2016",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2016 (Q25245) for cells containing \"2016\" in column planta_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "planta_año",
-    "similarValue": "2017",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25290",
-      "name": "2017",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2017 (Q25290) for cells containing \"2017\" in column planta_año"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "planta_año",
-    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidata:planta_año",
-    "columnInsertIndex": 1,
-    "description": "Create column wikidata:planta_año at index 1 based on column planta_año using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
-  },
   {
     "op": "core/recon",
     "engineConfig": {
@@ -858,141 +393,7 @@
     "columnInsertIndex": 2,
     "description": "Create column wikidata:vidrio_municipio_nombre at index 2 based on column vidrio_municipio_nombre using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
   },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "vidrio_año",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wdreconcile.toolforge.org/es/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q3186692",
-        "name": "año natural"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column vidrio_año to type Q3186692"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "vidrio_año",
-    "similarValue": "2013",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1998",
-      "name": "2013",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2013 (Q1998) for cells containing \"2013\" in column vidrio_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "vidrio_año",
-    "similarValue": "2014",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1999",
-      "name": "2014",
-      "types": [
-        "Q235729"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2014 (Q1999) for cells containing \"2014\" in column vidrio_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "vidrio_año",
-    "similarValue": "2015",
-    "judgment": "matched",
-    "match": {
-      "id": "Q2002",
-      "name": "2015",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2015 (Q2002) for cells containing \"2015\" in column vidrio_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "vidrio_año",
-    "similarValue": "2016",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25245",
-      "name": "2016",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2016 (Q25245) for cells containing \"2016\" in column vidrio_año"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "vidrio_año",
-    "similarValue": "2017",
-    "judgment": "matched",
-    "match": {
-      "id": "Q25290",
-      "name": "2017",
-      "types": [
-        "Q3186692"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 2017 (Q25290) for cells containing \"2017\" in column vidrio_año"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "baseColumnName": "vidrio_año",
-    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
-    "onError": "set-to-blank",
-    "newColumnName": "wikidata:vidrio_año",
-    "columnInsertIndex": 4,
-    "description": "Create column wikidata:vidrio_año at index 4 based on column vidrio_año using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
-  }
+  
 ]
 [
   {
@@ -1016,6 +417,66 @@
       "limit": 0
     },
     "description": "Reconcile cells in column res_tra_direccion_muni_desc to type Q2074737"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_direccion_muni_desc",
+    "similarValue": "Molar, El",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1915119",
+      "name": "El Molar",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Molar (Q1915119) for cells containing \"Molar, El\" in column res_tra_direccion_muni_desc"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_direccion_muni_desc",
+    "similarValue": "Navas del Rey",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1772241",
+      "name": "Navas del Rey",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Navas del Rey (Q1772241) for cells containing \"Navas del Rey\" in column res_tra_direccion_muni_desc"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_direccion_muni_desc",
+    "similarValue": "Arroyomolinos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1778172",
+      "name": "Arroyomolinos",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arroyomolinos (Q1778172) for cells containing \"Arroyomolinos\" in column res_tra_direccion_muni_desc"
   },
   {
     "op": "core/column-addition",
