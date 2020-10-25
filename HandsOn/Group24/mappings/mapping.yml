@@ -15,6 +15,7 @@ mappings:
   s: http://www.semanticweb.org/bicimad/classes#Bike_Station/$(bs_id)
   po:
     - [rdf:type, classes:Bike_Station]
+    - [properties:bs_id, $(bs_id), xsd:string]
     - [properties:position_x, $(position_x), xsd:float]
     - [properties:position_y, $(position_y), xsd:float]
     - [properties:registration_date, $(registration_date), xsd:date]
@@ -44,7 +45,7 @@ mappings:
     po:
       - [rdf:type, classes:Neighbourhood]
       - [properties:neighbourhood_name, $(neighbourhood_name), xsd:string]
-      - [properties:neighbourhood_number, $(neighbourhood_number), xsd:integer]
+      - [properties:neighbourhood_number, $(neighbourhood_number), xsd:string]
       - p: properties:has_district
         o:
          - mapping: TriplesMap2
@@ -60,7 +61,7 @@ mappings:
   po:
     - [rdf:type, classes:Street]
     - [properties:street_name, $(street_name), xsd:string]
-    - [properties:street_number, $(street_number), xsd:integer]
+    - [properties:street_number, $(street_number), xsd:string]
     - p: properties:has_neighbourhood
       o:
        - mapping: TriplesMap3

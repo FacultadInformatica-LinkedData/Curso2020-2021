@@ -33,3 +33,6 @@
 * Initial mappings and NTriples file uploaded.
 ### v2
 * Included the datatypes of the literals.
+### v3
+* Changed _measuredAt_ property mapping in the _.yml_ document since it was located in the wrong TriplesMap.
+* Included the TriplesMap corresponding to the new _magnitudes_ dataset.
