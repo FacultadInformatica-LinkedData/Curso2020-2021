@@ -1,0 +1,71 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  rev: http://purl.org/stuff/rev#
+  gtfs: http://vocab.gtfs.org/terms#
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  owl: http://www.w3.org/2002/07/owl#
+  xml: http://www.w3.org/XML/1998/namespace
+  space: https://freewifizones/madrid/space#
+  location: https://freewifizones/madrid/location#
+  uri_base: https://freewifizones/madrid/
+  ex: http://example.com/ns#
+
+mappings:
+  space:
+    sources:
+      - [216619-0-wifi-municipal-updated.csv~csv]
+    s: https://freewifizones/madrid/space/$(PK)
+    po:
+      - [a, uri_base:space]
+      - [space:hasName, $(NOMBRE)]
+      - [space:hasSchedule, $(HORARIO)]
+      - [space:hasEquipment, $(EQUIPAMIENTO)]
+      - [space:hasDescriptionEntity, $(DESCRIPCION-ENTIDAD)]
+      - [space:hasDescription, $(DESCRIPCION)]
+      - [space:hasRoute, $(TRANSPORTE)]
+      - [space:hasTelephone, $(TELEFONO)]
+      - [space:hasAccesibility, $(ACCESIBILIDAD)]
+      - [space:hasUrl, $(CONTENT-URL)~iri]
+      - [space:hasEmail, $(EMAIL)]
+      - [space:hasContact, $(CONTACTO)]
+      - [space:hasType, $(TIPO)]
+      - p: space:hasLocation
+        o:
+          - mapping: location
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(COORDENADAS)]
+                - [str2, $(COORDENADAS)]
+  location:
+    sources:
+      - [216619-0-wifi-municipal-updated.csv~csv]
+    s: https://freewifizones/madrid/location/$(COORDENADAS)
+    po:
+      - [a, uri_base:location]
+      - [location:address, $(DIRECCION)]
+      - [location:addressName, $(NOMBRE-VIA)]
+      - [location:addressType, $(CLASE-VIAL)]
+      - [location:typeNum, $(TIPO-NUM)]
+      - [location:num, $(NUM)]
+      - [location:floor, $(PLANTA)]
+      - [location:orientation, $(ORIENTACION)]
+      - [location:locality, $(LOCALIDAD)]
+      - [location:province, $(PROVINCIA)]
+      - [location:cp, $(CODIGO-POSTAL)]
+      - [location:neighbourhood, $(BARRIO)]
+      - [location:district, $(DISTRITO)]
+      - [location:xcoordinate, $(COORDENADA-X)]
+      - [location:ycoordinate, $(COORDENADA-Y)]
+      - [location:latitude, $(LATITUD)]
+      - [location:longitude, $(LONGITUD)]
+      - [location:geographicalCoordinates, $(COORDENADAS-GEO)]

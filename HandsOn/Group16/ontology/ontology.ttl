@@ -1,18 +1,33 @@
-@prefix : <http://www.semanticweb.org/group16/ontologies/air-quality#> .
+@prefix : <http://www.semanticweb.org/group16/ontology/air-quality#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/group16/ontologies/air-quality> .
+@base <http://www.semanticweb.org/group16/ontology/air-quality> .
 
-<http://www.semanticweb.org/group16/ontologies/air-quality> rdf:type owl:Ontology .
+<http://www.semanticweb.org/group16/ontology/air-quality> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  https://schema.org/Number
+<https://schema.org/Number> rdf:type rdfs:Datatype .
+
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#measuredAt
+###  http://www.semanticweb.org/group16/ontology/air-quality#inDistrict
+:inDistrict rdf:type owl:ObjectProperty ;
+            rdfs:domain :Station ,
+                        :Street ;
+            rdfs:range :District .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#measuredAt
 :measuredAt rdf:type owl:ObjectProperty ;
             rdfs:domain :Measurement ;
             rdfs:range :Station .
@@ -22,41 +37,79 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#dateOfMeasure
+###  http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure
 :dateOfMeasure rdf:type owl:DatatypeProperty ;
                rdfs:domain :Measurement ;
                rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#measureType
+###  http://www.semanticweb.org/group16/ontology/air-quality#districtID
+:districtID rdf:type owl:DatatypeProperty ;
+            rdfs:domain :District ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
+:measureCode rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Magnitude ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#measureNotation
+:measureNotation rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Magnitude ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#measureType
 :measureType rdf:type owl:DatatypeProperty ;
              rdfs:domain :Measurement ;
-             rdfs:range xsd:integer .
+             rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#measureValue
+###  http://www.semanticweb.org/group16/ontology/air-quality#measureValue
 :measureValue rdf:type owl:DatatypeProperty ;
               rdfs:domain :Measurement ;
               rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#stationCode
+###  http://www.semanticweb.org/group16/ontology/air-quality#stationCode
 :stationCode rdf:type owl:DatatypeProperty ;
              rdfs:domain :Station ;
              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#streetID
+:streetID rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Street ;
+          rdfs:range xsd:integer .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#Measurement
+###  http://www.semanticweb.org/group16/ontology/air-quality#District
+:District rdf:type owl:Class ;
+          rdfs:subClassOf <https://schema.org/Place> .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#Magnitude
+:Magnitude rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#Measurement
 :Measurement rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/group16/ontologies/air-quality#Station
+###  http://www.semanticweb.org/group16/ontology/air-quality#Station
 :Station rdf:type owl:Class ;
          rdfs:subClassOf <https://schema.org/Place> .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#Street
+:Street rdf:type owl:Class ;
+        rdfs:subClassOf <https://schema.org/Place> .
 
 
 ###  https://schema.org/Place

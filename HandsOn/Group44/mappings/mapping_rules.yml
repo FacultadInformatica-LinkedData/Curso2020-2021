@@ -1,0 +1,65 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  swo: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#
+  dbp: http://dbpedia.org/ontology/
+
+mappings:
+  provincia:
+    source:
+      - [../csv/MadridAirQuality2020.csv~csv]
+    s: http://dbpedia.org/ontology/province/$(PROVINCIA)
+    po:
+      - [a, dbp:province]
+      - [swo:codigo, $(PROVINCIA), xsd:integer]
+    
+  municipio:
+    source:
+      - [../csv/MadridAirQuality2020.csv~csv]
+    s: http://dbpedia.org/ontology/Municipality/$(MUNICIPIO)
+    po:
+      - [a, dbp:Municipality]
+      - [swo:codigo, $(MUNICIPIO), xsd:integer]
+      - p: swo:formaParteDe
+        o:
+          - mapping: provincia
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(PROVINCIA)]
+                - [str2, $(PROVINCIA)]
+      - p: swo:contieneEstaciones
+        o:
+          - mapping: estacion
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(ESTACION)]
+                - [str2, $(ESTACION)]
+
+  estacion:
+    source:
+      - [../csv/MadridAirQuality2020.csv~csv]
+    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(ESTACION)
+    po:
+      - [swo:codigo, $(ESTACION), xsd:integer]
+      - [swo:lugarEstacion, $(LUGAR_ESTACION), xsd:string]
+      - p: swo:tomaMuestras
+        o:
+          - mapping: muestra
+            condition:
+                function: equal
+                parameters:
+                  - [str1, $(ID)]
+                  - [str2, $(ID)]
+  muestra:
+    source:
+      - [../csv/MadridAirQuality2020.csv~csv]
+    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
+    po:
+      - [a, swo:Muestra]
+      - [swo:codigo, $(ID), xsd:integer]
+      - [swo:compuesto, $(COMPUESTO_MEDIDO), xsd:string]
+      - [swo:valido, $(VALIDEZ), xsd:boolean]
+      - [xsd:date, $(FECHA), xsd:dateTime]
+      - [swo:tecnicaMedicion, $(TECNICA_DE_MEDICION), xsd:string]
+      - [swo:valorMedido, $(VALOR), xsd:integer]
