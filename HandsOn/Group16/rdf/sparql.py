@@ -4,7 +4,7 @@
     SPARQL queries for checking WikiData liking
 """
 
-github_storage = "/home/hxshfx/Descargas/output-with-links.ttl"
+github_storage = "/home/hxshfx/Descargas/output-with-links.ttl" # cambiar
 
 "Data loading and graph building"
 
@@ -57,13 +57,14 @@ for s in g.query(q2):
 
 # List all the magnitudes measured in our dataset's stations
 
-print("------- Magnitude codes:")
+print("------- Magnitudes:")
 
 q3 = prepareQuery('''
     SELECT DISTINCT
-        ?Notation ?LabelEs ?LabelEn ?Code
+        ?Notation ?LabelEs ?LabelEn ?Code ?Description
     WHERE {
         ?Magnitude rdf:type ns:Magnitude .
+        ?Magnitude rdfs:comment ?Description .
         ?Magnitude ns:measureNotation ?Notation .
         ?Magnitude ns:measureCode ?Code .
         ?Magnitude rdfs:label ?LabelEn , ?LabelEs .
@@ -77,6 +78,7 @@ for s in g.query(q3):
     print(s.Notation.toPython())
     print(s.LabelEs.toPython())
     print(s.LabelEn.toPython())
+    print(s.Description.toPython())
     print(s.Code.toPython())
     print("--")
 
@@ -131,8 +133,7 @@ q6 = prepareQuery('''
         ?Magnitude rdf:type ns:Magnitude .
         ?Magnitude rdfs:label ?Label .
             FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Sulfur dioxide", "i"))
-        ?Magnitude ns:measureCode ?Code .
-        ?Measure ns:measureType ?Code .
+        ?Measure ns:measuredMagnitude ?Magnitude .
     }
     ''',
     initNs = {"rdf":RDF, "ns":ns}
@@ -192,9 +193,8 @@ q9 = prepareQuery('''
         ?Measure rdf:type ns:Measurement .
         ?Magnitude rdf:type ns:Magnitude .
         ?Magnitude rdfs:label ?Label .
-            FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Nitrogen oxides", "i"))
-        ?Magnitude ns:measureCode ?Code .
-        ?Measure ns:measureType ?Code .
+            FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Nitrogen oxide", "i"))
+        ?Measure ns:measuredMagnitude ?Magnitude .
         ?Measure ns:measureValue ?Value .
             FILTER (?Value >= 100)
     }

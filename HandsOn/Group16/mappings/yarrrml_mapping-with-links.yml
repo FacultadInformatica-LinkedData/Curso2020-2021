@@ -34,17 +34,17 @@ mappings:
         po:
             - [a, ns:Measurement]
             - [ns:dateOfMeasure, $(FECHA), xsd:dateTime]
-            - [ns:measureType, $(MAGNITUD), xsd:string]
             - [ns:measureValue, $(VALOR), xsd:float]
-            - p: ns:measuredAt
+            - [ns:measuredAt, http://www.semanticweb.org/group16/air-quality/resource/$(PUNTO_MUESTREO)~iri]
+            - p: ns:measuredMagnitude
               o:
-                - mapping: TriplesMap1
+                - mapping: TriplesMap3
                   condition:
                     function: equal
                     parameters:
-                      - [str1, $(PUNTO_MUESTREO)]
-                      - [str2, $(ESTACION_ID)]
-    
+                      - [str1, $(MAGNITUD)]
+                      - [str2, $(MAGNITUD)]
+
     TriplesMap3:
         sources:
             - [magnitudes.csv~csv]
@@ -53,6 +53,8 @@ mappings:
             - [a, ns:Magnitude]
             - [ns:measureCode, $(MAGNITUD), xsd:string]
             - [ns:measureNotation, $(NOTACION), xsd:string]
+            - [rdfs:comment, $(RESUMEN), xsd:string]
+            - [owl:sameAs, $(WIKIDATA_ID)~iri]
             - p: rdfs:label
               o:
                 value: $(NAME)

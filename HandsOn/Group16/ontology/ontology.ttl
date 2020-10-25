@@ -33,6 +33,12 @@
             rdfs:range :Station .
 
 
+###  http://www.semanticweb.org/group16/ontology/air-quality#measuredMagnitude
+:measuredMagnitude rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Measurement ;
+                   rdfs:range :Magnitude .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -51,7 +57,8 @@
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
 :measureCode rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Magnitude ;
+             rdfs:domain :Magnitude ,
+                         :Measurement ;
              rdfs:range xsd:string .
 
 
@@ -59,12 +66,6 @@
 :measureNotation rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Magnitude ;
                  rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group16/ontology/air-quality#measureType
-:measureType rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Measurement ;
-             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureValue
