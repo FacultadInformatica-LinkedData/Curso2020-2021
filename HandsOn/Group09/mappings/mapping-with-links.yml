@@ -7,6 +7,13 @@ prefixes:
   xsd: http://www.w3.org/2001/XMLSchema#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   owl: http://www.w3.org/2002/07/owl#
+  td:  https://transportdisruption.github.io/#
+  aos: http://rdf.muninn-project.org/ontologies/appearances.html#
+  npg: http://ns.nature.com/terms/
+  wdt: http://www.wikidata.org/prop/direct/
+  foaf: http://xmlns.com/foaf/spec/#
+  datex: http://vocab.datex.org/terms/#
+  juso: http://rdfs.co/juso/
   
 mappings:
   accident:
@@ -14,11 +21,12 @@ mappings:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
     s: res:accident/$(N EXPEDIENTE)
     po:
-      - [a, ont:Accident]
+      - [a, td:Accident]
       - [rdfs:label, $(N EXPEDIENTE)]
       - [ont:hasExpedient,$(N EXPEDIENTE)]
       - [ont:weather,$(ESTADO METEREOLÓGICO)]
-      - [ont:hasDate,$(DATE),xsd:dateTime]
+      - [npg:date,$(DATE),xsd:dateTime]
+      - [ont:happensMonth,$(MES)]
       - [ont:occursAtPeriod,$(HORA INTERVALO)]
       - p: ont:typeOfAccident
         o:
@@ -65,7 +73,7 @@ mappings:
       - [ont:hasStreet1,$(CALLE 1)]
       - [ont:hasStreet2,$(CALLE 2)]
       - [ont:hasNumber,$(NUMERO)]
-      - p: ont:locatedIn
+      - p: wdt:P131
         o:
          - mapping: district
            condition:
@@ -82,7 +90,7 @@ mappings:
       - [a, dbo:Person]
       - [rdfs:label, $(PERSONA LABEL)]
       - [ont:hasAgeRange,$(RANGO DE EDAD)]
-      - [ont:injuryStatus,$(LESIVIDAD)]
+      - [datex:injuryStatus,$(LESIVIDAD)]
       - p: ont:typeOfPerson
         o:
           mapping: typeofperson
@@ -92,7 +100,7 @@ mappings:
               - [str1, $(URI-TIPO PERSONA)]
               - [str2, $(URI-TIPO PERSONA)]
               
-      - p: ont:hasSex
+      - p: aos:hasSex
         o:
           mapping: sex
           condition:
@@ -123,7 +131,7 @@ mappings:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
     s: res:sex/$(URI-SEXO)
     po:
-      - [a, ont:Sex]
+      - [a, aos:Sex]
       - [rdfs:label, $(SEXO)]
 
   typeofvehicle:
@@ -139,7 +147,7 @@ mappings:
       - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
     s: res:district/$(URI-DISTRITO)
     po:
-      - [a, ont:District]
+      - [a, juso:District]
       - [rdfs:label, $(DISTRITO)]
       - [owl:sameAs, $(URI-DISTRITO-Wikidata)~iri]
-      - [ont:districtName,$(DISTRITO)] 
+      - [foaf:name,$(DISTRITO)] 
