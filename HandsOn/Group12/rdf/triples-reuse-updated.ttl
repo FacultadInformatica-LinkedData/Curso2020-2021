@@ -2898,3 +2898,7 @@
 <http://scooters.com/Group12/Individuals/neighbourhood/Corralejos> <http://www.w3.org/2002/07/owl#equivalentClass> "http://rdfs.co/juso/Neighborhood".
 <http://scooters.com/Group12/Individuals/neighbourhood/Corralejos> <http://scooters.com/Group12/Properties/name_nb> "Corralejos"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://scooters.com/Group12/Individuals/neighbourhood/Corralejos> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10260772>.
+<http://scooters.com/Group12/Properties/name_district> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://rdfs.co/juso/District>.
+<http://scooters.com/Group12/Properties/name_nb> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://rdfs.co/juso/Neighborhood>.
+<http://rdfs.co/juso/District> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://scooters.com/Group12/Properties/name_district>.
+<http://rdfs.co/juso/Neighborhood> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://scooters.com/Group12/Properties/name_district>.
