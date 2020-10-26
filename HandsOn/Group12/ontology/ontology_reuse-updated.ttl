@@ -17,7 +17,6 @@ properties:hasNeighbourhood rdf:type owl:ObjectProperty ;
                        rdfs:range classes:Neighbourhood .
 #Data properties
 properties:name_place rdf:type owl:DatatypeProperty ;
-                       owl:equivalentProperty juso:name ;
                        rdfs:domain classes:Place ;
                        rdfs:range xsd:string .
 properties:name_nb rdf:type owl:DatatypeProperty ;
