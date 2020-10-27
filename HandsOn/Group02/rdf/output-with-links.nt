@@ -23,12 +23,12 @@
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.6766217383743345"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> "intercambiador@intercambiador.net"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> "917 376 257"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rinc%C3%B3n%204>.
+<http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rincon%204>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Chamart%C3%ADn>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Prosperidad>.
-<http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Avenida de AmÈrica (intercambiador)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Avenida de America (intercambiador)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "269"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "392"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/59060> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "661"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -118,12 +118,12 @@
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.666902094780133"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> "aparcamientocorazondemaria@grupocogesa.es"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> "915 563 165 / 915 195 280"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Coraz%C3%B3n%20de%20Mar%C3%ADa%2046>.
+<http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Corazon%20de%20Maria%2046>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Chamart%C3%ADn>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Prosperidad>.
-<http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. CorazÛn de MarÌa II"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Corazon de Maria II"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "327"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "750"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/24103> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "1077"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -137,7 +137,7 @@
 <http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.78317943069732"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> "parkingcoronaboreal@hotmail.com"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> "913 573 714"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20P%C3%A9rez%20de%20Victoria%20>.
+<http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Perez%20de%20Victoria%20>.
 <http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/81736> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Moncloa-Aravaca>.
@@ -161,7 +161,7 @@
 <http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Retiro>.
 <http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Pac%C3%ADfico>.
-<http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. DaoÌz y Velarde"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Daoiz y Velarde"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "312"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "174"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/183748> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "486"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -175,12 +175,12 @@
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.675728293375598"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> "91 401 73 74"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Le%C3%B3n%2062>.
+<http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Leon%2062>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Lista>.
-<http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. DÌaz Porlier"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Diaz Porlier"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "203"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "421"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/44724> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "624"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -213,7 +213,7 @@
 <http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.673433652213169"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merc%C3%A9%205>.
+<http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merce%205>.
 <http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13464> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
@@ -294,7 +294,7 @@
 <http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Tetu%C3%A1n>.
 <http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Castillejos>.
-<http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. JosÈ Cast·n TobeÒas"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Jose Castan Tobe√±as"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "205"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "43"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13479> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "248"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -308,12 +308,12 @@
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.6792137901324056"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> "aparcamientos@madridmovilidad.es"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> "917 877 292"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Plaza%20Marqu%C3%A9s%20de%20Salamanca%208>.
+<http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Plaza%20Marques%20de%20Salamanca%208>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Lista>.
-<http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. MarquÈs de Salamanca"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Marques de Salamanca"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "360"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "70"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/6143690> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "430"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -351,7 +351,7 @@
 <http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Retiro>.
 <http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Jer%C3%B3nimos>.
-<http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Montalb·n"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Montalban"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "145"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13465> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "145"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -389,7 +389,7 @@
 <http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Justicia>.
-<http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Pedro Zerolo 'antes denominado V·zquez de Mella'"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Pedro Zerolo 'antes denominado Vazquez de Mella'"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "107"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "261"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/52114> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "368"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -479,12 +479,12 @@
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.6765275895176677"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Plaza%20Rep%C3%BAblica%20Dominicana%206>.
+<http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Plaza%20Republica%20Dominicana%206>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Chamart%C3%ADn>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Nueva%20Espa%C3%B1a>.
-<http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Rep˙blica Dominicana"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Republica Dominicana"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "203"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "892"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/24193> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "1095"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -541,7 +541,7 @@
 <http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Tetu%C3%A1n>.
 <http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Castillejos>.
-<http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. San Germ·n II (antes General Yag¸e)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. San German II (antes General Yag√ºe)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "409"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "717"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13515> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "1126"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -555,12 +555,12 @@
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.6940145592988043"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20S%C3%A1nchez%20Bustillo%201>.
+<http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Sanchez%20Bustillo%201>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Embajadores>.
-<http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. S·nchez Bustillo"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Sanchez Bustillo"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "132"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "408"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/19053> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "540"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -593,7 +593,7 @@
 <http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.688281097618061"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Jos%C3%A9%20Ortega%20y%20Gasset%201>.
+<http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Jose%20Ortega%20y%20Gasset%201>.
 <http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/7417028> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
@@ -655,7 +655,7 @@
 <http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
 <http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Recoletos>.
-<http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Vel·zquez - Ayala"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Velazquez - Ayala"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "464"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "235"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13458> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "699"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -674,7 +674,7 @@
 <http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
 <http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Recoletos>.
-<http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Vel·zquez - Jorge Juan"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Velazquez - Jorge Juan"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "549"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "395"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13457> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "944"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -688,12 +688,12 @@
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.656505118007155"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> "913 531 050"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garc%C3%ADa%201>.
+<http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garcia%201>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Ciudad%20Lineal>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/San%20Pascual>.
-<http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Verdaguer y GarcÌa"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento mixto. Verdaguer y Garcia"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "83"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> "180"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/183607> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "263"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -712,7 +712,7 @@
 <http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/San%20Blas>.
 <http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Rosas>.
-<http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico disuasorio Estadio Metropolitano Sur ES-02b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico disuasorio Estadio Metropolitano Sur ES-02b"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "1725"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/10489514> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "1725"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -731,7 +731,7 @@
 <http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Chamber%C3%AD>.
 <http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Almagro>.
-<http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Almagro"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Almagro"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "462"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13452> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "462"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -750,7 +750,7 @@
 <http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Chamart%C3%ADn>.
 <http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Ciudad%20Jard%C3%ADn>.
-<http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Auditorio Nacional de M˙sica (PrÌncipe de Vergara)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Auditorio Nacional de Musica (Principe de Vergara)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "376"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/7393089> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "376"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -769,7 +769,7 @@
 <http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Sol>.
-<http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Descalzas"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Descalzas"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "400"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13473> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "400"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -783,12 +783,12 @@
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.669292239090564"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fern%C3%A1ndez%20Shaw%20>.
+<http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fernandez%20Shaw%20>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Retiro>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Adelfas>.
-<http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Fern·ndez Shaw"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Fernandez Shaw"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "245"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/24809> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "245"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -807,7 +807,7 @@
 <http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Embajadores>.
-<http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Glorieta Puerta de Toledo"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Glorieta Puerta de Toledo"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "244"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13478> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "244"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -826,7 +826,7 @@
 <http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
 <http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Cortes>.
-<http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Las Cortes"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Las Cortes"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "480"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13467> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "480"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -840,12 +840,12 @@
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.705563118253955"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Plaza%20Santa%20Mar%C3%ADa%20Soledad%20Torres%20Acosta%202>.
+<http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Plaza%20Santa%20Maria%20Soledad%20Torres%20Acosta%202>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Universidad>.
-<http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Luna - Tudescos"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Luna - Tudescos"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "481"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13449> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "481"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -859,12 +859,12 @@
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.719111078507027"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20Urquijo%2027>.
+<http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20Urquijo%2027>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Moncloa-Aravaca>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Arg%C3%BCelles>.
-<http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. MarquÈs de Urquijo"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Marques de Urquijo"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "482"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13469> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "482"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -883,7 +883,7 @@
 <http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Universidad>.
-<http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Mostenses"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Mostenses"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "362"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13451> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "362"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -897,12 +897,12 @@
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.6782263814004565"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Pr%C3%ADncipe%20de%20Vergara%20134>.
+<http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Principe%20de%20Vergara%20134>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Chamart%C3%ADn>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Ciudad%20Jard%C3%ADn>.
-<http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Museo de la Ciudad"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Museo de la Ciudad"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "147"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/88141> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "147"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -921,7 +921,7 @@
 <http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Chamber%C3%AD>.
 <http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Trafalgar>.
-<http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Olavide"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Olavide"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "397"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13450> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "397"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -940,7 +940,7 @@
 <http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
 <http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Recoletos>.
-<http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Plaza de ColÛn"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Plaza de Colon"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "605"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13454> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "605"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -959,7 +959,7 @@
 <http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Moncloa-Aravaca>.
 <http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Arg%C3%BCelles>.
-<http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Plaza de EspaÒa"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Plaza de Espa√±a"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "800"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13463> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "800"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -978,7 +978,7 @@
 <http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Sol>.
-<http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Plaza del Carmen"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Plaza del Carmen"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "450"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13472> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "450"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -997,7 +997,7 @@
 <http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Justicia>.
-<http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Plaza del Rey"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Plaza del Rey"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "160"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13474> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "160"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -1016,7 +1016,7 @@
 <http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Cortes>.
-<http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Santa Ana"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Santa Ana"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "325"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13456> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "325"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -1035,7 +1035,7 @@
 <http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Usera>.
 <http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Moscard%C3%B3>.
-<http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Usera"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Usera"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "36"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/10737574> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "36"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -1054,7 +1054,7 @@
 <http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Salamanca>.
 <http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Castellana>.
-<http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Vel·zquez - Juan Bravo"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Velazquez - Juan Bravo"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "371"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13468> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "371"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -1068,12 +1068,12 @@
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasLongitude> "-3.6923416648619947"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasEmail> ""^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasTelephone> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20la%20Ensenada%201>.
+<http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20la%20Ensenada%201>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://findyourparking.es/lcc/Province/Community%20of%20Madrid>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://findyourparking.es/lcc/City/Madrid>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://findyourparking.es/lcc/District/Centro>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://findyourparking.es/lcc/Neighborhood/Justicia>.
-<http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento p˙blico. Villa de ParÌs"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasName> "Aparcamiento publico. Villa de Paris"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> "171"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> ""^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> "171"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -1083,16 +1083,15 @@
 <http://findyourparking.es/lcc/Parking/13453> <http://findyourparking.es/lcc/ontology/Parking#hasCoordY> "4475173"^^<http://www.w3.org/2001/XMLSchema#double>.
 <http://findyourparking.es/lcc/Address/Calle%20Barcelo%202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Barcelo%202> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Barcelo 2"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Barcelo%202> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de BarcelÛ"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Barcelo%202> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Barcel√≥"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Barcelo%202> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "2"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Barcelo%202> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28004"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Barcelo%202> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27051120>.
-<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rinc%C3%B3n%204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rinc%C3%B3n%204> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Pradena del RincÛn 4"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rinc%C3%B3n%204> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Pradena del RincÛn"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rinc%C3%B3n%204> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "4"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rinc%C3%B3n%204> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28002"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rinc%C3%B3n%204> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rincon%204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rincon%204> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Pradena del Rincon 4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rincon%204> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Pradena del Rincon"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rincon%204> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Pradena%20del%20Rincon%204> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28002"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Portugal%20155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Avenida%20Portugal%20155> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Avenida Portugal 155"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Portugal%20155> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Avenida de Portugal"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1100,8 +1099,8 @@
 <http://findyourparking.es/lcc/Address/Avenida%20Portugal%20155> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28011"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Portugal%20155> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q26736141>.
 <http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle General Yag¸e 11"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de San Germ·n, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle General Yag√ºe 11"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de San Germ√°n, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "11"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28020"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20General%20Yag%C3%BCe%2011> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q26750807>.
@@ -1116,43 +1115,39 @@
 <http://findyourparking.es/lcc/Address/Plaza%20Condesa%20de%20Gavia%200> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Condesa de Gavia"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Condesa%20de%20Gavia%200> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "0"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Condesa%20de%20Gavia%200> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28020"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Condesa%20de%20Gavia%200> <http://www.w3.org/2002/07/owl#sameAs> <>.
-<http://findyourparking.es/lcc/Address/Calle%20Coraz%C3%B3n%20de%20Mar%C3%ADa%2046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Coraz%C3%B3n%20de%20Mar%C3%ADa%2046> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle CorazÛn de MarÌa 46"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Coraz%C3%B3n%20de%20Mar%C3%ADa%2046> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle del CorazÛn de MarÌa, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Coraz%C3%B3n%20de%20Mar%C3%ADa%2046> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "46"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Coraz%C3%B3n%20de%20Mar%C3%ADa%2046> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28002"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Coraz%C3%B3n%20de%20Mar%C3%ADa%2046> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28940875>.
-<http://findyourparking.es/lcc/Address/Calle%20P%C3%A9rez%20de%20Victoria%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20P%C3%A9rez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle PÈrez de Victoria "^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20P%C3%A9rez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle PÈrez de Victoria"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20P%C3%A9rez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20P%C3%A9rez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28023"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20P%C3%A9rez%20de%20Victoria%20> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://findyourparking.es/lcc/Address/Calle%20Corazon%20de%20Maria%2046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Corazon%20de%20Maria%2046> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Corazon de Maria 46"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Corazon%20de%20Maria%2046> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle del Coraz√≥n de Mar√≠a, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Corazon%20de%20Maria%2046> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "46"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Corazon%20de%20Maria%2046> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28002"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Corazon%20de%20Maria%2046> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28940875>.
+<http://findyourparking.es/lcc/Address/Calle%20Perez%20de%20Victoria%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Perez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Perez de Victoria "^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Perez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Perez de Victoria"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Perez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> ""^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Perez%20de%20Victoria%20> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28023"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Ciudad%20de%20Barcelona%203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Avenida%20Ciudad%20de%20Barcelona%203> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Avenida Ciudad de Barcelona 3"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Ciudad%20de%20Barcelona%203> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Avenida de la Ciudad de Barcelona, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Ciudad%20de%20Barcelona%203> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "3"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Ciudad%20de%20Barcelona%203> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28007"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Ciudad%20de%20Barcelona%203> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5714227>.
-<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Le%C3%B3n%2062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Le%C3%B3n%2062> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Diego de LeÛn 62"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Le%C3%B3n%2062> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Diego de LeÛn, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Le%C3%B3n%2062> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "62"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Le%C3%B3n%2062> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Le%C3%B3n%2062> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28059485>.
+<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Leon%2062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Leon%2062> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Diego de Leon 62"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Leon%2062> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Diego de Le√≥n, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Leon%2062> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "62"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Leon%2062> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Diego%20de%20Leon%2062> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28059485>.
 <http://findyourparking.es/lcc/Address/Plaza%20Encuentro%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Plaza%20Encuentro%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Encuentro 1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Encuentro%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Encuentro"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Encuentro%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Encuentro%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28030"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Encuentro%201> <http://www.w3.org/2002/07/owl#sameAs> <>.
-<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merc%C3%A9%205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merc%C3%A9%205> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Antonia MercÈ 5"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merc%C3%A9%205> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Antonia MercÈ"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merc%C3%A9%205> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "5"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merc%C3%A9%205> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28009"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merc%C3%A9%205> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merce%205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merce%205> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Antonia Merce 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merce%205> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Antonia Merce"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merce%205> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Antonia%20Merce%205> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28009"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Fuencarral%20111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Fuencarral%20111> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Fuencarral 111"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Fuencarral%20111> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Fuencarral"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1170,34 +1165,31 @@
 <http://findyourparking.es/lcc/Address/Plaza%20Jacinto%20Benavente%206> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Jacinto Benavente"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Jacinto%20Benavente%206> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "6"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Jacinto%20Benavente%206> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28012"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Jacinto%20Benavente%206> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Haya%2057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Haya%2057> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Capitan Haya 57"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Haya%2057> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle del Poeta Joan Maragall, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Haya%2057> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "57"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Haya%2057> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28020"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Haya%2057> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q26810980>.
-<http://findyourparking.es/lcc/Address/Plaza%20Marqu%C3%A9s%20de%20Salamanca%208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Plaza%20Marqu%C3%A9s%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza MarquÈs de Salamanca 8"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Marqu%C3%A9s%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza MarquÈs de Salamanca"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Marqu%C3%A9s%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "8"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Marqu%C3%A9s%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Marqu%C3%A9s%20de%20Salamanca%208> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://findyourparking.es/lcc/Address/Plaza%20Marques%20de%20Salamanca%208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Plaza%20Marques%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Marques de Salamanca 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Marques%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Marques de Salamanca"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Marques%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Marques%20de%20Salamanca%208> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Miguel%20Yuste%2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Miguel%20Yuste%2011> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Miguel Yuste 11"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Miguel%20Yuste%2011> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Miguel Yuste"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Miguel%20Yuste%2011> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "11"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Miguel%20Yuste%2011> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28037"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Miguel%20Yuste%2011> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Calle%20Montalban%204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Montalban%204> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Montalban 4"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Montalban%204> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Montalb·n, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Montalban%204> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Montalb√°n, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Montalban%204> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Montalban%204> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28014"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Montalban%204> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q29903983>.
 <http://findyourparking.es/lcc/Address/Calle%20Sor%20Angela%20de%20la%20Cruz%2027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Sor%20Angela%20de%20la%20Cruz%2027> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Sor Angela de la Cruz 27"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Sor%20Angela%20de%20la%20Cruz%2027> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Sor ¡ngela de la Cruz"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Sor%20Angela%20de%20la%20Cruz%2027> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Sor √Ångela de la Cruz"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Sor%20Angela%20de%20la%20Cruz%2027> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "27"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Sor%20Angela%20de%20la%20Cruz%2027> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28020"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Sor%20Angela%20de%20la%20Cruz%2027> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q21011321>.
@@ -1206,13 +1198,11 @@
 <http://findyourparking.es/lcc/Address/Plaza%20Pedro%20Zerolo%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Pedro Zerolo"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Pedro%20Zerolo%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Pedro%20Zerolo%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28004"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Pedro%20Zerolo%201> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Plaza%20Oriente%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Plaza%20Oriente%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Oriente 1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Oriente%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Oriente"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Oriente%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Oriente%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28013"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Oriente%201> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Calle%20Felipe%20III%2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Felipe%20III%2011> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Felipe III 11"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Felipe%20III%2011> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Felipe III, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1231,48 +1221,45 @@
 <http://findyourparking.es/lcc/Address/Paseo%20Recoletos%204> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Paseo%20Recoletos%204> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28001"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Paseo%20Recoletos%204> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2550870>.
-<http://findyourparking.es/lcc/Address/Plaza%20Rep%C3%BAblica%20Dominicana%206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Plaza%20Rep%C3%BAblica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Rep˙blica Dominicana 6"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Rep%C3%BAblica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza de la Cultura"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Rep%C3%BAblica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "6"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Rep%C3%BAblica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28016"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Rep%C3%BAblica%20Dominicana%206> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q56377419>.
+<http://findyourparking.es/lcc/Address/Plaza%20Republica%20Dominicana%206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Plaza%20Republica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Republica Dominicana 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Republica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza de la Cultura"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Republica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Republica%20Dominicana%206> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28016"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Republica%20Dominicana%206> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q56377419>.
 <http://findyourparking.es/lcc/Address/Plaza%20Reyes%20Magos%2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Plaza%20Reyes%20Magos%2014> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Reyes Magos 14"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Reyes%20Magos%2014> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Reyes Magos"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Reyes%20Magos%2014> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "14"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Reyes%20Magos%2014> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28007"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Reyes%20Magos%2014> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Plaza%20San%20Cayetano%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Plaza%20San%20Cayetano%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza San Cayetano 1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20San%20Cayetano%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza San Cayetano"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20San%20Cayetano%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20San%20Cayetano%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28028"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20San%20Cayetano%201> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Avenida%20Brasil%2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Avenida%20Brasil%2015> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Avenida Brasil 15"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Brasil%2015> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "avenida de Brasil"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Brasil%2015> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "15"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Brasil%2015> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28020"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Brasil%2015> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27212874>.
-<http://findyourparking.es/lcc/Address/Calle%20S%C3%A1nchez%20Bustillo%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20S%C3%A1nchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle S·nchez Bustillo 1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20S%C3%A1nchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle S·nchez Bustillo"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20S%C3%A1nchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20S%C3%A1nchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28012"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20S%C3%A1nchez%20Bustillo%201> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://findyourparking.es/lcc/Address/Calle%20Sanchez%20Bustillo%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Sanchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Sanchez Bustillo 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Sanchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Sanchez Bustillo"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Sanchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Sanchez%20Bustillo%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28012"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Juan%20Bravo%204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Juan%20Bravo%204> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Juan Bravo 4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Juan%20Bravo%204> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Juan Bravo, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Juan%20Bravo%204> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Juan%20Bravo%204> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Juan%20Bravo%204> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28054647>.
-<http://findyourparking.es/lcc/Address/Calle%20Jos%C3%A9%20Ortega%20y%20Gasset%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Jos%C3%A9%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle JosÈ Ortega y Gasset 1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Jos%C3%A9%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de JosÈ Ortega y Gasset, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Jos%C3%A9%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Jos%C3%A9%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Jos%C3%A9%20Ortega%20y%20Gasset%201> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q16540548>.
+<http://findyourparking.es/lcc/Address/Calle%20Jose%20Ortega%20y%20Gasset%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Jose%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Jose Ortega y Gasset 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Jose%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Jos√© Ortega y Gasset, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Jose%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Jose%20Ortega%20y%20Gasset%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Jose%20Ortega%20y%20Gasset%201> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q16540548>.
 <http://findyourparking.es/lcc/Address/Calle%20Jorge%20Juan%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Jorge%20Juan%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Jorge Juan 1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Jorge%20Juan%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Jorge Juan"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1281,28 +1268,27 @@
 <http://findyourparking.es/lcc/Address/Calle%20Jorge%20Juan%201> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28070822>.
 <http://findyourparking.es/lcc/Address/Calle%20Alcala%2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Alcala%2017> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Alcala 17"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Alcala%2017> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Alcal·"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Alcala%2017> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle de Alcal√°"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Alcala%2017> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "17"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Alcala%2017> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28014"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Alcala%2017> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2424746>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2047> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Velazquez 47"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Velazquez%2047> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Vel·zquez"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Velazquez%2047> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Vel√°zquez"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2047> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "47"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2047> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28001"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2047> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q20031523>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2025> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Velazquez 25"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Velazquez%2025> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Vel·zquez"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Velazquez%2025> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Vel√°zquez"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2025> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "25"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2025> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28001"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2025> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q20031523>.
-<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garc%C3%ADa%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garc%C3%ADa%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Verdaguer y GarcÌa 1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garc%C3%ADa%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Verdaguer y GarcÌa"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garc%C3%ADa%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garc%C3%ADa%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28027"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garc%C3%ADa%201> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garcia%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garcia%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Verdaguer y Garcia 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garcia%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Verdaguer y Garcia"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garcia%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Verdaguer%20y%20Garcia%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28027"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Arcentales%2037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Avenida%20Arcentales%2037> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Avenida Arcentales 37"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Avenida%20Arcentales%2037> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Avenida de Arcentales, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1327,48 +1313,44 @@
 <http://findyourparking.es/lcc/Address/Plaza%20Descalzas%204> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Descalzas%204> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28013"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Descalzas%204> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6080247>.
-<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fern%C3%A1ndez%20Shaw%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fern%C3%A1ndez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Carlos y Guillermo Fern·ndez Shaw "^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fern%C3%A1ndez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Carlos y Guillermo Fern·ndez Shaw"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fern%C3%A1ndez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> ""^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fern%C3%A1ndez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28007"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fern%C3%A1ndez%20Shaw%20> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fernandez%20Shaw%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fernandez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Carlos y Guillermo Fernandez Shaw "^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fernandez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Carlos y Guillermo Fernandez Shaw"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fernandez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> ""^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Carlos%20y%20Guillermo%20Fernandez%20Shaw%20> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28007"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Salazar%20Martinez%202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Salazar%20Martinez%202> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Capitan Salazar Martinez 2"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Salazar%20Martinez%202> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Capitan Salazar Martinez"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Salazar%20Martinez%202> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "2"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Capitan%20Salazar%20Martinez%202> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28005"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Capitan%20Salazar%20Martinez%202> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Plaza%20Las%20Cortes%200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Plaza%20Las%20Cortes%200> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Las Cortes 0"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Las%20Cortes%200> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "plaza de las Cortes"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Las%20Cortes%200> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "0"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Las%20Cortes%200> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28014"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Las%20Cortes%200> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5482884>.
-<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Mar%C3%ADa%20Soledad%20Torres%20Acosta%202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Mar%C3%ADa%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Santa MarÌa Soledad Torres Acosta 2"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Mar%C3%ADa%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Santa MarÌa Soledad Torres Acosta"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Mar%C3%ADa%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "2"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Mar%C3%ADa%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28004"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Mar%C3%ADa%20Soledad%20Torres%20Acosta%202> <http://www.w3.org/2002/07/owl#sameAs> <>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20Urquijo%2027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle MarquÈs de Urquijo 27"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle del MarquÈs de Urquijo"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "27"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28008"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20Urquijo%2027> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q17421317>.
+<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Maria%20Soledad%20Torres%20Acosta%202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Maria%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Santa Maria Soledad Torres Acosta 2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Maria%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza Santa Maria Soledad Torres Acosta"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Maria%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Santa%20Maria%20Soledad%20Torres%20Acosta%202> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28004"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20Urquijo%2027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Marques de Urquijo 27"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle del Marqu√©s de Urquijo"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "27"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20Urquijo%2027> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28008"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20Urquijo%2027> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q17421317>.
 <http://findyourparking.es/lcc/Address/Calle%20Garcia%20Molinas%204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Garcia%20Molinas%204> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Garcia Molinas 4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Garcia%20Molinas%204> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Garcia Molinas"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Garcia%20Molinas%204> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Garcia%20Molinas%204> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28015"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Garcia%20Molinas%204> <http://www.w3.org/2002/07/owl#sameAs> <>.
-<http://findyourparking.es/lcc/Address/Calle%20Pr%C3%ADncipe%20de%20Vergara%20134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Pr%C3%ADncipe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle PrÌncipe de Vergara 134"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pr%C3%ADncipe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle del PrÌncipe de Vergara"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pr%C3%ADncipe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "134"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pr%C3%ADncipe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28002"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Pr%C3%ADncipe%20de%20Vergara%20134> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5741020>.
+<http://findyourparking.es/lcc/Address/Calle%20Principe%20de%20Vergara%20134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Principe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Principe de Vergara 134"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Principe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle del Pr√≠ncipe de Vergara"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Principe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "134"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Principe%20de%20Vergara%20134> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28002"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Principe%20de%20Vergara%20134> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5741020>.
 <http://findyourparking.es/lcc/Address/Plaza%20Olavide%2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Plaza%20Olavide%2017> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Olavide 17"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Olavide%2017> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Plaza de Olavide"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1382,8 +1364,8 @@
 <http://findyourparking.es/lcc/Address/Calle%20Goya%202> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28001"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Goya%202> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q28015873>.
 <http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza EspaÒa 20"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "plaza de EspaÒa"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Plaza Espa√±a 20"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "plaza de Espa√±a"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "20"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28008"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Plaza%20Espa%C3%B1a%2020> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1326261>.
@@ -1410,19 +1392,18 @@
 <http://findyourparking.es/lcc/Address/Calle%20Amparo%20Usera%2046> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle Amparo Usera"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Amparo%20Usera%2046> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "46"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Amparo%20Usera%2046> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28026"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Amparo%20Usera%2046> <http://www.w3.org/2002/07/owl#sameAs> <>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2088> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Velazquez 88"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Velazquez%2088> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Vel·zquez"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Velazquez%2088> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "calle de Vel√°zquez"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2088> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "88"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2088> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28006"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Address/Calle%20Velazquez%2088> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q20031523>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20la%20Ensenada%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle MarquÈs de la Ensenada 1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle del MarquÈs de la Ensenada, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28004"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://findyourparking.es/lcc/Address/Calle%20Marqu%C3%A9s%20de%20la%20Ensenada%201> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q55227717>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20la%20Ensenada%201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Address>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasAddressId> "Calle Marques de la Ensenada 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasStreet> "Calle del Marqu√©s de la Ensenada, Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasNumber> "1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20la%20Ensenada%201> <http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> "28004"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Address/Calle%20Marques%20de%20la%20Ensenada%201> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q55227717>.
 <http://findyourparking.es/lcc/Province/Community%20of%20Madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Province>.
 <http://findyourparking.es/lcc/Province/Community%20of%20Madrid> <http://findyourparking.es/lcc/ontology/Parking#hasProvince> "Community of Madrid"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Province/Community%20of%20Madrid> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q5756>.
@@ -1433,13 +1414,13 @@
 <http://findyourparking.es/lcc/District/Centro> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Centro"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/District/Centro> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1763376>.
 <http://findyourparking.es/lcc/District/Chamart%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#District>.
-<http://findyourparking.es/lcc/District/Chamart%C3%ADn> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "ChamartÌn"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/District/Chamart%C3%ADn> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Chamart√≠n"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/District/Chamart%C3%ADn> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1766348>.
 <http://findyourparking.es/lcc/District/Latina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#District>.
 <http://findyourparking.es/lcc/District/Latina> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Latina"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/District/Latina> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q794954>.
 <http://findyourparking.es/lcc/District/Tetu%C3%A1n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#District>.
-<http://findyourparking.es/lcc/District/Tetu%C3%A1n> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Tetu·n"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/District/Tetu%C3%A1n> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Tetu√°n"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/District/Tetu%C3%A1n> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1773540>.
 <http://findyourparking.es/lcc/District/Moncloa-Aravaca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#District>.
 <http://findyourparking.es/lcc/District/Moncloa-Aravaca> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Moncloa-Aravaca"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1454,7 +1435,7 @@
 <http://findyourparking.es/lcc/District/Moratalaz> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Moratalaz"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/District/Moratalaz> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2076109>.
 <http://findyourparking.es/lcc/District/Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#District>.
-<http://findyourparking.es/lcc/District/Chamber%C3%AD> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "ChamberÌ"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/District/Chamber%C3%AD> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "Chamber√≠"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/District/Chamber%C3%AD> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1763370>.
 <http://findyourparking.es/lcc/District/San%20Blas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#District>.
 <http://findyourparking.es/lcc/District/San%20Blas> <http://findyourparking.es/lcc/ontology/Parking#hasDistrict> "San Blas"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1472,7 +1453,7 @@
 <http://findyourparking.es/lcc/Neighborhood/Prosperidad> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Prosperidad"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Prosperidad> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q4776>.
 <http://findyourparking.es/lcc/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Barrio de Puerta del ¡ngel"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Barrio de Puerta del √Ångel"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q31142>.
 <http://findyourparking.es/lcc/Neighborhood/Cuatro%20Caminos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
 <http://findyourparking.es/lcc/Neighborhood/Cuatro%20Caminos> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Cuatro Caminos"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1484,7 +1465,7 @@
 <http://findyourparking.es/lcc/Neighborhood/Aravaca> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Aravaca"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Aravaca> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3314682>.
 <http://findyourparking.es/lcc/Neighborhood/Pac%C3%ADfico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Pac%C3%ADfico> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "PacÌfico"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Pac%C3%ADfico> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Pac√≠fico"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Pac%C3%ADfico> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3773753>.
 <http://findyourparking.es/lcc/Neighborhood/Lista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
 <http://findyourparking.es/lcc/Neighborhood/Lista> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Lista"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1508,7 +1489,7 @@
 <http://findyourparking.es/lcc/Neighborhood/Simancas> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Simancas"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Simancas> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10371626>.
 <http://findyourparking.es/lcc/Neighborhood/Jer%C3%B3nimos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Jer%C3%B3nimos> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "JerÛnimos"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Jer%C3%B3nimos> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Jer√≥nimos"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Jer%C3%B3nimos> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10306766>.
 <http://findyourparking.es/lcc/Neighborhood/Palacio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
 <http://findyourparking.es/lcc/Neighborhood/Palacio> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Palacio"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1520,10 +1501,10 @@
 <http://findyourparking.es/lcc/Neighborhood/Recoletos> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Recoletos"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Recoletos> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3814551>.
 <http://findyourparking.es/lcc/Neighborhood/Nueva%20Espa%C3%B1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Nueva%20Espa%C3%B1a> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Nueva EspaÒa"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Nueva%20Espa%C3%B1a> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Nueva Espa√±a"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Nueva%20Espa%C3%B1a> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10338128>.
 <http://findyourparking.es/lcc/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "NiÒo Jes˙s"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Ni√±o Jes√∫s"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3773746>.
 <http://findyourparking.es/lcc/Neighborhood/La%20Guindalera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
 <http://findyourparking.es/lcc/Neighborhood/La%20Guindalera> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "La Guindalera"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1541,7 +1522,7 @@
 <http://findyourparking.es/lcc/Neighborhood/Almagro> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Almagro"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Almagro> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10954432>.
 <http://findyourparking.es/lcc/Neighborhood/Ciudad%20Jard%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Ciudad%20Jard%C3%ADn> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Ciudad JardÌn"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Ciudad%20Jard%C3%ADn> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Ciudad Jard√≠n"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Ciudad%20Jard%C3%ADn> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3773744>.
 <http://findyourparking.es/lcc/Neighborhood/Adelfas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
 <http://findyourparking.es/lcc/Neighborhood/Adelfas> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Adelfas"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1550,8 +1531,8 @@
 <http://findyourparking.es/lcc/Neighborhood/Universidad> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Universidad"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Universidad> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10387767>.
 <http://findyourparking.es/lcc/Neighborhood/Arg%C3%BCelles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Arg%C3%BCelles> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Arg¸elles"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Arg%C3%BCelles> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Arg√ºelles"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Arg%C3%BCelles> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q64874>.
 <http://findyourparking.es/lcc/Neighborhood/Moscard%C3%B3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood>.
-<http://findyourparking.es/lcc/Neighborhood/Moscard%C3%B3> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "MoscardÛ"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://findyourparking.es/lcc/Neighborhood/Moscard%C3%B3> <http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> "Moscard√≥"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://findyourparking.es/lcc/Neighborhood/Moscard%C3%B3> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q11937679>.
