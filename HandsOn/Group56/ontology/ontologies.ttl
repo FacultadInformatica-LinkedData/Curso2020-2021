@@ -12,48 +12,6 @@
 #    Object Properties
 #################################################################
 
-###  http://group56.org/zonas-verdes/situadoen
-:situadoen rdf:type owl:ObjectProperty ;
-           rdfs:domain :Subepigrafe ;
-           rdfs:range :SituacionDestino .
-
-
-###  http://group56.org/zonas-verdes/tieneApartado
-:tieneApartado rdf:type owl:ObjectProperty ;
-               rdfs:domain :Subepigrafe ;
-               rdfs:range :Apartado .
-
-
-###  http://group56.org/zonas-verdes/tieneCalle
-:tieneCalle rdf:type owl:ObjectProperty ;
-            rdfs:domain :Distrito ;
-            rdfs:range :SituacionDestino .
-
-
-###  http://group56.org/zonas-verdes/tieneDestino
-:tieneDestino rdf:type owl:ObjectProperty ;
-              rdfs:domain :Subepigrafe ;
-              rdfs:range :Destino .
-
-
-###  http://group56.org/zonas-verdes/tieneNaturaleza
-:tieneNaturaleza rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Distrito ;
-                 rdfs:range :NaturalezaInmueble .
-
-
-###  http://group56.org/zonas-verdes/tieneNdeArchivo
-:tieneNdeArchivo rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Subepigrafe ;
-                 rdfs:range :NdeArchivo .
-
-
-###  http://group56.org/zonas-verdes/tieneSolar
-:tieneSolar rdf:type owl:ObjectProperty ;
-            rdfs:domain :Subepigrafe ;
-            rdfs:range :Solar .
-
-
 ###  http://group56.org/zonas-verdes/tieneSubepigrafe
 :tieneSubepigrafe rdf:type owl:ObjectProperty ;
                   rdfs:domain :Distrito ;
@@ -66,19 +24,19 @@
 
 ###  http://group56.org/zonas-verdes/nombreApartado
 :nombreApartado rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Apartado ;
+                rdfs:domain :Subepigrafe ;
                 rdfs:range xsd:string .
 
 
 ###  http://group56.org/zonas-verdes/nombreCalle
 :nombreCalle rdf:type owl:DatatypeProperty ;
-             rdfs:domain :SituacionDestino ;
+             rdfs:domain :Subepigrafe ;
              rdfs:range xsd:string .
 
 
 ###  http://group56.org/zonas-verdes/nombreDestino
 :nombreDestino rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Destino ;
+               rdfs:domain :Subepigrafe ;
                rdfs:range xsd:string .
 
 
@@ -90,7 +48,7 @@
 
 ###  http://group56.org/zonas-verdes/nombreNaturaleza
 :nombreNaturaleza rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :NaturalezaInmueble ;
+                  rdfs:domain :Subepigrafe ;
                   rdfs:range xsd:string .
 
 
@@ -102,13 +60,13 @@
 
 ###  http://group56.org/zonas-verdes/numeroArchivo
 :numeroArchivo rdf:type owl:DatatypeProperty ;
-               rdfs:domain :NdeArchivo ;
+               rdfs:domain :Subepigrafe ;
                rdfs:range xsd:integer .
 
 
 ###  http://group56.org/zonas-verdes/tamanioSolar
 :tamanioSolar rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Solar ;
+              rdfs:domain :Subepigrafe ;
               rdfs:range xsd:double .
 
 
@@ -116,32 +74,8 @@
 #    Classes
 #################################################################
 
-###  http://group56.org/zonas-verdes/Apartado
-:Apartado rdf:type owl:Class .
-
-
-###  http://group56.org/zonas-verdes/Destino
-:Destino rdf:type owl:Class .
-
-
 ###  http://group56.org/zonas-verdes/Distrito
 :Distrito rdf:type owl:Class .
-
-
-###  http://group56.org/zonas-verdes/NaturalezaInmueble
-:NaturalezaInmueble rdf:type owl:Class .
-
-
-###  http://group56.org/zonas-verdes/NdeArchivo
-:NdeArchivo rdf:type owl:Class .
-
-
-###  http://group56.org/zonas-verdes/SituacionDestino
-:SituacionDestino rdf:type owl:Class .
-
-
-###  http://group56.org/zonas-verdes/Solar
-:Solar rdf:type owl:Class .
 
 
 ###  http://group56.org/zonas-verdes/Subepigrafe
