@@ -1764,5 +1764,248 @@
 		"op": "core/column-removal",
 		"columnName": "URI-DATE",
 		"description": "Remove column URI-DATE"
-	}
+	},
+	{
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-CRUCE",
+    "expression": "grel:replace(value,\"%\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-CRUCE using expression grel:replace(value,\"%\",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-PERSONA",
+    "expression": "grel:replace(value,\"%\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-PERSONA using expression grel:replace(value,\"%\",\"-\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CRUCE LABEL",
+    "description": "Remove column CRUCE LABEL"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "CALLE 1",
+    "expression": "join ([coalesce(cells['CALLE 1'].value,''),coalesce(cells['CALLE 2'].value,'')],' - ')",
+    "onError": "keep-original",
+    "newColumnName": "CRUCE LABEL",
+    "columnInsertIndex": 6,
+    "description": "Create column CRUCE LABEL at index 6 based on column CALLE 1 using expression join ([coalesce(cells['CALLE 1'].value,''),coalesce(cells['CALLE 2'].value,'')],' - ')"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "CRUCE LABEL",
+    "index": 7,
+    "description": "Move column CRUCE LABEL to position 7"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "CRUCE LABEL",
+    "index": 8,
+    "description": "Move column CRUCE LABEL to position 8"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CRUCE LABEL",
+    "expression": "grel:if(value[-2]==\"-\",value[0,-2],value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CRUCE LABEL using expression grel:if(value[-2]==\"-\",value[0,-2],value)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-TIPO VEHÍCULO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "motocicleta->-125cc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "motocicleta-+-125cc"
+      }
+    ],
+    "description": "Mass edit cells in column URI-TIPO VEHÍCULO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-TIPO VEHÍCULO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "motocicleta-+-125cc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "motocicleta-mayor-que-125cc"
+      }
+    ],
+    "description": "Mass edit cells in column URI-TIPO VEHÍCULO"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LESIVIDAD",
+    "expression": "grel:if(or(toNumber(value)>=0,toNumber(value)<=25),replace(value,value,\"Leve\"),value) && if(or(toNumber(value)>=26,toNumber(value)<=50),replace(value,value,\"Grave\"),value)&& if(or(toNumber(value)>=51,toNumber(value)<=75),replace(value,value,\"Mortal\"),value)&& if(or(toNumber(value)>=76,toNumber(value)<=100),replace(value,value,\"Total\"),value))",
+    "onError": "set-to-blank",
+    "newColumnName": "ESTADO DE LESION",
+    "columnInsertIndex": 27,
+    "description": "Create column ESTADO DE LESION at index 27 based on column LESIVIDAD using expression grel:if(or(toNumber(value)>=0,toNumber(value)<=25),replace(value,value,\"Leve\"),value) && if(or(toNumber(value)>=26,toNumber(value)<=50),replace(value,value,\"Grave\"),value)&& if(or(toNumber(value)>=51,toNumber(value)<=75),replace(value,value,\"Mortal\"),value)&& if(or(toNumber(value)>=76,toNumber(value)<=100),replace(value,value,\"Total\"),value))"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ESTADO DE LESION",
+          "expression": "value",
+          "columnName": "ESTADO DE LESION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Leve",
+                "l": "Leve"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "FECHA",
+    "expression": "grel:value[3,5]+\" de \"+ value[6,10]",
+    "onError": "set-to-blank",
+    "newColumnName": "Fecha aux",
+    "columnInsertIndex": 2,
+    "description": "Create column Fecha aux at index 2 based on column FECHA using expression grel:value[3,5]+\" de \"+ value[6,10]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha aux",
+    "description": "Remove column Fecha aux"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "FECHA",
+    "expression": "grel:value[3,5]+\" de \"+ value[6,10]",
+    "onError": "set-to-blank",
+    "newColumnName": "FECHA 2",
+    "columnInsertIndex": 2,
+    "description": "Create column FECHA 2 at index 2 based on column FECHA using expression grel:value[3,5]+\" de \"+ value[6,10]"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "01 de 2020"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Enero de 2020"
+      }
+    ],
+    "description": "Mass edit cells in column FECHA 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "02 de 2020"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Febrero de 2020"
+      }
+    ],
+    "description": "Mass edit cells in column FECHA 2"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DATE",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DATE using expression value.toDate()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "LESIVIDAD",
+    "description": "Remove column LESIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ESTADO DE LESION",
+    "newColumnName": "LESIVIDAD",
+    "description": "Rename column ESTADO DE LESION to LESIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA 2",
+    "newColumnName": "MES",
+    "description": "Rename column FECHA 2 to MES"
+  }
 ]
