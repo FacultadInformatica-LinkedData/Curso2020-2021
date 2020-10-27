@@ -1,6 +1,10 @@
-import os, sys, csv
+import os, sys
 import qtmodern.styles
 import qtmodern.windows
+
+sys.path.insert(1, './application/model/')
+from QueryMaker import QueryMaker
+
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtCore import QFile, QTextStream, QSize
 from PyQt5.QtGui import QIcon, QPixmap, QFont
@@ -8,6 +12,7 @@ from PyQt5.QtWidgets import QStyleFactory, QComboBox, QCheckBox, QSizePolicy, QG
 
 
 class MainWindow(QMainWindow):
+    
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setGeometry(1000, 200, 700, 500)
@@ -100,7 +105,7 @@ class MainWidget(QWidget):
         # Map button
         self.map_button = QPushButton(self)
         self.map_button.setGeometry(85, 45, 250, 250)
-        self.map_button.setIcon(QIcon(os.path.join(ws_path, "maps5.png")))
+        self.map_button.setIcon(QIcon(os.path.join(ws_path, "../resources/maps.png")))
         self.map_button.setIconSize(QSize(200, 200))
         # Map label
         self.map_label = QLabel('MAPS', self)
@@ -111,12 +116,12 @@ class MainWidget(QWidget):
         # Data searching button
         self.ds_button = QPushButton(self)
         self.ds_button.setGeometry(365, 45, 250, 250)
-        self.ds_button.setIcon(QIcon(os.path.join(ws_path, "lupa5.png")))
+        self.ds_button.setIcon(QIcon(os.path.join(ws_path, "../resources/lupa.png")))
         self.ds_button.setIconSize(QSize(200, 200))
         # Magnitudes button
         self.mg_button = QPushButton(self)
         self.mg_button.setGeometry(85, 320, 530, 90)
-        self.mg_button.setIcon(QIcon(os.path.join(ws_path, "pollution.png")))
+        self.mg_button.setIcon(QIcon(os.path.join(ws_path, "../resources/pollution.png")))
         self.mg_button.setIconSize(QSize(70, 70))
         # Magnitudes label
         self.mg_label = QLabel('MAGNITUDES', self)
@@ -132,7 +137,7 @@ class DSWidget(QWidget):
         # Measurement button
         self.ms_button = QPushButton(self)
         self.ms_button.setGeometry(50, 90, 280, 280)
-        self.ms_button.setIcon(QIcon(os.path.join(ws_path, "measure3.png")))
+        self.ms_button.setIcon(QIcon(os.path.join(ws_path, "../resources/measure.png")))
         self.ms_button.setIconSize(QSize(300, 300))
         # Measurement label
         self.ms_label = QLabel('MEASUREMENTS', self)
@@ -140,13 +145,13 @@ class DSWidget(QWidget):
         # Model button
         self.model_button = QPushButton(self)
         self.model_button.setGeometry(365, 90, 280, 280)
-        self.model_button.setIcon(QIcon(os.path.join(ws_path, "model3.png")))
+        self.model_button.setIcon(QIcon(os.path.join(ws_path, "../resources/model.png")))
         self.model_button.setIconSize(QSize(200, 200))
         # Model label
         self.ms_label = QLabel('MODEL', self)
         self.ms_label.setGeometry(490, 367, 100, 30)
         # Back button
-        self.back_button = QPushButton('ATRÁS', self)
+        self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
 
@@ -203,7 +208,7 @@ class MSWidget(QWidget):
         self.query_button = QPushButton('QUERY', self)
         self.query_button.setGeometry(325, 400, 50, 30)
         # Back button
-        self.back_button = QPushButton('ATRÁS', self)
+        self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
     
     def checkLocation(self, state):
@@ -234,7 +239,7 @@ class ModelWidget(QWidget):
         # Data properties button
         self.dp_button = QPushButton(self)
         self.dp_button.setGeometry(100, 40, 190, 190)
-        self.dp_button.setIcon(QIcon(os.path.join(ws_path, "dataprop.png")))
+        self.dp_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
         self.dp_button.setIconSize(QSize(150, 150))
         # Data properties label
         self.dp_label = QLabel('DATA PROP', self)
@@ -242,7 +247,7 @@ class ModelWidget(QWidget):
         # Object properties properties button
         self.obj_button = QPushButton(self)
         self.obj_button.setGeometry(390, 40, 190, 190)
-        self.obj_button.setIcon(QIcon(os.path.join(ws_path, "dataprop.png")))
+        self.obj_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
         self.obj_button.setIconSize(QSize(150, 150))
         # Object properties label
         self.obj_label = QLabel('OBJECT PROP', self)
@@ -250,13 +255,13 @@ class ModelWidget(QWidget):
         # Classes button
         self.cls_button = QPushButton(self)
         self.cls_button.setGeometry(248, 260, 190, 190)
-        self.cls_button.setIcon(QIcon(os.path.join(ws_path, "dataprop.png")))
+        self.cls_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
         self.cls_button.setIconSize(QSize(150, 150))
         # Classes label
         self.cls_label = QLabel('CLASSES', self)
         self.cls_label.setGeometry(322, 445, 100, 30)
         # Back button
-        self.back_button = QPushButton('ATRÁS', self)
+        self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
 
@@ -269,7 +274,7 @@ class MapsWidget(QWidget):
         # Stations button
         self.st_button = QPushButton(self)
         self.st_button.setGeometry(50, 90, 280, 280)
-        self.st_button.setIcon(QIcon(os.path.join(ws_path, "stations.png")))
+        self.st_button.setIcon(QIcon(os.path.join(ws_path, "../resources/stations.png")))
         self.st_button.setIconSize(QSize(200, 200))
         # Stations label
         self.st_label = QLabel('STATIONS', self)
@@ -277,13 +282,13 @@ class MapsWidget(QWidget):
         # Districts button
         self.dist_button = QPushButton(self)
         self.dist_button.setGeometry(365, 90, 280, 280)
-        self.dist_button.setIcon(QIcon(os.path.join(ws_path, "districts.png")))
+        self.dist_button.setIcon(QIcon(os.path.join(ws_path, "../resources/districts.png")))
         self.dist_button.setIconSize(QSize(200, 200))
         # Districts label
         self.dist_label = QLabel('DISTRICTS', self)
         self.dist_label.setGeometry(480, 367, 100, 30)
         # Back button
-        self.back_button = QPushButton('ATRÁS', self)
+        self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
 
@@ -297,7 +302,7 @@ class StationsWidget(QWidget):
         ws_path = os.path.dirname(os.path.abspath(__file__))
 
         img_label = QLabel(self)
-        img = QPixmap(os.path.join(ws_path, "madrid5.png"))
+        img = QPixmap(os.path.join(ws_path, "../resources/madrid.png"))
         #img = img.scaledToHeight(480)        
         img_label.setPixmap(img)
 
@@ -480,7 +485,7 @@ class StationsWidget(QWidget):
         self.more_button.setEnabled(False)
 
         # Back button
-        self.back_button = QPushButton('ATRÁS', self)
+        self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
 
@@ -529,7 +534,7 @@ class StationInfoWidget(QWidget):
         self.uri_label.setFont(QFont('Arial', 12))
 
         # Back button
-        self.back_button = QPushButton('ATRÁS', self)
+        self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
 
@@ -560,7 +565,7 @@ class MGWidget(QWidget):
         # Search button
         self.search_button = QPushButton("SEARCH", self)
         self.search_button.setGeometry(59, 240, 100, 30)
-        self.search_button.pressed.connect(self.csvSearch)
+        self.search_button.pressed.connect(self.magnitudesSearch)
         
         # Info labels
         self.mgid_label = QLabel("ID:  " + self.mg_id, self)
@@ -571,33 +576,75 @@ class MGWidget(QWidget):
         self.mgnt_label.setGeometry(250, 100, 400, 30)
         #self.mgnt_label.setFont(QFont('Arial', 13))
         
-        self.mgnom_label = QLabel("NOMBRE:  " + self.mg_nombre, self)
-        self.mgnom_label.setGeometry(250, 140, 400, 30)
-        #self.mgnom_label.setFont(QFont('Arial', 13))
-
-        self.mgname_label = QLabel("NAME:  " + self.mg_name, self)
-        self.mgname_label.setGeometry(250, 180, 400, 30)
+        self.mgname_label = QLabel("NAME(en):  " + self.mg_name, self)
+        self.mgname_label.setGeometry(250, 140, 400, 30)
         #self.mgname_label.setFont(QFont('Arial', 13))
+
+        self.mgnom_label = QLabel("NAME(es):  " + self.mg_nombre, self)
+        self.mgnom_label.setGeometry(250, 180, 400, 30)
+        #self.mgnom_label.setFont(QFont('Arial', 13))
 
         self.mgwk_label = QLabel("WIKIDATA_ID:  " + self.mg_wiki, self)
         self.mgwk_label.setGeometry(250, 220, 400, 30)
         #self.mgwk_label.setFont(QFont('Arial', 13))
 
-        self.mgdef_label = QLabel("DEFINITION:  " + self.mg_def, self)
+        self.mgdef_label = QLabel("SUMMARY:  " + self.mg_def, self)
         self.mgdef_label.setGeometry(250, 260, 400, 30)
         #self.mgdef_label.setFont(QFont('Arial', 13))
 
                 
         # Csv search
         ## ESTO VA A HABER QUE MODIFICARLO PARA QUE LOS DATOS LOS RECOJA DE LOS TTL
-        self.csvSearch()
+        #self.magnitudesSearch()
 
         # Back button
-        self.back_button = QPushButton('ATRÁS', self)
+        self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
     
     ## ESTO VA A HABER QUE MODIFICARLO PARA QUE LOS DATOS LOS RECOJA DE LOS TTL
-    def csvSearch(self):
+    def magnitudesSearch(self):
+        # funcion declarada como magnitudesSearch(self, valor_id) ?
+        # o pasar ese argumento de alguna otra manera
+        # El ID sirve para seleccionar la magnitud concreta, 10 como ejemplo
+        valor_id = "10"
+
+        # Creación de un objeto QueryMaker (puedes hacerlo global y reusarlo)
+        qm = QueryMaker()
+
+        # Selección de los atributos que se requieren
+        qm.addSelect("?Magnitude ?Id ?Notation ?Nombre ?Name ?Wiki ?Description")
+        
+        # Construcción de la query
+        qm.addParam("?Magnitude", "rdf:type", "ns:Magnitude")
+        qm.addParam("?Magnitude", "rdfs:comment", "?Description")
+        qm.addParam("?Magnitude", "ns:measureNotation", "?Notation")
+        qm.addParam("?Magnitude", "ns:measureCode", "?Id")
+        qm.addFilter("(?Id = \"{}\")".format(valor_id))
+        qm.addParam("?Magnitude", "owl:sameAs", "?Wiki")
+        qm.addParam("?Magnitude", "rdfs:label", "?Name , ?Nombre")
+        qm.addFilter("(LANG(?Name) = 'en' && LANG(?Nombre) = 'es')")
+        
+        # Ejecución de la query
+        listResult = qm.executeQuery()
+
+        # (Aquí solo tiene 1 elemento la lista, por haber seleccionado una magnitud)
+        for item in listResult:
+
+            self.mg_id = item["Id"]
+            self.mg_notation = item["Notation"]
+            self.mg_nombre = item["Nombre"]
+            self.mg_name = item["Name"]
+            self.mg_wiki = item["Wiki"]
+            self.mg_def = item["Description"]
+
+            self.mgid_label.setText("ID:  " + self.mg_id)
+            self.mgnt_label.setText("NOTATION:  " + self.mg_notation)
+            self.mgnom_label.setText("NOMBRE:  " + self.mg_nombre)
+            self.mgname_label.setText("NAME:  " + self.mg_name)
+            self.mgwk_label.setText("WIKIDATA_ID:  " + self.mg_wiki)
+            self.mgdef_label.setText("SUMMARY:  " + self.mg_def)
+
+        """
         with open(os.path.join(self.ws_path, "magnitudes.csv")) as csv_mg:
             csv_reader = csv.reader(csv_mg, delimiter = ',')
             i = 0
@@ -619,6 +666,7 @@ class MGWidget(QWidget):
                         self.mgdef_label.setText("DEFINITION:  " + self.mg_def)
                         break
                 i += 1
+        """
 
 
 
