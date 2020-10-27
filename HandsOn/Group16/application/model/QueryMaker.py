@@ -19,7 +19,7 @@ class QueryMaker:
         self.paramsList = []
         if not(hasattr(self, "graph")):
             self.graph = Graph()
-            self.graph.parse("/home/pablo/Descargas/a.ttl", format="nt")
+            self.graph.parse("rdf/output-with-links.ttl", format="nt")
         # END IF
     # END FUNCTION
 
