@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>results</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" 
+              href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+              integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+              crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+        <script>
+             $.ajax({
+                url: '/getWish',
+                type: 'GET',
+                 success: function(json){
+                    var parse=$.parseJSON(json);
+                    console.log(parse);
+                    ""$.each(parse,function(index,value){
+                        $('#wishList').append('<h4 class="list-group-item-heading">' + value.Title+'</h4>');
+                        $('#wishList').append('<p class="list-group-item-text">'+value.Description+'</p>');
+                    })""
+                 },
+                 error: function(xhr,status){
+                     alert('Disculpe no mas no funsiono como deberia');
+                 }
+             }
+             )
+        </script>
+    </head>
+
+    <!--
+    <body class="bg-primary lead"style="background: url(https://images.unsplash.com/photo-1506521781263-d8422e82f27a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); background-size: cover;"> 
+    -->
+    
+            <body>
+         
+                <nav class="navbar navbar-expand-lg navbar-dark text right bg-dark">
+                    <a class="navbar-brand" href="/"><i class="bg- p-2 rounded fas fa-recycle fa-2x"> </i> CleanPoint </a>
+                 
+
+                </nav>
+            <div style="background-color: darkseagreen;">
+                <header>
+                    
+           
+                    
+                    
+               <h1 class="text-center p-5 text-success" ><a href="/" class="text-decoration-none text-dark"><span class="badge badge- mr-3"><i class="fas fa-recycle fa-2x text-decoration-none"></i></span>CleanPoint</a></h1> 
+            </header>
+            
+                <div class="p-4">
+                
+                    <h5>Estos son los puntos limpios mas cercanos.</h5>
+                  
+                    
+                </div>
+                
+                <center>    
+                    
+
+                    <div class="p-2">
+                        <!--iframe class="mb-5" width="1000" height="780" style="background-color: ">
+                    <a href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/"> 
+                            </a>
+                        </iframe-->
+                        <table id="tabla">
+                            <thead>
+                                <tr>
+                                    <th>Punto Limpio</th>
+                                    <th>Propiedades</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="puntoLimpio"></td>
+                                    <td id="propiedades"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                        
+
+            
+             </center>
+
+                 
+
+         <div >
+            <nav class="navbar navbar-expand navbar-dark bg-dark text-center p-3">
+
+
+                        <div class="col mt-2 p-3">
+<!--
+                            <div class="col"><p class="text-white bg-dark" style="color: gray"><em>Contanto: </em><a class="text-white bg-dark" href="home.html"><br/>wwww.informacion@resercar.com</a></p></div>
+-->
+                        </div>
+
+                        <div class="col mt-2">
+<!--
+                            <div class="col"><p class="text-white bg-dark" style="color: gray"><em>ReserCar  </em><a class="text-white bg-dark" href="informacion.html"><br/>Pagina de ayuda</a></p></div>
+-->
+                     </div>
+
+                </nav>
+         </div>    
+            </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

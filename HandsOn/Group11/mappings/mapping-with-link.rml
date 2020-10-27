@@ -84,11 +84,16 @@
     rr:termType rr:IRI;
     rr:class :Location
   ];
-
+rr:predicateObjectMap [
+    rr:predicateMap[rr:constant :addressFullName; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "DISTRITO"; rr:dataType rr:Literal
+      ]
+  ];
 rr:predicateObjectMap [
     rr:predicateMap[rr:constant :districtCode; rr:termType rr:IRI ];
     rr:objectMap [
-      rml:reference "DISTRITO"; rr:dataType <http://www.w3.org/2001/XMLSchema#integer>
+      rml:reference "DISTRITO"; rr:dataType rr:Literal
       ]
   ].
   
