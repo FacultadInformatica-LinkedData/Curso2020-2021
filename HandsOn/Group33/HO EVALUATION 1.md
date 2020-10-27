@@ -11,7 +11,6 @@ Group 33
         - Use Protege to define the ontology to avoid having some errors.
         - Some classes are used but not defined.
     RDF generated
-        - No RDF data has been generated.
         - The RDF file does not follow the resource naming strategy.
         - The URI of an individual should be "readable" and have some meaning. An auto-increased integer does not satisfy this.
         - You cannot use slashes after hashes in URIs.
