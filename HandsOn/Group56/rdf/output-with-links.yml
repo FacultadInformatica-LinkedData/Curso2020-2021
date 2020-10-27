@@ -3,17 +3,19 @@ prefixes:
   rml: http://semweb.mmlab.be/ns/rml#
   ex: http://group56.org/zonas-verdes/
   xsd: http://www.w3.org/2001/XMLSchema#
+  owl: http://www.w3.org/2002/07/owl#
 
 mappings:
 
 
   distrito:
     sources:
-      - [ZonasVerdes-updated.csv~csv]
+      - [ZonasVerdes-updated-with-links.csv~csv]
     s: http://group56.org/zonas-verdes/Distrito/$(Distrito)
     po:
       - [a, ex:Distrito]
       - [ex:nombreDistrito, $(Distrito),xsd:string]  
+      - [owl:sameAs, $(DistritoURI)~iri]
       - p: ex:tieneSubepigrafe
         o:
            mapping: subepigrafe            
@@ -21,7 +23,7 @@ mappings:
       
   subepigrafe:
     sources:
-      - [ZonasVerdes-updated.csv~csv]
+      - [ZonasVerdes-updated-with-links.csv~csv]
     s: http://group56.org/zonas-verdes/Subepigrafe/$(Subepigrafe)
     po:
       - [a, ex:Subepigrafe]

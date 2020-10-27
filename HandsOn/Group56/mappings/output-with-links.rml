@@ -5,171 +5,83 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:map_apartado_0 rml:logicalSource map:source_0;
-    a rr:TriplesMap;
-    rdfs:label "apartado";
-    rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1.
-map:map_destino_0 rml:logicalSource map:source_1;
-    a rr:TriplesMap;
-    rdfs:label "destino";
-    rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_2, map:pom_3.
-map:map_distrito_0 rml:logicalSource map:source_2;
+map:map_distrito_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "distrito";
-    rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9.
-map:map_naturaleza_0 rml:logicalSource map:source_3;
-    a rr:TriplesMap;
-    rdfs:label "naturaleza";
-    rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_10, map:pom_11.
-map:map_numerodearchivo_0 rml:logicalSource map:source_4;
-    a rr:TriplesMap;
-    rdfs:label "numerodearchivo";
-    rr:subjectMap map:s_4;
-    rr:predicateObjectMap map:pom_12, map:pom_13.
-map:map_situaciondestino_0 rml:logicalSource map:source_5;
-    a rr:TriplesMap;
-    rdfs:label "situaciondestino";
-    rr:subjectMap map:s_5;
-    rr:predicateObjectMap map:pom_14, map:pom_15.
-map:map_solar_0 rml:logicalSource map:source_6;
-    a rr:TriplesMap;
-    rdfs:label "solar";
-    rr:subjectMap map:s_6;
-    rr:predicateObjectMap map:pom_16, map:pom_17.
-map:map_subepigrafe_0 rml:logicalSource map:source_7;
+    rr:subjectMap map:s_0;
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3.
+map:map_subepigrafe_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "subepigrafe";
-    rr:subjectMap map:s_7;
-    rr:predicateObjectMap map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24.
+    rr:subjectMap map:s_1;
+    rr:predicateObjectMap map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11.
 map:om_0 a rr:ObjectMap;
-    rr:constant "http://group56.org/zonas-verdes/Apartado";
-    rr:termType rr:IRI.
-map:om_1 a rr:ObjectMap;
-    rml:reference "Apartado";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_10 a rr:ObjectMap;
-    rr:constant "http://group56.org/zonas-verdes/Naturaleza";
-    rr:termType rr:IRI.
-map:om_11 a rr:ObjectMap;
-    rml:reference "Naturaleza_del_inmueble";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_12 a rr:ObjectMap;
-    rr:constant "http://group56.org/zonas-verdes/NdeArchivo";
-    rr:termType rr:IRI.
-map:om_13 a rr:ObjectMap;
-    rml:reference "Numero_de_archivo";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_14 a rr:ObjectMap;
-    rr:constant "http://group56.org/zonas-verdes/SituacionDestino";
-    rr:termType rr:IRI.
-map:om_15 a rr:ObjectMap;
-    rml:reference "Situacion_Destino";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_16 a rr:ObjectMap;
-    rr:constant "http://group56.org/zonas-verdes/Solar";
-    rr:termType rr:IRI.
-map:om_17 a rr:ObjectMap;
-    rml:reference "Tamanio_Solar";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_18 a rr:ObjectMap;
-    rr:constant "http://group56.org/zonas-verdes/Subepigrafe";
-    rr:termType rr:IRI.
-map:om_19 a rr:ObjectMap;
-    rml:reference "Subepigrafe";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_2 a rr:ObjectMap;
-    rr:constant "http://group56.org/zonas-verdes/Destino";
-    rr:termType rr:IRI.
-map:om_20 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_situaciondestino_0.
-map:om_21 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_apartado_0.
-map:om_22 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_destino_0.
-map:om_23 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_numerodearchivo_0.
-map:om_24 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_solar_0.
-map:om_3 a rr:ObjectMap;
-    rml:reference "Destino";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_4 a rr:ObjectMap;
     rr:constant "http://group56.org/zonas-verdes/Distrito";
     rr:termType rr:IRI.
-map:om_5 a rr:ObjectMap;
+map:om_1 a rr:ObjectMap;
     rml:reference "Distrito";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_6 a rr:ObjectMap;
+map:om_10 a rr:ObjectMap;
+    rml:reference "Numero_de_archivo";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_11 a rr:ObjectMap;
+    rml:reference "Tamanio_Solar";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
+map:om_2 a rr:ObjectMap;
     rml:reference "DistritoURI";
     rr:termType rr:IRI.
-map:om_7 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_situaciondestino_0.
-map:om_8 a rr:ObjectMap;
+map:om_3 a rr:ObjectMap;
     rr:parentTriplesMap map:map_subepigrafe_0.
+map:om_4 a rr:ObjectMap;
+    rr:constant "http://group56.org/zonas-verdes/Subepigrafe";
+    rr:termType rr:IRI.
+map:om_5 a rr:ObjectMap;
+    rml:reference "Subepigrafe";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_6 a rr:ObjectMap;
+    rml:reference "Apartado";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_7 a rr:ObjectMap;
+    rml:reference "Situacion_Destino";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_8 a rr:ObjectMap;
+    rml:reference "Destino";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_9 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_naturaleza_0.
+    rml:reference "Naturaleza_del_inmueble";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/nombreApartado>.
+    rr:constant <http://group56.org/zonas-verdes/nombreDistrito>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_11 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/nombreNaturaleza>.
-map:pm_12 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_13 a rr:PredicateMap;
     rr:constant <http://group56.org/zonas-verdes/numeroArchivo>.
-map:pm_14 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_15 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/nombreCalle>.
-map:pm_16 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_17 a rr:PredicateMap;
+map:pm_11 a rr:PredicateMap;
     rr:constant <http://group56.org/zonas-verdes/tamanioSolar>.
-map:pm_18 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_19 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/nombreSubepigrafe>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_20 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/situadoen>.
-map:pm_21 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/tieneApartado>.
-map:pm_22 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/tieneDestino>.
-map:pm_23 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/tieneNdeArchivo>.
-map:pm_24 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/tieneSolar>.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_3 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/nombreDestino>.
+    rr:constant <http://group56.org/zonas-verdes/tieneSubepigrafe>.
 map:pm_4 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_5 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/nombreDistrito>.
+    rr:constant <http://group56.org/zonas-verdes/nombreSubepigrafe>.
 map:pm_6 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+    rr:constant <http://group56.org/zonas-verdes/nombreApartado>.
 map:pm_7 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/tieneCalle>.
+    rr:constant <http://group56.org/zonas-verdes/nombreCalle>.
 map:pm_8 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/tieneSubepigrafe>.
+    rr:constant <http://group56.org/zonas-verdes/nombreDestino>.
 map:pm_9 a rr:PredicateMap;
-    rr:constant <http://group56.org/zonas-verdes/tieneNaturaleza>.
+    rr:constant <http://group56.org/zonas-verdes/nombreNaturaleza>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -182,48 +94,9 @@ map:pom_10 a rr:PredicateObjectMap;
 map:pom_11 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_11;
     rr:objectMap map:om_11.
-map:pom_12 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_12;
-    rr:objectMap map:om_12.
-map:pom_13 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_13;
-    rr:objectMap map:om_13.
-map:pom_14 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_14;
-    rr:objectMap map:om_14.
-map:pom_15 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_15;
-    rr:objectMap map:om_15.
-map:pom_16 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_16;
-    rr:objectMap map:om_16.
-map:pom_17 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_17;
-    rr:objectMap map:om_17.
-map:pom_18 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_18;
-    rr:objectMap map:om_18.
-map:pom_19 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_19;
-    rr:objectMap map:om_19.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
-map:pom_20 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_20;
-    rr:objectMap map:om_20.
-map:pom_21 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_21;
-    rr:objectMap map:om_21.
-map:pom_22 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_22;
-    rr:objectMap map:om_22.
-map:pom_23 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_23;
-    rr:objectMap map:om_23.
-map:pom_24 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_24;
-    rr:objectMap map:om_24.
 map:pom_3 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_3;
     rr:objectMap map:om_3.
@@ -246,42 +119,12 @@ map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
 map:s_0 a rr:SubjectMap;
-    rr:template "http://group56.org/zonas-verdes/Apartado/{Apartado}".
+    rr:template "http://group56.org/zonas-verdes/Distrito/{Distrito}".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://group56.org/zonas-verdes/Destino/{Destino}".
-map:s_2 a rr:SubjectMap;
-    rr:template "http://group56.org/zonas-verdes/Districto/{Distrito}".
-map:s_3 a rr:SubjectMap;
-    rr:template "http://group56.org/zonas-verdes/NaturalezaInmueble/{Naturaleza_del_inmueble}".
-map:s_4 a rr:SubjectMap;
-    rr:template "http://group56.org/zonas-verdes/NdeArchivo/{Numero_de_archivo}".
-map:s_5 a rr:SubjectMap;
-    rr:template "http://group56.org/zonas-verdes/SituacionDestino/{Situacion_Destino}".
-map:s_6 a rr:SubjectMap;
-    rr:template "http://group56.org/zonas-verdes/Solar/{Tamanio_Solar}".
-map:s_7 a rr:SubjectMap;
     rr:template "http://group56.org/zonas-verdes/Subepigrafe/{Subepigrafe}".
 map:source_0 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
+    rml:source "ZonasVerdes-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_2 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_3 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_4 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_5 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_6 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_7 a rml:LogicalSource;
-    rml:source "ZonasVerdes-with-links.csv";
+    rml:source "ZonasVerdes-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
