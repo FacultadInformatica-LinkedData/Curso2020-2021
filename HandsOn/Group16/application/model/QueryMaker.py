@@ -16,6 +16,7 @@ class QueryMaker:
     # Init function
     def __init__(self):
         self.query = ""
+        self.order = ""
         self.paramsList = []
         if not(hasattr(self, "graph")):
             self.graph = Graph()
@@ -52,6 +53,12 @@ class QueryMaker:
         self.paramsList.append(("\tFILTER", filter))
     # END FUNCTION
 
+    # addOrder(string) -> ()
+    #   Orders the result of the query with the ordering sentence passed
+    #   example: addOrder("xsd:integer(?Code)")
+    def addOrder(self, order):
+        self.order = self.order + "ORDER BY " + order
+    # END FUNCTION
 
     # [private function] getNamespaces() -> Dictionary
     #   Returns the dictionary with the namespaces used in the current query
@@ -91,6 +98,8 @@ class QueryMaker:
         # END FOR
         self.query = self.query[0:len(self.query)-1]
         self.query = self.query + "}"
+        if not(self.order == ""):
+            self.query = self.query + "\n" + self.order
         initNs = self.getNamespaces()
         q = prepareQuery(self.query, initNs)
         result = self.graph.query(q)
@@ -150,6 +159,26 @@ def test_addFilter():
     assert qm.paramsList == expectedResult
 # END FUNCTION
 
+# Test method addOrder
+def test_addOrder():
+    qm = QueryMaker()
+    qm.addSelect("?Measure ?Station")
+    qm.addParam("?Measure", "rdf:type", "ns:Measurement")
+    qm.addParam("?Measure", "ns:measuredAt", "?Station")
+    qm.addParam("?Station", "rdfs:label", "?StLabel")
+    qm.addFilter("REGEX (?StLabel, \"Moratalaz\")")
+    qm.addOrder("asc(?Measure)")
+    listResult = qm.executeQuery()
+    expectedResult = [{u'Station': u'http://www.semanticweb.org/group16/air-quality/resource/28079036', u'Measure': u'http://www.semanticweb.org/group16/air-quality/resource/36_12_28079036_2010_5_16'},
+                    {u'Station': u'http://www.semanticweb.org/group16/air-quality/resource/28079036', u'Measure': u'http://www.semanticweb.org/group16/air-quality/resource/36_12_28079036_2012_2_23'},
+                    {u'Station': u'http://www.semanticweb.org/group16/air-quality/resource/28079036', u'Measure': u'http://www.semanticweb.org/group16/air-quality/resource/36_1_28079036_2015_3_15'},
+                    {u'Station': u'http://www.semanticweb.org/group16/air-quality/resource/28079036', u'Measure': u'http://www.semanticweb.org/group16/air-quality/resource/36_6_28079036_2016_9_11'},
+                    {u'Station': u'http://www.semanticweb.org/group16/air-quality/resource/28079036', u'Measure': u'http://www.semanticweb.org/group16/air-quality/resource/36_7_28079036_2017_7_24'},
+                    {u'Station': u'http://www.semanticweb.org/group16/air-quality/resource/28079036', u'Measure': u'http://www.semanticweb.org/group16/air-quality/resource/36_8_28079036_2018_12_26'}
+    ]
+    assert listResult == expectedResult
+# END FUNCTION
+
 # Test method executeQuery
 def tests_executeQuery():
     qm = QueryMaker()
@@ -195,6 +224,8 @@ if __name__ == "__main__":
     print("addParam method test passed")
     test_addFilter()
     print("addFilter method test passed")
+    test_addOrder()
+    print("addOrder method test passed")
     tests_executeQuery()
     print("executeQuery method tests passed")
     test_cleanQuery()

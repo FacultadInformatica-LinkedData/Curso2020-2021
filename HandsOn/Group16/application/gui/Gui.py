@@ -117,7 +117,7 @@ class MainWindow(QMainWindow):
         self.stinfo_widget.back_button.clicked.connect(self.toStations)
         self.central_widget.addWidget(self.stinfo_widget)
         ## NOT NECESSARY ##
-        if self.station_toShow != "Vacío" :
+        if self.station_toShow != "Empty" :
             self.central_widget.setCurrentWidget(self.stinfo_widget)
 
 
@@ -267,20 +267,20 @@ class ModelWidget(QWidget):
         self.dp_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
         self.dp_button.setIconSize(QSize(150, 150))
         # Data properties label
-        self.dp_label = QLabel('DATA PROP', self)
+        self.dp_label = QLabel('DATA PROPERTIES', self)
         self.dp_label.setGeometry(185, 225, 100, 30)
         # Object properties properties button
         self.obj_button = QPushButton(self)
         self.obj_button.setGeometry(370, 40, 190, 190)
-        self.obj_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
+        self.obj_button.setIcon(QIcon(os.path.join(ws_path, "../resources/objectprop.png")))
         self.obj_button.setIconSize(QSize(150, 150))
         # Object properties label
-        self.obj_label = QLabel('OBJECT PROP', self)
+        self.obj_label = QLabel('OBJECT PROPERTIES', self)
         self.obj_label.setGeometry(435, 225, 100, 30)
         # Classes button
         self.cls_button = QPushButton(self)
         self.cls_button.setGeometry(120, 260, 190, 190)
-        self.cls_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
+        self.cls_button.setIcon(QIcon(os.path.join(ws_path, "../resources/class.png")))
         self.cls_button.setIconSize(QSize(150, 150))
         # Classes label
         self.cls_label = QLabel('CLASSES', self)
@@ -328,9 +328,9 @@ class MapsWidget(QWidget):
 
 class StationsWidget(QWidget):
     def __init__(self, parent=None):
-        self.station_tsAux = "Vacío"
-        self.district_tsAux = "Vacío"
-        self.stName_tsAux = "Vacío"
+        self.station_tsAux = "Empty"
+        self.district_tsAux = "Empty"
+        self.stName_tsAux = "Empty"
 
         QLabel.__init__(self, parent)
         ws_path = os.path.dirname(os.path.abspath(__file__))
@@ -437,8 +437,26 @@ class StationsWidget(QWidget):
         self.b_9060.setStyleSheet("background-color:red")
         self.b_9060.setGeometry(200, 222, 10, 10)
 
+        # Cambiar el objeto self.stations con este método
+        def getStations():
+            qm = QueryMaker()
+            qm.addSelect("?StLabel ?StationCode ?DtLabel")
+            qm.addParam("?St", "rdf:type", "ns:Station")
+            qm.addParam("?St", "rdfs:label", "?StLabel")
+            qm.addParam("?St", "ns:stationCode", "?StationCode")
+            qm.addParam("?District", "rdf:type", "ns:District")
+            qm.addParam("?St", "ns:inDistrict", "?District")
+            qm.addParam("?District", "rdfs:label", "?DtLabel")
+            qm.addOrder("asc(?StLabel)")
+            listStations = qm.executeQuery()
+            for item in listStations:
+                print(item["StLabel"])
+                print(item["StationCode"])
+                print(item["DtLabel"])
+
         # Hashmap relating stations id with his name
         ## ESTO VA A HABER QUE MODIFICARLO PARA QUE LOS DATOS LOS RECOJA DE LOS TTL
+        self.stations = getStations()
         self.stations = {self.b_9004:["Pza. de España", "28079004", "Moncloa-Aravaca"], 
                         self.b_9008:["Escuelas Aguirre", "28079008", "Salamanca"], 
                         self.b_9011:["Avda. Ramón y Kajal", "28079011", "Chamartín"],
@@ -467,7 +485,7 @@ class StationsWidget(QWidget):
         # Select station combo box
         self.sel_combo = QComboBox(self)
         self.sel_combo.setGeometry(500, 230, 100, 30)
-        self.sel_combo.addItems(["Vacío","Pza. de España","Escuelas Aguirre",
+        self.sel_combo.addItems(["Empty","Pza. de España","Escuelas Aguirre",
                                 "Avda. Ramón y Kajal","Arturo Soria",
                                 "Villaverde","Farolillo",
                                 "Casa de campo","Barajas Pueblo",
@@ -534,7 +552,7 @@ class StationsWidget(QWidget):
                 self.stName_tsAux = st[0]
                 self.more_button.setEnabled(True)
                 id.setStyleSheet("background-color:green")
-            elif station == "Vacío" :
+            elif station == "Empty" :
                 self.more_button.setEnabled(False)
 
     
@@ -591,10 +609,10 @@ class MGWidget(QWidget):
         # Select magnitude combo box
         self.selmg_combo = QComboBox(self)
         self.selmg_combo.setGeometry(59, 200, 100, 30)
-        self.selmg_combo.addItems(["1-SO2", "6-CO", "7-NO", "8-NO2", 
-                                   "9-PM2.5", "10-PM10", "12-NOx", "14-O3", 
-                                   "20-TOL", "30-BEN", "35-EBE", "42-TCH", 
-                                   "43-CH4", "44-NMHC"])
+        self.selmg_combo.addItems(["1- SO2", "6- CO", "7- NO", "8- NO2", 
+                                   "9- PM2.5", "10- PM10", "12- NOx", "14- O3", 
+                                   "20- TOL", "30- BEN", "35- EBE", "42- TCH", 
+                                   "43- CH4", "44- NMHC"])
 
         # Search button
         self.search_button = QPushButton("SEARCH", self)

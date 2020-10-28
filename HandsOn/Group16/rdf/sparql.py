@@ -4,7 +4,7 @@
     SPARQL queries for checking WikiData liking
 """
 
-github_storage = "/home/hxshfx/Descargas/output-with-links.ttl" # cambiar
+data_storage = "rdf/output-with-links.ttl" 
 
 "Data loading and graph building"
 
@@ -13,7 +13,7 @@ from rdflib.namespace import RDF, RDFS, OWL
 from rdflib.plugins.sparql import prepareQuery
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#"), override=False)
-g.parse(github_storage, format="nt")
+g.parse(data_storage, format="nt")
 
 ns = Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#")
 
@@ -29,6 +29,7 @@ q1 = prepareQuery('''
     WHERE {
         ?Subject ?Property ?Object .
     }
+    ORDER BY asc(?Property)
     '''
 )
 
@@ -47,6 +48,7 @@ q2 = prepareQuery('''
         ?St rdf:type ns:Station .
         ?St rdfs:label ?StLabel .
     }
+    ORDER BY asc(?StLabel)
     ''',
     initNs = {"rdf":RDF, "rdfs":RDFS, "ns":ns}
 )
@@ -70,6 +72,7 @@ q3 = prepareQuery('''
         ?Magnitude rdfs:label ?LabelEn , ?LabelEs .
             FILTER (LANG(?LabelEn) = 'en' && LANG(?LabelEs) = 'es')
     }
+    ORDER BY xsd:integer(?Code)
     ''',
     initNs = {"rdf":RDF, "rdfs":RDFS, "ns":ns}
 )
@@ -175,6 +178,7 @@ q8 = prepareQuery('''
         ?Measure ns:dateOfMeasure ?Date .
             FILTER REGEX (STR(?Date), "^2014", "i") 
     }
+    ORDER BY asc(?Date)
     ''',
     initNs = {"rdf":RDF, "ns":ns}
 )
