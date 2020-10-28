@@ -8,7 +8,7 @@ from QueryMaker import QueryMaker
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtCore import QFile, QTextStream, QSize
 from PyQt5.QtGui import QIcon, QPixmap, QFont
-from PyQt5.QtWidgets import QStyleFactory, QComboBox, QCheckBox, QSizePolicy, QGridLayout, QApplication, QMainWindow, QStackedWidget, QMessageBox, QWidget, QHBoxLayout, QPushButton, QLabel
+from PyQt5.QtWidgets import QTextEdit, QLineEdit, QDialog, QStyleFactory, QComboBox, QCheckBox, QSizePolicy, QGridLayout, QApplication, QMainWindow, QStackedWidget, QMessageBox, QWidget, QHBoxLayout, QPushButton, QLabel
 
 
 class MainWindow(QMainWindow):
@@ -32,6 +32,10 @@ class MainWindow(QMainWindow):
         self.main_widget.mg_button.clicked.connect(self.toMG)
         self.main_widget.map_button.clicked.connect(self.toMaps)
         self.central_widget.addWidget(self.main_widget)
+        # Data properties, object properties, class
+        self.mt_widget = MTextWidget(self)
+        self.mt_widget.back_button.clicked.connect(self.toModel)
+        self.central_widget.addWidget(self.mt_widget)
         # Data searching
         self.ds_widget = DSWidget(self)
         self.ds_widget.back_button.clicked.connect(self.toMain)
@@ -44,6 +48,10 @@ class MainWindow(QMainWindow):
         self.central_widget.addWidget(self.ms_widget)
         # Model
         self.model_widget = ModelWidget(self)
+        self.model_widget.dp_button.clicked.connect(lambda: self.toMT("dp"))
+        self.model_widget.obj_button.clicked.connect(lambda: self.toMT("obj"))
+        self.model_widget.cls_button.clicked.connect(lambda: self.toMT("cls"))
+        self.model_widget.dg_button.clicked.connect(self.toDG)
         self.model_widget.back_button.clicked.connect(self.toDS)
         self.central_widget.addWidget(self.model_widget)
         # Maps
@@ -60,6 +68,13 @@ class MainWindow(QMainWindow):
         self.mg_widget = MGWidget(self)
         self.mg_widget.back_button.clicked.connect(self.toMain)
         self.central_widget.addWidget(self.mg_widget)
+        
+
+        # Diagram
+        #self.dg_widget = DGWidget(self)
+        #self.dg_widget.back_button.clicked.connect(self.toModel)
+        #self.central_widget.addWidget(self.dg_widget)
+
         
 
     def toDS(self):
@@ -82,6 +97,16 @@ class MainWindow(QMainWindow):
 
     def toMG(self):
         self.central_widget.setCurrentWidget(self.mg_widget)
+    
+    def toDG(self):
+        #self.central_widget.setCurrentWidget(self.dg_widget)
+
+        self.dg_window = DGWindow()
+        self.dg_window.show()
+
+    def toMT(self, type):
+        self.mt_widget.changeText(type)
+        self.central_widget.setCurrentWidget(self.mt_widget)
 
     def toStInfo(self):
         self.station_toShow = self.st_widget.station_tsAux
@@ -238,28 +263,37 @@ class ModelWidget(QWidget):
         self.setGeometry(0, 0, 120, 120)
         # Data properties button
         self.dp_button = QPushButton(self)
-        self.dp_button.setGeometry(100, 40, 190, 190)
+        self.dp_button.setGeometry(120, 40, 190, 190)
         self.dp_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
         self.dp_button.setIconSize(QSize(150, 150))
         # Data properties label
         self.dp_label = QLabel('DATA PROP', self)
-        self.dp_label.setGeometry(165, 225, 100, 30)
+        self.dp_label.setGeometry(185, 225, 100, 30)
         # Object properties properties button
         self.obj_button = QPushButton(self)
-        self.obj_button.setGeometry(390, 40, 190, 190)
+        self.obj_button.setGeometry(370, 40, 190, 190)
         self.obj_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
         self.obj_button.setIconSize(QSize(150, 150))
         # Object properties label
         self.obj_label = QLabel('OBJECT PROP', self)
-        self.obj_label.setGeometry(455, 225, 100, 30)
+        self.obj_label.setGeometry(435, 225, 100, 30)
         # Classes button
         self.cls_button = QPushButton(self)
-        self.cls_button.setGeometry(248, 260, 190, 190)
+        self.cls_button.setGeometry(120, 260, 190, 190)
         self.cls_button.setIcon(QIcon(os.path.join(ws_path, "../resources/dataprop.png")))
         self.cls_button.setIconSize(QSize(150, 150))
         # Classes label
         self.cls_label = QLabel('CLASSES', self)
-        self.cls_label.setGeometry(322, 445, 100, 30)
+        self.cls_label.setGeometry(194, 445, 100, 30)
+        # Diagram button
+        self.dg_button = QPushButton(self)
+        self.dg_button.setGeometry(370, 260, 190, 190)
+        self.dg_button.setIcon(QIcon(os.path.join(ws_path, "../resources/diagram.svg")))
+        self.dg_button.setIconSize(QSize(150, 150))
+        # Diagram label
+        self.dg_label = QLabel('DIAGRAM', self)
+        self.dg_label.setGeometry(440, 445, 100, 30)
+        
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
@@ -557,10 +591,10 @@ class MGWidget(QWidget):
         # Select magnitude combo box
         self.selmg_combo = QComboBox(self)
         self.selmg_combo.setGeometry(59, 200, 100, 30)
-        self.selmg_combo.addItems(["SO2", "CO", "NO", "NO2", 
-                                   "PM2.5", "PM10", "NOx", "O3", 
-                                   "TOL", "BEN", "EBE", "TCH", 
-                                   "CH4", "NMHC"])
+        self.selmg_combo.addItems(["1-SO2", "6-CO", "7-NO", "8-NO2", 
+                                   "9-PM2.5", "10-PM10", "12-NOx", "14-O3", 
+                                   "20-TOL", "30-BEN", "35-EBE", "42-TCH", 
+                                   "43-CH4", "44-NMHC"])
 
         # Search button
         self.search_button = QPushButton("SEARCH", self)
@@ -606,7 +640,8 @@ class MGWidget(QWidget):
         # funcion declarada como magnitudesSearch(self, valor_id) ?
         # o pasar ese argumento de alguna otra manera
         # El ID sirve para seleccionar la magnitud concreta, 10 como ejemplo
-        valor_id = "10"
+
+        valor_id = self.selmg_combo.currentText().split('-')[0]
 
         # Creación de un objeto QueryMaker (puedes hacerlo global y reusarlo)
         qm = QueryMaker()
@@ -639,8 +674,8 @@ class MGWidget(QWidget):
 
             self.mgid_label.setText("ID:  " + self.mg_id)
             self.mgnt_label.setText("NOTATION:  " + self.mg_notation)
-            self.mgnom_label.setText("NOMBRE:  " + self.mg_nombre)
-            self.mgname_label.setText("NAME:  " + self.mg_name)
+            self.mgnom_label.setText("NAME(es):  " + self.mg_nombre)
+            self.mgname_label.setText("NAME(en):  " + self.mg_name)
             self.mgwk_label.setText("WIKIDATA_ID:  " + self.mg_wiki)
             self.mgdef_label.setText("SUMMARY:  " + self.mg_def)
 
@@ -667,6 +702,73 @@ class MGWidget(QWidget):
                         break
                 i += 1
         """
+
+
+"""
+class DGWidget(QWidget):
+    def __init__(self, parent=None):
+        QLabel.__init__(self, parent)
+        ws_path = os.path.dirname(os.path.abspath(__file__))
+
+        img_label = QLabel(self)
+        img = QPixmap(os.path.join(ws_path, "../resources/ontology_dg2.png"))
+        #img = img.scaledToHeight(495)
+        img_label.setPixmap(img)
+        img_label.move(160, 0)
+
+        # Back button
+        self.back_button = QPushButton('BACK', self)
+        self.back_button.setGeometry(30, 5, 50, 30)
+
+"""
+
+class DGWindow(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        ws_path = os.path.dirname(os.path.abspath(__file__))
+
+        self.setGeometry(50, 50, 614, 800)
+
+        img_label = QLabel(self)
+        img = QPixmap(os.path.join(ws_path, "../resources/ontology_dg.png"))
+        #img = img.scaledToHeight(495)
+        img_label.setPixmap(img)
+        #img_label.move(160, 0)
+        
+
+class MTextWidget(QWidget):
+    def __init__(self, parent=None):
+        QLabel.__init__(self, parent)
+
+        # Text label
+        self.text_line = QTextEdit(self)
+        self.text_line.setGeometry(100, 50, 500, 400)
+        self.text_line.setReadOnly(True)
+
+        # Back button
+        self.back_button = QPushButton('BACK', self)
+        self.back_button.setGeometry(30, 5, 50, 30)
+
+    def changeText(self, type):
+        if type == "dp" :
+            self.text_line.setPlainText("URI    http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure\n:dateOfMeasure rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range xsd:dateTime ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#districtID\n:districtID rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :District ;\n                           rdfs:range xsd:integer ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measureCode\n:measureCode rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Magnitude ,\n                           :Measurement ;\n                           rdfs:range xsd:string ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measureNotation\n:measureNotation rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Magnitude ;\n                           rdfs:range xsd:string ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measureValue\n:measureValue rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range xsd:float ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#stationCode\n:stationCode rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Station ;\n                           rdfs:range xsd:string ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#streetID\n:streetID rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Street ;\n                           rdfs:range xsd:integer .")
+        elif type == "obj" :
+            self.text_line.setPlainText("URI    http://www.semanticweb.org/group16/ontology/air-quality#inDistrict\n:inDistrict rdf:type owl:ObjectProperty ;\n                           rdfs:domain :Station ,\n                                       :Street ;\n                           rdfs:range :District ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measuredAt\n:measuredAt rdf:type owl:ObjectProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range :Station ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measuredMagnitude\n:measuredMagnitude rdf:type owl:ObjectProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range :Magnitude .")
+        elif type == "cls" :
+            self.text_line.setPlainText("URI    http://www.semanticweb.org/group16/ontology/air-quality#District\n:District rdf:type owl:Class ;\n          rdfs:subClassOf <https://schema.org/Place> ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Magnitude\n:Magnitude rdf:type owl:Class ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Measurement\n:Measurement rdf:type owl:Class ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Station\n:Station rdf:type owl:Class ;\n         rdfs:subClassOf <https://schema.org/Place> ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Street\n:Street rdf:type owl:Class ;\n        rdfs:subClassOf <https://schema.org/Place> ."
+                                    + "\n\n\nURI    https://schema.org/Place\n<https://schema.org/Place> rdf:type owl:Class .")
 
 
 
