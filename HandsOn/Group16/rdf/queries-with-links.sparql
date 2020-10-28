@@ -181,7 +181,8 @@
         ?Measure
     WHERE {
         ?Measure rdf:type ns:Measurement .
-        ?Measure ns:dateOfMeasure "2016/4/27"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+        ?Measure ns:dateOfMeasure ?Date .
+            FILTER REGEX (STR(?Date), "^2016-04-27", "i") 
     }
 
 # Result:
