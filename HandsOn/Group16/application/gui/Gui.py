@@ -1,3 +1,7 @@
+#-. Gui class .-#
+#.- Displays the user interface of the application .-#
+
+# Imports
 import os, sys
 import qtmodern.styles
 import qtmodern.windows
@@ -74,39 +78,48 @@ class MainWindow(QMainWindow):
         #self.dg_widget = DGWidget(self)
         #self.dg_widget.back_button.clicked.connect(self.toModel)
         #self.central_widget.addWidget(self.dg_widget)
-
+    # END FUNCTION
         
 
     def toDS(self):
         self.central_widget.setCurrentWidget(self.ds_widget)
+    # END FUNCTION
 
     def toMain(self):
         self.central_widget.setCurrentWidget(self.main_widget)
+    # END FUNCTION
 
     def toMS(self):
         self.central_widget.setCurrentWidget(self.ms_widget)
+    # END FUNCTION
     
     def toModel(self):
         self.central_widget.setCurrentWidget(self.model_widget)
+    # END FUNCTION
 
     def toMaps(self):
         self.central_widget.setCurrentWidget(self.maps_widget)
+    # END FUNCTION
 
     def toStations(self):
         self.central_widget.setCurrentWidget(self.st_widget)
+    # END FUNCTION
 
     def toMG(self):
         self.central_widget.setCurrentWidget(self.mg_widget)
-    
+    # END FUNCTION
+
     def toDG(self):
         #self.central_widget.setCurrentWidget(self.dg_widget)
 
         self.dg_window = DGWindow()
         self.dg_window.show()
+    # END FUNCTION
 
     def toMT(self, type):
         self.mt_widget.changeText(type)
         self.central_widget.setCurrentWidget(self.mt_widget)
+    # END FUNCTION
 
     def toStInfo(self):
         self.station_toShow = self.st_widget.station_tsAux
@@ -119,6 +132,8 @@ class MainWindow(QMainWindow):
         ## NOT NECESSARY ##
         if self.station_toShow != "Empty" :
             self.central_widget.setCurrentWidget(self.stinfo_widget)
+    # END FUNCTION
+# END CLASS
 
 
 class MainWidget(QWidget):
@@ -151,6 +166,8 @@ class MainWidget(QWidget):
         # Magnitudes label
         self.mg_label = QLabel('MAGNITUDES', self)
         self.mg_label.setGeometry(320, 405, 100, 30)
+    # END FUNCTION
+# END CLASS
 
 
 class DSWidget(QWidget):
@@ -178,6 +195,8 @@ class DSWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
+# END CLASS
 
 
 class MSWidget(QWidget):
@@ -235,25 +254,30 @@ class MSWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
     
     def checkLocation(self, state):
         if QtCore.Qt.Checked == state:
             self.location_combo.setEnabled(True)
         else:
             self.location_combo.setEnabled(False)
+    # END FUNCTION
 
     def checkDate(self, state):
         if QtCore.Qt.Checked == state:
             self.date_combo.setEnabled(True)
         else:
             self.date_combo.setEnabled(False)
+    # END FUNCTION
 
     def checkMagnitude(self, state):
         if QtCore.Qt.Checked == state:
             self.mg_combo.setEnabled(True)
         else:
             self.mg_combo.setEnabled(False)
-            
+    # END FUNCTION
+# END CLASS
+    
 
 class ModelWidget(QWidget):
     def __init__(self, parent=None):
@@ -297,6 +321,8 @@ class ModelWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
+# END CLASS
 
 
 class MapsWidget(QWidget):
@@ -324,6 +350,8 @@ class MapsWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
+# END CLASS
 
 
 class StationsWidget(QWidget):
@@ -343,7 +371,7 @@ class StationsWidget(QWidget):
         # Button 28079004
         self.b_9004 = QPushButton(self)
         self.b_9004.setStyleSheet("background-color:red")
-        self.b_9004.setGeometry(172, 297, 10, 10)       
+        self.b_9004.setGeometry(172, 297, 10, 10)
         # Button 28079008
         self.b_9008 = QPushButton(self)
         self.b_9008.setStyleSheet("background-color:red")
@@ -437,7 +465,7 @@ class StationsWidget(QWidget):
         self.b_9060.setStyleSheet("background-color:red")
         self.b_9060.setGeometry(200, 222, 10, 10)
 
-        # Cambiar el objeto self.stations con este método
+        # Recuperar los datos de las estaciones por medio de los datos rdf
         def getStations():
             qm = QueryMaker()
             qm.addSelect("?StLabel ?StationCode ?DtLabel")
@@ -447,81 +475,75 @@ class StationsWidget(QWidget):
             qm.addParam("?District", "rdf:type", "ns:District")
             qm.addParam("?St", "ns:inDistrict", "?District")
             qm.addParam("?District", "rdfs:label", "?DtLabel")
-            qm.addOrder("asc(?StLabel)")
+            qm.addOrder("asc(?StationCode)")
             listStations = qm.executeQuery()
-            for item in listStations:
-                print(item["StLabel"])
-                print(item["StationCode"])
-                print(item["DtLabel"])
+            return listStations
+        # END FUNCTION
 
         # Hashmap relating stations id with his name
-        ## ESTO VA A HABER QUE MODIFICARLO PARA QUE LOS DATOS LOS RECOJA DE LOS TTL
-        self.stations = getStations()
-        self.stations = {self.b_9004:["Pza. de España", "28079004", "Moncloa-Aravaca"], 
-                        self.b_9008:["Escuelas Aguirre", "28079008", "Salamanca"], 
-                        self.b_9011:["Avda. Ramón y Kajal", "28079011", "Chamartín"],
-                        self.b_9016:["Arturo Soria", "28079016", "Ciudad Lineal"],
-                        self.b_9017:["Villaverde", "28079017", "Villaverde"],
-                        self.b_9018:["Farolillo", "28079018", "Carabanchel"],
-                        self.b_9024:["Casa de campo", "28079024", "Moncloa-Aravaca"],
-                        self.b_9027:["Barajas Pueblo", "28079027", "Barajas"],
-                        self.b_9035:["Pza. del Carmen", "28079035", "Centro"],
-                        self.b_9036:["Moratalaz", "28079036", "Moratalaz"],
-                        self.b_9038:["Cuatro Caminos", "28079038", "Tetuán"],
-                        self.b_9039:["Barrio del Pilar", "28079039", "Fuencarral-El Pardo"],
-                        self.b_9040:["Vallecas", "28079040", "Puente de Vallecas"],
-                        self.b_9047:["Méndez Álvaro", "28079047", "Arganzuela"],
-                        self.b_9048:["Castellana", "28079048", "Chamartín"],
-                        self.b_9049:["Parque del Retiro", "28079049", "Retiro"],
-                        self.b_9050:["Plaza Castilla", "28079050", "Chamartín"],
-                        self.b_9054:["Ensanche de Vallecas", "28079054", "Villa de Vallecas"],
-                        self.b_9055:["Urb. Embajada", "28079055", "Barajas"],
-                        self.b_9056:["Pza. Elíptica", "28079056", "Usera"],
-                        self.b_9057:["Sanchinarro", "28079057", "Hortaleza"],
-                        self.b_9058:["El Pardo", "28079058", "Fuencarral-El Pardo"],
-                        self.b_9059:["Juan Carlos I", "28079059", "Barajas"],
-                        self.b_9060:["Tres Olivos", "28079060", "Fuencarral-El Pardo"]}
+        listStations = getStations()
+        self.stations = {self.b_9004:[listStations[0]["StLabel"], listStations[0]["StationCode"], listStations[0]["DtLabel"]], 
+                         self.b_9008:[listStations[1]["StLabel"], listStations[1]["StationCode"], listStations[1]["DtLabel"]], 
+                         self.b_9011:[listStations[2]["StLabel"], listStations[2]["StationCode"], listStations[2]["DtLabel"]],
+                         self.b_9016:[listStations[3]["StLabel"], listStations[3]["StationCode"], listStations[3]["DtLabel"]],
+                         self.b_9017:[listStations[4]["StLabel"], listStations[4]["StationCode"], listStations[4]["DtLabel"]],
+                         self.b_9018:[listStations[5]["StLabel"], listStations[5]["StationCode"], listStations[5]["DtLabel"]],
+                         self.b_9024:[listStations[6]["StLabel"], listStations[6]["StationCode"], listStations[6]["DtLabel"]],
+                         self.b_9027:[listStations[7]["StLabel"], listStations[7]["StationCode"], listStations[7]["DtLabel"]],
+                         self.b_9035:[listStations[8]["StLabel"], listStations[8]["StationCode"], listStations[8]["DtLabel"]],
+                         self.b_9036:[listStations[9]["StLabel"], listStations[9]["StationCode"], listStations[9]["DtLabel"]],
+                         self.b_9038:[listStations[10]["StLabel"], listStations[10]["StationCode"], listStations[10]["DtLabel"]],
+                         self.b_9039:[listStations[11]["StLabel"], listStations[11]["StationCode"], listStations[11]["DtLabel"]],
+                         self.b_9040:[listStations[12]["StLabel"], listStations[12]["StationCode"], listStations[12]["DtLabel"]],
+                         self.b_9047:[listStations[13]["StLabel"], listStations[13]["StationCode"], listStations[13]["DtLabel"]],
+                         self.b_9048:[listStations[14]["StLabel"], listStations[14]["StationCode"], listStations[14]["DtLabel"]],
+                         self.b_9049:[listStations[15]["StLabel"], listStations[15]["StationCode"], listStations[15]["DtLabel"]],
+                         self.b_9050:[listStations[16]["StLabel"], listStations[16]["StationCode"], listStations[16]["DtLabel"]],
+                         self.b_9054:[listStations[17]["StLabel"], listStations[17]["StationCode"], listStations[17]["DtLabel"]],
+                         self.b_9055:[listStations[18]["StLabel"], listStations[18]["StationCode"], listStations[18]["DtLabel"]],
+                         self.b_9056:[listStations[19]["StLabel"], listStations[19]["StationCode"], listStations[19]["DtLabel"]],
+                         self.b_9057:[listStations[20]["StLabel"], listStations[20]["StationCode"], listStations[20]["DtLabel"]],
+                         self.b_9058:[listStations[21]["StLabel"], listStations[21]["StationCode"], listStations[21]["DtLabel"]],
+                         self.b_9059:[listStations[22]["StLabel"], listStations[22]["StationCode"], listStations[22]["DtLabel"]],
+                         self.b_9060:[listStations[23]["StLabel"], listStations[23]["StationCode"], listStations[23]["DtLabel"]]
+                        }
 
         # Select station combo box
         self.sel_combo = QComboBox(self)
         self.sel_combo.setGeometry(500, 230, 100, 30)
-        self.sel_combo.addItems(["Empty","Pza. de España","Escuelas Aguirre",
-                                "Avda. Ramón y Kajal","Arturo Soria",
-                                "Villaverde","Farolillo",
-                                "Casa de campo","Barajas Pueblo",
-                                "Pza. del Carmen","Moratalaz",
-                                "Cuatro Caminos","Barrio del Pilar",
-                                "Vallecas","Méndez Álvaro",
-                                "Castellana","Parque del Retiro",
-                                "Plaza Castilla","Ensanche de Vallecas",
-                                "Urb. Embajada","Pza. Elíptica",
-                                "Sanchinarro","El Pardo",
-                                "Juan Carlos I","Tres Olivos"])
+        self.sel_combo.addItems(["Empty",listStations[0]["StLabel"],listStations[1]["StLabel"],listStations[2]["StLabel"],
+                listStations[3]["StLabel"],listStations[4]["StLabel"],listStations[5]["StLabel"],listStations[6]["StLabel"],
+                listStations[7]["StLabel"],listStations[8]["StLabel"],listStations[9]["StLabel"],listStations[10]["StLabel"],
+                listStations[11]["StLabel"],listStations[12]["StLabel"],listStations[13]["StLabel"],listStations[14]["StLabel"],
+                listStations[15]["StLabel"],listStations[16]["StLabel"],listStations[17]["StLabel"],listStations[18]["StLabel"],
+                listStations[19]["StLabel"],listStations[20]["StLabel"],listStations[21]["StLabel"],listStations[22]["StLabel"],
+                listStations[23]["StLabel"]])
         
-        self.b_9004.pressed.connect(lambda: self.selMap("28079004"))
-        self.b_9008.pressed.connect(lambda: self.selMap("28079008"))
-        self.b_9011.pressed.connect(lambda: self.selMap("28079011"))
-        self.b_9016.pressed.connect(lambda: self.selMap("28079016"))
-        self.b_9017.pressed.connect(lambda: self.selMap("28079017"))
-        self.b_9018.pressed.connect(lambda: self.selMap("28079018"))
-        self.b_9024.pressed.connect(lambda: self.selMap("28079024"))
-        self.b_9027.pressed.connect(lambda: self.selMap("28079027"))
-        self.b_9035.pressed.connect(lambda: self.selMap("28079035"))
-        self.b_9036.pressed.connect(lambda: self.selMap("28079036"))
-        self.b_9038.pressed.connect(lambda: self.selMap("28079038"))
-        self.b_9039.pressed.connect(lambda: self.selMap("28079039"))
-        self.b_9040.pressed.connect(lambda: self.selMap("28079040"))
-        self.b_9047.pressed.connect(lambda: self.selMap("28079047"))
-        self.b_9048.pressed.connect(lambda: self.selMap("28079048"))
-        self.b_9049.pressed.connect(lambda: self.selMap("28079049"))
-        self.b_9050.pressed.connect(lambda: self.selMap("28079050"))
-        self.b_9054.pressed.connect(lambda: self.selMap("28079054"))
-        self.b_9055.pressed.connect(lambda: self.selMap("28079055"))
-        self.b_9056.pressed.connect(lambda: self.selMap("28079056"))
-        self.b_9057.pressed.connect(lambda: self.selMap("28079057"))
-        self.b_9058.pressed.connect(lambda: self.selMap("28079058"))
-        self.b_9059.pressed.connect(lambda: self.selMap("28079059"))
-        self.b_9060.pressed.connect(lambda: self.selMap("28079060"))
+        # arreglar !!! TODO
+        self.b_9004.pressed.connect(lambda: self.selMap(listStations[0]["StationCode"]))
+        self.b_9008.pressed.connect(lambda: self.selMap(listStations[1]["StationCode"]))
+        self.b_9011.pressed.connect(lambda: self.selMap(listStations[2]["StationCode"]))
+        self.b_9016.pressed.connect(lambda: self.selMap(listStations[3]["StationCode"]))
+        self.b_9017.pressed.connect(lambda: self.selMap(listStations[4]["StationCode"]))
+        self.b_9018.pressed.connect(lambda: self.selMap(listStations[5]["StationCode"]))
+        self.b_9024.pressed.connect(lambda: self.selMap(listStations[6]["StationCode"]))
+        self.b_9027.pressed.connect(lambda: self.selMap(listStations[7]["StationCode"]))
+        self.b_9035.pressed.connect(lambda: self.selMap(listStations[8]["StationCode"]))
+        self.b_9036.pressed.connect(lambda: self.selMap(listStations[9]["StationCode"]))
+        self.b_9038.pressed.connect(lambda: self.selMap(listStations[10]["StationCode"]))
+        self.b_9039.pressed.connect(lambda: self.selMap(listStations[11]["StationCode"]))
+        self.b_9040.pressed.connect(lambda: self.selMap(listStations[12]["StationCode"]))
+        self.b_9047.pressed.connect(lambda: self.selMap(listStations[13]["StationCode"]))
+        self.b_9048.pressed.connect(lambda: self.selMap(listStations[14]["StationCode"]))
+        self.b_9049.pressed.connect(lambda: self.selMap(listStations[15]["StationCode"]))
+        self.b_9050.pressed.connect(lambda: self.selMap(listStations[16]["StationCode"]))
+        self.b_9054.pressed.connect(lambda: self.selMap(listStations[17]["StationCode"]))
+        self.b_9055.pressed.connect(lambda: self.selMap(listStations[18]["StationCode"]))
+        self.b_9056.pressed.connect(lambda: self.selMap(listStations[19]["StationCode"]))
+        self.b_9057.pressed.connect(lambda: self.selMap(listStations[20]["StationCode"]))
+        self.b_9058.pressed.connect(lambda: self.selMap(listStations[21]["StationCode"]))
+        self.b_9059.pressed.connect(lambda: self.selMap(listStations[22]["StationCode"]))
+        self.b_9060.pressed.connect(lambda: self.selMap(listStations[23]["StationCode"]))
 
         # Select station label
         self.sel_label = QLabel('SELECT STATION\n   ON MAP/BOX', self)
@@ -539,6 +561,7 @@ class StationsWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
 
 
     # Change color of a point in the map when selected in combo box
@@ -554,6 +577,7 @@ class StationsWidget(QWidget):
                 id.setStyleSheet("background-color:green")
             elif station == "Empty" :
                 self.more_button.setEnabled(False)
+    # END FUNCTION
 
     
     # Change color of a point in the map when selected in map
@@ -564,9 +588,12 @@ class StationsWidget(QWidget):
                 id.setStyleSheet("background-color:green")
                 self.sel_combo.setCurrentText(st[0])
                 self.sel_button.click()
+    # END FUNCTION
+# END CLASS
 
         
 class StationInfoWidget(QWidget):
+
     def __init__(self, parent=None):
         QLabel.__init__(self, parent)
         #ws_path = os.path.dirname(os.path.abspath(__file__))
@@ -588,9 +615,12 @@ class StationInfoWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
+# END CLASS
 
 
 class MGWidget(QWidget):
+
     def __init__(self, parent=None):
         QLabel.__init__(self, parent)
         self.ws_path = os.path.dirname(os.path.abspath(__file__))
@@ -644,21 +674,14 @@ class MGWidget(QWidget):
         self.mgdef_label.setGeometry(250, 260, 400, 30)
         #self.mgdef_label.setFont(QFont('Arial', 13))
 
-                
-        # Csv search
-        ## ESTO VA A HABER QUE MODIFICARLO PARA QUE LOS DATOS LOS RECOJA DE LOS TTL
-        #self.magnitudesSearch()
-
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
     
-    ## ESTO VA A HABER QUE MODIFICARLO PARA QUE LOS DATOS LOS RECOJA DE LOS TTL
     def magnitudesSearch(self):
-        # funcion declarada como magnitudesSearch(self, valor_id) ?
-        # o pasar ese argumento de alguna otra manera
-        # El ID sirve para seleccionar la magnitud concreta, 10 como ejemplo
 
+        # Obtención del valor de la magnitud seleccionada
         valor_id = self.selmg_combo.currentText().split('-')[0]
 
         # Creación de un objeto QueryMaker (puedes hacerlo global y reusarlo)
@@ -696,49 +719,9 @@ class MGWidget(QWidget):
             self.mgname_label.setText("NAME(en):  " + self.mg_name)
             self.mgwk_label.setText("WIKIDATA_ID:  " + self.mg_wiki)
             self.mgdef_label.setText("SUMMARY:  " + self.mg_def)
+    # END FUNCTION
+# END CLASS
 
-        """
-        with open(os.path.join(self.ws_path, "magnitudes.csv")) as csv_mg:
-            csv_reader = csv.reader(csv_mg, delimiter = ',')
-            i = 0
-            for row in csv_reader :
-                if i > 0 :
-                    if row[1] == self.selmg_combo.currentText() :
-                        self.mg_id = row[0]
-                        self.mg_notation = row[1]
-                        self.mg_nombre = row[2]
-                        self.mg_name = row[3]
-                        self.mg_wiki = row[4]
-                        self.mg_def = row[5]
-
-                        self.mgid_label.setText("ID:  " + self.mg_id)
-                        self.mgnt_label.setText("NOTATION:  " + self.mg_notation)
-                        self.mgnom_label.setText("NOMBRE:  " + self.mg_nombre)
-                        self.mgname_label.setText("NAME:  " + self.mg_name)
-                        self.mgwk_label.setText("WIKIDATA_ID:  " + self.mg_wiki)
-                        self.mgdef_label.setText("DEFINITION:  " + self.mg_def)
-                        break
-                i += 1
-        """
-
-
-"""
-class DGWidget(QWidget):
-    def __init__(self, parent=None):
-        QLabel.__init__(self, parent)
-        ws_path = os.path.dirname(os.path.abspath(__file__))
-
-        img_label = QLabel(self)
-        img = QPixmap(os.path.join(ws_path, "../resources/ontology_dg2.png"))
-        #img = img.scaledToHeight(495)
-        img_label.setPixmap(img)
-        img_label.move(160, 0)
-
-        # Back button
-        self.back_button = QPushButton('BACK', self)
-        self.back_button.setGeometry(30, 5, 50, 30)
-
-"""
 
 class DGWindow(QWidget):
     def __init__(self, parent=None):
@@ -752,7 +735,9 @@ class DGWindow(QWidget):
         #img = img.scaledToHeight(495)
         img_label.setPixmap(img)
         #img_label.move(160, 0)
-        
+    # END FUNCTION
+# END CLASS
+
 
 class MTextWidget(QWidget):
     def __init__(self, parent=None):
@@ -766,6 +751,7 @@ class MTextWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
 
     def changeText(self, type):
         if type == "dp" :
@@ -787,7 +773,8 @@ class MTextWidget(QWidget):
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Station\n:Station rdf:type owl:Class ;\n         rdfs:subClassOf <https://schema.org/Place> ."
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Street\n:Street rdf:type owl:Class ;\n        rdfs:subClassOf <https://schema.org/Place> ."
                                     + "\n\n\nURI    https://schema.org/Place\n<https://schema.org/Place> rdf:type owl:Class .")
-
+    # END FUNCTION
+# END CLASS
 
 
 if __name__ == '__main__':
@@ -805,3 +792,4 @@ if __name__ == '__main__':
     wn.show()
     #window.show()
     app.exec_()
+# END MAIN
