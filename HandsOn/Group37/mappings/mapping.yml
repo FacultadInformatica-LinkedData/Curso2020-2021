@@ -14,6 +14,8 @@ mappings:
     po:
       - [a, base:Fuente]
       - [base:codigo,$(codigo),xsd:string]
+      - [base:latitud,$(latitud),xsd:double]
+      - [base:longitud,$(longitud),xsd:double]
       - [base:en_funcionamiento,$(en_funcionamiento),xsd:boolean]
       - p: base:seEncuentraEn 
         o: 
@@ -31,8 +33,6 @@ mappings:
       - [a, base:Localizacion]
       - [base:coord_x,$(coord_x),xsd:double]
       - [base:coord_y,$(coord_y),xsd:double]
-      - [base:latitud,$(latitud),xsd:double]
-      - [base:longitud,$(longitud),xsd:double]
       - [base:direccion,$(direccion),xsd:string]
       - [base:via_publica,$(via_publica),xsd:string]
       - p: base:pertenece_a 
@@ -50,3 +50,11 @@ mappings:
     po:
       - [a, base:Distrito]
       - [base:distrito,$(distrito),xsd:string]
+      - p: base:alberga 
+        o: 
+            - mapping: triplesmap1
+              condition: 
+                function: equal
+                parameters:
+                    - [str1, $(codigo)]
+                    - [str2, $(codigo)]

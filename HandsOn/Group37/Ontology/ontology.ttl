@@ -12,16 +12,23 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/ontologies/group37/ontology-4#alberga
+:alberga rdf:type owl:ObjectProperty ;
+         owl:inverseOf :se_ubica_en ;
+         rdfs:domain :Distrito ;
+         rdfs:range :Fuente .
+
+
 ###  http://www.semanticweb.org/ontologies/group37/ontology-4#contiene
 :contiene rdf:type owl:ObjectProperty ;
           owl:inverseOf :pertenece_a ;
           rdfs:domain :Distrito ;
-          rdfs:range :Fuente .
+          rdfs:range :Localizacion .
 
 
 ###  http://www.semanticweb.org/ontologies/group37/ontology-4#pertenece_a
 :pertenece_a rdf:type owl:ObjectProperty ;
-             rdfs:domain :Fuente ;
+             rdfs:domain :Localizacion ;
              rdfs:range :Distrito .
 
 
@@ -30,6 +37,12 @@
                owl:inverseOf :tiene ;
                rdfs:domain :Fuente ;
                rdfs:range :Localizacion .
+
+
+###  http://www.semanticweb.org/ontologies/group37/ontology-4#se_ubica_en
+:se_ubica_en rdf:type owl:ObjectProperty ;
+             rdfs:domain :Fuente ;
+             rdfs:range :Distrito .
 
 
 ###  http://www.semanticweb.org/ontologies/group37/ontology-4#tiene
@@ -80,13 +93,13 @@
 
 ###  http://www.semanticweb.org/ontologies/group37/ontology-4#latitud
 :latitud rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Localizacion ;
+         rdfs:domain :Fuente ;
          rdfs:range xsd:double .
 
 
 ###  http://www.semanticweb.org/ontologies/group37/ontology-4#longitud
 :longitud rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Localizacion ;
+          rdfs:domain :Fuente ;
           rdfs:range xsd:double .
 
 
