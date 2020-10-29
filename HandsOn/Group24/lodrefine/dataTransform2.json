@@ -1,9 +1,9 @@
 [
   {
     "op": "core/column-rename",
-    "oldColumnName": "Número",
+    "oldColumnName": "Nï¿½mero",
     "newColumnName": "Id",
-    "description": "Rename column Número to Id"
+    "description": "Rename column Nï¿½mero to Id"
   },
   {
     "op": "core/column-rename",
@@ -73,15 +73,15 @@
   },
   {
     "op": "core/column-rename",
-    "oldColumnName": "Nº Calle",
+    "oldColumnName": "Nï¿½ Calle",
     "newColumnName": "street_number",
-    "description": "Rename column Nº Calle to street_number"
+    "description": "Rename column Nï¿½ Calle to street_number"
   },
   {
     "op": "core/column-rename",
-    "oldColumnName": "Número de Plazas",
+    "oldColumnName": "Nï¿½mero de Plazas",
     "newColumnName": "spots",
-    "description": "Rename column Número de Plazas to spots"
+    "description": "Rename column Nï¿½mero de Plazas to spots"
   },
   {
     "op": "core/column-rename",
