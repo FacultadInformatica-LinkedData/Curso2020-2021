@@ -465,23 +465,8 @@ class StationsWidget(QWidget):
         self.b_9060.setStyleSheet("background-color:red")
         self.b_9060.setGeometry(200, 222, 10, 10)
 
-        # Recuperar los datos de las estaciones por medio de los datos rdf
-        def getStations():
-            qm = QueryMaker()
-            qm.addSelect("?StLabel ?StationCode ?DtLabel")
-            qm.addParam("?St", "rdf:type", "ns:Station")
-            qm.addParam("?St", "rdfs:label", "?StLabel")
-            qm.addParam("?St", "ns:stationCode", "?StationCode")
-            qm.addParam("?District", "rdf:type", "ns:District")
-            qm.addParam("?St", "ns:inDistrict", "?District")
-            qm.addParam("?District", "rdfs:label", "?DtLabel")
-            qm.addOrder("asc(?StationCode)")
-            listStations = qm.executeQuery()
-            return listStations
-        # END FUNCTION
-
         # Hashmap relating stations id with his name
-        listStations = getStations()
+        listStations = self.getStations()
         self.stations = {self.b_9004:[listStations[0]["StLabel"], listStations[0]["StationCode"], listStations[0]["DtLabel"]], 
                          self.b_9008:[listStations[1]["StLabel"], listStations[1]["StationCode"], listStations[1]["DtLabel"]], 
                          self.b_9011:[listStations[2]["StLabel"], listStations[2]["StationCode"], listStations[2]["DtLabel"]],
@@ -589,6 +574,22 @@ class StationsWidget(QWidget):
                 self.sel_combo.setCurrentText(st[0])
                 self.sel_button.click()
     # END FUNCTION
+
+
+    # Recuperar los datos de las estaciones por medio de los datos rdf
+    def getStations(self):
+        qm = QueryMaker()
+        qm.addSelect("?StLabel ?StationCode ?DtLabel")
+        qm.addParam("?St", "rdf:type", "ns:Station")
+        qm.addParam("?St", "rdfs:label", "?StLabel")
+        qm.addParam("?St", "ns:stationCode", "?StationCode")
+        qm.addParam("?District", "rdf:type", "ns:District")
+        qm.addParam("?St", "ns:inDistrict", "?District")
+        qm.addParam("?District", "rdfs:label", "?DtLabel")
+        qm.addOrder("asc(?StationCode)")
+        listStations = qm.executeQuery()
+        return listStations
+    # END FUNCTION
 # END CLASS
 
         
@@ -674,6 +675,11 @@ class MGWidget(QWidget):
         self.mgdef_label.setGeometry(250, 260, 400, 30)
         #self.mgdef_label.setFont(QFont('Arial', 13))
 
+        # SUMMARY text
+        self.mgdef_text = QTextEdit(self)
+        self.mgdef_text.setGeometry(310, 264, 300, 100)
+        self.mgdef_text.setReadOnly(True)
+
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
@@ -713,12 +719,27 @@ class MGWidget(QWidget):
             self.mg_wiki = item["Wiki"]
             self.mg_def = item["Description"]
 
+            # No quitar esta parte comentada si al final decidimos que la 
+            # descripcion deberia ser un label y no un textEdit
+            """
+            aux = self.mg_def.split()
+            self.mg_def = ""
+            i = 0
+            for word in aux :
+                if i < 10 :
+                    self.mg_def += word + " "
+                    i += 1
+                else :
+                    self.mg_def += "\n" + word + " "
+                    i = 0
+            """
+
             self.mgid_label.setText("ID:  " + self.mg_id)
             self.mgnt_label.setText("NOTATION:  " + self.mg_notation)
             self.mgnom_label.setText("NAME(es):  " + self.mg_nombre)
             self.mgname_label.setText("NAME(en):  " + self.mg_name)
             self.mgwk_label.setText("WIKIDATA_ID:  " + self.mg_wiki)
-            self.mgdef_label.setText("SUMMARY:  " + self.mg_def)
+            self.mgdef_text.setPlainText(self.mg_def)
     # END FUNCTION
 # END CLASS
 
