@@ -47,11 +47,11 @@ public class AppModel {
 		
 		// Prueba para imprimir
 		try (GraphQueryResult res = QueryResults.parseGraphBackground(isData, "/data/data.nt", RDFFormat.NTRIPLES)) {
-			  while (res.hasNext()) {
-			    Statement st = (Statement) res.next();
+			while (res.hasNext()) {
+				Statement st = (Statement) res.next();
 				System.out.println(st.toString());
-			  }
 			}
+		}
 		
 		// Inicializar la vista
 		
