@@ -210,11 +210,19 @@ class MSWidget(QWidget):
         self.location_check = QCheckBox("LOCATION", self)
         self.location_check.stateChanged.connect(self.checkLocation)
         self.location_check.setGeometry(30, 60, 200, 50)
-        # Location combo box
-        self.location_combo = QComboBox(self)
-        self.location_combo.setGeometry(250, 80, 100, 30)
-        self.location_combo.setEnabled(False)
-        self.location_combo.addItems(["uno", "dos", "tres"])
+        # Place combo box
+        self.location_combo1 = QComboBox(self)
+        self.location_combo1.setGeometry(250, 80, 100, 30)
+        self.location_combo1.setEnabled(False)
+        self.location_combo1.addItems(self.getPlaces())
+        # Update location_combo2 when a new item is selected
+        self.location_combo1.currentIndexChanged.connect(self.selectionchange1)
+
+        # Station/Street/District combo box
+        self.location_combo2 = QComboBox(self)
+        self.location_combo2.setGeometry(350, 80, 100, 30)
+        self.location_combo2.setEnabled(False)
+        self.location_combo2.addItems(self.locationDropdown())
 
         ## DATE/RANGE ##
         # Date check box
@@ -255,12 +263,52 @@ class MSWidget(QWidget):
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
     # END FUNCTION
+
+    def locationDropdown(self):
+        stationsDicts = StationsWidget().getStations()
+        statList=[]
+        for d in stationsDicts:
+            statList.append(d.get('StLabel'))
+        return statList
+    # END FUNCTION
+
+    def getPlaces(self):
+        qm = QueryMaker()
+        qm.addSelect("?cl")
+        qm.addParam("?s", "rdfs:subClassOf", "sc:Place")
+        qm.addParam("?s", "rdf:type", "?cl")
+        queryResult = qm.executeQuery()
+        placeList=[]
+        for d in queryResult:
+            placeList.append(d.get('cl').split("#",1)[1])
+        return placeList
+    # END FUNCTION
+
+    def getLocations(self, selected):
+        qm = QueryMaker()
+        qm.addSelect("?Label")
+        qm.addParam("?s", "rdf:type", "ns:"+selected)
+        qm.addParam("?s", "rdfs:label", "?Label")
+        queryResult = qm.executeQuery()
+        locationList = []
+        for d in queryResult:
+            locationList.append(d.get('Label'))
+        return locationList
+    # END FUNCTION
     
-    def checkLocation(self, state):
+    # Update location_combo2 when a new item is selected
+    def selectionchange1(self,i):
+        self.location_combo2.clear()
+        self.location_combo2.addItems(self.getLocations(self.location_combo1.currentText()))
+    # END FUNCTION
+
+    def checkLocation(self,state):
         if QtCore.Qt.Checked == state:
-            self.location_combo.setEnabled(True)
+            self.location_combo1.setEnabled(True)
+            self.location_combo2.setEnabled(True)
         else:
-            self.location_combo.setEnabled(False)
+            self.location_combo1.setEnabled(False)
+            self.location_combo2.setEnabled(False)
     # END FUNCTION
 
     def checkDate(self, state):

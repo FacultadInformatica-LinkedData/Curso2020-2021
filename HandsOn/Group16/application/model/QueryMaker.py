@@ -8,6 +8,7 @@ from rdflib.plugins.sparql import prepareQuery
 
 # Namespaces
 ns = Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#")
+sc = Namespace("https://schema.org/")
 wiki = Namespace("https://www.wikidata.org/wiki/")
 
 # Class
@@ -75,6 +76,8 @@ class QueryMaker:
             initNs["rdfs"] = RDFS
         if (self.query.find("owl:") > 0):
             initNs["owl"] = OWL
+        if (self.query.find("sc:") > 0):
+            initNs["sc"] = sc
         return initNs
     # END FUNCTION
 
