@@ -6,10 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Universidad/Ingeniería Informática/4 - Cuarto/Primer semestre/Semantic web, Linked data and Knowledge graphs/Curso2020-2021/HandsOn/Group24/BiciMAD_App/lib/eclipse-rdf4j-3.4.3-onejar.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="lib/eclipse-rdf4j-3.4.3-onejar.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
