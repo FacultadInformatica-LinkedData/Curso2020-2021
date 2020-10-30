@@ -13,6 +13,7 @@ mappings:
         s:  http://www.semanticweb.org/group16/air-quality/resource/$(ESTACION_ID)
         po:
             - [a, ns:Station]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
             - [ns:stationCode, $(ESTACION_ID), xsd:string]
             - [rdfs:label, $(NOMBRE), xsd:string]
             - [sc:address, $(DIRECCION), xsd:string]
@@ -70,6 +71,7 @@ mappings:
         s:  http://www.semanticweb.org/group16/air-quality/resource/district_$(DISTRITO_ID)
         po:
             - [a, ns:District]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
             - [rdfs:label, $(DISTRITO_LINK), xsd:string]
             - [ns:districtID, $(DISTRITO_ID), xsd:integer]
             - [owl:sameAs, $(WIKIDATA_DISTRITO_ID)~iri]
@@ -80,6 +82,7 @@ mappings:
         s:  http://www.semanticweb.org/group16/air-quality/resource/street_$(DIRECCION_ID)
         po:
             - [a, ns:Street]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
             - [rdfs:label, $(DIRECCION_LINK), xsd:string]
             - [ns:streetID, $(DIRECCION_ID), xsd:integer]
             - [owl:sameAs, $(WIKIDATA_DIRECCION_ID)~iri]
