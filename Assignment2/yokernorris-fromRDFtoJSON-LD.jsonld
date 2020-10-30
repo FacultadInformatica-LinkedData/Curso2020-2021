@@ -1,0 +1,37 @@
+
+{
+  "@context": {
+    "base": "http://www.oeg-upm.net/Organization",
+    "vocab": "http://www.oeg-upm.net/Organization#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    
+    "vocab:atTime": {
+      "@type": "xsd:dateTime"
+    },
+    "vocab:hasTemperature": {
+      "@type": "xsd:integer"
+    },
+    "vocab:hasName": {
+      "@type": "xsd:string"
+    }
+  },
+
+  "@id" : "http://www.oeg-upm.net/Class01",
+  "vocab:includes": [	
+    {
+      "@id" : "http://www.oeg-upm.net/Class01/Sensor029",
+      "vocab:hasMeasurement": {
+        "@id" : "http://www.oeg-upm.net/Class01/Sensor029/Measurement8401",
+        "vocab:hasTemperature":"29",
+        "vocab:atTime": "2010-06-12T12:00:12"
+      }        
+    },
+    {        
+      "@id" : "http://www.oeg-upm.net/Class01/Computer101",
+      "vocab:hasOwner": {
+        "@id" : "http://www.oeg-upm.net/Class01/Computer101/User10A",
+        "vocab:hasName": "Pedro"
+      }        
+    }    
+  ]
+}

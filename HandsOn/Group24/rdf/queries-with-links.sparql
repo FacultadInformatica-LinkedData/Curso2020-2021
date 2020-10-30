@@ -1,0 +1,24 @@
+1. Obtener todas las estaciones de bicis
+select distinct ?bikeSt
+where{
+
+?bikeSt rdf:type <http://www.semanticweb.org/bicimad/classes#Bike_Station>. }
+
+2. Contar cuantas estaciones de bici hay
+SELECT COUNT (?bikeSt)
+where {
+
+?bikeSt rdf:type <http://www.semanticweb.org/bicimad/classes#Bike_Station>. }
+
+3. Que barrios tiene el distrito de chamartin
+
+select distinct ?neigh 
+where {
+
+?district rdf:type <http://www.semanticweb.org/bicimad/classes#District> .
+
+?district owl:sameAs <http://dbpedia.org/page/Chamart%C3%ADn_(Madrid)>.
+
+?neigh <http://www.semanticweb.org/bicimad/properties#has_district> ?district .
+
+}

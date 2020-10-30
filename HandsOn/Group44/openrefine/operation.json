@@ -1,5 +1,154 @@
 [
   {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "_",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column PUNTO_MUESTREO by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PUNTO_MUESTREO 1",
+    "newColumnName": "ID",
+    "description": "Rename column PUNTO_MUESTREO 1 to ID"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "expression": "grel:value.replace('28079','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID using expression grel:value.replace('28079','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "expression": "join ([coalesce(cells['ID'].value,''),coalesce(cells['MAGNITUD'].value,''),coalesce(cells['PUNTO_MUESTREO 3'].value,''),coalesce(cells['ANO'].value,''),coalesce(cells['MES'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID using expression join ([coalesce(cells['ID'].value,''),coalesce(cells['MAGNITUD'].value,''),coalesce(cells['PUNTO_MUESTREO 3'].value,''),coalesce(cells['ANO'].value,''),coalesce(cells['MES'].value,'')],'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "ID",
+      "PROVINCIA",
+      "MUNICIPIO",
+      "ESTACION",
+      "MAGNITUD",
+      "PUNTO_MUESTREO 3",
+      "ANO",
+      "MES",
+      "D01",
+      "V01",
+      "D02",
+      "V02",
+      "D03",
+      "V03",
+      "D04",
+      "V04",
+      "D05",
+      "V05",
+      "D06",
+      "V06",
+      "D07",
+      "V07",
+      "D08",
+      "V08",
+      "D09",
+      "V09",
+      "D10",
+      "V10",
+      "D11",
+      "V11",
+      "D12",
+      "V12",
+      "D13",
+      "V13",
+      "D14",
+      "V14",
+      "D15",
+      "V15",
+      "D16",
+      "V16",
+      "D17",
+      "V17",
+      "D18",
+      "V18",
+      "D19",
+      "V19",
+      "D20",
+      "V20",
+      "D21",
+      "V21",
+      "D22",
+      "V22",
+      "D23",
+      "V23",
+      "D24",
+      "V24",
+      "D25",
+      "V25",
+      "D26",
+      "V26",
+      "D27",
+      "V27",
+      "D28",
+      "V28",
+      "D29",
+      "V29",
+      "D30",
+      "V30",
+      "D31",
+      "V31"
+    ],
+    "description": "Reorder columns"
+  },
+  {
     "op": "core/text-transform",
     "engineConfig": {
       "facets": [],
@@ -50,6 +199,343 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column MAGNITUD using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ESTACION",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "LUGAR_ESTACION",
+    "columnInsertIndex": 4,
+    "description": "Create column LUGAR_ESTACION at index 4 based on column ESTACION using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('10','Partículas < 10 μm')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('10','Partículas < 10 μm')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace(\"1\",\"Dióxido de Azufre\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace(\"1\",\"Dióxido de Azufre\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('Partículas < Dióxido de Azufre0 μm','Partículas < 10 μm')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('Partículas < Dióxido de Azufre0 μm','Partículas < 10 μm')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('Dióxido de Azufre2','12')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('Dióxido de Azufre2','12')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('Dióxido de Azufre4','14')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('Dióxido de Azufre4','14')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('12','Óxidos de Nitrógeno')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('12','Óxidos de Nitrógeno')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('14','Ozono')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('14','Ozono')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('20','Tolueno')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('20','Tolueno')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('30','Benceno')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('30','Benceno')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('35','Etilbenceno')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('35','Etilbenceno')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('42','Hidrocarburos totales')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('42','Hidrocarburos totales')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('43','Metano')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('43','Metano')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('44','Hidrocarburos no metánicos')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('44','Hidrocarburos no metánicos')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('6','Monóxido de Carbono')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('6','Monóxido de Carbono')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('7','Monóxido de Nitrógeno')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('7','Monóxido de Nitrógeno')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('8','Dióxido de Nitrógeno')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('8','Dióxido de Nitrógeno')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAGNITUD",
+    "expression": "grel:value.replace('9','Partículas < 2.5 μm')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MAGNITUD using expression grel:value.replace('9','Partículas < 2.5 μm')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO 3",
+    "expression": "grel:value.replace('38','Fluorescencia ultravioleta')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PUNTO_MUESTREO 3 using expression grel:value.replace('38','Fluorescencia ultravioleta')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO 3",
+    "expression": "grel:value.replace('59','Cromatografía de gases')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PUNTO_MUESTREO 3 using expression grel:value.replace('59','Cromatografía de gases')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO 3",
+    "expression": "grel:value.replace('48','Absorción infrarroja')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PUNTO_MUESTREO 3 using expression grel:value.replace('48','Absorción infrarroja')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO 3",
+    "expression": "grel:value.replace('47','Microbalanza')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PUNTO_MUESTREO 3 using expression grel:value.replace('47','Microbalanza')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO 3",
+    "expression": "grel:value.replace('8','Quimioluminiscencia')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PUNTO_MUESTREO 3 using expression grel:value.replace('8','Quimioluminiscencia')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO 3",
+    "expression": "grel:value.replace('6','Absorción ultravioleta')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PUNTO_MUESTREO 3 using expression grel:value.replace('6','Absorción ultravioleta')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PUNTO_MUESTREO 3",
+    "expression": "grel:value.replace('2','Ionización de llama')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PUNTO_MUESTREO 3 using expression grel:value.replace('2','Ionización de llama')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MAGNITUD",
+    "newColumnName": "COMPUESTO_MEDIDO",
+    "description": "Rename column MAGNITUD to COMPUESTO_MEDIDO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PUNTO_MUESTREO 3",
+    "newColumnName": "TECNICA_DE_MEDICION",
+    "description": "Rename column PUNTO_MUESTREO 3 to TECNICA_DE_MEDICION"
   },
   {
     "op": "core/text-transform",
@@ -434,6 +920,19 @@
       "facets": [],
       "mode": "row-based"
     },
+    "columnName": "V28",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column V28 using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
     "columnName": "D28",
     "expression": "value.toNumber()",
     "onError": "keep-original",
@@ -481,486 +980,17 @@
     "description": "Text transform on cells in column D31 using expression value.toNumber()"
   },
   {
-    "op": "core/column-reorder",
-    "columnNames": [
-      "PROVINCIA",
-      "MUNICIPIO",
-      "ESTACION",
-      "PUNTO_MUESTREO",
-      "MAGNITUD",
-      "ANO",
-      "MES",
-      "D01",
-      "V01",
-      "D02",
-      "V02",
-      "D03",
-      "V03",
-      "D04",
-      "V04",
-      "D05",
-      "V05",
-      "D06",
-      "V06",
-      "D07",
-      "V07",
-      "D08",
-      "V08",
-      "D09",
-      "V09",
-      "D10",
-      "V10",
-      "D11",
-      "V11",
-      "D12",
-      "V12",
-      "D13",
-      "V13",
-      "D14",
-      "V14",
-      "D15",
-      "V15",
-      "D16",
-      "V16",
-      "D17",
-      "V17",
-      "D18",
-      "V18",
-      "D19",
-      "V19",
-      "D20",
-      "V20",
-      "D21",
-      "V21",
-      "D22",
-      "V22",
-      "D23",
-      "V23",
-      "D24",
-      "V24",
-      "D25",
-      "V25",
-      "D26",
-      "V26",
-      "D27",
-      "V27",
-      "D28",
-      "V28",
-      "D29",
-      "V29",
-      "D30",
-      "V30",
-      "D31",
-      "V31"
-    ],
-    "description": "Reorder columns"
-  },
-  {
-    "op": "core/column-split",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "PUNTO_MUESTREO",
-    "guessCellType": true,
-    "removeOriginalColumn": true,
-    "mode": "separator",
-    "separator": "_",
-    "regex": false,
-    "maxColumns": 0,
-    "description": "Split column PUNTO_MUESTREO by separator"
-  },
-  {
-    "op": "core/column-reorder",
-    "columnNames": [
-      "PROVINCIA",
-      "MUNICIPIO",
-      "ESTACION",
-      "PUNTO_MUESTREO 1",
-      "PUNTO_MUESTREO 3",
-      "MAGNITUD",
-      "ANO",
-      "MES",
-      "D01",
-      "V01",
-      "D02",
-      "V02",
-      "D03",
-      "V03",
-      "D04",
-      "V04",
-      "D05",
-      "V05",
-      "D06",
-      "V06",
-      "D07",
-      "V07",
-      "D08",
-      "V08",
-      "D09",
-      "V09",
-      "D10",
-      "V10",
-      "D11",
-      "V11",
-      "D12",
-      "V12",
-      "D13",
-      "V13",
-      "D14",
-      "V14",
-      "D15",
-      "V15",
-      "D16",
-      "V16",
-      "D17",
-      "V17",
-      "D18",
-      "V18",
-      "D19",
-      "V19",
-      "D20",
-      "V20",
-      "D21",
-      "V21",
-      "D22",
-      "V22",
-      "D23",
-      "V23",
-      "D24",
-      "V24",
-      "D25",
-      "V25",
-      "D26",
-      "V26",
-      "D27",
-      "V27",
-      "D28",
-      "V28",
-      "D29",
-      "V29",
-      "D30",
-      "V30",
-      "D31",
-      "V31"
-    ],
-    "description": "Reorder columns"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "PUNTO_MUESTREO 3",
-    "newColumnName": "TECNICA_DE_MEDIDA",
-    "description": "Rename column PUNTO_MUESTREO 3 to TECNICA_DE_MEDIDA"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "MAGNITUD",
-    "newColumnName": "ELEMENTO_MEDIDO",
-    "description": "Rename column MAGNITUD to ELEMENTO_MEDIDO"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "PUNTO_MUESTREO 1",
-    "newColumnName": "ID_ESTACION",
-    "description": "Rename column PUNTO_MUESTREO 1 to ID_ESTACION"
-  },
-  {
-    "op": "core/column-rename",
-    "oldColumnName": "ELEMENTO_MEDIDO",
-    "newColumnName": "COMPUESTOS_MEDIDOS",
-    "description": "Rename column ELEMENTO_MEDIDO to COMPUESTOS_MEDIDOS"
-  },
-  {
     "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "TECNICA_DE_MEDIDA",
-    "expression": "grel:value.replace('38','Fluorescencia Ultravioleta')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TECNICA_DE_MEDIDA using expression grel:value.replace('38','Fluorescencia Ultravioleta')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "TECNICA_DE_MEDIDA",
-    "expression": "grel:value.replace('48','Absorción Infrarroja')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TECNICA_DE_MEDIDA using expression grel:value.replace('48','Absorción Infrarroja')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "TECNICA_DE_MEDIDA",
-    "expression": "grel:value.replace('2','Ionización de Llama')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TECNICA_DE_MEDIDA using expression grel:value.replace('2','Ionización de Llama')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "TECNICA_DE_MEDIDA",
-    "expression": "grel:value.replace('47','Microbalanza')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TECNICA_DE_MEDIDA using expression grel:value.replace('47','Microbalanza')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "TECNICA_DE_MEDIDA",
-    "expression": "grel:value.replace('59','Cromatografía de Gases')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TECNICA_DE_MEDIDA using expression grel:value.replace('59','Cromatografía de Gases')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "TECNICA_DE_MEDIDA",
-    "expression": "grel:value.replace('6','Absorción Ultravioleta')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TECNICA_DE_MEDIDA using expression grel:value.replace('6','Absorción Ultravioleta')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "TECNICA_DE_MEDIDA",
-    "expression": "grel:value.replace('8','Quimioluminiscencia')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column TECNICA_DE_MEDIDA using expression grel:value.replace('8','Quimioluminiscencia')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('1','Dióxido de Azufre')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('1','Dióxido de Azufre')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('6','Monóxido de Carbono')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('6','Monóxido de Carbono')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('7','Monóxido de Nitrógeno')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('7','Monóxido de Nitrógeno')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('8','Dióxido de Nitrógeno')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('8','Dióxido de Nitrógeno')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('9','Partículas < 2.5um')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('9','Partículas < 2.5um')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('20','Tolueno')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('20','Tolueno')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('30','Benceno')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('30','Benceno')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('35','Etilbenceno')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('35','Etilbenceno')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('42','Hidrocarburos totales (hexano)')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('42','Hidrocarburos totales (hexano)')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('43','Metano')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('43','Metano')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "COMPUESTOS_MEDIDOS",
-    "expression": "grel:value.replace('44','Hidrocarburos no metánicos (hexano)')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column COMPUESTOS_MEDIDOS using expression grel:value.replace('44','Hidrocarburos no metánicos (hexano)')"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "ID_ESTACION",
-    "expression": "grel:substring(value, 5)",
-    "onError": "set-to-blank",
-    "newColumnName": "LUGAR_ESTACION",
-    "columnInsertIndex": 4,
-    "description": "Create column LUGAR_ESTACION at index 4 based on column ID_ESTACION using expression grel:substring(value, 5)"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "ID_ESTACION",
-    "description": "Remove column ID_ESTACION"
-  },
-  {
-    "op": "core/mass-edit",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "004"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "\"Pza. de España\""
-      }
-    ],
-    "description": "Mass edit cells in column LUGAR_ESTACION"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "LUGAR_ESTACION",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "\"Pza. de España\""
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "Pza. de España"
-      }
-    ],
-    "description": "Mass edit cells in column LUGAR_ESTACION"
+    "expression": "grel:value.replace('11','Av. Ramón y Cajal')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('11','Av. Ramón y Cajal')"
   },
   {
     "op": "core/text-transform",
@@ -969,11 +999,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('008', 'Escuelas Aguirre')",
+    "expression": "grel:value.replace('8','Escuelas Aguirre')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('008', 'Escuelas Aguirre')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('8','Escuelas Aguirre')"
   },
   {
     "op": "core/text-transform",
@@ -982,11 +1012,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('011','Av. Ramón y Cajal')",
+    "expression": "grel:value.replace('60','Tres Olivos')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('011','Av. Ramón y Cajal')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('60','Tres Olivos')"
   },
   {
     "op": "core/text-transform",
@@ -995,11 +1025,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('016','Arturo Soria')",
+    "expression": "grel:value.replace('5Escuelas Aguirre', 'Escuelas Aguirre')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('016','Arturo Soria')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('5Escuelas Aguirre', 'Escuelas Aguirre')"
   },
   {
     "op": "core/text-transform",
@@ -1008,11 +1038,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('017','Villaverde Alto')",
+    "expression": "grel:value.replace('4Escuelas Aguirre','Escuelas Aguirre')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('017','Villaverde Alto')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('4Escuelas Aguirre','Escuelas Aguirre')"
   },
   {
     "op": "core/text-transform",
@@ -1021,11 +1051,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('018','C/Farolillo')",
+    "expression": "grel:value.replace('3Escuelas Aguirre','Escuelas Aguirre')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('018','C/Farolillo')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('3Escuelas Aguirre','Escuelas Aguirre')"
   },
   {
     "op": "core/text-transform",
@@ -1034,11 +1064,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('024','Casa de Campo')",
+    "expression": "grel:value.replace('1Escuelas Aguirre','Escuelas Aguirre')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('024','Casa de Campo')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('1Escuelas Aguirre','Escuelas Aguirre')"
   },
   {
     "op": "core/text-transform",
@@ -1047,11 +1077,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('027','Barajas')",
+    "expression": "grel:value.replace('59','Parque Juan Carlos I')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('027','Barajas')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('59','Parque Juan Carlos I')"
   },
   {
     "op": "core/text-transform",
@@ -1060,11 +1090,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('035','Pza. del Carmen')",
+    "expression": "grel:value.replace('57','Sanchinarro')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('035','Pza. del Carmen')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('57','Sanchinarro')"
   },
   {
     "op": "core/text-transform",
@@ -1073,11 +1103,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('036','Moratalaz')",
+    "expression": "grel:value.replace('56','Plaza Elíptica')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('036','Moratalaz')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('56','Plaza Elíptica')"
   },
   {
     "op": "core/text-transform",
@@ -1086,11 +1116,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('038','Cuatro Caminos')",
+    "expression": "grel:value.replace('55','Urb. Embajada (Barajas)')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('038','Cuatro Caminos')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('55','Urb. Embajada (Barajas)')"
   },
   {
     "op": "core/text-transform",
@@ -1099,11 +1129,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('039','Barrio del Pilar')",
+    "expression": "grel:value.replace('54','Ensanche de Vallecas')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('039','Barrio del Pilar')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('54','Ensanche de Vallecas')"
   },
   {
     "op": "core/text-transform",
@@ -1112,11 +1142,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('040','Vallecas')",
+    "expression": "grel:value.replace('50','Pza. Castilla')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('040','Vallecas')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('50','Pza. Castilla')"
   },
   {
     "op": "core/text-transform",
@@ -1125,11 +1155,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('047','Méndez Álvaro')",
+    "expression": "grel:value.replace('49','Retiro')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('047','Méndez Álvaro')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('49','Retiro')"
   },
   {
     "op": "core/text-transform",
@@ -1138,11 +1168,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('048','Pº. Castellana')",
+    "expression": "grel:value.replace('47','Méndez Álvaro')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('048','Pº. Castellana')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('47','Méndez Álvaro')"
   },
   {
     "op": "core/text-transform",
@@ -1151,11 +1181,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('049','Retiro')",
+    "expression": "grel:value.replace('40','Vallecas')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('049','Retiro')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('40','Vallecas')"
   },
   {
     "op": "core/text-transform",
@@ -1164,11 +1194,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('050','Pza. Castilla')",
+    "expression": "grel:value.replace('39','Barrio del Pilar')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('050','Pza. Castilla')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('39','Barrio del Pilar')"
   },
   {
     "op": "core/text-transform",
@@ -1177,11 +1207,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('054','Ensanche de Vallecas')",
+    "expression": "grel:value.replace('36','Moratalaz')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('054','Ensanche de Vallecas')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('36','Moratalaz')"
   },
   {
     "op": "core/text-transform",
@@ -1190,11 +1220,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('055','Urb. Embajada (Barajas)')",
+    "expression": "grel:value.replace('35','Pza. del Carmen')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('055','Urb. Embajada (Barajas)')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('35','Pza. del Carmen')"
   },
   {
     "op": "core/text-transform",
@@ -1203,11 +1233,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('056','Plaza Elíptica')",
+    "expression": "grel:value.replace('27','Barajas')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('056','Plaza Elíptica')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('27','Barajas')"
   },
   {
     "op": "core/text-transform",
@@ -1216,11 +1246,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('057','Sanchinarro')",
+    "expression": "grel:value.replace('24','Casa de Campo')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('057','Sanchinarro')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('24','Casa de Campo')"
   },
   {
     "op": "core/text-transform",
@@ -1229,11 +1259,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('058','El Pardo')",
+    "expression": "grel:value.replace('16','Arturo Soria')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('058','El Pardo')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('16','Arturo Soria')"
   },
   {
     "op": "core/text-transform",
@@ -1242,11 +1272,11 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('059','Parque Juan Carlos I')",
+    "expression": "grel:value.replace('17','Villaverde Alto')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('059','Parque Juan Carlos I')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('17','Villaverde Alto')"
   },
   {
     "op": "core/text-transform",
@@ -1255,10 +1285,10 @@
       "mode": "row-based"
     },
     "columnName": "LUGAR_ESTACION",
-    "expression": "grel:value.replace('060', 'Tres Olivos')",
+    "expression": "grel:value.replace('4','Pza. de España')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10,
-    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('060', 'Tres Olivos')"
+    "description": "Text transform on cells in column LUGAR_ESTACION using expression grel:value.replace('4','Pza. de España')"
   }
 ]

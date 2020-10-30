@@ -1,0 +1,5 @@
+select
+      ?Subject ?p ?Object
+where{
+      ?Subject owl:sameAs ?Object
+}

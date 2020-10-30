@@ -1,0 +1,157 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "MUNICIPIO",
+    "description": "Remove column MUNICIPIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H01",
+    "newColumnName": "Hora1",
+    "description": "Rename column H01 to Hora1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H02",
+    "newColumnName": "Hora2",
+    "description": "Rename column H02 to Hora2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H03",
+    "newColumnName": "Hora3",
+    "description": "Rename column H03 to Hora3"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H04",
+    "newColumnName": "Hora5",
+    "description": "Rename column H04 to Hora5"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Hora5",
+    "newColumnName": "Hora4",
+    "description": "Rename column Hora5 to Hora4"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H05",
+    "newColumnName": "Hora5",
+    "description": "Rename column H05 to Hora5"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H06",
+    "newColumnName": "Hora6",
+    "description": "Rename column H06 to Hora6"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H07",
+    "newColumnName": "Hora7",
+    "description": "Rename column H07 to Hora7"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H08",
+    "newColumnName": "Hora8",
+    "description": "Rename column H08 to Hora8"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H09",
+    "newColumnName": "Hora9",
+    "description": "Rename column H09 to Hora9"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H10",
+    "newColumnName": "Hora10",
+    "description": "Rename column H10 to Hora10"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H11",
+    "newColumnName": "Hora11",
+    "description": "Rename column H11 to Hora11"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H12",
+    "newColumnName": "Hora12",
+    "description": "Rename column H12 to Hora12"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H13",
+    "newColumnName": "Hora13",
+    "description": "Rename column H13 to Hora13"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H14",
+    "newColumnName": "Hora14",
+    "description": "Rename column H14 to Hora14"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H15",
+    "newColumnName": "Hora15",
+    "description": "Rename column H15 to Hora15"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H16",
+    "newColumnName": "Hora16",
+    "description": "Rename column H16 to Hora16"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H17",
+    "newColumnName": "Hora17",
+    "description": "Rename column H17 to Hora17"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H18",
+    "newColumnName": "Hora18",
+    "description": "Rename column H18 to Hora18"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H19",
+    "newColumnName": "Hora19",
+    "description": "Rename column H19 to Hora19"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H20",
+    "newColumnName": "Hora20",
+    "description": "Rename column H20 to Hora20"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H21",
+    "newColumnName": "Hora21",
+    "description": "Rename column H21 to Hora21"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H22",
+    "newColumnName": "Hora22",
+    "description": "Rename column H22 to Hora22"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H23",
+    "newColumnName": "Hora23",
+    "description": "Rename column H23 to Hora23"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "H24",
+    "newColumnName": "Hora24",
+    "description": "Rename column H24 to Hora24"
+  }
+]

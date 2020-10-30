@@ -6,71 +6,18 @@ prefixes:
 
 mappings:
 
-  apartado:
-    sources:
-      - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/Apartado/$(Apartado)
-    po:
-      - [a, ex:Apartado]    
-      - [ex:nombreApartado, $(Apartado),xsd:string]    
-
-  destino:
-    sources:
-      - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/Destino/$(Destino)
-    po:
-      - [a, ex:Destino]    
-      - [ex:nombreDestino, $(Destino),xsd:string]
 
   distrito:
     sources:
       - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/Districto/$(Distrito)
+    s: http://group56.org/zonas-verdes/Distrito/$(Distrito)
     po:
       - [a, ex:Distrito]
-      - [ex:nombreDistrito, $(Distrito),xsd:string] 
-      - p: ex:tieneCalle
-        o:
-           mapping: situaciondestino  
+      - [ex:nombreDistrito, $(Distrito),xsd:string]  
       - p: ex:tieneSubepigrafe
         o:
-           mapping: subepigrafe    
-      - p: ex:tieneNaturaleza
-        o:
-           mapping: naturaleza           
+           mapping: subepigrafe            
 
-  naturaleza:
-    sources:
-      - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/NaturalezaInmueble/$(Naturaleza_del_inmueble)
-    po:
-      - [a, ex:Naturaleza]    
-      - [ex:nombreNaturaleza, $(Naturaleza_del_inmueble),xsd:string]
-  
-
-  numerodearchivo:
-    sources:
-      - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/NdeArchivo/$(Numero_de_archivo)
-    po:
-      - [a, ex:NdeArchivo]
-      - [ex:numeroArchivo, $(Numero_de_archivo),xsd:integer]
-
-  situaciondestino:
-    sources:
-      - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/SituacionDestino/$(Situacion_Destino)
-    po:
-      - [a, ex:SituacionDestino]      
-      - [ex:nombreCalle, $(Situacion_Destino),xsd:string]
-
-  solar:
-    sources:
-      - [ZonasVerdes-updated.csv~csv]
-    s: http://group56.org/zonas-verdes/Solar/$(Tamanio_Solar)
-    po:
-      - [a, ex:Solar]    
-      - [ex:tamanioSolar, $(Tamanio_Solar),xsd:double]
       
   subepigrafe:
     sources:
@@ -79,19 +26,11 @@ mappings:
     po:
       - [a, ex:Subepigrafe]
       - [ex:nombreSubepigrafe, $(Subepigrafe),xsd:string]
-      - p: ex:situadoen
-        o:
-           mapping: situaciondestino
-      - p: ex:tieneApartado
-        o:
-           mapping: apartado           
-      - p: ex:tieneDestino
-        o:
-           mapping: destino             
-      - p: ex:tieneNdeArchivo
-        o:
-           mapping: numerodearchivo 
-      - p: ex:tieneSolar
-        o:
-           mapping: solar           
+      - [ex:nombreApartado, $(Apartado),xsd:string]
+      - [ex:nombreCalle, $(Situacion_Destino),xsd:string]
+      - [ex:nombreDestino, $(Destino),xsd:string]
+      - [ex:nombreNaturaleza, $(Naturaleza_del_inmueble),xsd:string]
+      - [ex:numeroArchivo, $(Numero_de_archivo),xsd:string]
+      - [ex:tamanioSolar, $(Tamanio_Solar),xsd:double]
+              
       

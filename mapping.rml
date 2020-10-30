@@ -1,0 +1,148 @@
+@prefix : http://semantic.web.es/group33/ontology/RecargaMadrid/ .
+@prefix g: http://semantic.web.es/group33/ontology/RecargaMadrid/ .
+@prefix owl: http://www.w3.org/2002/07/owl# .
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# .
+@prefix xml: http://www.w3.org/XML/1998/namespace .
+@prefix xsd: http://www.w3.org/2001/XMLSchema# .
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+@base http://semantic.web.es/group33/ontology/RecargaMadrid/ .
+
+<#TriplesMap1>
+  rml:logicalSource [
+    rml:source "../csv/red_recarga_acceso_publico__2020_modificado.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.semanticweb.org/RecargaMadrid/classes#RecargaMadrid/{PR_ID}";
+    rr:termType rr:IRI;
+    rr:class classes:RecargaMadrid
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:COORX; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "COORX"; rr:termType rr:Literal
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:COORY; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "COORY"; rr:termType rr:Literal
+      ]
+  ];
+<#TriplesMap2>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+  rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Distrito/{Distrito}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Distrito
+	];
+ rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:DISTRITO; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "DISTRITO"; rr:termType rr:Literal
+      ]
+  ];
+  
+  
+  <#TriplesMap3>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+  rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Distrito/{Direccion}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Direccion
+	];
+  
+   rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:DIRECCION; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "DIRECCION"; rr:termType rr:Literal
+      ]
+  ];
+  
+  <#TriplesMap4>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+  rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Distrito/{Emplazamiento}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Emplazamiento
+	];
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:EMPLAZAMIENTO; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "EMPLAZAMIENTO"; rr:termType rr:Literal
+      ]
+  ];
+  
+  
+  <#TriplesMap5>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+  rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Distrito/{Numero_cargadores}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Numero
+	];
+  
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:N_CARGADORES; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "N_CARGADORES"; rr:termType rr:Literal
+      ]
+  ];
+  
+  <#TriplesMap6>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+  rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Distrito/{Operador}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Operador
+	];
+  
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:OPERADOR; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "OPERADOR"; rr:termType rr:Literal
+      ]
+  ];
+  
+  <#TriplesMap7>
+	rml:logicalSource [
+	  rml:source "../csv/bases_bicimad-updated2.csv";
+	  rml:referenceFormulation ql:CSV
+	];
+  rr:subjectMap [
+	  rr:template "http://www.semanticweb.org/bicimad/classes#Distrito/{Coordenadas}";
+	  rr:termType rr:IRI;
+	  rr:class classes:Coordenadas
+	];
+  
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:LATITUD; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "LATITUD"; rr:termType rr:Literal
+      ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicateMap[rr:constant properties:LONGITUD; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "LONGITUD"; rr:termType rr:Literal
+      ]
+  ];
+  
