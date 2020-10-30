@@ -11,33 +11,32 @@ prefixes:
 mappings:
   UBICACION:
     sources:
-      - [agenda-eventos-culturales-updated.csv~csv]
+      - [eventos-with-links.csv~csv]
     s: res:UBICACION/$(UBICACION)
     po:
       - [a, ont:UBICACION]
       - [ont:direccion,$(DIRECCION)]
       - [ont:longitud,$(LONGITUD)]
       - [ont:latitud,$(LATITUD)]
-      - [owl:sameAs,$(wikidata:UBICACION-URI)~iri]
+      - [owl:sameAs,$(UBICACION-URI)~iri]
 
   ACTIVIDAD:
     sources:
-      - [agenda-eventos-culturales-updated.csv~csv]
-    s: res:ACTIVIDAD/$(IDACTIVIDAD)
+      - [eventos-with-links.csv~csv]
+    s: res:ACTIVIDAD/$(ID-ACTIVIDAD)
     po:
       - [a, ont:ACTIVIDAD]
       - [ont:nombre_actividad,$(TITULO)]
       - [ont:descripcion,$(DESCRIPCION)]
       - [ont:precio,$(PRECIO)]
-      - [ont:id_actividad,$(IDACTIVIDAD)]
+      - [ont:id_actividad,$(ID-ACTIVIDAD)]
       - [ont:fecha,$(FECHA)]
-      - [ont:tipo,$(TIPOACTIVIDAD)]
-      - [owl:sameAs,$(wikidata:TIPOACTIVIDAD-URI)~iri]
+      - [owl:sameAs,$(TIPOACTIVIDAD)~iri]
       - p: ns:ubicado_en
-              o:
+               o:
                 - mapping: TriplesMap1
                   condition:
                     function: equal
                     parameters:
-                      - [str1, $(id_actividad]
+                      - [str1, $(id-actividad]
                       - [str2, $direccion)]
