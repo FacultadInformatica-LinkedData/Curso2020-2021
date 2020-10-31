@@ -1,0 +1,108 @@
+﻿@prefix : <http://www.wsld.org/grupo17/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/grupo17/ontology/> .
+
+
+<http://www.wsld.org/grupo17/ontology/> rdf:type owl:Ontology.
+
+
+######################## CLASSES #######################
+#http://www.wsld.org/grupo17/ontology/Provincia
+:Provincia rdf:type owl:Class.
+
+#http://www.wsld.org/grupo17/ontology/Estacion
+:Estacion rdf:type owl:Class.
+
+#http://www.wsld.org/grupo17/ontology/esPuntoMuestreo
+:esPuntoMuestreo rdf:type owl:Class.
+
+#http://www.wsld.org/grupo17/ontology/esMedida
+:esMedida rdf:type owl:Class.
+
+######################## OBJECT PROPERTIES #######################
+
+#http://www.wsld.org/grupo17/ontology/estaEnEstacion
+:estaEnEstacion rdf:type owl:ObjectProperty;
+    rdfs:domain :esPuntoMuestreo;
+    rdfs:range :Estacion.
+
+#http://www.wsld.org/grupo17/ontology/estaEnProvincia
+:estaEnProvincia rdf:type owl:ObjectProperty;
+    rdfs:domain :Estacion;
+    rdfs:range :Provincia.
+
+#http://www.wsld.org/grupo17/ontology/mide
+:mide rdf:type owl:ObjectProperty;
+    rdfs:domain :esPuntoMuestreo;
+    rdfs:range :esMedida.
+
+######################## DATA PROPERTIES #######################
+
+#http://www.wsld.org/grupo17/ontology/esValidador
+:esValidador rdf:type owl:DatatypeProperty;
+    rdfs:domain :esMedida;
+    rdfs:range   xsd:boolean.
+    rdfs:valido1    xsd:boolean;
+    rdfs:valido2    xsd:boolean;
+    rdfs:valido3    xsd:boolean;
+    rdfs:valido4    xsd:boolean;
+    rdfs:valido5    xsd:boolean;
+    rdfs:valido6    xsd:boolean;
+    rdfs:valido7    xsd:boolean;
+    rdfs:valido8    xsd:boolean;
+    rdfs:valido9    xsd:boolean;
+    rdfs:valido10   xsd:boolean;
+    rdfs:valido11   xsd:boolean;
+    rdfs:valido12   xsd:boolean;
+    rdfs:valido13   xsd:boolean;
+    rdfs:valido14   xsd:boolean;
+    rdfs:valido15   xsd:boolean;
+    rdfs:valido16   xsd:boolean;
+    rdfs:valido17   xsd:boolean;
+    rdfs:valido18   xsd:boolean;
+    rdfs:valido19   xsd:boolean;
+    rdfs:valido20   xsd:boolean;
+    rdfs:valido21   xsd:boolean;
+    rdfs:valido22   xsd:boolean;
+    rdfs:valido23   xsd:boolean;
+    rdfs:valido24   xsd:boolean;
+
+
+#http://www.wsld.org/grupo17/ontology/esHora
+:esHora rdf:type owl:DatatypeProperty;
+    rdfs:domain :esMedida;
+    #rdfs:range   xsd:double
+    rdfs:hora1    xsd:double;
+    rdfs:hora2    xsd:double;
+    rdfs:hora3    xsd:double;
+    rdfs:hora4    xsd:double;
+    rdfs:hora4    xsd:double;
+    rdfs:hora5    xsd:double;
+    rdfs:hora6    xsd:double;
+    rdfs:hora7    xsd:double;
+    rdfs:hora8    xsd:double;
+    rdfs:hora9    xsd:double;
+    rdfs:hora10   xsd:double;
+    rdfs:hora11   xsd:double;
+    rdfs:hora12   xsd:double;
+    rdfs:hora13   xsd:double;
+    rdfs:hora14   xsd:double;
+    rdfs:hora15   xsd:double;
+    rdfs:hora16   xsd:double;
+    rdfs:hora17   xsd:double;
+    rdfs:hora18   xsd:double;
+    rdfs:hora19   xsd:double;
+    rdfs:hora20   xsd:double;
+    rdfs:hora21   xsd:double;  
+    rdfs:hora22   xsd:double;  
+    rdfs:hora23   xsd:double;  
+    rdfs:hora24   xsd:double.  
+     
+#http://www.wsld.org/esFecha
+:esFecha rdf:type owl:Class;
+    rdfs:domain :esMedida;
+    rdfs:range   xsd:date.

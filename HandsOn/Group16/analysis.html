@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<h1><span style="color: #33cccc;">Analyzing Dataset</span></h1>
+<h2><span style="color: #008080;">Types of sample / magnitude that we can treat, that is, those that have in common.</span></h2>
+<p><br />Fields found at dataset 1 (2010 to February 2020) and dataset 2 (March to June 2020)<br />[The precise details of the measurements are located in <a href="https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/Aire/Ficheros/Interprete_ficheros_%20calidad_%20del_%20aire_global.pdf">this guide</a>]</p>
+<blockquote>
+<p><strong>* Sulfur dioxide (SO2)</strong><br /><strong> * Carbon monoxide (CO)</strong><br /><strong> * Nitrogen dioxide (N02)</strong><br /><strong> * Particulate matter 2.5 (PM2.5)</strong><br /><strong> * Particulate matter 10 (PM10)</strong><br /><strong> * Ozone (O3)</strong></p>
+<p><strong>*</strong> <strong>Station / Sampling point</strong>: it is a numerical code that corresponds to a place: 28079001<br /> <strong>* Date:</strong> DD / MM / YYYY the sample was taken.<br />&nbsp;&nbsp; - In dataset 1 there is one row per month, with one column for each day.<br />&nbsp;&nbsp; - In dataset 2 there is a row for each day.<br /> <strong>* Validity (dataset 1)</strong><br />&nbsp;&nbsp; - Only the data with the V are valid, so we will have to filter them.</p>
+</blockquote>
+<h2><span style="color: #008080;">License Analysis of the Data Source</span></h2>
+<p>According to the conditions of use of Open Data of the Madrid City Council, chosen data is: "<em>Open Data (open data in English) is a global initiative, linked to Open Government policies, which seeks that data and information, especially those owned by public administrations, are published in an open, regular and reusable way for everyone, without restrictions on access, copyright, patents or other control mechanisms.</em> "</p>
+<p>In summary, you are allowed to reuse the published data for commercial and non-commercial purposes. For more information, consult <a href="https://www.comunidad.madrid/gobierno/datos-abiertos/reutiliza-datos-abiertos-comunidad-madrid">this link</a>.</p>
+<p>The publisher and the rightsholder of the dataset is the municipality of the Community of Madrid. And the potential license that we are going to use is an open data license.</p>
+<h2><span style="color: #008080;">Defining Resource Naming Strategy</span></h2>
+<p>The following URI contains the domain and path of both the ontology and the data:<br /><strong>- <a href="http://www.semanticweb.org/group16/">http://www.semanticweb.org/group16/</a></strong></p>
+<p>The ontological terms path is described by the URI:<br /><strong>- <a href="http://www.semanticweb.org/group16/ontology/air-quality">http://www.semanticweb.org/group16/ontology/air-quality</a></strong></p>
+<p>Ontological examples such as properties and classes have those URIs, respectively:<br /><strong>- <a href="http://www.semanticweb.org/group16/ontology/air-quality#measuredAt">http://www.semanticweb.org/group16/ontology/air-quality#measuredAt</a></strong></p><p><strong>-<a href="http://www.semanticweb.org/group16/ontology/air-quality#Station">http://www.semanticweb.org/group16/ontology/air-quality#Station</a></strong></p>
+<p>Individuals path are located under this URI:<br /><strong>- <a href="http://www.semanticweb.org/group16/resource/">http://www.semanticweb.org/group16/resource/</a></strong></p>
+<p>I.e, an individual of the <i>Station</i> class would have an URI like this:<br /><strong>- <a href="http://www.semanticweb.org/group16/resource/Station/28079004">http://www.semanticweb.org/group16/resource/Station/28079004/</a></strong></p>
+<p>&nbsp;</p>
+</html>

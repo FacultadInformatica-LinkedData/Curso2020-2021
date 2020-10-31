@@ -1,0 +1,38 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "vidrio_municipio_codigo",
+    "newColumnName": "Codigo_Municipio",
+    "description": "Rename column vidrio_municipio_codigo to Codigo_Municipio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "vidrio_municipio_nombre",
+    "newColumnName": "Nombre_Municipio",
+    "description": "Rename column vidrio_municipio_nombre to Nombre_Municipio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "vidrio_año",
+    "newColumnName": "Año_Recogida",
+    "description": "Rename column vidrio_año to Año_Recogida"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "vidrio_indicador_descripcion",
+    "newColumnName": "Tipo_De_Dato",
+    "description": "Rename column vidrio_indicador_descripcion to Tipo_De_Dato"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "vidrio_indicador_unidades",
+    "newColumnName": "Indicador_Unidades",
+    "description": "Rename column vidrio_indicador_unidades to Indicador_Unidades"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "vidrio_indicador_valor",
+    "newColumnName": "Valor",
+    "description": "Rename column vidrio_indicador_valor to Valor"
+  }
+]

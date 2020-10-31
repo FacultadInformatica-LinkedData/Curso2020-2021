@@ -1,0 +1,64 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "registration_date",
+    "description": "Remove column registration_date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "street_name",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "address",
+    "columnInsertIndex": 10,
+    "description": "Create column address at index 10 based on column street_name using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "address",
+    "expression": "join ([coalesce(cells['address'].value,''),coalesce(cells['street_number'].value,'')],'-')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column address using expression join ([coalesce(cells['address'].value,''),coalesce(cells['street_number'].value,'')],'-')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "street_number",
+    "description": "Remove column street_number"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "position_x",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column position_x using expression value.replace(\",\",\".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "position_y",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column position_y using expression value.replace(\",\",\".\")"
+  }
+]

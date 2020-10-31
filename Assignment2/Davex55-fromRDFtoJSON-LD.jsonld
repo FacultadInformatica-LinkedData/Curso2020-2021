@@ -1,0 +1,33 @@
+{
+	"@context": {
+		"vocab": "http://upmsemanticweb.com/students#",
+	      "fullName": "vocab:fullName",
+		"hometown": "vocab:hometown",
+		"age": "vocab:age",
+		"almaMater": "vocab:almaMater",
+		"parentsName": "vocab:parentsName",
+		"subjects": "vocab:subjects",
+		"name": "subjects:name",
+		"teachers": "subjects:teachers",
+		"description": "subjects:description"
+	},
+	"@id": "http://upmsemanticweb.com/students/Davex55",
+	"@type": "vocab:student",
+	"fullName": "Alejandro Benavente Alvarez",
+	"hometown": "Madrid",
+	"age": 21,
+      "almaMater": "Universidad Politécnica de Madrid",
+      "parentsName": ["Pedro","Rosalia"],
+	"subjects": [
+		{
+			"name": "Administración de Sistemas Informáticos",
+			"teachers": ["Gabriel Cebrián Márquez", "Fernando Pérez Costoya", "Francisco Rosales García", "Víctor Robles Forcada"],
+			"description": "Los objetivos de esta asignatura son, por un lado mostrar al alumno los fundamentos generales de las tareas y responsabilidades del administrador de sistemas e ilustrarlo con la administración de sistemas Unix y sistemas Windows. Adicionalmente, se presentarán temas de carácter transversal de la administración de sistemas."
+		},
+		{
+			"name": "Semantic Web, Linked Data and Knowledge Graphs",
+			"teachers": ["Óscar Corcho García", "Raúl García Castro"],
+			"description": "El objetivo de esta asignatura es proporcionar la base teórica y práctica sobre los fundamentos metodológicos y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados, así como en forma de grafos de conocimientos."
+		}
+	]
+}

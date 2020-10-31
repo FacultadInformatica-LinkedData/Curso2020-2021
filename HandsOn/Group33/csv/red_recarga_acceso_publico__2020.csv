@@ -1,0 +1,40 @@
+DISTRITO;DIRECCION;EMPLAZAMIENTO;Nº CARGADORES;OPERADOR;COORX;COORY;LONGITUD;LATITUD
+Arganzuela;Calle Chulapos s/n;Vía pública;1;REPSOL;438893,73;4473226,26;-3.7201631;40.4074098
+Arganzuela;Ronda de Valencia 1;Vía pública;1;GIC;440624,23;4473016,22;-3.6997503;40.4056429
+Barajas;Calle Medina del Pomar 22;Otros;1;ELECTRIC CHARGE SPAIN;450446,39;4478105,29;-3.584398;40.4521312
+Carabanchel;Avenida de la Peseta 6;Estación de servicio ;1;REPSOL;434997,82;4468934,81;-3.7656363;40.3684557
+Centro;Calle Génova 24;Vía pública;1;GIC;441259;4475260;-3.6924771;40.425901
+Centro;Calle San Bernardo 14;Vía pública;1;REPSOL;439969;4474882;-3.7076477;40.4224037
+Centro;Plaza de Jacinto Benavente 6;Aparcamiento;1;EMT;440341,55;4474015,14;-3.7031751;40.4146214
+Centro;Plaza de la Cebada;Aparcamiento;2;DRIVE THE CITY;439749,07;4473590,81;-3.7101178;40.4107562
+Chamartín;Paseo Castellana 160;Vía pública;1;REPSOL;441528,45;4478870,2;-3.6896332;40.4584423
+Chamartín;Calle Cardenal Marcelo Spínola 10;Vía pública;1;GIC;443204,66;4479841,35;-3.6699516;40.4673071
+Chamartín;Calle Hiedra 36;Aparcamiento;1;EMT;442442,16;4480402,5;-3.6789963;40.4723097
+Chamberí;Paseo Castellana 33;Vía pública;1;GIC;441547,43;4475930,09;-3.6891388;40.4319578
+Chamberí;Paseo Castellana 106;Vía pública;1;REPSOL;441420,49;4477426,85;-3.6907733;40.4454324
+Chamberí;Calle Fernández de los Ríos 42;Vía pública;1;REPSOL;439847,45;4476302,27;-3.7092149;40.4351894
+Chamberí;Calle Fuencarral 114;Vía pública;1;REPSOL;440414,18;4475676,4;-3.7024748;40.429592
+Chamberí;Calle Manuel Silvela 16;Vía pública;1;GIC;440694;4475775;-3.6991853;40.4305003
+Chamberí;Plaza del Conde de Valle de Suchil;Vía pública;1;REPSOL;440038,83;4475778,21;-3.7069092;40.4304822
+Chamberí;Calle Alberto Aguilera 9;Estación de servicio ;1;REPSOL;439914,74;4475692,23;-3.7083639;40.4296987
+Ciudad Lineal;Calle Bueso Pineda 29;Vía pública;1;GIC;444431,81;4478363,82;-3.6553478;40.4540798
+Hortaleza;Avenida María de Portugal 15;Estación de servicio ;1;IBERDROLA;443849,63;4483208,55;-3.6626423;40.4976842
+Hortaleza;Avenida de Machupichu 105;Estación de servicio ;1;GIC;446082,58;4479561,39;-3.6359822;40.4649769
+Puente de Vallecas;Avenida de la Albufera 319;Aparcamiento;2;ECOLINERAS;446350,62;4470558,49;-3.6320611;40.3838908
+Puente de Vallecas;Avenida Real de Arganda 74;Estación de servicio ;1;REPSOL;448693,92;4469672,14;-3.6043841;40.3760535
+Retiro;Calle Alfonso XII 2;Vía pública;1;REPSOL;441553,76;4474522,81;-3.6889348;40.4192808
+Retiro;Calle Cerro de la Plata 4;Vía pública;1;GIC;442701,58;4472363,01;-3.6752113;40.399904
+Retiro;Plaza del Conde de Casal 6;Aparcamiento;2;DRIVE THE CITY;443198,96;4473071,62;-3.6694137;40.4063216
+Retiro;Calle Ibiza 1;Vía pública;1;REPSOL;442444,53;4474433,54;-3.6784275;40.4185387
+Retiro;Plaza de la Lealtad, s/n;Vía pública;1;GIC;441289,71;4474176,66;-3.6920151;40.4161439
+Salamanca;Paseo Castellana 52;Vía pública;1;REPSOL;441650;4476325;-3.6879659;40.4355225
+Salamanca;Calle Castelló 105;Vía pública;1;GIC;442261,15;4476262,44;-3.680755;40.4350016
+Salamanca;Calle Goya 36;Vía pública;1;GIC;442227,27;4475141,53;-3.6810526;40.4249016
+Salamanca;Calle Goya 123;Vía pública;1;REPSOL;443066,59;4475108,89;-3.671156;40.4246654
+Salamanca;Calle Velázquez 74;Vía pública;1;REPSOL;442015,28;4475633,05;-3.6835963;40.4293147
+Salamanca;Jardines del Descubrimiento - Acceso a Complejo de Aparcamientos subterráneos por Calle de la Armada Española ;Aparcamiento;4;EMT;441474,08;4475110,19;-3.689928;40.4245666
+Salamanca;Plaza de Marqués de Salamanca;Aparcamiento;1;EMT;442391,2;4475742,85;-3.6791747;40.4303299
+Villa de Vallecas;Avenida de Madrid Mercamadrid s/n;Otros;2;DRIVE THE CITY;444302,11;4468182,62;-3.6559863;40.362353
+Villa de Vallecas;Carretera M602 km. 13;Estación de servicio ;1;REPSOL;445890,74;4469312,58;-3.637373;40.3726371
+Villa de Vallecas;Carretera Villaverde a Vallecas km. 3,5;Estacion de servicio;1;NATURGY;444372,2;4468659,86;-3.6552024;40.366657
+Latina ;Calle de José de Cadalso 51;Aparcamiento;1;DRIVE THE CITY;434762,24;4469976,18;-3.7685175;40.3778184

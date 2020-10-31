@@ -1,0 +1,32 @@
+N,Nombre,COD_VIA,VIA_CLASE,VIA_NOMBRE,Direccion,Longitud,Latitud,Altitud,Fecha
+1,Paseo Recoletos,633005,PASEO,DE RECOLETOS,Frente calle Almirante,3º41'27'' O,40º25'24'' N,648,4-06-09
+2,Carlos V,264800,PLAZA,DEL EMPERADOR CARLOS V,Pza del Emperador Carlos V/ Infanta Isabel,3º41'25 O,"40º24'36"" N",629,3-01-2000
+3,Plaza del Carmen,145800,PLAZA,DEL CARMEN,Plaza del Carmen,"3º42'17"" O","40º25'16"" N",657,3-06-2016
+4,Plaza de Espalña,273600,PLAZA,DE ESPAÑA,Frente Edificio España,"3º42'40"" O","40º25'40"" N",637,3-01-2000
+5,Barrio del Pilar,514425,AVENIDA,DE MONFORTE DE LEMOS,Monforte Lemos-Av.Betanzos-La Vaguada,"3º42'55"" O","40º28'37"" N",673,3-06-2014
+6,Gregorio Marañón,153600,PASEO,DE LA CASTELLANA,Lateral Paseo Castellana-C/Miguel Angel,"3º41'22"" O","40º26'33"" N",669,3-06-2019
+8,Escuelas Aguirre,18900,CALLE,DE ALCALA,Alcala-Odonnell,"3º40'52"" O","40º25'32"" N",672,3-01-2000
+10,Cuatro Caminos,554550,AVENIDA,DE PABLO IGLESIAS,Av.Pablo Iglesias-PS.Fco de Sales,"3º42'18"" O","40º26'38"" N",699,3-06-2011
+11,Ramón y Cajal,610450,CALLE,DEL PRINCIPE DE VERGARA,Ppe.Vergara-Parque Berlín,"3º40'33"" O","40º27' 9"" N",708,3-01-2000
+12,Manuel Becerra,242000,CALLE,DEL DOCTOR GOMEZ ULLA,Dr.Gómez Ulla-Jardines Eva Duarte,"3º40'02"" O","40º25'52"" N",678,3-01-2000
+13,Vallecas,75500,CALLE,DEL ARROYO DEL OLIVAR,C/Arroyo del Olivar-Rio San Lorenzo,"3º40'03"" O","40º23'50"" N",677,3-06-2013
+14,Fernandez Ladreda,293200,PLAZA,ELIPTICA,Plaza Fernández Ladreda, 4,"3º43'7,4"" O","40º23'5,8"" N",605,4-01-2016
+16,Arturo Soria,798700,CALLE,DEL VIZCONDE DE LOS ASILOS,C/Vizconde de los Asilos,"3º38'15"" O","40º20'49,56"" N",698,3-01-2000
+17,Villaverde,417200,CALLE,DE JUAN PEÑALVER,C/ Juan Peñalver,"3º42'47,98""O","40º20'49,6""N",601,3-01-2000
+18,Farolillo,1903,CALLE,DEL FAROLILLO,C/ Farolillo,"3º43'48"" O","40º23'44"" N",625,3-01-2000
+19,Alto Extremadura,367300,CALLE,DE LA HUERTA DE CASTAÑEDA,C/Huerta Castaºeda,"3º44'16"" O","40º24'40"" N",632,3-01-2000
+20,Avda Moratalaz,522000,AVENIDA,DE MORATALAZ,Av.Moratalaz-Camino Vinateros,"3º38'59"" O","40º24'25"" N",671,3-01-2000
+24,Casa de Campo,905219,CARRETERA,DEL TELEFERICO,Junto a Teleférico-Cerro de las Animas,"3º44'56"" O","40º25'18"" N",645,3-01-2000
+25,Santa Eugenia,604750,CALLE,DE POZA DE LA SAL,C/ Poza de la Sal,"3º36' 4"" O","40º22'48"" N",653,3-01-2000
+26,Embajada,729200,CALLE,DE SOTO HIDALGO,Parque Soto Hidalgo, 2,"3º34'44""O","40º27'37,7""N",618,4-06-2015
+27,Barajas Pueblo,425700,CALLE,DE JUPITER,Júpiter (frente al 21),"3º34'43,8""O","40º28'41,2""N",627,3-07-2012
+28,Cuatro Vientos,84000,AVENIDA,DE LA AVIACION,Avd. de la Aviaciºn,"3º46'35,9""O","40º22'34,9"" N",677,5,3-07-2016
+29,El Pardo,348500,AVENIDA,DE LA GUARDIA,Avd. de la Guardia,"3º46'24,4""O","40º31'9,4""N",616,3-07-2018
+30,Campo de las Naciones,1111,CALLE,DE LA RIBERA DEL SENA,Rivera del Sena S/N,"3º36'54,9""O","40º27'42,9""N",686,5,3-07-2011
+31,Sanchinarro,31000002,CALLE,DE LA PRINCESA DE EBOLI,C/ Princesa de ºvoli esq. C/ Marºa Tudor,"3º39'37,82""O","40º29'39,14""N",700,4-01-2020
+47,Mendez Álvaro,414800,CALLE,DE JUAN DE MARIANA,C/ Juan de Mariana-Pz Amanecer en Mºndez ºlvaro,3º41'12,57''O,40º23'53,21'',609,4-01-2014
+48,Castellana,401400,CALLE,DE JOSE GUTIERREZ ABASCAL,C/ Josº Gutierrez Abascal,"3º41'25.28""O","40º26'23.44""N",685,4-03-2010
+50,Pza de Castilla,154500,PLAZA,DE CASTILLA,Plaza Castilla (Canal),"3º41'19""O","40º27'56""N",728,4-06-2016
+54,Ensanche de Vallecas,31000516,AVENIDA,DE LA GAVIA,Avda. de Gavia / Avda. de las Suertes,"3º36'43,7""O","40º27'45,1""N",619,4-01-2017
+55,Urb Embajada 2,639250,CALLE,DE RIAÑO,C/ RiaÑo,"3º34'50,4""O","40º27'45,1""N",619,4-02-2015
+86,Tres Olivos,1427,PLAZA,DE LOS TRES OLIVOS,Plaza de Tres Olivos,"3º41'23""O",40º30'2''N,715,4-02-2017

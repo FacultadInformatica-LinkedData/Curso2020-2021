@@ -1,0 +1,45 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  ont: http://linkeddata.es/group04/ontology/EstacionesMedidaControlAcustico#
+  dbo: http://dbpedia.org/ontology/
+  res: http://linkeddata.es/group04/resource/
+  rml: http://semweb.mmlab.be/ns/rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  
+  mappings:
+  estaciones:
+    sources:
+      - [EstacionesMedidaControlAcustico_mod.csv~csv]
+      s: http://group04.com/$(N)
+      po:
+      - [a, vocab:Estacion]
+      - [vocab:hasID,$(N), xsd:integer]
+      - [vocab:hasName,$(Nombre), xsd:string]
+      - [vocab:hasCode,$(COD_VIA), xsd:string]
+      - [vocab:ViaClass,$(VIA_CLASE), xsd:string]
+      - [vocab:ViaName,$(VIA_NOMBRE), xsd:string]
+      - [vocab:hasDir,$(Direccion), xsd:string]
+      - [vocab:long,$(Longitud), xsd:string]
+      - [vocab:lat,$(Latitud), xsd:string]
+      - [vocab:hasAlt,$(Altitud), xsd:string]
+      - [vocab:fechAlta,$(Fecha), xsd:string]
+      -p: vocab:Ubicacion
+        o:
+          mapping: ubicacion
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(UBICACION)]
+              - [str2, $(UBICACION)]
+
+
+  ubicacion:
+    sources:
+      - [EstacionesMedidaControlAcustico_mod.csv~csv]            
+    s: http://group04.com/ubicacion/$(UBICACION)
+    po:
+      - [a, vocab:Ubicacion]
+      - [vocab:nombreCalle,$(UBICACION),xsd:string]
+      - [vocab:latitud,$(LATITUD),xsd:string]
+      - [vocab:latitud,$(LONGITUD),xsd:string]
+      

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Analisis</title>
+</head>
+<body>
+    <h1>Dataset analysis</h1>
+		
+		<section>
+			El fichero csv donde se encuentra la cantidad de vidrio recuperado a través de los contenedores (iglúes verdes) ubicados en la vía pública:
+			<ul>
+				<li>
+					Nombre del CSV:
+					residuos_recuperacion_vdrio.csv
+				</li>
+			</ul>
+		</section>
+		<section>
+			<table style="width:100%">
+				<tr>
+					<td style="font-weight:bold;">Dato</td>
+					<td style="font-weight:bold;">Tipo</td>
+					<td style="font-weight:bold;">Descripcion</td>
+					<td style="font-weight:bold;">Rango</td>
+				</tr>
+				<tr>
+					<td>Codigo</td>
+					<td>Integer</td>
+					<td>Identificador del municipio en el que se ha recogido el vidrio</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Nombre Municipio</td>
+					<td>String</td>
+					<td>Nombre del municipio en el que se ha recogido el vidrio</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Año</td>
+					<td>Integer</td>
+					<td>Año en el que se ha recogido el vidrio</td>
+					<td>[0-9]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Descripcion</td>
+					<td>String</td>
+					<td>Indica si el valor son habitantes, contenedores o vidrio</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>
+				  
+				  <tr>
+					<td>Cantidad</td>
+					<td>String</td>
+					<td>Numero de habitantes, cantidad de contenedores o kg de vidrio</td>
+					<td>[A-Z][a-z]</td>
+				  </tr>	  
+				  
+				  <tr>
+					<td>Valoe</td>
+					<td>Integer</td>
+					<td>El valor del dato</td>
+					<td>[0-9]</td>
+				  </tr>
+				   
+				</table>
+			</section>	
+		<section>
+			<h1>Analisis de licencia del Dataset</h1>
+			<p><b>Propietario/Editor</b>: Creative Commons - Attribution.</p>
+			<p><b>Licencia:</b> Datos abiertos para copiar, distribuir y divulgar públicamente.
+                Pueden servir de base para obras derivadas como resultado de su análisis o estudio
+                y ser utilizadas con fines comerciales o no comerciales, siempre que este uso no constituya una actividad administrativa pública.
+                Se deba mencionar la autoría de la Comunidad de Madrid..</a> </p>
+		</section>
+</body>
+</html>

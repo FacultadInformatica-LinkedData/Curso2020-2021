@@ -1,0 +1,46 @@
+1.Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician> or its equivalent in Wikidata):
+
+select distinct ?pred
+
+where
+{
+	?sub a <http://dbpedia.org/ontology/Politician>.
+	?sub ?pred?value.
+}
+2.Get all the properties, except for rdf:type, that are applied to instances of the Politician class
+
+select distinct ?pred
+
+where
+{
+	?sub a <http://dbpedia.org/ontology/Politician>.
+	?sub ?pred ?value.
+	FILTER (?pred != rdf:type).
+}
+3.Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+select distinct ?value
+
+where
+{
+	?sub a <http://dbpedia.org/ontology/Politician>.
+	?sub ?pred ?value.
+	FILTER (?pred != rdf:type).
+}
+4.For each of these properties, except for rdf:type, which different values do they take in those instances?
+select distinct ?pred ?value
+
+where
+{
+	?sub a <http://dbpedia.org/ontology/Politician>.
+	?sub ?pred ?value.
+	FILTER (?pred != rdf:type).
+}
+5.For each of the properties, except for rdf:type, how many distinct values do they take?
+select distinct ?pred count( ?value)
+
+where
+{
+	?sub a <http://dbpedia.org/ontology/Politician>.
+	?sub ?pred ?value.
+	FILTER (?pred != rdf:type).
+}

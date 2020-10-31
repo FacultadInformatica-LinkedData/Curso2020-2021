@@ -1,0 +1,54 @@
+prefixes:
+ns: <http://group10.org/hands-on/ontology#>
+rdf: <http://www.w3.org/2000/01/rdf-schema#>
+
+mappings: 
+  Countries: 
+    sources: 
+    - [environment_sgp-updated.csv~csv]
+    s: http://group10.org/hands-on/resource/$(Country Name)
+    po:
+      - [a, ns:Country]
+      - [ns:countryName, $(Country Name), xsd:string]
+      - [ns:countryISO3, $(Country ISO3), xsd:string]
+      - p: ns:hasIndicator
+        o:
+          mapping: Indicators
+            condition:
+          function: equal
+          parameters:
+           - [str1, $(Indicator Code)]
+           - [str2, $(Indictaro Code)]
+                
+          
+  Indicators:
+    sources:
+    - [environment_sgp-updated.csv~csv]
+    s: http://group10.org/hands-on/resource/$(Indicator Code)
+    po:
+      - [a, ns:Indicator]
+      - [ns:indicatorName, $(Indicator Name), xsd:string]
+      - [ns:indicatorCode, $(Indicator Code), xsd:string]
+      - p: ns:hasMeasure
+        o:
+          mapping: Measures
+          condition:
+          function: equal
+          parameters:
+           - [str1, $(Value)]
+           - [str2, $(Value)]
+           
+                
+  Measures:
+   sources:
+   - [environment_sgp-updated.csv~csv]
+   s: http://group10.org/hands-on/resource/$(Indicator Code)$(Year)
+   po:
+      - [a, ns:Measure]
+      - [ns:value, $(Value), xsd:double]
+      - [ns:date, $(Year), xsd:integer]
+      - p: ns:hasMeasure
+        o:
+          mapping: Measures
+           
+               

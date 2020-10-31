@@ -1,0 +1,14 @@
+SELECT DISTINCT ?calle 
+			WHERE { 
+				?distrito rdf:type <http://group56.org/zonas-verdes/Distrito> .
+				?distrito owl:sameAs <https://www.wikidata.org/wiki/Q2000929> .
+				?distrito <http://group56.org/zonas-verdes/tieneCalle> ?calle .
+			}
+		LIMIT 100
+
+
+SELECT COUNT(?distrito) 
+			WHERE { 
+				?distrito rdf:type <http://group56.org/zonas-verdes/Distrito> .
+				?distrito owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+			}

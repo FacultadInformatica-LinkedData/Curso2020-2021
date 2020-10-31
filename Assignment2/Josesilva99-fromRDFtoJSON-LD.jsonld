@@ -1,0 +1,54 @@
+{
+
+"@context": {
+		"base": "http://example.org/assigment2/",
+		"cls" : "http://example.org/assigment2/classes/",
+		"attrib": "http://example.org/assigment2/attributes/",
+		"includes": "attrib:includes",
+		"hasMeasurement": "attrib:hasMeasurement",
+		"hasTemperature": "attrib:hasTemperature",
+		"hasOwner": "attrib:hasOwner",
+		"hasName": "attrib:hasName",
+		"atTime":"Measurement8401:atTime",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"	
+	},
+	
+	
+	
+	
+	"@id": "http://example.org/assigment2/class01",
+	"@type": "cls:Class01",
+	"includes": [
+		{
+				"@id": "http://example.org/assigment2/class01/sensor029",
+				"@type": "cls:Sensor029",
+				"hasMeasurement": {
+						"@id": "http://example.org/assigment2/class01/sensor029/measurement8401",
+						"@type": "cls:Measurement8401",
+						"hasTemperature": {
+							"@value": 29,
+							"@type": "xsd:integer"
+						},
+						"atTime": {
+							"@value": "2010-06-12T12:00:12",
+							"@type": "xsd:dateTime"
+						}
+					
+				}
+			
+		},
+		{
+				"@id": "http://example.org/assigment2/class01/computer101",
+				"@type": "cls:Computer101",
+				"hasOwner": {			
+						"@id": "http://example.org/assigment2/class01/computer101/user10A",
+						"@type": "cls:User10A",
+						"hasName": {
+							"@value": "Pedro"
+						}
+					
+				}
+			
+		}
+	]	
+}

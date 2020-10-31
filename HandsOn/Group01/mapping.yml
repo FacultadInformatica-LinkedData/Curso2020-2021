@@ -1,0 +1,138 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://Group01.com/
+  
+mappings:
+  triplesmap1:
+    sources:
+      - [csv/residuos_domesticos_generacion-updated.csv~csv]
+    s: http://Group01.com/Residuos/$(residuos_domestic_año)
+    po:
+        - [a, vocab:Residuos_domesticos]
+        - [vocab:domestic_año,$(residuos_domestic_año)]
+        - [vocab:domestic_ambito,$(residuos_domestic_ambito)]
+        - [vocab:domestic_tipo,$(residuos_domestic_tipo)]
+        - [vocab:domestic_cantidad_ton,$(residuos_domestic_cantidad_ton)]
+        - p: vocab:año
+          o:
+            - mapping: triplesmap2
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_domestic_año)]
+                    - [str2,$(residuos_pelig_año)]
+             
+            - mapping: triplesmap3
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_domestic_año)]
+                    - [str2,$(planta_año)]
+            - mapping: triplesmap4
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_domestic_año)]
+                    - [str2,$(vidrio_año)]
+        - p: vocab:tipo_residuo
+          o:
+            - mapping: triplesmap3
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_domestic_tipo)]
+                    - [str2,$(planta_tipo_residuo_desc)]
+
+  triplesmap2:
+    sources:
+      - [csv/residuos_peligrosos_tratamiento-updated.csv~csv]
+    s: http://Group01.com/Peligrosos/$(residuos_pelig_año)
+    po:
+        - [a, vocab:Residuos_peligrosos]
+        - [vocab:peligroso_año,$(residuos_pelig_año)]
+        - [vocab:peligroso_gestion,$(residuos_pelig_opcion_gestion)]
+        - [vocab:peligroso_tratamiento,$(residuos_pelig_tratamiento)]
+        - [vocab:peligroso_cantidad_ton,$(residuos_pelig_cantidad_ton)]
+        - p: vocab:año
+          o:
+            - mapping: triplesmap3
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_pelig_año)]
+                    - [str2,$(planta_año)]
+
+  triplesmap3:
+    sources:
+      - [csv/residuos_plantas_clasificacion_envases-updated.csv~csv]
+    s: http://Group01.com/Plantas/$(planta_año)
+    po:
+        - [a, vocab:Residuos_plantas_envases]
+        - [vocab:planta_año,$(planta_año)]
+        - [vocab:planta_clasif,$(planta_clasificacion_envases)]
+        - [vocab:planta_tipo,$(planta_tipo_residuo_desc)]
+        - [vocab:planta_cantidad_tipo,$(planta_tipo_residuo_cantidad)]
+        - p: vocab:año
+          o:
+            - mapping: triplesmap4
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(planta_año)]
+                    - [str2,$(vidrio_año)]
+        - p: vocab:municipio
+          o:
+            - mapping: triplesmap4
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(planta_clasificacion_envases)]
+                    - [str2,$(vidrio_municipio_nombre)]
+            - mapping: triplesmap5
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(planta_clasificacion_envases)]
+                    - [str2,$(res_tra_direccion_muni_desc)]
+  triplesmap4:
+    sources:
+      - [csv/residuos_recuperacion_vidrio-updated.csv~csv]
+    s: http://Group01.com/Vidrio/$(vidrio_municipio_codigo)
+    po:
+        - [a, vocab:Residuos_vidrio_recuperacion]
+        - [vocab:vidrio_municipio_codigo,$(vidrio_municipio_codigo)]
+        - [vocab:vidrio_municipio_nombre,$(vidrio_municipio_nombre)]
+        - [vocab:vidrio_año,$(vidrio_año)]
+        - [vocab:vidrio_desc,$(vidrio_indicador_descripcion)]
+        - [vocab:vidrio_unidades,$(vidrio_indicador_unidades)]
+        - [vocab:vidrio_valor,$(vidrio_indicador_valor)]
+        - p: vocab:municipio
+          o:
+            - mapping: triplesmap5
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(vidrio_municipio_nombre)]
+                    - [str2,$(res_tra_direccion_muni_desc)]
+  triplesmap5:
+    sources:
+      - [csv/residuos_transportistas-updated.csv~csv]
+    s: http://Group01.com/Transportistas/$(res_tra_registro_tipo)
+    po:
+        - [a, vocab:Residuos_transportistas]
+        - [vocab:res_reg_tipo,$(res_tra_registro_tipo)]
+        - [vocab:res_nif,$(res_tra_nif)]
+        - [vocab:res_dir_vial,$(res_tra_direccion_tipo_vial)]
+        - [vocab:res_dir_nombre,$(res_tra_direccion_via_nombre)]
+        - [vocab:res_dir_num,$(res_tra_direccion_via_num)]
+        - [vocab:res_muni_dir_desc,$(res_tra_direccion_muni_desc)]
+        - [vocab:res_desc,$(res_tra_residuo_ler_desc)]

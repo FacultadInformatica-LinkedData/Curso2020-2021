@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Analysis Dataset Group09. Traffic accidents in the city of Madrid.</title>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding:8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+
+<body>
+
+<h3>Data Analysis:</h3>
+
+<table>
+
+  <tr>
+    <th>Expedient Number</th>
+    <th>String</th>
+    <th>It is a string data type composed by letters and numbers to identify the exact accident.</th>
+  </tr>
+
+  <tr>
+    <th>Date</th>
+    <th>DateTime</th>
+    <th>It provides information about the date and hour when the accident was produced with format dd/mm/yyyyThh:mmssZ.</th>
+  </tr>
+
+  <tr>
+    <th>HourInterval</th>
+    <th>String</th>
+    <th>It provides information about the hour of the accident in hour intervals.</th>
+  </tr>
+
+  <tr>
+    <th>Address1</th>
+    <th>String</th>
+    <th>It contains the street where the accident was produced.</th>
+  </tr>
+
+  <tr>
+    <th>Address2</th>
+    <th>String</th>
+    <th>It contains the second street where the accident was produced in case it was in a crossing. Blank if it did not happen in a crossing.</th>
+  </tr>
+
+  <tr>
+    <th>Number</th>
+    <th>String</th>
+    <th>It can be a number, a number plus a letter or an empty value. It is the number of the street where the accident was produced.</th>
+  </tr>
+
+  <tr>
+    <th>District</th>
+    <th>String</th>
+    <th>It provides additional information so as to locate faster the accident.</th>
+  </tr>
+
+  <tr>
+    <th>Type of accident</th>
+    <th>String</th>
+    <th>It indicates the type of accident and some caracteristics.</th>
+  </tr>
+
+  <tr>
+    <th>Weather</th>
+    <th>String</th>
+    <th>It provides information about which was the weather when the accident occured.</th>
+  </tr>
+
+  <tr>
+    <th>Type of vehicle</th>
+    <th>String</th>
+    <th>It indicates the generic type of vehicle of the person who was affected by the accident.</th>
+  </tr>
+
+  <tr>
+    <th>Type of person</th>
+    <th>String</th>
+    <th>It indicates the type of person who was affected by the accident.</th>
+  </tr>
+
+  <tr>
+    <th>Age range</th>
+    <th>String</th>
+    <th>It is the age of the person involved in the accident. It is not an exact numer. It is a range of some ages. If blank, it is unknown</th>
+  </tr>
+
+  <tr>
+    <th>Sex</th>
+    <th>String</th>
+    <th>It provides information about the sex of the affected by the accident: male, female or blank (unknown).</th>
+  </tr>
+
+  <tr>
+    <th>Injury</th>
+    <th>String</th>
+    <th>It describes the grade of the injury that the person has after the accident. Empty values are equivalent to unknown information.</th>
+  </tr>
+
+  </table>
+
+<h3>License:</h3>
+
+  <p>The dataset we have chosen has a license that allows the reuse of documents for commercial and non-commercial purposes. More information about it is located in <a href="https://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Condiciones de uso</a>.
+  This license has been publish in the open data web of Madrid's town hall, which is the owner of this license.</p>
+
+  <p>Our generated dataset is licensed under the <a href="http://purl.org/NET/rdflicense/cc-by-nc-sa4.0">license CC BY-NC-SA 4.0 International</a>. And its general conditions for its reuse are:</p>
+  <p>- Forbidden to alter the meaning of the information.</p>
+  <p>- The source of the documents to be reused must be cited.</p>
+  <p>- The date of the last update of the documents to be reused must be mentioned.</p>
+  <p>- It will not be possible to  suggest that the Madrid City Council participates, sponsors or supports the reuse of the information.</p>
+  <p>- The metadata must be kept, not altered or deleted.</p>
+  <p>- In the case of anonymized information, it is expressly forbidden to carry out tasks of re-identification of people from these data.</p>
+
+  <h3>Resource Name Strategy:</h3>
+  <h4>Domain&nbsp;</h4>
+  <p><a href="http://linkeddata.es/">http://linkeddata.es/</a></p>
+  <h4>Path</h4>
+  <p>group09/</p>
+  <h4>Hash URIs for ontological terms. Slash URIs for individuals:</h4>
+  <ul>
+  <li>Ontological terms path -&gt; <a href="http://linkeddata.es/group09/ontology/TrafficAccident#">http://linkeddata.es/group09/ontology/TrafficAccident#</a></li>
+  <li>Ontological terms example -&gt; <a href="http://linkeddata.es/group09/ontology/TrafficAccident#District">http://linkeddata.es/group09/ontology/TrafficAccident#District</a></li>
+  <li>Individuals path -&gt; <a href="http://linkeddata.es/group09/resource/">http://linkeddata.es/group09/resource/</a></li>
+  <li>Individuals path example -&gt; <a href="http://linkeddata.es/group09/resource/district/distrito">http://linkeddata.es/group09/resource/district/distrito</a></li>
+  </ul>
+
+
+  <h3>Benefits of linking with other datasets:</h3>
+
+  <p>It offers a great utility for creating and delivering library data due to this data being sharable, extensible, and easily re-usable. In our case, reconciling the column “District” of our dataset with Wikidata, we can obtain, through SPARQL federated queries to WikiData's endpoint, the instances and properties that are not in our dataset and can be useful for our data (zip codes, coordinates, images of each district...). An example of the output of an executed query:</p>
+
+  <body><table><thead><tr><th>label</th><th>postal_code</th><th>population</th><th>coordinates</th><th>image</th><th>head_of_goverment</th></tr></thead><tbody><tr><td>Carabanchel</td><td>28032</td><td>243998</td><td>Point(-3.727988888 40.383669444)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/%28Carabanchel%29%20Palacio%20Real%20de%20Madrid%20Julio%202016%20%28cropped%29.jpg</td><td>Esther Gómez Morante</td></tr><tr><td>Fuencarral-El Pardo</td><td></td><td>238756</td><td>Point(-3.709722222 40.478611111)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/M-30%20%28Madrid%2C%20Spain%29%2004.jpg</td><td>Guillermo Zapata Romero</td></tr><tr><td>Latina</td><td></td><td>233808</td><td>Point(-3.741294444 40.402461111)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/%28Latina%29%20Portugal%20e%20Espanha%20DSC04968%20%2826030211756%29%20%28cropped%29.jpg</td><td>Carlos Sánchez Mato</td></tr><tr><td>Puente de Vallecas</td><td></td><td>227595</td><td>Point(-3.669059 40.398204)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20de%20Madrid%20desde%20el%20sureste%2001.jpg</td><td>Paco Pérez</td></tr><tr><td>Ciudad Lineal</td><td></td><td>212529</td><td>Point(-3.65 40.45)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20de%20Madrid%20-%20Ciudad%20Lineal%2001.jpg</td><td>Yolanda Rodríguez Martínez</td></tr><tr><td>Hortaleza</td><td></td><td>180462</td><td>Point(-3.640482 40.469457)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Madrid%2C%20Canillas%203.JPG</td><td>Yolanda Rodríguez Martínez</td></tr><tr><td>Tetuán</td><td></td><td>153789</td><td>Point(-3.7 40.460556)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/De%20Madrid%20al%20cielo%2072.jpg</td><td>Blanca Pinedo</td></tr><tr><td>Arganzuela</td><td></td><td>151965</td><td>Point(-3.695403 40.402733)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/%28Vista%20parcial%20de%20Arganzuela%20y%20del%20Calcer%C3%B3n%29%20Aprobado%20el%20nuevo%20%C3%A1mbito%20Mahou-Calder%C3%B3n%20%2801%29%20%28cropped%29.jpg</td><td>Rommy Arce</td></tr><tr><td>Villaverde</td><td></td><td>149003</td><td>Point(-3.709355555 40.345925)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Calle%20Bohemios2.jpg</td><td>Guillermo Zapata Romero</td></tr><tr><td>Salamanca</td><td>28001, 28006, 28028</td><td>143800</td><td>Point(-3.677778 40.43)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%2040888267763%20%28cropped%29.jpg</td><td>Pablo Carmona</td></tr><tr><td>Chamartín</td><td>28032</td><td>143424</td><td>Point(-3.6775 40.453333333)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20de%20Madrid%20-%20Chamart%C3%ADn%2002.jpg</td><td>Mauricio Valiente</td></tr><tr><td>Chamberí</td><td></td><td>137401</td><td>Point(-3.697186111 40.432791666)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Nuevos%20Ministerios%20%28Madrid%29%2001.jpg</td><td>Esther Gómez Morante</td></tr><tr><td>Centro</td><td></td><td>131928</td><td>Point(-3.707371 40.415347)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20MG%200514%20%2839365149022%29.jpg</td><td>Jorge García Castaño</td></tr><tr><td>Retiro</td><td>28032</td><td>118516</td><td>Point(-3.676729 40.408072)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Museo%20del%20Prado%202016%20%2825185969599%29.jpg</td><td>Nacho Murgui</td></tr><tr><td>Moncloa-Aravaca</td><td></td><td>116903</td><td>Point(-3.718765 40.435151)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Plaza%20de%20Moncloa%20-%2020050220.jpg</td><td>Montserrat Galcerán Huguet</td></tr><tr><td>Villa de Vallecas</td><td></td><td>107649</td><td>Point(-3.62135 40.3796)</td><td></td><td>Paco Pérez</td></tr><tr><td>Moratalaz</td><td>28030</td><td>94197</td><td>Point(-3.644436111 40.409869444)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Puente%20de%20Vallecas%20-%20Aerial%20photograph%20%28color%2C%20contrast%2C%20tone%29%20%28cropped%29%20Moratalaz.jpg</td><td>Pablo Carmona</td></tr><tr><td>Vicálvaro</td><td>28032</td><td>74567</td><td>Point(-3.60806 40.4042)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro%2C%20Madrid%2C%20Spain%20-%20panoramio.jpg</td><td>Martín Casariego</td></tr><tr><td>Vicálvaro</td><td>28032</td><td>74567</td><td>Point(-3.60806 40.4042)</td><td>http://commons.wikimedia.org/wiki/Special:FilePath/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro%2C%20Madrid%2C%20Spain%20-%20panoramio.jpg</td><td>Carlos Sánchez Mato</td></tr></tbody></table></body></html>
+
+</body>
+</html>
