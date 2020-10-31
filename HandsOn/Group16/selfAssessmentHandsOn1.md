@@ -35,3 +35,5 @@
 * Included _magnitudes_ csv file.
 ### v5
 * Included District and Street unique IDs in _stations_ csv file.
+### v6
+* Included summary column into _magnitudes_ csv file.
