@@ -1,7 +1,3 @@
 Esta aplicación permite llevar un control de la calidad del aire de Madrid por zonas. Esto permite conocer que zonas de Madrid estan mas contaminadas y en que epocas del año hay una disminución de la cliadad del aire. Así pues, se puede conocer por que zonas de Madrid hay mas movimiento de vehículos (esto se vería con el aumento de gases nocivos procedentes de vehículos). Por otro lado, también permite reconocer todo lo contrario, que zonas de Madrid tienen el aire mas puro, lo que da a entender por ejemplo que es una zona con muchos parques o con menor movimiento de vehículos y demás causantes de la contaminación como fábricas...
 
 En que puede ayudar nuestra aplicación? Puede permitir seleccionar un lugar en Madrid con buena calidad de aire para vivir en ella, puese servir si una persona quiere abrir un negocio (restaurante por ejemplo) y quiere seleccionar una zona de Madrid con poca contaminación y con un aire agradable. Y también para todo lo contrario, conociendo las zonas por las que hay mayor contaminación a causa de vehículos es un buen lugar para abrir una gasolinera, o un taller de vehículos por ejemplo. 
-
-
-
-El objetivo de la aplicacion es poder comparar en el tiempo la evolucion de la calidad del aire en Madrid y estudiar que impactos ha tenido en este, eventos como la pandemia de COVID-19.
