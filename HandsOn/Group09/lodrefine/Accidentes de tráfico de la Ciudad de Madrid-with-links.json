@@ -1792,6 +1792,19 @@
     "description": "Text transform on cells in column URI-PERSONA using expression grel:replace(value,\"%\",\"-\")"
   },
   {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI-PERSONA",
+    "expression": "jython:import random\nif(value!=None):\n  return value+\"-\"+str(random.randint(0,9999))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column URI-PERSONA using expression jython:import random\nif(value!=None):\n  return value+\"-\"+str(random.randint(0,9999))"
+  },
+  {
     "op": "core/column-removal",
     "columnName": "CRUCE LABEL",
     "description": "Remove column CRUCE LABEL"
