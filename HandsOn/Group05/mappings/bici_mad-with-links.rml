@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix : <http://semantic.web.es/group05/ontology/BiciMAD/>.
+@prefix : <http://semantic.web.es/group05/ontology/bicimad/>.
 @base <http://example.com/ns#>.
 
 <#TriplesMap1>
@@ -14,7 +14,7 @@
     rml:referenceFormulation ql:CSV 
   ];
    rr:subjectMap [
-    rr:template "http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta#{Numero de Puesto}";
+    rml:reference "Estacion URI Final";
     rr:termType rr:IRI;
     rr:class :EstacionBicicleta
   ];
@@ -22,14 +22,26 @@
   rr:predicateObjectMap [
         rr:predicateMap[rr:constant :numeroEstacion; rr:termType rr:IRI ];
         rr:objectMap [
-          rml:reference "Numero de Puesto"; rr:termtype rr:Literal
+          rml:reference "Numero de Puesto"; rr:datatype <http://www.w3.org/2001/XMLSchema#string>
         ]
   ];
   
   rr:predicateObjectMap [
         rr:predicateMap[rr:constant :puestos; rr:termType rr:IRI ];
         rr:objectMap [
-          rml:reference "Numero de Plazas"; rr:dataType <http://www.w3.org/2001/XMLSchema#integer>
+          rml:reference "Numero de Plazas"; rr:datatype <http://www.w3.org/2001/XMLSchema#integer>
+        ]
+    ];
+	rr:predicateObjectMap [
+        rr:predicateMap[rr:constant :longitud; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "Longitud"; rr:datatype <http://www.w3.org/2001/XMLSchema#float>
+        ]
+    ];
+  rr:predicateObjectMap [
+        rr:predicateMap[rr:constant :latitud; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "Latitud"; rr:datatype <http://www.w3.org/2001/XMLSchema#float>
         ]
     ];
     
@@ -44,6 +56,16 @@
   ];
   
   rr:predicateObjectMap [
+     rr:predicateMap[rr:constant :tieneDireccion; rr:termType rr:IRI ];
+     rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap5>;
+      rr:joinCondition [
+          rr:child "Direccion"; rr:parent "Direccion";
+      ];
+    ];
+  ];
+  
+  rr:predicateObjectMap [
      rr:predicateMap[rr:constant :tieneCalle; rr:termType rr:IRI ];
      rr:objectMap [
       rr:parentTriplesMap <#TriplesMap3>;
@@ -52,21 +74,11 @@
       ];
     ];
   ];
-  
-  rr:predicateObjectMap [
-     rr:predicateMap[rr:constant :tieneCoordenadas; rr:termType rr:IRI ];
-     rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap4>;
-      rr:joinCondition [
-          rr:child "Latitud"; rr:parent "Latitud";
-      ];
-    ];
-  ];
-  
+   
   rr:predicateObjectMap [
      rr:predicateMap[rr:constant :tieneDistrito; rr:termType rr:IRI ];
      rr:objectMap [
-      rr:parentTriplesMap <#TriplesMap5>;
+      rr:parentTriplesMap <#TriplesMap4>;
       rr:joinCondition [
           rr:child "Distrito"; rr:parent "Distrito";
       ];
@@ -79,14 +91,14 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://semantic.web.es/group05/ontology/BiciMAD/Barrio#{Barrio}";
+    rml:reference "Barrios URI Final";
     rr:termType rr:IRI;
     rr:class :Barrio
   ];
   rr:predicateObjectMap [   
         rr:predicateMap[rr:constant :nombreBarrio; rr:termType rr:IRI ];
         rr:objectMap [
-          rml:reference "Barrio"; rr:termtype rr:Literal
+          rml:reference "Barrio"; rr:datatype <http://www.w3.org/2001/XMLSchema#string>
         ]
     ];
   rr:predicateObjectMap [
@@ -103,20 +115,14 @@
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "http://semantic.web.es/group05/ontology/BiciMAD/Calle#{Calle}";
+    rml:reference "Calles URI Final";
     rr:termType rr:IRI;
     rr:class :Calle
   ];
   rr:predicateObjectMap [
         rr:predicateMap[rr:constant :nombreCalle; rr:termType rr:IRI ];
         rr:objectMap [
-          rml:reference "Calle"; rr:termtype rr:Literal
-        ]
-    ];
-  rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :numeroCalle; rr:termType rr:IRI ];
-        rr:objectMap [
-          rml:reference "Numero"; rr:termtype rr:Literal
+          rml:reference "Calle"; rr:datatype <http://www.w3.org/2001/XMLSchema#string>
         ]
     ];
   rr:predicateObjectMap [
@@ -126,37 +132,13 @@
         rr:termType rr:IRI ]
     ].  
     
-  
 <#TriplesMap4>
   rml:logicalSource [
     rml:source "Bases_BiciMad-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
-  ];
+  ];	
   rr:subjectMap [
-    rr:template "http://semantic.web.es/group05/ontology/BiciMAD/Coordenadas#{Latitud}";
-    rr:termType rr:IRI;
-    rr:class :Coordenadas
-  ];
-  rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :longitud; rr:termType rr:IRI ];
-        rr:objectMap [
-          rml:reference "Longitud"; rr:termtype rr:Literal
-        ]
-    ];
-  rr:predicateObjectMap [
-        rr:predicateMap[rr:constant :latitud; rr:termType rr:IRI ];
-        rr:objectMap [
-          rml:reference "Latitud"; rr:termtype rr:Literal
-        ]
-    ].
-  
-<#TriplesMap5>
-  rml:logicalSource [
-    rml:source "Bases_BiciMad-with-links.csv" ;
-    rml:referenceFormulation ql:CSV 
-  ];
-  rr:subjectMap [
-    rr:template "http://semantic.web.es/group05/ontology/BiciMAD/Distrito#{Distrito}";
+    rml:reference "Distritos URI Final";
     rr:termType rr:IRI;
     rr:class :Distrito  
   ];  
@@ -164,7 +146,7 @@
   rr:predicateObjectMap [
         rr:predicateMap[rr:constant :nombreDistrito; rr:termType rr:IRI ];
         rr:objectMap [
-          rml:reference "Distrito"; rr:termtype rr:Literal
+          rml:reference "Distrito"; rr:datatype <http://www.w3.org/2001/XMLSchema#string>
         ]
     ];
   rr:predicateObjectMap [
@@ -172,4 +154,29 @@
     rr:objectMap [
         rml:reference "wikidata:districtMadrid";
         rr:termType rr:IRI ]
-    ].  
+    ].
+	
+<#TriplesMap5>
+  rml:logicalSource [
+    rml:source "Bases_BiciMad-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];	
+  rr:subjectMap [
+    rml:reference "Direccion URI Final";
+    rr:termType rr:IRI;
+    rr:class :Direccion
+	];
+ rr:predicateObjectMap [
+        rr:predicateMap[rr:constant :nombreCalle; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "Calle"; rr:datatype <http://www.w3.org/2001/XMLSchema#string>
+        ]
+    ];
+ rr:predicateObjectMap [
+        rr:predicateMap[rr:constant :numeroCalle; rr:termType rr:IRI ];
+        rr:objectMap [
+          rml:reference "Numero"; rr:datatype <http://www.w3.org/2001/XMLSchema#string>
+        ]
+    ].
+	
+    

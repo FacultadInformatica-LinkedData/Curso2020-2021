@@ -6,11 +6,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://semantic.web.es/group05/ontology/BiciMAD/> .
 
-<http://semantic.web.es/group05/ontology/BiciMAD/> rdf:type owl:Ontology .
+<http://semantic.web.es/group05/ontology/BiciMAD/> rdf:type owl:Ontology ;
+                                                    owl:imports <http://dbpedia.org/ontology/District> ,
+                                                                <http://dbpedia.org/ontology/Street> ,
+                                                                <http://ontology.eil.utoronto.ca/icontact.owl> .
 
 #################################################################
 #    Object Properties
 #################################################################
+
+###  http://ontology.eil.utoronto.ca/icontact.owl#hasAddress
+<http://ontology.eil.utoronto.ca/icontact.owl#hasAddress> rdfs:domain :EstacionBicicleta ;
+                                                          rdfs:range :Direccion .
+
+
+###  http://ontology.eil.utoronto.ca/icontact.owl#hasStreetDirection
+<http://ontology.eil.utoronto.ca/icontact.owl#hasStreetDirection> rdfs:domain :EstacionBicicleta ;
+                                                                  rdfs:range <http://dbpedia.org/ontology/Street> .
+
 
 ###  http://semantic.web.es/group05/ontology/BiciMAD/tieneBarrio
 :tieneBarrio rdf:type owl:ObjectProperty ;
@@ -18,22 +31,10 @@
              rdfs:range :Barrio .
 
 
-###  http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle
-:tieneCalle rdf:type owl:ObjectProperty ;
-            rdfs:domain :EstacionBicicleta ;
-            rdfs:range :Calle .
-
-
-###  http://semantic.web.es/group05/ontology/BiciMAD/tieneDireccion
-:tieneDireccion rdf:type owl:ObjectProperty ;
-                rdfs:domain :EstacionBicicleta ;
-                rdfs:range :Direccion .
-
-
 ###  http://semantic.web.es/group05/ontology/BiciMAD/tieneDistrito
 :tieneDistrito rdf:type owl:ObjectProperty ;
                rdfs:domain :EstacionBicicleta ;
-               rdfs:range :Distrito .
+               rdfs:range <http://dbpedia.org/ontology/District> .
 
 
 #################################################################
@@ -60,14 +61,13 @@
 
 ###  http://semantic.web.es/group05/ontology/BiciMAD/nombreCalle
 :nombreCalle rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Calle ,
-                         :Direccion ;
+             rdfs:domain <http://dbpedia.org/ontology/Street> ;
              rdfs:range xsd:string .
 
 
 ###  http://semantic.web.es/group05/ontology/BiciMAD/nombreDistrito
 :nombreDistrito rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Distrito ;
+                rdfs:domain <http://dbpedia.org/ontology/District> ;
                 rdfs:range xsd:string .
 
 
@@ -97,16 +97,8 @@
 :Barrio rdf:type owl:Class .
 
 
-###  http://semantic.web.es/group05/ontology/BiciMAD/Calle
-:Calle rdf:type owl:Class .
-
-
 ###  http://semantic.web.es/group05/ontology/BiciMAD/Direccion
 :Direccion rdf:type owl:Class .
-
-
-###  http://semantic.web.es/group05/ontology/BiciMAD/Distrito
-:Distrito rdf:type owl:Class .
 
 
 ###  http://semantic.web.es/group05/ontology/BiciMAD/EstacionBicicleta

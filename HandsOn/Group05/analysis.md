@@ -30,14 +30,13 @@ A su vez, los datos también están sujetos a la Ley 37/2007 que habla sobre la 
 ### Which will be the license to be used for the generated dataset?
 La licencia de los datos que se generarán a partir de este dataset será del mismo carácter que la presente en los datos originales (CC-BY 4.0) con la modificación de que la autoría de los integrantes del grupo no será necesaria incluirla si se lleva a cabo su reutilización.
 ## Resource Naming Strategy
-Términos: Latitud, Longitud, Número de plazas, Calle, Barrio, Distrito, Fecha de alta.
-URI form: http://semantic.web.es/group05/ontology/BiciMAD/
-Content negotiation: JSON
-### Examples of resource URI's
-Puesto en concreto: http://semantic.web.es/group05/ontology/BiciMAD/estacion/2
-Calle: http://semantic.web.es/group05/ontology/BiciMAD/estacion/2/calle
-Numero de Plazas: http://semantic.web.es/group05/ontology/BiciMAD/estacion/2/puestos
+Dominio: http://semantic.web.es/
+Path: group05/
+Path términos ontológicos: http://semantic.web.es/group05/ontology/BiciMAD/
+Ejemplos: http://semantic.web.es/group05/ontology/BiciMAD/tieneCalle/
+Path individuales: http://semantic.web.es/group05/resource/bicimad/
+Ejemplo: http://semantic.web.es/group05/resource/bicimad/estacionbicicleta#001
 ### Structure of the Ontology
-Clases: Estación, Calle, Barrio, Distrito, Coordenadas.
-Properties: numeroCalle, numeroEstacion, puestos, tieneDistrito, tieneBarrio, tieneCiudad, tieneCoordenadas, latitud, longitud.
-Datatypes: xsd:Integer, xsd:String.
+Clases: Estación, Calle, Barrio, Distrito, Direccion.
+Properties: numeroCalle, numeroEstacion, puestos, tieneDistrito, tieneBarrio, tieneCiudad, tieneDireccion, latitud, longitud, nombreCalle, nombreDistrito, nombreBarrio.
+Datatypes: xsd:Integer, xsd:String, xsd:float.
