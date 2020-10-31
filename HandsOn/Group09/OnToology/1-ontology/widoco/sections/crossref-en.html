@@ -4,23 +4,21 @@ This section provides details for each class and property defined by [Ontology N
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
-         <a href="#Accident"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+         <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
       </li>
       <li>
          <a href="#StreetCrossing"
             title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
       </li>
       <li>
-         <a href="#District"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
+         <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
       </li>
       <li>
          <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
       </li>
       <li>
-         <a href="#Sex"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
+         <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+            title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
       </li>
       <li>
          <a href="#TypeOfAccident"
@@ -35,13 +33,13 @@ This section provides details for each class and property defined by [Ontology N
             title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
       </li>
    </ul>
-   <div class="entity" id="Accident">
+   <div class="entity" id="https://transportdisruption.github.io/#Accident">
       <h3>Accidente<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#Accident</p>
+         <strong>IRI:</strong> https://transportdisruption.github.io/#Accident</p>
       <div class="comment">
          <span class="markdown">Accident that takes place in Madrid</span>
       </div>
@@ -52,14 +50,15 @@ This section provides details for each class and property defined by [Ontology N
                title="http://linkeddata.es/group09/ontology/TrafficAccident#occursTo">ocurreA</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#occursOn"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#occursOn">ocurreEn</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#occursAtPeriod"
+            <sup class="type-op" title="object property">op</sup>, <a href="#happensMonth"
+               title="http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth">ocurreEnMes</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#occursAtPeriod"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod">ocurreEnPeriodo</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#weather"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#weather">tiempo</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#hasExpedient"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient">tieneExpediente</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasDate"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#hasDate">tieneFecha</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://ns.nature.com/terms/date" title="http://ns.nature.com/terms/date">tieneFecha</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#typeOfAccident"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident">tipoDeAccidente</a>
             <sup class="type-op" title="object property">op</sup>
@@ -67,10 +66,6 @@ This section provides details for each class and property defined by [Ontology N
          <dt>is disjoint with</dt>
          <dd>
             <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#District"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Sex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
             <sup class="type-c" title="class">c</sup>, <a href="#StreetCrossing"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfAccident"
@@ -79,6 +74,9 @@ This section provides details for each class and property defined by [Ontology N
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">Tipo de Persona</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -96,8 +94,7 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#locatedIn"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn">localizadoEn</a>
+            <a href="#http://www.wikidata.org/prop/direct/P131" title="http://www.wikidata.org/prop/direct/P131">localizadoEn</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasStreet1"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1">tieneCalle1</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#hasStreet2"
@@ -115,52 +112,44 @@ This section provides details for each class and property defined by [Ontology N
          <dt>is disjoint with</dt>
          <dd>
             <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Accident"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#District"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Sex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfAccident"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident">Tipo de Accidente</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfPerson"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">Tipo de Persona</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
-   <div class="entity" id="District">
+   <div class="entity" id="http://rdfs.co/juso/District">
       <h3>Distrito<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#District</p>
+         <strong>IRI:</strong> http://rdfs.co/juso/District</p>
       <div class="comment">
          <span class="markdown">District in which an accident occurs</span>
       </div>
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#districtName"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#districtName">nombreDistrito</a>
+            <a href="#http://xmlns.com/foaf/spec/#name" title="http://xmlns.com/foaf/spec/#name">nombreDistrito</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#locatedIn"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn">localizadoEn</a>
+            <a href="#http://www.wikidata.org/prop/direct/P131" title="http://www.wikidata.org/prop/direct/P131">localizadoEn</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
             <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Accident"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Sex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
             <sup class="type-c" title="class">c</sup>, <a href="#StreetCrossing"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfAccident"
@@ -169,6 +158,9 @@ This section provides details for each class and property defined by [Ontology N
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">Tipo de Persona</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -186,12 +178,11 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#injuryStatus"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus">estadoLesividad</a>
+            <a href="#http://vocab.datex.org/terms/#injuryStatus" title="http://vocab.datex.org/terms/#injuryStatus">estadoLesividad</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#hasAgeRange"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange">tieneRangoEdad</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasSex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#hasSex">tieneSexo</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#hasSex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#hasSex">tieneSexo</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasTypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle">tieneTipoDeVehiculo</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#typeOfPerson"
@@ -206,13 +197,7 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#Accident"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#District"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Sex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#StreetCrossing"
+            <a href="#StreetCrossing"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfAccident"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident">Tipo de Accidente</a>
@@ -220,34 +205,34 @@ This section provides details for each class and property defined by [Ontology N
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">Tipo de Persona</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
-   <div class="entity" id="Sex">
+   <div class="entity" id="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">
       <h3>Sexo<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#Sex</p>
+         <strong>IRI:</strong> http://rdf.muninn-project.org/ontologies/appearances.html#Sex</p>
       <div class="comment">
          <span class="markdown">Sex of a person who has suffered an accident</span>
       </div>
       <dl class="description">
          <dt>is in range of</dt>
          <dd>
-            <a href="#hasSex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#hasSex">tieneSexo</a>
+            <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#hasSex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#hasSex">tieneSexo</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
             <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Accident"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#District"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
             <sup class="type-c" title="class">c</sup>, <a href="#StreetCrossing"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfAccident"
@@ -256,6 +241,8 @@ This section provides details for each class and property defined by [Ontology N
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">Tipo de Persona</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -280,18 +267,16 @@ This section provides details for each class and property defined by [Ontology N
          <dt>is disjoint with</dt>
          <dd>
             <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Accident"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#District"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Sex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
             <sup class="type-c" title="class">c</sup>, <a href="#StreetCrossing"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfPerson"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">Tipo de Persona</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -316,18 +301,16 @@ This section provides details for each class and property defined by [Ontology N
          <dt>is disjoint with</dt>
          <dd>
             <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Accident"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#District"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Sex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
             <sup class="type-c" title="class">c</sup>, <a href="#StreetCrossing"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfAccident"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident">Tipo de Accidente</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfVehicle"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">Tipo de Vehículo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -352,18 +335,16 @@ This section provides details for each class and property defined by [Ontology N
          <dt>is disjoint with</dt>
          <dd>
             <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">Persona</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Accident"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#District"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Sex"
-               title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
             <sup class="type-c" title="class">c</sup>, <a href="#StreetCrossing"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">Cruce</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfAccident"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident">Tipo de Accidente</a>
             <sup class="type-c" title="class">c</sup>, <a href="#TypeOfPerson"
                title="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">Tipo de Persona</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+               title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -372,8 +353,7 @@ This section provides details for each class and property defined by [Ontology N
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#locatedIn"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn">localizadoEn</a>
+         <a href="#http://www.wikidata.org/prop/direct/P131" title="http://www.wikidata.org/prop/direct/P131">localizadoEn</a>
       </li>
       <li>
          <a href="#occursTo"
@@ -384,8 +364,8 @@ This section provides details for each class and property defined by [Ontology N
             title="http://linkeddata.es/group09/ontology/TrafficAccident#occursOn">ocurreEn</a>
       </li>
       <li>
-         <a href="#hasSex"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#hasSex">tieneSexo</a>
+         <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#hasSex"
+            title="http://rdf.muninn-project.org/ontologies/appearances.html#hasSex">tieneSexo</a>
       </li>
       <li>
          <a href="#hasTypeOfVehicle"
@@ -400,13 +380,13 @@ This section provides details for each class and property defined by [Ontology N
             title="http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson">tipoDePersona</a>
       </li>
    </ul>
-   <div class="entity" id="locatedIn">
+   <div class="entity" id="http://www.wikidata.org/prop/direct/P131">
       <h3>localizadoEn<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn</p>
+         <strong>IRI:</strong> http://www.wikidata.org/prop/direct/P131</p>
       <div class="comment">
          <span class="markdown">A Street Crossing is located in a District</span>
       </div>
@@ -420,8 +400,7 @@ This section provides details for each class and property defined by [Ontology N
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#District"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
+               <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -441,8 +420,7 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Accident"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -467,8 +445,7 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Accident"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -480,13 +457,13 @@ This section provides details for each class and property defined by [Ontology N
          </dl>
       </div>
    </div>
-   <div class="entity" id="hasSex">
+   <div class="entity" id="http://rdf.muninn-project.org/ontologies/appearances.html#hasSex">
       <h3>tieneSexo<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#hasSex</p>
+         <strong>IRI:</strong> http://rdf.muninn-project.org/ontologies/appearances.html#hasSex</p>
       <div class="comment">
          <span class="markdown">A Person has a Sex</span>
       </div>
@@ -499,8 +476,8 @@ This section provides details for each class and property defined by [Ontology N
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#Sex"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Sex">Sexo</a>
+               <a href="#http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+                  title="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">Sexo</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -546,8 +523,7 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Accident"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -589,12 +565,14 @@ This section provides details for each class and property defined by [Ontology N
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#injuryStatus"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus">estadoLesividad</a>
+         <a href="#http://vocab.datex.org/terms/#injuryStatus" title="http://vocab.datex.org/terms/#injuryStatus">estadoLesividad</a>
       </li>
       <li>
-         <a href="#districtName"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#districtName">nombreDistrito</a>
+         <a href="#http://xmlns.com/foaf/spec/#name" title="http://xmlns.com/foaf/spec/#name">nombreDistrito</a>
+      </li>
+      <li>
+         <a href="#happensMonth"
+            title="http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth">ocurreEnMes</a>
       </li>
       <li>
          <a href="#occursAtPeriod"
@@ -617,8 +595,7 @@ This section provides details for each class and property defined by [Ontology N
             title="http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient">tieneExpediente</a>
       </li>
       <li>
-         <a href="#hasDate"
-            title="http://linkeddata.es/group09/ontology/TrafficAccident#hasDate">tieneFecha</a>
+         <a href="#http://ns.nature.com/terms/date" title="http://ns.nature.com/terms/date">tieneFecha</a>
       </li>
       <li>
          <a href="#hasNumber"
@@ -629,15 +606,15 @@ This section provides details for each class and property defined by [Ontology N
             title="http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange">tieneRangoEdad</a>
       </li>
    </ul>
-   <div class="entity" id="injuryStatus">
+   <div class="entity" id="http://vocab.datex.org/terms/#injuryStatus">
       <h3>estadoLesividad<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus</p>
+         <strong>IRI:</strong> http://vocab.datex.org/terms/#injuryStatus</p>
       <div class="comment">
-         <span class="markdown">Level of damage suffered by the person in the accident. Being 0 if the person did not suffer any damage</span>
+         <span class="markdown">Level of damage suffered by the person in the accident.</span>
       </div>
       <div class="description">
          <dl>
@@ -653,13 +630,13 @@ This section provides details for each class and property defined by [Ontology N
          </dl>
       </div>
    </div>
-   <div class="entity" id="districtName">
+   <div class="entity" id="http://xmlns.com/foaf/spec/#name">
       <h3>nombreDistrito<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#districtName</p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/spec/#name</p>
       <div class="comment">
          <span class="markdown">Name of the district where the accident occurred</span>
       </div>
@@ -667,8 +644,31 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#District"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#District">Distrito</a>
+               <a href="#http://rdfs.co/juso/District" title="http://rdfs.co/juso/District">Distrito</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="happensMonth">
+      <h3>ocurreEnMes<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth</p>
+      <div class="comment">
+         <span class="markdown">Month in which an Accident happens</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -692,8 +692,7 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Accident"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -717,8 +716,7 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Accident"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -792,8 +790,7 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Accident"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -803,13 +800,13 @@ This section provides details for each class and property defined by [Ontology N
          </dl>
       </div>
    </div>
-   <div class="entity" id="hasDate">
+   <div class="entity" id="http://ns.nature.com/terms/date">
       <h3>tieneFecha<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://linkeddata.es/group09/ontology/TrafficAccident#hasDate</p>
+         <strong>IRI:</strong> http://ns.nature.com/terms/date</p>
       <div class="comment">
          <span class="markdown">Date and hour of an accident</span>
       </div>
@@ -817,8 +814,7 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Accident"
-                  title="http://linkeddata.es/group09/ontology/TrafficAccident#Accident">Accidente</a>
+               <a href="#https://transportdisruption.github.io/#Accident" title="https://transportdisruption.github.io/#Accident">Accidente</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
