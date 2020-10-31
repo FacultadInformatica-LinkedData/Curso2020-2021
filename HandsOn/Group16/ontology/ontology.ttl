@@ -46,6 +46,24 @@
 #    Data properties
 #################################################################
 
+###  http://www.schema.org#address
+schema:address rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:Place ;
+                rdfs:range xsd:string .
+
+
+###  http://www.schema.org#latitude
+schema:latitude rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:Place ;
+                rdfs:range schema:Number .
+
+
+###  http://www.schema.org#longitude
+schema:latitude rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:Place ;
+                rdfs:range schema:Number .
+
+
 ###  http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure
 :dateOfMeasure rdf:type owl:DatatypeProperty ;
                rdfs:domain :Measurement ;
