@@ -22,9 +22,12 @@
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#inDistrict
 :inDistrict rdf:type owl:ObjectProperty ;
-            rdfs:domain :Station ,
-                        :Street ;
-            rdfs:range :District .
+                rdfs:domain [
+                rdf:type owl:Class ;
+                owl:Class   <http://www.semanticweb.org/group16/ontology/air-quality#Station>,
+                                <http://www.semanticweb.org/group16/ontology/air-quality#Street>
+                ] ;
+                rdfs:range :District .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measuredAt
@@ -57,9 +60,12 @@
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
 :measureCode rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Magnitude ,
-                         :Measurement ;
-             rdfs:range xsd:string .
+                rdfs:domain [
+                rdf:type owl:Class ;
+                owl:Class   <http://www.semanticweb.org/group16/ontology/air-quality#Magnitude>,
+                                <http://www.semanticweb.org/group16/ontology/air-quality#Measurement>
+                ] ;
+                rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureNotation
