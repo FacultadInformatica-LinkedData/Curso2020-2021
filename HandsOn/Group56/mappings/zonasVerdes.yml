@@ -26,11 +26,24 @@ mappings:
     po:
       - [a, ex:Subepigrafe]
       - [ex:nombreSubepigrafe, $(Subepigrafe),xsd:string]
+
+
+  ndeArchivo:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Numero_de_archivo/$(Numero_de_archivo)
+    po:
+      - [a, ex:NdeArchivo]
+      - [ex:numeroArchivo, $(Numero_de_archivo),xsd:string]
       - [ex:nombreApartado, $(Apartado),xsd:string]
       - [ex:nombreCalle, $(Situacion_Destino),xsd:string]
       - [ex:nombreDestino, $(Destino),xsd:string]
       - [ex:nombreNaturaleza, $(Naturaleza_del_inmueble),xsd:string]
-      - [ex:numeroArchivo, $(Numero_de_archivo),xsd:string]
       - [ex:tamanioSolar, $(Tamanio_Solar),xsd:double]
+      - p: ex:tieneDistrito
+        o:
+           mapping: distrito
+           
+      
               
       
