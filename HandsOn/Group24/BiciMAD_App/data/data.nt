@@ -1167,7 +1167,7 @@
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140> <http://www.semanticweb.org/bicimad/properties#latitude> "40.438628"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140> <http://www.semanticweb.org/bicimad/properties#has_address> <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20VELAZQUEZ-134>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Bike_Station".
-<http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#bs_id> "140 ampliación"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#bs_id> "140 ampliaciï¿½n"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#position_x> "442081.16"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#position_y> "4476654.37"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#spots> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.
@@ -1845,14 +1845,14 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Palacio%20Real%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Royal_Palace_of_Madrid>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Palacio%20Real%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Centro%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Argüelles (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Argï¿½elles (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "9-02"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Argüelles_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Argï¿½elles_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Moncloa-Aravaca>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Gran%20V%C3%ADa%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Gran%20V%C3%ADa%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Gran Vía (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Gran%20V%C3%ADa%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Gran Vï¿½a (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Gran%20V%C3%ADa%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "1-03"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Gran%20V%C3%ADa%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Gran_Vía_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Gran%20V%C3%ADa%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Gran_Vï¿½a_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Gran%20V%C3%ADa%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Centro%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Embajadores%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Embajadores%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Embajadores (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1865,9 +1865,9 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Acacias%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Acacias_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Acacias%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Arganzuela>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Jer%C3%B3nimos%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Jer%C3%B3nimos%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Jerónimos (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Jer%C3%B3nimos%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Jerï¿½nimos (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Jer%C3%B3nimos%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "3-05"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Jer%C3%B3nimos%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Jerónimos_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Jer%C3%B3nimos%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Jerï¿½nimos_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Jer%C3%B3nimos%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Retiro%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ibiza%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ibiza%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Ibiza (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1875,9 +1875,9 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ibiza%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ibiza_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ibiza%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Retiro%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ni%C3%B1o%20Jes%C3%BAs%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ni%C3%B1o%20Jes%C3%BAs%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Niño Jesús (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ni%C3%B1o%20Jes%C3%BAs%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Niï¿½o Jesï¿½s (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ni%C3%B1o%20Jes%C3%BAs%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "3-06"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ni%C3%B1o%20Jes%C3%BAs%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Niño_Jesús>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ni%C3%B1o%20Jes%C3%BAs%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Niï¿½o_Jesï¿½s>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ni%C3%B1o%20Jes%C3%BAs%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Retiro%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Estrella%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Estrella%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Estrella (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1885,9 +1885,9 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Estrella%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Estrella_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Estrella%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Retiro%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Pac%C3%ADfico%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Pac%C3%ADfico%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Pacífico (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Pac%C3%ADfico%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Pacï¿½fico (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Pac%C3%ADfico%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "3-01"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Pac%C3%ADfico%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Pacífico_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Pac%C3%ADfico%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Pacï¿½fico_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Pac%C3%ADfico%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Retiro%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Adelfas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Adelfas> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Adelfas"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1932,9 +1932,9 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Trafalgar%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Trafalgar_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Trafalgar%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Chamberi%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/R%C3%ADos%20Rosas%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/R%C3%ADos%20Rosas%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Ríos Rosas (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/R%C3%ADos%20Rosas%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Rï¿½os Rosas (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/R%C3%ADos%20Rosas%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "7-05"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/R%C3%ADos%20Rosas%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ríos_Rosas_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/R%C3%ADos%20Rosas%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Rï¿½os_Rosas_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/R%C3%ADos%20Rosas%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Chamberi%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Cuatro%20Caminos%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Cuatro%20Caminos%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Cuatro Caminos (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1957,14 +1957,14 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Castillejos%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Castillejos_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Castillejos%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Tetuan%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Nueva%20Espa%C3%B1a%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Nueva%20Espa%C3%B1a%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Nueva España (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Nueva%20Espa%C3%B1a%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Nueva Espaï¿½a (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Nueva%20Espa%C3%B1a%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "5-05"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Nueva%20Espa%C3%B1a%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Nueva_España_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Nueva%20Espa%C3%B1a%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Nueva_Espaï¿½a_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Nueva%20Espa%C3%B1a%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Chamartin%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Hispanoam%C3%A9rica%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Hispanoam%C3%A9rica%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Hispanoamérica (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Hispanoam%C3%A9rica%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Hispanoamï¿½rica (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Hispanoam%C3%A9rica%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "5-04"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Hispanoam%C3%A9rica%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Hispanoamérica>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Hispanoam%C3%A9rica%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Hispanoamï¿½rica>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Hispanoam%C3%A9rica%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Chamartin%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Delicias%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Delicias%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Delicias (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -1997,9 +1997,9 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ventas%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ventas_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ventas%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Ciudad%20Lineal>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Concepci%C3%B3n%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Concepci%C3%B3n%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Concepción (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Concepci%C3%B3n%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Concepciï¿½n (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Concepci%C3%B3n%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "5-04"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Concepci%C3%B3n%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Concepción_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Concepci%C3%B3n%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Concepciï¿½n_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Concepci%C3%B3n%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Ciudad%20Lineal>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Guindalera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Guindalera> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Guindalera"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2012,9 +2012,9 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Prosperidad%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Prosperidad_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Prosperidad%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Chamartin%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Ciudad Jardín (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Ciudad Jardï¿½n (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "5-03"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ciudad_Jardín_(Madrid)>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ciudad_Jardï¿½n_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Chamartin%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Vallehermoso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Vallehermoso> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Vallehermoso"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2047,9 +2047,9 @@
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/San%20Isidro%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/San_Isidro_(Madrid)>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/San%20Isidro%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Carabanchel>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Moscard%C3%B3%20%28Madrid%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Neighbourhood".
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Moscard%C3%B3%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Moscardó (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Moscard%C3%B3%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_name> "Moscardï¿½ (Madrid)"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Moscard%C3%B3%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#neighbourhood_number> "2-05"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Moscard%C3%B3%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Moscardó>.
+<http://www.semanticweb.org/bicimad/classes/Neighbourhood/Moscard%C3%B3%20%28Madrid%29> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Moscardï¿½>.
 <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Moscard%C3%B3%20%28Madrid%29> <http://www.semanticweb.org/bicimad/properties#has_district> <http://www.semanticweb.org/bicimad/classes/District/Usera>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20ALCALA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20ALCALA> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE ALCALA"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2061,7 +2061,7 @@
 <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DEL%20CONDE%20DEL%20VALLE%20DE%20SUCHIL> <http://www.semanticweb.org/bicimad/properties#street_name> "PLAZA DEL CONDE DEL VALLE DE SUCHIL"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DEL%20CONDE%20DEL%20VALLE%20DE%20SUCHIL> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arapiles%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20MANUELA%20MALASA%C3%91A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
-<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20MANUELA%20MALASA%C3%91A> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE MANUELA MALASAÑA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20MANUELA%20MALASA%C3%91A> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE MANUELA MALASAï¿½A"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20MANUELA%20MALASA%C3%91A> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Universitaria%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20FUENCARRAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20FUENCARRAL> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE FUENCARRAL"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2328,7 +2328,7 @@
 <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DEL%20MARQUES%20DE%20CERRALBO> <http://www.semanticweb.org/bicimad/properties#street_name> "PLAZA DEL MARQUES DE CERRALBO"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DEL%20MARQUES%20DE%20CERRALBO> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DE%20ESPA%C3%91A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
-<http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DE%20ESPA%C3%91A> <http://www.semanticweb.org/bicimad/properties#street_name> "PLAZA DE ESPAÑA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DE%20ESPA%C3%91A> <http://www.semanticweb.org/bicimad/properties#street_name> "PLAZA DE ESPAï¿½A"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DE%20ESPA%C3%91A> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Arg%C3%BCelles%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20ALTAMIRANO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20ALTAMIRANO> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE ALTAMIRANO"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2417,7 +2417,7 @@
 <http://www.semanticweb.org/bicimad/classes/Street/AVENIDA%20DEL%20GENERAL%20PERON> <http://www.semanticweb.org/bicimad/properties#street_name> "AVENIDA DEL GENERAL PERON"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/AVENIDA%20DEL%20GENERAL%20PERON> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Cuatro%20Caminos%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SAN%20GERM%C3%81N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
-<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SAN%20GERM%C3%81N> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE SAN GERMÁN"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SAN%20GERM%C3%81N> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE SAN GERMï¿½N"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SAN%20GERM%C3%81N> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Cuatro%20Caminos%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SOR%20ANGELA%20DE%20LA%20CRUZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SOR%20ANGELA%20DE%20LA%20CRUZ> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE SOR ANGELA DE LA CRUZ"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2489,7 +2489,7 @@
 <http://www.semanticweb.org/bicimad/classes/Street/GLORIETA%20DEL%20MARQUES%20DE%20ZAFRA> <http://www.semanticweb.org/bicimad/properties#street_name> "GLORIETA DEL MARQUES DE ZAFRA"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/GLORIETA%20DEL%20MARQUES%20DE%20ZAFRA> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Fuente%20del%20Berro>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
-<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DEL GENERAL PARDIÑAS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DEL GENERAL PARDIï¿½AS"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Lista%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20ALEJANDRO%20GONZALEZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20ALEJANDRO%20GONZALEZ> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE ALEJANDRO GONZALEZ"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2513,7 +2513,7 @@
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20PADRE%20INDALECIO%20HERNANDEZ> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DEL PADRE INDALECIO HERNANDEZ"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20PADRE%20INDALECIO%20HERNANDEZ> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Prosperidad%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
-<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE SUERO DE QUIÑONES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE SUERO DE QUIï¿½ONES"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Jard%C3%ADn%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/AVENIDA%20DE%20CONCHA%20ESPINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
 <http://www.semanticweb.org/bicimad/classes/Street/AVENIDA%20DE%20CONCHA%20ESPINA> <http://www.semanticweb.org/bicimad/properties#street_name> "AVENIDA DE CONCHA ESPINA"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2551,7 +2551,7 @@
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20LAS%20TRES%20CRUCES> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DE LAS TRES CRUCES"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20LAS%20TRES%20CRUCES> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Sol%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20DESENGA%C3%91O> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
-<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20DESENGA%C3%91O> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DEL DESENGAÑO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20DESENGA%C3%91O> <http://www.semanticweb.org/bicimad/properties#street_name> "CALLE DEL DESENGAï¿½O"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20DESENGA%C3%91O> <http://www.semanticweb.org/bicimad/properties#has_neighbourhood> <http://www.semanticweb.org/bicimad/classes/Neighbourhood/Ciudad%20Universitaria%20%28Madrid%29>.
 <http://www.semanticweb.org/bicimad/classes/Street/GLORIETA%20DEL%20MARQUES%20DE%20VADILLO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Street".
 <http://www.semanticweb.org/bicimad/classes/Street/GLORIETA%20DEL%20MARQUES%20DE%20VADILLO> <http://www.semanticweb.org/bicimad/properties#street_name> "GLORIETA DEL MARQUES DE VADILLO"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2572,7 +2572,7 @@
 <http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DEL%20CONDE%20DEL%20VALLE%20DE%20SUCHIL-2> <http://www.semanticweb.org/bicimad/properties#has_address> "PLAZA DEL CONDE DEL VALLE DE SUCHIL-2"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DEL%20CONDE%20DEL%20VALLE%20DE%20SUCHIL-2> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DEL%20CONDE%20DEL%20VALLE%20DE%20SUCHIL>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20MANUELA%20MALASA%C3%91A-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
-<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20MANUELA%20MALASA%C3%91A-3> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE MANUELA MALASAÑA-3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20MANUELA%20MALASA%C3%91A-3> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE MANUELA MALASAï¿½A-3"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20MANUELA%20MALASA%C3%91A-3> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20MANUELA%20MALASA%C3%91A>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20FUENCARRAL-106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20FUENCARRAL-106> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE FUENCARRAL-106"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -2905,7 +2905,7 @@
 <http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DEL%20MARQUES%20DE%20CERRALBO-S%2FN> <http://www.semanticweb.org/bicimad/properties#has_address> "PLAZA DEL MARQUES DE CERRALBO-S/N"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DEL%20MARQUES%20DE%20CERRALBO-S%2FN> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DEL%20MARQUES%20DE%20CERRALBO>.
 <http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DE%20ESPA%C3%91A-S%2FN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
-<http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DE%20ESPA%C3%91A-S%2FN> <http://www.semanticweb.org/bicimad/properties#has_address> "PLAZA DE ESPAÑA-S/N"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DE%20ESPA%C3%91A-S%2FN> <http://www.semanticweb.org/bicimad/properties#has_address> "PLAZA DE ESPAï¿½A-S/N"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/PLAZA%20DE%20ESPA%C3%91A-S%2FN> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/PLAZA%20DE%20ESPA%C3%91A>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20ALTAMIRANO-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20ALTAMIRANO-24> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE ALTAMIRANO-24"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -3019,7 +3019,7 @@
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20ORENSE-36> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE ORENSE-36"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20ORENSE-36> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20ORENSE>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SAN%20GERM%C3%81N-55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
-<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SAN%20GERM%C3%81N-55> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE SAN GERMÁN-55"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SAN%20GERM%C3%81N-55> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE SAN GERMï¿½N-55"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SAN%20GERM%C3%81N-55> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SAN%20GERM%C3%81N>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SOR%20ANGELA%20DE%20LA%20CRUZ-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SOR%20ANGELA%20DE%20LA%20CRUZ-2> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE SOR ANGELA DE LA CRUZ-2"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -3112,7 +3112,7 @@
 <http://www.semanticweb.org/bicimad/classes/Address/GLORIETA%20DEL%20MARQUES%20DE%20ZAFRA-frente%204> <http://www.semanticweb.org/bicimad/properties#has_address> "GLORIETA DEL MARQUES DE ZAFRA-frente 4"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/GLORIETA%20DEL%20MARQUES%20DE%20ZAFRA-frente%204> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/GLORIETA%20DEL%20MARQUES%20DE%20ZAFRA>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS-56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
-<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS-56> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DEL GENERAL PARDIÑAS-56"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS-56> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DEL GENERAL PARDIï¿½AS-56"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS-56> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20GENERAL%20PARDI%C3%91AS>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20ALEJANDRO%20GONZALEZ-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20ALEJANDRO%20GONZALEZ-1> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE ALEJANDRO GONZALEZ-1"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -3142,7 +3142,7 @@
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20PADRE%20INDALECIO%20HERNANDEZ-1> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DEL PADRE INDALECIO HERNANDEZ-1"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20PADRE%20INDALECIO%20HERNANDEZ-1> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20PADRE%20INDALECIO%20HERNANDEZ>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
-<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES-2> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE SUERO DE QUIÑONES-2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES-2> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE SUERO DE QUIï¿½ONES-2"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES-2> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20SUERO%20DE%20QUI%C3%91ONES>.
 <http://www.semanticweb.org/bicimad/classes/Address/AVENIDA%20DE%20CONCHA%20ESPINA-S%2FN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
 <http://www.semanticweb.org/bicimad/classes/Address/AVENIDA%20DE%20CONCHA%20ESPINA-S%2FN> <http://www.semanticweb.org/bicimad/properties#has_address> "AVENIDA DE CONCHA ESPINA-S/N"^^<http://www.w3.org/2001/XMLSchema#string>.
@@ -3184,7 +3184,7 @@
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20LAS%20TRES%20CRUCES-9> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DE LAS TRES CRUCES-9"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DE%20LAS%20TRES%20CRUCES-9> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DE%20LAS%20TRES%20CRUCES>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20DESENGA%C3%91O-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
-<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20DESENGA%C3%91O-3> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DEL DESENGAÑO-3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20DESENGA%C3%91O-3> <http://www.semanticweb.org/bicimad/properties#has_address> "CALLE DEL DESENGAï¿½O-3"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Address/CALLE%20DEL%20DESENGA%C3%91O-3> <http://www.semanticweb.org/bicimad/properties#has_street> <http://www.semanticweb.org/bicimad/classes/Street/CALLE%20DEL%20DESENGA%C3%91O>.
 <http://www.semanticweb.org/bicimad/classes/Address/GLORIETA%20DEL%20MARQUES%20DE%20VADILLO-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Address".
 <http://www.semanticweb.org/bicimad/classes/Address/GLORIETA%20DEL%20MARQUES%20DE%20VADILLO-9> <http://www.semanticweb.org/bicimad/properties#has_address> "GLORIETA DEL MARQUES DE VADILLO-9"^^<http://www.w3.org/2001/XMLSchema#string>.
