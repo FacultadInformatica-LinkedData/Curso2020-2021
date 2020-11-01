@@ -1,5 +1,5 @@
 #-. GraphMaker class .-#
-#.- Retrieves data and graphs it? .-#
+#.- Retrieves data associated with a Magnitude and a Station/District and graphs it .-#
 
 # Imports
 import sys
@@ -19,26 +19,47 @@ class GraphMaker:
         self.qm = QueryMaker()
     # END FUNCTION
 
-    #̣ --
+
+    # selectMagnitude(string) -> ()
+    #   Allows user to choose which magnitude (with its ID) will be retrieved
+    #   example: selectMagnitude("1")
     def selectMagnitude(self, magnitude : str):
         self.magnitude = magnitude
     # END FUNCTION
 
-    # --
+
+    # selectPlace(boolean, string) -> ()
+    #   Allows user to choose which place (whether station or district) will be retrieved
+    #   example: selectMagnitude(False, "Pza. de España")
+    #   example: selectMagnitude(True, "Carabanchel")
     def selectPlace(self, isDistrict : bool, place : str):
         self.isDistrict = isDistrict
         self.place = place
     # END FUNCTION
 
-    # --
+
+    # graphData() -> boolean
+    #   According to the parameters given in previous functions, graphs the query
+    #   returns true if the graph was done correctly
     def graphData(self):
         listResult = self.getQueried()
+        indexes = self.getIndexes(listResult)
         unit = self.getUnitOfMeasure()
-        df = pd.DataFrame(listResult)
+        df = pd.DataFrame(listResult, index=indexes)
+        df = df.rename(columns={"MeasureDate":"Date of measure", "Value":unit})
+        # print(df)
+        ret = df.plot()
         plt.show()
+        return ret.has_data()
     # END FUNCTION
 
-    # [private function]
+
+    # [private function] getQueried () -> List<Dictionary>
+    #   Executes the query described by the parameters passed earlier and returns the
+    #   list of dictionaries with its date column normalized to "YYYY-MM-DD"
+    #   example: getQueried() -> [{"MeasureDate":"2011-07-26","Value":"11.0"},
+    #                             {"MeasureDate":"2012-01-03","Value":"74.0"}
+    #                            ]
     def getQueried(self):
         xsd_str = "http://www.w3.org/2001/XMLSchema#string"
         self.qm.addSelect("?MeasureDate ?Value")
@@ -65,14 +86,32 @@ class GraphMaker:
         return listResult
     # END FUNCTION
 
-    # [private function]
+
+    # [private function] getUnitOfMeasure() -> string
+    #   Returns the unit of the measurement given the magnitude
+    #   example: getUnitOfMeasure() [magnitude="1"] -> "μg/m3"
+    #   example: getUnitOfMeasure() [magnitude="2"] -> "mg/m3"
     def getUnitOfMeasure(self):
         magnitudeID = int(self.magnitude)
         if magnitudeID == 1 or (magnitudeID >= 7 and magnitudeID <= 39):
             return "μg/m3"
         else:
             return "mg/m3"
+        # END IF
     # END FUNCTION
+
+
+    # [private function] getIndexes(List<Dictionary>) -> List
+    #   Returns the list with all the keys of the dictionaries, normalized to strings
+    #   example: getIndexes([{"MD":"2011-07-26",...},{"MD":"2012-01-03",...}]) -> ["2011-07-26", "2012-01-03"]
+    def getIndexes(self, listDict):
+        listResult = []
+        for item in listDict:
+            listResult.append(str(item["MeasureDate"]))
+        # END FOR
+        return listResult
+    # END FUNCTION
+
 
 # END CLASS
 
@@ -99,8 +138,8 @@ def test_graphData():
     gm = GraphMaker()
     gm.selectMagnitude("7")
     gm.selectPlace(True, "Fuencarral-El Pardo")
-    gm.graphData()
-    # assert sth
+    ret = gm.graphData()
+    assert ret == True
 # END FUNCTION
 
 
