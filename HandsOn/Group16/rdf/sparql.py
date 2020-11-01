@@ -4,7 +4,7 @@
     SPARQL queries for checking WikiData liking
 """
 
-data_storage = "rdf/output-with-links.ttl" 
+data_storage = "rdf/output-with-links.nt" 
 
 "Data loading and graph building"
 

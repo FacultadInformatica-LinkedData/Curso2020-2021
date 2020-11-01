@@ -4,6 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://www.schema.org#> .
 @base <http://www.semanticweb.org/group16/ontology/air-quality> .
 
 <http://www.semanticweb.org/group16/ontology/air-quality> rdf:type owl:Ontology .
@@ -78,11 +79,7 @@ schema:latitude rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
 :measureCode rdf:type owl:DatatypeProperty ;
-                rdfs:domain [
-                rdf:type owl:Class ;
-                owl:Class   <http://www.semanticweb.org/group16/ontology/air-quality#Magnitude>,
-                                <http://www.semanticweb.org/group16/ontology/air-quality#Measurement>
-                ] ;
+                rdfs:domain :Magnitude ;
                 rdfs:range xsd:string .
 
 

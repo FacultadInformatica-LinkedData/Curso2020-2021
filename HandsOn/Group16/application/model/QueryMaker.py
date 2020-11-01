@@ -21,7 +21,7 @@ class QueryMaker:
         self.paramsList = []
         if not(hasattr(self, "graph")):
             self.graph = Graph()
-            self.graph.parse("rdf/output-with-links.ttl", format="nt")
+            self.graph.parse("rdf/output-with-links.nt", format="nt")
         # END IF
     # END FUNCTION
 
@@ -29,7 +29,7 @@ class QueryMaker:
     # addSelect(*string) -> ()
     #   Allows user to choose which parameters will be retrieved
     #   example: addSelect("?Measure", "?Station")
-    def addSelect(self, *paramsToSelect):
+    def addSelect(self, *paramsToSelect : str):
         self.query = "SELECT DISTINCT\n\t"
         for param in paramsToSelect:
             self.query = self.query + param + " "
@@ -42,7 +42,7 @@ class QueryMaker:
     # addParam(string, string, string) -> ()
     #   Inserts into the query the triplet subject, predicate, object
     #   example: addParam("?Measure", "rdf:type", "ns:Measurement")
-    def addParam(self, s, p, o):
+    def addParam(self, s : str, p : str, o : str):
         self.paramsList.append((s, p, o))
     # END FUNCTION
 
@@ -50,14 +50,14 @@ class QueryMaker:
     # addFilter(string) -> ()
     #   Inserts into the query a filtering sentence
     #   example: addFilter("REGEX (?StLabel, \"Moratalaz\")")
-    def addFilter(self, filter):
+    def addFilter(self, filter : str):
         self.paramsList.append(("\tFILTER", filter))
     # END FUNCTION
 
     # addOrder(string) -> ()
     #   Orders the result of the query with the ordering sentence passed
     #   example: addOrder("xsd:integer(?Code)")
-    def addOrder(self, order):
+    def addOrder(self, order : str):
         self.order = self.order + "ORDER BY " + order
     # END FUNCTION
 
