@@ -36,6 +36,7 @@
 
 ###  http://www.semanticweb.org/group44/ontologies/madridAirQuality#date
 :date rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Measure ;
       rdfs:range xsd:dateTime .
 
 
