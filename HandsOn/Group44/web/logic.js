@@ -12,20 +12,26 @@ function map() {
     L.control.scale().addTo(map);
 
     let pos = 40.4238823;
-    for(int i = 0; i<3; i++){
-    let prueba = L.marker([pos -3.7122567]).addTo(map); // plaza españa
-    prueba.bindPopup("Plaza España <br> <button type=\"button\" onClick=\"loadInfo(\"Plaza España\")\">Informacion</button>");
-        pos += 0.0000001;
+    var i;
+
+
+    for(i = 0; i<3; i++){
+        let estacion = "Plaza España"; // aqui llamamaos a sparql
+        let prueba = L.marker([pos, -3.7122567]).addTo(map);
+
+        prueba.bindPopup(estacion + " <br> <button type=\"button\" onClick=\"loadInfo()\">Informacion</button>");
+
+        pos = pos + 0.01;
     }
-
-
-}
-
-function hola(){
-    document.write("helo :D");
 }
 
 function loadInfo(){
-    var estacion = "Plaza España";
-    document.getElementById("nombreEstacion").innerHTML = estacion;
+    document.getElementById("nombreEstacion").innerHTML = "<h2>Ejemplo de estacion</h2>";
+    document.getElementById("nombreProvincia").innerHTML = "Ejemplo de provinicia";
+    document.getElementById("nombreMunicipio").innerHTML = "Ejemplo de municipio";
+    document.getElementById("numero").innerHTML = "Ejemplo de estacion numero";
+}
+
+function tmp(){
+    alert("Hola macarrones :D");
 }

@@ -3,3 +3,18 @@
    height: 580px;
    box-shadow: 5px 5px 5px #888;
 }
+
+.cuadro {
+  border-style:solid;
+  border-color:#287EC7;
+  text-align: center;
+  padding:20;
+  margin: 20;
+  float: center;
+  box-sizing: content-box;
+  width: 50%;
+}
+
+.centrado {
+  text-align: center;
+}
