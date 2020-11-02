@@ -13,6 +13,8 @@ prefixes:
   vocab: http://api.zonasverdesmadrid.es#
   district: http://api.zonasVerdesMadrid.com/ontologies/districts#
   ontologies: http://api.zonasVerdesMadrid.com/ontologies#
+  species: http://api.zonasVerdesMadrid.com/ontologies/species#
+  specie: http://api.zonasverdesmadrid.com/resources/species/
   
 mappings:
   triplesmap1:
@@ -21,8 +23,8 @@ mappings:
     s: http://api.zonasverdesmadrid.com/resources/districts/$(NombreDistritoURI)
     po:
       - [a, ontologies:district]
-      - [district:hasSpecies,$(NOMBRE_ESPECIE)]
-      - [district:hasUnits,$(Num_Unidades)]
+      - [district:hasSpecies,specie:$(NOMBRE_ESPECIE)~iri]
+      - [species:hasUnits,$(Num_Unidades)]
       - [district:hasId,$(Num_Distrito)]
       - [district:hasName,$(NombreDistritoURI)]
       - [owl:sameAs,$(wikidata:Distrito)~iri]

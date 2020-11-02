@@ -19,8 +19,8 @@ map:om_0 a rr:ObjectMap;
     rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
-    rml:reference "NOMBRE_ESPECIE";
-    rr:termType rr:Literal.
+    rr:template "http://api.zonasverdesmadrid.com/resources/species/{NOMBRE_ESPECIE}";
+    rr:termType rr:IRI.
 map:om_10 a rr:ObjectMap;
     rml:reference "RecienPlantado";
     rr:termType rr:Literal.
@@ -80,7 +80,7 @@ map:pm_14 a rr:PredicateMap;
 map:pm_15 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/species#hasUnits>.
 map:pm_3 a rr:PredicateMap;
     rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId>.
 map:pm_4 a rr:PredicateMap;
