@@ -22,11 +22,11 @@ SELECT DISTINCT  ?operador ?district ?district_wikidata
 WHERE
   { 
     ?operador	rdf:type	ont:Operador ;
-    			ont:tieneOperador	?district_csv .
+    			    ont:tieneOperador	?district_csv .
 
     ?district_csv	
-    			rdfs:label     ?district ;
-              	owl:sameAs     ?district_wikidata
+    			    rdfs:label     ?district ;
+              owl:sameAs     ?district_wikidata
   }
 
 # ----------- QUERY 3 ----------- #
@@ -36,9 +36,9 @@ SELECT COUNT(DISTINCT ?puesto) ?puesto ?district ?district_wikidata
 WHERE
   { 
     ?puesto		rdf:type	ont:PuestoRecarga ;
-    			ont:tienePuesto	?district_csv .
+    			    ont:tienePuesto	?district_csv .
 
     ?district_csv	
-    			rdfs:label	?district ;
-              	owl:sameAs  ?district_wikidata
+    			    rdfs:label	?district ;
+              owl:sameAs  ?district_wikidata
   }
