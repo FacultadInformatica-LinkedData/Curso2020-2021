@@ -21,6 +21,12 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/group16/ontology/air-quality#inStreet
+:inStreet rdf:type owl:ObjectProperty ;
+          rdfs:domain :Station ;
+          rdfs:range :Street .
+
+
 ###  http://www.semanticweb.org/group16/ontology/air-quality#inDistrict
 :inDistrict rdf:type owl:ObjectProperty ;
                 rdfs:domain [
@@ -49,8 +55,8 @@
 
 ###  http://www.schema.org#address
 schema:address rdf:type owl:DatatypeProperty ;
-                rdfs:domain schema:Place ;
-                rdfs:range xsd:string .
+               rdfs:domain schema:Place ;
+               rdfs:range xsd:string .
 
 
 ###  http://www.schema.org#latitude
@@ -79,8 +85,8 @@ schema:latitude rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
 :measureCode rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Magnitude ;
-                rdfs:range xsd:string .
+             rdfs:domain :Magnitude ;
+             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureNotation

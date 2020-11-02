@@ -27,6 +27,14 @@ mappings:
                     parameters:
                       - [str1, $(DISTRITO_LINK)]
                       - [str2, $(DISTRITO_LINK)]
+            - p: ns:inStreet
+              o:
+                - mapping: TriplesMap5
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DIRECCION_ID)]
+                      - [str2, $(DIRECCION_ID)]
             
     TriplesMap2:
         sources:

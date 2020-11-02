@@ -24,7 +24,7 @@ schema:Number rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  Property replaced: inDistrict
+###  Properties replaced: inDistrict, inStreet
 ###  http://www.geonames.org/ontology#locatedIn
 gn:locatedIn rdf:type owl:ObjectProperty ;
         rdfs:domain [
@@ -32,7 +32,11 @@ gn:locatedIn rdf:type owl:ObjectProperty ;
         owl:Class   saref:Sensor ,
                     dbo:Street
         ] ;
-        rdfs:range dbo:District .
+        rdfs:range [
+        rdf:type owl:Class ;
+        owl:Class   dbo:District ,
+                    dbo:Street
+        ] .
 
 
 ###  Property replaced (inverse): measuredAt
@@ -110,7 +114,7 @@ saref:hasTimestamp rdf:type owl:DatatypeProperty ;
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
 :propertyCode rdf:type owl:DatatypeProperty ;
-        rdfs:domain saref:Property
+        rdfs:domain saref:Property ;
         rdfs:range xsd:string .
 
 
