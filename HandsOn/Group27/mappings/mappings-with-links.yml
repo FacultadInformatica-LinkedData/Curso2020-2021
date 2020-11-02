@@ -23,12 +23,11 @@ mappings:
     s: http://api.zonasverdesmadrid.com/resources/districts/$(NombreDistritoURI)
     po:
       - [a, ontologies:district]
-      - [district:hasSpecies,specie:$(NOMBRE_ESPECIE)~iri]
-      - [owl:sameAs,$(wikidata:Especie)~iri]
+      - [district:hasSpecies,specie:$(NombreEspecieURI)~iri]
       - [species:hasUnits,$(Num_Unidades)]
       - [district:hasId,$(Num_Distrito)]
       - [district:hasName,$(NombreDistritoURI)]
-      - [owl:sameAs,$(wikidata:Distrito)~iri]
+      - [owl:sameAs,$(dbpedia:Distrito)~iri]
 
   triplesmap2:
     sources:
@@ -44,4 +43,11 @@ mappings:
       - [district:hasMature,$(Maduro)]
       - [district:hasOld,$(Viejo)]      
       - [district:hasOthers,$(Otros)]
-      - [owl:sameAs,$(wikidata:Distrito)~iri]
+      - [owl:sameAs,$(dbpedia:Distrito)~iri]
+      
+  triplesmap3:
+    sources:
+      - [ArboladoZonasVerdesDistritosCalles_2019-updated-with-links.csv~csv]
+    s: http://api.zonasverdesmadrid.com/resources/species/$(NombreEspecieURI)
+    po:
+      - [owl:sameAs,$(dbpedia:Especie)~iri]
