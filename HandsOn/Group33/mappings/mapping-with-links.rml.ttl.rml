@@ -15,7 +15,7 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.semanticweb.org/RecargaMadrid/classes/{PR_ID}";
+    rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{PR_ID}";
     rr:termType rr:IRI;
     rr:class classes:Puesto
   ];
@@ -47,7 +47,7 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes/{DISTRITO}";
+	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{DISTRITO}";
 	  rr:termType rr:IRI;
 	  rr:class classes:Distrito
 	];
@@ -65,7 +65,7 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes/{CIUDAD}";
+	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{CIUDAD}";
 	  rr:termType rr:IRI;
 	  rr:class classes:Ciudad
 	];
@@ -83,7 +83,7 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semanticweb.org/RecargaMadrid/classes/{OPERADOR}";
+	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{OPERADOR}";
 	  rr:termType rr:IRI;
 	  rr:class classes:Operador
 	];
