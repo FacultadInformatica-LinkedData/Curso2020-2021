@@ -7,7 +7,7 @@ SELECT DISTINCT ?countryName
  Select Distinct ?IndicatorName
 Where
 {
-?CountryName rdf:type <http://group10.org/hands-on/resource/Country>.
-?countryName owl:sameAs <https://wikidata.org/wiki/Q334>.
+?CountryName rdf:type <http://group10.org/hands-on/resource/Country>
+?countryName owl:sameAs <https://wikidata.org/wiki/Q334>
 ?countryName http://group10.org/hands-on/resource/hasIndicator ?indicatorName 
 }
