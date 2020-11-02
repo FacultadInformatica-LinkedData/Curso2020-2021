@@ -241,5 +241,5 @@ for item in data['results']['bindings']:
     }))
 df = pd.DataFrame(districts)
 df.set_index("districtURI")
-df = df.astype({'population': float, 'area': float})
+df = df.astype({'population': int, 'area': float})
 print(df.head())
