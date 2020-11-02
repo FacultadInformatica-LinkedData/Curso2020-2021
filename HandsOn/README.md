@@ -24,7 +24,18 @@ This is the directory where students have to upload their materials related to t
 * /selfAssessmentHandsOn1.md - A Markdown document with the hands-on 1 self-assessment
 * /analysis.html - An HTML document that includes the analyses performed over the data source and the licensing of the data source, as well as the resource naming strategy defined.
 * /ontology/*.ttl - An OWL file (using the Turtle syntax) with the ontology developed, according to the resource naming strategy defined.
+* /ontology/*-example.ttl - An RDF file with a sample instantiation of the ontology, following the resource naming strategy, and using the Turtle syntax.
 * /selfAssessmentHandsOn2.md - A Markdown document with the hands-on 2 self-assessment
 * /openrefine/*.json - A JSON file with the operations performed over the data for fixing and transforming them.
 * /csv/*-updated.csv - An CSV file with the updated versions of the datasets.
-* /selfAssessmentHandsOn3.md - A Markdown document with the hands-on 3 self-assessment
+* /selfAssessmentHandsOn3.md - A Markdown document with the hands-on 3 self-assessment.
+* /mappings/*.rml - An RML file with the mappings.
+* /mappings/*.yml - A YML file with the mapping rules (optional).
+* /rdf/*.nt - An RDF file in the NTriples syntax with the data transformed into RDF.
+* /selfAssessmentHandsOn4.md - A Markdown document with the hands-on 4 self-assessment.
+* /openrefine/*-with-links.json - A JSON file with the operations performed over the data for linking them.
+* /csv/*-with-links.csv - A CSV file with the updated versions of the datasets.
+* /mappings/*-with-links.rml - An RML file with the updated versions of the mappings.
+* /rdf/*-with-links.ttl - An RDF file in the NTriples syntax with the data linked and transformed into RDF.
+* /rdf/queries-with-links.sparql - A SPARQL file with queries to verify your links.
+* /selfAssessmentHandsOn5.md - A Markdown document with the hands-on 5 self-assessment.

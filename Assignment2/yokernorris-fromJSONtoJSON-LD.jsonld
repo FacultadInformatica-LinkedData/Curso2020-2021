@@ -1,0 +1,26 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "David Garcia",
+  "homeTown": "Madrid",
+  "age": "32",
+  "almaMater": "UPM",
+  "parentsName": ["Luis", "Carmen"],
+  "subjects": [
+      {
+      "name":"Sistemas de planificacion",
+      "teachers":"Vicente Martinez Orga",
+      "description":"Conocer diferentes tecnicas de planificacion para el correcto desarollo de un proyecto"
+      },
+    {
+      "subjectName": "Gestion de Procesos de Tecnologias de la Informacion",
+      "teachers": ["Oscar Dieste Tubio","Edmundo Tovar Caro"],
+      "descripcion": "En esta asignatura se tratan los elementos de una organización"
+    },
+    {
+      "subjectName": "Ingenieria del Software 2",
+      "teachers": ["Tomas San Feliu Gilabert", "Ana Maria Moreno"],
+      "descripcion": "La asignatura de Ingeniería del Software II se enfoca en aplicar los aspectos de gestión al desarrollo software"
+    }
+  ]
+}

@@ -28,7 +28,8 @@ We will use the same licence ``CC0 1.0 Universal Public Domain Dedication`` [Lin
 ## Define Resource Naming Strategy  
 * Base URI: http://www.semanticweb.org/group44/ontologies/2020/9/untitled-ontology-4 
 
-* You can check the content of the onlogy in the `ontology/madridAirQuality.ttl`
+* Individual path: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/<individual>
 
+* Class path: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/<class>
 
 ## Develop Ontology  
