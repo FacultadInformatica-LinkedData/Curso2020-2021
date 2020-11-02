@@ -1,13 +1,13 @@
-@prefix : <http://semantic.web.es/group33/ontology/RecargaMadrid/> .
-@prefix g: <http://semantic.web.es/group33/ontology/RecargaMadrid/> .
+@prefix : <http://www.semantic.web.es/group33/ontology/RecargaMadrid/> .
+@prefix g: <http://www.semantic.web.es/group33/ontology/RecargaMadrid/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://semantic.web.es/group33/ontology/RecargaMadrid/> .
+@base <http://www.semantic.web.es/group33/ontology/RecargaMadrid/> .
 
-<http://semantic.web.es/group33/ontology/RecargaMadrid/> rdf:type owl:Ontology .
+<http://www.semantic.web.es/group33/ontology/RecargaMadrid/> rdf:type owl:Ontology .
 
 
                              
@@ -16,18 +16,21 @@
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/tieneDistrito
 :tieneDistrito rdf:type owl:ObjectProperty ;
-               rdfs:domain owl:Puesto ;
-               rdfs:range :Distrito .
+               rdfs:domain :Puesto ;
+               rdfs:range :Distrito ;
+			   rdfs:label "tieneDistrito"@es .
                     
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/tieneDireccion
 :tieneDireccion rdf:type owl:ObjectProperty ;
-                rdfs:domain owl:Puesto ;
-                rdfs:range :Direccion .
+                rdfs:domain :Puesto ;
+                rdfs:range :Direccion ;
+			    rdfs:label "tieneDireccion"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/tieneOperador
 :tieneOperador rdf:type owl:ObjectProperty ;
-               rdfs:domain owl:Puesto ;
-               rdfs:range :Operador .                             
+               rdfs:domain :Puesto ;
+               rdfs:range :Operador ;
+			   rdfs:label "tieneOperador"@es .                             
 
 
 #################### DATOS ####################
@@ -36,60 +39,73 @@
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/CoordX
 :coordX rdf:type owl:DatatypeProperty ;
         rdfs:domain :Coordenadas ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:float ;
+		rdfs:label "CoordenadaX"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/CoordY
 :coordY rdf:type owl:DatatypeProperty ;
         rdfs:domain :Coordenadas ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:float ;
+		rdfs:label "CoordenadaY"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/Latitud
 :latitud rdf:type owl:DatatypeProperty ;
          rdfs:domain :Coordenadas ;
-         rdfs:range xsd:string .
+         rdfs:range xsd:string ;
+		 rdfs:label "Latitud"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/Longitud
 :longitud rdf:type owl:DatatypeProperty ;
           rdfs:domain :Coordenadas ;
-          rdfs:range xsd:string .
+          rdfs:range xsd:string ;
+		  rdfs:label "Longitud"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/nombreDistrito
 :nombreDistrito rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Distrito ;
-                rdfs:range xsd:string .
+                rdfs:range xsd:string ;
+				rdfs:label "nombreDistrito"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/nombreCalle
 :nombreCalle rdf:type owl:DatatypeProperty ;
              rdfs:domain :Direccion ;
-             rdfs:range xsd:string .
+             rdfs:range xsd:string ;
+			 rdfs:label "nombreCalle"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/numeroCalle
 :numeroCalle rdf:type owl:DatatypeProperty ;
              rdfs:domain :Direccion ;
-             rdfs:range xsd:string .
+             rdfs:range xsd:string ;
+			 rdfs:label "numeroCalle"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/nombreOperador
 :nombreOperador rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Operador ;
-                rdfs:range xsd:string .
+                rdfs:range xsd:string ;
+				rdfs:label "nombreOperador"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/tieneNumero
 :numeroPuestos rdf:type owl:ObjectProperty ;
-               rdfs:domain owl:Distrito ;
-               rdfs:range :Numero .
+               rdfs:domain :Distrito ;
+               rdfs:range xsd:integer ;
+			   rdfs:label "numeroPuestos"@es .
 
 
 #################### CLASES ####################
 
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/PuestoRecarga
-:Puesto rdf:type owl:Class .
+:Puesto rdf:type owl:Class ;
+		rdfs:label "Puesto"@es .
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/Distrito
-:Distrito rdf:type owl:Class .   
+:Distrito rdf:type owl:Class ;
+		rdfs:label "Distrito"@es .   
 
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/Direccion
-:Direccion rdf:type owl:Class .                             
+:Direccion rdf:type owl:Class ;
+		rdfs:label "Direccion"@es .                             
                              
 ###  http://semantic.web.es/group33/ontology/RecargaMadrid/Operador
-:Operador rdf:type owl:Class .
+:Operador rdf:type owl:Class ;
+		rdfs:label "Operador"@es .
