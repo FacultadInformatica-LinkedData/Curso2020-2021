@@ -5,64 +5,65 @@ prefixes:
   owl: http://www.w3.org/2002/07/owl#
 
 mappings:
-  provincia:
+  province:
     source:
       - [../csv/MadridAirQuality2020-with-links.csv~csv]
     s: http://dbpedia.org/ontology/province/$(PROVINCE)
     po:
       - [a, dbp:province]
-      - [swo:codigo, $(PROVINCE), xsd:string]
+      - [swo:provinceName, $(PROVINCE), xsd:string]
       - [owl:sameAs, $(PROVINCE_REC)~iri]
     
-  municipio:
+  municipality:
     source:
       - [../csv/MadridAirQuality2020-with-links.csv~csv]
     s: http://dbpedia.org/ontology/Municipality/$(MUNICIPALITY)
     po:
       - [a, dbp:Municipality]
-      - [swo:codigo, $(MUNICIPALITY), xsd:string]
+      - [swo:municipalityName, $(MUNICIPALITY), xsd:string]
       - [owl:sameAs, $(MUNICIPALITY_REC)~iri]
-      - p: swo:formaParteDe
+      - p: swo:isPartOf
         o:
-          - mapping: provincia
+          - mapping: province
             condition:
               function: equal
               parameters:
                 - [str1, $(PROVINCE)]
                 - [str2, $(PROVINCE)]
-      - p: swo:contieneEstaciones
+      - p: swo:containStation
         o:
-          - mapping: estacion
+          - mapping: station
             condition:
               function: equal
               parameters:
                 - [str1, $(STATION)]
                 - [str2, $(STATION)]
 
-  estacion:
+  station:
     source:
       - [../csv/MadridAirQuality2020-with-links.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Estacion/$(STATION)
+    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Station/$(STATION)
     po:
-      - [swo:codigo, $(STATION), xsd:integer]
-      - [swo:lugarEstacion, $(STATION_LOCATION), xsd:string]
-      - p: swo:tomaMuestras
+      - [a, swo:Station]
+      - [swo:stationId, $(STATION), xsd:integer]
+      - [swo:stationPlace, $(STATION_LOCATION), xsd:string]
+      - p: swo:takeMeasure
         o:
-          - mapping: muestra
+          - mapping: measure
             condition:
                 function: equal
                 parameters:
                   - [str1, $(ID)]
                   - [str2, $(ID)]
-  muestra:
+  measure:
     source:
       - [../csv/MadridAirQuality2020-with-links.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Muestra/$(ID)
+    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Measure/$(ID)
     po:
-      - [a, swo:Muestra]
-      - [swo:codigo, $(ID), xsd:integer]
-      - [swo:compuesto, $(MEASURED_COMPOUND), xsd:string]
-      - [swo:valido, $(IS_VALID), xsd:boolean]
+      - [a, swo:Measure]
       - [xsd:date, $(DATE), xsd:dateTime]
-      - [swo:tecnicaMedicion, $(MEASUREMENT_TECHNIQUE), xsd:string]
-      - [swo:valorMedido, $(VALUE), xsd:integer]
+      - [swo:isValid, $(IS_VALID), xsd:boolean]
+      - [swo:measureId, $(ID), xsd:integer]
+      - [swo:measuredCompound, $(MEASURED_COMPOUND), xsd:string]
+      - [swo:measuredValue, $(VALUE), xsd:float]
+      - [swo:measuringTechnique, $(MEASUREMENT_TECHNIQUE), xsd:string]
