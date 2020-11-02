@@ -25,33 +25,39 @@
             <script>map()</script>
         </div>
 
-        <div>
-            <label for="nEstacion"></label>
-            <span name=nEstacion id="nombreEstacion"></span>
+        <div class="container">
+            <div id="infoEstacion" style="display: none">
+                <label for="nEstacion"></label>
+                <span name=nEstacion id="nombreEstacion"></span>
+                <br>
+                <label for="nProvincia">Provinicia: </label>
+                <span name=nProvincia id="nombreProvincia"></span>
+                <br>
+                <label for="nMunicipio">Municipio: </label>
+                <span name=nMunicipio id="nombreMunicipio"></span>
+                <br>
+                <label for="numeroEstacion">Número de estación: </label>
+                <span name=numeroEstacion id="numero"></span>
+                <br>
+                <label for="start">Seleccione la fecha deseada:</label>
+                <input type="date" id="start" name="trip-start"
+                                              value="2020-01-01"
+                                              min="2020-01-01" max="2020-08-31">
+                <button type="button" onClick="compuestos()">Buscar</button>
+            </div>
             <br>
-            <label for="nProvincia">Provinicia: </label>
-            <span name=nProvincia id="nombreProvincia"></span>
-            <br>
-            <label for="nMunicipio">Municipio: </label>
-            <span name=nMunicipio id="nombreMunicipio"></span>
-            <br>
-            <label for="numeroEstacion">Número de estación: </label>
-            <span name=numeroEstacion id="numero"></span>
-            <br>
-            <label for="start">Seleccione la fecha deseada:</label>
-            <input type="date" id="start" name="trip-start"
-                   value="2020-01-01"
-                   min="2020-01-01" max="2020-08-31">
-            <button type="button" onClick="tmp()">Buscar</button>
-        </div>
-        <br>
-        <div class="centrado">
-            <div class="cuadro">
+            <div id="muestra" class="centrado" style="display: none">
+                <div class="cuadro">
+
+                    <h4 for="fecha">Muestra recogida el: </h4>
+                    <span name=nfecha id="fecha"></span>
+
                     Elemento 1: Acido sulfurico <br>
                     Elemento 1: Acido sulfurico <br>
                     Elemento 1: Acido sulfurico <br>
                     Elemento 1: Acido sulfurico <br>
                     Elemento 1: Acido sulfurico <br>
+                </div>
             </div>
         </div>
     </body>
