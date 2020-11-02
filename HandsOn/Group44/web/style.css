@@ -6,15 +6,21 @@
 
 .cuadro {
   border-style:solid;
-  border-color:#287EC7;
+  border-color:#67dab6;
   text-align: center;
-  padding:20;
-  margin: 20;
+  padding:10;
+  margin: 10;
   float: center;
   box-sizing: content-box;
-  width: 50%;
+  width: 20%;
 }
 
 .centrado {
   text-align: center;
 }
+
+.container{
+  font-family: Helvetica;
+  margin: 20;  
+}
+
