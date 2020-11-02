@@ -24,6 +24,7 @@ mappings:
     po:
       - [a, ontologies:district]
       - [district:hasSpecies,specie:$(NOMBRE_ESPECIE)~iri]
+      - [owl:sameAs,$(wikidata:Especie)~iri]
       - [species:hasUnits,$(Num_Unidades)]
       - [district:hasId,$(Num_Distrito)]
       - [district:hasName,$(NombreDistritoURI)]

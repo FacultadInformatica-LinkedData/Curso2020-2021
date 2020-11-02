@@ -9,12 +9,12 @@ map:map_triplesmap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "triplesmap1";
     rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5.
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6.
 map:map_triplesmap2_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "triplesmap2";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15.
+    rr:predicateObjectMap map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
@@ -22,79 +22,84 @@ map:om_1 a rr:ObjectMap;
     rr:template "http://api.zonasverdesmadrid.com/resources/species/{NOMBRE_ESPECIE}";
     rr:termType rr:IRI.
 map:om_10 a rr:ObjectMap;
-    rml:reference "RecienPlantado";
+    rml:reference "PerimetroMedio";
     rr:termType rr:Literal.
 map:om_11 a rr:ObjectMap;
-    rml:reference "Joven";
+    rml:reference "RecienPlantado";
     rr:termType rr:Literal.
 map:om_12 a rr:ObjectMap;
-    rml:reference "Maduro";
+    rml:reference "Joven";
     rr:termType rr:Literal.
 map:om_13 a rr:ObjectMap;
-    rml:reference "Viejo";
+    rml:reference "Maduro";
     rr:termType rr:Literal.
 map:om_14 a rr:ObjectMap;
-    rml:reference "Otros";
+    rml:reference "Viejo";
     rr:termType rr:Literal.
 map:om_15 a rr:ObjectMap;
+    rml:reference "Otros";
+    rr:termType rr:Literal.
+map:om_16 a rr:ObjectMap;
     rml:reference "wikidata:Distrito";
     rr:termType rr:IRI.
 map:om_2 a rr:ObjectMap;
+    rml:reference "wikidata:Especie";
+    rr:termType rr:IRI.
+map:om_3 a rr:ObjectMap;
     rml:reference "Num_Unidades";
     rr:termType rr:Literal.
-map:om_3 a rr:ObjectMap;
+map:om_4 a rr:ObjectMap;
     rml:reference "Num_Distrito";
     rr:termType rr:Literal.
-map:om_4 a rr:ObjectMap;
+map:om_5 a rr:ObjectMap;
     rml:reference "NombreDistritoURI";
     rr:termType rr:Literal.
-map:om_5 a rr:ObjectMap;
+map:om_6 a rr:ObjectMap;
     rml:reference "wikidata:Distrito";
     rr:termType rr:IRI.
-map:om_6 a rr:ObjectMap;
+map:om_7 a rr:ObjectMap;
     rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
-map:om_7 a rr:ObjectMap;
+map:om_8 a rr:ObjectMap;
     rml:reference "TotalArboles";
     rr:termType rr:Literal.
-map:om_8 a rr:ObjectMap;
-    rml:reference "AlturaMedia";
-    rr:termType rr:Literal.
 map:om_9 a rr:ObjectMap;
-    rml:reference "PerimetroMedio";
+    rml:reference "AlturaMedia";
     rr:termType rr:Literal.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
     rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasSpecies>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage>.
 map:pm_11 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasJustPlanted>.
 map:pm_12 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasYoung>.
 map:pm_13 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasMature>.
 map:pm_14 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOld>.
 map:pm_15 a rr:PredicateMap;
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers>.
+map:pm_16 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/species#hasUnits>.
-map:pm_3 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId>.
-map:pm_4 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName>.
-map:pm_5 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+map:pm_3 a rr:PredicateMap;
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/species#hasUnits>.
+map:pm_4 a rr:PredicateMap;
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId>.
+map:pm_5 a rr:PredicateMap;
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasName>.
 map:pm_6 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_7 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal>.
+    rr:constant rdf:type.
 map:pm_8 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasTotal>.
 map:pm_9 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasPerimeterAverage>.
+    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasHeightAverage>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -119,6 +124,9 @@ map:pom_14 a rr:PredicateObjectMap;
 map:pom_15 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_15;
     rr:objectMap map:om_15.
+map:pom_16 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_16;
+    rr:objectMap map:om_16.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
