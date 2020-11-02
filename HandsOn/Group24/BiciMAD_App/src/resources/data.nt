@@ -736,7 +736,6 @@
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/090%20ampliacion> <http://www.semanticweb.org/bicimad/properties#has_address> <http://www.semanticweb.org/bicimad/classes/Address/Calle%20De%20Goya%2C20>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Bike_Station".
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/091> <http://www.semanticweb.org/bicimad/properties#bs_id> "091"^^<http://www.w3.org/2001/XMLSchema#string>.
-<http://www.semanticweb.org/bicimad/classes/Bike_Station/091> <http://www.semanticweb.org/bicimad/properties#position_x> "442417.66"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/091> <http://www.semanticweb.org/bicimad/properties#position_y> "4475274.35"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/091> <http://www.semanticweb.org/bicimad/properties#spots> "24"^^<http://www.w3.org/2001/XMLSchema#integer>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/091> <http://www.semanticweb.org/bicimad/properties#longitude> "-3.6788203"^^<http://www.w3.org/2001/XMLSchema#float>.
@@ -1167,7 +1166,7 @@
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140> <http://www.semanticweb.org/bicimad/properties#latitude> "40.438628"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140> <http://www.semanticweb.org/bicimad/properties#has_address> <http://www.semanticweb.org/bicimad/classes/Address/Calle%20De%20Velazquez%2C134>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "http://www.semanticweb.org/bicimad/classes/Bike_Station".
-<http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#bs_id> "140 ampliación"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#bs_id> "140 ampliaciï¿½n"^^<http://www.w3.org/2001/XMLSchema#string>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#position_x> "442081.16"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#position_y> "4476654.37"^^<http://www.w3.org/2001/XMLSchema#float>.
 <http://www.semanticweb.org/bicimad/classes/Bike_Station/140%20ampliaci%C3%B3n> <http://www.semanticweb.org/bicimad/properties#spots> "3"^^<http://www.w3.org/2001/XMLSchema#integer>.

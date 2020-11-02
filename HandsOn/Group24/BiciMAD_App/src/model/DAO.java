@@ -23,7 +23,7 @@ public class DAO {
     public DAO(){
         // Read the data and save the graph
 	Model model = ModelFactory.createDefaultModel();
-	InputStream in = FileManager.get().open("data/data.nt");
+	InputStream in = FileManager.get().open("src/resources/data.nt");
 	model.read(in, null, "N-TRIPLES");
         this.model = model;
     }
