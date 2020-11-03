@@ -5,13 +5,15 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:jc_0 rr:child "DISTRITO_LINK";
+map:jc_0 rr:child "ESTACION_ID";
+    rr:parent "PUNTO_MUESTREO".
+map:jc_1 rr:child "DISTRITO_LINK";
     rr:parent "DISTRITO_LINK".
-map:jc_1 rr:child "DIRECCION_ID";
+map:jc_2 rr:child "DIRECCION_ID";
     rr:parent "DIRECCION_ID".
-map:jc_2 rr:child "MAGNITUD";
+map:jc_3 rr:child "MAGNITUD";
     rr:parent "MAGNITUD".
-map:jc_3 rr:child "DIRECCION_LINK";
+map:jc_4 rr:child "DIRECCION_LINK";
     rr:parent "DIRECCION_LINK".
 map:map_TriplesMap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
@@ -22,28 +24,29 @@ map:map_TriplesMap2_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "TriplesMap2";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13.
+    rr:predicateObjectMap map:pom_9, map:pom_10, map:pom_11, map:pom_12.
 map:map_TriplesMap3_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "TriplesMap3";
     rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20.
+    rr:predicateObjectMap map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19.
 map:map_TriplesMap4_0 rml:logicalSource map:source_3;
     a rr:TriplesMap;
     rdfs:label "TriplesMap4";
     rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25.
+    rr:predicateObjectMap map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24.
 map:map_TriplesMap5_0 rml:logicalSource map:source_4;
     a rr:TriplesMap;
     rdfs:label "TriplesMap5";
     rr:subjectMap map:s_4;
-    rr:predicateObjectMap map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31.
+    rr:predicateObjectMap map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30.
 map:om_0 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/group16/ontologies/air-quality#Station";
+    rr:constant "https://w3id.org/saref#Sensor";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
-    rr:constant "https://schema.org/Place";
-    rr:termType rr:IRI.
+    rml:reference "ESTACION_ID";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_10 a rr:ObjectMap;
     rml:reference "FECHA";
     rr:termType rr:Literal;
@@ -53,165 +56,159 @@ map:om_11 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
 map:om_12 a rr:ObjectMap;
-    rr:template "http://www.semanticweb.org/group16/air-quality/resource/{PUNTO_MUESTREO}";
-    rr:termType rr:IRI.
-map:om_13 a rr:ObjectMap;
     rr:parentTriplesMap map:map_TriplesMap3_0;
-    rr:joinCondition map:jc_2.
-map:om_14 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/group16/ontologies/air-quality#Magnitude";
+    rr:joinCondition map:jc_3.
+map:om_13 a rr:ObjectMap;
+    rr:constant "https://w3id.org/saref#Property";
     rr:termType rr:IRI.
-map:om_15 a rr:ObjectMap;
+map:om_14 a rr:ObjectMap;
     rml:reference "MAGNITUD";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_16 a rr:ObjectMap;
+map:om_15 a rr:ObjectMap;
     rml:reference "NOTACION";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_17 a rr:ObjectMap;
+map:om_16 a rr:ObjectMap;
     rml:reference "RESUMEN";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_18 a rr:ObjectMap;
+map:om_17 a rr:ObjectMap;
     rml:reference "WIKIDATA_ID";
     rr:termType rr:IRI.
-map:om_19 a rr:ObjectMap;
+map:om_18 a rr:ObjectMap;
     rml:reference "NAME";
     rr:termType rr:Literal;
     rr:language "en".
-map:om_2 a rr:ObjectMap;
-    rml:reference "ESTACION_ID";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_20 a rr:ObjectMap;
+map:om_19 a rr:ObjectMap;
     rml:reference "NOMBRE";
     rr:termType rr:Literal;
     rr:language "es".
-map:om_21 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/group16/ontologies/air-quality#District";
-    rr:termType rr:IRI.
-map:om_22 a rr:ObjectMap;
-    rr:constant "https://schema.org/Place";
-    rr:termType rr:IRI.
-map:om_23 a rr:ObjectMap;
-    rml:reference "DISTRITO_LINK";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_24 a rr:ObjectMap;
-    rml:reference "DISTRITO_ID";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_25 a rr:ObjectMap;
-    rml:reference "WIKIDATA_DISTRITO_ID";
-    rr:termType rr:IRI.
-map:om_26 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/group16/ontologies/air-quality#Street";
-    rr:termType rr:IRI.
-map:om_27 a rr:ObjectMap;
-    rr:constant "https://schema.org/Place";
-    rr:termType rr:IRI.
-map:om_28 a rr:ObjectMap;
-    rml:reference "DIRECCION_LINK";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_29 a rr:ObjectMap;
-    rml:reference "DIRECCION_ID";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_3 a rr:ObjectMap;
+map:om_2 a rr:ObjectMap;
     rml:reference "NOMBRE";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_30 a rr:ObjectMap;
+map:om_20 a rr:ObjectMap;
+    rr:constant "http://dbpedia.org/ontology#District";
+    rr:termType rr:IRI.
+map:om_21 a rr:ObjectMap;
+    rr:constant "https://schema.org/Place";
+    rr:termType rr:IRI.
+map:om_22 a rr:ObjectMap;
+    rml:reference "DISTRITO_LINK";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_23 a rr:ObjectMap;
+    rml:reference "DISTRITO_ID";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+map:om_24 a rr:ObjectMap;
+    rml:reference "WIKIDATA_DISTRITO_ID";
+    rr:termType rr:IRI.
+map:om_25 a rr:ObjectMap;
+    rr:constant "http://dbpedia.org/ontology#Street";
+    rr:termType rr:IRI.
+map:om_26 a rr:ObjectMap;
+    rr:constant "https://schema.org/Place";
+    rr:termType rr:IRI.
+map:om_27 a rr:ObjectMap;
+    rml:reference "DIRECCION_LINK";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_28 a rr:ObjectMap;
+    rml:reference "DIRECCION_ID";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+map:om_29 a rr:ObjectMap;
     rml:reference "WIKIDATA_DIRECCION_ID";
     rr:termType rr:IRI.
-map:om_31 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_TriplesMap4_0;
-    rr:joinCondition map:jc_3.
-map:om_4 a rr:ObjectMap;
+map:om_3 a rr:ObjectMap;
     rml:reference "DIRECCION";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_5 a rr:ObjectMap;
+map:om_30 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_TriplesMap4_0;
+    rr:joinCondition map:jc_4.
+map:om_4 a rr:ObjectMap;
     rml:reference "LATITUD";
     rr:termType rr:Literal;
     rr:datatype <http://www.schema.org#Number>.
-map:om_6 a rr:ObjectMap;
+map:om_5 a rr:ObjectMap;
     rml:reference "LONGITUD";
     rr:termType rr:Literal;
     rr:datatype <http://www.schema.org#Number>.
+map:om_6 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_TriplesMap2_0;
+    rr:joinCondition map:jc_0.
 map:om_7 a rr:ObjectMap;
     rr:parentTriplesMap map:map_TriplesMap4_0;
-    rr:joinCondition map:jc_0.
+    rr:joinCondition map:jc_1.
 map:om_8 a rr:ObjectMap;
     rr:parentTriplesMap map:map_TriplesMap5_0;
-    rr:joinCondition map:jc_1.
+    rr:joinCondition map:jc_2.
 map:om_9 a rr:ObjectMap;
     rr:constant "http://www.semanticweb.org/group16/ontologies/air-quality#Measurement";
     rr:termType rr:IRI.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
-    rr:constant rdfs:subClassOf.
+    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#sensorCode>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#dateOfMeasure>.
+    rr:constant <https://w3id.org/saref#hasTimeStamp>.
 map:pm_11 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measureValue>.
+    rr:constant <https://w3id.org/saref#hasValue>.
 map:pm_12 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measuredAt>.
+    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measuresProperty>.
 map:pm_13 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measuredMagnitude>.
-map:pm_14 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_14 a rr:PredicateMap;
+    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#propertyCode>.
 map:pm_15 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measureCode>.
+    rr:constant <http://dbpedia.org/ontology#formula>.
 map:pm_16 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#measureNotation>.
-map:pm_17 a rr:PredicateMap;
     rr:constant rdfs:comment.
-map:pm_18 a rr:PredicateMap;
+map:pm_17 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+map:pm_18 a rr:PredicateMap;
+    rr:constant rdfs:label.
 map:pm_19 a rr:PredicateMap;
     rr:constant rdfs:label.
 map:pm_2 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#stationCode>.
+    rr:constant rdfs:label.
 map:pm_20 a rr:PredicateMap;
-    rr:constant rdfs:label.
+    rr:constant rdf:type.
 map:pm_21 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant rdfs:subClassOf.
 map:pm_22 a rr:PredicateMap;
-    rr:constant rdfs:subClassOf.
+    rr:constant rdfs:label.
 map:pm_23 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_24 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#districtID>.
+map:pm_24 a rr:PredicateMap;
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_25 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_26 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_27 a rr:PredicateMap;
+map:pm_26 a rr:PredicateMap;
     rr:constant rdfs:subClassOf.
+map:pm_27 a rr:PredicateMap;
+    rr:constant rdfs:label.
 map:pm_28 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_29 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#streetID>.
-map:pm_3 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_30 a rr:PredicateMap;
+map:pm_29 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_31 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#inDistrict>.
-map:pm_4 a rr:PredicateMap;
+map:pm_3 a rr:PredicateMap;
     rr:constant <http://www.schema.org#address>.
-map:pm_5 a rr:PredicateMap;
+map:pm_30 a rr:PredicateMap;
+    rr:constant <http://www.geonames.org/ontology#locatedIn>.
+map:pm_4 a rr:PredicateMap;
     rr:constant <http://www.schema.org#latitude>.
-map:pm_6 a rr:PredicateMap;
+map:pm_5 a rr:PredicateMap;
     rr:constant <http://www.schema.org#longitude>.
+map:pm_6 a rr:PredicateMap;
+    rr:constant <https://w3id.org/saref#makesMeasurement>.
 map:pm_7 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#inDistrict>.
+    rr:constant <http://www.geonames.org/ontology#locatedIn>.
 map:pm_8 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/group16/ontologies/air-quality#inStreet>.
+    rr:constant <http://www.geonames.org/ontology#locatedIn>.
 map:pm_9 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pom_0 a rr:PredicateObjectMap;
@@ -289,9 +286,6 @@ map:pom_3 a rr:PredicateObjectMap;
 map:pom_30 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_30;
     rr:objectMap map:om_30.
-map:pom_31 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_31;
-    rr:objectMap map:om_31.
 map:pom_4 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_4;
     rr:objectMap map:om_4.

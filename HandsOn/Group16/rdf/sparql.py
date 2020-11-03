@@ -4,13 +4,16 @@
     SPARQL queries for checking WikiData liking
 """
 
-data_storage = "rdf/output-with-links.ttl" 
+data_storage = "rdf/output-with-links.nt" 
 
 "Data loading and graph building"
 
+import pandas as pd
+import requests
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS, OWL
 from rdflib.plugins.sparql import prepareQuery
+from collections import OrderedDict
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#"), override=False)
 g.parse(data_storage, format="nt")
@@ -208,3 +211,35 @@ q9 = prepareQuery('''
 
 for s in g.query(q9):
     print(s.Measure.toPython())
+
+# List some features extracted from Wikidata datasource
+
+print("------- District features from Wikidata")
+
+url = 'https://query.wikidata.org/sparql'
+q10 = """
+    SELECT DISTINCT
+        ?item ?itemLabel ?population ?area ?image
+    WHERE {
+        ?item wdt:P31 wd:Q3032114 .
+        ?item wdt:P1082 ?population .
+        ?item wdt:P2046 ?area .
+        ?item wdt:P18 ?image .
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }
+    """
+r = requests.get(url, params = {'format': 'json', 'query': q10})
+data = r.json()
+
+districts = []
+for item in data['results']['bindings']:
+    districts.append(OrderedDict({'districtURI': item['item']['value'],
+                                 'districtName': item['itemLabel']['value'],
+                                 'population': item['population']['value'],
+                                 'area': item['area']['value'],
+                                 'image': item['image']['value'],
+    }))
+df = pd.DataFrame(districts)
+df.set_index("districtURI")
+df = df.astype({'population': int, 'area': float})
+print(df.head())
