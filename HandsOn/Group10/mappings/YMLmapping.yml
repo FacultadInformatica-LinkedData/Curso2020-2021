@@ -18,7 +18,7 @@ mappings:
           function: equal
           parameters:
            - [str1, $(Indicator Code)]
-           - [str2, $(Indictaro Code)]
+           - [str2, $(Indicator Code)]
                 
           
   Indicators:
