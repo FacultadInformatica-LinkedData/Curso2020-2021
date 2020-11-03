@@ -8,48 +8,40 @@ prefixes:
   owl: http://www.w3.org/2002/07/owl#
 
 mappings:
-  MUNICIPIO:
+  Municipio:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
-    s: res:MUNICIPIO/$(CODIGOMUNICIPIO)
+    s: res:Municipio/$(CodigoMunicipio)
     po:
-      - [a, ont:MUNICIPIO]
-      - [ont:tieneCodigo,$(CODIGOMUNICIPIO)]
-      - [ont:tieneDireccion,$(DIRECCION)]
-      - [owl:sameAs,$(wikidata:MUNICIPIO)~iri]
-
-  OBJECTID:
-    sources:
-      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
-    s: res:OBJECTID/$(OBJECTID)
-    po:
-      - [a, ont:OBJECTID]
-      - [ont:tieneNombre,$(DENOMINACION)]
+      - [a, ont:Municipio]
+      - [ont:tieneCodigo,$(CodigoMunicipio)]
+      - [ont:tieneDireccion,$(Direccion)]
+      - [owl:sameAs,$(wikidata:Municipio)~iri]
       
-  DENOMINACION:
+  Denominacion:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
-    s: res:$(OBJECTID)/$(DENOMINACION)
+    s: res:$(Denominacion)
     po:
-      - [a, ont:DENOMINACION]
-      - [ont:tieneLinea,$(NUMEROLINEAUSUARIO)]
-      - [ont:tieneTarifa,$(CORONATARIFARIA)]
-      - [owl:sameAs,$(wikidata:DENOMINACION)~iri]
+      - [a, ont:Denominacion]
+      - [ont:tieneLinea,$(NumeroLineaUsuario)]
+      - [ont:tieneTarifa,$(CoronaTarifaria)]
+      - [owl:sameAs,$(wikidata:Denominacion)~iri]
       
-  NUMEROLINEAUSUARIO:
+  NumeroLineaUsuario:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
-    s: res:$(OBJECTID)/$(DENOMINACION)/$(NUMEROLINEAUSUARIO)
+    s: res:$(Denominacion)/$(NumeroLineaUsuario)
     po:
-      - [a, ont:NUMEROLINEAUSUARIO]
-      - [ont:tieneSentido,$(SENTIDO)]  
-      - [owl:sameAs,$(wikidata:NUMEROLINEAUSUARIO)~iri]
+      - [a, ont:NumeroLineaUsuario]
+      - [ont:tieneSentido,$(Sentido)]  
+      - [owl:sameAs,$(wikidata:NumeroLineaUsuario)~iri]
       
-  SENTIDO:
+  Sentido:
     sources:
       - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
-    s: res:$(OBJECTID)/$(DENOMINACION)/$(NUMEROLINEAUSUARIO)/$(SENTIDO)
+    s: res:$(Denominacion)/$(NumeroLineaUsuario)/$(Sentido)
     po:
-      - [a, ont:SENTIDO]
-      - [ont:tieneLongitud,$(LONGITUDTRAMOANTERIOR)]  
-      - [ont:tieneVelocidad,$(VELOCIDADTRAMOANTERIOR)]
+      - [a, ont:Sentido]
+      - [ont:tieneLongitud,$(LongitudTramoAnterior)]  
+      - [ont:tieneVelocidad,$(VelocidadTramoAnterior)]
