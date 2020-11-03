@@ -20,8 +20,11 @@ class QueryMaker:
         self.order = ""
         self.paramsList = []
         if not(hasattr(self, "graph")):
-            self.graph = Graph()
-            self.graph.parse("rdf/output-with-links.nt", format="nt")
+            self.normalGraph = Graph()
+            self.appGraph = Graph()
+            self.normalGraph.parse("rdf/output-with-links.nt", format="nt")
+            self.appGraph.parse("rdf/output-app-graph.nt", format="nt")
+            self.graph = self.normalGraph
         # END IF
     # END FUNCTION
 
@@ -171,6 +174,18 @@ class QueryMaker:
     # END FUNCTION
 
 
+    # toggleGraphMode(bool) -> ()
+    #   On true, it builds the graph corresponding to the app graph dataset,
+    #   on false, it gets back to the usual one.
+    def toggleGraphMode(self, graphmode : bool):
+        if graphmode:
+            self.graph = self.appGraph
+        else:
+            self.graph = self.normalGraph
+        # END IF
+    # END FUNCTION
+
+
     # [private function] getNamespaces() -> Dictionary
     #   Returns the dictionary with the namespaces used in the current query
     #   example: getNamespaces() -> {"ns":ns, "rdfs":RDFS, "rdf":RDF}
@@ -298,6 +313,16 @@ def test_cleanQuery():
     assert qm.paramsList == [] and qm.query == ""
 # END FUNCTION
 
+# Test method toggleGraphMode
+def test_toggleGraphMode():
+    qm = QueryMaker()
+    assert qm.graph == qm.normalGraph
+    qm.toggleGraphMode(True)
+    assert qm.graph == qm.appGraph
+    qm.toggleGraphMode(False)
+    assert qm.graph == qm.normalGraph
+# END FUNCTION
+
 # Main entrypoint, used for tests
 if __name__ == "__main__":
     test_addSelect()
@@ -314,4 +339,6 @@ if __name__ == "__main__":
     print("appQuery method test passed")
     test_cleanQuery()
     print("cleanQuery method test passed")
+    test_toggleGraphMode()
+    print("toggleGraphMode method test passed")
 # END MAIN

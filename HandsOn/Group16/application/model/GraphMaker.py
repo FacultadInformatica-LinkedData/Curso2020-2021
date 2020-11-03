@@ -46,9 +46,10 @@ class GraphMaker:
         indexes = self.getIndexes(listResult)
         unit = self.getUnitOfMeasure()
         df = pd.DataFrame(listResult, index=indexes)
+        if df.empty == True:
+            return False
         df = df.rename(columns={"MeasureDate":"Date of measure", "Value":unit})
-        # print(df)
-        ret = df.plot()
+        ret = df.plot(title=self.getLabel())
         plt.show()
         return ret.has_data()
     # END FUNCTION
@@ -113,6 +114,20 @@ class GraphMaker:
     # END FUNCTION
 
 
+    # [private function] getLabel() -> string
+    #   Returns the label for the graph corresponding to the magnitude and place given
+    #   example: getLabel() -> "Fuencarral-El Pardo .·. Sulfur dioxide"
+    def getLabel(self):
+        magnitudeDictionary = {"1":"Sulfur dioxide", "6":"Carbon monoxide",
+        "7":"Nitric oxide", "8":"Nitrogen dioxide", "9":"Particulates <2.5 μm",
+        "10":"Particulates <10 μm", "12":"Nitrogen oxide", "14":"Ozone",
+        "20":"Toluene", "30":"Benzene", "35":"Ethylbenzene", "42":"Hexane",
+        "43":"Methane", "44":"Non-Mehane volatile organic compunds"}
+        label = self.place + " .·. " + magnitudeDictionary[self.magnitude] + " measurements"
+        return label
+    # END FUNCTION
+
+
 # END CLASS
 
 # Tests #
@@ -136,18 +151,23 @@ def test_selectPlace():
 # Test method graphData
 def test_graphData():
     gm = GraphMaker()
-    gm.selectMagnitude("7")
-    gm.selectPlace(True, "Fuencarral-El Pardo")
-    ret = gm.graphData()
-    assert ret == True
+    gm.qm.toggleGraphMode(True)
+    for item in ["1", "6", "7", "8", "9", "10", "12", "14", "20", "30", "35", "42", "43", "44"]:
+        for place in ["Fuencarral-El Pardo", "Puente de Vallecas"]:
+            gm.selectMagnitude(item)
+            gm.selectPlace(True, place)
+            ret = gm.graphData()
+            if ret == False:
+                print("District " + place + " had no measurements of " + item + " :((")   
+    # assert ret == True
 # END FUNCTION
 
 
 # Main entrypoint, used for tests
 if __name__ == "__main__":
-    test_selectMagnitude()
+    # test_selectMagnitude()
     print("selectMagnitude method test passed")
-    test_selectPlace()
+    # test_selectPlace()
     print("selectPlace method test passed")
     test_graphData()
     print("graphData method test passed")

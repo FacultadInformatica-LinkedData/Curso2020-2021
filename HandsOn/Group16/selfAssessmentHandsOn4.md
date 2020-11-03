@@ -41,3 +41,5 @@
 * Included the _measuredMagnitude_ property to link both Measurement and Magnitude entities.
 * Included Wikidata links with _owl:sameAs_ properties.
 * Included properties _rdfs:subClassOf_ that were written in the ontology but not in the mappings.
+### v5
+* Rewrite mappings with missing property _inStreet_.
