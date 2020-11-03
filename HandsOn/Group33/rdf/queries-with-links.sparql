@@ -10,7 +10,7 @@ PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
 SELECT DISTINCT  ?district ?district_wikidata
 WHERE
   { 
-    ?district_csv
+    ?district_csv	rdf:type	ont:Distrito ;
               rdfs:label     ?district ;
               owl:sameAs     ?district_wikidata
   }
@@ -21,7 +21,7 @@ WHERE
 SELECT DISTINCT  ?operador ?district ?district_wikidata
 WHERE
   { 
-    ?operador	rdf:type	ont:Operador ;
+    ?operador	rdf:type	ont:Puesto ;
     			    ont:tieneOperador	?district_csv .
 
     ?district_csv	
@@ -35,8 +35,8 @@ WHERE
 SELECT COUNT(DISTINCT ?puesto) ?puesto ?district ?district_wikidata
 WHERE
   { 
-    ?puesto		rdf:type	ont:PuestoRecarga ;
-    			    ont:tienePuesto	?district_csv .
+    ?puesto		rdf:type	ont:Puesto ;
+    			    ont:tieneDistrito	?district_csv .
 
     ?district_csv	
     			    rdfs:label	?district ;

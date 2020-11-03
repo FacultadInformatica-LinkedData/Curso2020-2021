@@ -94,7 +94,7 @@
 #################### CLASES ####################
 
 
-###  http://semantic.web.es/group33/ontology/RecargaMadrid/PuestoRecarga
+###  http://semantic.web.es/group33/ontology/RecargaMadrid/Puesto
 :Puesto rdf:type owl:Class ;
 		rdfs:label "Puesto"@es .
 
