@@ -1,0 +1,12 @@
+PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX owl: http://www.w3.org/2002/07/owl#
+PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+PREFIX ns: http://linkeddata.es/group15/ontology/studyCentersMadrid#
+
+#Query for retrieving the links of all the neighbourhoods in Madrid
+SELECT DISTINCT ?city ?linkWikidata
+	WHERE {
+		?city rdf:type ns:City.
+		?city owl:sameAs ?linkWikidata.
+	}
+
