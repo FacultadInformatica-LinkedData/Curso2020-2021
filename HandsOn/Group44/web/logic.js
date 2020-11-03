@@ -44,6 +44,18 @@ function map() {
 
 function loadInfo(param){
 
+//    var query = [
+//        "PREFIX dbpedia2: <http://dbpedia.org/resource/>",
+//        "PREFIX Abs: <http://dbpedia.org/ontology/>",
+//        "SELECT ?abstract",
+//        "WHERE {",
+//        "?s dbpedia2:Civil_engineeringe\"@en;",
+//        "Abs:abstract ?abstract",
+//        "}"
+//    ].join(" ");
+//
+//    var queryUrl = url+"?query="+ encodeURIComponent(query) +"&format=json";
+
     var x = document.getElementById("infoEstacion");
     if (x.style.display === "none") {
         x.style.display = "block";
