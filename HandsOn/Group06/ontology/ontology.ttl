@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix prop: <http://contenedoresdemadrid.com/Properties#>.
-@prefix class: <http://contenedoresdemadrid.com/Classes#>.
+@prefix class: <http://contenedoresdemadrid.com/Classes/>.
 #@prefix indiv: <http://contenedoresdemadrid.com/IndTerms#>.
 
 <http://contenedoresdemadrid.com/> rdf:type owl:Ontology.
@@ -22,7 +22,11 @@ prop:locatedDistrict rdf:type owl:ObjectProperty;
 
 prop:typeResidue rdf:type owl:ObjectProperty;
                  rdfs:domain class:ReciclyngBin;
-                 rdfs:range class:TypeResidue.
+                 rdfs:range class:Residue.
+
+prop:hasAddress rdf:type owl:ObjectProperty;
+                rdfs:domain class:ReciclyngBin;
+                rdfs:range class:Address.
 
 ################# Data properties #################
 
@@ -46,17 +50,17 @@ prop:streetName rdf:type owl:DatatypeProperty;
                 rdfs:domain class:Street;
                 rdfs:range xsd:string.
 
-prop:streetNum rdf:type owl:DatatypeProperty;
-               rdfs:domain class:Street;
-               rdfs:range xsd:int.
-
 prop:districtName rdf:type owl:DatatypeProperty;
                   rdfs:domain class:District;
                   rdfs:range xsd:string.
 
 prop:type rdf:type owl:DatatypeProperty;
-          rdfs:domain class:TypeResidue;
+          rdfs:domain class:Residue;
           rdfs:range xsd:string.
+
+prop:addressName rdf:type owl:DatatypeProperty;
+                 rdfs:domain class:Address;
+                 rdfs:range xsd:string.
 
 ##################### Classes #####################
 
@@ -66,8 +70,11 @@ class:Street rdf:type owl:Class.
 # http://contenedoresdemadrid.com/District
 class:District rdf:type owl:Class.
 
-# http://contenedoresdemadrid.com/TypeResidue
-class:TypeResidue rdf:type owl:Class.
+# http://contenedoresdemadrid.com/Residue
+class:Residue rdf:type owl:Class.
 
 # http://contenedoresdemadrid.com/ReciclyngBin
 class:ReciclyngBin rdf:type owl:Class.
+
+# http://contenedoresdemadrid.com/Address
+class:Address rdf:type owl:Class.
