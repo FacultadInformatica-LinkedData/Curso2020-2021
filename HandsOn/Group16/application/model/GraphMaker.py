@@ -49,9 +49,11 @@ class GraphMaker:
         if df.empty == True:
             return False
         df = df.rename(columns={"MeasureDate":"Date of measure", "Value":unit})
+        return df
+        
         ret = df.plot(title=self.getLabel())
         plt.show()
-        return ret.has_data()
+        return True
     # END FUNCTION
 
 
@@ -153,12 +155,20 @@ def test_graphData():
     gm = GraphMaker()
     gm.qm.toggleGraphMode(True)
     for item in ["1", "6", "7", "8", "9", "10", "12", "14", "20", "30", "35", "42", "43", "44"]:
+        dfs = []
         for place in ["Fuencarral-El Pardo", "Puente de Vallecas"]:
             gm.selectMagnitude(item)
             gm.selectPlace(True, place)
-            ret = gm.graphData()
-            if ret == False:
-                print("District " + place + " had no measurements of " + item + " :((")   
+            df = gm.graphData()
+            dfs.append(df)
+            # ret = gm.graphData()
+            # if ret == False:
+            #    print("District " + place + " had no measurements of " + item + " :((") 
+        fig = plt.figure("Measurements graphics")
+        print(dfs[0])
+        print(dfs[1])
+        plt.plot(dfs[0], dfs[1])
+        plt.show()  
     # assert ret == True
 # END FUNCTION
 
@@ -166,9 +176,9 @@ def test_graphData():
 # Main entrypoint, used for tests
 if __name__ == "__main__":
     # test_selectMagnitude()
-    print("selectMagnitude method test passed")
+    # print("selectMagnitude method test passed")
     # test_selectPlace()
-    print("selectPlace method test passed")
+    # print("selectPlace method test passed")
     test_graphData()
     print("graphData method test passed")
 # END MAIN
