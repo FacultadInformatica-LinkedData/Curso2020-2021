@@ -1,0 +1,177 @@
+<http://findyourparking.es/lcc/ontology/Parking#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasAddress
+<http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasCity
+<http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#City> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://findyourparking.es/lcc/ontology/Parking#City> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasDistrict
+<http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#District> .
+<http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://findyourparking.es/lcc/ontology/Parking#District> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood
+<http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood> .
+<http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://www.w3.org/2000/01/rdf-schema#range> <http://findyourparking.es/lcc/ontology/Parking#Neighborhood> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasProvince
+<http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Province> .
+<http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://www.w3.org/2000/01/rdf-schema#range> <http://findyourparking.es/lcc/ontology/Parking#Province> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasAddressId
+<http://findyourparking.es/lcc/ontology/Parking#hasAddressId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasAddressId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasAddressId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasCity
+<http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasCoordX
+<http://findyourparking.es/lcc/ontology/Parking#hasCoordX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCoordX> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCoordX> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasCoordY
+<http://findyourparking.es/lcc/ontology/Parking#hasCoordY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCoordY> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasCoordY> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasDistrict
+<http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasEmail
+<http://findyourparking.es/lcc/ontology/Parking#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasId
+<http://findyourparking.es/lcc/ontology/Parking#hasId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasLatitude
+<http://findyourparking.es/lcc/ontology/Parking#hasLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasLongitude
+<http://findyourparking.es/lcc/ontology/Parking#hasLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasName
+<http://findyourparking.es/lcc/ontology/Parking#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood
+<http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasNeighborhood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasNumber
+<http://findyourparking.es/lcc/ontology/Parking#hasNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasPostalCode
+<http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasPostalCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasProvince
+<http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasProvince> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots
+<http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasPublicSlots> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots
+<http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasResidentialSlots> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasSchedule
+<http://findyourparking.es/lcc/ontology/Parking#hasSchedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasSchedule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasSchedule> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasStreet
+<http://findyourparking.es/lcc/ontology/Parking#hasStreet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasStreet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Address> .
+<http://findyourparking.es/lcc/ontology/Parking#hasStreet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasTelephone
+<http://findyourparking.es/lcc/ontology/Parking#hasTelephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasTelephone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasTelephone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots
+<http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasTotalSlots> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#hasURLMoreInfo
+<http://findyourparking.es/lcc/ontology/Parking#hasURLMoreInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://findyourparking.es/lcc/ontology/Parking#hasURLMoreInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://findyourparking.es/lcc/ontology/Parking#Parking> .
+<http://findyourparking.es/lcc/ontology/Parking#hasURLMoreInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://findyourparking.es/lcc/ontology/Parking#Address
+<http://findyourparking.es/lcc/ontology/Parking#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#City
+<http://findyourparking.es/lcc/ontology/Parking#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#District
+<http://findyourparking.es/lcc/ontology/Parking#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#Neighborhood
+<http://findyourparking.es/lcc/ontology/Parking#Neighborhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#Parking
+<http://findyourparking.es/lcc/ontology/Parking#Parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://findyourparking.es/lcc/ontology/Parking#Province
+<http://findyourparking.es/lcc/ontology/Parking#Province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
