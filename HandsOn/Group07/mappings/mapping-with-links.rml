@@ -5,94 +5,79 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:map_DENOMINACION_0 rml:logicalSource map:source_2;
+map:map_Denominacion_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
-    rdfs:label "DENOMINACION";
-    rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_6, map:pom_7, map:pom_8, map:pom_9.
-map:map_MUNICIPIO_0 rml:logicalSource map:source_0;
+    rdfs:label "Denominacion";
+    rr:subjectMap map:s_1;
+    rr:predicateObjectMap map:pom_4, map:pom_5, map:pom_6, map:pom_7.
+map:map_Municipio_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
-    rdfs:label "MUNICIPIO";
+    rdfs:label "Municipio";
     rr:subjectMap map:s_0;
     rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3.
-map:map_NUMEROLINEAUSUARIO_0 rml:logicalSource map:source_3;
+map:map_NumeroLineaUsuario_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
-    rdfs:label "NUMEROLINEAUSUARIO";
+    rdfs:label "NumeroLineaUsuario";
+    rr:subjectMap map:s_2;
+    rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10.
+map:map_Sentido_0 rml:logicalSource map:source_3;
+    a rr:TriplesMap;
+    rdfs:label "Sentido";
     rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_10, map:pom_11, map:pom_12.
-map:map_OBJECTID_0 rml:logicalSource map:source_1;
-    a rr:TriplesMap;
-    rdfs:label "OBJECTID";
-    rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_4, map:pom_5.
-map:map_SENTIDO_0 rml:logicalSource map:source_4;
-    a rr:TriplesMap;
-    rdfs:label "SENTIDO";
-    rr:subjectMap map:s_4;
-    rr:predicateObjectMap map:pom_13, map:pom_14, map:pom_15.
+    rr:predicateObjectMap map:pom_11, map:pom_12, map:pom_13.
 map:om_0 a rr:ObjectMap;
-    rr:constant "http://www.grupo07.es/ontology/MUNICIPIO";
+    rr:constant "http://www.grupo07.es/ontology/Municipio";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
-    rml:reference "CODIGOMUNICIPIO";
+    rml:reference "CodigoMunicipio";
     rr:termType rr:Literal.
 map:om_10 a rr:ObjectMap;
-    rr:constant "http://www.grupo07.es/ontology/NUMEROLINEAUSUARIO";
+    rml:reference "wikidata:NumeroLineaUsuario";
     rr:termType rr:IRI.
 map:om_11 a rr:ObjectMap;
-    rml:reference "SENTIDO";
-    rr:termType rr:Literal.
+    rr:constant "http://www.grupo07.es/ontology/Sentido";
+    rr:termType rr:IRI.
 map:om_12 a rr:ObjectMap;
-    rml:reference "wikidata:NUMEROLINEAUSUARIO";
-    rr:termType rr:IRI.
-map:om_13 a rr:ObjectMap;
-    rr:constant "http://www.grupo07.es/ontology/SENTIDO";
-    rr:termType rr:IRI.
-map:om_14 a rr:ObjectMap;
-    rml:reference "LONGITUDTRAMOANTERIOR";
+    rml:reference "LongitudTramoAnterior";
     rr:termType rr:Literal.
-map:om_15 a rr:ObjectMap;
-    rml:reference "VELOCIDADTRAMOANTERIOR";
+map:om_13 a rr:ObjectMap;
+    rml:reference "VelocidadTramoAnterior";
     rr:termType rr:Literal.
 map:om_2 a rr:ObjectMap;
-    rml:reference "DIRECCION";
+    rml:reference "Direccion";
     rr:termType rr:Literal.
 map:om_3 a rr:ObjectMap;
-    rml:reference "wikidata:MUNICIPIO";
+    rml:reference "wikidata:Municipio";
     rr:termType rr:IRI.
 map:om_4 a rr:ObjectMap;
-    rr:constant "http://www.grupo07.es/ontology/OBJECTID";
+    rr:constant "http://www.grupo07.es/ontology/Denominacion";
     rr:termType rr:IRI.
 map:om_5 a rr:ObjectMap;
-    rml:reference "DENOMINACION";
+    rml:reference "NumeroLineaUsuario";
     rr:termType rr:Literal.
 map:om_6 a rr:ObjectMap;
-    rr:constant "http://www.grupo07.es/ontology/DENOMINACION";
-    rr:termType rr:IRI.
+    rml:reference "CoronaTarifaria";
+    rr:termType rr:Literal.
 map:om_7 a rr:ObjectMap;
-    rml:reference "NUMEROLINEAUSUARIO";
-    rr:termType rr:Literal.
-map:om_8 a rr:ObjectMap;
-    rml:reference "CORONATARIFARIA";
-    rr:termType rr:Literal.
-map:om_9 a rr:ObjectMap;
-    rml:reference "wikidata:DENOMINACION";
+    rml:reference "wikidata:Denominacion";
     rr:termType rr:IRI.
+map:om_8 a rr:ObjectMap;
+    rr:constant "http://www.grupo07.es/ontology/NumeroLineaUsuario";
+    rr:termType rr:IRI.
+map:om_9 a rr:ObjectMap;
+    rml:reference "Sentido";
+    rr:termType rr:Literal.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
     rr:constant <http://www.grupo07.es/ontology/tieneCodigo>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_11 a rr:PredicateMap;
-    rr:constant <http://www.grupo07.es/ontology/tieneSentido>.
-map:pm_12 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_13 a rr:PredicateMap;
+map:pm_11 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_14 a rr:PredicateMap;
+map:pm_12 a rr:PredicateMap;
     rr:constant <http://www.grupo07.es/ontology/tieneLongitud>.
-map:pm_15 a rr:PredicateMap;
+map:pm_13 a rr:PredicateMap;
     rr:constant <http://www.grupo07.es/ontology/tieneVelocidad>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <http://www.grupo07.es/ontology/tieneDireccion>.
@@ -101,15 +86,15 @@ map:pm_3 a rr:PredicateMap;
 map:pm_4 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_5 a rr:PredicateMap;
-    rr:constant <http://www.grupo07.es/ontology/tieneNombre>.
-map:pm_6 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_7 a rr:PredicateMap;
     rr:constant <http://www.grupo07.es/ontology/tieneLinea>.
-map:pm_8 a rr:PredicateMap;
+map:pm_6 a rr:PredicateMap;
     rr:constant <http://www.grupo07.es/ontology/tieneTarifa>.
-map:pm_9 a rr:PredicateMap;
+map:pm_7 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+map:pm_8 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_9 a rr:PredicateMap;
+    rr:constant <http://www.grupo07.es/ontology/tieneSentido>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -128,12 +113,6 @@ map:pom_12 a rr:PredicateObjectMap;
 map:pom_13 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_13;
     rr:objectMap map:om_13.
-map:pom_14 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_14;
-    rr:objectMap map:om_14.
-map:pom_15 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_15;
-    rr:objectMap map:om_15.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
@@ -159,15 +138,13 @@ map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
 map:s_0 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/MUNICIPIO/{CODIGOMUNICIPIO}".
+    rr:template "http://www.grupo07.es/resource/Municipio/{CodigoMunicipio}".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/OBJECTID/{OBJECTID}".
+    rr:template "http://www.grupo07.es/resource/{Denominacion}".
 map:s_2 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/{OBJECTID}/{DENOMINACION}".
+    rr:template "http://www.grupo07.es/resource/{Denominacion}/{NumeroLineaUsuario}".
 map:s_3 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/{OBJECTID}/{DENOMINACION}/{NUMEROLINEAUSUARIO}".
-map:s_4 a rr:SubjectMap;
-    rr:template "http://www.grupo07.es/resource/{OBJECTID}/{DENOMINACION}/{NUMEROLINEAUSUARIO}/{SENTIDO}".
+    rr:template "http://www.grupo07.es/resource/{Denominacion}/{NumeroLineaUsuario}/{Sentido}".
 map:source_0 a rml:LogicalSource;
     rml:source "Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
@@ -178,8 +155,5 @@ map:source_2 a rml:LogicalSource;
     rml:source "Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_3 a rml:LogicalSource;
-    rml:source "Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-map:source_4 a rml:LogicalSource;
     rml:source "Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
