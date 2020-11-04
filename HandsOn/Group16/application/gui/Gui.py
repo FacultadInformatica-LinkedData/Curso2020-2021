@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtGui
 from PyQt5.QtCore import QFile, QTextStream, QSize
 from PyQt5.QtGui import QIcon, QPixmap, QFont
 from PyQt5.QtWidgets import QTextEdit, QLineEdit, QDialog, QStyleFactory, QComboBox, QCheckBox, QSizePolicy, QGridLayout, QApplication, QMainWindow, QStackedWidget, QMessageBox, QWidget, QHBoxLayout, QPushButton, QLabel
-
+import numpy as np
 
 class MainWindow(QMainWindow):
     
@@ -48,6 +48,7 @@ class MainWindow(QMainWindow):
         self.central_widget.addWidget(self.ds_widget)
         # Measurements
         self.ms_widget = MSWidget(self)
+        self.ms_widget.query_button.clicked.connect(self.toQuery)
         self.ms_widget.back_button.clicked.connect(self.toDS)
         self.central_widget.addWidget(self.ms_widget)
         # Model
@@ -62,17 +63,26 @@ class MainWindow(QMainWindow):
         self.maps_widget = MapsWidget(self)
         self.maps_widget.back_button.clicked.connect(self.toMain)
         self.maps_widget.st_button.clicked.connect(self.toStations)
+        self.maps_widget.dist_button.clicked.connect(self.toDistricts)
         self.central_widget.addWidget(self.maps_widget)
         # Stations
         self.st_widget = StationsWidget(self)
         self.st_widget.back_button.clicked.connect(self.toMaps)
         self.st_widget.more_button.clicked.connect(self.toStInfo)
         self.central_widget.addWidget(self.st_widget)
+        # Districts
+        self.dts_widget = DistrictsWidget(self)
+        self.dts_widget.back_button.clicked.connect(self.toMaps)
+        self.dts_widget.more_button.clicked.connect(self.toDtInfo)
+        self.central_widget.addWidget(self.dts_widget)
         # Magnitudes
         self.mg_widget = MGWidget(self)
         self.mg_widget.back_button.clicked.connect(self.toMain)
         self.central_widget.addWidget(self.mg_widget)
-        
+        # Query info
+        self.query_widget = QueryInfo(self)
+        self.query_widget.back_button.clicked.connect(self.toMS)
+        self.central_widget.addWidget(self.query_widget)
 
         # Diagram
         #self.dg_widget = DGWidget(self)
@@ -105,6 +115,10 @@ class MainWindow(QMainWindow):
         self.central_widget.setCurrentWidget(self.st_widget)
     # END FUNCTION
 
+    def toDistricts(self):
+        self.central_widget.setCurrentWidget(self.dts_widget)
+    # END FUNCTION
+
     def toMG(self):
         self.central_widget.setCurrentWidget(self.mg_widget)
     # END FUNCTION
@@ -115,6 +129,9 @@ class MainWindow(QMainWindow):
         self.dg_window = DGWindow()
         self.dg_window.show()
     # END FUNCTION
+
+    def toQuery(self):
+        self.central_widget.setCurrentWidget(self.query_widget)
 
     def toMT(self, type):
         self.mt_widget.changeText(type)
@@ -133,6 +150,15 @@ class MainWindow(QMainWindow):
         if self.station_toShow != "Empty" :
             self.central_widget.setCurrentWidget(self.stinfo_widget)
     # END FUNCTION
+
+    def toDtInfo(self):
+        self.district_toShow = self.dts_widget.district_tsAux
+        # District info
+        self.dtinfo_widget = DistrictsInfoWidget(self)
+        self.dtinfo_widget.back_button.clicked.connect(self.toDistricts)
+        self.central_widget.addWidget(self.dtinfo_widget)
+        self.central_widget.setCurrentWidget(self.dtinfo_widget)
+
 # END CLASS
 
 
@@ -233,17 +259,32 @@ class MSWidget(QWidget):
         self.date_combo = QComboBox(self)
         self.date_combo.setGeometry(250, 140, 100, 30)
         self.date_combo.setEnabled(False)
-        self.date_combo.addItems(["uno", "dos", "tres"])
+        years = list(range(2010,2021))
+        years_text = []
+        for i in range(len(years)):
+            years_text.append(str(years[i]))
+        # END
+        self.date_combo.addItems(years_text)
 
         self.date1_combo = QComboBox(self)
         self.date1_combo.setGeometry(350, 140, 100, 30)
         self.date1_combo.setEnabled(False)
-        self.date1_combo.addItems(["uno", "dos", "tres"])
+        months = list(range(1,13))
+        months_text = []
+        for i in range(len(months)):
+            months_text.append(str(months[i]))
+        # END
+        self.date1_combo.addItems(months_text)
 
         self.date2_combo = QComboBox(self)
         self.date2_combo.setGeometry(450, 140, 100, 30)
         self.date2_combo.setEnabled(False)
-        self.date2_combo.addItems(["uno", "dos", "tres"])
+        days = list(range(1,32))
+        days_text = []
+        for i in range(len(days)):
+            days_text.append(str(days[i]))
+        # END
+        self.date2_combo.addItems(days_text)
 
         ## MAGNITUDE ##
         # Magnitude check box
@@ -254,7 +295,10 @@ class MSWidget(QWidget):
         self.mg_combo = QComboBox(self)
         self.mg_combo.setGeometry(250, 200, 100, 30)
         self.mg_combo.setEnabled(False)
-        self.mg_combo.addItems(["uno", "dos", "tres"])
+        self.mg_combo.addItems(["1- SO2", "6- CO", "7- NO", "8- NO2", 
+                                   "9- PM2.5", "10- PM10", "12- NOx", "14- O3", 
+                                   "20- TOL", "30- BEN", "35- EBE", "42- TCH", 
+                                   "43- CH4", "44- NMHC"])
 
         # Query button
         self.query_button = QPushButton('QUERY', self)
@@ -314,6 +358,8 @@ class MSWidget(QWidget):
     def checkDate(self, state):
         if QtCore.Qt.Checked == state:
             self.date_combo.setEnabled(True)
+            self.date1_combo.setEnabled(True)
+            self.date2_combo.setEnabled(True)
         else:
             self.date_combo.setEnabled(False)
     # END FUNCTION
@@ -390,7 +436,7 @@ class MapsWidget(QWidget):
         # Districts button
         self.dist_button = QPushButton(self)
         self.dist_button.setGeometry(365, 90, 280, 280)
-        self.dist_button.setIcon(QIcon(os.path.join(ws_path, "../resources/districts.png")))
+        self.dist_button.setIcon(QIcon(os.path.join(ws_path, "../resources/madrid.png")))
         self.dist_button.setIconSize(QSize(200, 200))
         # Districts label
         self.dist_label = QLabel('DISTRICTS', self)
@@ -401,6 +447,96 @@ class MapsWidget(QWidget):
     # END FUNCTION
 # END CLASS
 
+
+class DistrictsInfoWidget(QWidget):
+
+    def __init__(self, parent=None):
+        QLabel.__init__(self, parent)
+        #ws_path = os.path.dirname(os.path.abspath(__file__))
+
+        self.setGeometry(0, 0, 120, 120)       
+        # Station info label
+        self.st_label = QLabel("STATION:  " + parent.district_toShow + ", " + parent.stName_toShow, self)
+        self.st_label.setGeometry(60, 60, 700, 30)
+
+        # URI label
+        self.uri_label = QLabel("URI:  ", self)
+        self.uri_label.setGeometry(170, 5, 500, 30)
+
+        # Back button
+        self.back_button = QPushButton('BACK', self)
+        self.back_button.setGeometry(30, 5, 50, 30)
+    # END FUNCTION
+# END CLASS
+
+class DistrictsWidget(QWidget):
+    def __init__(self, parent=None):
+        self.district_tsAux = "Empty"
+
+        QLabel.__init__(self, parent)
+        ws_path = os.path.dirname(os.path.abspath(__file__))
+
+        self.img_label = QLabel(self)
+        img = QPixmap(os.path.join(ws_path, "../resources/districts/distritos.png"))       
+        self.img_label.setPixmap(img)
+
+        listDt = self.getDistricts()
+
+        self.sel_combo = QComboBox(self)
+        self.sel_combo.setGeometry(500, 230, 100, 30)
+
+        districts = self.getDistricts()
+        # Select district combo box
+        self.sel_combo = QComboBox(self)
+        self.sel_combo.setGeometry(500, 230, 100, 30)
+
+        items = ["Empty"]
+        for i in range(len(districts)):
+            items.append(districts[i]["DtLabel"])
+        # END
+        self.sel_combo.addItems(items)
+
+        # Select station label
+        self.sel_label = QLabel('SELECT DISTRICT\n   ON BOX', self)
+        self.sel_label.setGeometry(510, 200, 100, 30)
+        # Select station button
+        self.sel_button = QPushButton('SELECT', self)
+        self.sel_button.setGeometry(610, 230, 50, 30)
+        self.sel_button.pressed.connect(self.selCombo)
+
+        # More info button
+        self.more_button = QPushButton('MORE INFO', self)
+        self.more_button.setGeometry(500, 270, 100, 30)
+        self.more_button.setEnabled(False)
+
+        # Back button
+        self.back_button = QPushButton('BACK', self)
+        self.back_button.setGeometry(30, 5, 50, 30)
+
+    # Recuperar los datos de los distritos por medio de los datos rdf
+    def getDistricts(self):
+        qm = QueryMaker()
+        qm.addSelect("?DtLabel ?dtID")
+        qm.addParam("?District", "rdf:type", "ns:District")
+        qm.addParam("?District", "rdfs:label", "?DtLabel")
+        qm.addOrder("asc(?dtID)")
+        listStations = qm.executeQuery()
+        return listStations
+    # END FUNCTION
+
+    def selCombo(self):
+        ws_path = os.path.dirname(os.path.abspath(__file__))
+        district = self.sel_combo.currentText()
+        if district == "Empty":
+            self.more_button.setEnabled(False)
+            self.img_label.setPixmap(QPixmap(os.path.join(ws_path, "../resources/districts/distritos.png")))
+        else:
+            self.district_tsAux = district
+            path = "../resources/districts/" + district + ".png"
+            self.img_label.setPixmap(QPixmap(os.path.join(ws_path, path)))
+            self.more_button.setEnabled(True)
+    # END FUNCTION
+# END CLASS
 
 class StationsWidget(QWidget):
     def __init__(self, parent=None):
@@ -544,13 +680,12 @@ class StationsWidget(QWidget):
         # Select station combo box
         self.sel_combo = QComboBox(self)
         self.sel_combo.setGeometry(500, 230, 100, 30)
-        self.sel_combo.addItems(["Empty",listStations[0]["StLabel"],listStations[1]["StLabel"],listStations[2]["StLabel"],
-                listStations[3]["StLabel"],listStations[4]["StLabel"],listStations[5]["StLabel"],listStations[6]["StLabel"],
-                listStations[7]["StLabel"],listStations[8]["StLabel"],listStations[9]["StLabel"],listStations[10]["StLabel"],
-                listStations[11]["StLabel"],listStations[12]["StLabel"],listStations[13]["StLabel"],listStations[14]["StLabel"],
-                listStations[15]["StLabel"],listStations[16]["StLabel"],listStations[17]["StLabel"],listStations[18]["StLabel"],
-                listStations[19]["StLabel"],listStations[20]["StLabel"],listStations[21]["StLabel"],listStations[22]["StLabel"],
-                listStations[23]["StLabel"]])
+        items = ["Empty"]
+        for i in range(len(listStations)):
+            items.append(listStations[i]["StLabel"])
+        # END
+        self.sel_combo.addItems(items)
+
         
         # arreglar !!! TODO
         self.b_9004.pressed.connect(lambda: self.selMap(listStations[0]["StationCode"]))
@@ -651,15 +786,14 @@ class StationInfoWidget(QWidget):
         # Station info label
         self.st_label = QLabel("STATION:  " + parent.station_toShow + ", " + parent.stName_toShow, self)
         self.st_label.setGeometry(60, 60, 700, 30)
-        self.st_label.setFont(QFont('Arial', 15))
+
         # District info label
         self.ds_label = QLabel("DISTRICT:  " + parent.district_toShow, self)
         self.ds_label.setGeometry(60, 120, 500, 30)
-        self.ds_label.setFont(QFont('.SF NS Text', 15))
+
         # URI label
         self.uri_label = QLabel("URI:  ", self)
         self.uri_label.setGeometry(170, 5, 500, 30)
-        self.uri_label.setFont(QFont('Arial', 12))
 
         # Back button
         self.back_button = QPushButton('BACK', self)
@@ -714,12 +848,17 @@ class MGWidget(QWidget):
         self.mgnom_label = QLabel("NAME(es):  " + self.mg_nombre, self)
         self.mgnom_label.setGeometry(250, 180, 400, 30)
         #self.mgnom_label.setFont(QFont('Arial', 13))
-
-        self.mgwk_label = QLabel("WIKIDATA_ID:  " + self.mg_wiki, self)
+        self.mgwk_label = QLabel("WIKIDATA_ID:  ", self)
         self.mgwk_label.setGeometry(250, 220, 400, 30)
         #self.mgwk_label.setFont(QFont('Arial', 13))
 
-        self.mgdef_label = QLabel("SUMMARY:  " + self.mg_def, self)
+        # self.mgwk_text = QLabel("<a href=self.mg_wiki</a>", self)
+        self.mgwk_text = QLabel(self)
+        self.mgwk_text.setGeometry(325, 220, 400, 30)
+        #self.mgwk_label.setFont(QFont('Arial', 13))
+
+
+        self.mgdef_label = QLabel("SUMMARY:  ", self)
         self.mgdef_label.setGeometry(250, 260, 400, 30)
         #self.mgdef_label.setFont(QFont('Arial', 13))
 
@@ -727,6 +866,11 @@ class MGWidget(QWidget):
         self.mgdef_text = QTextEdit(self)
         self.mgdef_text.setGeometry(310, 264, 300, 100)
         self.mgdef_text.setReadOnly(True)
+
+        # WIKIDATAID text
+        # self.mgwk_text = QTextEdit(self)
+        # self.mgwk_text.setGeometry(325, 224, 300, 30)
+        # self.mgwk_text.setReadOnly(True)
 
         # Back button
         self.back_button = QPushButton('BACK', self)
@@ -786,7 +930,9 @@ class MGWidget(QWidget):
             self.mgnt_label.setText("NOTATION:  " + self.mg_notation)
             self.mgnom_label.setText("NAME(es):  " + self.mg_nombre)
             self.mgname_label.setText("NAME(en):  " + self.mg_name)
-            self.mgwk_label.setText("WIKIDATA_ID:  " + self.mg_wiki)
+            self.mgwk_text.setOpenExternalLinks(True)
+            self.mgwk_text.setText("<a href=" + self.mg_wiki + ">" + self.mg_wiki + "</a>")
+            #self.mgwk_text.setPlainText(self.mg_wiki)
             self.mgdef_text.setPlainText(self.mg_def)
     # END FUNCTION
 # END CLASS
@@ -842,6 +988,20 @@ class MTextWidget(QWidget):
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Station\n:Station rdf:type owl:Class ;\n         rdfs:subClassOf <https://schema.org/Place> ."
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#Street\n:Street rdf:type owl:Class ;\n        rdfs:subClassOf <https://schema.org/Place> ."
                                     + "\n\n\nURI    https://schema.org/Place\n<https://schema.org/Place> rdf:type owl:Class .")
+    # END FUNCTION
+# END CLASS
+
+
+class QueryInfo(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        ws_path = os.path.dirname(os.path.abspath(__file__))
+
+        self.setGeometry(50, 50, 614, 800)
+        
+        # Back button
+        self.back_button = QPushButton('BACK', self)
+        self.back_button.setGeometry(30, 5, 50, 30)
     # END FUNCTION
 # END CLASS
 

@@ -23,7 +23,7 @@ class QueryMaker:
             self.normalGraph = Graph()
             self.appGraph = Graph()
             self.normalGraph.parse("rdf/ntriples/output-with-links.nt", format="nt")
-            self.appGraph.parse("rdf/ntriples/output-app-graph.nt", format="nt")
+            #self.appGraph.parse("rdf/ntriples/output-app-graph.nt", format="nt")
             self.graph = self.normalGraph
         # END IF
     # END FUNCTION
