@@ -5,8 +5,7 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix transit: <http://vocab.org/transit/terms/> .
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix classes: <http://www.semantic.web.es/group33/RecargaMadrid/classes#> .
-@prefix properties: <www.semantic.web.es/group33/RecargaMadrid/properties#> .
+@prefix : <http://www.semantic.web.es/group33/RecargaMadrid/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <#PuestoMapping> a rr:TriplesMap;
@@ -15,27 +14,27 @@
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{PR_ID}";
+    rr:template "http://www.semantic.web.es/group33/RecargaMadrid/Puesto/{PR_ID}";
     rr:termType rr:IRI;
-    rr:class classes:Puesto
+    rr:class :Puesto
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap[rr:constant properties:TieneDistrito; rr:termType rr:IRI ];
+    rr:predicateMap[rr:constant :TieneDistrito; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "DISTRITO"; rr:termType rr:Literal
       ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap[rr:constant properties:tieneCiudad; rr:termType rr:IRI ];
+    rr:predicateMap[rr:constant :tieneCiudad; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "CIUDAD"; rr:termType rr:Literal
       ]
   ];
 
   rr:predicateObjectMap [
-    rr:predicateMap[rr:constant properties:tieneOperador; rr:termType rr:IRI ];
+    rr:predicateMap[rr:constant :tieneOperador; rr:termType rr:IRI ];
     rr:objectMap [
       rml:reference "OPERADOR"; rr:termType rr:Literal
       ]
@@ -47,9 +46,9 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{DISTRITO}";
+	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/Distrito/{DISTRITO}";
 	  rr:termType rr:IRI;
-	  rr:class classes:Distrito
+	  rr:class :Distrito
 	];
  	rr:predicateObjectMap [
    	 rr:predicateMap [rr:constant owl:sameAs; rr:termType rr:IRI ];
@@ -65,9 +64,9 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{CIUDAD}";
+	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/Ciudad/{CIUDAD}";
 	  rr:termType rr:IRI;
-	  rr:class classes:Ciudad
+	  rr:class :Ciudad
 	];
 	rr:predicateObjectMap [
    	  rr:predicateMap [rr:constant owl:sameAs; rr:termType rr:IRI ];
@@ -83,9 +82,9 @@
 	  rml:referenceFormulation ql:CSV
 	];
 	rr:subjectMap [
-	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/classes/{OPERADOR}";
+	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/Operador/{OPERADOR}";
 	  rr:termType rr:IRI;
-	  rr:class classes:Operador
+	  rr:class :Operador
 	];
 	rr:predicateObjectMap [
    	  rr:predicateMap [rr:constant owl:sameAs; rr:termType rr:IRI ];
