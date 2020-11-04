@@ -4,6 +4,6 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?link ?planta
 	WHERE{
-		?planta rdf:type <http://www.reciclapp.com/Planta/planta_clasificacion_envases>
+		?planta rdf:type <http://www.reciclapp.com/Planta/planta_año>
 		?planta owl:sameAS ?link
 	}
