@@ -5,12 +5,14 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:jc_0 rr:child "street_name";
+map:jc_0 rr:child "address";
+    rr:parent "address".
+map:jc_1 rr:child "district_name";
+    rr:parent "district_name".
+map:jc_2 rr:child "neighbourhood_name";
+    rr:parent "neighbourhood_name".
+map:jc_3 rr:child "street_name";
     rr:parent "street_name".
-map:jc_1 rr:child "district_number";
-    rr:parent "district_number".
-map:jc_2 rr:child "neighbourhood_number";
-    rr:parent "neighbourhood_number".
 map:map_TriplesMap1_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "TriplesMap1";
@@ -30,20 +32,25 @@ map:map_TriplesMap4_0 rml:logicalSource map:source_3;
     a rr:TriplesMap;
     rdfs:label "TriplesMap4";
     rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_15, map:pom_16, map:pom_17, map:pom_18.
+    rr:predicateObjectMap map:pom_15, map:pom_16, map:pom_17.
+map:map_TriplesMap5_0 rml:logicalSource map:source_4;
+    a rr:TriplesMap;
+    rdfs:label "TriplesMap5";
+    rr:subjectMap map:s_4;
+    rr:predicateObjectMap map:pom_18, map:pom_19, map:pom_20.
 map:om_0 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/bicimad/classes#Bike_Station";
+    rr:constant "http://www.semanticweb.org/bicimad/classes/Bike_Station";
     rr:termType rr:Literal.
 map:om_1 a rr:ObjectMap;
-    rml:reference "position_x";
+    rml:reference "bs_id";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_10 a rr:ObjectMap;
     rml:reference "district_number";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_11 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/bicimad/classes#Neighbourhood";
+    rr:constant "http://www.semanticweb.org/bicimad/classes/Neighbourhood";
     rr:termType rr:Literal.
 map:om_12 a rr:ObjectMap;
     rml:reference "neighbourhood_name";
@@ -52,32 +59,38 @@ map:om_12 a rr:ObjectMap;
 map:om_13 a rr:ObjectMap;
     rml:reference "neighbourhood_number";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_14 a rr:ObjectMap;
     rr:parentTriplesMap map:map_TriplesMap2_0;
     rr:joinCondition map:jc_1.
 map:om_15 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/bicimad/classes#Street";
+    rr:constant "http://www.semanticweb.org/bicimad/classes/Street";
     rr:termType rr:Literal.
 map:om_16 a rr:ObjectMap;
     rml:reference "street_name";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_17 a rr:ObjectMap;
-    rml:reference "street_number";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_18 a rr:ObjectMap;
     rr:parentTriplesMap map:map_TriplesMap3_0;
     rr:joinCondition map:jc_2.
+map:om_18 a rr:ObjectMap;
+    rr:constant "http://www.semanticweb.org/bicimad/classes/Address";
+    rr:termType rr:Literal.
+map:om_19 a rr:ObjectMap;
+    rml:reference "address";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_2 a rr:ObjectMap;
+    rml:reference "position_x";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
+map:om_20 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_TriplesMap4_0;
+    rr:joinCondition map:jc_3.
+map:om_3 a rr:ObjectMap;
     rml:reference "position_y";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
-map:om_3 a rr:ObjectMap;
-    rml:reference "registration_date";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#date>.
 map:om_4 a rr:ObjectMap;
     rml:reference "spots";
     rr:termType rr:Literal;
@@ -91,10 +104,10 @@ map:om_6 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
 map:om_7 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_TriplesMap4_0;
+    rr:parentTriplesMap map:map_TriplesMap5_0;
     rr:joinCondition map:jc_0.
 map:om_8 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/bicimad/classes#District";
+    rr:constant "http://www.semanticweb.org/bicimad/classes/District";
     rr:termType rr:Literal.
 map:om_9 a rr:ObjectMap;
     rml:reference "district_name";
@@ -103,7 +116,7 @@ map:om_9 a rr:ObjectMap;
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/bicimad/properties#position_x>.
+    rr:constant <http://www.semanticweb.org/bicimad/properties#bs_id>.
 map:pm_10 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/bicimad/properties#district_number>.
 map:pm_11 a rr:PredicateMap;
@@ -119,13 +132,17 @@ map:pm_15 a rr:PredicateMap;
 map:pm_16 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/bicimad/properties#street_name>.
 map:pm_17 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/bicimad/properties#street_number>.
-map:pm_18 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/bicimad/properties#has_neighbourhood>.
+map:pm_18 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_19 a rr:PredicateMap;
+    rr:constant <http://www.semanticweb.org/bicimad/properties#has_address>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/bicimad/properties#position_y>.
+    rr:constant <http://www.semanticweb.org/bicimad/properties#position_x>.
+map:pm_20 a rr:PredicateMap;
+    rr:constant <http://www.semanticweb.org/bicimad/properties#has_street>.
 map:pm_3 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/bicimad/properties#registration_date>.
+    rr:constant <http://www.semanticweb.org/bicimad/properties#position_y>.
 map:pm_4 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/bicimad/properties#spots>.
 map:pm_5 a rr:PredicateMap;
@@ -133,7 +150,7 @@ map:pm_5 a rr:PredicateMap;
 map:pm_6 a rr:PredicateMap;
     rr:constant <http://www.semanticweb.org/bicimad/properties#latitude>.
 map:pm_7 a rr:PredicateMap;
-    rr:constant <http://www.semanticweb.org/bicimad/properties#has_street>.
+    rr:constant <http://www.semanticweb.org/bicimad/properties#has_address>.
 map:pm_8 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_9 a rr:PredicateMap;
@@ -171,9 +188,15 @@ map:pom_17 a rr:PredicateObjectMap;
 map:pom_18 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_18;
     rr:objectMap map:om_18.
+map:pom_19 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_19;
+    rr:objectMap map:om_19.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
+map:pom_20 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_20;
+    rr:objectMap map:om_20.
 map:pom_3 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_3;
     rr:objectMap map:om_3.
@@ -196,22 +219,27 @@ map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
 map:s_0 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/bicimad/classes#Bike_Station/{bs_id}".
+    rr:template "http://www.semanticweb.org/bicimad/classes/Bike_Station/{bs_id}".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/bicimad/classes#District/{district_number}".
+    rr:template "http://www.semanticweb.org/bicimad/classes/District/{district_name}".
 map:s_2 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/bicimad/classes#Neighbourhood/{neighbourhood_number}".
+    rr:template "http://www.semanticweb.org/bicimad/classes/Neighbourhood/{neighbourhood_name}".
 map:s_3 a rr:SubjectMap;
-    rr:template "http://www.semanticweb.org/bicimad/classes#Street/{street_name}".
+    rr:template "http://www.semanticweb.org/bicimad/classes/Street/{street_name}".
+map:s_4 a rr:SubjectMap;
+    rr:template "http://www.semanticweb.org/bicimad/classes/Address/{address}".
 map:source_0 a rml:LogicalSource;
-    rml:source "bases_bicimad-updated2.csv";
+    rml:source "bases_bicimad-updated3.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
-    rml:source "bases_bicimad-updated2.csv";
+    rml:source "bases_bicimad-updated3.csv";
     rml:referenceFormulation ql:CSV.
 map:source_2 a rml:LogicalSource;
-    rml:source "bases_bicimad-updated2.csv";
+    rml:source "bases_bicimad-updated3.csv";
     rml:referenceFormulation ql:CSV.
 map:source_3 a rml:LogicalSource;
-    rml:source "bases_bicimad-updated2.csv";
+    rml:source "bases_bicimad-updated3.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_4 a rml:LogicalSource;
+    rml:source "bases_bicimad-updated3.csv";
     rml:referenceFormulation ql:CSV.
