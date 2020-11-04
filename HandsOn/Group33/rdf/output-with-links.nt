@@ -156,45 +156,67 @@
 <http://www.semantic.web.es/group33/RecargaMadrid/Puesto/38> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "DRIVE THE CITY".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Arganzuela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Arganzuela> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2000929>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Arganzuela> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Arganzuela".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Barajas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Barajas> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q807230>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Barajas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Barajas".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Carabanchel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Carabanchel> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1001991>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Carabanchel> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Carabanchel".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Centro> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1763376>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Centro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Centro".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamart%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamart%C3%ADn> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1766348>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamart%C3%ADn> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Chamartín".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamber%C3%AD> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1763370>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Chamberí".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Ciudad%20Lineal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Ciudad%20Lineal> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1763694>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Ciudad%20Lineal> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Ciudad Lineal".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Hortaleza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Hortaleza> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1928529>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Hortaleza> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Hortaleza".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Puente%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Puente%20de%20Vallecas> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2003054>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Puente%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Puente de Vallecas".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Retiro> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2002296>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Retiro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Retiro".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Salamanca> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1773521>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Salamanca".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Villa%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Villa%20de%20Vallecas> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1947988>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Villa%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Villa de Vallecas".
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Latina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Latina> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q794954>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Latina> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Latina".
 <http://www.semantic.web.es/group33/RecargaMadrid/Ciudad/Madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Ciudad>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Ciudad/Madrid> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2807>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Ciudad/Madrid> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCiudad> "Madrid".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Repsol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Repsol> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q174747>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/Repsol> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "Repsol".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/GIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/GIC> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/GIC> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "GIC".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/ELECTRIC%20CHARGE%20SPAIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/ELECTRIC%20CHARGE%20SPAIN> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/ELECTRIC%20CHARGE%20SPAIN> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "ELECTRIC CHARGE SPAIN".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1094755>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/Empresa%20Municipal%20de%20Transportes%20de%20Madrid> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "Empresa Municipal de Transportes de Madrid".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/DRIVE%20THE%20CITY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/DRIVE%20THE%20CITY> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/DRIVE%20THE%20CITY> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "DRIVE THE CITY".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Iberdrola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Iberdrola> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1437502>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/Iberdrola> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "Iberdrola".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/ECOLINERAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/ECOLINERAS> <http://www.w3.org/2002/07/owl#sameAs> <>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/ECOLINERAS> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "ECOLINERAS".
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Naturgy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
 <http://www.semantic.web.es/group33/RecargaMadrid/Operador/Naturgy> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q474690>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/Naturgy> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "Naturgy".

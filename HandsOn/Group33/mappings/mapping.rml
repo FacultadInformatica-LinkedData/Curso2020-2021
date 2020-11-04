@@ -48,7 +48,13 @@
 	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/Distrito/{DISTRITO}";
 	  rr:termType rr:IRI;
 	  rr:class :Distrito
-	].
+	];
+	rr:predicateObjectMap [
+      rr:predicateMap[rr:constant :nombreDistrito; rr:termType rr:IRI ];
+      rr:objectMap [
+        rml:reference "DISTRITO"; rr:termType rr:Literal
+      	]
+    ].
 
 <#DireccionMapping> a rr:TriplesMap;
 	rml:logicalSource [
@@ -59,7 +65,13 @@
 	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/Direccion/{DIRECCION}";
 	  rr:termType rr:IRI;
 	  rr:class :Direccion
-	].
+	];
+	rr:predicateObjectMap [
+      rr:predicateMap[rr:constant :nombreCalle; rr:termType rr:IRI ];
+      rr:objectMap [
+        rml:reference "DIRECCION"; rr:termType rr:Literal
+      	]
+    ].
 
 <#OperadorMapping> a rr:TriplesMap;
 	rml:logicalSource [
@@ -70,4 +82,10 @@
 	  rr:template "http://www.semantic.web.es/group33/RecargaMadrid/Operador/{OPERADOR}";
 	  rr:termType rr:IRI;
 	  rr:class :Operador
-	].
+	];
+	rr:predicateObjectMap [
+      rr:predicateMap[rr:constant :nombreOperador; rr:termType rr:IRI ];
+      rr:objectMap [
+        rml:reference "OPERADOR"; rr:termType rr:Literal
+      	]
+    ].

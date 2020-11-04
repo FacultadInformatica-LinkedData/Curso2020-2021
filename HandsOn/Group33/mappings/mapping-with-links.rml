@@ -55,6 +55,12 @@
     	 rr:objectMap [
          rml:reference "wikidata:distrito";
          rr:termType rr:IRI ]
+    ];
+    rr:predicateObjectMap [
+      rr:predicateMap[rr:constant :nombreDistrito; rr:termType rr:IRI ];
+      rr:objectMap [
+        rml:reference "DISTRITO"; rr:termType rr:Literal
+        ]
     ].
   
 
@@ -73,7 +79,13 @@
     	  rr:objectMap [
           rml:reference "wikidata:ciudad";
           rr:termType rr:IRI ]
-    	].
+    	];
+      rr:predicateObjectMap [
+      rr:predicateMap[rr:constant :nombreCiudad; rr:termType rr:IRI ];
+      rr:objectMap [
+        rml:reference "CIUDAD"; rr:termType rr:Literal
+        ]
+    ].
 	
 
 <#OperadorMapping> a rr:TriplesMap;
@@ -91,4 +103,10 @@
     	  rr:objectMap [
           rml:reference "wikidata:operador";
           rr:termType rr:IRI ]
-    	].
+    	];
+      rr:predicateObjectMap [
+      rr:predicateMap[rr:constant :nombreOperador; rr:termType rr:IRI ];
+      rr:objectMap [
+        rml:reference "OPERADOR"; rr:termType rr:Literal
+        ]
+    ].
