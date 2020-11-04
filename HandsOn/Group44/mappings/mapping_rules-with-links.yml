@@ -1,6 +1,6 @@
 prefixes:
   xsd: http://www.w3.org/2001/XMLSchema#
-  swo: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality#
+  swo: http://www.semanticweb.org/group44/ontologies/madridAirQuality#
   dbp: http://dbpedia.org/ontology/
   owl: http://www.w3.org/2002/07/owl#
 
@@ -42,7 +42,7 @@ mappings:
   station:
     source:
       - [../csv/MadridAirQuality2020-with-links.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Station/$(STATION)
+    s: http://www.semanticweb.org/group44/ontologies/madridAirQuality/Station/$(STATION)
     po:
       - [a, swo:Station]
       - [swo:stationId, $(STATION), xsd:integer]
@@ -58,7 +58,7 @@ mappings:
   measure:
     source:
       - [../csv/MadridAirQuality2020-with-links.csv~csv]
-    s: http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/Measure/$(ID)
+    s: http://www.semanticweb.org/group44/ontologies/madridAirQuality/Measure/$(ID)
     po:
       - [a, swo:Measure]
       - [xsd:date, $(DATE), xsd:dateTime]
