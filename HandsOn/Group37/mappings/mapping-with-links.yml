@@ -1,0 +1,65 @@
+prefixes:
+    base: http://www.semanticweb.org/ontologies/group37/ontology-4#
+    owl: http://www.w3.org/2002/07/owl# 
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#   
+    xml: http://www.w3.org/XML/1998/namespace/
+    xsd: http://www.w3.org/2001/XMLSchema#  
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  triplesmap1:
+    sources:
+      - [Fuentes2019-updated-with-links.csv~csv]
+    s: http://www.semanticweb.org/ontologies/group37/ontology-4/$(codigo)
+    po:
+      - [a, base:Fuente]
+      - [rdfs:label, $(codigo)]
+      - [base:codigo,$(codigo),xsd:string]
+      - [base:latitud,$(latitud),xsd:double]
+      - [base:longitud,$(longitud),xsd:double]
+      - [base:en_funcionamiento,$(en_funcionamiento),xsd:boolean]
+      - p: base:seEncuentraEn 
+        o: 
+            - mapping: triplesmap2
+              condition: 
+                function: equal
+                parameters:
+                    - [str1, $(direccion)]
+                    - [str2, $(direccion)]
+  triplesmap2:
+    sources:
+      - [Fuentes2019-updated-with-links.csv~csv]
+    s: http://www.semanticweb.org/ontologies/group37/ontology-4/$(direccion)
+    po:
+      - [a, base:Localizacion]
+      - [rdfs:label, $(direccion)]
+      - [base:coord_x,$(coord_x),xsd:double]
+      - [base:coord_y,$(coord_y),xsd:double]
+      - [base:direccion,$(direccion),xsd:string]
+      - [base:via_publica,$(via_publica),xsd:string]
+      - p: base:pertenece_a 
+        o: 
+            - mapping: triplesmap3
+              condition: 
+                function: equal
+                parameters:
+                    - [str1, $(distrito)]
+                    - [str2, $(distrito)]
+  triplesmap3:
+    sources:
+      - [Fuentes2019-updated-with-links.csv~csv]
+    s: http://www.semanticweb.org/ontologies/group37/ontology-4/$(distrito)
+    po:
+      - [a, base:Distrito]
+      - [rdfs:label, $(distrito)]
+      - [owl:sameAs, $(wikiDistrito)~iri]
+      - [base:distrito,$(distrito),xsd:string]
+      - p: base:alberga 
+        o: 
+            - mapping: triplesmap1
+              condition: 
+                function: equal
+                parameters:
+                    - [str1, $(codigo)]
+                    - [str2, $(codigo)]

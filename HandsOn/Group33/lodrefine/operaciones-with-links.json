@@ -1,0 +1,286 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DIRECCIÓN_COMPLETA",
+    "expression": "grel:\"Madrid\"",
+    "onError": "set-to-blank",
+    "newColumnName": "CIUDAD",
+    "columnInsertIndex": 4,
+    "description": "Create column CIUDAD at index 4 based on column DIRECCIÓN_COMPLETA using expression grel:\"Madrid\""
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CIUDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column CIUDAD to type Q515"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CIUDAD",
+    "similarValue": "Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2807",
+      "name": "Madrid",
+      "types": [
+        "Q2074737",
+        "Q515",
+        "Q1549591",
+        "Q1637706"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid (Q2807) for cells containing \"Madrid\" in column CIUDAD"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "CIUDAD",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:Ciudad",
+    "columnInsertIndex": 5,
+    "description": "Create column wikidata:Ciudad at index 5 based on column CIUDAD using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column DISTRITO to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:distrito",
+    "columnInsertIndex": 2,
+    "description": "Create column wikidata:distrito at index 2 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "OPERADOR: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "OPERADOR",
+          "from": 100,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q4830453",
+        "name": "business"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column OPERADOR to type Q4830453"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "REPSOL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q174747",
+      "name": "Repsol",
+      "types": [
+        "Q4830453",
+        "Q6881511"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Repsol (Q174747) for cells containing \"REPSOL\" in column OPERADOR"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "GIC",
+    "description": "Clear recon data for cells containing \"GIC\" in column OPERADOR"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "ELECTRIC CHARGE SPAIN",
+    "description": "Clear recon data for cells containing \"ELECTRIC CHARGE SPAIN\" in column OPERADOR"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "ECOLINERAS",
+    "description": "Clear recon data for cells containing \"ECOLINERAS\" in column OPERADOR"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "IBERDROLA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1437502",
+      "name": "Iberdrola",
+      "types": [
+        "Q4830453",
+        "Q6881511",
+        "Q1326624"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Iberdrola (Q1437502) for cells containing \"IBERDROLA\" in column OPERADOR"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "DRIVE THE CITY",
+    "description": "Clear recon data for cells containing \"DRIVE THE CITY\" in column OPERADOR"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "NATURGY",
+    "judgment": "matched",
+    "match": {
+      "id": "Q474690",
+      "name": "Naturgy",
+      "types": [
+        "Q4830453",
+        "Q6881511"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naturgy (Q474690) for cells containing \"NATURGY\" in column OPERADOR"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPERADOR",
+    "similarValue": "EMT",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1094755",
+      "name": "Empresa Municipal de Transportes de Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Empresa Municipal de Transportes de Madrid (Q1094755) for cells containing \"EMT\" in column OPERADOR"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "OPERADOR",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:operador",
+    "columnInsertIndex": 10,
+    "description": "Create column wikidata:operador at index 10 based on column OPERADOR using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "wikidata:Ciudad",
+    "newColumnName": "wikidata:ciudad",
+    "description": "Rename column wikidata:Ciudad to wikidata:ciudad"
+  }
+]
