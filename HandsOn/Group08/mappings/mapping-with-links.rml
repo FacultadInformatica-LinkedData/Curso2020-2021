@@ -69,7 +69,7 @@ map:om_6 a rr:ObjectMap;
     rr:parentTriplesMap map:map_triplesmap2_0;
     rr:joinCondition map:jc_0.
 map:om_7 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_triplesmap1_0;
+    rr:parentTriplesMap map:map_triplesmap3_0;
     rr:joinCondition map:jc_1.
 map:om_8 a rr:ObjectMap;
     rr:constant "http://www.eletricrechargemadrid.com/Ubicacion";

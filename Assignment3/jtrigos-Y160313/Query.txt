@@ -1,0 +1,56 @@
+Query 1
+SELECT DISTINCT ?properties
+WHERE
+{
+	?a rdf:type <http://dbpedia.org/ontology/Politician> .
+	 ?a ?properties?x
+}
+
+Query 2
+SELECT DISTINCT ?properties
+WHERE
+{
+{
+	?a rdf:type <http://dbpedia.org/ontology/Politician> .
+	?a ?properties?x 
+}
+	FILTER(?properties!= rdf:type)
+}
+
+
+Query 3
+
+SELECT DISTINCT ?values
+WHERE
+{
+{
+	?a rdf:type <http://dbpedia.org/ontology/Politician> .
+	?a ?properties ?values 
+}
+	FILTER(?properties!= rdf:type)
+}
+
+
+Query 4 
+
+SELECT DISTINCT ?properties ?values
+WHERE
+{
+{
+	?a rdf:type <http://dbpedia.org/ontology/Politician> .
+	?a ?properties ?values 
+}
+	FILTER(?properties!= rdf:type)
+}
+
+Query 5
+
+SELECT DISTINCT ?properties count (DISTINCT ?values)
+WHERE
+{
+{
+	?a rdf:type <http://dbpedia.org/ontology/Politician> .
+	?a ?properties ?values 
+}
+	FILTER(?properties!= rdf:type)
+}

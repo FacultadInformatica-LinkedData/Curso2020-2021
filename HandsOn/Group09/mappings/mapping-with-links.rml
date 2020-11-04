@@ -5,39 +5,60 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:jc_0 rr:child "URI-DATE";
-    rr:parent "URI-DATE".
+map:jc_0 rr:child "URI-TIPO ACCIDENTE";
+    rr:parent "URI-TIPO ACCIDENTE".
 map:jc_1 rr:child "URI-CRUCE";
     rr:parent "URI-CRUCE".
 map:jc_2 rr:child "URI-PERSONA";
     rr:parent "URI-PERSONA".
 map:jc_3 rr:child "URI-DISTRITO";
     rr:parent "URI-DISTRITO".
+map:jc_4 rr:child "URI-TIPO PERSONA";
+    rr:parent "URI-TIPO PERSONA".
+map:jc_5 rr:child "URI-SEXO";
+    rr:parent "URI-SEXO".
+map:jc_6 rr:child "URI-TIPO VEHÍCULO";
+    rr:parent "URI-TIPO VEHÍCULO".
 map:map_accident_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "accident";
     rr:subjectMap map:s_0;
-    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7.
+    rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4, map:pom_5, map:pom_6, map:pom_7, map:pom_8.
 map:map_crossing_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "crossing";
     rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17.
-map:map_date_0 rml:logicalSource map:source_1;
-    a rr:TriplesMap;
-    rdfs:label "date";
-    rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10, map:pom_11.
-map:map_district_0 rml:logicalSource map:source_4;
+    rr:predicateObjectMap map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16.
+map:map_district_0 rml:logicalSource map:source_7;
     a rr:TriplesMap;
     rdfs:label "district";
-    rr:subjectMap map:s_4;
-    rr:predicateObjectMap map:pom_25, map:pom_26, map:pom_27, map:pom_28.
+    rr:subjectMap map:s_7;
+    rr:predicateObjectMap map:pom_30, map:pom_31, map:pom_32, map:pom_33.
 map:map_person_0 rml:logicalSource map:source_3;
     a rr:TriplesMap;
     rdfs:label "person";
     rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24.
+    rr:predicateObjectMap map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23.
+map:map_sex_0 rml:logicalSource map:source_5;
+    a rr:TriplesMap;
+    rdfs:label "sex";
+    rr:subjectMap map:s_5;
+    rr:predicateObjectMap map:pom_26, map:pom_27.
+map:map_typeofaccident_0 rml:logicalSource map:source_1;
+    a rr:TriplesMap;
+    rdfs:label "typeofaccident";
+    rr:subjectMap map:s_1;
+    rr:predicateObjectMap map:pom_9, map:pom_10.
+map:map_typeofperson_0 rml:logicalSource map:source_4;
+    a rr:TriplesMap;
+    rdfs:label "typeofperson";
+    rr:subjectMap map:s_4;
+    rr:predicateObjectMap map:pom_24, map:pom_25.
+map:map_typeofvehicle_0 rml:logicalSource map:source_6;
+    a rr:TriplesMap;
+    rdfs:label "typeofvehicle";
+    rr:subjectMap map:s_6;
+    rr:predicateObjectMap map:pom_28, map:pom_29.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#Accident";
     rr:termType rr:IRI.
@@ -45,146 +66,170 @@ map:om_1 a rr:ObjectMap;
     rml:reference "N EXPEDIENTE";
     rr:termType rr:Literal.
 map:om_10 a rr:ObjectMap;
-    rml:reference "DATE";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime>.
-map:om_11 a rr:ObjectMap;
-    rml:reference "HORA INTERVALO";
+    rml:reference "TIPO ACCIDENTE";
     rr:termType rr:Literal.
-map:om_12 a rr:ObjectMap;
+map:om_11 a rr:ObjectMap;
     rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing";
     rr:termType rr:IRI.
-map:om_13 a rr:ObjectMap;
+map:om_12 a rr:ObjectMap;
     rml:reference "CRUCE LABEL";
     rr:termType rr:Literal.
-map:om_14 a rr:ObjectMap;
+map:om_13 a rr:ObjectMap;
     rml:reference "CALLE 1";
     rr:termType rr:Literal.
-map:om_15 a rr:ObjectMap;
+map:om_14 a rr:ObjectMap;
     rml:reference "CALLE 2";
     rr:termType rr:Literal.
-map:om_16 a rr:ObjectMap;
+map:om_15 a rr:ObjectMap;
     rml:reference "NUMERO";
     rr:termType rr:Literal.
-map:om_17 a rr:ObjectMap;
+map:om_16 a rr:ObjectMap;
     rr:parentTriplesMap map:map_district_0;
     rr:joinCondition map:jc_3.
-map:om_18 a rr:ObjectMap;
+map:om_17 a rr:ObjectMap;
     rr:constant "http://dbpedia.org/ontology/Person";
     rr:termType rr:IRI.
-map:om_19 a rr:ObjectMap;
+map:om_18 a rr:ObjectMap;
     rml:reference "PERSONA LABEL";
+    rr:termType rr:Literal.
+map:om_19 a rr:ObjectMap;
+    rml:reference "RANGO DE EDAD";
     rr:termType rr:Literal.
 map:om_2 a rr:ObjectMap;
     rml:reference "N EXPEDIENTE";
     rr:termType rr:Literal.
 map:om_20 a rr:ObjectMap;
-    rml:reference "SEXO";
+    rml:reference "LESIVIDAD";
     rr:termType rr:Literal.
 map:om_21 a rr:ObjectMap;
-    rml:reference "RANGO DE EDAD";
-    rr:termType rr:Literal.
+    rr:parentTriplesMap map:map_typeofperson_0;
+    rr:joinCondition map:jc_4.
 map:om_22 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_sex_0;
+    rr:joinCondition map:jc_5.
+map:om_23 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_typeofvehicle_0;
+    rr:joinCondition map:jc_6.
+map:om_24 a rr:ObjectMap;
+    rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson";
+    rr:termType rr:IRI.
+map:om_25 a rr:ObjectMap;
     rml:reference "TIPO PERSONA";
     rr:termType rr:Literal.
-map:om_23 a rr:ObjectMap;
+map:om_26 a rr:ObjectMap;
+    rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#Sex";
+    rr:termType rr:IRI.
+map:om_27 a rr:ObjectMap;
+    rml:reference "SEXO";
+    rr:termType rr:Literal.
+map:om_28 a rr:ObjectMap;
+    rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle";
+    rr:termType rr:IRI.
+map:om_29 a rr:ObjectMap;
     rml:reference "TIPO VEHÍCULO";
     rr:termType rr:Literal.
-map:om_24 a rr:ObjectMap;
-    rml:reference "LESIVIDAD";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_25 a rr:ObjectMap;
-    rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#District";
-    rr:termType rr:IRI.
-map:om_26 a rr:ObjectMap;
-    rml:reference "DISTRITO";
-    rr:termType rr:Literal.
-map:om_27 a rr:ObjectMap;
-    rml:reference "URI-DISTRITO-Wikidata";
-    rr:termType rr:IRI.
-map:om_28 a rr:ObjectMap;
-    rml:reference "DISTRITO";
-    rr:termType rr:Literal.
 map:om_3 a rr:ObjectMap;
-    rml:reference "TIPO ACCIDENTE";
-    rr:termType rr:Literal.
-map:om_4 a rr:ObjectMap;
     rml:reference "ESTADO METEREOLÓGICO";
     rr:termType rr:Literal.
+map:om_30 a rr:ObjectMap;
+    rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#District";
+    rr:termType rr:IRI.
+map:om_31 a rr:ObjectMap;
+    rml:reference "DISTRITO";
+    rr:termType rr:Literal.
+map:om_32 a rr:ObjectMap;
+    rml:reference "URI-DISTRITO-Wikidata";
+    rr:termType rr:IRI.
+map:om_33 a rr:ObjectMap;
+    rml:reference "DISTRITO";
+    rr:termType rr:Literal.
+map:om_4 a rr:ObjectMap;
+    rml:reference "DATE";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime>.
 map:om_5 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_date_0;
-    rr:joinCondition map:jc_0.
+    rml:reference "HORA INTERVALO";
+    rr:termType rr:Literal.
 map:om_6 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_typeofaccident_0;
+    rr:joinCondition map:jc_0.
+map:om_7 a rr:ObjectMap;
     rr:parentTriplesMap map:map_crossing_0;
     rr:joinCondition map:jc_1.
-map:om_7 a rr:ObjectMap;
+map:om_8 a rr:ObjectMap;
     rr:parentTriplesMap map:map_person_0;
     rr:joinCondition map:jc_2.
-map:om_8 a rr:ObjectMap;
-    rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#Time";
-    rr:termType rr:IRI.
 map:om_9 a rr:ObjectMap;
-    rml:reference "DATE LABEL";
-    rr:termType rr:Literal.
+    rr:constant "http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident";
+    rr:termType rr:IRI.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
     rr:constant rdfs:label.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#date>.
+    rr:constant rdfs:label.
 map:pm_11 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hourInterval>.
+    rr:constant rdf:type.
 map:pm_12 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant rdfs:label.
 map:pm_13 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_14 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1>.
-map:pm_15 a rr:PredicateMap;
+map:pm_14 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2>.
-map:pm_16 a rr:PredicateMap;
+map:pm_15 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber>.
-map:pm_17 a rr:PredicateMap;
+map:pm_16 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn>.
-map:pm_18 a rr:PredicateMap;
+map:pm_17 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_19 a rr:PredicateMap;
+map:pm_18 a rr:PredicateMap;
     rr:constant rdfs:label.
+map:pm_19 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient>.
 map:pm_20 a rr:PredicateMap;
-    rr:constant <http://dbpedia.org/ontology/sex>.
-map:pm_21 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#ageRange>.
-map:pm_22 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson>.
-map:pm_23 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#typeOfVehicle>.
-map:pm_24 a rr:PredicateMap;
     rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus>.
+map:pm_21 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson>.
+map:pm_22 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasSex>.
+map:pm_23 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle>.
+map:pm_24 a rr:PredicateMap;
+    rr:constant rdf:type.
 map:pm_25 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant rdfs:label.
 map:pm_26 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_27 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_28 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#districtName>.
-map:pm_3 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident>.
-map:pm_4 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#weather>.
-map:pm_5 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#occursAt>.
-map:pm_6 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#occursOn>.
-map:pm_7 a rr:PredicateMap;
-    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#occursTo>.
-map:pm_8 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_9 a rr:PredicateMap;
+map:pm_27 a rr:PredicateMap;
     rr:constant rdfs:label.
+map:pm_28 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_29 a rr:PredicateMap;
+    rr:constant rdfs:label.
+map:pm_3 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#weather>.
+map:pm_30 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_31 a rr:PredicateMap;
+    rr:constant rdfs:label.
+map:pm_32 a rr:PredicateMap;
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+map:pm_33 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#districtName>.
+map:pm_4 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#hasDate>.
+map:pm_5 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod>.
+map:pm_6 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident>.
+map:pm_7 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#occursOn>.
+map:pm_8 a rr:PredicateMap;
+    rr:constant <http://linkeddata.es/group09/ontology/TrafficAccident#occursTo>.
+map:pm_9 a rr:PredicateMap;
+    rr:constant rdf:type.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -251,9 +296,24 @@ map:pom_27 a rr:PredicateObjectMap;
 map:pom_28 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_28;
     rr:objectMap map:om_28.
+map:pom_29 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_29;
+    rr:objectMap map:om_29.
 map:pom_3 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_3;
     rr:objectMap map:om_3.
+map:pom_30 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_30;
+    rr:objectMap map:om_30.
+map:pom_31 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_31;
+    rr:objectMap map:om_31.
+map:pom_32 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_32;
+    rr:objectMap map:om_32.
+map:pom_33 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_33;
+    rr:objectMap map:om_33.
 map:pom_4 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_4;
     rr:objectMap map:om_4.
@@ -275,12 +335,18 @@ map:pom_9 a rr:PredicateObjectMap;
 map:s_0 a rr:SubjectMap;
     rr:template "http://linkeddata.es/group09/resource/accident/{N EXPEDIENTE}".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://linkeddata.es/group09/resource/time/{URI-DATE}".
+    rr:template "http://linkeddata.es/group09/resource/typeofaccident/{URI-TIPO ACCIDENTE}".
 map:s_2 a rr:SubjectMap;
     rr:template "http://linkeddata.es/group09/resource/streetcrossing/{URI-CRUCE}".
 map:s_3 a rr:SubjectMap;
     rr:template "http://linkeddata.es/group09/resource/person/{URI-PERSONA}".
 map:s_4 a rr:SubjectMap;
+    rr:template "http://linkeddata.es/group09/resource/typeofperson/{URI-TIPO PERSONA}".
+map:s_5 a rr:SubjectMap;
+    rr:template "http://linkeddata.es/group09/resource/sex/{URI-SEXO}".
+map:s_6 a rr:SubjectMap;
+    rr:template "http://linkeddata.es/group09/resource/typeofvehicle/{URI-TIPO VEHÍCULO}".
+map:s_7 a rr:SubjectMap;
     rr:template "http://linkeddata.es/group09/resource/district/{URI-DISTRITO}".
 map:source_0 a rml:LogicalSource;
     rml:source "Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv";
@@ -295,5 +361,14 @@ map:source_3 a rml:LogicalSource;
     rml:source "Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_4 a rml:LogicalSource;
+    rml:source "Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_5 a rml:LogicalSource;
+    rml:source "Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_6 a rml:LogicalSource;
+    rml:source "Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_7 a rml:LogicalSource;
     rml:source "Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.

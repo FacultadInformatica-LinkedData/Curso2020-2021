@@ -13,14 +13,14 @@ prefixes:
   owl: http://www.w3.org/2002/07/owl#
   pos: http://www.w3.org/2003/01/geo/wgs84_pos#
   prop: http://contenedoresdemadrid.com/Properties#
-  class: http://contenedoresdemadrid.com/Classes#
+  class: http://contenedoresdemadrid.com/Classes/
 
 mappings:
 
   ReciclyingBinMap1:
     sources:
       - [Contenedores_varios-updated2-with-links.csv~csv]
-    s: http://contenedoresdemadrid.com/Classes#ReciclyingBin/$(Id)
+    s: http://contenedoresdemadrid.com/Classes/ReciclyingBin/$(Id)
     po:
       - [rdf:type, class:ReciclyingBin]
       - [pos:coordinateX, $(COORDENADA X), xsd:float]
@@ -51,22 +51,29 @@ mappings:
              parameters:
                - [str1, $(Tipo Contenedor)]
                - [str2, $(Tipo Contenedor)]
+      - p: prop:hasAddress
+        o:
+         - mapping: ReciclyingBinMap5
+           condition:
+            function: equal
+            parameters:
+              - [str1, $(DIRECCION)]
+              - [str2, $(DIRECCION)]
   
   
   ReciclyingBinMap2:
     sources:
       - [Contenedores_varios-updated2-with-links.csv~csv]
-    s: http://contenedoresdemadrid.com/Classes#Street/$(Nombre)
+    s: http://contenedoresdemadrid.com/Classes/Street/$(Nombre)
     po:
       - [rdf:type, class:Street]
       - [prop:streetName, $(Nombre), xsd:string]
-      - [prop:streetNum, $(Numero), xsd:integer]
   
   
   ReciclyingBinMap3:
     sources:
       - [Contenedores_varios-updated2-with-links.csv~csv]
-    s: http://contenedoresdemadrid.com/Classes#District/$(Distrito)
+    s: http://contenedoresdemadrid.com/Classes/District/$(Distrito)
     po:
       - [rdf:type, class:District]
       - [prop:districtName, $(Distrito), xsd:string]
@@ -76,7 +83,16 @@ mappings:
   ReciclyingBinMap4:
     sources:
       - [Contenedores_varios-updated2-with-links.csv~csv]
-    s: http://contenedoresdemadrid.com/Classes#TypeResidue/$(Tipo Contenedor)
+    s: http://contenedoresdemadrid.com/Classes/TypeResidue/$(Tipo Contenedor)
     po:
       - [rdf:type, class:TypeResidue]
       - [prop:type, $(Tipo Contenedor), xsd:string]
+
+
+  ReciclyingBinMap5:
+    sources:
+      - [Contenedores_varios-updated2-with-links.csv~csv]
+    s: http://contenedoresdemadrid.com/Classes/Address/$(DIRECCION)
+    po:
+      - [rdf:type, class:Address]
+      - [prop:addressName, $(DIRECCION), xsd:string]
