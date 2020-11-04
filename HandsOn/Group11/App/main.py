@@ -84,13 +84,19 @@ def busqueda():
         else:
             _districName=_districName.capitalize()
         _jsonList= []
+        wikiDataLink=None
 
         # SPARQL query
         query = "select distinct ?Object " \
                 " where{ { ?Object <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group11.com/ontology#MovileRecyclePoint>. " \
                 " ?Object ?Property ?Subject. " \
                 " ?Subject <http://group11.com/ontology#districtName> " + '"' + _districName + '".' + "} }"
-
+        queryWikidata="select distinct ?Object " \
+                      "where{ ?Subject <http://group11.com/ontology#districtName> " + '"' + _districName+'".'\
+                        "?Subject <http://www.w3.org/2002/07/owl#sameAs> ?Object}"
+        qWikidata=prepareQuery(queryWikidata)
+        for rwikidata in g.query(queryWikidata):
+            wikiDataLink=str(rwikidata[0])
         q3 = prepareQuery(query)
         for r in g.query(q3):
             tojson = {'id': str(r[0])}
@@ -116,11 +122,11 @@ def busqueda():
         #return json.dumps(_jsonList)
         if(len(_jsonList)==0):
             return render_template("error.html",error="El distrito introducido no es correcto o no existe")
-        return render_template("results.html")
+        return render_template("results.html",distrito=_districName,enlace=wikiDataLink)
     except Exception as e:
         return json.dumps({'error': e})
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    app.run(debug=True, port=5000, host="192.168.1.40")
+    app.run(port=5000)

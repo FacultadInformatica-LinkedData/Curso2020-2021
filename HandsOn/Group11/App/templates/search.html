@@ -8,7 +8,7 @@
         <meta http-equiv="expires" content="0" />
         <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
         <meta http-equiv="pragma" content="no-cache" />
-        <link rel="stylesheet" type="text/css" href="../static/results.css">        
+        <link rel="stylesheet" type="text/css" href="../static/style.css">        
         <link rel="stylesheet" 
               href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
               integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
@@ -20,16 +20,17 @@
         <script type="text/javascript" src="../static/jquery-3.5.1.min.js"></script>
     </head>
      
-            <body>
-         
-                <nav class="navbar navbar-expand-lg navbar-dark text right bg-dark">
-                    <a class="navbar-brand" href="/"><i class="bg- p-2 rounded fas fa-recycle fa-2x"> </i> CleanPoint </a>                 
+        <body style="height:100%">
+            <div style="height: 100%">
+                <nav class="navbar navbar-expand-lg navbar-dark text right bg-dark" >
+                    <a class="navbar-brand" href="/"><i class="bg- p-2 rounded fas fa-recycle fa-3x"> </i> </a> 
+                    <h4 class="nav-item text-white">CleanPoint</h4>
                 </nav>
             <div style="background-color: darkseagreen;">
                 <header>
                     <br>                 
                <h1 class="text-center p-5 text-success" ><a href="/" class="text-decoration-none text-dark"><span class="badge badge- mr-3"><i class="fas fa-recycle fa-2x text-decoration-none"></i></span>CleanPoint</a></h1> 
-            </header>
+            </header> 
             
                 <div class="p-4">
                     <h5>¿Que es un punto limpio?</h5>
@@ -41,7 +42,7 @@
                 </div>                
                 <center>    
                     <p> Introduce en la barra de busqueda tu distrito para conocer los puntos limpios moviles mas cercanos a ti, y sus horarios.</p>                   
-                    <form class=" col-md-8 p-2" style="background-color: " id="formulario" action="/busqueda">                     
+                    <form class=" col-md-4 p-2" style="background-color: " id="formulario" action="/busqueda">                     
                         <input class="form-control mr-sm-2 col-md-12 mb-3" type="Search" placeholder="Busqueda por distrito" aria-label="Search" id="districName" name="districName" required>
                         <div style="background-color: " class="">
                             <button class="btn btn-success" id="busquedaClick" type="submit">Busqueda</button>
@@ -49,10 +50,13 @@
                     </form>
                      
                     <br>
-                    <!--div class=" pb-4">   
-                        <img src="https://elmiradordemadrid.es/wp-content/uploads/2020/05/punto-limpio-m%C3%B3vil-madrid.jpg" class="img-fluid " alt="Responsive image" style="height: 450px";>
-                    </div-->
+                    <div class="pb-4">   
+                        <img src="https://elmiradordemadrid.es/wp-content/uploads/2020/05/punto-limpio-m%C3%B3vil-madrid.jpg" class="imgRedonda" alt="Responsive image" style="height: 450px";>
+                    
+                    </div>
+                    
              </center>
+                
              <div>
                 <nav class="navbar navbar-expand navbar-dark bg-dark text-center p-3">
                             <div class="col mt-2 p-3">
@@ -73,5 +77,6 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        </div>            
     </body>
 </html>

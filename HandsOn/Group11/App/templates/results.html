@@ -8,7 +8,7 @@
         <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
         <meta http-equiv="pragma" content="no-cache" />
         <meta charset="utf-8" http-equiv="content-type" content="text/html">
-        <link rel="stylesheet" type="text/css" href="../static/results.css">  
+        <link rel="stylesheet" type="text/css" href="../static/style.css">  
         <link rel="stylesheet" 
               href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
               integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
@@ -25,34 +25,41 @@
                                 $('#resultados',function(){
                                     $('#cuerpo-tabla').append('<tr>'+                  
                                         '<td>'+value.addressFullName+'</td>'+
-                                        '<td>'+value.isOpen+'</td>'+
-                                        '<td>'+value.itStarts+'</td>'+
-                                        '<td>'+value.itEnds+'</td>'+
-                                        '<td>'+value.hasLatitude+', '+value.hasLongitude+'</td>'                      
+                                        '<td class="tiempo">'+value.isOpen+'</td>'+
+                                        '<td class="tiempo">'+value.itStarts+'</td>'+
+                                        '<td class="tiempo">'+value.itEnds+'</td>'+
+                                        '<td class="Coordenadas">'+value.hasLatitude+', '+value.hasLongitude+'</td>'                      
                                     +'</tr>')
                                 })
                             })
                     })
         </script>
     </head>
-
+    
+    
+    
     <!--
     <body class="bg-primary lead"style="background: url(https://images.unsplash.com/photo-1506521781263-d8422e82f27a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); background-size: cover;"> 
     -->
     
             <body>
          
-                <nav class="navbar navbar-expand-lg navbar-dark text right bg-dark">
-                    <a class="navbar-brand" href="/"><i class="bg- p-2 rounded fas fa-recycle fa-2x"> </i> CleanPoint </a>
+                <nav class="navbar navbar-expand-lg navbar-dark text right bg-dark" >
+                    <a class="navbar-brand" href="/"><i class="bg- p-2 rounded fas fa-recycle fa-3x"> </i> </a> 
+                    <h4 class="nav-item text-white">CleanPoint</h4>
+                </nav>
                  
 
-                </nav>
+                
             <div style="background-color: darkseagreen;">
                 <header>
                  <h1 class="text-center p-5 text-success" ><a href="/" class="text-decoration-none text-dark"><span class="badge badge- mr-3"><i class="fas fa-recycle fa-2x text-decoration-none"></i></span>CleanPoint</a></h1> 
                 </header>
                 <div class="p-4">
-                    <h5>Estos son los puntos limpios mas cercanos.</h5> 
+                    <center>
+                        <h4>Estos son los puntos limpios del distrito de {{distrito}}.</h4> 
+                        <h5>Para mas informacion sobre {{distrito}} pulse <a href="{{enlace}}">aqui</a></h5>
+                    </center>
                 </div>
                 <center>    
                     <div class="p-2">
