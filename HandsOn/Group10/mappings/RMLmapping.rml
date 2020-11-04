@@ -133,3 +133,4 @@ map:source_1 a rml:LogicalSource;
 map:source_2 a rml:LogicalSource;
     rml:source "environment_sgp-updated.csv";
     rml:referenceFormulation ql:CSV.
+
