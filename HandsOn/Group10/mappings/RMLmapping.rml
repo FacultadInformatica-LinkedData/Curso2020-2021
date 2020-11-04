@@ -5,10 +5,10 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
 
-map:fn_0 rml:logicalSource map:source_0;
-    rr:predicateObjectMap map:pomexec_0, map:pom_4, map:pom_5.
-map:fn_1 rml:logicalSource map:source_1;
-    rr:predicateObjectMap map:pomexec_1, map:pom_10, map:pom_11.
+map:jc_0 rr:child "Indicator Code";
+    rr:parent "Indicator Code".
+map:jc_1 rr:child "Indicator Code";
+    rr:parent "Indicator Code".
 map:map_Countries_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "Countries";
@@ -18,12 +18,12 @@ map:map_Indicators_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "Indicators";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_6, map:pom_7, map:pom_8, map:pom_9.
+    rr:predicateObjectMap map:pom_4, map:pom_5, map:pom_6, map:pom_7.
 map:map_Measures_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "Measures";
     rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_12, map:pom_13, map:pom_14, map:pom_15.
+    rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10.
 map:om_0 a rr:ObjectMap;
     rr:constant "ns:Country";
     rr:termType rr:IRI.
@@ -32,89 +32,59 @@ map:om_1 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_10 a rr:ObjectMap;
-    rml:reference "Value";
-    rr:termType rr:Literal.
-map:om_11 a rr:ObjectMap;
-    rml:reference "Value";
-    rr:termType rr:Literal.
-map:om_12 a rr:ObjectMap;
-    rr:constant "ns:Measure";
-    rr:termType rr:IRI.
-map:om_13 a rr:ObjectMap;
-    rml:reference "Value";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_14 a rr:ObjectMap;
     rml:reference "Year";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
-map:om_15 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_Measures_0.
 map:om_2 a rr:ObjectMap;
     rml:reference "Country ISO3";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_3 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
-    rr:termType rr:Literal;
-    <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_0.
+map:om_3 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_Indicators_0;
+    rr:joinCondition map:jc_0.
 map:om_4 a rr:ObjectMap;
-    rml:reference "Indicator Code";
-    rr:termType rr:Literal.
-map:om_5 a rr:ObjectMap;
-    rml:reference "Indicator Code";
-    rr:termType rr:Literal.
-map:om_6 a rr:ObjectMap;
     rr:constant "ns:Indicator";
     rr:termType rr:IRI.
-map:om_7 a rr:ObjectMap;
+map:om_5 a rr:ObjectMap;
     rml:reference "Indicator Name";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_8 a rr:ObjectMap;
+map:om_6 a rr:ObjectMap;
     rml:reference "Indicator Code";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
-map:om_9 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
+map:om_7 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_Measures_0;
+    rr:joinCondition map:jc_1.
+map:om_8 a rr:ObjectMap;
+    rr:constant "ns:Measure";
+    rr:termType rr:IRI.
+map:om_9 a rr:ObjectMap;
+    rml:reference "Value";
     rr:termType rr:Literal;
-    <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_1.
-map:omexec_0 rr:constant "equal";
-    rr:termType rr:IRI.
-map:omexec_1 rr:constant "equal";
-    rr:termType rr:IRI.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
     rr:constant <ns:countryName>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <str1>.
-map:pm_11 a rr:PredicateMap;
-    rr:constant <str2>.
-map:pm_12 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_13 a rr:PredicateMap;
-    rr:constant <ns:value>.
-map:pm_14 a rr:PredicateMap;
     rr:constant <ns:date>.
-map:pm_15 a rr:PredicateMap;
-    rr:constant <ns:hasMeasure>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <ns:countryISO3>.
 map:pm_3 a rr:PredicateMap;
     rr:constant <ns:hasIndicator>.
 map:pm_4 a rr:PredicateMap;
-    rr:constant <str1>.
-map:pm_5 a rr:PredicateMap;
-    rr:constant <str2>.
-map:pm_6 a rr:PredicateMap;
     rr:constant rdf:type.
-map:pm_7 a rr:PredicateMap;
+map:pm_5 a rr:PredicateMap;
     rr:constant <ns:indicatorName>.
-map:pm_8 a rr:PredicateMap;
+map:pm_6 a rr:PredicateMap;
     rr:constant <ns:indicatorCode>.
-map:pm_9 a rr:PredicateMap;
+map:pm_7 a rr:PredicateMap;
     rr:constant <ns:hasMeasure>.
-map:pmexec_0 rr:constant <https://w3id.org/function/ontology#executes>.
-map:pmexec_1 rr:constant <https://w3id.org/function/ontology#executes>.
+map:pm_8 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_9 a rr:PredicateMap;
+    rr:constant <ns:value>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -124,21 +94,6 @@ map:pom_1 a rr:PredicateObjectMap;
 map:pom_10 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_10;
     rr:objectMap map:om_10.
-map:pom_11 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_11;
-    rr:objectMap map:om_11.
-map:pom_12 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_12;
-    rr:objectMap map:om_12.
-map:pom_13 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_13;
-    rr:objectMap map:om_13.
-map:pom_14 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_14;
-    rr:objectMap map:om_14.
-map:pom_15 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_15;
-    rr:objectMap map:om_15.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
@@ -163,16 +118,12 @@ map:pom_8 a rr:PredicateObjectMap;
 map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
-map:pomexec_0 rr:predicateMap map:pmexec_0;
-    rr:objectMap map:omexec_0.
-map:pomexec_1 rr:predicateMap map:pmexec_1;
-    rr:objectMap map:omexec_1.
 map:s_0 a rr:SubjectMap;
     rr:template "http://group10.org/hands-on/resource/{Country Name}".
 map:s_1 a rr:SubjectMap;
     rr:template "http://group10.org/hands-on/resource/{Indicator Code}".
 map:s_2 a rr:SubjectMap;
-    rr:template "http://group10.org/hands-on/resource/{Indicator Code}{Year}".
+    rr:template "http://group10.org/hands-on/resource/{Indicator Code}{Year}{Country Name}".
 map:source_0 a rml:LogicalSource;
     rml:source "environment_sgp-updated.csv";
     rml:referenceFormulation ql:CSV.
@@ -182,4 +133,3 @@ map:source_1 a rml:LogicalSource;
 map:source_2 a rml:LogicalSource;
     rml:source "environment_sgp-updated.csv";
     rml:referenceFormulation ql:CSV.
-
