@@ -2,6 +2,8 @@ let pos;
 let prueba;
 let nombre;
 
+const url = "http://localhost:9000/sparql"
+
 var dict = { 
     1:{ estacion: "Plaza España", posicion: [40.4238823, -3.7122567] },
     2:{ estacion: "Barrio del Pilar", posicion: [40.4770471, -3.7035391] },
@@ -44,17 +46,14 @@ function map() {
 
 function loadInfo(param){
 
-//    var query = [
-//        "PREFIX dbpedia2: <http://dbpedia.org/resource/>",
-//        "PREFIX Abs: <http://dbpedia.org/ontology/>",
-//        "SELECT ?abstract",
-//        "WHERE {",
-//        "?s dbpedia2:Civil_engineeringe\"@en;",
-//        "Abs:abstract ?abstract",
-//        "}"
-//    ].join(" ");
-//
-//    var queryUrl = url+"?query="+ encodeURIComponent(query) +"&format=json";
+    var query = [
+        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>",
+        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>",
+        "SELECT * WHERE { ?sub ?pred ?obj . }",
+        "LIMIT 10",
+    ].join(" ");
+
+    var queryUrl = url+"?query="+ encodeURIComponent(query) +"&format=json";
 
     var x = document.getElementById("infoEstacion");
     if (x.style.display === "none") {
@@ -64,7 +63,7 @@ function loadInfo(param){
     }
 
     document.getElementById("nombreEstacion").innerHTML = `<h2>${param}</h2>`;
-    document.getElementById("nombreProvincia").innerHTML = "SPARQL";
+    document.getElementById("nombreProvincia").innerHTML = "SPARQL hola :D";
     document.getElementById("nombreMunicipio").innerHTML = "SPARQL";
     document.getElementById("numero").innerHTML = "SPARQL";
 }
