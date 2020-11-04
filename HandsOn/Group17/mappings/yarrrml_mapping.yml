@@ -1,5 +1,6 @@
 prefixes:
   rr: http://www.w3.org/ns/r2rml#
+  ont: http://www.wsld.org/grupo17/ontology#
   foaf: http://xmlns.com/foaf/0.1/
   xsd: http://www.w3.org/2001/XMLSchema#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
@@ -10,6 +11,7 @@ prefixes:
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   vocab: http://example.org#
+  
   
 mappings:
 
