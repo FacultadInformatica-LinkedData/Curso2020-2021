@@ -894,5 +894,26 @@
     "op": "core/column-removal",
     "columnName": "WIKIDATA:STREET",
     "description": "Remove column WIKIDATA:STREET"
+  },
+     {
+    "op": "core/column-removal",
+    "columnName": "WIKIDATA:DISTRICT",
+    "description": "Remove column WIKIDATA:DISTRICT"
+  },
+     {
+    "op": "core/column-removal",
+    "columnName": "WIKIDATA:CITY",
+    "description": "Remove column WIKIDATA:CITY"
+  },
+     {
+    "op": "core/column-removal",
+    "columnName": "WIKIDATA:COMUNITY",
+    "description": "Remove column WIKIDATA:COMUNITY"
+  }
+  ,
+  {
+    "op": "core/column-removal",
+    "columnName": "WIKIDATA:NEIGBORHOOD",
+    "description": "Remove column WIKIDATA:NEIGBORHOOD"
   }
 ]

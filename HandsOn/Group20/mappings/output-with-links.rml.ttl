@@ -11,7 +11,7 @@ map:map_location_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "location";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31, map:pom_32, map:pom_33, map:pom_34, map:pom_35, map:pom_36.
+    rr:predicateObjectMap map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31, map:pom_32.
 map:map_space_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "space";
@@ -22,19 +22,23 @@ map:om_0 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
     rml:reference "NOMBRE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_10 a rr:ObjectMap;
     rml:reference "CONTENT-URL";
     rr:termType rr:IRI.
 map:om_11 a rr:ObjectMap;
     rml:reference "EMAIL";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_12 a rr:ObjectMap;
     rml:reference "CONTACTO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_13 a rr:ObjectMap;
     rml:reference "TIPO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_14 a rr:ObjectMap;
     rr:parentTriplesMap map:map_location_0;
     rr:joinCondition map:jc_0.
@@ -43,91 +47,103 @@ map:om_15 a rr:ObjectMap;
     rr:termType rr:IRI.
 map:om_16 a rr:ObjectMap;
     rml:reference "DIRECCION";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_17 a rr:ObjectMap;
     rml:reference "NOMBRE-VIA";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_18 a rr:ObjectMap;
     rml:reference "CLASE-VIAL";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_19 a rr:ObjectMap;
     rml:reference "TIPO-NUM";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_2 a rr:ObjectMap;
     rml:reference "WIKIDATA:LIBRARY";
     rr:termType rr:IRI.
 map:om_20 a rr:ObjectMap;
     rml:reference "NUM";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_21 a rr:ObjectMap;
     rml:reference "PLANTA";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_22 a rr:ObjectMap;
     rml:reference "ORIENTACION";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_23 a rr:ObjectMap;
     rml:reference "LOCALIDAD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_24 a rr:ObjectMap;
-    rml:reference "WIKIDATA:CITY";
-    rr:termType rr:IRI.
-map:om_25 a rr:ObjectMap;
     rml:reference "PROVINCIA";
-    rr:termType rr:Literal.
-map:om_26 a rr:ObjectMap;
-    rml:reference "WIKIDATA:COMUNITY";
-    rr:termType rr:IRI.
-map:om_27 a rr:ObjectMap;
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_25 a rr:ObjectMap;
     rml:reference "CODIGO-POSTAL";
-    rr:termType rr:Literal.
-map:om_28 a rr:ObjectMap;
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
+map:om_26 a rr:ObjectMap;
     rml:reference "BARRIO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_27 a rr:ObjectMap;
+    rml:reference "DISTRITO";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+map:om_28 a rr:ObjectMap;
+    rml:reference "COORDENADA-X";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
 map:om_29 a rr:ObjectMap;
-    rml:reference "WIKIDATA:NEIGBORHOOD";
-    rr:termType rr:IRI.
+    rml:reference "COORDENADA-Y";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
 map:om_3 a rr:ObjectMap;
     rml:reference "HORARIO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_30 a rr:ObjectMap;
-    rml:reference "DISTRITO";
-    rr:termType rr:Literal.
-map:om_31 a rr:ObjectMap;
-    rml:reference "WIKIDATA:DISTRICT";
-    rr:termType rr:IRI.
-map:om_32 a rr:ObjectMap;
-    rml:reference "COORDENADA-X";
-    rr:termType rr:Literal.
-map:om_33 a rr:ObjectMap;
-    rml:reference "COORDENADA-Y";
-    rr:termType rr:Literal.
-map:om_34 a rr:ObjectMap;
     rml:reference "LATITUD";
-    rr:termType rr:Literal.
-map:om_35 a rr:ObjectMap;
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
+map:om_31 a rr:ObjectMap;
     rml:reference "LONGITUD";
-    rr:termType rr:Literal.
-map:om_36 a rr:ObjectMap;
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#float>.
+map:om_32 a rr:ObjectMap;
     rml:reference "COORDENADAS-GEO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_4 a rr:ObjectMap;
     rml:reference "EQUIPAMIENTO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_5 a rr:ObjectMap;
     rml:reference "DESCRIPCION-ENTIDAD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_6 a rr:ObjectMap;
     rml:reference "DESCRIPCION";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_7 a rr:ObjectMap;
     rml:reference "TRANSPORTE";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_8 a rr:ObjectMap;
     rml:reference "TELEFONO";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_9 a rr:ObjectMap;
     rml:reference "ACCESIBILIDAD";
-    rr:termType rr:Literal.
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
@@ -163,32 +179,24 @@ map:pm_22 a rr:PredicateMap;
 map:pm_23 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/location#locality>.
 map:pm_24 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_25 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/location#province>.
-map:pm_26 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_27 a rr:PredicateMap;
+map:pm_25 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/location#cp>.
-map:pm_28 a rr:PredicateMap;
+map:pm_26 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/location#neighborhood>.
+map:pm_27 a rr:PredicateMap;
+    rr:constant <https://freewifizones/madrid/location#district>.
+map:pm_28 a rr:PredicateMap;
+    rr:constant <https://freewifizones/madrid/location#xcoordinate>.
 map:pm_29 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+    rr:constant <https://freewifizones/madrid/location#ycoordinate>.
 map:pm_3 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/space#hasSchedule>.
 map:pm_30 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#district>.
-map:pm_31 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-map:pm_32 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#xcoordinate>.
-map:pm_33 a rr:PredicateMap;
-    rr:constant <https://freewifizones/madrid/location#ycoordinate>.
-map:pm_34 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/location#latitude>.
-map:pm_35 a rr:PredicateMap;
+map:pm_31 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/location#longitude>.
-map:pm_36 a rr:PredicateMap;
+map:pm_32 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/location#geographicalCoordinates>.
 map:pm_4 a rr:PredicateMap;
     rr:constant <https://freewifizones/madrid/space#hasEquipment>.
@@ -283,18 +291,6 @@ map:pom_31 a rr:PredicateObjectMap;
 map:pom_32 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_32;
     rr:objectMap map:om_32.
-map:pom_33 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_33;
-    rr:objectMap map:om_33.
-map:pom_34 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_34;
-    rr:objectMap map:om_34.
-map:pom_35 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_35;
-    rr:objectMap map:om_35.
-map:pom_36 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_36;
-    rr:objectMap map:om_36.
 map:pom_4 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_4;
     rr:objectMap map:om_4.

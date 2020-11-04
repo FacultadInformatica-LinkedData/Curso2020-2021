@@ -8,13 +8,8 @@ SELECT DISTINCT ?name
 		?name owl:sameAs <https://www.wikidata.org/wiki/Q85697879>.
 	}
 
-SELECT DISTINCT ?city
+SELECT DISTINCT COUNT (?name)
 	WHERE {
-		?city owl:sameAS <https://www.wikidata.org/wiki/Q2807>.
-	}
-
-SELECT DISTINCT COUNT (?neigborhood)
-	WHERE {
-		?neigborhood rdf:type <https://freewifizones/madrid/location>.
-		?neigborhood owl:sameAs <https://www.wikidata.org/wiki/Q31140>.
+		?name rdf:type <https://freewifizones/madrid/space>.
+		?name owl:sameAs <https://www.wikidata.org/wiki/Q85697879>.
 	}
