@@ -2,20 +2,8 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?aÃ±o
+SELECT DISTINCT ?localizacion
 	WHERE {
-		?aÃ±o rdf:type <http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4/residuos_domestic_aÃ±o>.
-		?aÃ±o owl:sameAs <https://www.wikidata.org/wiki/Q1998> 
+		?aÃ±o rdf:type <http://www.reciclapp.com/Localizacion/planta_clasificacion_envases>.
+		?aÃ±o owl:sameAs <https://www.wikidata.org/wiki/Q909718> 
 	}
-
-SELECT DISTINCT ?ambito
-	WHERE{
-		?ambito rdf:type <http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4/residuos_domestic_ambito>.
-		?ambito owl:sameAs <https://www.wikidata.org/wiki/Q5756> 
-}
-SELECT DISTINCT ?clasificacion_envases
-	WHERE{
-		?clasificacion_envases rdf:type <http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4/clasificacion_envases>.
-		?clasificacion_envases owl:sameAs <https://www.wikidata.org/wiki/Q909718> 
-}
-
