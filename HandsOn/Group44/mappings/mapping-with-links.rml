@@ -32,7 +32,7 @@ map:map_station_0 rml:logicalSource map:source_2;
     rr:subjectMap map:s_2;
     rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10, map:pom_11.
 map:om_0 a rr:ObjectMap;
-    rr:constant "http://dbpedia.org/ontology/province";
+    rr:constant "http://dbpedia.org/ontology/Province";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
     rml:reference "PROVINCE";
@@ -51,7 +51,7 @@ map:om_12 a rr:ObjectMap;
 map:om_13 a rr:ObjectMap;
     rml:reference "DATE";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#dateTime>.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#date>.
 map:om_14 a rr:ObjectMap;
     rml:reference "IS_VALID";
     rr:termType rr:Literal;
@@ -61,9 +61,9 @@ map:om_15 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_16 a rr:ObjectMap;
-    rml:reference "MEASURED_COMPOUND";
+    rml:reference "MEASURED_COMPOUND_REC";
     rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
+    rr:datatype <http://www.w3.org/2001/XMLSchema#anyURI>.
 map:om_17 a rr:ObjectMap;
     rml:reference "VALUE";
     rr:termType rr:Literal;
@@ -194,7 +194,7 @@ map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
 map:s_0 a rr:SubjectMap;
-    rr:template "http://dbpedia.org/ontology/province/{PROVINCE}".
+    rr:template "http://dbpedia.org/ontology/Province/{PROVINCE}".
 map:s_1 a rr:SubjectMap;
     rr:template "http://dbpedia.org/ontology/Municipality/{MUNICIPALITY}".
 map:s_2 a rr:SubjectMap;
