@@ -1,0 +1,810 @@
+<http://group56.org/zonas-verdes/Distrito/Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/Distrito>.
+<http://group56.org/zonas-verdes/Distrito/Centro> <http://group56.org/zonas-verdes/nombreDistrito> "Centro"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Distrito/Centro> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1763376>.
+<http://group56.org/zonas-verdes/Distrito/Centro> <http://group56.org/zonas-verdes/tieneSubepigrafe> <http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES>.
+<http://group56.org/zonas-verdes/Distrito/Arganzuela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/Distrito>.
+<http://group56.org/zonas-verdes/Distrito/Arganzuela> <http://group56.org/zonas-verdes/nombreDistrito> "Arganzuela"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Distrito/Arganzuela> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2000929>.
+<http://group56.org/zonas-verdes/Distrito/Arganzuela> <http://group56.org/zonas-verdes/tieneSubepigrafe> <http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/Subepigrafe>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreSubepigrafe> "ZONAS VERDES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://group56.org/zonas-verdes/tamanioSolar> "5025.42"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://group56.org/zonas-verdes/numeroArchivo> "300000"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300000> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BAILEN Nº 15"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR. DENTRO DE SU PERÍMETRO SE ENCUENTRA UBICADAUNA CASETA DE GUARDAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://group56.org/zonas-verdes/tamanioSolar> "26814"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://group56.org/zonas-verdes/numeroArchivo> "300001"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300001> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BAILEN Nº 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://group56.org/zonas-verdes/tamanioSolar> "2979.2"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://group56.org/zonas-verdes/numeroArchivo> "300002"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300002> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL MESON DE PAREDES, Nº. 37 C/V CALLE DE AMPARO Nº 26"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://group56.org/zonas-verdes/tamanioSolar> "1637.34"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://group56.org/zonas-verdes/numeroArchivo> "300003"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300003> <http://group56.org/zonas-verdes/nombreCalle> "CALLE MESON DE PAREDES Nº 68"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVCIOS COLECTIVOS ZONAS VERDES BÁSICO. AFECTADO TOTALMENTE PARA JARDIN PUBLICO. PROYECTODEL BARRIO HISTORICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://group56.org/zonas-verdes/tamanioSolar> "172.9"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://group56.org/zonas-verdes/numeroArchivo> "300004"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300004> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA Nº 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. AFECTADO TOTALMENTE POR LOS ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://group56.org/zonas-verdes/tamanioSolar> "5462.95"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://group56.org/zonas-verdes/numeroArchivo> "300005"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300005> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA, Nº 21-23 Y CALLE DE LA MORERÍA, Nº 28"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. AFECTADA PARA ZONA VERDE. ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://group56.org/zonas-verdes/tamanioSolar> "1001.53"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://group56.org/zonas-verdes/numeroArchivo> "300006"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300006> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA, Nº27 C/V CUESTA DE LOS CIEGOS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. ANTIGUA ALAMEDA DE LA VIRGEN DEL PUERTO YJARDINES DE LA CUESTA DE LA VEGA. DENTRO DE SU PERIMETRO SE ENCUENTRAN UBICADOS UN EVACUATORIO, UNCANTON DE LIMPIEZAS, UNA CASETA DE PERSONAL DE JARDINERÍA Y UNA PISTA POLIVALENTE."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://group56.org/zonas-verdes/tamanioSolar> "106811.18"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://group56.org/zonas-verdes/numeroArchivo> "300007"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300007> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA C/V CUESTA DE LA VEGA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://group56.org/zonas-verdes/tamanioSolar> "1999.63"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://group56.org/zonas-verdes/numeroArchivo> "300008"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300008> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA, Nº 31 Y 37 C/V CUESTA DE JAVALQUINTO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. AFECTADO PARA ZONA VERDE. ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://group56.org/zonas-verdes/tamanioSolar> "1374.79"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://group56.org/zonas-verdes/numeroArchivo> "300009"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300009> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA Nº 35"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://group56.org/zonas-verdes/tamanioSolar> "654.66"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://group56.org/zonas-verdes/numeroArchivo> "300010"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300010> <http://group56.org/zonas-verdes/nombreCalle> "RONDA DE SEGOVIA Nº 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. EN SU INTERIOR SE ENCUENTRA LA PISTA DEPORTIVA\"GABRIEL MIRÓ\" (TAMBIÉN DENOMINADA \"LAS VISTILLAS\"), SITUADA EN LA C/ GABRIEL MIRÓ C/V C/ BEATRIZGALINDO C/V C/ MORERÍA."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://group56.org/zonas-verdes/tamanioSolar> "12346.82"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://group56.org/zonas-verdes/numeroArchivo> "300011"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300011> <http://group56.org/zonas-verdes/nombreCalle> "PLAZA DE GABRIEL MIRO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://group56.org/zonas-verdes/tamanioSolar> "77.08"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://group56.org/zonas-verdes/numeroArchivo> "300012"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300012> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://group56.org/zonas-verdes/tamanioSolar> "496.08"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://group56.org/zonas-verdes/numeroArchivo> "300013"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300013> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BEATRIZ GALINDO Nº 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://group56.org/zonas-verdes/tamanioSolar> "776.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://group56.org/zonas-verdes/numeroArchivo> "300014"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300014> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS Nº 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://group56.org/zonas-verdes/tamanioSolar> "539"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://group56.org/zonas-verdes/numeroArchivo> "300015"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300015> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS Nº 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://group56.org/zonas-verdes/tamanioSolar> "745.85"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://group56.org/zonas-verdes/numeroArchivo> "300016"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300016> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE JAVALQUINTO Nº 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://group56.org/zonas-verdes/tamanioSolar> "451.49"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://group56.org/zonas-verdes/numeroArchivo> "300017"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300017> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE JAVALQUINTO Nº 7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://group56.org/zonas-verdes/tamanioSolar> "1099.58"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://group56.org/zonas-verdes/numeroArchivo> "300018"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300018> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA MORERIA Nº 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://group56.org/zonas-verdes/tamanioSolar> "939.95"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://group56.org/zonas-verdes/numeroArchivo> "300019"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300019> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA MORERIA Nº 22"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://group56.org/zonas-verdes/tamanioSolar> "471.75"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://group56.org/zonas-verdes/numeroArchivo> "300020"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300020> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS C/V CALLE DE BEATRIZ GALINDO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. EN SU SUBSUELO SE CONSTRUYERON UNOSEVACUATORIOS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://group56.org/zonas-verdes/tamanioSolar> "13461.43"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://group56.org/zonas-verdes/numeroArchivo> "300021"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300021> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BARCELÓ"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://group56.org/zonas-verdes/tamanioSolar> "710.4"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://group56.org/zonas-verdes/numeroArchivo> "300027"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300027> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE FUENCARRAL Nº 43"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. CUBIERTA P.A.R."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://group56.org/zonas-verdes/tamanioSolar> "463"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://group56.org/zonas-verdes/numeroArchivo> "300022"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300022> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA ALAMEDA Nº 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. FORMA PARTE DEL JARDÍN CATALOGADO \"JARDÍN EN C/ALGECIRAS\", CON PROTECCIÓN NIVEL 3."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://group56.org/zonas-verdes/tamanioSolar> "2120"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://group56.org/zonas-verdes/numeroArchivo> "300023"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300023> <http://group56.org/zonas-verdes/nombreCalle> "RONDA SEGOVIA Nº 57"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://group56.org/zonas-verdes/tamanioSolar> "704.65"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://group56.org/zonas-verdes/numeroArchivo> "300024"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300024> <http://group56.org/zonas-verdes/nombreCalle> "RONDA SEGOVIA Nº 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://group56.org/zonas-verdes/tamanioSolar> "395.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://group56.org/zonas-verdes/numeroArchivo> "300025"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300025> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE JERTE Nº 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONA VERDE BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://group56.org/zonas-verdes/tamanioSolar> "1128.38"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://group56.org/zonas-verdes/numeroArchivo> "300026"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300026> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL MESÓN DE PAREDES Nº 63"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. SOLAR QUE HA PASADO A ZONA VERDE. BAJA FINCA Nº73 DEL INVENTARIO DEL AYUNTAMIENTO DE MADRID."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://group56.org/zonas-verdes/tamanioSolar> "372.3"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://group56.org/zonas-verdes/numeroArchivo> "300028"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300028> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ALGECIRAS Nº 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://group56.org/zonas-verdes/tamanioSolar> "920.5"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://group56.org/zonas-verdes/numeroArchivo> "300029"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300029> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ALGECIRAS Nº 4-6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. EN EL INTERIOR DE SU PERÍMETRO SE ENCUENTRAUBICADA LA PISTA DEPORTIVA PARQUE DE LA CORNISA (PISTA DE BALONCESTO, PISTA DE VÓLEY Y FUTBOLEY,PISTA DE BÁDMIN TON Y TENIS DE MESA), SITA EN CALLE DEL ROSARIO, NÚMERO 5."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://group56.org/zonas-verdes/tamanioSolar> "14193.99"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://group56.org/zonas-verdes/numeroArchivo> "300030"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300030> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL ROSARIO C/V CALLE DE JERTE"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIO COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://group56.org/zonas-verdes/tamanioSolar> "3385.55"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://group56.org/zonas-verdes/numeroArchivo> "301048"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301048> <http://group56.org/zonas-verdes/nombreCalle> "AVENIDA DE LA GRAN VIA DE SAN FRANCISCO Nº 19-21"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. (LA ZONA NORTE ESTÁ CALIFICADA DE VÍA PÚBLICASEGÚN PGOUM 97)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://group56.org/zonas-verdes/tamanioSolar> "3098"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://group56.org/zonas-verdes/numeroArchivo> "301077"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301077> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CASINO Nº 3 Y 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. EN EL INTERIOR DE SU PERÍMETRO SE ENCUENTRAINCLUIDA LA INSTALACIÓN DEPORTIVA BÁSICA PARQUE CASINO DE LA REINA (PISTA POLIDEPORTIVA Y PISTA DEBALONCESTO), SITA EN C/ EMBAJADORES, 66 C/V C/ CASINO, 3."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://group56.org/zonas-verdes/tamanioSolar> "7343.75"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://group56.org/zonas-verdes/numeroArchivo> "301216"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301216> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE EMBAJADORES Nº 66 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. PARCELA NO DADA DE ALTA EN PMS; PARCELAREGULARIZADA POR LA LA DIRECTORA GENERAL DE PATRIMONIO POR CERTIFICACIÓN DE 23 DE MARZO DE 2018,AGRUPACIÓN Y SEGREGACIÓN DE FINCAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://group56.org/zonas-verdes/tamanioSolar> "207.21"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://group56.org/zonas-verdes/numeroArchivo> "301253"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301253> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL SOMBRERETE Nº 15"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://group56.org/zonas-verdes/tamanioSolar> "2379.34"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Centro>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://group56.org/zonas-verdes/numeroArchivo> "301255"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301255> <http://group56.org/zonas-verdes/nombreCalle> "PLAZA DEL GENERAL VARA DEL REY"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR. DENTRO DE SU PERIMETRO, PROXIMO AL PASEO DEYESERIAS, SE ENCUENTRA UBICADO UN EVACUATORIO. SE ENCUENTRAN IGUALMENTE UBICADAS DOS CASETAS DEJARDINEROS Y UN CAMPO DE FUTBOL."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://group56.org/zonas-verdes/tamanioSolar> "108873.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://group56.org/zonas-verdes/numeroArchivo> "300032"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300032> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESERIAS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR, INTEGRADO EN EL PARQUE DE LA ARGANZUELA."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://group56.org/zonas-verdes/tamanioSolar> "853.1"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://group56.org/zonas-verdes/numeroArchivo> "300033"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300033> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESERIAS Nº 4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. DENTRO DE SU PERÍMETRO SE ENCUENTRA UBICADA UNACASETA DE PERSONAL Y ALMACÉN DE HERRAMIENTAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://group56.org/zonas-verdes/tamanioSolar> "9141.5"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://group56.org/zonas-verdes/numeroArchivo> "300034"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300034> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CONCEJAL BENITO MARTÍN LOZANO Nº 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://group56.org/zonas-verdes/tamanioSolar> "3013.5"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://group56.org/zonas-verdes/numeroArchivo> "300035"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300035> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SAN ISIDORO DE SEVILLA Nº 15 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://group56.org/zonas-verdes/nombreDestino> "CALIFICADO PARTE DE DOTACIONAL SERVICIOS COLECTIVOS VÍA PÚBLICA Y PARTE DE DOTACIONAL SERVICIOSCOLECTIVOS EQUIPAMIENTO BÁSICO SEGÚN PGOUM 97."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://group56.org/zonas-verdes/tamanioSolar> "776.2"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://group56.org/zonas-verdes/numeroArchivo> "300036"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300036> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESERIAS Nº 43-49"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://group56.org/zonas-verdes/nombreDestino> "PARCELA NO INVENTARIADA EN PMS, CUYO PERÍMETRO ESTÁ INCLUIDO EN ALINEACIÓN DE VOLUMETRÍA ESPECÍFICA,NORMA ZONA 3.2, SEGÚN PGOUM 97."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://group56.org/zonas-verdes/tamanioSolar> "176.55"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://group56.org/zonas-verdes/numeroArchivo> "300037"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300037> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE CARMEN COBEÑA Nº 5 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. DENTRO DE SU PERÍMETRO SE HALLA UBICADA LA IDBEROS (PISTA DE FÚTBOL SALA)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://group56.org/zonas-verdes/tamanioSolar> "6731"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://group56.org/zonas-verdes/numeroArchivo> "300039"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300039> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE EROS Nº 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. PROTECCIÓN ARQUEOLÓGICA (ZPA TERRAZAS DELMANZANARES - NIVEL B)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://group56.org/zonas-verdes/tamanioSolar> "2951"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://group56.org/zonas-verdes/numeroArchivo> "300064"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300064> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE VILLOSLADA Nº 5-11"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://group56.org/zonas-verdes/tamanioSolar> "10548.3"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://group56.org/zonas-verdes/numeroArchivo> "300065"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300065> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SAN EPIFANIO Nº 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://group56.org/zonas-verdes/tamanioSolar> "1880.81"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://group56.org/zonas-verdes/numeroArchivo> "300066"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300066> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL PUERTO DE BÉJAR C/V CALLE DE EMBAJADORES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://group56.org/zonas-verdes/tamanioSolar> "1529.31"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://group56.org/zonas-verdes/numeroArchivo> "300067"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300067> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LOS MELANCÓLICOS Nº 34"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://group56.org/zonas-verdes/tamanioSolar> "2916.41"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://group56.org/zonas-verdes/numeroArchivo> "300068"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300068> <http://group56.org/zonas-verdes/nombreCalle> "TRAVESIA DE LOS MELANCÓLICOS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://group56.org/zonas-verdes/tamanioSolar> "828.4"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://group56.org/zonas-verdes/numeroArchivo> "300069"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300069> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA ANTRACITA Nº 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://group56.org/zonas-verdes/tamanioSolar> "1072.6"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://group56.org/zonas-verdes/numeroArchivo> "300070"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300070> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO C/V CALLE DEL PLOMO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://group56.org/zonas-verdes/tamanioSolar> "4544"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://group56.org/zonas-verdes/numeroArchivo> "300071"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300071> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TITÁN Nº 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://group56.org/zonas-verdes/tamanioSolar> "1890"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://group56.org/zonas-verdes/numeroArchivo> "300072"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300072> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL PLANETA TIERRA Nº 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://group56.org/zonas-verdes/tamanioSolar> "10647"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://group56.org/zonas-verdes/numeroArchivo> "300073"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300073> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TITÁN Nº 11-15"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://group56.org/zonas-verdes/tamanioSolar> "6992"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://group56.org/zonas-verdes/numeroArchivo> "300074"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300074> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO C/V CALLE DE EMBAJADORES Nº 181"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://group56.org/zonas-verdes/tamanioSolar> "1520"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://group56.org/zonas-verdes/numeroArchivo> "300075"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300075> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO Nº 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://group56.org/zonas-verdes/tamanioSolar> "2131"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://group56.org/zonas-verdes/numeroArchivo> "300076"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300076> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA ANTRACITA Nº 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO; UNA PEQUEÑA PARTE DE LA PARCELA CORRESPONDE ASUELO DOTACIONAL DE EQUIPAMIENTOS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://group56.org/zonas-verdes/tamanioSolar> "1260"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://group56.org/zonas-verdes/numeroArchivo> "300077"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300077> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO C/V CALLE DEL HIERRO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://group56.org/zonas-verdes/tamanioSolar> "835.79"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://group56.org/zonas-verdes/numeroArchivo> "300078"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300078> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA Nº 13"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://group56.org/zonas-verdes/tamanioSolar> "529.94"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://group56.org/zonas-verdes/numeroArchivo> "300079"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300079> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA Nº 11"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. PARTE ES VÍA PÚBLICA EN EL PGOUM-97."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://group56.org/zonas-verdes/tamanioSolar> "1571.1"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://group56.org/zonas-verdes/numeroArchivo> "300080"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300080> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA Nº 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://group56.org/zonas-verdes/tamanioSolar> "1948.51"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://group56.org/zonas-verdes/numeroArchivo> "300081"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300081> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA Nº 2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://group56.org/zonas-verdes/tamanioSolar> "1998.15"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://group56.org/zonas-verdes/numeroArchivo> "300082"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300082> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL HIERRO Nº 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://group56.org/zonas-verdes/tamanioSolar> "2201.85"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://group56.org/zonas-verdes/numeroArchivo> "300083"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300083> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL HIERRO Nº 8-16"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://group56.org/zonas-verdes/tamanioSolar> "650.62"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://group56.org/zonas-verdes/numeroArchivo> "300084"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300084> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE VALDEMORILLO Nº 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://group56.org/zonas-verdes/tamanioSolar> "1894.05"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://group56.org/zonas-verdes/numeroArchivo> "300085"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300085> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL TENIENTE CORONEL NOREÑA Nº 67"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES. EN EL INTERIOR DE SU PERÍMETRO SE ENCUENTRA UBICADA LAINSTALACIÓN DEPORTIVA BÁSICA DENOMINADA JUAN DE VERA (PISTA DE BALONCESTO)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://group56.org/zonas-verdes/tamanioSolar> "2550"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://group56.org/zonas-verdes/numeroArchivo> "300086"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300086> <http://group56.org/zonas-verdes/nombreCalle> "PLAZA DE CASAR DE CÁCERES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://group56.org/zonas-verdes/tamanioSolar> "1022.14"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://group56.org/zonas-verdes/numeroArchivo> "300062"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300062> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LEONOR DE LA VEGA Nº 1-11"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://group56.org/zonas-verdes/tamanioSolar> "4139.65"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://group56.org/zonas-verdes/numeroArchivo> "300063"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300063> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL ORIANA Nº 10"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO, CON PROTECCIÓN NIVEL 3."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://group56.org/zonas-verdes/tamanioSolar> "3267"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://group56.org/zonas-verdes/numeroArchivo> "300040"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300040> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO Nº 177"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://group56.org/zonas-verdes/tamanioSolar> "4385.08"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://group56.org/zonas-verdes/numeroArchivo> "300041"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300041> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE RICARDO DAMAS Nº 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://group56.org/zonas-verdes/tamanioSolar> "1200"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://group56.org/zonas-verdes/numeroArchivo> "300042"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300042> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MAZARREDO Nº 7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://group56.org/zonas-verdes/tamanioSolar> "1625.76"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://group56.org/zonas-verdes/numeroArchivo> "300043"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300043> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL TENIENTE CORONEL NOREÑA Nº 26 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://group56.org/zonas-verdes/tamanioSolar> "1350.26"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://group56.org/zonas-verdes/numeroArchivo> "300044"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300044> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL GENERAL LACY, Nº. 23 C/V CALLE BUSTAMANTE"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://group56.org/zonas-verdes/tamanioSolar> "5336.95"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://group56.org/zonas-verdes/numeroArchivo> "300045"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300045> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ARGANDA Nº 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://group56.org/zonas-verdes/tamanioSolar> "1350"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://group56.org/zonas-verdes/numeroArchivo> "300046"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300046> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CINZ Nº 1-3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://group56.org/zonas-verdes/tamanioSolar> "1350"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://group56.org/zonas-verdes/numeroArchivo> "300047"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300047> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA CIRCONITA Nº 1-3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://group56.org/zonas-verdes/tamanioSolar> "4547.27"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://group56.org/zonas-verdes/numeroArchivo> "300048"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300048> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE EMBAJADORES Nº 173"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://group56.org/zonas-verdes/tamanioSolar> "864"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://group56.org/zonas-verdes/numeroArchivo> "300049"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300049> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MELILLA Nº 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://group56.org/zonas-verdes/tamanioSolar> "1092.34"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://group56.org/zonas-verdes/numeroArchivo> "300050"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300050> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE GRANITO, FRENTE AL Nº 32-36"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://group56.org/zonas-verdes/tamanioSolar> "7637"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://group56.org/zonas-verdes/numeroArchivo> "300051"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300051> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ARGANDA Nº 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://group56.org/zonas-verdes/tamanioSolar> "1305"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://group56.org/zonas-verdes/numeroArchivo> "300052"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300052> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MELILLA Nº 57-65"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://group56.org/zonas-verdes/tamanioSolar> "1350"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://group56.org/zonas-verdes/numeroArchivo> "300053"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300053> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MELILLA Nº 37-47"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://group56.org/zonas-verdes/tamanioSolar> "443.43"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://group56.org/zonas-verdes/numeroArchivo> "300054"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300054> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO Nº 151"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://group56.org/zonas-verdes/tamanioSolar> "3154.88"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://group56.org/zonas-verdes/numeroArchivo> "300055"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300055> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO Nº 155"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://group56.org/zonas-verdes/tamanioSolar> "2390.54"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://group56.org/zonas-verdes/numeroArchivo> "300056"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300056> <http://group56.org/zonas-verdes/nombreCalle> "TRAVESIA DE SAN ISIDORO DE SEVILLA Nº 7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://group56.org/zonas-verdes/tamanioSolar> "1077.2"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://group56.org/zonas-verdes/numeroArchivo> "300057"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300057> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BOLÍVAR Nº 18B-D"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://group56.org/zonas-verdes/tamanioSolar> "2099"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://group56.org/zonas-verdes/numeroArchivo> "300058"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300058> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOMÁS BRETÓN Nº 58"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://group56.org/zonas-verdes/tamanioSolar> "2061.82"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://group56.org/zonas-verdes/numeroArchivo> "300059"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300059> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BOLÍVAR Nº 24B-E"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://group56.org/zonas-verdes/tamanioSolar> "873.28"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://group56.org/zonas-verdes/numeroArchivo> "300060"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300060> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL PLOMO Nº 5A"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://group56.org/zonas-verdes/tamanioSolar> "3033"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://group56.org/zonas-verdes/numeroArchivo> "300038"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/300038> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO Nº 178"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://group56.org/zonas-verdes/tamanioSolar> "10608.66"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://group56.org/zonas-verdes/numeroArchivo> "301046"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301046> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CRISTO DEL CAMINO Nº 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://group56.org/zonas-verdes/tamanioSolar> "36633.96"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://group56.org/zonas-verdes/numeroArchivo> "301047"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301047> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL PÁRROCO EUSEBIO CUENCA Nº 13"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://group56.org/zonas-verdes/tamanioSolar> "443"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://group56.org/zonas-verdes/numeroArchivo> "301049"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301049> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ALEJANDRO SAINT AUBIN Nº 2 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://group56.org/zonas-verdes/tamanioSolar> "1312.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://group56.org/zonas-verdes/numeroArchivo> "301050"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301050> <http://group56.org/zonas-verdes/nombreCalle> "GLORIETA DE SAN VÍCTOR"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. PARQUE URBANO. EN EL INTERIOR DE SU PERÍMETRO SEENCUENTRAN UBICADAS UNA CASETA DE PERSONAL Y UN ALMACÉN DE HERRAMIENTAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://group56.org/zonas-verdes/tamanioSolar> "28239"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://group56.org/zonas-verdes/numeroArchivo> "301112"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301112> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE GARGANTILLA Nº 2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://group56.org/zonas-verdes/tamanioSolar> "2990.56"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://group56.org/zonas-verdes/numeroArchivo> "301202"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301202> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE PALOS DE LA FRONTERA Nº 42"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://group56.org/zonas-verdes/tamanioSolar> "9150"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://group56.org/zonas-verdes/numeroArchivo> "301203"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301203> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESERÍAS Nº 35 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://group56.org/zonas-verdes/tamanioSolar> "3363"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://group56.org/zonas-verdes/numeroArchivo> "301204"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301204> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MORATINES Nº 27"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://group56.org/zonas-verdes/tamanioSolar> "1799"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://group56.org/zonas-verdes/numeroArchivo> "301205"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301205> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE VILLA DEL PRADO Nº 2-4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES BÁSICO. EN EL INTERIOR DE SU PERÍMETRO SE ENCUENTRAUBICADA LA INSTALACIÓN DEPORTIVA BÁSICA DOCTOR VALLEJO NÁJERA (PISTA DE BALONCESTO), SITA EN LA CALLEGASÓMETRO, NÚM. 32."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://group56.org/zonas-verdes/tamanioSolar> "7664.63"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://group56.org/zonas-verdes/tieneDistrito> <http://group56.org/zonas-verdes/Distrito/Arganzuela>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/NdeArchivo>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://group56.org/zonas-verdes/numeroArchivo> "301206"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Numero_de_archivo/301206> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS ACACIAS Nº 31"^^<http://www.w3.org/2001/XMLSchema#string>.

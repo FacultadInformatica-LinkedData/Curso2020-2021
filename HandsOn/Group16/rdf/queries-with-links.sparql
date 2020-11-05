@@ -1,0 +1,324 @@
+### SPARQL queries
+
+##
+
+# Query 1: List all the properties used in our dataset
+
+    SELECT DISTINCT
+        ?Property
+    WHERE {
+        ?Subject ?Property ?Object .
+    }
+
+# Result:
+
+    http://www.semanticweb.org/group16/ontologies/air-quality#measureValue
+    http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+    http://www.semanticweb.org/group16/ontologies/air-quality#dateOfMeasure
+    http://www.semanticweb.org/group16/ontologies/air-quality#measureType
+    http://www.semanticweb.org/group16/ontologies/air-quality#measuredAt
+    http://www.w3.org/2002/07/owl#sameAs
+    http://www.w3.org/2000/01/rdf-schema#label
+    http://www.semanticweb.org/group16/ontologies/air-quality#stationCode
+    http://www.schema.org#address
+    http://www.schema.org#latitude
+    http://www.semanticweb.org/group16/ontologies/air-quality#measureCode
+    http://www.schema.org#longitude
+    http://www.semanticweb.org/group16/ontologies/air-quality#measureNotation
+
+##
+
+# Query 2: List all the stations included in our dataset
+
+    SELECT DISTINCT
+        ?StLabel
+    WHERE {
+        ?St rdf:type ns:Station .
+        ?St rdfs:label ?StLabel .
+    }
+
+# Result:
+
+    Parque del Retiro
+    Ensanche de Vallecas
+    Barajas Pueblo
+    Pza. del Carmen
+    Urb. Embajada
+    Sanchinarro
+    Cuatro Caminos
+    Villaverde
+    Escuelas Aguirre
+    Moratalaz
+    Barrio del Pilar
+    Avda. Ramón y Cajal
+    Juan Carlos I
+    Casa de Campo
+    Tres Olivos
+    Mendez Alvaro
+    Farolillo
+    Plaza Castilla
+    Pza. de España
+    Vallecas
+    Castellana
+    Arturo Soria
+    Pza. Elíptica
+    El Pardo
+
+##
+
+# Query 3: List all the magnitudes measured in our dataset's stations
+
+    SELECT DISTINCT
+        ?Notation ?LabelEs ?LabelEn ?Code
+    WHERE {
+        ?Magnitude rdf:type ns:Magnitude .
+        ?Magnitude ns:measureNotation ?Notation .
+        ?Magnitude ns:measureCode ?Code .
+        ?Magnitude rdfs:label ?LabelEn , ?LabelEs .
+            FILTER (LANG(?LabelEn) = 'en' && LANG(?LabelEs) = 'es')
+    }
+
+# Result:
+
+    BEN
+    Benceno
+    Benzene
+    30
+    --
+    SO2
+    Dióxido de Azufre
+    Sulfur Dioxide
+    1
+    --
+    TCH
+    Hidrocarburos totales (hexano)
+    Total Hydrocarbons (hexane)
+    42
+    --
+    NOx
+    Óxidos de Nitrógeno
+    Nitrogen Oxides
+    12
+    --
+    PM2.5
+    Partículas <2.5 μm
+    Particles <2.5 μm
+    9
+    --
+    CO
+    Monóxido de Carbono
+    Carbon Monoxide
+    6
+    --
+    TOL
+    Tolueno
+    Toluene
+    20
+    --
+    CH4
+    Metano
+    Methane
+    43
+    --
+    NO
+    Monóxido de Nitrógeno
+    Nitrogen Monoxide
+    7
+    --
+    EBE
+    Etilbenceno
+    Ethylbenzene
+    35
+    --
+    PM10
+    Partículas <10 μm
+    Particles <10 μm
+    10
+    --
+    O3
+    Ozono
+    Ozone
+    14
+    --
+    NO2
+    Dióxido de Nitrógeno
+    Nitrogen Dioxide
+    8
+    --
+    NMHC
+    Hidrocarburosno metánicos (hexano)
+    Non-methane hydrocarbons (hexane)
+    44
+    --
+
+##
+
+# Query 4: List all the measures linked to an specific station
+
+    SELECT DISTINCT
+        ?Measure
+    WHERE {
+        ?St rdf:type ns:Station .
+        ?St rdfs:label "Moratalaz"^^<http://www.w3.org/2001/XMLSchema#string> .
+        ?Measure rdf:type ns:Measurement .
+        ?Measure ns:measuredAt ?St .
+    }
+
+# Result:
+
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_7_28079036_2017_7_24
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_8_28079036_2018_12_26
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_12_28079036_2010_5_16
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_6_28079036_2016_9_11
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_12_28079036_2012_2_23
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_1_28079036_2015_3_15
+
+##
+
+# Query 5: List all the measures given an specific day
+
+    SELECT DISTINCT
+        ?Measure
+    WHERE {
+        ?Measure rdf:type ns:Measurement .
+        ?Measure ns:dateOfMeasure ?Date .
+            FILTER REGEX (STR(?Date), "^2016-04-27", "i") 
+    }
+
+# Result:
+
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_14_28079059_2016_4_27
+
+##
+
+# Query 6: List all the measures given an specific magnitude
+
+    SELECT DISTINCT
+        ?Measure
+    WHERE {
+        ?Measure rdf:type ns:Measurement .
+        ?Magnitude rdf:type ns:Magnitude .
+        ?Magnitude rdfs:label ?Label .
+            FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Sulfur dioxide", "i"))
+        ?Magnitude ns:measureCode ?Code .
+        ?Measure ns:measureType ?Code .
+    }
+
+# Result:
+
+    http://www.semanticweb.org/group16/ontologies/air-quality/4_1_28079004_2012_7_4
+    http://www.semanticweb.org/group16/ontologies/air-quality/18_1_28079018_2010_6_3
+    http://www.semanticweb.org/group16/ontologies/air-quality/38_1_28079038_2019_1_11
+    http://www.semanticweb.org/group16/ontologies/air-quality/18_1_28079018_2014_7_30
+    http://www.semanticweb.org/group16/ontologies/air-quality/8_1_28079008_2018_10_2
+    http://www.semanticweb.org/group16/ontologies/air-quality/24_1_28079024_2016_6_14
+    http://www.semanticweb.org/group16/ontologies/air-quality/18_1_28079018_2015_11_17
+    http://www.semanticweb.org/group16/ontologies/air-quality/17_1_28079017_2011_5_27
+    http://www.semanticweb.org/group16/ontologies/air-quality/8_1_28079008_2011_7_3
+    http://www.semanticweb.org/group16/ontologies/air-quality/17_1_28079017_2018_8_9
+    http://www.semanticweb.org/group16/ontologies/air-quality/17_1_28079017_2013_1_18
+    http://www.semanticweb.org/group16/ontologies/air-quality/18_1_28079018_2012_7_10
+    http://www.semanticweb.org/group16/ontologies/air-quality/35_1_28079035_2017_4_9
+    http://www.semanticweb.org/group16/ontologies/air-quality/40_1_28079040_2018_7_29
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_1_28079036_2015_3_15
+
+##
+
+# Query 7: List all the measures in a given district
+
+    SELECT DISTINCT
+        ?Measure
+    WHERE {
+        ?St rdf:type ns:Station .
+        ?St ns:inDistrict ?District .
+        ?District owl:sameAs <https://www.wikidata.org/wiki/Q807230> .
+        ?Measure rdf:type ns:Measurement .
+        ?Measure ns:measuredAt ?St .
+    }
+
+# Result:
+
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_12_28079055_2016_6_28
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_30_28079055_2018_8_6
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_8_28079055_2010_11_24
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_8_28079055_2013_5_23
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_35_28079055_2012_7_21
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_44_28079055_2013_9_21
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_10_28079055_2015_6_10
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_8_28079055_2014_4_29
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_20_28079055_2017_3_26
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_43_28079055_2019_4_18
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_8_28079055_2011_10_21
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_8_28079027_2015_11_4
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_8_28079027_2010_12_5
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_42_28079027_2011_9_5
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_42_28079027_2013_8_9
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_14_28079027_2016_2_7
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_8_28079027_2014_12_26
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_8_28079027_2012_9_19
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_12_28079059_2010_8_28
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_12_28079059_2014_9_3
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_8_28079059_2013_4_3
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_12_28079059_2015_6_29
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_14_28079059_2016_4_27
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_8_28079059_2011_10_2
+
+##
+
+# Query 8: List all the measures taken in 2014
+
+    SELECT DISTINCT
+        ?Measure
+    WHERE {
+        ?Measure rdf:type ns:Measurement .
+        ?Measure ns:dateOfMeasure ?Date .
+            FILTER REGEX (STR(?Date), "^2014", "i") 
+    }
+
+# Result:
+
+    http://www.semanticweb.org/group16/ontologies/air-quality/8_9_28079008_2014_12_19
+    http://www.semanticweb.org/group16/ontologies/air-quality/57_10_28079057_2014_6_15
+    http://www.semanticweb.org/group16/ontologies/air-quality/59_12_28079059_2014_9_3
+    http://www.semanticweb.org/group16/ontologies/air-quality/38_7_28079038_2014_11_16
+    http://www.semanticweb.org/group16/ontologies/air-quality/50_9_28079050_2014_1_9
+    http://www.semanticweb.org/group16/ontologies/air-quality/18_1_28079018_2014_7_30
+    http://www.semanticweb.org/group16/ontologies/air-quality/48_9_28079048_2014_10_7
+    http://www.semanticweb.org/group16/ontologies/air-quality/24_14_28079024_2014_4_19
+    http://www.semanticweb.org/group16/ontologies/air-quality/40_12_28079040_2014_7_17
+    http://www.semanticweb.org/group16/ontologies/air-quality/39_7_28079039_2014_4_28
+    http://www.semanticweb.org/group16/ontologies/air-quality/4_6_28079004_2014_9_19
+    http://www.semanticweb.org/group16/ontologies/air-quality/11_7_28079011_2014_1_29
+    http://www.semanticweb.org/group16/ontologies/air-quality/18_35_28079018_2014_1_4
+    http://www.semanticweb.org/group16/ontologies/air-quality/35_14_28079035_2014_8_28
+    http://www.semanticweb.org/group16/ontologies/air-quality/27_8_28079027_2014_12_26
+    http://www.semanticweb.org/group16/ontologies/air-quality/55_8_28079055_2014_4_29
+    http://www.semanticweb.org/group16/ontologies/air-quality/16_8_28079016_2014_5_3
+    http://www.semanticweb.org/group16/ontologies/air-quality/56_7_28079056_2014_2_16
+
+##
+
+# Query 9: List the measures given a magnitude and a range value
+
+    SELECT DISTINCT
+        ?Measure
+    WHERE {
+        ?Measure rdf:type ns:Measurement .
+        ?Magnitude rdf:type ns:Magnitude .
+        ?Magnitude rdfs:label ?Label .
+            FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Nitrogen oxides", "i"))
+        ?Magnitude ns:measureCode ?Code .
+        ?Measure ns:measureType ?Code .
+        ?Measure ns:measureValue ?Value .
+            FILTER (?Value >= 100)
+    }
+
+# Result:
+
+    http://www.semanticweb.org/group16/ontologies/air-quality/49_12_28079049_2018_1_30
+    http://www.semanticweb.org/group16/ontologies/air-quality/11_12_28079011_2013_10_21
+    http://www.semanticweb.org/group16/ontologies/air-quality/50_12_28079050_2017_12_13
+    http://www.semanticweb.org/group16/ontologies/air-quality/57_12_28079057_2016_1_23
+    http://www.semanticweb.org/group16/ontologies/air-quality/36_12_28079036_2012_2_23
+    http://www.semanticweb.org/group16/ontologies/air-quality/40_12_28079040_2011_11_7
+    http://www.semanticweb.org/group16/ontologies/air-quality/8_12_28079008_2016_10_1

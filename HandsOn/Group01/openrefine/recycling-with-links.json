@@ -1,0 +1,494 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "residuos_domestic_ambito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10742",
+        "name": "comunidad autónoma"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column residuos_domestic_ambito to type Q10742"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "residuos_domestic_ambito",
+    "similarValue": "Comunidad de Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5756",
+      "name": "Comunidad de Madrid",
+      "types": [
+        "Q10742",
+        "Q43229"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Comunidad de Madrid (Q5756) for cells containing \"Comunidad de Madrid\" in column residuos_domestic_ambito"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "residuos_domestic_ambito",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:residuos_domestic_ambito",
+    "columnInsertIndex": 3,
+    "description": "Create column wikidata:residuos_domestic_ambito at index 3 based on column residuos_domestic_ambito using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "residuos_domestic_tipo",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q15831577",
+        "name": "non-classical state of matter"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column residuos_domestic_tipo to type Q15831577"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "residuos_domestic_tipo",
+    "similarValue": "Vidrio (t)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11469",
+      "name": "vidrio",
+      "types": [
+        "Q15831577"
+      ],
+      "score": 86
+    },
+    "shareNewTopics": false,
+    "description": "Match item vidrio (Q11469) for cells containing \"Vidrio (t)\" in column residuos_domestic_tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "residuos_domestic_tipo",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:residuos_domestic_tipo",
+    "columnInsertIndex": 5,
+    "description": "Create column wikidata:residuos_domestic_tipo at index 5 based on column residuos_domestic_tipo using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  }
+]
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "residuos_pelig_opcion_gestion: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "residuos_pelig_opcion_gestion",
+          "from": 45,
+          "to": 96,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "residuos_pelig_tratamiento",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q187685",
+        "name": "tesis doctoral"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column residuos_pelig_tratamiento to type Q187685"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "residuos_pelig_opcion_gestion: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "residuos_pelig_opcion_gestion",
+          "from": 45,
+          "to": 96,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "residuos_pelig_tratamiento",
+    "similarValue": "Esterilización",
+    "judgment": "matched",
+    "match": {
+      "id": "Q191618",
+      "name": "esterilización",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item esterilización (Q191618) for cells containing \"Esterilización\" in column residuos_pelig_tratamiento"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "residuos_pelig_opcion_gestion: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "residuos_pelig_opcion_gestion",
+          "from": 45,
+          "to": 96,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "residuos_pelig_tratamiento",
+    "similarValue": "Recuperación de metales",
+    "judgment": "matched",
+    "match": {
+      "id": "Q80713512",
+      "name": "Optimización de un proceso biohidrometalúrgico de recuperación de metales de pilas alcalinas y de cinc-carbón agotadas",
+      "types": [
+        "Q187685"
+      ],
+      "score": 33
+    },
+    "shareNewTopics": false,
+    "description": "Match item Optimización de un proceso biohidrometalúrgico de recuperación de metales de pilas alcalinas y de cinc-carbón agotadas (Q80713512) for cells containing \"Recuperación de metales\" in column residuos_pelig_tratamiento"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "residuos_pelig_opcion_gestion: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "residuos_pelig_opcion_gestion",
+          "from": 45,
+          "to": 96,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "residuos_pelig_tratamiento",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:residuos_pelig_tratamiento",
+    "columnInsertIndex": 4,
+    "description": "Create column wikidata:residuos_pelig_tratamiento at index 4 based on column residuos_pelig_tratamiento using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  }
+]
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "planta_clasificacion_envases",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipio de España"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column planta_clasificacion_envases to type Q2074737"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "planta_clasificacion_envases",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:planta_clasificacion_envases",
+    "columnInsertIndex": 3,
+    "description": "Create column wikidata:planta_clasificacion_envases at index 3 based on column planta_clasificacion_envases using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  }
+]
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "vidrio_municipio_nombre",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipio de España"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column vidrio_municipio_nombre to type Q2074737"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "vidrio_municipio_nombre",
+    "similarValue": "Arroyomolinos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1778172",
+      "name": "Arroyomolinos",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arroyomolinos (Q1778172) for cells containing \"Arroyomolinos\" in column vidrio_municipio_nombre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "vidrio_municipio_nombre",
+    "similarValue": "Molar, El",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1915119",
+      "name": "El Molar",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Molar (Q1915119) for cells containing \"Molar, El\" in column vidrio_municipio_nombre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "vidrio_municipio_nombre",
+    "similarValue": "Navas del Rey",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1772241",
+      "name": "Navas del Rey",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Navas del Rey (Q1772241) for cells containing \"Navas del Rey\" in column vidrio_municipio_nombre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "vidrio_municipio_nombre",
+    "similarValue": "Valdepiélagos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1980542",
+      "name": "Valdepiélagos",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Valdepiélagos (Q1980542) for cells containing \"Valdepiélagos\" in column vidrio_municipio_nombre"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "vidrio_municipio_nombre",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:vidrio_municipio_nombre",
+    "columnInsertIndex": 2,
+    "description": "Create column wikidata:vidrio_municipio_nombre at index 2 based on column vidrio_municipio_nombre using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  },
+  
+]
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_direccion_muni_desc",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2074737",
+        "name": "municipio de España"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column res_tra_direccion_muni_desc to type Q2074737"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_direccion_muni_desc",
+    "similarValue": "Molar, El",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1915119",
+      "name": "El Molar",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item El Molar (Q1915119) for cells containing \"Molar, El\" in column res_tra_direccion_muni_desc"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_direccion_muni_desc",
+    "similarValue": "Navas del Rey",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1772241",
+      "name": "Navas del Rey",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Navas del Rey (Q1772241) for cells containing \"Navas del Rey\" in column res_tra_direccion_muni_desc"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "res_tra_direccion_muni_desc",
+    "similarValue": "Arroyomolinos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1778172",
+      "name": "Arroyomolinos",
+      "types": [
+        "Q2074737"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arroyomolinos (Q1778172) for cells containing \"Arroyomolinos\" in column res_tra_direccion_muni_desc"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "res_tra_direccion_muni_desc",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:res_tra_direccion_muni_desc",
+    "columnInsertIndex": 6,
+    "description": "Create column wikidata:res_tra_direccion_muni_desc at index 6 based on column res_tra_direccion_muni_desc using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  }
+]
