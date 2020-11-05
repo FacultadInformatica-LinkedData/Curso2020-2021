@@ -889,6 +889,7 @@ class StationsWidget(QWidget):
         
 class StationInfoWidget(QWidget):
 
+
     def __init__(self, parent=None):
         QLabel.__init__(self, parent)
         #ws_path = os.path.dirname(os.path.abspath(__file__))
@@ -923,8 +924,37 @@ class StationInfoWidget(QWidget):
         # si cambia
         self.id_magnitude = "1"
         #no cambia
-        self.nombre_estacion = "Pza. de España"
+        self.nombre_estacion = parent.station_toShow
+
+        self.listStations = self.getStations()
+        
+        stationX = self.getStation(parent.station_toShow)
+        print(stationX)
+
     ##
+
+    def getStation(self, nombre):
+        result = None
+        for item in self.listStations:
+            if item["StationCode"] == nombre:
+                result = item
+                break
+        return result
+
+    def getStations(self):
+        qm = QueryMaker()
+        qm.addSelect("?St ?StLabel ?StationCode ?DtLabel")
+        qm.addParam("?St", "rdf:type", "ns:Station")
+        qm.addParam("?St", "rdfs:label", "?StLabel")
+        qm.addParam("?St", "ns:stationCode", "?StationCode")
+        qm.addParam("?District", "rdf:type", "ns:District")
+        qm.addParam("?St", "ns:inDistrict", "?District")
+        qm.addParam("?District", "rdfs:label", "?DtLabel")
+        qm.addOrder("asc(?StationCode)")
+        listStations = qm.executeQuery()
+        return listStations
+    # END FUNCTION
+
     def graphButton(self):
         self.st_graph = StationsGraph()
         self.st_graph.graphButton(self.id_magnitude, self.nombre_estacion)
@@ -1037,9 +1067,9 @@ class DistrictInfoWidget(QWidget):
 
         ## TODO
         # si cambia
-        self.id_magnitude = "1"
+        self.id_magnitude = "1" # COMBO
         #no cambia
-        self.nombre_distrito = "Pza. de España"
+        self.nombre_distrito = parent.district_toShow
 
 
         url = 'https://query.wikidata.org/sparql'
@@ -1068,8 +1098,43 @@ class DistrictInfoWidget(QWidget):
         df = pd.DataFrame(districts_aux)
         df.set_index("districtURI")
         self.districts = df.astype({'population': int, 'area': float})
+        self.listDistricts = self.getDistricts()
 
-    ##
+        districtX = self.getDistrict(self.nombre_distrito)
+        print(districtX)
+        
+    ## 
+
+    def getDistrict(self, nombre):
+        result = None
+        for item in self.listDistricts:
+            if item["DtLabel"] == nombre:
+                result = item
+                break
+        return result
+
+    def getDistricts(self):
+        qm = QueryMaker()
+        qm.addSelect("?Dt ?DtLabel ?DistrictCode ?St")
+        qm.addParam("?Dt", "rdf:type", "ns:District")
+        qm.addParam("?Dt", "rdfs:label", "?DtLabel")
+        qm.addParam("?Dt", "ns:districtID", "?DistrictCode")
+        qm.addOrder("asc(?DtLabel)")
+        listDistricts = qm.executeQuery()
+        qm.cleanQuery()
+        for item in listDistricts:
+            qm.addSelect("?StLabel")
+            qm.addParam("?St", "rdf:type", "ns:Station")
+            qm.addParam("?St", "rdfs:label", "?StLabel")
+            qm.addParam("?St", "ns:inDistrict", "<" + item["Dt"] + ">")
+            stationsInDistrict = qm.executeQuery()
+            qm.cleanQuery()
+            ls = []
+            for station in stationsInDistrict:
+                ls.append(station["StLabel"])
+            item["Stations"] = ls
+        return listDistricts
+    # END FUNCTION
 
     def graphButton(self):
         gm = GraphMaker()
