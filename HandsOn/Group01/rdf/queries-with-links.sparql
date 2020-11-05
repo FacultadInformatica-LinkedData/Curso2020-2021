@@ -6,13 +6,13 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT DISTINCT ?planta ?link 
 	WHERE {
 		?planta rdf:type <http://www.reciclapp.com/Planta>
-		?planta rdf:type <http://www.reciclapp.com/se_localiza_en> ?localizacion
-		?localizacion owl:sameAS ?link 
+		?planta <http://www.reciclapp.com/se_localiza_en> ?localizacion
+		?localizacion owl:sameAs ?link 
 	}
 		
 #Devuelve todas las ubicaciones con sus links		
 SELECT DISTINCT ?localizacion ?link
 	WHERE {
 		?localizacion rdf:type <http://www.reciclapp.com/Localizacion>
-		?localizacion owl:sameAS ?link 
+		?localizacion owl:sameAs ?link 
 	}
