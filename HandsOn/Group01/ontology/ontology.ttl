@@ -1,53 +1,192 @@
-@prefix : <http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#> .
+@prefix : <http://www.reciclapp.com#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4> .
+@base <http://www.reciclapp.com> .
 
-<http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4> rdf:type owl:Ontology .
+<http://www.reciclapp.com> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.reciclapp.com#es_recogido_por
+:es_recogido_por rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Restriction ;
+                               owl:onProperty :es_recogido_por ;
+                               owl:someValuesFrom :Residuo
+                             ] ;
+                 rdfs:range [ rdf:type owl:Restriction ;
+                              owl:onProperty :es_recogido_por ;
+                              owl:someValuesFrom :Transporte
+                            ] ;
+                 rdfs:comment "Un residuo domestico es recogido por un transportista" .
+
+
+###  http://www.reciclapp.com#se_localiza_en
+:se_localiza_en rdf:type owl:ObjectProperty ;
+                rdfs:domain [ rdf:type owl:Restriction ;
+                              owl:onProperty :se_localiza_en ;
+                              owl:someValuesFrom :Planta
+                            ] ;
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty :se_localiza_en ;
+                             owl:someValuesFrom :Localizacion
+                           ] ;
+                rdfs:comment "Una planta de reciclaje se localiza en un municipio" .
+
+
+###  http://www.reciclapp.com#se_trata_en
+:se_trata_en rdf:type owl:ObjectProperty ;
+             rdfs:domain [ rdf:type owl:Restriction ;
+                           owl:onProperty :se_trata_en ;
+                           owl:someValuesFrom :Residuo
+                         ] ;
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty :se_trata_en ;
+                          owl:someValuesFrom :Planta
+                        ] ;
+             rdfs:comment "Un residuo se trata en una planta" .
+
+
+###  http://www.reciclapp.com#se_ubica_en
+:se_ubica_en rdf:type owl:ObjectProperty ;
+             rdfs:domain [ rdf:type owl:Restriction ;
+                           owl:onProperty :se_ubica_en ;
+                           owl:someValuesFrom :Residuo
+                         ] ;
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty :se_ubica_en ;
+                          owl:someValuesFrom :Direccion
+                        ] ;
+             rdfs:comment "Un residuo domestico se produce en una dirección" .
+
+
+###  http://www.reciclapp.com#tiene_como_destino
+:tiene_como_destino rdf:type owl:ObjectProperty ;
+                    rdfs:domain [ rdf:type owl:Restriction ;
+                                  owl:onProperty :tiene_como_destino ;
+                                  owl:someValuesFrom :Transporte
+                                ] ;
+                    rdfs:range [ rdf:type owl:Restriction ;
+                                 owl:onProperty :tiene_como_destino ;
+                                 owl:someValuesFrom :Planta
+                               ] ;
+                    rdfs:comment "Un transporte tiene como destino una planta de reciclaje" .
+
+
+###  http://www.reciclapp.com#transita_por
+:transita_por rdf:type owl:ObjectProperty ;
+              rdfs:domain [ rdf:type owl:Restriction ;
+                            owl:onProperty :transita_por ;
+                            owl:someValuesFrom :Transporte
+                          ] ;
+              rdfs:range [ rdf:type owl:Restriction ;
+                           owl:onProperty :transita_por ;
+                           owl:someValuesFrom :Direccion
+                         ] ;
+              rdfs:comment "Un transporte transita por una dirección" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.reciclapp.com#Año-planta
+:Año-planta rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Planta ;
+            rdfs:range xsd:dateTime .
+
+
+###  http://www.reciclapp.com#Año-residuo
+:Año-residuo rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Residuo ;
+             rdfs:range xsd:dateTime .
+
+
+###  http://www.reciclapp.com#Calle
+:Calle rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Direccion ;
+       rdfs:range xsd:string .
+
+
+###  http://www.reciclapp.com#Cantidad-planta
+:Cantidad-planta rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Planta ;
+                 rdfs:range xsd:integer .
+
+
+###  http://www.reciclapp.com#Cantidad-residuo
+:Cantidad-residuo rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Residuo ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.reciclapp.com#Cod.postal
+:Cod.postal rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Direccion ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.reciclapp.com#Conductor
+:Conductor rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Transporte ;
+           rdfs:range xsd:string .
+
+
+###  http://www.reciclapp.com#Empresa
+:Empresa rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Transporte ;
+         rdfs:range xsd:string .
+
+
+###  http://www.reciclapp.com#Localidad
+:Localidad rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Localizacion ;
+           rdfs:range xsd:string .
+
+
+###  http://www.reciclapp.com#Tipo-Planta
+:Tipo-Planta rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Planta ;
+             rdfs:range xsd:string .
+
+
+###  http://www.reciclapp.com#Tipo-Res
+:Tipo-Res rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Residuo ;
+          rdfs:range xsd:string .
+
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Año
-:Año rdf:type owl:Class ;
-     rdfs:subClassOf :Residuos .
+###  http://www.reciclapp.com#Direccion
+:Direccion rdf:type owl:Class ;
+           rdfs:comment "Dirección en la que un residuo se genera o por donde transita un transporte" .
 
 
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Calle
-:Calle rdf:type owl:Class ;
-       rdfs:subClassOf :Municipio .
+###  http://www.reciclapp.com#Localizacion
+:Localizacion rdf:type owl:Class ;
+              rdfs:comment "Lugar en el que se ubican las plantas de reciclaje" .
 
 
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Cantidad
-:Cantidad rdf:type owl:Class ;
-          rdfs:subClassOf :Residuos .
+###  http://www.reciclapp.com#Planta
+:Planta rdf:type owl:Class ;
+        rdfs:comment "Planta de tratamiento de residuos" .
 
 
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Gestión
-:Gestión rdf:type owl:Class ;
-         rdfs:subClassOf :Residuos .
+###  http://www.reciclapp.com#Residuo
+:Residuo rdf:type owl:Class ;
+         rdfs:comment "Residuo doméstico generado" .
 
 
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Municipio
-:Municipio rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Residuos
-:Residuos rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Tipo_de_Residuo
-:Tipo_de_Residuo rdf:type owl:Class ;
-                 rdfs:subClassOf :Gestión .
-
-
-###  http://www.semanticweb.org/grupo1/ontologies/2020/8/untitled-ontology-4#Tratamiento
-:Tratamiento rdf:type owl:Class ;
-             rdfs:subClassOf :Tipo_de_Residuo .
+###  http://www.reciclapp.com#Transporte
+:Transporte rdf:type owl:Class ;
+            rdfs:comment "Transporte que recoge los residuos domésticos y los lleva a una planta para su tratamiento" .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,61 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  schema: http://schema.org#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  ns: http://linkeddata.es/group15/ontology/studyCentersMadrid#
+  
+mappings:
+  centros:
+    sources:
+      - [centros_educativos-updated-with-links.csv~csv]
+    s: http://linkeddata.es/group15/ontology/studyCentersMadrid/$(Centro_codigo)
+    po:
+      - [a, ns:Center]
+      - [ns:centerName,$(Centro_nombre),xsd:string]
+      - [ns:centerTypeCod,$(Centro_tipo_codigo),xsd:string]
+      - [ns:description,$(Centro_tipo_descripcion),xsd:string]
+      - [ns:titularity,$(Centro_titularidad),xsd:string]
+      - [vcard:hasEmail ,$(Contacto_email),xsd:string]
+      - [vcard:hasTelephone ,$(Contacto_telefono),xsd:string]
+      - [vcard:fax,$(Contacto_fax),xsd:string]
+      - [ns:webpage,$(Contacto_web),xsd:string]
+      - [vcard:street-address ,$(Direccion),xsd:string]
+      - [ns:districtName,$(Distrito_nombre),xsd:string]
+      - [ns:districtCod,$(Distrito_codigo),xsd:string]
+      - [schema:longitude,$(Direccion_coor_x),xsd:string]
+      - [schema:latitude,$(Direccion_coor_y),xsd:string]
+      - [vcard:postal-code ,$(Direccion_codigo_postal),xsd:string] 
+      - p: ns:located
+        o:
+          mapping: municipios
+          condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(Municipio_nombre)]
+                      - [str2, $(Municipio_nombre)]
+
+  actividades:
+    sources:
+      - [actividades_extraescolares_institucionales-updated.csv~csv]
+    s: http://linkeddata.es/group15/ontology/studyCentersMadrid/$(Actividad_extraexcolar_codigo)
+    po:
+      - [a, ns:Activity]
+      - [ns:activityDescription,$(Actividad_extraexcolar_descrip), xsd:string]
+      - p: ns:takePlace
+        o:
+          mapping: centros
+          condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(Centro_codigo)]
+                      - [str2, $(Centro_codigo)]
+          
+  municipios:
+    sources:
+      - [centros_educativos-updated-with-links.csv~csv]
+    s: http://linkeddata.es/group15/ontology/studyCentersMadrid/$(Municipio_nombre)
+    po:
+      - [a, ns:City]
+      - [ns:cityCod,$(Municipio_codigo), xsd:string]
+      - [owl:sameAs,$(wikidata_municipality)~iri]

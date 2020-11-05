@@ -1,0 +1,11 @@
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  base: <http://www.semanticweb.org/ontologies/group37/ontology-4#>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+
+
+SELECT DISTINCT  ?Distrito 
+WHERE
+  { ?Distrito rdf:type <http://www.semanticweb.org/ontologies/group37/ontology-4/Distrito>.
+    ?Distrito owl:sameAs <https://wikidata.org/entity/Q1763376>
+  }
