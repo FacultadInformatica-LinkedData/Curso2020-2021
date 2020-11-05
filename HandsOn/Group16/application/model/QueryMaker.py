@@ -5,6 +5,7 @@
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS, OWL
 from rdflib.plugins.sparql import prepareQuery
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 # Namespaces
 ns = Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#")
@@ -22,7 +23,8 @@ class QueryMaker:
         if not(hasattr(self, "graph")):
             self.normalGraph = Graph()
             self.appGraph = Graph()
-            self.normalGraph.parse("rdf/ntriples/output-with-links.nt", format="nt")
+            #self.normalGraph.parse("rdf/ntriples/output-with-links.nt", format="nt")
+            self.sparql = SPARQLWrapper("http://localhost:9000/sparql")
             self.graph = self.normalGraph
         # END IF
     # END FUNCTION
@@ -88,6 +90,20 @@ class QueryMaker:
             self.query = self.query + "\n" + self.order
         # END IF
         initNs = self.getNamespaces()
+        #self.sparql.setQuery(self.query)
+        print(self.query)
+        self.query = """PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ns: <http://www.semanticweb.org/group16/ontologies/air-quality#>\n"""+self.query
+
+        self.sparql.setQuery(self.query)
+        self.sparql.setReturnFormat(JSON)
+        results = self.sparql.query().convert()
+
+        for result in results["results"]["bindings"]:
+            print(result["Measure"]["value"])
+
+        ret = self.sparql.query()
         q = prepareQuery(self.query, initNs)
         result = self.graph.query(q)
         listResult = []
