@@ -43,6 +43,8 @@ class GraphMaker:
     #   returns true if the graph was done correctly
     def graphData(self):
         listResult = self.getQueried()
+        for item in listResult:
+            item["Value"] = float(item["Value"])
         indexes = self.getIndexes(listResult)
         unit = self.getUnitOfMeasure()
         df = pd.DataFrame(listResult, index=indexes)
@@ -79,7 +81,7 @@ class GraphMaker:
         listResult = self.qm.executeQuery()
         self.qm.cleanQuery()
         for item in listResult:
-            item["MeasureDate"] = item["MeasureDate"].date()
+            item["MeasureDate"] = item["MeasureDate"][0:len(item["MeasureDate"])-10]
         return listResult
     # END FUNCTION
 

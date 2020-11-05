@@ -1164,7 +1164,7 @@ class DistrictInfoWidget(QWidget):
         gm.selectMagnitude(self.id_magnitude)
         gm.selectPlace(True, self.nombre_distrito)
         df = gm.graphData()
-
+        print(df)
         df.plot()
         plt.show()
 

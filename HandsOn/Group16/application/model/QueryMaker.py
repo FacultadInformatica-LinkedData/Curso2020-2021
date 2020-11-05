@@ -103,28 +103,11 @@ class QueryMaker:
             for key in row.keys():
                 rowDict[key] = row[key]["value"]
                 if(key == "Date"):
-                    splitted = row[key]["value"][0:len(row[key]["value"])-10]
-                    rowDict[key] = splitted
+                    rowDict[key] = row[key]["value"][0:len(row[key]["value"])-10]
                 # END IF
             # END FOR
             listResult.append(rowDict)
-
-        return listResult
-
-        # ret = self.sparql.query()
-        # q = prepareQuery(self.query, initNs)
-        # result = self.graph.query(q)
-        
-        # for row in result:
-        #     rowDict = row.asdict()
-        #     for key in rowDict.keys():
-        #         rowDict[key] = rowDict[key].toPython()
-        #         if(key == "Date"):
-        #             rowDict[key] = str(rowDict[key].date())
-        #         # END IF
-        #     # END FOR
-        #     listResult.append(rowDict)
-        # # END FOR
+        # END FOR
         return listResult
     # END FUNCTION
 
@@ -218,7 +201,7 @@ class QueryMaker:
         if (self.query.find("owl:") > 0):
             initNs =  initNs + "PREFIX owl: <http://www.w3.org/2002/07/owl#>\n"""
         if (self.query.find("sc:") > 0):
-            initNs =  initNs + "PREFIX sc: <http://www.schema.org#>\n"""
+            initNs =  initNs + "PREFIX sc: <https://schema.org/>\n"""
         return initNs
     # END FUNCTION
 
