@@ -918,12 +918,13 @@ class StationInfoWidget(QWidget):
         gm.selectPlace(False, self.nombre_estacion)
         df = gm.graphData()
 
-        ## TODO
+        ## TODO el puto plot
         plt.plot(df)
 
     # END FUNCTION
 # END CLASS
 
+## TODO cambiar copypaste
 class DistrictInfoWidget(QWidget):
 
     self.districts = None
@@ -1236,6 +1237,7 @@ class QueryInfo(QWidget):
         self.query_line.setPlainText(testo)
         # END FUNCTION
         
+        ## TODO usar
         # [private function] getUnitOfMeasure() -> string
         #   Returns the unit of the measurement given the magnitude
         #   example: getUnitOfMeasure() [magnitude="1"] -> "μg/m3"

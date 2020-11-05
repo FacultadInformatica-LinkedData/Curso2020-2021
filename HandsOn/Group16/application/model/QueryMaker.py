@@ -23,7 +23,6 @@ class QueryMaker:
             self.normalGraph = Graph()
             self.appGraph = Graph()
             self.normalGraph.parse("rdf/ntriples/output-with-links.nt", format="nt")
-            #self.appGraph.parse("rdf/ntriples/output-app-graph.nt", format="nt")
             self.graph = self.normalGraph
         # END IF
     # END FUNCTION
@@ -87,6 +86,7 @@ class QueryMaker:
         self.query = self.query + "}"
         if not(self.order == ""):
             self.query = self.query + "\n" + self.order
+        # END IF
         initNs = self.getNamespaces()
         q = prepareQuery(self.query, initNs)
         result = self.graph.query(q)

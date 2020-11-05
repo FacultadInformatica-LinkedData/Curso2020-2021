@@ -38,7 +38,7 @@ class GraphMaker:
     # END FUNCTION
 
 
-    # graphData() -> boolean
+    # graphData() -> pd.DataFrame (?)
     #   According to the parameters given in previous functions, graphs the query
     #   returns true if the graph was done correctly
     def graphData(self):
@@ -147,37 +147,18 @@ def test_selectPlace():
 # Test method graphData
 def test_graphData():
     gm = GraphMaker()
-    # gm.qm.toggleGraphMode(True)
-    # for item in ["8", "9", "10", "12", "14", "20", "30", "35", "42", "43", "44"]:
-    #     dfs = []
-    #     for place in ["Fuencarral-El Pardo","Puente de Vallecas"]:
-    #         gm.selectMagnitude(item)
-    #         gm.selectPlace(True, place)
-    #         df = gm.graphData()
-    #         dfs.append(df)
-    #         if df.empty:
-    #             print("District " + place + " had no measurements of " + item + " :((")
-    #             break
-    #     print(dfs[0].empty, dfs[1].empty)
-    #     print(dfs[0], dfs[1])
-    #     ax = plt.gca()
-    #     fig, axes = plt.subplots(nrows=1, ncols=2)
-    #     if len(dfs) < 2 or dfs[0].empty or dfs[1].empty:
-    #         continue
-    #     else:
-    #         dfs[0].plot(kind='line',x='Date of measure',y='μg/m3', color='red', ax=axes[0], rot=90)
-    #         dfs[1].plot(kind='line',x='Date of measure',y='μg/m3', color='red', ax=axes[1], rot=90)
-    #         plt.show()  
+    df = gm.graphData()
+    gm.
     # assert ret == True
 # END FUNCTION
 
 
 # Main entrypoint, used for tests
 if __name__ == "__main__":
-    # test_selectMagnitude()
-    # print("selectMagnitude method test passed")
-    # test_selectPlace()
-    # print("selectPlace method test passed")
+    test_selectMagnitude()
+    print("selectMagnitude method test passed")
+    test_selectPlace()
+    print("selectPlace method test passed")
     test_graphData()
     print("graphData method test passed")
 # END MAIN
