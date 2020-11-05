@@ -38,9 +38,9 @@ class GraphMaker:
     # END FUNCTION
 
 
-    # graphData() -> pd.DataFrame (?)
+    # graphData() -> pd.DataFrame
     #   According to the parameters given in previous functions, graphs the query
-    #   returns true if the graph was done correctly
+    #   returns the dataframe of the queried data
     def graphData(self):
         listResult = self.getQueried()
         for item in listResult:
@@ -152,8 +152,7 @@ def test_graphData():
     gm.selectMagnitude("1")
     gm.selectPlace(True, "Centro")
     df = gm.graphData()
-    #gm.
-    # assert ret == True
+    assert type(df) == type(pd.DataFrame())
 # END FUNCTION
 
 

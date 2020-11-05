@@ -366,6 +366,7 @@ class MSWidget(QWidget):
         qm.addSelect("?Label")
         qm.addParam("?s", "rdf:type", "ns:"+selected)
         qm.addParam("?s", "rdfs:label", "?Label")
+        qm.addOrder("asc(?Label)")
         queryResult = qm.executeQuery()
         locationList = []
         for d in queryResult:
@@ -460,7 +461,6 @@ class MSWidget(QWidget):
             if place == "District":
                 id = self.dist_dict[sitio]
             elif place == "Street":
-                print(self.str_dict)
                 id = self.str_dict[sitio]
             else:
                 id = self.stat_dict[sitio]
@@ -1086,7 +1086,6 @@ class DistrictInfoWidget(QWidget):
 
         districts_aux = []
         for item in data['results']['bindings']:
-            print(item["itemLabel"]["value"])
             if "image" in item :
                 districts_aux.append(collections.OrderedDict({'districtURI': item['item']['value'],
                                             'districtName': item['itemLabel']['value'],
@@ -1164,7 +1163,6 @@ class DistrictInfoWidget(QWidget):
         gm.selectMagnitude(self.id_magnitude)
         gm.selectPlace(True, self.nombre_distrito)
         df = gm.graphData()
-        print(df)
         df.plot()
         plt.show()
 
@@ -1414,36 +1412,35 @@ class QueryInfo(QWidget):
         testo = ""
 
         for item in listResult:
-
             self.measure_id = item["Measure"]
             self.measure_station = item["StationLb"]
             self.measure_date = item["Date"]
             self.measure_magnitude_en = item["MagnitudeLbEn"]
             self.measure_magnitude_es = item["MagnitudeLbEs"]
             self.measure_value = item["Value"]
+            unit = self.getUnitOfMeasure(item["MagnitudeCode"])
             testo += ("\n" + self.measure_id + "\n\t" +
                      self.measure_station + "\n\t" +
                      self.measure_date + "\n\t" +
                      self.measure_magnitude_en + "\n\t" +
                      self.measure_magnitude_es + "\n\t" +
-                     str(self.measure_value) + "\n")
+                     str(self.measure_value) + " " + unit + "\n")
 
         self.query_line.setPlainText(testo)
         # END FUNCTION
         
-        ## TODO usar
-        # [private function] getUnitOfMeasure() -> string
-        #   Returns the unit of the measurement given the magnitude
-        #   example: getUnitOfMeasure() [magnitude="1"] -> "μg/m3"
-        #   example: getUnitOfMeasure() [magnitude="2"] -> "mg/m3"
-        def getUnitOfMeasure(self):
-            magnitudeID = int(self.magnitude)
-            if magnitudeID == 1 or (magnitudeID >= 7 and magnitudeID <= 39):
-                return "μg/m3"
-            else:
-                return "mg/m3"
-            # END IF
-        # END FUNCTION
+    # [private function] getUnitOfMeasure() -> string
+    #   Returns the unit of the measurement given the magnitude
+    #   example: getUnitOfMeasure() [magnitude="1"] -> "μg/m3"
+    #   example: getUnitOfMeasure() [magnitude="2"] -> "mg/m3"
+    def getUnitOfMeasure(self, magnitudeCode):
+        magnitudeID = int(magnitudeCode)
+        if magnitudeID == 1 or (magnitudeID >= 7 and magnitudeID <= 39):
+            return "μg/m3"
+        else:
+            return "mg/m3"
+        # END IF
+    # END FUNCTION
 
 # END CLASS
 

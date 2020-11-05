@@ -94,12 +94,9 @@ class QueryMaker:
         self.sparql.setQuery(self.query)
         self.sparql.setReturnFormat(JSON)
         results = self.sparql.query().convert()
-        print(self.query)
         listResult = []
 
-        # print(results)
         for row in results["results"]["bindings"]:
-            # print(row)
             rowDict = {}
             for key in row.keys():
                 rowDict[key] = row[key]["value"]
@@ -125,7 +122,7 @@ class QueryMaker:
     #   example: appQuery([False, False, True], ["#magnitudeID"]) -> List of measurements of given magnitude
     def appQuery(self, paramsUsed : list, paramsList : list):
         paramsList.reverse()
-        self.addSelect("?Measure", "?StationLb", "?Date", "?MagnitudeLbEs", "?MagnitudeLbEn", "?Value")
+        self.addSelect("?Measure", "?StationLb", "?Date", "?MagnitudeLbEs", "?MagnitudeLbEn", "?MagnitudeCode", "?Value")
         self.addParam("?Measure", "rdf:type", "ns:Measurement")
         self.addParam("?Measure", "ns:measuredAt", "?Station")
         self.addParam("?Station", "rdfs:label", "?StationLb")
@@ -135,6 +132,7 @@ class QueryMaker:
         self.addFilter("(LANG(?MagnitudeLbEn) = \'en\' && LANG(?MagnitudeLbEs) = \'es\')")
         self.addParam("?Measure", "ns:measuredMagnitude", "?Magnitude")
         self.addParam("?Measure", "ns:measureValue", "?Value")
+        self.addParam("?Magnitude", "ns:measureCode", "?MagnitudeCode")
         if paramsUsed[0] == True:
             dictionary = paramsList.pop()
             placeType = dictionary["Place"]
@@ -227,7 +225,6 @@ class QueryMaker:
             else:
                 date = splitted[0] + "-" + splitted[1] + "-" + splitted[2]
             filter = "REGEX (STR(?Date), \"^{}\", \"i\")".format(date)
-            print(filter)
         return filter
 
 
