@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	
+#Devuelve las plantas que existen y el link de las ubicaciones de estas
+SELECT DISTINCT ?planta ?link 
+	WHERE {
+		?planta rdf:type <http://www.reciclapp.com/Planta>
+		?planta <http://www.reciclapp.com/se_localiza_en> ?localizacion
+		?localizacion owl:sameAs ?link 
+	}
+		
+#Devuelve todas las ubicaciones con sus links		
+SELECT DISTINCT ?localizacion ?link
+	WHERE {
+		?localizacion rdf:type <http://www.reciclapp.com/Localizacion>
+		?localizacion owl:sameAs ?link 
+	}
