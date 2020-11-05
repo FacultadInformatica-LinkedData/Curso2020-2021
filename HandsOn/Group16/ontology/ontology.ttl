@@ -31,8 +31,8 @@
 :inDistrict rdf:type owl:ObjectProperty ;
                 rdfs:domain [
                 rdf:type owl:Class ;
-                owl:Class   <http://www.semanticweb.org/group16/ontology/air-quality#Station>,
-                                <http://www.semanticweb.org/group16/ontology/air-quality#Street>
+                owl:Class   :Station,
+                            :Street
                 ] ;
                 rdfs:range :District .
 
