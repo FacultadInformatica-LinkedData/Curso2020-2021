@@ -8,12 +8,16 @@ import qtmodern.windows
 
 sys.path.insert(1, './application/model/')
 from QueryMaker import QueryMaker
+from GraphMaker import GraphMaker
 
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtCore import QFile, QTextStream, QSize
 from PyQt5.QtGui import QIcon, QPixmap, QFont
 from PyQt5.QtWidgets import QTextEdit, QLineEdit, QDialog, QStyleFactory, QComboBox, QCheckBox, QSizePolicy, QGridLayout, QApplication, QMainWindow, QStackedWidget, QMessageBox, QWidget, QHBoxLayout, QPushButton, QLabel
 import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import requests
 
 class MainWindow(QMainWindow):
     
@@ -30,8 +34,9 @@ class MainWindow(QMainWindow):
         self.stName_toShow = ""
         self.district_toShow = ""
 
-        self.check_list = [False, False, False]
-        self.params_list = []
+        # Query params
+        self.check_list = []
+        self.query_list = []
 
         # Main
         self.main_widget = MainWidget(self)
@@ -131,8 +136,8 @@ class MainWindow(QMainWindow):
     # END FUNCTION
 
     def toQuery(self):
-        self.ms_widget.changeMode()
-        self.query_mode = self.ms_widget.query_mode
+        self.check_list = self.ms_widget.changeMode()
+        self.query_list = self.ms_widget.retrieveCombo()
         # Query info
         self.query_widget = QueryInfo(self)
         self.query_widget.back_button.clicked.connect(self.toMS)
@@ -241,6 +246,9 @@ class MSWidget(QWidget):
         self.stat_dict = {}
         self.str_dict = {}
 
+        self.check_list = [False, False, False]
+        self.params_list = []
+
         self.generateDicts()
 
         ## LOCATION ##
@@ -252,7 +260,7 @@ class MSWidget(QWidget):
         self.location_combo1 = QComboBox(self)
         self.location_combo1.setGeometry(250, 80, 100, 30)
         self.location_combo1.setEnabled(False)
-        self.location_combo1.addItems(self.getPlaces())
+        self.location_combo1.addItems(["Select Place"] + self.getPlaces())
         # Update location_combo2 when a new item is selected
         self.location_combo1.currentIndexChanged.connect(self.selectionchange1)
 
@@ -260,7 +268,7 @@ class MSWidget(QWidget):
         self.location_combo2 = QComboBox(self)
         self.location_combo2.setGeometry(350, 80, 100, 30)
         self.location_combo2.setEnabled(False)
-        self.location_combo2.addItems(self.locationDropdown())
+        self.location_combo2.addItems([])
 
         ## DATE/RANGE ##
         # Date check box
@@ -282,7 +290,7 @@ class MSWidget(QWidget):
         self.date1_combo.setGeometry(350, 140, 100, 30)
         self.date1_combo.setEnabled(False)
         months = list(range(1,13))
-        months_text = []
+        months_text = ["Empty"]
         for i in range(len(months)):
             months_text.append(str(months[i]))
         # END
@@ -292,7 +300,7 @@ class MSWidget(QWidget):
         self.date2_combo.setGeometry(450, 140, 100, 30)
         self.date2_combo.setEnabled(False)
         days = list(range(1,32))
-        days_text = []
+        days_text = ["Empty"]
         for i in range(len(days)):
             days_text.append(str(days[i]))
         # END
@@ -316,6 +324,7 @@ class MSWidget(QWidget):
         # Query button
         self.query_button = QPushButton('QUERY', self)
         self.query_button.setGeometry(325, 400, 50, 30)
+
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
@@ -342,6 +351,8 @@ class MSWidget(QWidget):
     # END FUNCTION
 
     def getLocations(self, selected):
+        if selected == "Select Place":
+            return
         qm = QueryMaker()
         qm.addSelect("?Label")
         qm.addParam("?s", "rdf:type", "ns:"+selected)
@@ -356,7 +367,9 @@ class MSWidget(QWidget):
     # Update location_combo2 when a new item is selected
     def selectionchange1(self,i):
         self.location_combo2.clear()
-        self.location_combo2.addItems(self.getLocations(self.location_combo1.currentText()))
+        ls = self.getLocations(self.location_combo1.currentText())
+        if ls is not None:
+            self.location_combo2.addItems(ls)
     # END FUNCTION
 
     def checkLocation(self,state):
@@ -375,6 +388,8 @@ class MSWidget(QWidget):
             self.date2_combo.setEnabled(True)
         else:
             self.date_combo.setEnabled(False)
+            self.date1_combo.setEnabled(False)
+            self.date2_combo.setEnabled(False)
     # END FUNCTION
 
     def checkMagnitude(self, state):
@@ -385,13 +400,78 @@ class MSWidget(QWidget):
     # END FUNCTION
 
     def generateDicts(self):
+        qm = QueryMaker()
+
+        # Stations
+        qm.addSelect("?StLabel ?StCode")
+        qm.addParam("?St", "rdf:type", "ns:Station")
+        qm.addParam("?St", "rdfs:label", "?StLabel")
+        qm.addParam("?St", "ns:stationCode", "?StCode")
+        listResult = qm.executeQuery()
+        qm.cleanQuery()
+        for stationCode in listResult:
+            self.stat_dict[stationCode["StLabel"]] = stationCode["StCode"]
+        # END FOR
+
+        # Streets
+        qm.addSelect("?StLabel ?StCode")
+        qm.addParam("?St", "rdf:type", "ns:Street")
+        qm.addParam("?St", "rdfs:label", "?StLabel")
+        qm.addParam("?St", "ns:streetID", "?StCode")
+        listResult = qm.executeQuery()
+        qm.cleanQuery()
+        for streetCode in listResult:
+            self.str_dict[streetCode["StLabel"]] = streetCode["StCode"]
+        # END FOR
         
+        # Districts
+        qm.addSelect("?StLabel ?StCode")
+        qm.addParam("?St", "rdf:type", "ns:District")
+        qm.addParam("?St", "rdfs:label", "?StLabel")
+        qm.addParam("?St", "ns:districtID", "?StCode")
+        listResult = qm.executeQuery()
+        qm.cleanQuery()
+        for streetCode in listResult:
+            self.dist_dict[streetCode["StLabel"]] = streetCode["StCode"]
+        # END FOR
+    # END FUNCTION
 
     def changeMode(self):
-        if self.mg_combo.currentText() == "43- CH4" :
-            self.query_mode = "1"
-        else :
-            self.query_mode = "6"
+        self.check_list[0] = self.location_check.isChecked()
+        self.check_list[1] = self.date_check.isChecked()
+        self.check_list[2] = self.mg_check.isChecked()
+        return self.check_list
+
+    def retrieveCombo(self):
+        result = []
+        if self.check_list[0]:
+            dictt = {}
+            place = self.location_combo1.currentText()
+            sitio = self.location_combo2.currentText()
+            if place == "District":
+                id = self.dist_dict[sitio]
+            elif place == "Street":
+                print(self.str_dict)
+                id = self.str_dict[sitio]
+            else:
+                id = self.stat_dict[sitio]
+            dictt["Place"] = place
+            dictt["ID"] = id
+            result.append(dictt)
+        if self.check_list[1]:
+            ls = self.date_combo.currentText()
+            if self.date1_combo.currentText() != "Empty":
+                ls = ls + "-" + self.date1_combo.currentText()
+                if self.date2_combo.currentText() != "Empty":
+                    ls = ls + "-" + self.date2_combo.currentText()
+            result.append(ls)
+        if self.check_list[2]:
+            mg = self.mg_combo.currentText()
+            result.append(mg.split("-")[0])
+        return result
+
+            
+
 # END CLASS
     
 
@@ -820,6 +900,108 @@ class StationInfoWidget(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
+
+        self.graph_button = QPushButton('GRAPH', self)
+        self.graph_button.setGeometry(500, 300, 50, 30)
+        self.graph_button.pressed.connect(self.graphButton)
+
+        ## TODO
+        # si cambia
+        self.id_magnitude = "1"
+        #no cambia
+        self.nombre_estacion = "Pza. de España"
+    ##
+
+    def graphButton(self):
+        gm = GraphMaker()
+        gm.selectMagnitude(self.id_magnitude)
+        gm.selectPlace(False, self.nombre_estacion)
+        df = gm.graphData()
+
+        ## TODO
+        plt.plot(df)
+
+    # END FUNCTION
+# END CLASS
+
+class DistrictInfoWidget(QWidget):
+
+    self.districts = None
+
+    def __init__(self, parent=None):
+        QLabel.__init__(self, parent)
+        #ws_path = os.path.dirname(os.path.abspath(__file__))
+
+        self.setGeometry(0, 0, 120, 120)       
+        # Station info label
+        self.st_label = QLabel("STATION:  " + parent.station_toShow + ", " + parent.stName_toShow, self)
+        self.st_label.setGeometry(60, 60, 700, 30)
+
+        # District info label
+        self.ds_label = QLabel("DISTRICT:  " + parent.district_toShow, self)
+        self.ds_label.setGeometry(60, 120, 500, 30)
+
+        # URI label
+        self.uri_label = QLabel("URI:  ", self)
+        self.uri_label.setGeometry(170, 5, 500, 30)
+
+        # Back button
+        self.back_button = QPushButton('BACK', self)
+        self.back_button.setGeometry(30, 5, 50, 30)
+
+        self.graph_button = QPushButton('GRAPH', self)
+        self.graph_button.setGeometry(500, 300, 50, 30)
+        self.graph_button.pressed.connect(self.graphButton)
+
+        self.graph_button = QPushButton('GRAPH', self)
+        self.graph_button.setGeometry(500, 300, 50, 30)
+        self.graph_button.pressed.connect(self.graphButton)
+
+        ## TODO
+        # si cambia
+        self.id_magnitude = "1"
+        #no cambia
+        self.nombre_distrito = "Pza. de España"
+
+
+        url = 'https://query.wikidata.org/sparql'
+        q = """
+            SELECT DISTINCT
+                ?item ?itemLabel ?population ?area ?image
+            WHERE {
+                ?item wdt:P31 wd:Q3032114 .
+                ?item wdt:P1082 ?population .
+                ?item wdt:P2046 ?area .
+                ?item wdt:P18 ?image .
+            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+            }
+            """
+        r = requests.get(url, params = {'format': 'json', 'query': q})
+        data = r.json()
+
+        districts = []
+        for item in data['results']['bindings']:
+            districts.append(OrderedDict({'districtURI': item['item']['value'],
+                                        'districtName': item['itemLabel']['value'],
+                                        'population': item['population']['value'],
+                                        'area': item['area']['value'],
+                                        'image': item['image']['value'],
+            }))
+        df = pd.DataFrame(districts)
+        df.set_index("districtURI")
+        self.districts = df.astype({'population': int, 'area': float})
+
+    ##
+
+    def graphButton(self):
+        gm = GraphMaker()
+        gm.selectMagnitude(self.id_magnitude)
+        gm.selectPlace(True, self.nombre_distrito)
+        df = gm.graphData()
+        
+        ## TODO
+        plt.plot(df)
+
     # END FUNCTION
 # END CLASS
 
@@ -1029,43 +1211,44 @@ class QueryInfo(QWidget):
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
-    
 
         qm = QueryMaker()
         
-        # Selección de los atributos que se requieren
-        qm.addSelect("?Magnitude ?Id ?Notation ?Nombre ?Name ?Wiki ?Description")
-        
-        # Construcción de la query
-        qm.addParam("?Magnitude", "rdf:type", "ns:Magnitude")
-        qm.addParam("?Magnitude", "rdfs:comment", "?Description")
-        qm.addParam("?Magnitude", "ns:measureNotation", "?Notation")
-        qm.addParam("?Magnitude", "ns:measureCode", "?Id")
-        qm.addFilter("(?Id = \"{}\")".format(parent.query_mode))
-        qm.addParam("?Magnitude", "owl:sameAs", "?Wiki")
-        qm.addParam("?Magnitude", "rdfs:label", "?Name , ?Nombre")
-        qm.addFilter("(LANG(?Name) = 'en' && LANG(?Nombre) = 'es')")
+        listResult = qm.appQuery(parent.check_list, parent.query_list)
 
-        # Ejecución de la query
-        listResult = qm.executeQuery()
+        testo = ""
 
         for item in listResult:
 
-            self.mg_id = item["Id"]
-            self.mg_notation = item["Notation"]
-            self.mg_nombre = item["Nombre"]
-            self.mg_name = item["Name"]
-            self.mg_wiki = item["Wiki"]
-            self.mg_def = item["Description"]
+            self.measure_id = item["Measure"]
+            self.measure_station = item["StationLb"]
+            self.measure_date = item["Date"]
+            self.measure_magnitude_en = item["MagnitudeLbEn"]
+            self.measure_magnitude_es = item["MagnitudeLbEs"]
+            self.measure_value = item["Value"]
+            testo += ("\n" + self.measure_id + "\n\t" +
+                     self.measure_station + "\n\t" +
+                     self.measure_date + "\n\t" +
+                     self.measure_magnitude_en + "\n\t" +
+                     self.measure_magnitude_es + "\n\t" +
+                     str(self.measure_value) + "\n")
 
-            self.query_line.setPlainText(self.mg_id + "\n" +
-                                        self.mg_notation + "\n" +
-                                        self.mg_nombre + "\n" +
-                                        self.mg_name + "\n" +
-                                        self.mg_wiki + "\n" +
-                                        self.mg_def)
+        self.query_line.setPlainText(testo)
         # END FUNCTION
         
+        # [private function] getUnitOfMeasure() -> string
+        #   Returns the unit of the measurement given the magnitude
+        #   example: getUnitOfMeasure() [magnitude="1"] -> "μg/m3"
+        #   example: getUnitOfMeasure() [magnitude="2"] -> "mg/m3"
+        def getUnitOfMeasure(self):
+            magnitudeID = int(self.magnitude)
+            if magnitudeID == 1 or (magnitudeID >= 7 and magnitudeID <= 39):
+                return "μg/m3"
+            else:
+                return "mg/m3"
+            # END IF
+        # END FUNCTION
+
 # END CLASS
 
 

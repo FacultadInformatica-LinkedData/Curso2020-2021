@@ -46,8 +46,6 @@ class GraphMaker:
         indexes = self.getIndexes(listResult)
         unit = self.getUnitOfMeasure()
         df = pd.DataFrame(listResult, index=indexes)
-        if df.empty == True:
-            return False
         df = df.rename(columns={"MeasureDate":"Date of measure", "Value":unit})
         return df
     # END FUNCTION
@@ -149,22 +147,27 @@ def test_selectPlace():
 # Test method graphData
 def test_graphData():
     gm = GraphMaker()
-    gm.qm.toggleGraphMode(True)
-    for item in ["1", "6", "7", "8", "9", "10", "12", "14", "20", "30", "35", "42", "43", "44"]:
-        dfs = []
-        for place in ["Fuencarral-El Pardo","Puente de Vallecas"]:
-            gm.selectMagnitude("7")
-            gm.selectPlace(True, place)
-            df = gm.graphData()
-            dfs.append(df)
-            # ret = gm.graphData()
-            # if ret == False:
-            #    print("District " + place + " had no measurements of " + item + " :((") 
-        ax = plt.gca()
-        fig, axes = plt.subplots(nrows=1, ncols=2)
-        dfs[0].plot(kind='line',x='Date of measure',y='μg/m3', color='red', ax=axes[0], rot=90)
-        dfs[1].plot(kind='line',x='Date of measure',y='μg/m3', color='red', ax=axes[1], rot=90)
-        plt.show()  
+    # gm.qm.toggleGraphMode(True)
+    # for item in ["8", "9", "10", "12", "14", "20", "30", "35", "42", "43", "44"]:
+    #     dfs = []
+    #     for place in ["Fuencarral-El Pardo","Puente de Vallecas"]:
+    #         gm.selectMagnitude(item)
+    #         gm.selectPlace(True, place)
+    #         df = gm.graphData()
+    #         dfs.append(df)
+    #         if df.empty:
+    #             print("District " + place + " had no measurements of " + item + " :((")
+    #             break
+    #     print(dfs[0].empty, dfs[1].empty)
+    #     print(dfs[0], dfs[1])
+    #     ax = plt.gca()
+    #     fig, axes = plt.subplots(nrows=1, ncols=2)
+    #     if len(dfs) < 2 or dfs[0].empty or dfs[1].empty:
+    #         continue
+    #     else:
+    #         dfs[0].plot(kind='line',x='Date of measure',y='μg/m3', color='red', ax=axes[0], rot=90)
+    #         dfs[1].plot(kind='line',x='Date of measure',y='μg/m3', color='red', ax=axes[1], rot=90)
+    #         plt.show()  
     # assert ret == True
 # END FUNCTION
 

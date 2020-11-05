@@ -46,12 +46,11 @@ print("------- Stations:")
 
 q2 = prepareQuery('''
     SELECT DISTINCT
-        ?StLabel
-        ?code
+        ?StLabel ?StCode
     WHERE {
         ?St rdf:type ns:Station .
         ?St rdfs:label ?StLabel .
-        ?St ns:stationCode ?code .
+        ?St ns:stationCode ?StCode .
     }
     ORDER BY asc(?StLabel)
     ''',
@@ -60,7 +59,7 @@ q2 = prepareQuery('''
 
 for s in g.query(q2):
     print(s.StLabel.toPython())
-    print(s.code.toPython())
+    print(s.StCode.toPython())
 
 
 # List all the magnitudes measured in our dataset's stations

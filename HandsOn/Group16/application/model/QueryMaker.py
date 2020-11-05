@@ -117,11 +117,14 @@ class QueryMaker:
     #   example: appQuery([False, False, True], ["#magnitudeID"]) -> List of measurements of given magnitude
     def appQuery(self, paramsUsed : list, paramsList : list):
         paramsList.reverse()
-        self.addSelect("?Measure", "?Station", "?Date", "?Magnitude", "?Value")
+        self.addSelect("?Measure", "?StationLb", "?Date", "?MagnitudeLbEs", "?MagnitudeLbEn", "?Value")
         self.addParam("?Measure", "rdf:type", "ns:Measurement")
         self.addParam("?Measure", "ns:measuredAt", "?Station")
+        self.addParam("?Station", "rdfs:label", "?StationLb")
         self.addParam("?Measure", "ns:dateOfMeasure", "?Date")
         self.addParam("?Magnitude", "rdf:type", "ns:Magnitude")
+        self.addParam("?Magnitude", "rdfs:label", "?MagnitudeLbEs , ?MagnitudeLbEn")
+        self.addFilter("(LANG(?MagnitudeLbEn) = \'en\' && LANG(?MagnitudeLbEs) = \'es\')")
         self.addParam("?Measure", "ns:measuredMagnitude", "?Magnitude")
         self.addParam("?Measure", "ns:measureValue", "?Value")
         if paramsUsed[0] == True:
@@ -162,6 +165,7 @@ class QueryMaker:
             magnitude = paramsList.pop()
             self.addParam("?Magnitude", "ns:measureCode", "\"{}\"^^<http://www.w3.org/2001/XMLSchema#string>".format(magnitude))
         # END IF
+        self.addOrder("asc(?Date)")
         listResult = self.executeQuery()
         return listResult
     # END FUNCTION
