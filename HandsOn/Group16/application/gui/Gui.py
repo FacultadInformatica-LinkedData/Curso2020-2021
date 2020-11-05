@@ -1105,8 +1105,10 @@ class DistrictInfoWidget(QWidget):
             if item["districtName"] == self.nombre_distrito :
                 self.urlwk_text_aux = item["districtURI"]
                 self.population = item["population"]
-                self.area = item["area"]
-                self.density = str(float(self.population)/float(self.area))
+                basura0 = float(item["area"])
+                self.area = f'{basura0:.2f}'
+                basura = float(self.population)/float(basura0)
+                self.density = f'{basura:.2f}'
                 
                 self.image = ""
                 if "image" in item :
@@ -1367,7 +1369,10 @@ class MTextWidget(QWidget):
 
     def changeText(self, type):
         if type == "dp" :
-            self.text_line.setPlainText("URI    http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure\n:dateOfMeasure rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range xsd:dateTime ."
+            self.text_line.setPlainText("URI    http://www.schema.org#address\n:schema:address rdf:type owl:DatatypeProperty ;\n                            rdfs:domain schema:Place ;\n                            rdfs:range xsd:string ."
+                                    + "\n\n\nURI    http://www.schema.org#latitude\nschema:latitude rdf:type owl:DatatypeProperty ;\n                           rdfs:domain schema:Place ;\n                           rdfs:range schema:Number ."
+                                    + "\n\n\nURI    http://www.schema.org#longitude\nschema:longitude rdf:type owl:DatatypeProperty ;\n                             rdfs:domain schema:Place ;\n                             rdfs:range schema:Number ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure\n:dateOfMeasure rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range xsd:dateTime ."
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#districtID\n:districtID rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :District ;\n                           rdfs:range xsd:integer ."
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measureCode\n:measureCode rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Magnitude ,\n                           :Measurement ;\n                           rdfs:range xsd:string ."
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measureNotation\n:measureNotation rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Magnitude ;\n                           rdfs:range xsd:string ."
@@ -1375,8 +1380,9 @@ class MTextWidget(QWidget):
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#stationCode\n:stationCode rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Station ;\n                           rdfs:range xsd:string ."
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#streetID\n:streetID rdf:type owl:DatatypeProperty ;\n                           rdfs:domain :Street ;\n                           rdfs:range xsd:integer .")
         elif type == "obj" :
-            self.text_line.setPlainText("URI    http://www.semanticweb.org/group16/ontology/air-quality#inDistrict\n:inDistrict rdf:type owl:ObjectProperty ;\n                           rdfs:domain :Station ,\n                                       :Street ;\n                           rdfs:range :District ."
-                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measuredAt\n:measuredAt rdf:type owl:ObjectProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range :Station ."
+            self.text_line.setPlainText("URI    http://www.semanticweb.org/group16/ontology/air-quality#inStreet\n:inStreet rdf:type owl:ObjectProperty ;\n               rdfs:domain :Station ;\n               rdfs:range :Street ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#inDistrict\n:inDistrict rdf:type owl:ObjectProperty ;\n                           rdfs:domain [\n                           rdf:type owl:Class ;\n                           owl:Class   :Station,\n                                             :Street\n                           ] ;\n                           rdfs:range :District ."
+                                    + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measuredAt\n:measuredAt rdf:type owl:ObjectProperty ;\n                      rdfs:domain :Measurement ;\n                      rdfs:range :Station ."
                                     + "\n\n\nURI    http://www.semanticweb.org/group16/ontology/air-quality#measuredMagnitude\n:measuredMagnitude rdf:type owl:ObjectProperty ;\n                           rdfs:domain :Measurement ;\n                           rdfs:range :Magnitude .")
         elif type == "cls" :
             self.text_line.setPlainText("URI    http://www.semanticweb.org/group16/ontology/air-quality#District\n:District rdf:type owl:Class ;\n          rdfs:subClassOf <https://schema.org/Place> ."

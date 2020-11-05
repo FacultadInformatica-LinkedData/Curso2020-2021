@@ -66,9 +66,9 @@ schema:latitude rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.schema.org#longitude
-schema:latitude rdf:type owl:DatatypeProperty ;
-                rdfs:domain schema:Place ;
-                rdfs:range schema:Number .
+schema:longitude rdf:type owl:DatatypeProperty ;
+				 rdfs:domain schema:Place ;
+                 rdfs:range schema:Number .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure
