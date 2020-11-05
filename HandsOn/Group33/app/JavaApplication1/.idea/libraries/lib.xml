@@ -1,0 +1,50 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-arq-3.16.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jackson-core-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/log4j-slf4j-impl-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-tdb-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-shaded-guava-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/log4j-api-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-base-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-tdb2-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jackson-annotations-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-dboe-base-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-dboe-transaction-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/javax.annotation-api-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-lang3-3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/httpclient-cache-4.5.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-dboe-storage-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-compress-1.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-shacl-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-cmds-3.16.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-core-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-arq-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jackson-databind-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jcl-over-slf4j-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-cli-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jsonld-java-0.12.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/collection-0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-dboe-index-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-tdb-3.16.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/libthrift-0.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-codec-1.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/httpclient-4.5.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-cmds-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/httpcore-4.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-core-3.16.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/log4j-core-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-dboe-trans-data-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-iri-3.16.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-rdfconnection-3.16.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-csv-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-shacl-3.16.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jena-rdfconnection-3.16.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
