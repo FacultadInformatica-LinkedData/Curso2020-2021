@@ -8,9 +8,9 @@ mappings:
   province:
     source:
       - [../csv/MadridAirQuality2020-with-links.csv~csv]
-    s: http://dbpedia.org/ontology/province/$(PROVINCE)
+    s: http://dbpedia.org/ontology/Province/$(PROVINCE)
     po:
-      - [a, dbp:province]
+      - [a, dbp:Province]
       - [swo:provinceName, $(PROVINCE), xsd:string]
       - [owl:sameAs, $(PROVINCE_REC)~iri]
     
@@ -61,9 +61,9 @@ mappings:
     s: http://www.semanticweb.org/group44/ontologies/madridAirQuality/Measure/$(ID)
     po:
       - [a, swo:Measure]
-      - [xsd:date, $(DATE), xsd:dateTime]
+      - [xsd:date, $(DATE), xsd:date]
       - [swo:isValid, $(IS_VALID), xsd:boolean]
       - [swo:measureId, $(ID), xsd:integer]
-      - [swo:measuredCompound, $(MEASURED_COMPOUND), xsd:string]
+      - [swo:measuredCompound, $(MEASURED_COMPOUND_REC), xsd:anyURI]
       - [swo:measuredValue, $(VALUE), xsd:float]
       - [swo:measuringTechnique, $(MEASUREMENT_TECHNIQUE), xsd:string]
