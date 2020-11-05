@@ -30,6 +30,9 @@ class MainWindow(QMainWindow):
         self.stName_toShow = ""
         self.district_toShow = ""
 
+        self.check_list = [False, False, False]
+        self.params_list = []
+
         # Main
         self.main_widget = MainWidget(self)
         self.main_widget.ds_button.clicked.connect(self.toDS)
@@ -79,10 +82,7 @@ class MainWindow(QMainWindow):
         self.mg_widget = MGWidget(self)
         self.mg_widget.back_button.clicked.connect(self.toMain)
         self.central_widget.addWidget(self.mg_widget)
-        # Query info
-        self.query_widget = QueryInfo(self)
-        self.query_widget.back_button.clicked.connect(self.toMS)
-        self.central_widget.addWidget(self.query_widget)
+        
 
         # Diagram
         #self.dg_widget = DGWidget(self)
@@ -131,6 +131,12 @@ class MainWindow(QMainWindow):
     # END FUNCTION
 
     def toQuery(self):
+        self.ms_widget.changeMode()
+        self.query_mode = self.ms_widget.query_mode
+        # Query info
+        self.query_widget = QueryInfo(self)
+        self.query_widget.back_button.clicked.connect(self.toMS)
+        self.central_widget.addWidget(self.query_widget)
         self.central_widget.setCurrentWidget(self.query_widget)
 
     def toMT(self, type):
@@ -231,6 +237,12 @@ class MSWidget(QWidget):
 
         self.setGeometry(0, 0, 120, 120)
 
+        self.dist_dict = {}
+        self.stat_dict = {}
+        self.str_dict = {}
+
+        self.generateDicts()
+
         ## LOCATION ##
         # Location check box
         self.location_check = QCheckBox("LOCATION", self)
@@ -299,6 +311,7 @@ class MSWidget(QWidget):
                                    "9- PM2.5", "10- PM10", "12- NOx", "14- O3", 
                                    "20- TOL", "30- BEN", "35- EBE", "42- TCH", 
                                    "43- CH4", "44- NMHC"])
+            
 
         # Query button
         self.query_button = QPushButton('QUERY', self)
@@ -370,6 +383,15 @@ class MSWidget(QWidget):
         else:
             self.mg_combo.setEnabled(False)
     # END FUNCTION
+
+    def generateDicts(self):
+        
+
+    def changeMode(self):
+        if self.mg_combo.currentText() == "43- CH4" :
+            self.query_mode = "1"
+        else :
+            self.query_mode = "6"
 # END CLASS
     
 
@@ -998,11 +1020,52 @@ class QueryInfo(QWidget):
         ws_path = os.path.dirname(os.path.abspath(__file__))
 
         self.setGeometry(50, 50, 614, 800)
+
+        # Text label
+        self.query_line = QTextEdit(self)
+        self.query_line.setGeometry(100, 50, 500, 400)
+        self.query_line.setReadOnly(True)
         
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
-    # END FUNCTION
+    
+
+        qm = QueryMaker()
+        
+        # Selección de los atributos que se requieren
+        qm.addSelect("?Magnitude ?Id ?Notation ?Nombre ?Name ?Wiki ?Description")
+        
+        # Construcción de la query
+        qm.addParam("?Magnitude", "rdf:type", "ns:Magnitude")
+        qm.addParam("?Magnitude", "rdfs:comment", "?Description")
+        qm.addParam("?Magnitude", "ns:measureNotation", "?Notation")
+        qm.addParam("?Magnitude", "ns:measureCode", "?Id")
+        qm.addFilter("(?Id = \"{}\")".format(parent.query_mode))
+        qm.addParam("?Magnitude", "owl:sameAs", "?Wiki")
+        qm.addParam("?Magnitude", "rdfs:label", "?Name , ?Nombre")
+        qm.addFilter("(LANG(?Name) = 'en' && LANG(?Nombre) = 'es')")
+
+        # Ejecución de la query
+        listResult = qm.executeQuery()
+
+        for item in listResult:
+
+            self.mg_id = item["Id"]
+            self.mg_notation = item["Notation"]
+            self.mg_nombre = item["Nombre"]
+            self.mg_name = item["Name"]
+            self.mg_wiki = item["Wiki"]
+            self.mg_def = item["Description"]
+
+            self.query_line.setPlainText(self.mg_id + "\n" +
+                                        self.mg_notation + "\n" +
+                                        self.mg_nombre + "\n" +
+                                        self.mg_name + "\n" +
+                                        self.mg_wiki + "\n" +
+                                        self.mg_def)
+        # END FUNCTION
+        
 # END CLASS
 
 
