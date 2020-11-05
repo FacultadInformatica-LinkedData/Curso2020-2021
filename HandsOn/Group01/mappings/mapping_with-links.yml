@@ -1,0 +1,113 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://www.reciclapp.com/
+  owl: http://www.w3.org/2002/07/owl#
+  
+mappings:
+  residuo:
+    sources:
+      - [csv/residuos_domesticos_generacion-updated-with-links.csv~csv]
+    s: http://www.reciclapp.com/Residuo/$(residuos_domestic_año)
+    po:
+        - [a, vocab:Residuo]
+        - [vocab:año_residuo,$(residuos_domestic_año),xsd:dateTime]
+        - [vocab:cantidad_residuo,$(residuos_domestic_cantidad_ton),xsd:integer]
+        - [vocab:tipo_Res,$(residuos_domestic_tipo),xsd:string]
+        - [owl:sameAs,$(wikidata:residuos_domestic_tipo)~iri]
+        - p: vocab:es_recogido_por
+          o:
+            - mapping: transporte
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_domestic_tipo)]
+                    - [str2,$(res_tra_nif)]
+                    
+        - p: vocab:se_trata_en
+          o:
+            - mapping: planta
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_domestic_tipo)]
+                    - [str2,$(planta_tipo_residuo_desc)]
+                    
+        - p: vocab:se_ubica_en
+          o:
+            - mapping: direccion
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(residuos_domestic_tipo)]
+                    - [str2,$(res_tra_direccion_via_nombre)]
+        
+  transporte:
+    sources:
+      - [csv/residuos_transportistas-updated-with-links.csv~csv]
+    s: http://www.reciclapp.com/Transporte/$(res_tra_nif)
+    po:
+      - [a, vocab:Transporte]
+      - [vocab:conductor,$(res_tra_nif),xsd:string]
+      - [vocab:empresa,$(res_tra_razon_social),xsd:string]
+      - p: vocab:tiene_como_destino
+          o:
+            - mapping: planta
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(res_tra_nif)]
+                    - [str2,$(planta_tipo_residuo_desc)]
+                    
+      - p: vocab:transita_por
+          o:
+            - mapping: direccion
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(res_tra_nif)]
+                    - [str2,$(res_tra_direccion_via_nombre)]
+      
+  planta:
+    sources:
+      - [csv/residuos_plantas_clasificacion_envases-updated-with-links.csv~csv]
+    s: http://www.reciclapp.com/Planta/$(planta_año)
+    po:
+      - [a, vocab:Planta]
+      - [vocab:año_planta,$(planta_año),xsd:dateTime]
+      - [vocab:cantidad_planta,$(planta_tipo_residuo_cantidad),xsd:integer]
+      - [vocab:tipo_Planta,$(planta_tipo_residuo_desc),xsd:string]
+      - p: vocab:se_localiza_en
+          o:
+            - mapping: localizacion
+              condition: 
+                function: equal
+                parameters:
+                    - [str1,$(planta_tipo_residuo_desc)]
+                    - [str2,$(planta_clasificacion_envases)]
+      
+  direccion:
+    sources:
+      - [csv/residuos_transportistas-updated-with-links.csv~csv]
+    s: http://www.reciclapp.com/Direccion/$(res_tra_direccion_via_nombre)
+    po:
+      - [a, vocab:Direccion]
+      - [vocab:calle,$(res_tra_direccion_via_nombre),xsd:string]
+      - [vocab:cod_postal,$(res_tra_direccion_cod_postal),xsd:integer]
+      
+  localizacion:
+    sources:
+      - [csv/residuos_plantas_clasificacion_envases-updated-with-links.csv~csv]
+    s: http://www.reciclapp.com/Localizacion/$(planta_clasificacion_envases)
+    po:
+      - [a, vocab:Localizacion]
+      - [vocab:localidad,$(planta_clasificacion_envases),xsd:string]
+      - [owl:sameAs,$(wikidata:planta_clasificacion_envases)~iri]
