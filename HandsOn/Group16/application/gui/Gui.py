@@ -630,7 +630,7 @@ class DistrictsWidget(QWidget):
         qm.addSelect("?DtLabel ?dtID")
         qm.addParam("?District", "rdf:type", "ns:District")
         qm.addParam("?District", "rdfs:label", "?DtLabel")
-        qm.addOrder("asc(?dtID)")
+        qm.addOrder("asc(?DtLabel)")
         listStations = qm.executeQuery()
         return listStations
     # END FUNCTION
@@ -888,8 +888,6 @@ class StationsWidget(QWidget):
 
         
 class StationInfoWidget(QWidget):
-
-
     def __init__(self, parent=None):
         QLabel.__init__(self, parent)
         #ws_path = os.path.dirname(os.path.abspath(__file__))
@@ -897,19 +895,20 @@ class StationInfoWidget(QWidget):
         self.setGeometry(0, 0, 120, 120)       
         # Station info label
         self.st_label = QLabel("STATION:  " + parent.station_toShow + ", " + parent.stName_toShow, self)
-        self.st_label.setGeometry(60, 180, 700, 30)
+        self.st_label.setGeometry(60, 140, 700, 30)
 
         # District info label
         self.ds_label = QLabel("DISTRICT:  " + parent.district_toShow, self)
-        self.ds_label.setGeometry(60, 240, 500, 30)
+        self.ds_label.setGeometry(60, 200, 500, 30)
 
         # URI label
         self.uri_label = QLabel("URI:  ", self)
-        self.uri_label.setGeometry(60, 60, 500, 30)
+        self.uri_label.setGeometry(60, 80, 500, 30)
 
-        # URI wiki label
-        self.uriwk_label = QLabel("URI(wiki):  ", self)
-        self.uriwk_label.setGeometry(60, 120, 500, 30)
+        # URI text
+        self.uri_text = QLabel(self)
+        self.uri_text.setGeometry(90, 80, 500, 30)
+        self.uri_text.setOpenExternalLinks(True)
 
         # Back button
         self.back_button = QPushButton('BACK', self)
@@ -917,21 +916,38 @@ class StationInfoWidget(QWidget):
 
         # Graph button
         self.graph_button = QPushButton('GRAPH', self)
-        self.graph_button.setGeometry(500, 300, 50, 30)
+        self.graph_button.setGeometry(135, 320, 50, 30)
         self.graph_button.pressed.connect(self.graphButton)
+
+        # Mg combo
+        self.mg_combo = QComboBox(self)
+        self.mg_combo.setGeometry(60, 280, 70, 30)
+        self.mg_combo.addItems(["1- SO2", "6- CO", "7- NO", "8- NO2", 
+                                   "9- PM2.5", "10- PM10", "12- NOx", "14- O3", 
+                                   "20- TOL", "30- BEN", "35- EBE", "42- TCH", 
+                                   "43- CH4", "44- NMHC"])
+
+        # Select combo button
+        self.sel_combo = QPushButton("SELECT", self)
+        self.sel_combo.setGeometry(135, 280, 50, 30)
+        self.sel_combo.pressed.connect(self.changeMg)
 
         ## TODO
         # si cambia
-        self.id_magnitude = "1"
+        self.id_magnitude = "0"
         #no cambia
-        self.nombre_estacion = parent.station_toShow
+        self.nombre_estacion = parent.stName_toShow
 
         self.listStations = self.getStations()
         
         stationX = self.getStation(parent.station_toShow)
-        print(stationX)
+
+        self.uri_text.setText("<a href=" + stationX["St"] + ">" + stationX["St"] + "</a>")
 
     ##
+
+    def changeMg(self):
+        self.id_magnitude = self.mg_combo.currentText().split('-')[0]
 
     def getStation(self, nombre):
         result = None
@@ -956,48 +972,18 @@ class StationInfoWidget(QWidget):
     # END FUNCTION
 
     def graphButton(self):
-        self.st_graph = StationsGraph()
-        self.st_graph.graphButton(self.id_magnitude, self.nombre_estacion)
-        self.st_graph.show()    
-
-    # END FUNCTION
-# END CLASS
-
-class StationsGraph(QWidget):
-    def __init__(self, parent=None):
-        super().__init__(parent)
-        ws_path = os.path.dirname(os.path.abspath(__file__))
-
-        self.setGeometry(50, 50, 614, 800)
-
-        self.fig_plot = plt.figure()
-        self.cnv_plot = FigureCanvas(self.fig_plot)
-        self.toolbar_plot = NavigationToolbar(self.cnv_plot, self)
-
-        self.layout = QVBoxLayout()
-
-        self.layout.addWidget(self.toolbar_plot) 
-        self.layout.addWidget(self.cnv_plot)  
-        self.setLayout(self.layout)
-
-    def graphButton(self, mg, st):
         gm = GraphMaker()
-        gm.selectMagnitude(mg)
-        gm.selectPlace(False, st)
+        gm.selectMagnitude(self.id_magnitude)
+        gm.selectPlace(False, self.nombre_estacion)
         df = gm.graphData()
 
-        example = [random.random() for i in range(10)] 
+        df.plot()
+        plt.show()
 
-        print(df)
-        print(example)
-
-        self.fig_plot.clear()
-        toplot = self.fig_plot.add_subplot(111)
-        toplot.plot(df, '*-')
-
-        self.cnv_plot.draw()
     # END FUNCTION
 # END CLASS
+
+
 
 ## TODO cambiar copypaste
 class DistrictInfoWidget(QWidget):
@@ -1005,34 +991,31 @@ class DistrictInfoWidget(QWidget):
         QLabel.__init__(self, parent)
         #ws_path = os.path.dirname(os.path.abspath(__file__))
 
-        with urllib.request.urlopen("https://static1.abc.es/media/201209/28/esvastica-calvo--644x362.JPG") as url:
-            self.s = url.read()
-        
-        pixmap = QPixmap()
-        pixmap.loadFromData(self.s)
-        icon = QIcon(pixmap)
-
-        self.districts = None
-
-        self.setGeometry(0, 0, 120, 120)       
-
-        # Image false button
-        img_label = QLabel(self)
-        #img = img.scaledToHeight(480)
-        #img = img.
-        img_label.setPixmap(pixmap)
-
         # District info label
         self.ds_label = QLabel("DISTRICT:  " + parent.district_toShow, self)
-        self.ds_label.setGeometry(60, 100, 500, 30)
+        self.ds_label.setGeometry(60, 120, 500, 30)
 
         # URI label
         self.uri_label = QLabel("URI:  ", self)
-        self.uri_label.setGeometry(60, 50, 500, 30)
+        self.uri_label.setGeometry(60, 40, 500, 30)
+
+        # URI text
+        self.uri_text = QLabel(self)
+        self.uri_text.setGeometry(90, 40, 500, 30)
+        self.uri_text.setOpenExternalLinks(True)
+
+        # URI wiki label
+        self.uriwk_label = QLabel("URI(wiki):  ", self)
+        self.uriwk_label.setGeometry(60, 80, 500, 30)
+
+        # URI wiki text
+        self.uriwk_text = QLabel(self)
+        self.uriwk_text.setGeometry(120, 80, 500, 30)
+        self.uriwk_text.setOpenExternalLinks(True)
 
         # Population label
         self.pop_label = QLabel("POPULATION:  ", self)
-        self.pop_label.setGeometry(60, 150, 500, 30)
+        self.pop_label.setGeometry(60, 160, 500, 30)
 
         # Area label
         self.area_label = QLabel("AREA:  ", self)
@@ -1040,24 +1023,38 @@ class DistrictInfoWidget(QWidget):
 
         # Density label
         self.den_label = QLabel("DENSITY:  ", self)
-        self.den_label.setGeometry(60, 250, 500, 30)
+        self.den_label.setGeometry(60, 240, 500, 30)
 
         # Stations list label
         self.stlist_label = QLabel("STATIONS IN THIS DISTRICT:  ", self)
-        self.stlist_label.setGeometry(60, 300, 500, 30)
+        self.stlist_label.setGeometry(60, 280, 500, 30)
 
         # Stations list text
         self.stlist_text = QTextEdit(self)
-        self.stlist_text.setGeometry(60, 330, 300, 120)
+        self.stlist_text.setGeometry(60, 310, 300, 120)
         self.stlist_text.setReadOnly(True)
 
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
+        # Graph button
         self.graph_button = QPushButton('GRAPH', self)
-        self.graph_button.setGeometry(500, 360, 50, 30)
+        self.graph_button.setGeometry(550, 360, 50, 30)
         self.graph_button.pressed.connect(self.graphButton)
+
+        # Mg combo
+        self.mg_combo = QComboBox(self)
+        self.mg_combo.setGeometry(420, 360, 70, 30)
+        self.mg_combo.addItems(["1- SO2", "6- CO", "7- NO", "8- NO2", 
+                                   "9- PM2.5", "10- PM10", "12- NOx", "14- O3", 
+                                   "20- TOL", "30- BEN", "35- EBE", "42- TCH", 
+                                   "43- CH4", "44- NMHC"])
+
+        # Select mg button
+        self.selmg_button = QPushButton("SELECT", self)
+        self.selmg_button.setGeometry(495, 360, 50, 30)
+        self.selmg_button.pressed.connect(self.changeMg)
 
         """
         self.graph_button = QPushButton('GRAPH', self)
@@ -1080,7 +1077,7 @@ class DistrictInfoWidget(QWidget):
                 ?item wdt:P31 wd:Q3032114 .
                 ?item wdt:P1082 ?population .
                 ?item wdt:P2046 ?area .
-                ?item wdt:P18 ?image .
+                OPTIONAL{?item wdt:P18 ?image . }
             SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
             }
             """
@@ -1089,21 +1086,87 @@ class DistrictInfoWidget(QWidget):
 
         districts_aux = []
         for item in data['results']['bindings']:
-            districts_aux.append(collections.OrderedDict({'districtURI': item['item']['value'],
-                                        'districtName': item['itemLabel']['value'],
-                                        'population': item['population']['value'],
-                                        'area': item['area']['value'],
-                                        'image': item['image']['value'],
-            }))
+            print(item["itemLabel"]["value"])
+            if "image" in item :
+                districts_aux.append(collections.OrderedDict({'districtURI': item['item']['value'],
+                                            'districtName': item['itemLabel']['value'],
+                                            'population': item['population']['value'],
+                                            'area': item['area']['value'],
+                                            'image': item['image']['value'],
+                }))
+            else: 
+                districts_aux.append(collections.OrderedDict({'districtURI': item['item']['value'],
+                                            'districtName': item['itemLabel']['value'],
+                                            'population': item['population']['value'],
+                                            'area': item['area']['value'],
+                }))
+
+        self.s = None
+        for item in districts_aux : 
+            if item["districtName"] == self.nombre_distrito :
+                self.urlwk_text_aux = item["districtURI"]
+                self.population = item["population"]
+                self.area = item["area"]
+                self.density = str(float(self.population)/float(self.area))
+                
+                self.image = ""
+                if "image" in item :
+                    self.image = item["image"]
+                    with urllib.request.urlopen(self.image) as url:
+                        self.s = url.read()
+
+        
+        
+        pixmap = QPixmap()
+        pixmap.loadFromData(self.s)
+        icon = QIcon(pixmap)
+
+        self.districts = None
+
+        self.setGeometry(0, 0, 120, 120)  
+
+        if self.image != "" :
+            self.false_button_img_url_wiki_district_semantic_web_2020_mark_pablo_beñat_diana_jax_no_copyright = QPushButton(self)
+            self.false_button_img_url_wiki_district_semantic_web_2020_mark_pablo_beñat_diana_jax_no_copyright.setGeometry(370, 120, 300, 200)
+            self.false_button_img_url_wiki_district_semantic_web_2020_mark_pablo_beñat_diana_jax_no_copyright.setIcon(icon)
+            self.false_button_img_url_wiki_district_semantic_web_2020_mark_pablo_beñat_diana_jax_no_copyright.setIconSize(QSize(250, 250))
+            self.false_button_img_url_wiki_district_semantic_web_2020_mark_pablo_beñat_diana_jax_no_copyright.setStyleSheet("border : outset")
+
         df = pd.DataFrame(districts_aux)
         df.set_index("districtURI")
         self.districts = df.astype({'population': int, 'area': float})
         self.listDistricts = self.getDistricts()
 
         districtX = self.getDistrict(self.nombre_distrito)
-        print(districtX)
+        self.st_in_dt = districtX["Stations"]
+
+        self.uri_text.setText("<a href=" + districtX["Dt"] + ">" + districtX["Dt"] + "</a>")
+        self.uriwk_text.setText("<a href=" + self.urlwk_text_aux + ">" + self.urlwk_text_aux + "</a>")
+        self.pop_label.setText("POPULATION:  " + self.population + " inhabitants")
+        self.area_label.setText("AREA:  " + self.area + " km2")
+        self.den_label.setText("DENSITY:  " + self.density + " in/km2")
+        
+        district_aux = ""
+
+        for stations in self.st_in_dt :
+
+            district_aux += (stations + "\n")
+        
+        self.stlist_text.setPlainText(district_aux)
         
     ## 
+
+    def changeMg(self):
+        self.id_magnitude = self.mg_combo.currentText().split('-')[0]
+
+    def graphButton(self):
+        gm = GraphMaker()
+        gm.selectMagnitude(self.id_magnitude)
+        gm.selectPlace(True, self.nombre_distrito)
+        df = gm.graphData()
+
+        df.plot()
+        plt.show()
 
     def getDistrict(self, nombre):
         result = None
@@ -1134,17 +1197,6 @@ class DistrictInfoWidget(QWidget):
                 ls.append(station["StLabel"])
             item["Stations"] = ls
         return listDistricts
-    # END FUNCTION
-
-    def graphButton(self):
-        gm = GraphMaker()
-        gm.selectMagnitude(self.id_magnitude)
-        gm.selectPlace(True, self.nombre_distrito)
-        df = gm.graphData()
-        
-        ## TODO
-        plt.plot(df)
-
     # END FUNCTION
 # END CLASS
 
