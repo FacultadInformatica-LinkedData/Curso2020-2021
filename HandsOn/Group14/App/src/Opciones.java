@@ -24,6 +24,7 @@ public class Opciones {
 					e.printStackTrace();
 				}
 			}
+
 	
 
 	/**
@@ -114,10 +115,9 @@ public class Opciones {
 		frameOptions.getContentPane().add(btnParque);
 		
 		JLabel labelLogo = new JLabel("");
-		labelLogo.setIcon(new ImageIcon("src\\Logo-Ayuntamiento-Octb16.png"));
-		labelLogo.setBounds(405, 20, 100, 25);
-		frameOptions.getContentPane().add(labelLogo);
-		
+		labelLogo.setIcon(new ImageIcon("src\\logo-Ayuntamiento-Octb16.png"));
+		labelLogo.setBounds(405, 30, 100, 25);
+		frameOptions.getContentPane().add(labelLogo);		
 	}
 
 }

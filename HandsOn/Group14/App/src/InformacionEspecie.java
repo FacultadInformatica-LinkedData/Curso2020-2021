@@ -213,19 +213,6 @@ public class InformacionEspecie {
 			System.err.println(e.getMessage());
 		}
 		
-		
-			
-		
-
-
-	/*	textParque = new JTextField();
-		textParque.setText(""+parque + " " +unidades);
-		textParque.setBounds(115, 124, 300, 300);
-	//	frmInformacionEspecie.getContentPane().add(textParque);
-		textParque.setBackground(new Color(125, 192, 138));
-		textParque.setColumns(10);
-		textParque.disable();*/
-		
 		JLabel labelLogo = new JLabel("");
 		labelLogo.setIcon(new ImageIcon("src\\Logo-Ayuntamiento-Octb16.png"));
 		labelLogo.setBounds(405, 20, 100, 25);

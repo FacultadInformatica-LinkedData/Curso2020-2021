@@ -115,7 +115,7 @@ public class Especie {
 		frmBusquedaDeEspecie.getContentPane().add(btnBuscar);
 
 		JLabel labelLogo = new JLabel("");
-		labelLogo.setIcon(new ImageIcon("src\\Logo-Ayuntamiento-Octb16.png"));
+		labelLogo.setIcon(new ImageIcon("src\\logo-Ayuntamiento-Octb16.jpg"));
 		labelLogo.setBounds(405, 20, 100, 25);
 		frmBusquedaDeEspecie.getContentPane().add(labelLogo);
 	

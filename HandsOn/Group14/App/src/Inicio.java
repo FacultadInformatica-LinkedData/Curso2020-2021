@@ -66,7 +66,7 @@ public class Inicio {
 		lblBienvenido.setFont(new Font("Tahoma", Font.BOLD, 24));
 		lblBienvenido.setBounds(130, 45, 324, 66);
 		frmInicio.getContentPane().add(lblBienvenido);
-
+		
 		JLabel labelLogo = new JLabel("");
 		labelLogo.setIcon(new ImageIcon("src\\Logo-Ayuntamiento-Octb16.png"));
 		labelLogo.setBounds(405, 20, 100, 25);
@@ -74,10 +74,8 @@ public class Inicio {
 		
 		JLabel labelInicio = new JLabel("");
 		labelInicio.setIcon(new ImageIcon("src\\Madrid4.jpg"));
-		labelInicio.setBounds(0, 0, 550, 475);
+		labelInicio.setSize(550, 503);
 		frmInicio.getContentPane().add(labelInicio);
-		
-
 	}
 
 }
