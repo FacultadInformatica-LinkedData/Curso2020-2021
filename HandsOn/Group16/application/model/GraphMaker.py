@@ -148,7 +148,7 @@ def test_selectPlace():
 def test_graphData():
     gm = GraphMaker()
     df = gm.graphData()
-    gm.
+    #gm.
     # assert ret == True
 # END FUNCTION
 

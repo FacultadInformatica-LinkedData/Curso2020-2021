@@ -5,19 +5,28 @@
 import os, sys
 import qtmodern.styles
 import qtmodern.windows
+import collections
+import urllib.request
 
 sys.path.insert(1, './application/model/')
 from QueryMaker import QueryMaker
 from GraphMaker import GraphMaker
 
+from pyqtgraph import PlotWidget, plot
+import pyqtgraph as pg
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtCore import QFile, QTextStream, QSize
 from PyQt5.QtGui import QIcon, QPixmap, QFont
-from PyQt5.QtWidgets import QTextEdit, QLineEdit, QDialog, QStyleFactory, QComboBox, QCheckBox, QSizePolicy, QGridLayout, QApplication, QMainWindow, QStackedWidget, QMessageBox, QWidget, QHBoxLayout, QPushButton, QLabel
+from PyQt5.QtWidgets import QVBoxLayout, QTextEdit, QLineEdit, QDialog, QStyleFactory, QComboBox, QCheckBox, QSizePolicy, QGridLayout, QApplication, QMainWindow, QStackedWidget, QMessageBox, QWidget, QHBoxLayout, QPushButton, QLabel
+
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas 
+from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
+import random
 
 class MainWindow(QMainWindow):
     
@@ -165,7 +174,7 @@ class MainWindow(QMainWindow):
     def toDtInfo(self):
         self.district_toShow = self.dts_widget.district_tsAux
         # District info
-        self.dtinfo_widget = DistrictsInfoWidget(self)
+        self.dtinfo_widget = DistrictInfoWidget(self)
         self.dtinfo_widget.back_button.clicked.connect(self.toDistricts)
         self.central_widget.addWidget(self.dtinfo_widget)
         self.central_widget.setCurrentWidget(self.dtinfo_widget)
@@ -549,7 +558,7 @@ class MapsWidget(QWidget):
     # END FUNCTION
 # END CLASS
 
-
+"""
 class DistrictsInfoWidget(QWidget):
 
     def __init__(self, parent=None):
@@ -558,7 +567,7 @@ class DistrictsInfoWidget(QWidget):
 
         self.setGeometry(0, 0, 120, 120)       
         # Station info label
-        self.st_label = QLabel("STATION:  " + parent.district_toShow + ", " + parent.stName_toShow, self)
+        self.st_label = QLabel("DISTRICT:  " + parent.district_toShow + ", " + parent.stName_toShow, self)
         self.st_label.setGeometry(60, 60, 700, 30)
 
         # URI label
@@ -570,12 +579,12 @@ class DistrictsInfoWidget(QWidget):
         self.back_button.setGeometry(30, 5, 50, 30)
     # END FUNCTION
 # END CLASS
+"""
 
 class DistrictsWidget(QWidget):
     def __init__(self, parent=None):
-        self.district_tsAux = "Empty"
-
         QLabel.__init__(self, parent)
+        self.district_tsAux = "Empty"
         ws_path = os.path.dirname(os.path.abspath(__file__))
 
         self.img_label = QLabel(self)
@@ -887,20 +896,25 @@ class StationInfoWidget(QWidget):
         self.setGeometry(0, 0, 120, 120)       
         # Station info label
         self.st_label = QLabel("STATION:  " + parent.station_toShow + ", " + parent.stName_toShow, self)
-        self.st_label.setGeometry(60, 60, 700, 30)
+        self.st_label.setGeometry(60, 180, 700, 30)
 
         # District info label
         self.ds_label = QLabel("DISTRICT:  " + parent.district_toShow, self)
-        self.ds_label.setGeometry(60, 120, 500, 30)
+        self.ds_label.setGeometry(60, 240, 500, 30)
 
         # URI label
         self.uri_label = QLabel("URI:  ", self)
-        self.uri_label.setGeometry(170, 5, 500, 30)
+        self.uri_label.setGeometry(60, 60, 500, 30)
+
+        # URI wiki label
+        self.uriwk_label = QLabel("URI(wiki):  ", self)
+        self.uriwk_label.setGeometry(60, 120, 500, 30)
 
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
+        # Graph button
         self.graph_button = QPushButton('GRAPH', self)
         self.graph_button.setGeometry(500, 300, 50, 30)
         self.graph_button.pressed.connect(self.graphButton)
@@ -911,52 +925,115 @@ class StationInfoWidget(QWidget):
         #no cambia
         self.nombre_estacion = "Pza. de España"
     ##
-
     def graphButton(self):
+        self.st_graph = StationsGraph()
+        self.st_graph.graphButton(self.id_magnitude, self.nombre_estacion)
+        self.st_graph.show()    
+
+    # END FUNCTION
+# END CLASS
+
+class StationsGraph(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        ws_path = os.path.dirname(os.path.abspath(__file__))
+
+        self.setGeometry(50, 50, 614, 800)
+
+        self.fig_plot = plt.figure()
+        self.cnv_plot = FigureCanvas(self.fig_plot)
+        self.toolbar_plot = NavigationToolbar(self.cnv_plot, self)
+
+        self.layout = QVBoxLayout()
+
+        self.layout.addWidget(self.toolbar_plot) 
+        self.layout.addWidget(self.cnv_plot)  
+        self.setLayout(self.layout)
+
+    def graphButton(self, mg, st):
         gm = GraphMaker()
-        gm.selectMagnitude(self.id_magnitude)
-        gm.selectPlace(False, self.nombre_estacion)
+        gm.selectMagnitude(mg)
+        gm.selectPlace(False, st)
         df = gm.graphData()
 
-        ## TODO el puto plot
-        plt.plot(df)
+        example = [random.random() for i in range(10)] 
 
+        print(df)
+        print(example)
+
+        self.fig_plot.clear()
+        toplot = self.fig_plot.add_subplot(111)
+        toplot.plot(df, '*-')
+
+        self.cnv_plot.draw()
     # END FUNCTION
 # END CLASS
 
 ## TODO cambiar copypaste
 class DistrictInfoWidget(QWidget):
-
-    self.districts = None
-
     def __init__(self, parent=None):
         QLabel.__init__(self, parent)
         #ws_path = os.path.dirname(os.path.abspath(__file__))
 
+        with urllib.request.urlopen("https://static1.abc.es/media/201209/28/esvastica-calvo--644x362.JPG") as url:
+            self.s = url.read()
+        
+        pixmap = QPixmap()
+        pixmap.loadFromData(self.s)
+        icon = QIcon(pixmap)
+
+        self.districts = None
+
         self.setGeometry(0, 0, 120, 120)       
-        # Station info label
-        self.st_label = QLabel("STATION:  " + parent.station_toShow + ", " + parent.stName_toShow, self)
-        self.st_label.setGeometry(60, 60, 700, 30)
+
+        # Image false button
+        img_label = QLabel(self)
+        #img = img.scaledToHeight(480)
+        #img = img.
+        img_label.setPixmap(pixmap)
 
         # District info label
         self.ds_label = QLabel("DISTRICT:  " + parent.district_toShow, self)
-        self.ds_label.setGeometry(60, 120, 500, 30)
+        self.ds_label.setGeometry(60, 100, 500, 30)
 
         # URI label
         self.uri_label = QLabel("URI:  ", self)
-        self.uri_label.setGeometry(170, 5, 500, 30)
+        self.uri_label.setGeometry(60, 50, 500, 30)
+
+        # Population label
+        self.pop_label = QLabel("POPULATION:  ", self)
+        self.pop_label.setGeometry(60, 150, 500, 30)
+
+        # Area label
+        self.area_label = QLabel("AREA:  ", self)
+        self.area_label.setGeometry(60, 200, 500, 30)
+
+        # Density label
+        self.den_label = QLabel("DENSITY:  ", self)
+        self.den_label.setGeometry(60, 250, 500, 30)
+
+        # Stations list label
+        self.stlist_label = QLabel("STATIONS IN THIS DISTRICT:  ", self)
+        self.stlist_label.setGeometry(60, 300, 500, 30)
+
+        # Stations list text
+        self.stlist_text = QTextEdit(self)
+        self.stlist_text.setGeometry(60, 330, 300, 120)
+        self.stlist_text.setReadOnly(True)
 
         # Back button
         self.back_button = QPushButton('BACK', self)
         self.back_button.setGeometry(30, 5, 50, 30)
 
         self.graph_button = QPushButton('GRAPH', self)
-        self.graph_button.setGeometry(500, 300, 50, 30)
+        self.graph_button.setGeometry(500, 360, 50, 30)
         self.graph_button.pressed.connect(self.graphButton)
 
+        """
         self.graph_button = QPushButton('GRAPH', self)
         self.graph_button.setGeometry(500, 300, 50, 30)
         self.graph_button.pressed.connect(self.graphButton)
+        """
 
         ## TODO
         # si cambia
@@ -980,15 +1057,15 @@ class DistrictInfoWidget(QWidget):
         r = requests.get(url, params = {'format': 'json', 'query': q})
         data = r.json()
 
-        districts = []
+        districts_aux = []
         for item in data['results']['bindings']:
-            districts.append(OrderedDict({'districtURI': item['item']['value'],
+            districts_aux.append(collections.OrderedDict({'districtURI': item['item']['value'],
                                         'districtName': item['itemLabel']['value'],
                                         'population': item['population']['value'],
                                         'area': item['area']['value'],
                                         'image': item['image']['value'],
             }))
-        df = pd.DataFrame(districts)
+        df = pd.DataFrame(districts_aux)
         df.set_index("districtURI")
         self.districts = df.astype({'population': int, 'area': float})
 
