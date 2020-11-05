@@ -23,7 +23,6 @@ class QueryMaker:
         if not(hasattr(self, "graph")):
             self.normalGraph = Graph()
             self.appGraph = Graph()
-            #self.normalGraph.parse("rdf/ntriples/output-with-links.nt", format="nt")
             self.sparql = SPARQLWrapper("http://localhost:9000/sparql")
             self.graph = self.normalGraph
         # END IF
@@ -89,34 +88,43 @@ class QueryMaker:
         if not(self.order == ""):
             self.query = self.query + "\n" + self.order
         # END IF
-        initNs = self.getNamespaces()
-        #self.sparql.setQuery(self.query)
-        print(self.query)
-        self.query = """PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX ns: <http://www.semanticweb.org/group16/ontologies/air-quality#>\n"""+self.query
+        self.query = self.getNamespaces() + self.query
 
         self.sparql.setQuery(self.query)
         self.sparql.setReturnFormat(JSON)
         results = self.sparql.query().convert()
 
-        for result in results["results"]["bindings"]:
-            print(result["Measure"]["value"])
-
-        ret = self.sparql.query()
-        q = prepareQuery(self.query, initNs)
-        result = self.graph.query(q)
         listResult = []
-        for row in result:
-            rowDict = row.asdict()
-            for key in rowDict.keys():
-                rowDict[key] = rowDict[key].toPython()
+
+        # print(results)
+        for row in results["results"]["bindings"]:
+            # print(row)
+            rowDict = {}
+            for key in row.keys():
+                rowDict[key] = row[key]["value"]
                 if(key == "Date"):
-                    rowDict[key] = str(rowDict[key].date())
+                    splitted = row[key]["value"][0:len(row[key]["value"])-10]
+                    rowDict[key] = splitted
                 # END IF
             # END FOR
             listResult.append(rowDict)
-        # END FOR
+
+        return listResult
+
+        # ret = self.sparql.query()
+        # q = prepareQuery(self.query, initNs)
+        # result = self.graph.query(q)
+        
+        # for row in result:
+        #     rowDict = row.asdict()
+        #     for key in rowDict.keys():
+        #         rowDict[key] = rowDict[key].toPython()
+        #         if(key == "Date"):
+        #             rowDict[key] = str(rowDict[key].date())
+        #         # END IF
+        #     # END FOR
+        #     listResult.append(rowDict)
+        # # END FOR
         return listResult
     # END FUNCTION
 
@@ -194,35 +202,23 @@ PREFIX ns: <http://www.semanticweb.org/group16/ontologies/air-quality#>\n"""+sel
     # END FUNCTION
 
 
-    # toggleGraphMode(bool) -> ()
-    #   On true, it builds the graph corresponding to the app graph dataset,
-    #   on false, it gets back to the usual one.
-    def toggleGraphMode(self, graphmode : bool):
-        if graphmode:
-            self.graph = self.appGraph
-        else:
-            self.graph = self.normalGraph
-        # END IF
-    # END FUNCTION
-
-
     # [private function] getNamespaces() -> Dictionary
     #   Returns the dictionary with the namespaces used in the current query
     #   example: getNamespaces() -> {"ns":ns, "rdfs":RDFS, "rdf":RDF}
     def getNamespaces(self):
-        initNs = {}
+        initNs = ""
         if (self.query.find("ns:") > 0):
-            initNs["ns"] = ns
+            initNs = initNs + "PREFIX ns: <http://www.semanticweb.org/group16/ontologies/air-quality#>\n"""
         if (self.query.find("wiki:") > 0):
-            initNs["wiki"] = wiki
+            initNs = initNs + "PREFIX wiki: <http://www.wikidata.org/entity/>\n"""
         if (self.query.find("rdf:") > 0):
-            initNs["rdf"] = RDF
+            initNs =  initNs + "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"""
         if (self.query.find("rdfs:") > 0):
-            initNs["rdfs"] = RDFS
+            initNs =  initNs + "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"""
         if (self.query.find("owl:") > 0):
-            initNs["owl"] = OWL
+            initNs =  initNs + "PREFIX owl: <http://www.w3.org/2002/07/owl#>\n"""
         if (self.query.find("sc:") > 0):
-            initNs["sc"] = sc
+            initNs =  initNs + "PREFIX sc: <http://www.schema.org#>\n"""
         return initNs
     # END FUNCTION
 
@@ -313,11 +309,10 @@ def tests_executeQuery():
 def test_appQuery():
     qm = QueryMaker()
     listResult = qm.appQuery([True, True, True], [{"Place":"Station","ID":"28079057"}, "2020-06-23", "8"])
-    expectedResult = [{'Measure': 'http://www.semanticweb.org/group16/air-quality/resource/57_8_28079057_2020_6_23',
-                       'Station': 'http://www.semanticweb.org/group16/air-quality/resource/28079057','Date': "2020-06-23",
-                       'Magnitude': 'http://www.semanticweb.org/group16/air-quality/resource/NO2', 'Value': 16.0}
+    expectedResult = [{'MagnitudeLbEs': 'Dióxido de Nitrógeno', 'Measure': 'http://www.semanticweb.org/group16/air-quality/resource/57_8_28079057_2020_6_23',
+                       'StationLb': 'Sanchinarro', 'Value': '16',  'MagnitudeLbEn': 'Nitrogen dioxide', 'Date': "2020-06-23"}
     ]
-    assert listResult == expectedResult
+    assert (expectedResult[0].items() == listResult[0].items()) == True
 # END FUNCTION
 
 # Test method cleanQuery
@@ -333,15 +328,6 @@ def test_cleanQuery():
     assert qm.paramsList == [] and qm.query == ""
 # END FUNCTION
 
-# Test method toggleGraphMode
-def test_toggleGraphMode():
-    qm = QueryMaker()
-    assert qm.graph == qm.normalGraph
-    qm.toggleGraphMode(True)
-    assert qm.graph == qm.appGraph
-    qm.toggleGraphMode(False)
-    assert qm.graph == qm.normalGraph
-# END FUNCTION
 
 # Main entrypoint, used for tests
 if __name__ == "__main__":
@@ -359,6 +345,4 @@ if __name__ == "__main__":
     print("appQuery method test passed")
     test_cleanQuery()
     print("cleanQuery method test passed")
-    test_toggleGraphMode()
-    print("toggleGraphMode method test passed")
 # END MAIN

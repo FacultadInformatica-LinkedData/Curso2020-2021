@@ -147,6 +147,8 @@ def test_selectPlace():
 # Test method graphData
 def test_graphData():
     gm = GraphMaker()
+    gm.selectMagnitude("1")
+    gm.selectPlace(True, "Centro")
     df = gm.graphData()
     #gm.
     # assert ret == True
