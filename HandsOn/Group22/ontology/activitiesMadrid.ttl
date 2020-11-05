@@ -12,7 +12,7 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/javid/ontologies/2020/9/untitled-ontology-2#ubicado_en
+###  http://www.semanticweb.org/ontologies/Activities#ubicado_en
 :ubicado_en rdf:type owl:ObjectProperty ;
             rdfs:domain :Actividad ,
                         :Ubicacion .

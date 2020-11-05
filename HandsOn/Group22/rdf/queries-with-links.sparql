@@ -1,0 +1,57 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+NS = Namespace("http://www.grupo22.es/ontology/")
+OWL = Namespace("http://www.w3.org/2002/07/owl#")
+from rdflib.plugins.sparql import prepareQuery
+
+################
+### SPARQl 1 ### #Que tipo de Ubicacion esta asociada a esta direccion de WikiData
+################
+	
+q1 = prepareQuery('''
+SELECT ?UBICACION
+WHERE {
+  ?UBICACION owl:sameAs <https://www.wikidata.org/wiki/Q56426480>.
+}
+''',
+initNs = {"owl":OWL}
+)
+
+for r in g.query(q1):
+  print(r)
+
+################
+### SPARQl 2 ### #Propiedades del Centro Cultural Conde Duque
+################
+	
+
+q2 = prepareQuery('''
+SELECT ?PROPERTY ?OBJECT
+WHERE {
+  <http://www.grupo22.es/resource/UBICACION/Centro%20Cultural%20Conde%20Duque> ?PROPERTY ?OBJECT.
+}
+''',
+)
+
+for r in g.query(q2):
+  print(r)
+
+################
+### SPARQl 2 ### #Id de las Actividades cuyo coste sea exactamente 10€
+################
+
+
+q3 = prepareQuery('''
+SELECT ?ACTIVIDADES 
+WHERE {
+  ?ACTIVIDADES ns:precio "10".
+}
+''',
+initNs = {"ns":NS}
+)
+
+for r in g.query(q3):
+  print(r)
