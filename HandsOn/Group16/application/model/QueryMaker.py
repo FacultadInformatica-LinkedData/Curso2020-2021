@@ -54,6 +54,7 @@ class QueryMaker:
     #   Inserts into the query a filtering sentence
     #   example: addFilter("REGEX (?StLabel, \"Moratalaz\")")
     def addFilter(self, filter : str):
+        filter = self.fixDate(filter)
         self.paramsList.append(("\tFILTER", filter))
     # END FUNCTION
 
@@ -93,7 +94,7 @@ class QueryMaker:
         self.sparql.setQuery(self.query)
         self.sparql.setReturnFormat(JSON)
         results = self.sparql.query().convert()
-
+        print(self.query)
         listResult = []
 
         # print(results)
@@ -204,6 +205,30 @@ class QueryMaker:
             initNs =  initNs + "PREFIX sc: <https://schema.org/>\n"""
         return initNs
     # END FUNCTION
+
+    # [private function] fixDate(string) -> string
+    #   Returns a fixed fitler for date queries
+    #   example: fixDate("REGEX (STR(?Date), "^2012-1-30", "i")" -> "REGEX (STR(?Date), "^2012-01-30", "i")"
+    def fixDate(self, filter : str):
+        idx = filter.find("^")
+        if idx > 0:
+            substr = filter[idx+1:]
+            splitted = substr.split("\"")
+            date = splitted[0]
+            splitted = date.split("-")
+            if len(splitted) > 1 and splitted[1].find("0") < 0 and len(splitted[1]) == 1:
+                splitted[1] = "0" + splitted[1]
+            if len(splitted) > 2 and splitted[2].find("0") < 0 and len(splitted[2]) == 1:
+                splitted[2] = "0" + splitted[2]
+            if len(splitted) == 1:
+                date = splitted[0]
+            elif len(splitted) == 2:
+                date = splitted[0] + "-" + splitted[1]
+            else:
+                date = splitted[0] + "-" + splitted[1] + "-" + splitted[2]
+            filter = "REGEX (STR(?Date), \"^{}\", \"i\")".format(date)
+            print(filter)
+        return filter
 
 
 # END CLASS
