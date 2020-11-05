@@ -5,7 +5,7 @@ let nombre;
 const url = "http://localhost:9000/sparql"
 
 var dict = { 
-  1:{ estacion: "Plaza España", posicion: [40.4238823, -3.7122567] },
+  1:{ estacion: "Pza. de España", posicion: [40.4238823, -3.7122567] },
   2:{ estacion: "Barrio del Pilar", posicion: [40.4770471, -3.7035391] },
   3:{ estacion: "Ensanche de Vallecas", posicion: [40.369559, -3.604265] },
   4:{ estacion: "Retiro", posicion: [40.4152606, -3.6844995] },
@@ -40,7 +40,10 @@ function map() {
   // Cargamos todas las posiciones de las estaciones :D
   for(let i = 1; i < 20; i++){
     prueba = L.marker(dict[i]["posicion"]).addTo(map);
-    prueba.bindPopup(dict[i]["estacion"] + ` <br> <button type=\"button\" onClick=\"loadInfo(dict[${i}].estacion)\">Informacion</button>`);
+    if(dict[i]["estacion"] == "Pza. de España" || dict[i]["estacion"] == "Escuelas Aguirre")
+      prueba.bindPopup(dict[i]["estacion"] + ` <br> <button type=\"button\" onClick=\"loadInfo(dict[${i}].estacion)\">Informacion</button>`);
+    else
+      prueba.bindPopup(dict[i]["estacion"] + ` <br> <button type=\"button\">Estacion no disponible</button>`);
   }
 }
 
@@ -58,25 +61,90 @@ function loadInfo(param){
   Http.open("GET", url);
 
   Http.onload = function() {
-    console.log(this.responseText);
+    let res = JSON.parse(this.responseText);
+
+    document.getElementById("nombreEstacion").innerHTML = `<h2>${param}</h2>`;
+    document.getElementById("nombreProvincia").innerHTML = `<a href="${res.provincia}">Madrid</a>`;
+    document.getElementById("nombreMunicipio").innerHTML = `<a href="${res.municipio}">Madrid</a>`;
+    document.getElementById("numero").innerHTML = res.numero;
+
+  }
+  Http.send();
+}
+
+function compuestos(){
+  
+  let hora = document.getElementById("start").value;
+  let estacion = document.getElementById("nombreEstacion").value;
+  document.getElementById("fecha").innerHTML = `${hora}`;
+
+  const Http = new XMLHttpRequest();
+  const url=`/compuesto?hora=${hora}`;
+  Http.open("GET", url);
+
+  Http.onload = function() {
+    let res = JSON.parse(this.responseText);
+    console.log(res);
+
+    var muestra = document.getElementById("cuadrado");
+    muestra.innerHTML = "";
+    for(let i = 0; i<res.length; i++){
+
+      var p0 = document.createElement("p");
+      var bas = document.createTextNode("Muestra " + (i+1) + ":");
+      p0.appendChild(bas);
+
+      var createA = document.createElement("a");
+      var p1 = document.createElement("p");
+      var compuesto = document.createTextNode("- Compuesto: ");
+      var url = document.createTextNode(res[i].compuesto);
+      createA.setAttribute("href", res[i].compuesto);
+      createA.appendChild(url);
+      p1.appendChild(compuesto);
+      p1.appendChild(createA);
+
+      var p2 = document.createElement("p");
+      var tecnica = document.createTextNode("- Tecnica: " + res[i].tecnica);
+      p2.appendChild(tecnica);
+
+      var p3 = document.createElement("p");
+      var valor = document.createTextNode("- Valor: " + res[i].valor);
+      p3.appendChild(valor);
+
+      var p4 = document.createElement("p");
+      var valido = document.createTextNode("- Valido: " + res[i].valido);
+      p4.appendChild(valido);
+
+      var espacio = document.createElement("br");
+      var strong = document.createElement("strong");
+
+      muestra.appendChild(p0);
+      muestra.appendChild(p1);
+      muestra.appendChild(p2);
+      muestra.appendChild(p3);
+      muestra.appendChild(p4);
+      muestra.appendChild(espacio);
+    }
   }
 
   Http.send();
 
-//  document.getElementById("nombreEstacion").innerHTML = `<h2>${param}</h2>`;
-//  document.getElementById("nombreProvincia").innerHTML = "SPARQL hola :D";
-//  document.getElementById("nombreMunicipio").innerHTML = "SPARQL";
-//  document.getElementById("numero").innerHTML = "SPARQL";
-}
-
-function compuestos(){
-  let hora = document.getElementById("start").value;
-  document.getElementById("fecha").innerHTML = `<h4>${hora}</h4>`;
 
   var x = document.getElementById("muestra");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  }
+    if (x.style.display === "none") {
+      x.style.display = "flex";
+      x.style.alignItems = "center";
+      x.style.justifyContent = "center";
+    }
+
+  var y = document.getElementById("titulo");
+    if (y.style.display === "none") {
+      y.style.display = "flex";
+      y.style.alignItems = "center";
+      y.style.justifyContent = "center";
+      y.style.flexDirection = "column";
+      y.style.textAlign = "center";
+    }
 }
 
 
