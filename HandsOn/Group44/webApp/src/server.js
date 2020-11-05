@@ -35,10 +35,8 @@ app.get('/compuesto', function (req, res) {
 ////////////////////////////////////////////////////////////////////////////////
 
 
-function miniParser(){
+function miniParser(results){
   console.log(results);
-
-
 }
 
 function infoEstacion(estacion){
@@ -50,9 +48,17 @@ function infoEstacion(estacion){
         console.log(err)
 
       query = `
-        SELECT ?a ?b ?c
+        PREFIX swo: <http://www.semanticweb.org/group44/ontologies/madridAirQuality#>
+        PREFIX dbp: <http://dbpedia.org/ontology/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        SELECT ?stationId ?MunicipalityWiki ?ProvinceWiki
         WHERE { 
-          ?a ?b ?c
+          ?stationId swo:stationPlace \"Pza. de España\"\^\^xsd:string.
+          ?Municipality swo:containStation ?stationId.
+          ?Municipality owl:sameAs ?MunicipalityWiki.
+          ?Municipality swo:isPartOf ?Province.
+          ?Province owl:sameAs ?ProvinceWiki.
         }
         LIMIT 10
       `;
