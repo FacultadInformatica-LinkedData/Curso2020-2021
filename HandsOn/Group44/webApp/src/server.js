@@ -25,8 +25,21 @@ app.get('/infoEstacion', function (req, res) {
   res.send(retorno);
 });
 
+app.get('/compuesto', function (req, res) {
+  let retorno = compuesto(req.query.hora); // Info de Madrid
+  res.send(retorno);
+});
+
+
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
+
+
+function miniParser(){
+  console.log(results);
+
+
+}
 
 function infoEstacion(estacion){
   console.log("Estacion actual: " + estacion);
@@ -36,15 +49,22 @@ function infoEstacion(estacion){
       if(err)
         console.log(err)
 
-      store.execute(
-        "PREFIX aqm: <http://www.semanticweb.org/group44/ontologies/2020/9/madridAirQuality/>\r\n" +
-        "SELECT ?station WHERE {\r\n"+
-          "\t\t ?station aqm: ?s ?p ?o\r\n"+
-        "} LIMIT 10\r\n"
-        , function(success, results){
-        console.log(success, results);
+      query = `
+        SELECT ?a ?b ?c
+        WHERE { 
+          ?a ?b ?c
+        }
+        LIMIT 10
+      `;
+
+      store.execute(query, function(success, results){
+        miniParser(results);
       });
 
     });
   });
+}
+
+function compuesto(hora){
+  console.log(hora)
 }

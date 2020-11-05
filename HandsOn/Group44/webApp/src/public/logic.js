@@ -59,19 +59,31 @@ function loadInfo(param){
 
   Http.onload = function() {
     console.log(this.responseText);
-  }
-
-  Http.send();
 
 //  document.getElementById("nombreEstacion").innerHTML = `<h2>${param}</h2>`;
 //  document.getElementById("nombreProvincia").innerHTML = "SPARQL hola :D";
 //  document.getElementById("nombreMunicipio").innerHTML = "SPARQL";
 //  document.getElementById("numero").innerHTML = "SPARQL";
+
+  }
+  Http.send();
 }
 
 function compuestos(){
   let hora = document.getElementById("start").value;
-  document.getElementById("fecha").innerHTML = `<h4>${hora}</h4>`;
+
+  const Http = new XMLHttpRequest();
+  const url=`/compuesto?hora=${hora}`;
+  Http.open("GET", url);
+
+  Http.onload = function() {
+    console.log(this.responseText);
+    document.getElementById("fecha").innerHTML = `<h4>${hora}</h4>`;
+  }
+
+  Http.send();
+
+
 
   var x = document.getElementById("muestra");
   if (x.style.display === "none") {
