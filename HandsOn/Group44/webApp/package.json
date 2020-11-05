@@ -1,0 +1,29 @@
+{
+  "name": "acm-libraly-web",
+  "version": "1.0.0",
+  "description": "ACM library management web server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acmfi/ACM-libraly-web.git"
+  },
+  "author": "ACM Libraly-Dev Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acmfi/ACM-libraly-web/issues"
+  },
+  "homepage": "https://github.com/acmfi/ACM-libraly-web#readme",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "rdfstore": "^0.9.17",
+    "request": "^2.88.2"
+  }
+}
