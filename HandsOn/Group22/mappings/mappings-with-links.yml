@@ -31,7 +31,6 @@ mappings:
       - [ont:precio,$(PRECIO)]
       - [ont:id_actividad,$(ID-ACTIVIDAD)]
       - [ont:fecha,$(FECHA)]
-      - [owl:sameAs,$(TIPOACTIVIDAD)~iri]
       - p: ns:ubicado_en
                o:
                 - mapping: TriplesMap1

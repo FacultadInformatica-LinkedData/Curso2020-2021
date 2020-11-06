@@ -9,7 +9,7 @@ map:map_ACTIVIDAD_0 rml:logicalSource map:source_1;
     a rr:TriplesMap;
     rdfs:label "ACTIVIDAD";
     rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11.
+    rr:predicateObjectMap map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10.
 map:map_UBICACION_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "UBICACION";
@@ -24,9 +24,6 @@ map:om_1 a rr:ObjectMap;
 map:om_10 a rr:ObjectMap;
     rml:reference "FECHA";
     rr:termType rr:Literal.
-map:om_11 a rr:ObjectMap;
-    rml:reference "TIPOACTIVIDAD";
-    rr:termType rr:IRI.
 map:om_2 a rr:ObjectMap;
     rml:reference "LONGITUD";
     rr:termType rr:Literal.
@@ -57,8 +54,6 @@ map:pm_1 a rr:PredicateMap;
     rr:constant <http://www.grupo22.es/ontology/direccion>.
 map:pm_10 a rr:PredicateMap;
     rr:constant <http://www.grupo22.es/ontology/fecha>.
-map:pm_11 a rr:PredicateMap;
-    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <http://www.grupo22.es/ontology/longitud>.
 map:pm_3 a rr:PredicateMap;
@@ -84,9 +79,6 @@ map:pom_1 a rr:PredicateObjectMap;
 map:pom_10 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_10;
     rr:objectMap map:om_10.
-map:pom_11 a rr:PredicateObjectMap;
-    rr:predicateMap map:pm_11;
-    rr:objectMap map:om_11.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
