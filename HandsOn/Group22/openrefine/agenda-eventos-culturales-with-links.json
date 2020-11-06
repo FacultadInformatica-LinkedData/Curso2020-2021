@@ -1,0 +1,5002 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "EXCLUIDOS",
+    "description": "Remove column EXCLUIDOS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPOPUBLICO",
+    "description": "Remove column TIPOPUBLICO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DISTRITO using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BARRIO using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Biblioteca Pública Municipal Huerta de la Salud (Hortaleza)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biblioteca Pública Municipal Huerta de la Salud"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Biblioteca Pública Municipal Mario Vargas Llosa (Centro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biblioteca Pública Municipal Mario Vargas Llosa"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Buenavista (Salamanca)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Buenavista"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Casa del Reloj (Arganzuela)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Casa del Reloj"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Eduardo Úrculo (Tetuán)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Eduardo Úrculo"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural el Madroño (Vicálvaro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural el Madroño"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural La Vaguada (Fuencarral - El Pardo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural La Vaguada"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Nicolás Salmerón (Chamartín)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Nicolás Salmerón"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Rafael Altamira, antes Palacete Quinta del Berro (Salamanca)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Rafael Altamira"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Valdebernardo (Vicálvaro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Valdebernardo"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Sociocultural Alberto Sánchez (Puente de Vallecas)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Sociocultural Alberto Sánchez"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Sociocultural Aravaca (Moncloa - Aravaca)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Sociocultural Aravaca"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Biblioteca Pública Municipal Huerta de la Salud (Hortaleza)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biblioteca Pública Municipal Huerta de la Salud"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Biblioteca Pública Municipal Mario Vargas Llosa (Centro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biblioteca Pública Municipal Mario Vargas Llosa"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Buenavista (Salamanca)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Buenavista"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Casa del Reloj (Arganzuela)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Casa del Reloj"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Eduardo Úrculo (Tetuán)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Eduardo Úrculo"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural el Madroño (Vicálvaro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural el Madroño"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural La Vaguada (Fuencarral - El Pardo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural La Vaguada"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Nicolás Salmerón (Chamartín)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Nicolás Salmerón"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Rafael Altamira, antes Palacete Quinta del Berro (Salamanca)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Rafael Altamira"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Valdebernardo (Vicálvaro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Valdebernardo"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Sociocultural Alberto Sánchez (Puente de Vallecas)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Sociocultural Alberto Sánchez"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Sociocultural Aravaca (Moncloa - Aravaca)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Sociocultural Aravaca"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  }
+
+{
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://openrefine-wikidata.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q41176",
+        "name": "edificio"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column UBICACIONURI to type Q41176"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio Cultural Conde Duque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56426480",
+      "name": "Centro Cultural Conde Duque",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro Cultural Conde Duque (Q56426480) for cells containing \"Espacio Cultural Conde Duque\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espacio Cultural Conde Duque"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centro Cultural Conde Duque"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Juvenil Tetuán Punto Joven",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Juvenil Tetuán Punto Joven\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural el Madroño",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural el Madroño\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Teatro Español",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3891573",
+      "name": "Teatro Español",
+      "types": [
+        "Q24354"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Teatro Español (Q3891573) for cells containing \"Teatro Español\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio Abierto Quinta de los Molinos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6062479",
+      "name": "Parque Quinta de los Molinos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Parque Quinta de los Molinos (Q6062479) for cells containing \"Espacio Abierto Quinta de los Molinos\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espacio Abierto Quinta de los Molinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parque Quinta de los Molinos"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Berta Cáceres",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Berta Cáceres\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Rafael Altamira",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Rafael Altamira\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad María Telo",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad María Telo\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Buenavista",
+    "judgment": "matched",
+    "match": {
+      "id": "Q47012449",
+      "name": "Biblioteca Pública Municipal - Buenavista",
+      "types": [
+        "Q41176",
+        "Q1329623",
+        "Q28564",
+        "Q11396180"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Buenavista (Q47012449) for cells containing \"Centro Cultural Buenavista\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Centro Cultural Buenavista"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biblioteca Pública Municipal - Buenavista "
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Naves Español en Matadero",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Naves Español en Matadero\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Matadero Madrid",
+                "l": "Matadero Madrid"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Matadero Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "types": [
+        "Q1329623"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Matadero Madrid\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Naves Español en Matadero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Matadero Madrid"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Dulce Chacón",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Dulce Chacón\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Valdebernardo",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Valdebernardo\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Lucía Sánchez Saornil",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Lucía Sánchez Saornil\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad María de Maeztu",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad María de Maeztu\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Biblioteca Pública Municipal Huerta de la Salud",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Biblioteca Pública Municipal Huerta de la Salud\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Cineteca Madrid",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Cineteca Madrid\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Elena Arnedo Soriano",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Elena Arnedo Soriano\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Clara Campoamor",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Clara Campoamor\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Lucrecia Pérez",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Lucrecia Pérez\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Hermanas Mirabal",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Hermanas Mirabal\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Carme Chacón",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Carme Chacón\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Intermediae Matadero Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Intermediae Matadero Madrid\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Intermediae Matadero Madrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Matadero Madrid"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Parroquia Santa María La Antigua",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Parroquia Santa María La Antigua\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Eduardo Úrculo",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Eduardo Úrculo\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad María Zambrano",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad María Zambrano\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Teatro Municipal de Títeres. Parque de El Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1131807",
+      "name": "parque del Retiro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item parque del Retiro (Q1131807) for cells containing \"Teatro Municipal de Títeres. Parque de El Retiro\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Museo de Arte Contemporáneo de Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6940528",
+      "name": "Museo de Arte Contemporáneo",
+      "types": [
+        "Q207694"
+      ],
+      "score": 84
+    },
+    "shareNewTopics": false,
+    "description": "Match item Museo de Arte Contemporáneo (Q6940528) for cells containing \"Museo de Arte Contemporáneo de Madrid\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Sociocultural Aravaca",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Sociocultural Aravaca\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "No se indica",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"No se indica\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Juana Doña",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Juana Doña\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Espacio de Igualdad Nieves Torres",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Espacio de Igualdad Nieves Torres\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Sociocultural Latina",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Sociocultural Latina\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Sociocultural Alberto Sánchez",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Sociocultural Alberto Sánchez\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Jardines de El Buen Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1131807",
+      "name": "parque del Retiro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item parque del Retiro (Q1131807) for cells containing \"Jardines de El Buen Retiro\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Jardines de El Buen Retiro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parque del Retiro"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Imprenta Municipal - Artes del libro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q52265365",
+      "name": "Imprenta Municipal de Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Imprenta Municipal de Madrid (Q52265365) for cells containing \"Imprenta Municipal - Artes del libro\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Jardín histórico El Capricho de la Alameda Osuna",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2054035",
+      "name": "Parque de El Capricho",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Parque de El Capricho (Q2054035) for cells containing \"Jardín histórico El Capricho de la Alameda Osuna\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Biblioteca Pública Municipal Huerta de la Salud",
+                "l": "Biblioteca Pública Municipal Huerta de la Salud"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Biblioteca Pública Municipal Huerta de la Salud",
+    "judgment": "matched",
+    "match": {
+      "id": "Q85697920",
+      "name": "Biblioteca Pública Municipal - Huerta de La Salud",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Biblioteca Pública Municipal - Huerta de La Salud (Q85697920) for cells containing \"Biblioteca Pública Municipal Huerta de la Salud\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Biblioteca Pública Municipal - Buenavista "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biblioteca Pública Municipal Buenavista "
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural Eduardo Úrculo",
+                "l": "Centro Cultural Eduardo Úrculo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Eduardo Úrculo",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Eduardo Úrculo\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural el Madroño",
+                "l": "Centro Cultural el Madroño"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural el Madroño",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural el Madroño\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural el Madroño",
+                "l": "Centro Cultural el Madroño"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural el Madroño",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural el Madroño\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural Valdebernardo",
+                "l": "Centro Cultural Valdebernardo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Valdebernardo",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Valdebernardo\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Teatro Municipal de Títeres. Parque de El Retiro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parque de El Retiro"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Parque del Retiro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parque de El Retiro"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Teatro Circo Price"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Circo Price"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Museo de Arte Contemporáneo de Madrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Museo de Arte Contemporáneo"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Imprenta Municipal - Artes del libro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Imprenta Municipal Artes del libro"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cineteca Madrid",
+                "l": "Cineteca Madrid"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Cineteca Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56427524",
+      "name": "Matadero Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Matadero Madrid (Q56427524) for cells containing \"Cineteca Madrid\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Sociocultural Latina",
+                "l": "Centro Sociocultural Latina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Sociocultural Latina",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Sociocultural Latina\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Sociocultural Aravaca",
+                "l": "Centro Sociocultural Aravaca"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Sociocultural Aravaca",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Sociocultural Aravaca\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Sociocultural Alberto Sánchez",
+                "l": "Centro Sociocultural Alberto Sánchez"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Sociocultural Alberto Sánchez",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Sociocultural Alberto Sánchez\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Juvenil Tetuán Punto Joven",
+                "l": "Centro Juvenil Tetuán Punto Joven"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Juvenil Tetuán Punto Joven",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Juvenil Tetuán Punto Joven\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural Valdebernardo",
+                "l": "Centro Cultural Valdebernardo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Valdebernardo",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Valdebernardo\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural Rafael Altamira",
+                "l": "Centro Cultural Rafael Altamira"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Rafael Altamira",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Rafael Altamira\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural el Madroño",
+                "l": "Centro Cultural el Madroño"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural el Madroño",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural el Madroño\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Centro Cultural Eduardo Úrculo",
+                "l": "Centro Cultural Eduardo Úrculo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Centro Cultural Eduardo Úrculo",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Centro Cultural Eduardo Úrculo\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gratuito"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10€ a 15€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12,5"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "12€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "12"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "15€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "15"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "15€ a 18€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "16,5"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "16€ a 20€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "17€ a 20€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18,5"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "18€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2,20€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2,20"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "20€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "20"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "3€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "4€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "4"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "5€ a 22€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "13,5"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "6€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "6"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8€ a 10€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "9"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "80€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "80"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "9€ a 12€"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "10,5"
+      }
+    ],
+    "description": "Mass edit cells in column PRECIO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PRECIO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column PRECIO using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IDACTIVIDAD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column IDACTIVIDAD using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIAS",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIAS using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIAS",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIAS using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIAS",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dia unico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column DIAS"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column DESCRIPCION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TITULO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alegría."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alegría"
+      }
+    ],
+    "description": "Mass edit cells in column TITULO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URLUBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column URLUBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No Se Indica. No Se Indica, Madrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column DIRECCION"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Flagged Rows",
+          "expression": "row.flagged",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "IDACTIVIDAD",
+    "expression": "null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column IDACTIVIDAD using expression null"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Flagged Rows",
+          "expression": "row.flagged",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sesion Online"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plataforma Online"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aplicacion Zoom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plataforma Online"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Plaza de Oriente",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2193218",
+      "name": "plaza de Oriente",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Oriente (Q2193218) for cells containing \"Plaza de Oriente\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Plaza de Oriente",
+                "l": "Plaza de Oriente"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Plaza de Oriente",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2193218",
+      "name": "plaza de Oriente",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Oriente (Q2193218) for cells containing \"Plaza de Oriente\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Plaza de Oriente",
+                "l": "Plaza de Oriente"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Plaza de Oriente",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2193218",
+      "name": "plaza de Oriente",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza de Oriente (Q2193218) for cells containing \"Plaza de Oriente\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Youtube Channel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17558136",
+      "name": "canal de YouTube",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item canal de YouTube (Q17558136) for cells containing \"Youtube Channel\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Youtube Channel",
+                "l": "Youtube Channel"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Canal de YouTube de Bibliotecas Públicas ",
+                "l": "Canal de YouTube de Bibliotecas Públicas "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Youtube Channel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17558136",
+      "name": "canal de YouTube",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item canal de YouTube (Q17558136) for cells containing \"Youtube Channel\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Canal de YouTube de Bibliotecas Públicas ",
+                "l": "Canal de YouTube de Bibliotecas Públicas "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Youtube Channel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Youtube Channel"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Canal de YouTube de Bibliotecas Públicas ",
+                "l": "Canal de YouTube de Bibliotecas Públicas "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Youtube Channel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17558136",
+      "name": "canal de YouTube",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item canal de YouTube (Q17558136) for cells containing \"Youtube Channel\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Canal de YouTube de Bibliotecas Públicas ",
+                "l": "Canal de YouTube de Bibliotecas Públicas "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Youtube Channel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17558136",
+      "name": "canal de YouTube",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item canal de YouTube (Q17558136) for cells containing \"Youtube Channel\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Paseo del Prado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2079615",
+      "name": "paseo del Prado",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item paseo del Prado (Q2079615) for cells containing \"Paseo del Prado\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACIONURI",
+          "expression": "value",
+          "columnName": "UBICACIONURI",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Puente de Vallecas",
+                "l": "Puente de Vallecas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "DIRECCION",
+          "expression": "value",
+          "columnName": "DIRECCION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Pelicula Online",
+    "judgment": "matched",
+    "match": {
+      "id": "Q30229606",
+      "name": "Online platform",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Online platform (Q30229606) for cells containing \"Pelicula Online\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "DIRECCION",
+          "expression": "value",
+          "columnName": "DIRECCION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Pelicula Online",
+    "judgment": "matched",
+    "match": {
+      "id": "Q30229606",
+      "name": "Online platform",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Online platform (Q30229606) for cells containing \"Pelicula Online\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACION",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pelicula Online"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plataforma Online"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACION"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "UBICACION",
+          "expression": "value",
+          "columnName": "UBICACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Plataforma Online",
+                "l": "Plataforma Online"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "description": "Fill down cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pelicula Online"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plataforma Online"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "DISTRITO",
+          "expression": "value",
+          "columnName": "DISTRITO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "No Se Indica",
+                "l": "No Se Indica"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "similarValue": "Paseo del Prado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2079615",
+      "name": "paseo del Prado",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item paseo del Prado (Q2079615) for cells containing \"Paseo del Prado\" in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No Se Indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No Se Indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column BARRIO"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "C.P",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column C.P"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column LATITUD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LONGITUD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "No se indica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column LONGITUD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Teatro Infantil"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Teatro"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Excursion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Visita Guiada"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Naves Español en Matadero"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Matadero Madrid"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Intermediae Matadero Madrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Matadero Madrid"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "UBICACIONURI",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espacio Abierto Quinta de los Molinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parque Quinta de los Molinos"
+      }
+    ],
+    "description": "Mass edit cells in column UBICACIONURI"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ActividadURI",
+    "newColumnName": "ACTIVIDADURI",
+    "description": "Rename column ActividadURI to ACTIVIDADURI"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://openrefine-wikidata.toolforge.org/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column TIPOACTIVIDAD to type null"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Cultural",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11042",
+      "name": "cultura",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item cultura (Q11042) for cells containing \"Cultural\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Cultural",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11042",
+      "name": "cultura",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item cultura (Q11042) for cells containing \"Cultural\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Danza",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11639",
+      "name": "danza",
+      "types": [
+        "Q45971958"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item danza (Q11639) for cells containing \"Danza\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Arte Urbano",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17516",
+      "name": "arte urbano",
+      "types": [
+        "Q1792379"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item arte urbano (Q17516) for cells containing \"Arte Urbano\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Taller",
+    "judgment": "matched",
+    "match": {
+      "id": "Q656720",
+      "name": "taller",
+      "types": [
+        "Q13226383"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item taller (Q656720) for cells containing \"Taller\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Musical",
+    "judgment": "matched",
+    "match": {
+      "id": "Q638",
+      "name": "música",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item música (Q638) for cells containing \"Musical\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Exposicion",
+    "judgment": "matched",
+    "match": {
+      "id": "Q464980",
+      "name": "exposición",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item exposición (Q464980) for cells containing \"Exposicion\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Teatro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11635",
+      "name": "teatro",
+      "types": [
+        "Q45971958",
+        "Q268592",
+        "Q11862829"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item teatro (Q11635) for cells containing \"Teatro\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Audiovisual",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4819927",
+      "name": "Arte audiovisual",
+      "types": [
+        "Q64222339"
+      ],
+      "score": 85
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arte audiovisual (Q4819927) for cells containing \"Audiovisual\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Cine Forum",
+    "judgment": "matched",
+    "match": {
+      "id": "Q93204",
+      "name": "cine documental",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item cine documental (Q93204) for cells containing \"Cine Forum\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Conferencia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q625994",
+      "name": "conferencia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item conferencia (Q625994) for cells containing \"Conferencia\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Fiesta Religiosa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1572731",
+      "name": "Cabalgata de Reyes Magos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cabalgata de Reyes Magos (Q1572731) for cells containing \"Fiesta Religiosa\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Cine",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11424",
+      "name": "película",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item película (Q11424) for cells containing \"Cine\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Cabaret",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27976507",
+      "name": "cabaret",
+      "types": [
+        "Q7777573"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item cabaret (Q27976507) for cells containing \"Cabaret\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Circo y Magia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q81741",
+      "name": "magia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item magia (Q81741) for cells containing \"Circo y Magia\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Concurso",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21473229",
+      "name": "concurso fotográfico",
+      "types": [
+        ""
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Match item concurso fotográfico (Q21473229) for cells containing \"Concurso\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Zarzuela",
+    "judgment": "matched",
+    "match": {
+      "id": "Q148163",
+      "name": "zarzuela",
+      "types": [
+        "Q188451"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item zarzuela (Q148163) for cells containing \"Zarzuela\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Empleo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q580148",
+      "name": "Portal de empleo",
+      "types": [
+        ""
+      ],
+      "score": 55
+    },
+    "shareNewTopics": false,
+    "description": "Match item Portal de empleo (Q580148) for cells containing \"Empleo\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD",
+          "expression": "value",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Visita Guiada",
+                "l": "Visita Guiada"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Visita Guiada",
+    "judgment": "matched",
+    "match": {
+      "id": "Q93864467",
+      "name": "Visita",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Visita (Q93864467) for cells containing \"Visita Guiada\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD",
+          "expression": "value",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Acto Literario",
+                "l": "Acto Literario"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Acto Literario",
+    "judgment": "matched",
+    "match": {
+      "id": "Q625994",
+      "name": "conferencia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item conferencia (Q625994) for cells containing \"Acto Literario\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acto Literario"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Conferencia"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Audiovisual"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Arte Audiovisual"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pelicula"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPOACTIVIDAD",
+          "expression": "value",
+          "columnName": "TIPOACTIVIDAD",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Circo y Magia",
+                "l": "Circo y Magia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "similarValue": "Circo y Magia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q47928",
+      "name": "circo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item circo (Q47928) for cells containing \"Circo y Magia\" in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Circo y Magia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Circo"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Concurso"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Concurso Fotografico"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPOACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cultural"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cultura"
+      }
+    ],
+    "description": "Mass edit cells in column TIPOACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "URLACTIVIDAD",
+    "newColumnName": "INFORMACION",
+    "description": "Rename column URLACTIVIDAD to INFORMACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "INFORMACION",
+    "newColumnName": "INFORMACIONACTIVIDAD",
+    "description": "Rename column INFORMACION to INFORMACIONACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "URLUBICACION",
+    "newColumnName": "INFORMACIONUBICACION",
+    "description": "Rename column URLUBICACION to INFORMACIONUBICACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "INFORMACIONACTIVIDAD",
+    "newColumnName": "INFORMACION-ACTIVIDAD",
+    "description": "Rename column INFORMACIONACTIVIDAD to INFORMACION-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "INFORMACIONUBICACION",
+    "newColumnName": "INFORMACION-UBICACION",
+    "description": "Rename column INFORMACIONUBICACION to INFORMACION-UBICACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ACTIVIDADURI",
+    "newColumnName": "ACTIVIDAD-URI",
+    "description": "Rename column ACTIVIDADURI to ACTIVIDAD-URI"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "IDACTIVIDAD",
+    "newColumnName": "ID-ACTIVIDAD",
+    "description": "Rename column IDACTIVIDAD to ID-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "UBICACIONURI",
+    "newColumnName": "UBICACION-URI",
+    "description": "Rename column UBICACIONURI to UBICACION-URI"
+  }
+]
