@@ -5,12 +5,6 @@
     "@list" : [ {
       "@id" : "http://dbpedia.org/ontology/Person"
     }, {
-      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
-    }, {
-      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#District"
-    }, {
-      "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Sex"
-    }, {
       "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"
     }, {
       "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident"
@@ -18,6 +12,12 @@
       "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson"
     }, {
       "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle"
+    }, {
+      "@id" : "http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+    }, {
+      "@id" : "http://rdfs.co/juso/District"
+    }, {
+      "@id" : "https://transportdisruption.github.io/#Accident"
     } ]
   } ]
 }, {
@@ -34,39 +34,6 @@
 }, {
   "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-}, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Accident that takes place in Madrid"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Accidente"
-  } ]
-}, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#District",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "District in which an accident occurs"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Distrito"
-  } ]
-}, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Sex",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Sex of a person who has suffered an accident"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Sexo"
-  } ]
 }, {
   "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -112,18 +79,18 @@
     "@value" : "Tipo de Vehículo"
   } ]
 }, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#districtName",
+  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Name of the district where the accident occurred"
+    "@value" : "Month in which an Accident happens"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#District"
+    "@id" : "https://transportdisruption.github.io/#Accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
-    "@value" : "nombreDistrito"
+    "@value" : "ocurreEnMes"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -146,23 +113,6 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasDate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Date and hour of an accident"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "tieneFecha"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
-  } ]
-}, {
   "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -170,7 +120,7 @@
     "@value" : "Identifier of an accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
+    "@id" : "https://transportdisruption.github.io/#Accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -195,23 +145,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasSex",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A Person has a Sex"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dbpedia.org/ontology/Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "tieneSexo"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Sex"
   } ]
 }, {
   "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1",
@@ -265,40 +198,6 @@
     "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle"
   } ]
 }, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Level of damage suffered by the person in the accident. Being 0 if the person did not suffer any damage"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://dbpedia.org/ontology/Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "estadoLesividad"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A Street Crossing is located in a District"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "localizadoEn"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#District"
-  } ]
-}, {
   "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -306,7 +205,7 @@
     "@value" : "1-hour interval in which the accident occurred"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
+    "@id" : "https://transportdisruption.github.io/#Accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -323,7 +222,7 @@
     "@value" : "An Accident occurs on a Street Crossing"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
+    "@id" : "https://transportdisruption.github.io/#Accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -340,7 +239,7 @@
     "@value" : "An Accident occurs to a Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
+    "@id" : "https://transportdisruption.github.io/#Accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -357,7 +256,7 @@
     "@value" : "An Accident is classified within a TypeOfAccident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
+    "@id" : "https://transportdisruption.github.io/#Accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -391,11 +290,84 @@
     "@value" : "Weather at the time of the accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#Accident"
+    "@id" : "https://transportdisruption.github.io/#Accident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "tiempo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://ns.nature.com/terms/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Date and hour of an accident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://transportdisruption.github.io/#Accident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tieneFecha"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://rdf.muninn-project.org/ontologies/appearances.html#Sex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sex of a person who has suffered an accident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Sexo"
+  } ]
+}, {
+  "@id" : "http://rdf.muninn-project.org/ontologies/appearances.html#hasSex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Person has a Sex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tieneSexo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdf.muninn-project.org/ontologies/appearances.html#Sex"
+  } ]
+}, {
+  "@id" : "http://rdfs.co/juso/District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "District in which an accident occurs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Distrito"
+  } ]
+}, {
+  "@id" : "http://vocab.datex.org/terms/#injuryStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Level of damage suffered by the person in the accident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "estadoLesividad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -411,5 +383,50 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The string data type can contain characters, line feeds, carriage returns, and tab characters"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/prop/direct/P131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Street Crossing is located in a District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "localizadoEn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdfs.co/juso/District"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/spec/#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name of the district where the accident occurred"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdfs.co/juso/District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "nombreDistrito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://transportdisruption.github.io/#Accident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Accident that takes place in Madrid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Accidente"
   } ]
 } ]

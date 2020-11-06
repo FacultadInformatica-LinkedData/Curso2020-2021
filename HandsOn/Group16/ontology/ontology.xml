@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="http://www.semanticweb.org/group16/ontology/air-quality">
+  </owl:Ontology>
+
+  <rdfs:Datatype rdf:about="https://schema.org/Number">
+  </rdfs:Datatype>
+
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#inDistrict">
+    <rdfs:domain>
+        <owl:Class>
+            <owl:Class rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Station"/>
+            <owl:Class rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Street"/>
+        </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#District"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#measuredAt">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Measurement"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Station"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#measuredMagnitude">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Measurement"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Magnitude"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Measurement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#districtID">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#District"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#measureCode">
+    <rdfs:domain>
+        <owl:Class>
+            <owl:Class rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Magnitude"/>
+            <owl:Class rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Measurement"/>
+        </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#measureNotation">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Magnitude"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#measureValue">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Measurement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#stationCode">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Station"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#streetID">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/group16/ontology/air-quality#Street"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+
+  <owl:Class rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#District">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#Magnitude">
+  </owl:Class>
+
+  <owl:Class rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#Measurement">
+  </owl:Class>
+
+  <owl:Class rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#Station">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://www.semanticweb.org/group16/ontology/air-quality#Street">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://schema.org/Place">
+  </owl:Class>
+
+</rdf:RDF>

@@ -1,0 +1,272 @@
+@prefix :      <http://linkeddata.es/group09/ontology/TrafficAccident#> .
+@prefix res:   <http://linkeddata.es/group09/resource/> .
+@prefix npg:   <http://ns.nature.com/terms/> .
+@prefix aos:   <http://rdf.muninn-project.org/ontologies/appearances.html#> .
+@prefix datex: <http://vocab.datex.org/terms/#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix wdt:   <http://www.wikidata.org/prop/direct/> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix td:    <https://transportdisruption.github.io/#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix juso:  <http://rdfs.co/juso/> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix foaf:  <http://xmlns.com/foaf/spec/#> .
+
+<https://astrea.linkeddata.es/shapes#dd2c2e7965dcfc389214dd9ac032f064>
+        a               sh:PropertyShape ;
+        rdfs:label      "localizadoEn"@es , "A Street Crossing is located in a District"@en ;
+        sh:class        juso:District ;
+        sh:description  "A Street Crossing is located in a District"@en ;
+        sh:name         "localizadoEn"@es ;
+        sh:nodeKind     sh:BlankNodeOrIRI ;
+        sh:path         wdt:P131 .
+
+<https://astrea.linkeddata.es/shapes#d85fbf42b677673441ddc75bce54b616>
+        a               sh:PropertyShape ;
+        rdfs:label      "ocurreEnMes"@es , "Month in which an Accident happens"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Month in which an Accident happens"@en ;
+        sh:name         "ocurreEnMes"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :happensMonth ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#b1d3da90d9f21b8ac3f94dd794fa89b2>
+        a               sh:NodeShape ;
+        rdfs:label      "Accidente"@es ;
+        sh:description  "Accident that takes place in Madrid"@en ;
+        sh:name         "Accidente"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#257518124ed33c2b7c99afa524da8611> , <https://astrea.linkeddata.es/shapes#589a315d9d63ba3deea902bce41a5372> , <https://astrea.linkeddata.es/shapes#4ed29fe544e949f30d169c70bc187d50> , <https://astrea.linkeddata.es/shapes#a80cd4c0ab293134f51a24497997ee5d> , <https://astrea.linkeddata.es/shapes#3edca8e02d21f838cb14a6b6fa42fcf1> , <https://astrea.linkeddata.es/shapes#d85fbf42b677673441ddc75bce54b616> , <https://astrea.linkeddata.es/shapes#c13ebf1a70f82b3e9818d69ad53bd478> , <https://astrea.linkeddata.es/shapes#0bf1ddc87176cfd9301d2cf4d7e85ca7> ;
+        sh:targetClass  td:Accident .
+
+<https://astrea.linkeddata.es/shapes#a80cd4c0ab293134f51a24497997ee5d>
+        a               sh:PropertyShape ;
+        rdfs:label      "tipoDeAccidente"@es , "An Accident is classified within a TypeOfAccident"@en ;
+        sh:class        :TypeOfAccident ;
+        sh:description  "An Accident is classified within a TypeOfAccident"@en ;
+        sh:name         "tipoDeAccidente"@es ;
+        sh:nodeKind     sh:BlankNodeOrIRI ;
+        sh:path         :typeOfAccident .
+
+<https://astrea.linkeddata.es/shapes#93092949c967617e498f240ef817f4e5>
+        a               sh:PropertyShape ;
+        rdfs:label      "tipoDePersona"@es , "A Person is classified within a TypeOfPerson"@en ;
+        sh:class        :TypeOfPerson ;
+        sh:description  "A Person is classified within a TypeOfPerson"@en ;
+        sh:name         "tipoDePersona"@es ;
+        sh:nodeKind     sh:BlankNodeOrIRI ;
+        sh:path         :typeOfPerson .
+
+<https://astrea.linkeddata.es/shapes#551f7fe857c9bc3bb21601a005bf89d4>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneNumero"@es , "Street crossing number where the accident occurred. If it has no number it is an empty value"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Street crossing number where the accident occurred. If it has no number it is an empty value"@en ;
+        sh:name         "tieneNumero"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :hasNumber ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#0bf1ddc87176cfd9301d2cf4d7e85ca7>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneFecha"@es , "Date and hour of an accident"@en ;
+        sh:datatype     xsd:dateTime ;
+        sh:description  "Date and hour of an accident"@en ;
+        sh:name         "tieneFecha"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         npg:date ;
+        sh:pattern      "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?" .
+
+<https://astrea.linkeddata.es/shapes#0542f8e4dfb207668070d417df756748>
+        a               sh:NodeShape ;
+        rdfs:label      "Tipo de Vehículo"@es ;
+        sh:description  "Type of vehicle in which an accident has occurred (e.g. motorcycle, van)"@en ;
+        sh:name         "Tipo de Vehículo"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  :TypeOfVehicle .
+
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#c09057d7ae3a44e8369a759383f79ad2> , <https://astrea.linkeddata.es/shapes#551f7fe857c9bc3bb21601a005bf89d4> , <https://astrea.linkeddata.es/shapes#b1d3da90d9f21b8ac3f94dd794fa89b2> , <https://astrea.linkeddata.es/shapes#4ed29fe544e949f30d169c70bc187d50> , <https://astrea.linkeddata.es/shapes#a80cd4c0ab293134f51a24497997ee5d> , <https://astrea.linkeddata.es/shapes#0bf1ddc87176cfd9301d2cf4d7e85ca7> , <https://astrea.linkeddata.es/shapes#c58bfd6454a4509a5cef09a27e484af5> , <https://astrea.linkeddata.es/shapes#2371f3048a560991fc8348109c721917> , <https://astrea.linkeddata.es/shapes#589a315d9d63ba3deea902bce41a5372> , <https://astrea.linkeddata.es/shapes#93092949c967617e498f240ef817f4e5> , <https://astrea.linkeddata.es/shapes#dd2c2e7965dcfc389214dd9ac032f064> , <https://astrea.linkeddata.es/shapes#c13ebf1a70f82b3e9818d69ad53bd478> , <https://astrea.linkeddata.es/shapes#84335277f33de3775e53a9b8f5b0c73b> , <https://astrea.linkeddata.es/shapes#64a062fc18fc7226b965d830a8f257a0> , <https://astrea.linkeddata.es/shapes#257518124ed33c2b7c99afa524da8611> , <https://astrea.linkeddata.es/shapes#7dee4b4d4878bf187a14be28f23266df> , <https://astrea.linkeddata.es/shapes#0542f8e4dfb207668070d417df756748> , <https://astrea.linkeddata.es/shapes#057c43bd336f7ca4e2ff5111029ba1e1> , <https://astrea.linkeddata.es/shapes#3edca8e02d21f838cb14a6b6fa42fcf1> , <https://astrea.linkeddata.es/shapes#b69c4d90f0dc6a7ebff84f638c5dfe34> , <https://astrea.linkeddata.es/shapes#d85fbf42b677673441ddc75bce54b616> , <https://astrea.linkeddata.es/shapes#f24c9610d8c4205f58f9481f69a4e4f5> , <https://astrea.linkeddata.es/shapes#77abf0590acb9c7f2274d15b566c2dc3> , <https://astrea.linkeddata.es/shapes#6ee59227e7154e78fe9a88ad1d304350> , <https://astrea.linkeddata.es/shapes#57edc27c6093654154c5fa5da7516b1c> , <https://astrea.linkeddata.es/shapes#15fec8cc9525aa67fd530ef131d409fa> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/0620946147> .
+
+<https://astrea.linkeddata.es/shapes#257518124ed33c2b7c99afa524da8611>
+        a               sh:PropertyShape ;
+        rdfs:label      "ocurreEn"@es , "An Accident occurs on a Street Crossing"@en ;
+        sh:class        :StreetCrossing ;
+        sh:description  "An Accident occurs on a Street Crossing"@en ;
+        sh:name         "ocurreEn"@es ;
+        sh:nodeKind     sh:BlankNodeOrIRI ;
+        sh:path         :occursOn .
+
+<https://astrea.linkeddata.es/shapes#f24c9610d8c4205f58f9481f69a4e4f5>
+        a               sh:NodeShape ;
+        rdfs:label      "Tipo de Accidente"@es ;
+        sh:description  "Type of accident that has occurred (e.g. crash, fall, run over)"@en ;
+        sh:name         "Tipo de Accidente"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  :TypeOfAccident .
+
+<https://astrea.linkeddata.es/shapes#c58bfd6454a4509a5cef09a27e484af5>
+        a               sh:PropertyShape ;
+        rdfs:label      "nombreDistrito"@es , "Name of the district where the accident occurred"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Name of the district where the accident occurred"@en ;
+        sh:name         "nombreDistrito"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         foaf:name ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#3edca8e02d21f838cb14a6b6fa42fcf1>
+        a               sh:PropertyShape ;
+        rdfs:label      "ocurreA"@es , "An Accident occurs to a Person"@en ;
+        sh:class        dbo:Person ;
+        sh:description  "An Accident occurs to a Person"@en ;
+        sh:name         "ocurreA"@es ;
+        sh:nodeKind     sh:BlankNodeOrIRI ;
+        sh:path         :occursTo .
+
+<https://astrea.linkeddata.es/shapes#7dee4b4d4878bf187a14be28f23266df>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneTipoDeVehiculo"@es , "A Person has a TypeOfVehicle"@en ;
+        sh:class        :TypeOfVehicle ;
+        sh:description  "A Person has a TypeOfVehicle"@en ;
+        sh:name         "tieneTipoDeVehiculo"@es ;
+        sh:nodeKind     sh:BlankNodeOrIRI ;
+        sh:path         :hasTypeOfVehicle .
+
+<https://astrea.linkeddata.es/shapes#c13ebf1a70f82b3e9818d69ad53bd478>
+        a               sh:PropertyShape ;
+        rdfs:label      "tiempo"@es , "Weather at the time of the accident"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Weather at the time of the accident"@en ;
+        sh:name         "tiempo"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :weather ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#57edc27c6093654154c5fa5da7516b1c>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneSexo"@es , "A Person has a Sex"@en ;
+        sh:class        aos:Sex ;
+        sh:description  "A Person has a Sex"@en ;
+        sh:name         "tieneSexo"@es ;
+        sh:nodeKind     sh:BlankNodeOrIRI ;
+        sh:path         aos:hasSex .
+
+<https://astrea.linkeddata.es/shapes#6ee59227e7154e78fe9a88ad1d304350>
+        a               sh:NodeShape ;
+        rdfs:label      "Distrito"@es ;
+        sh:description  "District in which an accident occurs"@en ;
+        sh:name         "Distrito"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#c58bfd6454a4509a5cef09a27e484af5> ;
+        sh:targetClass  juso:District .
+
+<https://astrea.linkeddata.es/shapes#4ed29fe544e949f30d169c70bc187d50>
+        a               sh:PropertyShape ;
+        rdfs:label      "ocurreEnPeriodo"@es , "1-hour interval in which the accident occurred"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "1-hour interval in which the accident occurred"@en ;
+        sh:name         "ocurreEnPeriodo"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :occursAtPeriod ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#b69c4d90f0dc6a7ebff84f638c5dfe34>
+        a               sh:NodeShape ;
+        rdfs:label      "Persona"@es ;
+        sh:description  "Person having an accident"@en ;
+        sh:name         "Persona"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#57edc27c6093654154c5fa5da7516b1c> , <https://astrea.linkeddata.es/shapes#93092949c967617e498f240ef817f4e5> , <https://astrea.linkeddata.es/shapes#7dee4b4d4878bf187a14be28f23266df> , <https://astrea.linkeddata.es/shapes#c09057d7ae3a44e8369a759383f79ad2> , <https://astrea.linkeddata.es/shapes#15fec8cc9525aa67fd530ef131d409fa> ;
+        sh:targetClass  dbo:Person .
+
+<https://astrea.linkeddata.es/shapes#15fec8cc9525aa67fd530ef131d409fa>
+        a               sh:PropertyShape ;
+        rdfs:label      "estadoLesividad"@es , "Level of damage suffered by the person in the accident."@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Level of damage suffered by the person in the accident."@en ;
+        sh:name         "estadoLesividad"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         datex:injuryStatus ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#c09057d7ae3a44e8369a759383f79ad2>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneRangoEdad"@es , "Age range of the person who suffered the accident"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Age range of the person who suffered the accident"@en ;
+        sh:name         "tieneRangoEdad"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :hasAgeRange ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/report/0620946147>
+        a       <https://w3id.org/def/astrea#ReportEntry> ;
+        <https://w3id.org/def/astrea#message>
+                "Shapes generated with no errors" ;
+        <https://w3id.org/def/astrea#statusCode>
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#84335277f33de3775e53a9b8f5b0c73b>
+        a               sh:NodeShape ;
+        rdfs:label      "Tipo de Persona"@es ;
+        sh:description  "Type of person who has suffered an accident (e.g. driver, passenger)"@en ;
+        sh:name         "Tipo de Persona"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  :TypeOfPerson .
+
+<https://astrea.linkeddata.es/shapes#2371f3048a560991fc8348109c721917>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneCalle2"@es , "Name of the second street of the street crossing.  It can be empty if the accident occurs only on a street"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Name of the second street of the street crossing.  It can be empty if the accident occurs only on a street"@en ;
+        sh:name         "tieneCalle2"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :hasStreet2 ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#64a062fc18fc7226b965d830a8f257a0>
+        a               sh:NodeShape ;
+        rdfs:label      "Sexo"@es ;
+        sh:description  "Sex of a person who has suffered an accident"@en ;
+        sh:name         "Sexo"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  aos:Sex .
+
+<https://astrea.linkeddata.es/shapes#77abf0590acb9c7f2274d15b566c2dc3>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneCalle1"@es , "Name of the first street of the street crossing"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Name of the first street of the street crossing"@en ;
+        sh:name         "tieneCalle1"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :hasStreet1 ;
+        sh:pattern      ".*" .
+
+<https://astrea.linkeddata.es/shapes#057c43bd336f7ca4e2ff5111029ba1e1>
+        a               sh:NodeShape ;
+        rdfs:label      "Cruce"@es ;
+        sh:description  "Street crossing in which an accident occurs. It can also be just a street"@en ;
+        sh:name         "Cruce"@es ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#77abf0590acb9c7f2274d15b566c2dc3> , <https://astrea.linkeddata.es/shapes#dd2c2e7965dcfc389214dd9ac032f064> , <https://astrea.linkeddata.es/shapes#2371f3048a560991fc8348109c721917> , <https://astrea.linkeddata.es/shapes#551f7fe857c9bc3bb21601a005bf89d4> ;
+        sh:targetClass  :StreetCrossing .
+
+<https://astrea.linkeddata.es/shapes#589a315d9d63ba3deea902bce41a5372>
+        a               sh:PropertyShape ;
+        rdfs:label      "tieneExpediente"@es , "Identifier of an accident"@en ;
+        sh:datatype     xsd:string ;
+        sh:description  "Identifier of an accident"@en ;
+        sh:name         "tieneExpediente"@es ;
+        sh:nodeKind     sh:Literal ;
+        sh:path         :hasExpedient ;
+        sh:pattern      ".*" .

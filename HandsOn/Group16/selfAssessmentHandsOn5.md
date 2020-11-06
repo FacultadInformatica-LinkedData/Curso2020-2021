@@ -14,3 +14,5 @@
 # v2
 * Changed _sameAs_ properties from strings to iris in the mapping.
 * Created entities that are correctly defined to be linked with _sameAs_ properties.
+# v3
+* Included _sameAs_ property to Magnitude entities.

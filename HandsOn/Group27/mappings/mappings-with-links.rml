@@ -15,12 +15,17 @@ map:map_triplesmap2_0 rml:logicalSource map:source_1;
     rdfs:label "triplesmap2";
     rr:subjectMap map:s_1;
     rr:predicateObjectMap map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15.
+map:map_triplesmap3_0 rml:logicalSource map:source_2;
+    a rr:TriplesMap;
+    rdfs:label "triplesmap3";
+    rr:subjectMap map:s_2;
+    rr:predicateObjectMap map:pom_16.
 map:om_0 a rr:ObjectMap;
     rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
-    rml:reference "NOMBRE_ESPECIE";
-    rr:termType rr:Literal.
+    rr:template "http://api.zonasverdesmadrid.com/resources/species/{NOMBRE_ESPECIE}";
+    rr:termType rr:IRI.
 map:om_10 a rr:ObjectMap;
     rml:reference "RecienPlantado";
     rr:termType rr:Literal.
@@ -37,7 +42,10 @@ map:om_14 a rr:ObjectMap;
     rml:reference "Otros";
     rr:termType rr:Literal.
 map:om_15 a rr:ObjectMap;
-    rml:reference "wikidata:Distrito";
+    rml:reference "dbpedia:Distrito";
+    rr:termType rr:IRI.
+map:om_16 a rr:ObjectMap;
+    rml:reference "dbpedia:Especie";
     rr:termType rr:IRI.
 map:om_2 a rr:ObjectMap;
     rml:reference "Num_Unidades";
@@ -49,7 +57,7 @@ map:om_4 a rr:ObjectMap;
     rml:reference "NombreDistritoURI";
     rr:termType rr:Literal.
 map:om_5 a rr:ObjectMap;
-    rml:reference "wikidata:Distrito";
+    rml:reference "dbpedia:Distrito";
     rr:termType rr:IRI.
 map:om_6 a rr:ObjectMap;
     rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
@@ -79,8 +87,10 @@ map:pm_14 a rr:PredicateMap;
     rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasOthers>.
 map:pm_15 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+map:pm_16 a rr:PredicateMap;
+    rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 map:pm_2 a rr:PredicateMap;
-    rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasUnits>.
+    rr:template "http://api.zonasVerdesMadrid.com/ontologies/species#hasUnits{NOMBRE_ESPECIE}".
 map:pm_3 a rr:PredicateMap;
     rr:constant <http://api.zonasVerdesMadrid.com/ontologies/districts#hasId>.
 map:pm_4 a rr:PredicateMap;
@@ -119,6 +129,9 @@ map:pom_14 a rr:PredicateObjectMap;
 map:pom_15 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_15;
     rr:objectMap map:om_15.
+map:pom_16 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_16;
+    rr:objectMap map:om_16.
 map:pom_2 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_2;
     rr:objectMap map:om_2.
@@ -147,9 +160,14 @@ map:s_0 a rr:SubjectMap;
     rr:template "http://api.zonasverdesmadrid.com/resources/districts/{NombreDistritoURI}".
 map:s_1 a rr:SubjectMap;
     rr:template "http://api.zonasverdesmadrid.com/resources/districts/{DISTRITOURI}".
+map:s_2 a rr:SubjectMap;
+    rr:template "http://api.zonasverdesmadrid.com/resources/species/{NOMBRE_ESPECIE}".
 map:source_0 a rml:LogicalSource;
     rml:source "ArboladoZonasVerdesDistritosCalles_2019-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
     rml:source "Estado_arbolado_Parque_Zonas_Verdes-updated-with-links.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_2 a rml:LogicalSource;
+    rml:source "ArboladoZonasVerdesDistritosCalles_2019-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.

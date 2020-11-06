@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LinkedDataApp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/LinkedDataApp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,5 +1,6 @@
 prefixes:
   rr: http://www.w3.org/ns/r2rml#
+  ont: http://www.wsld.org/grupo17/ontology#
   foaf: http://xmlns.com/foaf/0.1/
   xsd: http://www.w3.org/2001/XMLSchema#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
@@ -10,6 +11,7 @@ prefixes:
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   vocab: http://example.org#
+  
   
 mappings:
 
@@ -24,15 +26,10 @@ mappings:
       - [vocab:esPunto3,$(string-column),xsd:string]
       - p: vocab:mide
         o:
-      #  mapping: triplesmapmedida #MIRAR ESTO¡¡¡¡¡
-      #- p: vocab:estaEnEstacion
-      #  o:
+        mapping: triplesmapmedida
+      - p: vocab:estaEnEstacion
+        o:
         mapping: triplesmapestacion
-         condition:
-          function: equal
-          parameters:
-             - [str1, $(ESTACION)]
-             - [str2, $(ESTACION)]
 
   triplesmapestacion:
     sources:
@@ -46,11 +43,6 @@ mappings:
       - p: vocab:estaEnProvincia
         o:
         mapping: triplesmapprovincia 
-        condition:
-           function: equal
-           parameters:
-             - [str1, $(ESTACION)]
-             - [str2, $(PROVINCIA)]
 
   triplesmapprovincia:
     sources:
@@ -61,14 +53,10 @@ mappings:
       - [vocab:provincia,$(PROVINCIA)]
       - [vocab:provincia2,$(http://www.wsld.org/grupo17/ontology/Provincia)~iri]
       - [vocab:provincia3,$(integer-column),xsd:integer]
+      - [owl:sameAS, $(wikidata:province)~iri]
       - p:
         o:
-        mapping: triplesmapestacion ##########ESTO ES REDUNDANTE YO LO QUITARIA SEGUN DIBUJO DE ONTOLOGIA######
-        condition:
-           function: equal
-           parameters:
-             - [str1, $(PROVINCIA)]
-             - [str2, $(ESTACION)]
+        mapping: triplesmapestacion ##########?######
 
   triplesmapmedida:
     sources:
@@ -127,4 +115,4 @@ mappings:
       - [vocab:valido24, $(V24), xsd:boolean]
       - p:
         o:
-        mapping: 
+        mapping: triplesmappuntodemuestreo

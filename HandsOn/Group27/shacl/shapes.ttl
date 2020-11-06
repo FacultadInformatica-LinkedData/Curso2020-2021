@@ -1,0 +1,117 @@
+@prefix :      <http://api.zonasverdesmadrid.es#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#e980120f7bcf58554fd15b35c5095a4e> , <https://astrea.linkeddata.es/shapes#3c1ca96abdfe30c42da2e7e4dd1480c9> , <https://astrea.linkeddata.es/shapes#7b3d54ed64136d911e47000c086865c3> , <https://astrea.linkeddata.es/shapes#a51d12979ae880482ba431d53f6a09bf> , <https://astrea.linkeddata.es/shapes#adfbfe3b7d7d89b5f9d7efdac426e968> , <https://astrea.linkeddata.es/shapes#e1d6351c9325f784f995ec19f0c0653c> , <https://astrea.linkeddata.es/shapes#6e9d676fcd3be5a8bc45cca7fb513456> , <https://astrea.linkeddata.es/shapes#7756432668489af28327125c116bfd12> , <https://astrea.linkeddata.es/shapes#73a81390b3f37e23202f9085c6fbb5a1> , <https://astrea.linkeddata.es/shapes#9ca003a8ff2b3d7d1724fda2d66a585e> , <https://astrea.linkeddata.es/shapes#286da0f6ef081a0d016fa22c95e09c8f> , <https://astrea.linkeddata.es/shapes#1c93c4546067763a0e668e5c1644979a> , <https://astrea.linkeddata.es/shapes#cb0f122e95caaf49b6e0d19961c310e1> , <https://astrea.linkeddata.es/shapes#17dabbb3637e683c4d0d987b3c98dfe7> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/0620946147> .
+
+<https://astrea.linkeddata.es/shapes#a51d12979ae880482ba431d53f6a09bf>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasHeightAverage ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#9ca003a8ff2b3d7d1724fda2d66a585e>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasOthers ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/report/0620946147>
+        a       <https://w3id.org/def/astrea#ReportEntry> ;
+        <https://w3id.org/def/astrea#message>
+                "Shapes generated with no errors" ;
+        <https://w3id.org/def/astrea#statusCode>
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#e980120f7bcf58554fd15b35c5095a4e>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasMature ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#17dabbb3637e683c4d0d987b3c98dfe7>
+        a               sh:NodeShape ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#adfbfe3b7d7d89b5f9d7efdac426e968> ;
+        sh:targetClass  :Species .
+
+<https://astrea.linkeddata.es/shapes#6e9d676fcd3be5a8bc45cca7fb513456>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasJustPlanted ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#7b3d54ed64136d911e47000c086865c3>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasOld ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#e1d6351c9325f784f995ec19f0c0653c>
+        a            sh:PropertyShape ;
+        sh:class     :Species ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      :hasSpecies .
+
+<https://astrea.linkeddata.es/shapes#286da0f6ef081a0d016fa22c95e09c8f>
+        a               sh:NodeShape ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#a51d12979ae880482ba431d53f6a09bf> , <https://astrea.linkeddata.es/shapes#1c93c4546067763a0e668e5c1644979a> , <https://astrea.linkeddata.es/shapes#73a81390b3f37e23202f9085c6fbb5a1> , <https://astrea.linkeddata.es/shapes#9ca003a8ff2b3d7d1724fda2d66a585e> , <https://astrea.linkeddata.es/shapes#e980120f7bcf58554fd15b35c5095a4e> , <https://astrea.linkeddata.es/shapes#e1d6351c9325f784f995ec19f0c0653c> , <https://astrea.linkeddata.es/shapes#7756432668489af28327125c116bfd12> , <https://astrea.linkeddata.es/shapes#6e9d676fcd3be5a8bc45cca7fb513456> , <https://astrea.linkeddata.es/shapes#cb0f122e95caaf49b6e0d19961c310e1> , <https://astrea.linkeddata.es/shapes#7b3d54ed64136d911e47000c086865c3> , <https://astrea.linkeddata.es/shapes#3c1ca96abdfe30c42da2e7e4dd1480c9> ;
+        sh:targetClass  :District .
+
+<https://astrea.linkeddata.es/shapes#1c93c4546067763a0e668e5c1644979a>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:string ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#cb0f122e95caaf49b6e0d19961c310e1>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasPerimeterAverage ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#73a81390b3f37e23202f9085c6fbb5a1>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasYoung ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#3c1ca96abdfe30c42da2e7e4dd1480c9>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasTotal ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#adfbfe3b7d7d89b5f9d7efdac426e968>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasUnits ;
+        sh:pattern   "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#7756432668489af28327125c116bfd12>
+        a            sh:PropertyShape ;
+        sh:datatype  xsd:integer ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasId ;
+        sh:pattern   "[\\-+]?[0-9]+" .
