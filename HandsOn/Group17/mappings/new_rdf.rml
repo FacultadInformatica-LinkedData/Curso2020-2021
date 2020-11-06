@@ -14,12 +14,12 @@ map:map_triplesmapmedida_0 rml:logicalSource map:source_3;
     a rr:TriplesMap;
     rdfs:label "triplesmapmedida";
     rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31, map:pom_32, map:pom_33, map:pom_34, map:pom_35, map:pom_36, map:pom_37, map:pom_38, map:pom_39, map:pom_40, map:pom_41, map:pom_42, map:pom_43, map:pom_44, map:pom_45, map:pom_46, map:pom_47, map:pom_48, map:pom_49, map:pom_50, map:pom_51, map:pom_52, map:pom_53, map:pom_54, map:pom_55, map:pom_56, map:pom_57, map:pom_58, map:pom_59, map:pom_60, map:pom_61.
+    rr:predicateObjectMap map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23, map:pom_24, map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31, map:pom_32, map:pom_33, map:pom_34, map:pom_35, map:pom_36, map:pom_37, map:pom_38, map:pom_39, map:pom_40, map:pom_41, map:pom_42, map:pom_43, map:pom_44, map:pom_45, map:pom_46, map:pom_47, map:pom_48, map:pom_49, map:pom_50, map:pom_51, map:pom_52, map:pom_53, map:pom_54, map:pom_55, map:pom_56, map:pom_57, map:pom_58, map:pom_59, map:pom_60, map:pom_61, map:pom_62.
 map:map_triplesmapprovincia_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "triplesmapprovincia";
     rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10, map:pom_11.
+    rr:predicateObjectMap map:pom_8, map:pom_9, map:pom_10, map:pom_11, map:pom_12.
 map:map_triplesmappuntodemuestreo_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "triplesmappuntodemuestreo";
@@ -39,217 +39,220 @@ map:om_11 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#integer>.
 map:om_12 a rr:ObjectMap;
-    rr:constant "http://example.org#esMedida";
+    rml:reference "wikidata:province";
     rr:termType rr:IRI.
 map:om_13 a rr:ObjectMap;
+    rr:constant "http://example.org#esMedida";
+    rr:termType rr:IRI.
+map:om_14 a rr:ObjectMap;
     rr:template "{ANO}-{MES}-{DIA}";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#date>.
-map:om_14 a rr:ObjectMap;
+map:om_15 a rr:ObjectMap;
     rml:reference "Hora1";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_15 a rr:ObjectMap;
+map:om_16 a rr:ObjectMap;
     rml:reference "V01";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_16 a rr:ObjectMap;
+map:om_17 a rr:ObjectMap;
     rml:reference "Hora2";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_17 a rr:ObjectMap;
+map:om_18 a rr:ObjectMap;
     rml:reference "V02";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_18 a rr:ObjectMap;
+map:om_19 a rr:ObjectMap;
     rml:reference "Hora3";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_19 a rr:ObjectMap;
-    rml:reference "V03";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_2 a rr:ObjectMap;
     rml:reference "http://www.wsld.org/grupo17/ontology/esPuntoMuestreo";
     rr:termType rr:IRI.
 map:om_20 a rr:ObjectMap;
+    rml:reference "V03";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
+map:om_21 a rr:ObjectMap;
     rml:reference "Hora4";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_21 a rr:ObjectMap;
+map:om_22 a rr:ObjectMap;
     rml:reference "V04";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_22 a rr:ObjectMap;
+map:om_23 a rr:ObjectMap;
     rml:reference "Hora5";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_23 a rr:ObjectMap;
+map:om_24 a rr:ObjectMap;
     rml:reference "V05";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_24 a rr:ObjectMap;
+map:om_25 a rr:ObjectMap;
     rml:reference "Hora6";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_25 a rr:ObjectMap;
+map:om_26 a rr:ObjectMap;
     rml:reference "V06";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_26 a rr:ObjectMap;
+map:om_27 a rr:ObjectMap;
     rml:reference "Hora7";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_27 a rr:ObjectMap;
+map:om_28 a rr:ObjectMap;
     rml:reference "V07";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_28 a rr:ObjectMap;
+map:om_29 a rr:ObjectMap;
     rml:reference "Hora8";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_29 a rr:ObjectMap;
-    rml:reference "V08";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_3 a rr:ObjectMap;
     rml:reference "string-column";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#string>.
 map:om_30 a rr:ObjectMap;
+    rml:reference "V08";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
+map:om_31 a rr:ObjectMap;
     rml:reference "Hora9";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_31 a rr:ObjectMap;
+map:om_32 a rr:ObjectMap;
     rml:reference "V09";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_32 a rr:ObjectMap;
+map:om_33 a rr:ObjectMap;
     rml:reference "Hora10";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_33 a rr:ObjectMap;
+map:om_34 a rr:ObjectMap;
     rml:reference "V10";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_34 a rr:ObjectMap;
+map:om_35 a rr:ObjectMap;
     rml:reference "Hora11";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_35 a rr:ObjectMap;
+map:om_36 a rr:ObjectMap;
     rml:reference "V11";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_36 a rr:ObjectMap;
+map:om_37 a rr:ObjectMap;
     rml:reference "Hora12";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_37 a rr:ObjectMap;
+map:om_38 a rr:ObjectMap;
     rml:reference "V12";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_38 a rr:ObjectMap;
+map:om_39 a rr:ObjectMap;
     rml:reference "Hora13";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_39 a rr:ObjectMap;
-    rml:reference "V13";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_4 a rr:ObjectMap;
     rr:constant "http://example.org#Estacion";
     rr:termType rr:IRI.
 map:om_40 a rr:ObjectMap;
+    rml:reference "V13";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
+map:om_41 a rr:ObjectMap;
     rml:reference "Hora14";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_41 a rr:ObjectMap;
+map:om_42 a rr:ObjectMap;
     rml:reference "V14";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_42 a rr:ObjectMap;
+map:om_43 a rr:ObjectMap;
     rml:reference "Hora15";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_43 a rr:ObjectMap;
+map:om_44 a rr:ObjectMap;
     rml:reference "V15";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_44 a rr:ObjectMap;
+map:om_45 a rr:ObjectMap;
     rml:reference "Hora16";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_45 a rr:ObjectMap;
+map:om_46 a rr:ObjectMap;
     rml:reference "V16";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_46 a rr:ObjectMap;
+map:om_47 a rr:ObjectMap;
     rml:reference "Hora17";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_47 a rr:ObjectMap;
+map:om_48 a rr:ObjectMap;
     rml:reference "V17";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_48 a rr:ObjectMap;
+map:om_49 a rr:ObjectMap;
     rml:reference "Hora18";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_49 a rr:ObjectMap;
-    rml:reference "V18";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_5 a rr:ObjectMap;
     rml:reference "ESTACION";
     rr:termType rr:Literal.
 map:om_50 a rr:ObjectMap;
+    rml:reference "V18";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
+map:om_51 a rr:ObjectMap;
     rml:reference "Hora19";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_51 a rr:ObjectMap;
+map:om_52 a rr:ObjectMap;
     rml:reference "V19";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_52 a rr:ObjectMap;
+map:om_53 a rr:ObjectMap;
     rml:reference "Hora20";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_53 a rr:ObjectMap;
+map:om_54 a rr:ObjectMap;
     rml:reference "V20";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_54 a rr:ObjectMap;
+map:om_55 a rr:ObjectMap;
     rml:reference "Hora21";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_55 a rr:ObjectMap;
+map:om_56 a rr:ObjectMap;
     rml:reference "V21";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_56 a rr:ObjectMap;
+map:om_57 a rr:ObjectMap;
     rml:reference "Hora22";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_57 a rr:ObjectMap;
+map:om_58 a rr:ObjectMap;
     rml:reference "V22";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
-map:om_58 a rr:ObjectMap;
+map:om_59 a rr:ObjectMap;
     rml:reference "Hora23";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_59 a rr:ObjectMap;
-    rml:reference "V23";
-    rr:termType rr:Literal;
-    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
 map:om_6 a rr:ObjectMap;
     rml:reference "http://www.wsld.org/grupo17/ontology/Estacion";
     rr:termType rr:IRI.
 map:om_60 a rr:ObjectMap;
+    rml:reference "V23";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
+map:om_61 a rr:ObjectMap;
     rml:reference "Hora24";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#double>.
-map:om_61 a rr:ObjectMap;
+map:om_62 a rr:ObjectMap;
     rml:reference "V24";
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#boolean>.
@@ -272,114 +275,116 @@ map:pm_10 a rr:PredicateMap;
 map:pm_11 a rr:PredicateMap;
     rr:constant <http://example.org#provincia3>.
 map:pm_12 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://www.w3.org/2002/07/owl#sameAS>.
 map:pm_13 a rr:PredicateMap;
-    rr:constant <http://example.org#fecha>.
+    rr:constant rdf:type.
 map:pm_14 a rr:PredicateMap;
-    rr:constant <http://example.org#hora1>.
+    rr:constant <http://example.org#fecha>.
 map:pm_15 a rr:PredicateMap;
-    rr:constant <http://example.org#valido1>.
+    rr:constant <http://example.org#hora1>.
 map:pm_16 a rr:PredicateMap;
-    rr:constant <http://example.org#hora2>.
+    rr:constant <http://example.org#valido1>.
 map:pm_17 a rr:PredicateMap;
-    rr:constant <http://example.org#valido2>.
+    rr:constant <http://example.org#hora2>.
 map:pm_18 a rr:PredicateMap;
-    rr:constant <http://example.org#hora3>.
+    rr:constant <http://example.org#valido2>.
 map:pm_19 a rr:PredicateMap;
-    rr:constant <http://example.org#valido3>.
+    rr:constant <http://example.org#hora3>.
 map:pm_2 a rr:PredicateMap;
     rr:constant <http://example.org#esPunto2>.
 map:pm_20 a rr:PredicateMap;
-    rr:constant <http://example.org#hora4>.
+    rr:constant <http://example.org#valido3>.
 map:pm_21 a rr:PredicateMap;
-    rr:constant <http://example.org#valido4>.
+    rr:constant <http://example.org#hora4>.
 map:pm_22 a rr:PredicateMap;
-    rr:constant <http://example.org#hora5>.
+    rr:constant <http://example.org#valido4>.
 map:pm_23 a rr:PredicateMap;
-    rr:constant <http://example.org#valido5>.
+    rr:constant <http://example.org#hora5>.
 map:pm_24 a rr:PredicateMap;
-    rr:constant <http://example.org#hora6>.
+    rr:constant <http://example.org#valido5>.
 map:pm_25 a rr:PredicateMap;
-    rr:constant <http://example.org#valido6>.
+    rr:constant <http://example.org#hora6>.
 map:pm_26 a rr:PredicateMap;
-    rr:constant <http://example.org#hora7>.
+    rr:constant <http://example.org#valido6>.
 map:pm_27 a rr:PredicateMap;
-    rr:constant <http://example.org#valido7>.
+    rr:constant <http://example.org#hora7>.
 map:pm_28 a rr:PredicateMap;
-    rr:constant <http://example.org#hora8>.
+    rr:constant <http://example.org#valido7>.
 map:pm_29 a rr:PredicateMap;
-    rr:constant <http://example.org#valido8>.
+    rr:constant <http://example.org#hora8>.
 map:pm_3 a rr:PredicateMap;
     rr:constant <http://example.org#esPunto3>.
 map:pm_30 a rr:PredicateMap;
-    rr:constant <http://example.org#hora9>.
+    rr:constant <http://example.org#valido8>.
 map:pm_31 a rr:PredicateMap;
-    rr:constant <http://example.org#valido9>.
+    rr:constant <http://example.org#hora9>.
 map:pm_32 a rr:PredicateMap;
-    rr:constant <http://example.org#hora10>.
+    rr:constant <http://example.org#valido9>.
 map:pm_33 a rr:PredicateMap;
-    rr:constant <http://example.org#valido10>.
+    rr:constant <http://example.org#hora10>.
 map:pm_34 a rr:PredicateMap;
-    rr:constant <http://example.org#hora11>.
+    rr:constant <http://example.org#valido10>.
 map:pm_35 a rr:PredicateMap;
-    rr:constant <http://example.org#valido11>.
+    rr:constant <http://example.org#hora11>.
 map:pm_36 a rr:PredicateMap;
-    rr:constant <http://example.org#hora12>.
+    rr:constant <http://example.org#valido11>.
 map:pm_37 a rr:PredicateMap;
-    rr:constant <http://example.org#valido12>.
+    rr:constant <http://example.org#hora12>.
 map:pm_38 a rr:PredicateMap;
-    rr:constant <http://example.org#hora13>.
+    rr:constant <http://example.org#valido12>.
 map:pm_39 a rr:PredicateMap;
-    rr:constant <http://example.org#valido13>.
+    rr:constant <http://example.org#hora13>.
 map:pm_4 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_40 a rr:PredicateMap;
-    rr:constant <http://example.org#hora14>.
+    rr:constant <http://example.org#valido13>.
 map:pm_41 a rr:PredicateMap;
-    rr:constant <http://example.org#valido14>.
+    rr:constant <http://example.org#hora14>.
 map:pm_42 a rr:PredicateMap;
-    rr:constant <http://example.org#hora15>.
+    rr:constant <http://example.org#valido14>.
 map:pm_43 a rr:PredicateMap;
-    rr:constant <http://example.org#valido15>.
+    rr:constant <http://example.org#hora15>.
 map:pm_44 a rr:PredicateMap;
-    rr:constant <http://example.org#hora16>.
+    rr:constant <http://example.org#valido15>.
 map:pm_45 a rr:PredicateMap;
-    rr:constant <http://example.org#valido16>.
+    rr:constant <http://example.org#hora16>.
 map:pm_46 a rr:PredicateMap;
-    rr:constant <http://example.org#hora17>.
+    rr:constant <http://example.org#valido16>.
 map:pm_47 a rr:PredicateMap;
-    rr:constant <http://example.org#valido17>.
+    rr:constant <http://example.org#hora17>.
 map:pm_48 a rr:PredicateMap;
-    rr:constant <http://example.org#hora18>.
+    rr:constant <http://example.org#valido17>.
 map:pm_49 a rr:PredicateMap;
-    rr:constant <http://example.org#valido18>.
+    rr:constant <http://example.org#hora18>.
 map:pm_5 a rr:PredicateMap;
     rr:constant <http://example.org#estacion>.
 map:pm_50 a rr:PredicateMap;
-    rr:constant <http://example.org#hora19>.
+    rr:constant <http://example.org#valido18>.
 map:pm_51 a rr:PredicateMap;
-    rr:constant <http://example.org#valido19>.
+    rr:constant <http://example.org#hora19>.
 map:pm_52 a rr:PredicateMap;
-    rr:constant <http://example.org#hora20>.
+    rr:constant <http://example.org#valido19>.
 map:pm_53 a rr:PredicateMap;
-    rr:constant <http://example.org#valido20>.
+    rr:constant <http://example.org#hora20>.
 map:pm_54 a rr:PredicateMap;
-    rr:constant <http://example.org#hora21>.
+    rr:constant <http://example.org#valido20>.
 map:pm_55 a rr:PredicateMap;
-    rr:constant <http://example.org#valido21>.
+    rr:constant <http://example.org#hora21>.
 map:pm_56 a rr:PredicateMap;
-    rr:constant <http://example.org#hora22>.
+    rr:constant <http://example.org#valido21>.
 map:pm_57 a rr:PredicateMap;
-    rr:constant <http://example.org#valido22>.
+    rr:constant <http://example.org#hora22>.
 map:pm_58 a rr:PredicateMap;
-    rr:constant <http://example.org#hora23>.
+    rr:constant <http://example.org#valido22>.
 map:pm_59 a rr:PredicateMap;
-    rr:constant <http://example.org#valido23>.
+    rr:constant <http://example.org#hora23>.
 map:pm_6 a rr:PredicateMap;
     rr:constant <http://example.org#estacion2>.
 map:pm_60 a rr:PredicateMap;
-    rr:constant <http://example.org#hora24>.
+    rr:constant <http://example.org#valido23>.
 map:pm_61 a rr:PredicateMap;
+    rr:constant <http://example.org#hora24>.
+map:pm_62 a rr:PredicateMap;
     rr:constant <http://example.org#valido24>.
 map:pm_7 a rr:PredicateMap;
     rr:constant <http://example.org#estacion3>.
@@ -564,6 +569,9 @@ map:pom_60 a rr:PredicateObjectMap;
 map:pom_61 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_61;
     rr:objectMap map:om_61.
+map:pom_62 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_62;
+    rr:objectMap map:om_62.
 map:pom_7 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_7;
     rr:objectMap map:om_7.
