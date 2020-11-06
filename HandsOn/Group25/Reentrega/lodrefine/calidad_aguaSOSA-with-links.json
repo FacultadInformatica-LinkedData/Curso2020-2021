@@ -1,0 +1,28 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Sabor",
+    "expression": "grel:'https://www.wikidata.org/wiki/Q2210058'",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidataSabor",
+    "columnInsertIndex": 9,
+    "description": "Create column wikidataSabor at index 9 based on column Sabor using expression grel:'https://www.wikidata.org/wiki/Q2210058'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Olor",
+    "expression": "grel:'https://www.wikidata.org/wiki/Q29399595'",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidataOlor",
+    "columnInsertIndex": 8,
+    "description": "Create column wikidataOlor at index 8 based on column Olor using expression grel:'https://www.wikidata.org/wiki/Q29399595'"
+  }
+]
