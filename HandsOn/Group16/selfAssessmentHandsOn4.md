@@ -36,3 +36,10 @@
 ### v3
 * Changed _measuredAt_ property mapping in the _.yml_ document since it was located in the wrong TriplesMap.
 * Included the TriplesMap corresponding to the new _magnitudes_ dataset.
+### v4
+* Placed correct datatypes to string codes.
+* Included the _measuredMagnitude_ property to link both Measurement and Magnitude entities.
+* Included Wikidata links with _owl:sameAs_ properties.
+* Included properties _rdfs:subClassOf_ that were written in the ontology but not in the mappings.
+### v5
+* Rewrite mappings with missing property _inStreet_.

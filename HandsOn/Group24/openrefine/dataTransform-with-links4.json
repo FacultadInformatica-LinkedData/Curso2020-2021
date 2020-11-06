@@ -1,0 +1,379 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('á','a')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('á','a')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name's URI",
+    "expression": "grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name's URI using expression grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name",
+    "expression": "grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name using expression grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name's URI",
+    "expression": "grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name's URI using expression grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace(\"(Madrid)\",'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace(\"(Madrid)\",'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name's URI",
+    "expression": "grel:value.replace(\"_(Madrid)\",'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name's URI using expression grel:value.replace(\"_(Madrid)\",'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name",
+    "expression": "grel:value.replace(\"(Madrid)\",'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name using expression grel:value.replace(\"(Madrid)\",'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name's URI",
+    "expression": "grel:value.replace(\"_(Madrid)\",'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name's URI using expression grel:value.replace(\"_(Madrid)\",'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name's URI",
+    "expression": "grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name's URI using expression grel:value.replace('á','a')\nvalue.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name's URI",
+    "expression": "grel:value.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name's URI using expression grel:value.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('á','a')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('á','a')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('é','e')\nvalue.replace('í','i')\nvalue.replace('ó','o')\nvalue.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('í','i'),",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('í','i'),"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('ó','o')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('ó','o')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('ú','u')\nvalue.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('ñ','n')\nvalue.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('ñ','n')\nvalue.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name",
+    "expression": "grel:value.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name using expression grel:value.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name",
+    "expression": "grel:value.replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name using expression grel:value.replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "district_name's URI",
+    "expression": "grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column district_name's URI using expression grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name",
+    "expression": "grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name using expression grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_name's URI",
+    "expression": "grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_name's URI using expression grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "address",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column address using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "address",
+    "expression": "grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column address using expression grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace('ü','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "address",
+    "expression": "grel:value.replace('-',',')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column address using expression grel:value.replace('-',',')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "address",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column address using expression value.toTitlecase()"
+  }
+]

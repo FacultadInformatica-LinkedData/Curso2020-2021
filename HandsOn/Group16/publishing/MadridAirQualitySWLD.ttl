@@ -1,0 +1,22 @@
+:MadridAirQualitySWLD a void:Dataset ;
+    dcterms:title "MadridAirQuality";
+    dcterms:description "Madrid air quality data";
+    dcterms:source <https://datos.madrid.es/egob/catalogo/201410-0-calidad-aire-diario>;
+    dcterms:created "2020-10-18"^^xsd:date ;
+    dcterms:issued "2020-11-5"^^xsd:date ;
+    dcterms:creator :UPM_Students ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    void:sparqlEndpoint <#TODO> ;
+    void:vocabulary <#TODO> #nuestro ontology.ttl ;
+    void:vocabulary <http://www.w3.org/2002/07/owl#> ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ;
+    void:vocabulary <http://www.w3.org/XML/1998/namespace> ;
+    void:vocabulary <http://www.w3.org/2001/XMLSchema#> ;
+    void:vocabulary <http://www.w3.org/2000/01/rdf-schema#> ;
+    void:vocabulary <http://www.schema.org#> ;
+    void:exampleResource <#TODO> ;
+    void:uriSpace "TODO" ;
+    void:triples "1501"^^xsd:integer ;
+    void:classes "9"^^xsd:integer ;
+    void:properties "16"^^xsd:integer ;
+

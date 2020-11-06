@@ -1,0 +1,183 @@
+@prefix : <http://www.semanticweb.org/group16/ontology/air-quality#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saref: <https://w3id.org/saref#> .
+@prefix schema: <https://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@base <http://www.semanticweb.org/group16/ontology/air-quality> .
+
+<http://www.semanticweb.org/group16/ontology/air-quality> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  https://schema.org/Number
+schema:Number rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  Properties replaced: inDistrict, inStreet
+###  http://www.geonames.org/ontology#locatedIn
+gn:locatedIn rdf:type owl:ObjectProperty ;
+        rdfs:domain [
+        rdf:type owl:Class ;
+        owl:Class   saref:Sensor ,
+                    dbo:Street
+        ] ;
+        rdfs:range [
+        rdf:type owl:Class ;
+        owl:Class   dbo:District ,
+                    dbo:Street
+        ] .
+
+
+###  Property replaced (inverse): measuredAt
+###  https://w3id.org/saref#makesMeasurement
+saref:makesMeasurement rdf:type owl:ObjectProperty ;
+        rdfs:domain :Sensor ;
+        rdfs:range saref:Measurement .
+
+
+###  Property replaced: measuredMagnitude
+###  https://w3id.org/saref#measuresProperty
+saref:measuresProperty rdf:type owl:ObjectProperty ;
+        rdfs:domain saref:Measurement ;
+        rdfs:range saref:Property .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#subClassOf
+rdfs:subClassOf rdf:type owl:ObjectProperty ;
+        rdfs:domain owl:Thing ;
+        rdfs:range owl:Thing .
+
+
+### http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:ObjectProperty ;
+        rdfs:domain owl:Class ;
+        rdfs:range owl:Class .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:DatatypeProperty ;
+        rdfs:domain owl:Thing ;
+        rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:DatatypeProperty ;
+        rdfs:domain owl:Thing ;
+        rdfs:range xsd:string .
+
+
+###  http://www.schema.org#address
+schema:address rdf:type owl:DatatypeProperty ;
+        rdfs:domain schema:Place ;
+        rdfs:range xsd:string .
+
+
+###  http://www.schema.org#latitude
+schema:latitude rdf:type owl:DatatypeProperty ;
+        rdfs:domain schema:Place ;
+        rdfs:range schema:Number .
+
+
+###  http://www.schema.org#longitude
+schema:latitude rdf:type owl:DatatypeProperty ;
+        rdfs:domain schema:Place ;
+        rdfs:range schema:Number .
+
+
+###  Replaced property: dateOfMeasure
+###  https://w3id.org/saref#hasTimestamp
+saref:hasTimestamp rdf:type owl:DatatypeProperty ;
+        rdfs:domain saref:Measurement ;
+        rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#districtID
+:districtID rdf:type owl:DatatypeProperty ;
+        rdfs:domain :District ;
+        rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#measureCode
+:propertyCode rdf:type owl:DatatypeProperty ;
+        rdfs:domain saref:Property ;
+        rdfs:range xsd:string .
+
+
+###  Property replaced: measureNotation
+###  http://dbpedia.org/ontology/formula
+dbo:formula rdf:type owl:DatatypeProperty ;
+        rdfs:domain saref:Property ;
+        rdfs:range xsd:string .
+
+
+###  Property replaced: measureValue
+###  https://w3id.org/saref#hasValue
+saref:hasValue rdf:type owl:DatatypeProperty ;
+        rdfs:domain saref:Measurement ;
+        rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#sensorCode
+:sensorCode rdf:type owl:DatatypeProperty ;
+        rdfs:domain saref:Sensor ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group16/ontology/air-quality#streetID
+:streetID rdf:type owl:DatatypeProperty ;
+        rdfs:domain dbo:Street ;
+        rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  Class replaced: District
+###  http://http://dbpedia.org/ontology/District
+dbo:District rdf:type owl:Class ;
+        rdfs:subClassOf schema:Place .
+
+
+###  Class replaced: Magnitude
+###  http://www.semanticweb.org/group16/ontology/air-quality#Magnitude
+saref:Property rdf:type owl:Class .
+
+
+###  Class replaced: Measurement
+###  https://w3id.org/saref#Measurement
+saref:Measurement rdf:type owl:Class .
+
+
+###  Class replaced: Station
+###  https://w3id.org/saref#Sensor
+saref:Sensor rdf:type owl:Class ;
+        rdfs:subClassOf schema:Place .
+
+
+###  Class replaced: Street
+###  http://http://dbpedia.org/ontology/Street
+dbo:Street rdf:type owl:Class ;
+        rdfs:subClassOf schema:Place .
+
+
+###  https://schema.org/Place
+schema:Place rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

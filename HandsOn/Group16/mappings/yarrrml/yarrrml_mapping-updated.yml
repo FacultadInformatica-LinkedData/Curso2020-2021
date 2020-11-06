@@ -1,0 +1,113 @@
+prefixes:
+  ns: "http://www.semanticweb.org/group16/ontologies/air-quality#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  sc: "http://www.schema.org#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  owl: "http://www.w3.org/2002/07/owl#"
+  saref: "https://w3id.org/saref#"
+  gn: "http://www.geonames.org/ontology#"
+  dbo: "http://dbpedia.org/ontology#"
+
+mappings:
+    
+    TriplesMap1:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(ESTACION_ID)
+        po:
+            - [a, saref:Sensor]
+            - [ns:sensorCode, $(ESTACION_ID), xsd:string]
+            - [rdfs:label, $(NOMBRE), xsd:string]
+            - [sc:address, $(DIRECCION), xsd:string]
+            - [sc:latitude, $(LATITUD), sc:Number]
+            - [sc:longitude, $(LONGITUD), sc:Number]
+            - p: saref:makesMeasurement
+              o:
+                - mapping: TriplesMap2
+                  condition:
+                      function: equal
+                      parameters:
+                        - [str1, $(ESTACION_ID), s]
+                        - [str2, $(PUNTO_MUESTREO), o]
+            - p: gn:locatedIn
+              o:
+                - mapping: TriplesMap4
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DISTRITO_LINK)]
+                      - [str2, $(DISTRITO_LINK)]
+            - p: gn:locatedIn
+              o:
+                - mapping: TriplesMap5
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DIRECCION_ID)]
+                      - [str2, $(DIRECCION_ID)]
+            
+    TriplesMap2:
+        sources:
+            - [csv-shortened.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(ID)
+        po:
+            - [a, ns:Measurement]
+            - [saref:hasTimeStamp, $(FECHA), xsd:dateTime]
+            - [saref:hasValue, $(VALOR), xsd:float]
+            - p: ns:measuresProperty
+              o:
+                - mapping: TriplesMap3
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(MAGNITUD)]
+                      - [str2, $(MAGNITUD)]
+
+    TriplesMap3:
+        sources:
+            - [magnitudes.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(NOTACION)
+        po:
+            - [a, saref:Property]
+            - [ns:propertyCode, $(MAGNITUD), xsd:string]
+            - [dbo:formula, $(NOTACION), xsd:string]
+            - [rdfs:comment, $(RESUMEN), xsd:string]
+            - [owl:sameAs, $(WIKIDATA_ID)~iri]
+            - p: rdfs:label
+              o:
+                value: $(NAME)
+                language: en
+            - p: rdfs:label
+              o:
+                value: $(NOMBRE)
+                language: es
+
+    TriplesMap4:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/district_$(DISTRITO_ID)
+        po:
+            - [a, dbo:District]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
+            - [rdfs:label, $(DISTRITO_LINK), xsd:string]
+            - [ns:districtID, $(DISTRITO_ID), xsd:integer]
+            - [owl:sameAs, $(WIKIDATA_DISTRITO_ID)~iri]
+
+    TriplesMap5:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/street_$(DIRECCION_ID)
+        po:
+            - [a, dbo:Street]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
+            - [rdfs:label, $(DIRECCION_LINK), xsd:string]
+            - [ns:streetID, $(DIRECCION_ID), xsd:integer]
+            - [owl:sameAs, $(WIKIDATA_DIRECCION_ID)~iri]
+            - p: gn:locatedIn
+              o:
+                - mapping: TriplesMap4
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DIRECCION_LINK)]
+                      - [str2, $(DIRECCION_LINK)]

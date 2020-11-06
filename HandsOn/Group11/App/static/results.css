@@ -1,0 +1,14 @@
+thead {
+     background-color: #1c87c9;
+     color: #ffffff;
+}
+th {
+    text-align: center;
+    height: 50px;
+}
+tbody tr:nth-child(odd) {
+     background: #ffffff;
+}
+tbody tr:nth-child(even) {
+     background: #f4f4f4;
+}

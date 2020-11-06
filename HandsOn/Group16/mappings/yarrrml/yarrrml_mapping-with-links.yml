@@ -1,0 +1,104 @@
+prefixes:
+  ns: "http://www.semanticweb.org/group16/ontologies/air-quality#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  sc: "http://www.schema.org#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  owl: "http://www.w3.org/2002/07/owl#"
+
+mappings:
+    
+    TriplesMap1:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(ESTACION_ID)
+        po:
+            - [a, ns:Station]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
+            - [ns:stationCode, $(ESTACION_ID), xsd:string]
+            - [rdfs:label, $(NOMBRE), xsd:string]
+            - [sc:address, $(DIRECCION), xsd:string]
+            - [sc:latitude, $(LATITUD), sc:Number]
+            - [sc:longitude, $(LONGITUD), sc:Number]
+            - p: ns:inDistrict
+              o:
+                - mapping: TriplesMap4
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DISTRITO_LINK)]
+                      - [str2, $(DISTRITO_LINK)]
+            - p: ns:inStreet
+              o:
+                - mapping: TriplesMap5
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DIRECCION_ID)]
+                      - [str2, $(DIRECCION_ID)]
+            
+    TriplesMap2:
+        sources:
+            - [csv-shortened.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(ID)
+        po:
+            - [a, ns:Measurement]
+            - [ns:dateOfMeasure, $(FECHA), xsd:dateTime]
+            - [ns:measureValue, $(VALOR), xsd:float]
+            - [ns:measuredAt, http://www.semanticweb.org/group16/air-quality/resource/$(PUNTO_MUESTREO)~iri]
+            - p: ns:measuredMagnitude
+              o:
+                - mapping: TriplesMap3
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(MAGNITUD)]
+                      - [str2, $(MAGNITUD)]
+
+    TriplesMap3:
+        sources:
+            - [magnitudes.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/$(NOTACION)
+        po:
+            - [a, ns:Magnitude]
+            - [ns:measureCode, $(MAGNITUD), xsd:string]
+            - [ns:measureNotation, $(NOTACION), xsd:string]
+            - [rdfs:comment, $(RESUMEN), xsd:string]
+            - [owl:sameAs, $(WIKIDATA_ID)~iri]
+            - p: rdfs:label
+              o:
+                value: $(NAME)
+                language: en
+            - p: rdfs:label
+              o:
+                value: $(NOMBRE)
+                language: es
+
+    TriplesMap4:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/district_$(DISTRITO_ID)
+        po:
+            - [a, ns:District]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
+            - [rdfs:label, $(DISTRITO_LINK), xsd:string]
+            - [ns:districtID, $(DISTRITO_ID), xsd:integer]
+            - [owl:sameAs, $(WIKIDATA_DISTRITO_ID)~iri]
+
+    TriplesMap5:
+        sources:
+            - [estaciones-with-links.csv~csv]
+        s:  http://www.semanticweb.org/group16/air-quality/resource/street_$(DIRECCION_ID)
+        po:
+            - [a, ns:Street]
+            - [rdfs:subClassOf, https://schema.org/Place~iri]
+            - [rdfs:label, $(DIRECCION_LINK), xsd:string]
+            - [ns:streetID, $(DIRECCION_ID), xsd:integer]
+            - [owl:sameAs, $(WIKIDATA_DIRECCION_ID)~iri]
+            - p: ns:inDistrict
+              o:
+                - mapping: TriplesMap4
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(DIRECCION_LINK)]
+                      - [str2, $(DIRECCION_LINK)]

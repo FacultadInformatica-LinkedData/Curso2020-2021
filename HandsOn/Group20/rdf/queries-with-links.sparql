@@ -1,0 +1,15 @@
+PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX owl: http://www.w3.org/2002/07/owl#
+PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+
+SELECT DISTINCT ?name
+	WHERE {
+		?name rdf:type <https://freewifizones/madrid/space>.
+		?name owl:sameAs <https://www.wikidata.org/wiki/Q85697879>.
+	}
+
+SELECT DISTINCT COUNT (?name)
+	WHERE {
+		?name rdf:type <https://freewifizones/madrid/space>.
+		?name owl:sameAs <https://www.wikidata.org/wiki/Q85697879>.
+	}
