@@ -32,14 +32,6 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
 #    Object Properties
 #################################################################
 
-###  http://linkeddata.es/group09/ontology/TrafficAccident#hasSex
-:hasSex rdf:type owl:ObjectProperty ;
-        rdfs:domain <http://dbpedia.org/ontology/Person> ;
-        rdfs:range :Sex ;
-        rdfs:comment "A Person has a Sex"@en ;
-        rdfs:label "tieneSexo"@es .
-
-
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle
 :hasTypeOfVehicle rdf:type owl:ObjectProperty ;
                   rdfs:domain <http://dbpedia.org/ontology/Person> ;
@@ -48,17 +40,9 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
                   rdfs:label "tieneTipoDeVehiculo"@es .
 
 
-###  http://linkeddata.es/group09/ontology/TrafficAccident#locatedIn
-:locatedIn rdf:type owl:ObjectProperty ;
-           rdfs:domain :StreetCrossing ;
-           rdfs:range :District ;
-           rdfs:comment "A Street Crossing is located in a District"@en ;
-           rdfs:label "localizadoEn"@es .
-
-
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#occursOn
 :occursOn rdf:type owl:ObjectProperty ;
-          rdfs:domain :Accident ;
+          rdfs:domain <https://transportdisruption.github.io/#Accident> ;
           rdfs:range :StreetCrossing ;
           rdfs:comment "An Accident occurs on a Street Crossing"@en ;
           rdfs:label "ocurreEn"@es .
@@ -66,7 +50,7 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#occursTo
 :occursTo rdf:type owl:ObjectProperty ;
-          rdfs:domain :Accident ;
+          rdfs:domain <https://transportdisruption.github.io/#Accident> ;
           rdfs:range <http://dbpedia.org/ontology/Person> ;
           rdfs:comment "An Accident occurs to a Person"@en ;
           rdfs:label "ocurreA"@es .
@@ -74,7 +58,7 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident
 :typeOfAccident rdf:type owl:ObjectProperty ;
-                rdfs:domain :Accident ;
+                rdfs:domain <https://transportdisruption.github.io/#Accident> ;
                 rdfs:range :TypeOfAccident ;
                 rdfs:comment "An Accident is classified within a TypeOfAccident"@en ;
                 rdfs:label "tipoDeAccidente"@es .
@@ -88,16 +72,32 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
               rdfs:label "tipoDePersona"@es .
 
 
+###  http://rdf.muninn-project.org/ontologies/appearances.html#hasSex
+<http://rdf.muninn-project.org/ontologies/appearances.html#hasSex> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                                                   rdfs:range <http://rdf.muninn-project.org/ontologies/appearances.html#Sex> ;
+                                                                   rdfs:comment "A Person has a Sex"@en ;
+                                                                   rdfs:label "tieneSexo"@es .
+
+
+###  http://www.wikidata.org/prop/direct/P131
+<http://www.wikidata.org/prop/direct/P131> rdf:type owl:ObjectProperty ;
+                                           rdfs:domain :StreetCrossing ;
+                                           rdfs:range <http://rdfs.co/juso/District> ;
+                                           rdfs:comment "A Street Crossing is located in a District"@en ;
+                                           rdfs:label "localizadoEn"@es .
+
+
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://linkeddata.es/group09/ontology/TrafficAccident#districtName
-:districtName rdf:type owl:DatatypeProperty ;
-              rdfs:domain :District ;
+###  http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth
+:happensMonth rdf:type owl:DatatypeProperty ;
+              rdfs:domain <https://transportdisruption.github.io/#Accident> ;
               rdfs:range xsd:string ;
-              rdfs:comment "Name of the district where the accident occurred"@en ;
-              rdfs:label "nombreDistrito"@es .
+              rdfs:comment "Month in which an Accident happens"@en ;
+              rdfs:label "ocurreEnMes"@es .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange
@@ -108,17 +108,9 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
              rdfs:label "tieneRangoEdad"@es .
 
 
-###  http://linkeddata.es/group09/ontology/TrafficAccident#hasDate
-:hasDate rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Accident ;
-         rdfs:range xsd:dateTime ;
-         rdfs:comment "Date and hour of an accident"@en ;
-         rdfs:label "tieneFecha"@es .
-
-
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient
 :hasExpedient rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Accident ;
+              rdfs:domain <https://transportdisruption.github.io/#Accident> ;
               rdfs:range xsd:string ;
               rdfs:comment "Identifier of an accident"@en ;
               rdfs:label "tieneExpediente"@es .
@@ -148,17 +140,9 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
             rdfs:label "tieneCalle2"@es .
 
 
-###  http://linkeddata.es/group09/ontology/TrafficAccident#injuryStatus
-:injuryStatus rdf:type owl:DatatypeProperty ;
-              rdfs:domain <http://dbpedia.org/ontology/Person> ;
-              rdfs:range xsd:string ;
-              rdfs:comment "Level of damage suffered by the person in the accident. Being 0 if the person did not suffer any damage"@en ;
-              rdfs:label "estadoLesividad"@es .
-
-
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod
 :occursAtPeriod rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Accident ;
+                rdfs:domain <https://transportdisruption.github.io/#Accident> ;
                 rdfs:range xsd:string ;
                 rdfs:comment "1-hour interval in which the accident occurred"@en ;
                 rdfs:label "ocurreEnPeriodo"@es .
@@ -166,10 +150,34 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#weather
 :weather rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Accident ;
+         rdfs:domain <https://transportdisruption.github.io/#Accident> ;
          rdfs:range xsd:string ;
          rdfs:comment "Weather at the time of the accident"@en ;
          rdfs:label "tiempo"@es .
+
+
+###  http://ns.nature.com/terms/date
+<http://ns.nature.com/terms/date> rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain <https://transportdisruption.github.io/#Accident> ;
+                                  rdfs:range xsd:dateTime ;
+                                  rdfs:comment "Date and hour of an accident"@en ;
+                                  rdfs:label "tieneFecha"@es .
+
+
+###  http://vocab.datex.org/terms/#injuryStatus
+<http://vocab.datex.org/terms/#injuryStatus> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Person> ;
+                                             rdfs:range xsd:string ;
+                                             rdfs:comment "Level of damage suffered by the person in the accident."@en ;
+                                             rdfs:label "estadoLesividad"@es .
+
+
+###  http://xmlns.com/foaf/spec/#name
+<http://xmlns.com/foaf/spec/#name> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain <http://rdfs.co/juso/District> ;
+                                   rdfs:range xsd:string ;
+                                   rdfs:comment "Name of the district where the accident occurred"@en ;
+                                   rdfs:label "nombreDistrito"@es .
 
 
 #################################################################
@@ -180,24 +188,6 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
 <http://dbpedia.org/ontology/Person> rdf:type owl:Class ;
                                      rdfs:comment "Person having an accident"@en ;
                                      rdfs:label "Persona"@es .
-
-
-###  http://linkeddata.es/group09/ontology/TrafficAccident#Accident
-:Accident rdf:type owl:Class ;
-          rdfs:comment "Accident that takes place in Madrid"@en ;
-          rdfs:label "Accidente"@es .
-
-
-###  http://linkeddata.es/group09/ontology/TrafficAccident#District
-:District rdf:type owl:Class ;
-          rdfs:comment "District in which an accident occurs"@en ;
-          rdfs:label "Distrito"@es .
-
-
-###  http://linkeddata.es/group09/ontology/TrafficAccident#Sex
-:Sex rdf:type owl:Class ;
-     rdfs:comment "Sex of a person who has suffered an accident"@en ;
-     rdfs:label "Sexo"@es .
 
 
 ###  http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing
@@ -224,19 +214,37 @@ xsd:string rdfs:comment "The string data type can contain characters, line feeds
                rdfs:label "Tipo de Vehículo"@es .
 
 
+###  http://rdf.muninn-project.org/ontologies/appearances.html#Sex
+<http://rdf.muninn-project.org/ontologies/appearances.html#Sex> rdf:type owl:Class ;
+                                                                rdfs:comment "Sex of a person who has suffered an accident"@en ;
+                                                                rdfs:label "Sexo"@es .
+
+
+###  http://rdfs.co/juso/District
+<http://rdfs.co/juso/District> rdf:type owl:Class ;
+                               rdfs:comment "District in which an accident occurs"@en ;
+                               rdfs:label "Distrito"@es .
+
+
+###  https://transportdisruption.github.io/#Accident
+<https://transportdisruption.github.io/#Accident> rdf:type owl:Class ;
+                                                  rdfs:comment "Accident that takes place in Madrid"@en ;
+                                                  rdfs:label "Accidente"@es .
+
+
 #################################################################
 #    General axioms
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( <http://dbpedia.org/ontology/Person>
-                :Accident
-                :District
-                :Sex
                 :StreetCrossing
                 :TypeOfAccident
                 :TypeOfPerson
                 :TypeOfVehicle
+                <http://rdf.muninn-project.org/ontologies/appearances.html#Sex>
+                <http://rdfs.co/juso/District>
+                <https://transportdisruption.github.io/#Accident>
               )
 ] .
 
