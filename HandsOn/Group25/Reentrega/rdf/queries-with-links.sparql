@@ -1,0 +1,20 @@
+PREFIX  ont:  	<http://datos.santander.es/api/datos/calidad_agua/>
+PREFIX  rdf:  	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  ssn:  	<http://www.w3.org/ns/ssn/>
+PREFIX	sosa:	<http://www.w3.org/ns/sosa/>
+
+SELECT DISTINCT  ?sensor ?dato
+WHERE
+  { ?sensor  rdf:type      		ont:Sensor ;
+              sosa:Observes   	?wqpropierties .
+	?wqpropierties
+			rdf:type      		ont:WQProperties ;
+            ssn:hasProperty	?propiedad .
+	?propiedad
+			rdf:type				ont:QualitiveSamples;
+			ont:hasConductividad	?conductividad.
+	?conductividad
+			ont:Conductividad		?dato
+			
+
+  }
