@@ -24,7 +24,7 @@ map:om_0 a rr:ObjectMap;
     rr:constant "http://api.zonasVerdesMadrid.com/ontologies#district";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
-    rr:template "http://api.zonasverdesmadrid.com/resources/species/{NombreEspecieURI}";
+    rr:template "http://api.zonasverdesmadrid.com/resources/species/{NOMBRE_ESPECIE}";
     rr:termType rr:IRI.
 map:om_10 a rr:ObjectMap;
     rml:reference "RecienPlantado";
@@ -161,7 +161,7 @@ map:s_0 a rr:SubjectMap;
 map:s_1 a rr:SubjectMap;
     rr:template "http://api.zonasverdesmadrid.com/resources/districts/{DISTRITOURI}".
 map:s_2 a rr:SubjectMap;
-    rr:template "http://api.zonasverdesmadrid.com/resources/species/{NombreEspecieURI}".
+    rr:template "http://api.zonasverdesmadrid.com/resources/species/{NOMBRE_ESPECIE}".
 map:source_0 a rml:LogicalSource;
     rml:source "ArboladoZonasVerdesDistritosCalles_2019-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.

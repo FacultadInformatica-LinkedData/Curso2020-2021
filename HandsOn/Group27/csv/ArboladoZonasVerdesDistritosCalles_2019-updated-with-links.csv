@@ -1,7 +1,7 @@
 Nombre_distrito,NombreDistritoURI,dbpedia:Distrito,Num_Distrito,NOMBRE_ESPECIE,NombreEspecieURI,dbpedia:Especie,Num_Unidades
-Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,LigustrumâJaponicumâVariegata,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,300
+Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,LigustrumJaponicumVariegata,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,300
 Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,RobiniaPseudoacacia,Robinia pseudoacacia,http://dbpedia.org/resource/Robinia_pseudoacacia,320
-Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,348
+Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,348
 Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,UlmusPumila,Ulmus pumila,http://dbpedia.org/resource/Ulmus_pumila,367
 Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,AesculusHippocastanum,Aesculus hippocastanum,http://dbpedia.org/resource/Aesculus_hippocastanum,510
 Centro,Centro (Madrid),http://dbpedia.org/resource/Centro_(Madrid),1,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,1367
@@ -17,7 +17,7 @@ Arganzuela,Arganzuela,http://dbpedia.org/resource/Arganzuela,2,PinusPinea,Pinus 
 Arganzuela,Arganzuela,http://dbpedia.org/resource/Arganzuela,2,CeltisAustralis,Celtis australis,http://dbpedia.org/resource/Celtis_australis,1434
 Arganzuela,Arganzuela,http://dbpedia.org/resource/Arganzuela,2,SophoraJaponica,Sophora japonica,http://dbpedia.org/resource/Sophora_japonica,2414
 Arganzuela,Arganzuela,http://dbpedia.org/resource/Arganzuela,2,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,3428
-Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,299
+Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,299
 Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,AesculusHippocastanum,Aesculus hippocastanum,http://dbpedia.org/resource/Aesculus_hippocastanum,303
 Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,LiquidambarStyraciflua,Liquidambar styraciflua,http://dbpedia.org/resource/Liquidambar_styraciflua,328
 Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,CupressusArizonica,Cupressus arizonica,http://dbpedia.org/resource/Cupressus_arizonica,344
@@ -30,7 +30,7 @@ Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,Li
 Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,UlmusPumila,Ulmus pumila,http://dbpedia.org/resource/Ulmus_pumila,1948
 Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,SophoraJaponica,Sophora japonica,http://dbpedia.org/resource/Sophora_japonica,2297
 Retiro,Retiro (Madrid),http://dbpedia.org/resource/Category:Retiro_(Madrid),3,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,2585
-Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,PopulusâAlbaBolleana,Populus sect. Populus,http://dbpedia.org/resource/Populus_sect._Populus,361
+Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,PopulusAlbaBolleana,Populus sect. Populus,http://dbpedia.org/resource/Populus_sect._Populus,361
 Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,AcerNegundo,Acer negundo,http://dbpedia.org/resource/Acer_negundo,404
 Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,PrunusCerasiferaPisardii,Prunus cerasifera,http://dbpedia.org/resource/Cherry_plum,545
 Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,RobiniaPseudoacacia,Robinia pseudoacacia,http://dbpedia.org/resource/Robinia_pseudoacacia,581
@@ -40,7 +40,7 @@ Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,Pi
 Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,LigustrumJaponicum,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,1854
 Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,2497
 Salamanca,Salamanca,http://dbpedia.org/resource/Category:Salamanca_(Madrid),4,SophoraJaponica,Sophora japonica,http://dbpedia.org/resource/Sophora_japonica,5921
-CHAMARTIN,Chamartin (Madrid),http://dbpedia.org/resource/Chamartin_(Madrid),5,PopulusâAlbaBolleana,Populus sect. Populus,http://dbpedia.org/resource/Populus_sect._Populus,598
+CHAMARTIN,Chamartin (Madrid),http://dbpedia.org/resource/Chamartin_(Madrid),5,PopulusAlbaBolleana,Populus sect. Populus,http://dbpedia.org/resource/Populus_sect._Populus,598
 CHAMARTIN,Chamartin (Madrid),http://dbpedia.org/resource/Chamartin_(Madrid),5,AesculusHippocastanum,Aesculus hippocastanum,http://dbpedia.org/resource/Aesculus_hippocastanum,645
 CHAMARTIN,Chamartin (Madrid),http://dbpedia.org/resource/Chamartin_(Madrid),5,MeliaAzedarach,Melia azedarach,http://dbpedia.org/resource/Melia_azedarach,722
 CHAMARTIN,Chamartin (Madrid),http://dbpedia.org/resource/Chamartin_(Madrid),5,LigustrumJaponicum,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,938
@@ -104,12 +104,12 @@ LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,AcerNegund
 LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,LigustrumJaponicum,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,1146
 LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,SophoraJaponica,Sophora japonica,http://dbpedia.org/resource/Sophora_japonica,1572
 LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,CeltisAustralis,Celtis australis,http://dbpedia.org/resource/Celtis_australis,1726
-LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1858
+LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1858
 LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,RobiniaPseudoacacia,Robinia pseudoacacia,http://dbpedia.org/resource/Robinia_pseudoacacia,2001
 LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,PinusPinea,Pinus pinea,http://dbpedia.org/resource/Pinus_pinea,2641
 LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,UlmusPumila,Ulmus pumila,http://dbpedia.org/resource/Ulmus_pumila,4442
 LATINA,Latina (Madrid),http://dbpedia.org/resource/Latina_(Madrid),10,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,5338
-CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,785
+CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,785
 CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,CupressusSempervirens,Cupressus sempervirens,http://dbpedia.org/resource/Cupressus_sempervirens,911
 CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,LigustrumJaponicum,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,932
 CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,AesculusHippocastanum,Aesculus hippocastanum,http://dbpedia.org/resource/Aesculus_hippocastanum,1000
@@ -122,7 +122,7 @@ CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,UlmusPumila,U
 CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,PinusPinea,Pinus pinea,http://dbpedia.org/resource/Pinus_pinea,4338
 CARABANCHEL,Carabanchel,http://dbpedia.org/resource/Carabanchel,11,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,7508
 USERA,Usera,http://dbpedia.org/resource/Usera,12,PlatanusOrientalis,Platanus orientalis,http://dbpedia.org/resource/Platanus_orientalis,600
-USERA,Usera,http://dbpedia.org/resource/Usera,12,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,608
+USERA,Usera,http://dbpedia.org/resource/Usera,12,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,608
 USERA,Usera,http://dbpedia.org/resource/Usera,12,PopulusAlba,Populus alba,http://dbpedia.org/resource/Populus_alba,676
 USERA,Usera,http://dbpedia.org/resource/Usera,12,PrunusCerasifera,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,683
 USERA,Usera,http://dbpedia.org/resource/Usera,12,MeliaAzedarach,Melia azedarach,http://dbpedia.org/resource/Melia_azedarach,705
@@ -136,8 +136,8 @@ USERA,Usera,http://dbpedia.org/resource/Usera,12,UlmusPumila,Ulmus pumila,http:/
 USERA,Usera,http://dbpedia.org/resource/Usera,12,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,5125
 PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,CeltisAustralis,Celtis australis,http://dbpedia.org/resource/Celtis_australis,1110
 PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,CatalpaBignonioides,Catalpa bignonioides,http://dbpedia.org/resource/Catalpa_bignonioides,1240
-PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,AcerâPseudoplatanus,Acer pseudoplatanus,http://dbpedia.org/resource/Acer_pseudoplatanus,1287
-PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1312
+PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,AcerPseudoplatanus,Acer pseudoplatanus,http://dbpedia.org/resource/Acer_pseudoplatanus,1287
+PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1312
 PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,LigustrumJaponicum,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,2146
 PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,AcerNegundo,Acer negundo,http://dbpedia.org/resource/Acer_negundo,2378
 PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,PinusPinea,Pinus pinea,http://dbpedia.org/resource/Pinus_pinea,2668
@@ -148,8 +148,8 @@ PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vall
 PUENTE DE VALLECAS,Puente de Vallecas,http://dbpedia.org/resource/Puente_de_Vallecas,13,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,4701
 MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,MeliaAzedarach,Melia azedarach,http://dbpedia.org/resource/Melia_azedarach,561
 MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,CatalpaBignonioides,Catalpa bignonioides,http://dbpedia.org/resource/Catalpa_bignonioides,727
-MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,AcerâPseudoplatanus,Acer pseudoplatanus,http://dbpedia.org/resource/Acer_pseudoplatanus,750
-MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,897
+MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,AcerPseudoplatanus,Acer pseudoplatanus,http://dbpedia.org/resource/Acer_pseudoplatanus,750
+MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,897
 MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,PlatanusOrientalis,Platanus orientalis,http://dbpedia.org/resource/Platanus_orientalis,1125
 MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,AcerNegundo,Acer negundo,http://dbpedia.org/resource/Acer_negundo,1374
 MORATALAZ,Moratalaz,http://dbpedia.org/resource/Moratalaz,14,CeltisAustralis,Celtis australis,http://dbpedia.org/resource/Celtis_australis,1493
@@ -186,13 +186,13 @@ VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),1
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,AesculusHippocastanum,Aesculus hippocastanum,http://dbpedia.org/resource/Aesculus_hippocastanum,1610
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,PinusHalepensis,Pinus halepensis,http://dbpedia.org/resource/Pinus_halepensis,1764
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,RobiniaPseudoacacia,Robinia pseudoacacia,http://dbpedia.org/resource/Robinia_pseudoacacia,1776
-VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1798
+VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1798
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,PinusPinea,Pinus pinea,http://dbpedia.org/resource/Pinus_pinea,2020
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,LigustrumJaponicum,Ligustrum japonicum,http://dbpedia.org/resource/Ligustrum_japonicum,2352
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,PlatanusXHybrida,Platanus hybrida,http://dbpedia.org/resource/Platanus_hybrida,3064
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,CeltisAustralis,Celtis australis,http://dbpedia.org/resource/Celtis_australis,3324
 VILLAVERDE,Villaverde (Madrid),http://dbpedia.org/resource/Villaverde_(Madrid),17,UlmusPumila,Ulmus pumila,http://dbpedia.org/resource/Ulmus_pumila,5525
-VILLA DE VALLECAS,Villa de Vallecas,http://dbpedia.org/resource/Villa_de_Vallecas,18,PrunusCerasiferaSubsp.Pissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1163
+VILLA DE VALLECAS,Villa de Vallecas,http://dbpedia.org/resource/Villa_de_Vallecas,18,PrunusCerasiferaSubspPissartii,Prunus cerasifera,http://dbpedia.org/resource/Prunus_cerasifera,1163
 VILLA DE VALLECAS,Villa de Vallecas,http://dbpedia.org/resource/Villa_de_Vallecas,18,AesculusHippocastanum,Aesculus hippocastanum,http://dbpedia.org/resource/Aesculus_hippocastanum,1223
 VILLA DE VALLECAS,Villa de Vallecas,http://dbpedia.org/resource/Villa_de_Vallecas,18,CupressusSempervirens,Cupressus sempervirens,http://dbpedia.org/resource/Cupressus_sempervirens,1254
 VILLA DE VALLECAS,Villa de Vallecas,http://dbpedia.org/resource/Villa_de_Vallecas,18,RobiniaPseudoacacia,Robinia pseudoacacia,http://dbpedia.org/resource/Robinia_pseudoacacia,1932

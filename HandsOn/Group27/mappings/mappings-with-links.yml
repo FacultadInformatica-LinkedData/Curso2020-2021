@@ -23,7 +23,7 @@ mappings:
     s: http://api.zonasverdesmadrid.com/resources/districts/$(NombreDistritoURI)
     po:
       - [a, ontologies:district]
-      - [district:hasSpecies,specie:$(NombreEspecieURI)~iri]
+      - [district:hasSpecies,specie:$(NOMBRE_ESPECIE)~iri]
       - [species:hasUnits$(NOMBRE_ESPECIE),$(Num_Unidades)]
       - [district:hasId,$(Num_Distrito)]
       - [district:hasName,$(NombreDistritoURI)]
@@ -48,6 +48,6 @@ mappings:
   triplesmap3:
     sources:
       - [ArboladoZonasVerdesDistritosCalles_2019-updated-with-links.csv~csv]
-    s: http://api.zonasverdesmadrid.com/resources/species/$(NombreEspecieURI)
+    s: http://api.zonasverdesmadrid.com/resources/species/$(NOMBRE_ESPECIE)
     po:
       - [owl:sameAs,$(dbpedia:Especie)~iri]

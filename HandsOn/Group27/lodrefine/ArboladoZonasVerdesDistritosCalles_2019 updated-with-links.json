@@ -1855,5 +1855,145 @@
       ]
     },
     "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PrunusCerasiferaSubsp.Pissartii"
+        ],
+        "to": "PrunusCerasiferaSubspPissartii"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AcerâPseudoplatanus"
+        ],
+        "to": "AcerPseudoplatanus"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LigustrumâJaponicumâVariegata"
+        ],
+        "to": "LigustrumJaponicumVariegata"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PopulusâAlbaBolleana"
+        ],
+        "to": "PopulusAlbaBolleana"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Populusâ alba'bolleana'"
+        ],
+        "to": "Populus_alba_bolleana"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Populus sect. Populus (http://dbpedia.org/resource/Populus_sect._Populus) for cells containing \"Populus_alba_bolleana\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "Populus_alba_bolleana",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Populus_sect._Populus",
+      "name": "Populus sect. Populus",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Populus_alba_bolleana"
+        ],
+        "to": "Populus_alba_bolleana"
+      }
+    ]
   }
 ]
