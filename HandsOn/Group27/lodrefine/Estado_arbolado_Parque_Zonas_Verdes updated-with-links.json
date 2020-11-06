@@ -1,0 +1,776 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITOURI to type http://dbpedia.org/ontology/Place",
+    "columnName": "DISTRITOURI",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Madrid) (http://dbpedia.org/resource/Centro_(Madrid)) for cells containing \"Centro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Centro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Centro_(Madrid)",
+      "name": "Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Category:Retiro_(Madrid)) for cells containing \"Retiro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Category:Retiro_(Madrid)) for cells containing \"Retiro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"Retiro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Category:Retiro_(Madrid)) for cells containing \"Retiro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamartin (Madrid) (http://dbpedia.org/resource/Chamartin_(Madrid)) for cells containing \"Chamartin\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Chamartin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Chamartin_(Madrid)",
+      "name": "Chamartin (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuán (Madrid) (http://dbpedia.org/resource/Tetuán_(Madrid)) for cells containing \"Tetuan\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuán_(Madrid)",
+      "name": "Tetuán (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuán (Madrid) (http://dbpedia.org/resource/Category:Tetuán_(Madrid)) for cells containing \"Tetuan\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Tetuán_(Madrid)",
+      "name": "Tetuán (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuan (Madrid) (http://dbpedia.org/resource/Tetuan_(Madrid)) for cells containing \"Tetuan\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuan_(Madrid)",
+      "name": "Tetuan (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberí (http://dbpedia.org/resource/Chamberí) for cells containing \"Chamberi\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Chamberi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Chamberí",
+      "name": "Chamberí",
+      "score": 0.875,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Fuencarral-El Pardo (Madrid) (http://dbpedia.org/resource/Fuencarral-El_Pardo_(Madrid)) for cells containing \"FuencarralElPardo\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "FuencarralElPardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Fuencarral-El_Pardo_(Madrid)",
+      "name": "Fuencarral-El Pardo (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa Aravaca (http://dbpedia.org/resource/Moncloa_Aravaca) for cells containing \"MoncloaAravaca\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "MoncloaAravaca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Moncloa_Aravaca",
+      "name": "Moncloa Aravaca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (Madrid) (http://dbpedia.org/resource/Category:Latina_(Madrid)) for cells containing \"Latina\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Latina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Latina_(Madrid)",
+      "name": "Latina (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (Madrid) (http://dbpedia.org/resource/Latina_(Madrid)) for cells containing \"Latina\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Latina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Latina_(Madrid)",
+      "name": "Latina (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://dbpedia.org/resource/Category:Carabanchel) for cells containing \"Carabanchel\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Carabanchel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Carabanchel",
+      "name": "Carabanchel",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://dbpedia.org/resource/Carabanchel) for cells containing \"Carabanchel\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Carabanchel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Carabanchel",
+      "name": "Carabanchel",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Puente de Vallecas (http://dbpedia.org/resource/Puente_de_Vallecas) for cells containing \"PuenteDeVallecas\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "PuenteDeVallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Puente_de_Vallecas",
+      "name": "Puente de Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Lineal (http://dbpedia.org/resource/Category:Ciudad_Lineal) for cells containing \"CiudadLineal\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "CiudadLineal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Ciudad_Lineal",
+      "name": "Ciudad Lineal",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Lineal (http://dbpedia.org/resource/Ciudad_Lineal) for cells containing \"CiudadLineal\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "CiudadLineal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ciudad_Lineal",
+      "name": "Ciudad Lineal",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hortaleza (distrito) (http://dbpedia.org/resource/Hortaleza) for cells containing \"Hortaleza\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Hortaleza",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hortaleza",
+      "name": "Hortaleza (distrito)",
+      "score": 0.44999998807907104,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (Madrid) (http://dbpedia.org/resource/Category:Villaverde_(Madrid)) for cells containing \"Villaverde\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Villaverde_(Madrid)",
+      "name": "Villaverde (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (Madrid) (http://dbpedia.org/resource/Villaverde_(Madrid)) for cells containing \"Villaverde\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villaverde_(Madrid)",
+      "name": "Villaverde (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villa de Vallecas (http://dbpedia.org/resource/Villa_de_Vallecas) for cells containing \"VillaDeVallecas\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "VillaDeVallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villa_de_Vallecas",
+      "name": "Villa de Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vicálvaro (http://dbpedia.org/resource/Vicálvaro) for cells containing \"Vicalvaro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Vicalvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vicálvaro",
+      "name": "Vicálvaro",
+      "score": 0.8888888955116272,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas-Canillejas (http://dbpedia.org/resource/Category:San_Blas-Canillejas) for cells containing \"SanBlasCanillejas\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "SanBlasCanillejas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:San_Blas-Canillejas",
+      "name": "San Blas-Canillejas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas-Canillejas (http://dbpedia.org/resource/San_Blas-Canillejas) for cells containing \"SanBlasCanillejas\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "SanBlasCanillejas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Blas-Canillejas",
+      "name": "San Blas-Canillejas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barajas (Madrid) (http://dbpedia.org/resource/Barajas_(Madrid)) for cells containing \"Barajas\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Barajas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barajas_(Madrid)",
+      "name": "Barajas (Madrid)",
+      "score": 0.4375,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column dbpedia:Distrito at index 2 based on column DISTRITOURI using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "dbpedia:Distrito",
+    "columnInsertIndex": 2,
+    "baseColumnName": "DISTRITOURI",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro comercial Centro Mayor (http://dbpedia.org/resource/Centro_Mayor) for cells containing \"Centro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Centro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Centro_Mayor",
+      "name": "Centro comercial Centro Mayor",
+      "score": 0.20689654350280762,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa-Aravaca (http://dbpedia.org/resource/Moncloa-Aravaca) for cells containing \"Moncloa-Aravaca\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Moncloa-Aravaca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Moncloa-Aravaca",
+      "name": "Moncloa-Aravaca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (http://dbpedia.org/resource/Salamanca) for cells containing \"Salamanca (Madrid)\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Salamanca (Madrid)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Salamanca",
+      "name": "Salamanca",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberi (Madrid) (http://dbpedia.org/resource/Chamberi_(Madrid)) for cells containing \"Chamberi\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Chamberi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Chamberi_(Madrid)",
+      "name": "Chamberi (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Madrid) (http://dbpedia.org/resource/Category:Centro_(Madrid)) for cells containing \"Centro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Centro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Centro_(Madrid)",
+      "name": "Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Madrid) (http://dbpedia.org/resource/Centro_(Madrid)) for cells containing \"Centro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Centro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Centro_(Madrid)",
+      "name": "Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vicalvaro"
+        ],
+        "to": "Vicálvaro"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vicálvaro (http://dbpedia.org/resource/Category:Vicálvaro) for cells containing \"Vicálvaro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Vicálvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Vicálvaro",
+      "name": "Vicálvaro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vicálvaro (http://dbpedia.org/resource/Vicálvaro) for cells containing \"Vicálvaro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Vicálvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vicálvaro",
+      "name": "Vicálvaro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vicalvaro (http://dbpedia.org/resource/Vicalvaro) for cells containing \"Vicálvaro\" in column DISTRITOURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITOURI",
+    "similarValue": "Vicálvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vicalvaro",
+      "name": "Vicalvaro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  }
+]

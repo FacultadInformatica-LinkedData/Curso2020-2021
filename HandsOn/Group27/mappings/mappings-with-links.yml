@@ -13,6 +13,8 @@ prefixes:
   vocab: http://api.zonasverdesmadrid.es#
   district: http://api.zonasVerdesMadrid.com/ontologies/districts#
   ontologies: http://api.zonasVerdesMadrid.com/ontologies#
+  species: http://api.zonasVerdesMadrid.com/ontologies/species#
+  specie: http://api.zonasverdesmadrid.com/resources/species/
   
 mappings:
   triplesmap1:
@@ -21,11 +23,11 @@ mappings:
     s: http://api.zonasverdesmadrid.com/resources/districts/$(NombreDistritoURI)
     po:
       - [a, ontologies:district]
-      - [district:hasSpecies,$(NOMBRE_ESPECIE)]
-      - [district:hasUnits,$(Num_Unidades)]
+      - [district:hasSpecies,specie:$(NOMBRE_ESPECIE)~iri]
+      - [species:hasUnits$(NOMBRE_ESPECIE),$(Num_Unidades)]
       - [district:hasId,$(Num_Distrito)]
       - [district:hasName,$(NombreDistritoURI)]
-      - [owl:sameAs,$(wikidata:Distrito)~iri]
+      - [owl:sameAs,$(dbpedia:Distrito)~iri]
 
   triplesmap2:
     sources:
@@ -41,4 +43,11 @@ mappings:
       - [district:hasMature,$(Maduro)]
       - [district:hasOld,$(Viejo)]      
       - [district:hasOthers,$(Otros)]
-      - [owl:sameAs,$(wikidata:Distrito)~iri]
+      - [owl:sameAs,$(dbpedia:Distrito)~iri]
+      
+  triplesmap3:
+    sources:
+      - [ArboladoZonasVerdesDistritosCalles_2019-updated-with-links.csv~csv]
+    s: http://api.zonasverdesmadrid.com/resources/species/$(NOMBRE_ESPECIE)
+    po:
+      - [owl:sameAs,$(dbpedia:Especie)~iri]
