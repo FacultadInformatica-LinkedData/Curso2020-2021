@@ -34,3 +34,6 @@
 * Included _Magnitude_ entity, used for identifying each magnitude with its name and code.
 ### v6
 * Added _District_ and _Street_ entities, as well of their corresponding data and object properties, in order to accomplish the linking of the data with other datasources.
+### v7
+* Redefined two properties with multiple domain targets to an owl:unionOf classes, due to the Oops! evaluation.
+* Included _inStreet_ property, which was actually missing.

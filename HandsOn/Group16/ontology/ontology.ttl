@@ -4,6 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://www.schema.org#> .
 @base <http://www.semanticweb.org/group16/ontology/air-quality> .
 
 <http://www.semanticweb.org/group16/ontology/air-quality> rdf:type owl:Ontology .
@@ -20,11 +21,20 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/group16/ontology/air-quality#inStreet
+:inStreet rdf:type owl:ObjectProperty ;
+          rdfs:domain :Station ;
+          rdfs:range :Street .
+
+
 ###  http://www.semanticweb.org/group16/ontology/air-quality#inDistrict
 :inDistrict rdf:type owl:ObjectProperty ;
-            rdfs:domain :Station ,
-                        :Street ;
-            rdfs:range :District .
+                rdfs:domain [
+                rdf:type owl:Class ;
+                owl:Class   :Station,
+                            :Street
+                ] ;
+                rdfs:range :District .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measuredAt
@@ -33,9 +43,33 @@
             rdfs:range :Station .
 
 
+###  http://www.semanticweb.org/group16/ontology/air-quality#measuredMagnitude
+:measuredMagnitude rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Measurement ;
+                   rdfs:range :Magnitude .
+
+
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://www.schema.org#address
+schema:address rdf:type owl:DatatypeProperty ;
+               rdfs:domain schema:Place ;
+               rdfs:range xsd:string .
+
+
+###  http://www.schema.org#latitude
+schema:latitude rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:Place ;
+                rdfs:range schema:Number .
+
+
+###  http://www.schema.org#longitude
+schema:longitude rdf:type owl:DatatypeProperty ;
+				 rdfs:domain schema:Place ;
+                 rdfs:range schema:Number .
+
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#dateOfMeasure
 :dateOfMeasure rdf:type owl:DatatypeProperty ;
@@ -59,12 +93,6 @@
 :measureNotation rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Magnitude ;
                  rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group16/ontology/air-quality#measureType
-:measureType rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Measurement ;
-             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group16/ontology/air-quality#measureValue

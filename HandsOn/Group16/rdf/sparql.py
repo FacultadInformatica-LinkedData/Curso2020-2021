@@ -4,16 +4,19 @@
     SPARQL queries for checking WikiData liking
 """
 
-github_storage = "/home/hxshfx/Descargas/output-with-links.ttl"
+data_storage = "rdf/ntriples/output-with-links.nt" 
 
 "Data loading and graph building"
 
+import pandas as pd
+import requests
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS, OWL
 from rdflib.plugins.sparql import prepareQuery
+from collections import OrderedDict
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#"), override=False)
-g.parse(github_storage, format="nt")
+g.parse(data_storage, format="nt")
 
 ns = Namespace("http://www.semanticweb.org/group16/ontologies/air-quality#")
 
@@ -29,6 +32,7 @@ q1 = prepareQuery('''
     WHERE {
         ?Subject ?Property ?Object .
     }
+    ORDER BY asc(?Property)
     '''
 )
 
@@ -42,33 +46,38 @@ print("------- Stations:")
 
 q2 = prepareQuery('''
     SELECT DISTINCT
-        ?StLabel
+        ?StLabel ?StCode
     WHERE {
         ?St rdf:type ns:Station .
         ?St rdfs:label ?StLabel .
+        ?St ns:stationCode ?StCode .
     }
+    ORDER BY asc(?StLabel)
     ''',
     initNs = {"rdf":RDF, "rdfs":RDFS, "ns":ns}
 )
 
 for s in g.query(q2):
     print(s.StLabel.toPython())
+    print(s.StCode.toPython())
 
 
 # List all the magnitudes measured in our dataset's stations
 
-print("------- Magnitude codes:")
+print("------- Magnitudes:")
 
 q3 = prepareQuery('''
     SELECT DISTINCT
-        ?Notation ?LabelEs ?LabelEn ?Code
+        ?Notation ?LabelEs ?LabelEn ?Code ?Description
     WHERE {
         ?Magnitude rdf:type ns:Magnitude .
+        ?Magnitude rdfs:comment ?Description .
         ?Magnitude ns:measureNotation ?Notation .
         ?Magnitude ns:measureCode ?Code .
         ?Magnitude rdfs:label ?LabelEn , ?LabelEs .
             FILTER (LANG(?LabelEn) = 'en' && LANG(?LabelEs) = 'es')
     }
+    ORDER BY xsd:integer(?Code)
     ''',
     initNs = {"rdf":RDF, "rdfs":RDFS, "ns":ns}
 )
@@ -77,6 +86,7 @@ for s in g.query(q3):
     print(s.Notation.toPython())
     print(s.LabelEs.toPython())
     print(s.LabelEn.toPython())
+    print(s.Description.toPython())
     print(s.Code.toPython())
     print("--")
 
@@ -131,8 +141,7 @@ q6 = prepareQuery('''
         ?Magnitude rdf:type ns:Magnitude .
         ?Magnitude rdfs:label ?Label .
             FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Sulfur dioxide", "i"))
-        ?Magnitude ns:measureCode ?Code .
-        ?Measure ns:measureType ?Code .
+        ?Measure ns:measuredMagnitude ?Magnitude .
     }
     ''',
     initNs = {"rdf":RDF, "ns":ns}
@@ -174,6 +183,7 @@ q8 = prepareQuery('''
         ?Measure ns:dateOfMeasure ?Date .
             FILTER REGEX (STR(?Date), "^2014", "i") 
     }
+    ORDER BY asc(?Date)
     ''',
     initNs = {"rdf":RDF, "ns":ns}
 )
@@ -192,9 +202,8 @@ q9 = prepareQuery('''
         ?Measure rdf:type ns:Measurement .
         ?Magnitude rdf:type ns:Magnitude .
         ?Magnitude rdfs:label ?Label .
-            FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Nitrogen oxides", "i"))
-        ?Magnitude ns:measureCode ?Code .
-        ?Measure ns:measureType ?Code .
+            FILTER (LANG(?Label) = 'en' && REGEX(?Label, "Nitrogen oxide", "i"))
+        ?Measure ns:measuredMagnitude ?Magnitude .
         ?Measure ns:measureValue ?Value .
             FILTER (?Value >= 100)
     }
@@ -204,3 +213,35 @@ q9 = prepareQuery('''
 
 for s in g.query(q9):
     print(s.Measure.toPython())
+
+# List some features extracted from Wikidata datasource
+
+print("------- District features from Wikidata")
+
+url = 'https://query.wikidata.org/sparql'
+q10 = """
+    SELECT DISTINCT
+        ?item ?itemLabel ?population ?area ?image
+    WHERE {
+        ?item wdt:P31 wd:Q3032114 .
+        ?item wdt:P1082 ?population .
+        ?item wdt:P2046 ?area .
+        ?item wdt:P18 ?image .
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }
+    """
+r = requests.get(url, params = {'format': 'json', 'query': q10})
+data = r.json()
+
+districts = []
+for item in data['results']['bindings']:
+    districts.append(OrderedDict({'districtURI': item['item']['value'],
+                                 'districtName': item['itemLabel']['value'],
+                                 'population': item['population']['value'],
+                                 'area': item['area']['value'],
+                                 'image': item['image']['value'],
+    }))
+df = pd.DataFrame(districts)
+df.set_index("districtURI")
+df = df.astype({'population': int, 'area': float})
+print(df.head())
