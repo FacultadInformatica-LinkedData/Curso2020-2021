@@ -1,4 +1,5 @@
 @base <http://linkeddata.es/group15/ontology/studyCentersMadrid#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -12,7 +13,7 @@
 # Classes
 classes:Activity rdf:type owl:Class .
 classes:Center rdf:type owl:Class .
-classes:City rdf:type owl:Class .
+classes:Municipality  rdf:type owl:Class .
 
 # Data properties
 properties:centerName rdf:type owl:DatatypeProperty ;
@@ -47,8 +48,8 @@ properties:activityDescription rdf:type owl:DatatypeProperty ;
                     rdfs:domain classes:Activity ;
                     rdfs:range xsd:string .
 
-properties:cityCod rdf:type owl:DatatypeProperty ;
-                    rdfs:domain classes:City ;
+properties:MunicipalityCod rdf:type owl:DatatypeProperty ;
+                    rdfs:domain classes:Municipality  ;
                     rdfs:range xsd:string .
 
 # Object properties
@@ -57,5 +58,5 @@ properties:takePlace rdf:type owl:ObjectProperty ;
                     rdfs:range classes:Activity .
 
 properties:located rdf:type owl:ObjectProperty ;
-                    rdfs:domain classes:City ;
+                    rdfs:domain classes:Municipality  ;
                     rdfs:range classes:Center .
