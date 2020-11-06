@@ -6,6 +6,6 @@
 [x]Includes at least 1 query
 [x]Contains queries that retrieve the data that would be needed in the application
 #Every SPARQL query:
-[x]Makes use of the ontology
 [x]Returns a non-empty result
+[x]Makes use of the ontology
 [x]Makes use of the owl:sameAs links
