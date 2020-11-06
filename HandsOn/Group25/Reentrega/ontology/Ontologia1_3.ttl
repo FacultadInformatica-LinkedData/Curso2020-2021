@@ -1,0 +1,739 @@
+@prefix : <http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://practicagrupo25.es/api/datos/calidad_agua> .
+
+<http://practicagrupo25.es/api/datos/calidad_agua> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://practicagrupo25.es/api/datos/calidad_agua#has
+:has rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#HasLong
+:HasLong rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#HasSimpleResult
+:HasSimpleResult rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Observe
+:Observe rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Observes
+:Observes rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#hasFeatureOfInterest
+:hasFeatureOfInterest rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#hasLat
+:hasLat rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#hasProperty
+:hasProperty rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#isFeatureOfInterest
+:isFeatureOfInterest rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#isHostedBy
+:isHostedBy rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#isObservedBy
+:isObservedBy rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#madeBySensor
+:madeBySensor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#madeObservation
+:madeObservation rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#resultTime
+:resultTime rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Al
+:Al rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#BacteriasAerobias
+:BacteriasAerobias rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#BacteriasColiformes
+:BacteriasColiformes rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#CloroLibre
+:CloroLibre rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#ClostridiumPerfringens
+:ClostridiumPerfringens rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Color
+:Color rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Conductividad
+:Conductividad rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Cr
+:Cr rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#EColi
+:EColi rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Fe
+:Fe rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Identifier
+:Identifier rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Lat
+:Lat rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Ni
+:Ni rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Olor
+:Olor rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Pb
+:Pb rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Sabor
+:Sabor rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Turbidez
+:Turbidez rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#featureOfInterest
+:featureOfInterest rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#long
+:long rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#oxidabilidad
+:oxidabilidad rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#ph
+:ph rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#puntoMuestreo
+:puntoMuestreo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#result
+:result rdf:type owl:DatatypeProperty ;
+        rdfs:domain :WQObservation .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#time
+:time rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#water
+:water rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Al
+:Al rdf:type owl:Class ;
+    rdfs:subClassOf :physical_Samples ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :Al ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:double
+                    ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#BacteriasAerobias
+:BacteriasAerobias rdf:type owl:Class ;
+                   rdfs:subClassOf :Bacteriological_Samples ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :has ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :ClostridiumPerfringere
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :has ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :EColi
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :BacteriasAerobias ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onDataRange xsd:double
+                                   ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#BacteriasColiformes
+:BacteriasColiformes rdf:type owl:Class ;
+                     rdfs:subClassOf :Bacteriological_Samples ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :BacteriasColiformes ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onDataRange xsd:double
+                                     ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Bacteriological_Samples
+:Bacteriological_Samples rdf:type owl:Class ;
+                         rdfs:subClassOf :WQProperty ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :has ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass :BacteriasAerobias
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :has ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass :BacteriasColiformes
+                                         ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#CloroLibre
+:CloroLibre rdf:type owl:Class ;
+            rdfs:subClassOf :physical_Samples ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :CloroLibre ;
+                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:double
+                            ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#ClostridiumPerfringere
+:ClostridiumPerfringere rdf:type owl:Class ;
+                        rdfs:subClassOf :Bacteriological_Samples ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty :ClostridiumPerfringens ;
+                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onDataRange xsd:double
+                                        ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Color
+:Color rdf:type owl:Class ;
+       rdfs:subClassOf :Physical_Observed_properties ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :Color ;
+                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:double
+                       ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Conductividad
+:Conductividad rdf:type owl:Class ;
+               rdfs:subClassOf :Qualitative_Samples ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :Conductividad ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:double
+                               ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Cr
+:Cr rdf:type owl:Class ;
+    rdfs:subClassOf :physical_Samples ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :Cr ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:double
+                    ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#EColi
+:EColi rdf:type owl:Class ;
+       rdfs:subClassOf :Bacteriological_Samples ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :EColi ;
+                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:double
+                       ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Fe
+:Fe rdf:type owl:Class ;
+    rdfs:subClassOf :physical_Samples ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :Fe ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:double
+                    ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#FeatureOfInterest
+:FeatureOfInterest rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty :isFeatureOfInterest ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :WQObservation
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :featureOfInterest ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onDataRange xsd:string
+                                   ] ;
+                   rdfs:comment "•	FeatureOfInteres: es según la definición la característica en la que se están observando las propiedades obtenidas por un sensor para obtener un resultado" .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Lat
+:Lat rdf:type owl:Class ;
+     rdfs:subClassOf :WQPlatform ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :Lat ;
+                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onDataRange xsd:long
+                     ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Long
+:Long rdf:type owl:Class ;
+      rdfs:subClassOf :WQPlatform ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :long ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:long
+                      ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Ni
+:Ni rdf:type owl:Class ;
+    rdfs:subClassOf :physical_Samples ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :Ni ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:double
+                    ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Olor
+:Olor rdf:type owl:Class ;
+      rdfs:subClassOf :Physical_Observed_properties ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :Olor ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:double
+                      ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Oxidabilidad
+:Oxidabilidad rdf:type owl:Class ;
+              rdfs:subClassOf :Qualitative_Samples ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :oxidabilidad ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onDataRange xsd:double
+                              ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Pb
+:Pb rdf:type owl:Class ;
+    rdfs:subClassOf :physical_Samples ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :Pb ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:double
+                    ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Ph
+:Ph rdf:type owl:Class ;
+    rdfs:subClassOf :Qualitative_Samples ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :ph ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:double
+                    ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Physical_Observed_properties
+:Physical_Observed_properties rdf:type owl:Class ;
+                              rdfs:subClassOf :WQProperty ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty :has ;
+                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                owl:onClass :Color
+                                              ] ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty :has ;
+                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                owl:onClass :Olor
+                                              ] ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty :has ;
+                                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                owl:onClass :Sabor
+                                              ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Qualitative_Samples
+:Qualitative_Samples rdf:type owl:Class ;
+                     rdfs:subClassOf :WQProperty ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :has ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :Conductividad
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :has ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :Oxidabilidad
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :has ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :Ph
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :has ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :Turbidez
+                                     ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Sabor
+:Sabor rdf:type owl:Class ;
+       rdfs:subClassOf :Physical_Observed_properties ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :Sabor ;
+                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:double
+                       ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorAi
+:SensorAi rdf:type owl:Class ;
+          rdfs:subClassOf :WQsensor ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Observe ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Al
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorBacteriasAerobias
+:SensorBacteriasAerobias rdf:type owl:Class ;
+                         rdfs:subClassOf :WQsensor ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Observe ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass :BacteriasAerobias
+                                         ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorBacteriasColiformes
+:SensorBacteriasColiformes rdf:type owl:Class ;
+                           rdfs:subClassOf :WQsensor ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :Observe ;
+                                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                             owl:onClass :BacteriasColiformes
+                                           ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorCloistridiumPerfringere
+:SensorCloistridiumPerfringere rdf:type owl:Class ;
+                               rdfs:subClassOf :WQsensor ,
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :Observe ;
+                                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                 owl:onClass :ClostridiumPerfringere
+                                               ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorCloroLibre
+:SensorCloroLibre rdf:type owl:Class ;
+                  rdfs:subClassOf :WQsensor ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Observe ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :CloroLibre
+                                  ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorColor
+:SensorColor rdf:type owl:Class ;
+             rdfs:subClassOf :WQsensor ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :Observe ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Color
+                             ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorConductividad
+:SensorConductividad rdf:type owl:Class ;
+                     rdfs:subClassOf :WQsensor ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :Observe ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :Conductividad
+                                     ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorCr
+:SensorCr rdf:type owl:Class ;
+          rdfs:subClassOf :WQsensor ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Observe ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Cr
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorEcoli
+:SensorEcoli rdf:type owl:Class ;
+             rdfs:subClassOf :WQsensor ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :Observe ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :EColi
+                             ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorFe
+:SensorFe rdf:type owl:Class ;
+          rdfs:subClassOf :WQsensor ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Observe ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Fe
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorNi
+:SensorNi rdf:type owl:Class ;
+          rdfs:subClassOf :WQsensor ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Observe ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Ni
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorOlor
+:SensorOlor rdf:type owl:Class ;
+            rdfs:subClassOf :WQsensor ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :Observe ;
+                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Olor
+                            ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorOxidabilidad
+:SensorOxidabilidad rdf:type owl:Class ;
+                    rdfs:subClassOf :WQsensor ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :Observe ;
+                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass :Oxidabilidad
+                                    ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorPb
+:SensorPb rdf:type owl:Class ;
+          rdfs:subClassOf :WQsensor ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Observe ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Pb
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorPh
+:SensorPh rdf:type owl:Class ;
+          rdfs:subClassOf :WQsensor ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Observe ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Ph
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorSabor
+:SensorSabor rdf:type owl:Class ;
+             rdfs:subClassOf :WQsensor ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :Observe ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Sabor
+                             ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#SensorTurbidez
+:SensorTurbidez rdf:type owl:Class ;
+                rdfs:subClassOf :WQsensor ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :Observe ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass :Turbidez
+                                ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#Turbidez
+:Turbidez rdf:type owl:Class ;
+          rdfs:subClassOf :Qualitative_Samples ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Turbidez ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:double
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#WQObservation
+:WQObservation rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasFeatureOfInterest ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :FeatureOfInterest
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :madeBySensor ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass :WQsensor
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :result ;
+                                 owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :time ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:dateTime
+                               ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#WQPlatform
+:WQPlatform rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :puntoMuestreo ;
+                              owl:someValuesFrom rdfs:Literal
+                            ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#WQProperty
+:WQProperty rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasProperty ;
+                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Bacteriological_Samples
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasProperty ;
+                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Physical_Observed_properties
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasProperty ;
+                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Qualitative_Samples
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasProperty ;
+                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :physical_Samples
+                            ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#WQsensor
+:WQsensor rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :Observes ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :WQProperty
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :isHostedBy ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :WQPlatform
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :madeObservation ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :WQObservation
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Identifier ;
+                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                          ] .
+
+
+###  http://www.semanticweb.org/diego/ontologies/2020/9/untitled-ontology-12#physical_Samples
+:physical_Samples rdf:type owl:Class ;
+                  rdfs:subClassOf :WQProperty ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :has ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :Al
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :has ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :CloroLibre
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :has ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :Cr
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :has ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :Fe
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :has ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :Ni
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :has ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :Pb
+                                  ] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,906 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vocab: <http://datos.santander.es/api/datos/calidad_agua/> .
+@base <http://datos.santander.es/api/datos/calidad_agua/>.
+
+##################################################
+#			Sensor
+##################################################
+<#TriplesMap1> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}";
+	rr:class vocab:Sensor;
+	rdf:type sosa:Sensor;
+	
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:Observes;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap2>;
+	  rr:joinCondition [ 
+	  rr:child "WQProperties"; rr:parent "WQProperties"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:isHostedBy;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap25>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:madeObservation;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap3>;
+	  rr:joinCondition [ 
+	  rr:child "Observation"; rr:parent "Observation"; ]; 
+    ]
+  ].
+  
+##################################################
+#			WQProperties
+##################################################
+
+<#TriplesMap2> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties";
+    rr:class vocab:WQProperties;
+	rdf:type sosa:ObservableProperty
+  ];
+rr:predicateObjectMap [
+    rr:predicate ssn:hasProperty;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap4>;
+	  rr:joinCondition [ 
+	  rr:child "QualitiveSamples"; rr:parent "QualitiveSamples"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate ssn:hasProperty;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap9>;
+	  rr:joinCondition [ 
+	  rr:child "BacteriologicalSamples"; rr:parent "BacteriologicalSamples"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate ssn:hasProperty;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap14>;
+	  rr:joinCondition [ 
+	  rr:child "PhysicalObservedProperties"; rr:parent "PhysicalObservedProperties"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate ssn:hasProperty;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap18>;
+	  rr:joinCondition [ 
+	  rr:child "PhysicalSamples"; rr:parent "PhysicalSamples"; ]; 
+    ]
+  ].   
+    
+  
+##################################################
+#			Observation
+##################################################
+
+<#TriplesMap3> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/Observation";
+    rr:class vocab:Observation;
+	rdf:type sosa:Observation
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:madeBySensor;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap1>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:resultTime;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap28>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:ObservedProperty;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap2>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap5>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap6>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap7>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap10>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap11>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap12>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap13>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap15>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap16>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap17>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap19>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap20>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];  
+  rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap21>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap22>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap23>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate sosa:hasResult;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap24>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ].
+  
+##################################################
+#			QualitiveSamples
+##################################################
+
+<#TriplesMap4> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/QualitiveSamples";
+    rr:class vocab:QualitiveSamples;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasPh;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap5>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasTurbidez;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap6>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasConductividad;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap7>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasOxidabilidad;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap8>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ];
+    ]
+  ].    
+  
+##################################################
+#			pH
+##################################################
+  
+<#TriplesMap5> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/QualitiveSample/pH";
+    rr:class vocab:pH;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:pH;
+    rr:objectMap [
+      rml:reference "pH";
+	  rr:datatype xsd:double;
+      ]
+  ].
+
+##################################################
+#			Turbidez	
+##################################################  
+
+<#TriplesMap6> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/QualitiveSample/Turbidez";
+    rr:class vocab:Turbidez;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Turbidez;
+    rr:objectMap [
+      rml:reference "Turbidez";
+	  rr:datatype xsd:double;
+      ]
+  ].  
+
+##################################################
+#			Conductividad	
+##################################################  
+
+<#TriplesMap7> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/QualitiveSample/Conductividad";
+    rr:class vocab:Conductividad;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Conductividad;
+    rr:objectMap [
+      rml:reference "Conductividad";
+	  rr:datatype xsd:double;
+      ]
+  ].
+
+##################################################
+#			Oxidabilidad	
+##################################################  
+
+<#TriplesMap8> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/QualitiveSample/Oxidabilidad";
+    rr:class vocab:Oxidabilidad;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Oxidabilidad;
+    rr:objectMap [
+      rml:reference "Oxidabilidad";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			BacteriologicalSamples
+##################################################
+
+<#TriplesMap9> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/BacteriologicalSamples";
+    rr:class vocab:BacteriologicalSamples;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasEColi;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap10>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasBacteriasColiformes;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap11>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasBacteriasAerobias;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap12>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasClostridiumPerfringes;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap13>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ].
+
+##################################################
+#			eColi	
+##################################################  
+
+<#TriplesMap10> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/BacteriologicalSamples/eColi";
+    rr:class vocab:eColi;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:eColi;
+    rr:objectMap [
+      rml:reference "eColi";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			BacteriasColiformes	
+##################################################  
+
+<#TriplesMap11> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/BacteriologicalSamples/BacteriasColiformes";
+    rr:class vocab:BacteriasColiformes;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:BacteriasColiformes;
+    rr:objectMap [
+      rml:reference "BacteriasColiformes";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			BacteriasAerobias	
+##################################################  
+
+<#TriplesMap12> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/BacteriologicalSamples/BacteriasAerobias";
+    rr:class vocab:BacteriasAerobias;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:BacteriasAerobias;
+    rr:objectMap [
+      rml:reference "BacteriasAerobias";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			ClostridiumPerfringes	
+##################################################  
+
+<#TriplesMap13> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/BacteriologicalSamples/ClostridiumPerfringes";
+    rr:class vocab:ClostridiumPerfringes;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:ClostridiumPerfringes;
+    rr:objectMap [
+      rml:reference "ClostridiumPerfringes";
+	  rr:datatype xsd:double;
+      ]
+  ].  
+
+##################################################
+#			PhysicalObservedProperties
+##################################################
+
+<#TriplesMap14> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalObservedProperties";
+    rr:class vocab:PhysicalObservedProperties;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasOlor;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap15>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasColor;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap16>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasSabor;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap17>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ].
+##################################################
+#			Olor	
+##################################################  
+
+<#TriplesMap15> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalObservedProperties/Olor";
+    rr:class vocab:Olor;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Olor;
+    rr:objectMap [
+      rml:reference "Olor";
+	  rr:datatype xsd:double;
+      ]
+  ].  
+##################################################
+#			Color	
+##################################################  
+
+<#TriplesMap16> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalObservedProperties/Color";
+    rr:class vocab:Color;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Color;
+    rr:objectMap [
+      rml:reference "Color";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			Sabor	
+##################################################  
+
+<#TriplesMap17> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalObservedProperties/Sabor";
+    rr:class vocab:Sabor;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Sabor;
+    rr:objectMap [
+      rml:reference "Sabor";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			PhysicalSamples
+##################################################
+
+<#TriplesMap18> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalSamples";
+    rr:class vocab:PhysicalSamples;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasAl;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap19>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasFe;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap20>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasCr;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap21>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasNi;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap22>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasCloroLibre;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap23>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];  
+rr:predicateObjectMap [
+    rr:predicate vocab:hasPb;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap24>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ].
+##################################################
+#			Al	
+##################################################  
+
+<#TriplesMap19> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalSamples/Al";
+    rr:class vocab:Al;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Al;
+    rr:objectMap [
+      rml:reference "Al";
+	  rr:datatype xsd:double;
+      ]
+  ].
+
+##################################################
+#			Fe	
+##################################################  
+
+<#TriplesMap20> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalSamples/Fe";
+    rr:class vocab:Fe;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Fe;
+    rr:objectMap [
+      rml:reference "Fe";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			Cr	
+##################################################  
+
+<#TriplesMap21> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalSamples/Cr";
+    rr:class vocab:Cr;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Cr;
+    rr:objectMap [
+      rml:reference "Cr";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			Ni	
+##################################################  
+
+<#TriplesMap22> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalSamples/Ni";
+    rr:class vocab:Ni;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Ni;
+    rr:objectMap [
+      rml:reference "Ni";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			CloroLibre	
+##################################################  
+
+<#TriplesMap23> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalSamples/CloroLibre";
+    rr:class vocab:CloroLibre;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:CloroLibre;
+    rr:objectMap [
+      rml:reference "CloroLibre";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			Pb	
+##################################################  
+
+<#TriplesMap24> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQProperties/PhysicalSamples/Pb";
+    rr:class vocab:Pb;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Pb;
+    rr:objectMap [
+      rml:reference "Pb";
+	  rr:datatype xsd:double;
+      ]
+  ].
+
+##################################################
+#			WQPlatform	
+##################################################  
+
+<#TriplesMap25> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQPlatform";
+    rr:class vocab:WQPlatform;
+	rdf:type sosa:Platform
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:PuntoMuestreo;
+    rr:objectMap [
+      rml:reference "PuntoMuestreo";
+	  rr:datatype xsd:string;
+      ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasLatitud;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap26>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:hasLongitud;
+    rr:objectMap [
+      rr:parentTriplesMap <#TriplesMap27>;
+	  rr:joinCondition [ 
+	  rr:child "identifier"; rr:parent "identifier"; ]; 
+    ]
+  ].  
+##################################################
+#			Latitud	
+##################################################  
+
+<#TriplesMap26> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQPlatform/Latitud";
+    rr:class vocab:Latitud;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Latitud;
+    rr:objectMap [
+      rml:reference "Latitud";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			Longitud	
+##################################################  
+
+<#TriplesMap27> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/WQPlatform/Longitud";
+    rr:class vocab:Longitud;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:Longitud;
+    rr:objectMap [
+      rml:reference "Longitud";
+	  rr:datatype xsd:double;
+      ]
+  ].
+##################################################
+#			modified	
+##################################################  
+
+<#TriplesMap28> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "calidad_aguaSOSA.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+   rr:template "http://datos.santander.es/api/datos/Sensor#{identifier}/Observation/modified";
+    rr:class vocab:modified;
+  ];
+rr:predicateObjectMap [
+    rr:predicate vocab:modified;
+    rr:objectMap [
+      rml:reference "modified";
+	  rr:datatype xsd:date;
+      ]
+  ].

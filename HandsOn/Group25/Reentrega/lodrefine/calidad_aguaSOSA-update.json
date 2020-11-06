@@ -1,0 +1,80 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 26",
+    "expression": "grel:row.index",
+    "onError": "set-to-blank",
+    "newColumnName": "WQProperties",
+    "columnInsertIndex": 26,
+    "description": "Create column WQProperties at index 26 based on column Column 26 using expression grel:row.index"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "WQProperties",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "QualitiveSamples",
+    "columnInsertIndex": 27,
+    "description": "Create column QualitiveSamples at index 27 based on column WQProperties using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "WQProperties",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Observation",
+    "columnInsertIndex": 27,
+    "description": "Create column Observation at index 27 based on column WQProperties using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "WQProperties",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "BacteriologicalSamples",
+    "columnInsertIndex": 27,
+    "description": "Create column BacteriologicalSamples at index 27 based on column WQProperties using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "WQProperties",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "PhysicalObservedProperties",
+    "columnInsertIndex": 27,
+    "description": "Create column PhysicalObservedProperties at index 27 based on column WQProperties using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "WQProperties",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "PhysicalSamples",
+    "columnInsertIndex": 27,
+    "description": "Create column PhysicalSamples at index 27 based on column WQProperties using expression grel:value"
+  }
+]
