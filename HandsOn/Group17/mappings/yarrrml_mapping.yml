@@ -1,6 +1,5 @@
 prefixes:
   rr: http://www.w3.org/ns/r2rml#
-  ont: http://www.wsld.org/grupo17/ontology#
   foaf: http://xmlns.com/foaf/0.1/
   xsd: http://www.w3.org/2001/XMLSchema#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
@@ -10,9 +9,10 @@ prefixes:
   rml: http://semweb.mmlab.be/ns/rml#
   ql: http://semweb.mmlab.be/ns/ql#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-  vocab: http://example.org#
-  
-  
+  vocab: http://www.wsld.org/grupo17/ontology#
+  owl: http://www.w3.org/2002/07/owl#
+  wikidata: https://www.wikidata.org/
+
 mappings:
 
   triplesmappuntodemuestreo:
@@ -22,12 +22,12 @@ mappings:
     po:
       - [a, vocab:esPunto]
       - [vocab:esPunto,$(PUNTO_MUESTREO)]
-      - [vocab:esPunto2,$(http://www.wsld.org/grupo17/ontology/esPuntoMuestreo)~iri]
-      - [vocab:esPunto3,$(string-column),xsd:string]
+      - [vocab:esPunto2,$(PUNTO_MUESTREO)~iri]
+      - [vocab:esPunto3,$(PUNTO_MUESTREO),xsd:string]
       - p: vocab:mide
         o:
         mapping: triplesmapmedida
-      - p: vocab:estaEnEstacion
+      - p: vocab:estaEn1
         o:
         mapping: triplesmapestacion
 
@@ -38,9 +38,9 @@ mappings:
     po:
       - [a, vocab:Estacion]
       - [vocab:estacion,$(ESTACION)]
-      - [vocab:estacion2,$(http://www.wsld.org/grupo17/ontology/Estacion)~iri]
-      - [vocab:estacion3,$(integer-column),xsd:integer]
-      - p: vocab:estaEnProvincia
+      - [vocab:estacion2,$(ESTACION)~iri]
+      - [vocab:estacion3,$(ESTACION),xsd:integer]
+      - p: vocab:estaEn2
         o:
         mapping: triplesmapprovincia 
 
@@ -51,12 +51,12 @@ mappings:
     po:
       - [a, vocab:Provincia]
       - [vocab:provincia,$(PROVINCIA)]
-      - [vocab:provincia2,$(http://www.wsld.org/grupo17/ontology/Provincia)~iri]
-      - [vocab:provincia3,$(integer-column),xsd:integer]
-      - [owl:sameAS, $(wikidata:province)~iri]
+      - [vocab:provincia2,$(PROVINCIA)~iri]
+      - [vocab:provincia3,$(PROVINCIA),xsd:integer]
+      - [owl:sameAs, $(wikidata:City)~iri]
       - p:
         o:
-        mapping: triplesmapestacion ##########?######
+        mapping: triplesmapestacion
 
   triplesmapmedida:
     sources:
@@ -115,4 +115,4 @@ mappings:
       - [vocab:valido24, $(V24), xsd:boolean]
       - p:
         o:
-        mapping: triplesmappuntodemuestreo
+        mapping:
