@@ -14,13 +14,12 @@ mappings:
       - p: ns:hasIndicator
         o:
           mapping: Indicators
-            condition:
-          function: equal
-          parameters:
-           - [str1, $(Indicator Code)]
-           - [str2, $(Indictaro Code)]
+          condition:
+           function: equal
+           parameters:
+             - [str1, $(Indicator Code)]
+             - [str2, $(Indicator Code)]
                 
-          
   Indicators:
     sources:
     - [environment_sgp-updated.csv~csv]
@@ -33,22 +32,16 @@ mappings:
         o:
           mapping: Measures
           condition:
-          function: equal
-          parameters:
-           - [str1, $(Value)]
-           - [str2, $(Value)]
-           
+           function: equal
+           parameters:
+             - [str1, $(Indicator Code)]
+             - [str2, $(Indicator Code)]
                 
   Measures:
    sources:
    - [environment_sgp-updated.csv~csv]
-   s: http://group10.org/hands-on/resource/$(Indicator Code)$(Year)
+   s: http://group10.org/hands-on/resource/$(Indicator Code)$(Year)$(Country Name)
    po:
       - [a, ns:Measure]
       - [ns:value, $(Value), xsd:double]
       - [ns:date, $(Year), xsd:integer]
-      - p: ns:hasMeasure
-        o:
-          mapping: Measures
-           
-               

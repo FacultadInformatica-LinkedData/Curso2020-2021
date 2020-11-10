@@ -1,0 +1,13 @@
+SELECT DISTINCT ?countryName
+    WHERE{
+        ?countryName rdf:type <http://www.grupo10.org/hands-on/resource/Country>.
+        ?countryName owl:sameAs <https://www.wikidata.org/wiki/Q334>
+    }
+    
+ Select Distinct ?IndicatorName
+Where
+{
+?CountryName rdf:type <http://www.group10.org/hands-on/resource/Country>
+?countryName owl:sameAs <https://www.wikidata.org/wiki/Q334>
+?countryName <http://www.group10.org/hands-on/resource/hasIndicator> ?indicatorName 
+}

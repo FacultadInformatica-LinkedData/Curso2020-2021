@@ -1,0 +1,485 @@
+[
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Country Name",
+          "expression": "value",
+          "columnName": "Country Name",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "#country+name",
+                "l": "#country+name"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Year using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Value",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Value using expression value.toNumber()"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Indicator Name",
+          "expression": "value",
+          "columnName": "Indicator Name",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Rural land area where elevation is below 5 meters (% of total land area)",
+                "l": "Rural land area where elevation is below 5 meters (% of total land area)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted net savings, including particulate emission damage (% of GNI)",
+                "l": "Adjusted net savings, including particulate emission damage (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Urban population living in areas where elevation is below 5 meters (% of total population)",
+                "l": "Urban population living in areas where elevation is below 5 meters (% of total population)"
+              }
+            },
+            {
+              "v": {
+                "v": "People practicing open defecation, urban (% of urban population)",
+                "l": "People practicing open defecation, urban (% of urban population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: carbon dioxide damage (% of GNI)",
+                "l": "Adjusted savings: carbon dioxide damage (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Renewable internal freshwater resources per capita (cubic meters)",
+                "l": "Renewable internal freshwater resources per capita (cubic meters)"
+              }
+            },
+            {
+              "v": {
+                "v": "Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)",
+                "l": "Mortality rate attributed to unintentional poisoning, male (per 100,000 male population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Agricultural nitrous oxide emissions (% of total)",
+                "l": "Agricultural nitrous oxide emissions (% of total)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: net forest depletion (% of GNI)",
+                "l": "Adjusted savings: net forest depletion (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Total natural resources rents (% of GDP)",
+                "l": "Total natural resources rents (% of GDP)"
+              }
+            },
+            {
+              "v": {
+                "v": "Population living in areas where elevation is below 5 meters (% of total population)",
+                "l": "Population living in areas where elevation is below 5 meters (% of total population)"
+              }
+            },
+            {
+              "v": {
+                "v": "CO2 emissions (kg per 2017 PPP $ of GDP)",
+                "l": "CO2 emissions (kg per 2017 PPP $ of GDP)"
+              }
+            },
+            {
+              "v": {
+                "v": "Forest rents (% of GDP)",
+                "l": "Forest rents (% of GDP)"
+              }
+            },
+            {
+              "v": {
+                "v": "People using safely managed drinking water services, urban (% of urban population)",
+                "l": "People using safely managed drinking water services, urban (% of urban population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: net forest depletion (current US$)",
+                "l": "Adjusted savings: net forest depletion (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: mineral depletion (current US$)",
+                "l": "Adjusted savings: mineral depletion (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Access to clean fuels and technologies for cooking (% of population)",
+                "l": "Access to clean fuels and technologies for cooking (% of population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Terrestrial protected areas (% of total land area)",
+                "l": "Terrestrial protected areas (% of total land area)"
+              }
+            },
+            {
+              "v": {
+                "v": "People practicing open defecation (% of population)",
+                "l": "People practicing open defecation (% of population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)",
+                "l": "Mortality rate attributed to unintentional poisoning, female (per 100,000 female population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Nitrous oxide emissions in energy sector (% of total)",
+                "l": "Nitrous oxide emissions in energy sector (% of total)"
+              }
+            },
+            {
+              "v": {
+                "v": "CO2 emissions from liquid fuel consumption (kt)",
+                "l": "CO2 emissions from liquid fuel consumption (kt)"
+              }
+            },
+            {
+              "v": {
+                "v": "PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",
+                "l": "PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)"
+              }
+            },
+            {
+              "v": {
+                "v": "Methane emissions (% change from 1990)",
+                "l": "Methane emissions (% change from 1990)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: particulate emission damage (current US$)",
+                "l": "Adjusted savings: particulate emission damage (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: education expenditure (current US$)",
+                "l": "Adjusted savings: education expenditure (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal)",
+                "l": "Water productivity, total (constant 2010 US$ GDP per cubic meter of total freshwater withdrawal)"
+              }
+            },
+            {
+              "v": {
+                "v": "Urban land area where elevation is below 5 meters (% of total land area)",
+                "l": "Urban land area where elevation is below 5 meters (% of total land area)"
+              }
+            },
+            {
+              "v": {
+                "v": "Nitrous oxide emissions (% change from 1990)",
+                "l": "Nitrous oxide emissions (% change from 1990)"
+              }
+            },
+            {
+              "v": {
+                "v": "Energy intensity level of primary energy (MJ/$2011 PPP GDP)",
+                "l": "Energy intensity level of primary energy (MJ/$2011 PPP GDP)"
+              }
+            },
+            {
+              "v": {
+                "v": "CO2 emissions from solid fuel consumption (kt)",
+                "l": "CO2 emissions from solid fuel consumption (kt)"
+              }
+            },
+            {
+              "v": {
+                "v": "Plant species (higher), threatened",
+                "l": "Plant species (higher), threatened"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: consumption of fixed capital (% of GNI)",
+                "l": "Adjusted savings: consumption of fixed capital (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted net savings, excluding particulate emission damage (current US$)",
+                "l": "Adjusted net savings, excluding particulate emission damage (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "People using at least basic sanitation services, urban (% of urban population)",
+                "l": "People using at least basic sanitation services, urban (% of urban population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Rural land area where elevation is below 5 meters (sq. km)",
+                "l": "Rural land area where elevation is below 5 meters (sq. km)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: energy depletion (% of GNI)",
+                "l": "Adjusted savings: energy depletion (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: education expenditure (% of GNI)",
+                "l": "Adjusted savings: education expenditure (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "CO2 emissions from gaseous fuel consumption (kt)",
+                "l": "CO2 emissions from gaseous fuel consumption (kt)"
+              }
+            },
+            {
+              "v": {
+                "v": "Other greenhouse gas emissions (% change from 1990)",
+                "l": "Other greenhouse gas emissions (% change from 1990)"
+              }
+            },
+            {
+              "v": {
+                "v": "Coal rents (% of GDP)",
+                "l": "Coal rents (% of GDP)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: consumption of fixed capital (current US$)",
+                "l": "Adjusted savings: consumption of fixed capital (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: energy depletion (current US$)",
+                "l": "Adjusted savings: energy depletion (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Land area where elevation is below 5 meters (% of total land area)",
+                "l": "Land area where elevation is below 5 meters (% of total land area)"
+              }
+            },
+            {
+              "v": {
+                "v": "Agricultural methane emissions (% of total)",
+                "l": "Agricultural methane emissions (% of total)"
+              }
+            },
+            {
+              "v": {
+                "v": "People using safely managed sanitation services, urban (% of urban population)",
+                "l": "People using safely managed sanitation services, urban (% of urban population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted net savings, excluding particulate emission damage (% of GNI)",
+                "l": "Adjusted net savings, excluding particulate emission damage (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: net national savings (% of GNI)",
+                "l": "Adjusted savings: net national savings (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: net national savings (current US$)",
+                "l": "Adjusted savings: net national savings (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: particulate emission damage (% of GNI)",
+                "l": "Adjusted savings: particulate emission damage (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Rural population living in areas where elevation is below 5 meters (% of total population)",
+                "l": "Rural population living in areas where elevation is below 5 meters (% of total population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Bird species, threatened",
+                "l": "Bird species, threatened"
+              }
+            },
+            {
+              "v": {
+                "v": "People using at least basic drinking water services, urban (% of urban population)",
+                "l": "People using at least basic drinking water services, urban (% of urban population)"
+              }
+            },
+            {
+              "v": {
+                "v": "Mammal species, threatened",
+                "l": "Mammal species, threatened"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: gross savings (% of GNI)",
+                "l": "Adjusted savings: gross savings (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Urban land area where elevation is below 5 meters (sq. km)",
+                "l": "Urban land area where elevation is below 5 meters (sq. km)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted savings: mineral depletion (% of GNI)",
+                "l": "Adjusted savings: mineral depletion (% of GNI)"
+              }
+            },
+            {
+              "v": {
+                "v": "Fish species, threatened",
+                "l": "Fish species, threatened"
+              }
+            },
+            {
+              "v": {
+                "v": "CO2 emissions (kg per PPP $ of GDP)",
+                "l": "CO2 emissions (kg per PPP $ of GDP)"
+              }
+            },
+            {
+              "v": {
+                "v": "Adjusted net savings, including particulate emission damage (current US$)",
+                "l": "Adjusted net savings, including particulate emission damage (current US$)"
+              }
+            },
+            {
+              "v": {
+                "v": "Energy related methane emissions (% of total)",
+                "l": "Energy related methane emissions (% of total)"
+              }
+            },
+            {
+              "v": {
+                "v": "CO2 emissions (metric tons per capita)",
+                "l": "CO2 emissions (metric tons per capita)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country Name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q6256",
+        "name": "country"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Country Name to type Q6256"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Country Name",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "wikidata:Country",
+    "columnInsertIndex": 1,
+    "description": "Create column wikidata:Country at index 1 based on column Country Name using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id"
+  }
+]
