@@ -1,0 +1,153 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  ont: http://linkeddata.es/group09/ontology/TrafficAccident#
+  dbo: http://dbpedia.org/ontology/
+  res: http://linkeddata.es/group09/resource/
+  rml: http://semweb.mmlab.be/ns/rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  owl: http://www.w3.org/2002/07/owl#
+  td:  https://transportdisruption.github.io/#
+  aos: http://rdf.muninn-project.org/ontologies/appearances.html#
+  npg: http://ns.nature.com/terms/
+  wdt: http://www.wikidata.org/prop/direct/
+  foaf: http://xmlns.com/foaf/spec/#
+  datex: http://vocab.datex.org/terms/#
+  juso: http://rdfs.co/juso/
+  
+mappings:
+  accident:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:accident/$(N EXPEDIENTE)
+    po:
+      - [a, td:Accident]
+      - [rdfs:label, $(N EXPEDIENTE)]
+      - [ont:hasExpedient,$(N EXPEDIENTE)]
+      - [ont:weather,$(ESTADO METEREOLÓGICO)]
+      - [npg:date,$(DATE),xsd:dateTime]
+      - [ont:happensMonth,$(MES)]
+      - [ont:occursAtPeriod,$(HORA INTERVALO)]
+      - p: ont:typeOfAccident
+        o:
+          mapping: typeofaccident
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-TIPO ACCIDENTE)]
+              - [str2, $(URI-TIPO ACCIDENTE)]
+              
+      - p: ont:occursOn
+        o:
+          mapping: crossing
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-CRUCE)]
+              - [str2, $(URI-CRUCE)]
+              
+      - p: ont:occursTo
+        o:
+          mapping: person
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-PERSONA)]
+              - [str2, $(URI-PERSONA)]
+              
+  typeofaccident:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:typeofaccident/$(URI-TIPO ACCIDENTE)
+    po:
+      - [a, ont:TypeOfAccident]
+      - [rdfs:label, $(TIPO ACCIDENTE)]
+      
+  crossing:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:streetcrossing/$(URI-CRUCE)
+    po:
+      - [a, ont:StreetCrossing]
+      - [rdfs:label, $(CRUCE LABEL)]
+      - [ont:hasStreet1,$(CALLE 1)]
+      - [ont:hasStreet2,$(CALLE 2)]
+      - [ont:hasNumber,$(NUMERO)]
+      - p: wdt:P131
+        o:
+         - mapping: district
+           condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-DISTRITO)]
+              - [str2, $(URI-DISTRITO)]      
+
+  person:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:person/$(URI-PERSONA)
+    po:
+      - [a, dbo:Person]
+      - [rdfs:label, $(PERSONA LABEL)]
+      - [ont:hasAgeRange,$(RANGO DE EDAD)]
+      - [datex:injuryStatus,$(LESIVIDAD)]
+      - p: ont:typeOfPerson
+        o:
+          mapping: typeofperson
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-TIPO PERSONA)]
+              - [str2, $(URI-TIPO PERSONA)]
+              
+      - p: aos:hasSex
+        o:
+          mapping: sex
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-SEXO)]
+              - [str2, $(URI-SEXO)]
+              
+      - p: ont:hasTypeOfVehicle
+        o:
+          mapping: typeofvehicle
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(URI-TIPO VEHÍCULO)]
+              - [str2, $(URI-TIPO VEHÍCULO)]
+              
+  typeofperson:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:typeofperson/$(URI-TIPO PERSONA)
+    po:
+      - [a, ont:TypeOfPerson]
+      - [rdfs:label, $(TIPO PERSONA)]
+
+  sex:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:sex/$(URI-SEXO)
+    po:
+      - [a, aos:Sex]
+      - [rdfs:label, $(SEXO)]
+
+  typeofvehicle:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:typeofvehicle/$(URI-TIPO VEHÍCULO)
+    po:
+      - [a, ont:TypeOfVehicle]
+      - [rdfs:label, $(TIPO VEHÍCULO)]
+
+  district:
+    sources:
+      - [Accidentes-de-trafico-de-la-Ciudad-de-Madrid-csv-updated-with-links.csv~csv]
+    s: res:district/$(URI-DISTRITO)
+    po:
+      - [a, juso:District]
+      - [rdfs:label, $(DISTRITO)]
+      - [owl:sameAs, $(URI-DISTRITO-Wikidata)~iri]
+      - [foaf:name,$(DISTRITO)] 

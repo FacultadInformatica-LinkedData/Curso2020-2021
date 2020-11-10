@@ -1,0 +1,1999 @@
+﻿[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Nombre_distrito",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre_distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CHAMARTÃ�N"
+        ],
+        "to": "CHAMARTIN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Nombre_distrito",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre_distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CHAMBERÃ�"
+        ],
+        "to": "CHAMBERI"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Nombre_distrito",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre_distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TETUÃ�N"
+        ],
+        "to": "TETUAN"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Nombre_distrito",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre_distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "VICÃ�LVARO"
+        ],
+        "to": "VICALVARO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ChamartÃ­n"
+        ],
+        "to": "Chamartin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ChamberÃ­"
+        ],
+        "to": "ChamberÃi"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ChamberÃi"
+        ],
+        "to": "Chamberi"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TetuÃ¡n"
+        ],
+        "to": "Tetuan"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "VicÃ¡lvaro"
+        ],
+        "to": "Vicalvaro"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NombreDistritoURI to type http://dbpedia.org/ontology/Place",
+    "columnName": "NombreDistritoURI",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Madrid) (http://dbpedia.org/resource/Category:Centro_(Madrid)) for cells containing \"Centro\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Centro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Centro_(Madrid)",
+      "name": "Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Category:Retiro_(Madrid)) for cells containing \"Retiro\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (Madrid) (http://dbpedia.org/resource/Category:Salamanca_(Madrid)) for cells containing \"Salamanca\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Salamanca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Salamanca_(Madrid)",
+      "name": "Salamanca (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Arganzuela (http://dbpedia.org/resource/Arganzuela) for cells containing \"Arganzuela\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Arganzuela",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Arganzuela",
+      "name": "Arganzuela",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuán (Madrid) (http://dbpedia.org/resource/Category:Tetuán_(Madrid)) for cells containing \"Tetuan\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        }
+      ]
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Tetuán_(Madrid)",
+      "name": "Tetuán (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuán (metropolitana di Madrid) (http://dbpedia.org/resource/Tetuán_(Madrid_Metro)) for cells containing \"Tetuan\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        }
+      ]
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuán_(Madrid_Metro)",
+      "name": "Tetuán (metropolitana di Madrid)",
+      "score": 0.1875,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuán (Madrid) (http://dbpedia.org/resource/Tetuán_(Madrid)) for cells containing \"Tetuan\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        }
+      ]
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuán_(Madrid)",
+      "name": "Tetuán (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuan (http://dbpedia.org/resource/Tetuan) for cells containing \"Tetuan\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        }
+      ]
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuan",
+      "name": "Tetuan",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuan (Madrid) (http://dbpedia.org/resource/Tetuan_(Madrid)) for cells containing \"Tetuan\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        }
+      ]
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Tetuan",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuan_(Madrid)",
+      "name": "Tetuan (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberi (Madrid) (http://dbpedia.org/resource/Chamberi_(Madrid)) for cells containing \"Chamberi\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "NombreDistritoURI: best candidate's score",
+          "from": 0.526,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NombreDistritoURI"
+        }
+      ]
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Chamberi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Chamberi_(Madrid)",
+      "name": "Chamberi (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamartin (Madrid) (http://dbpedia.org/resource/Chamartin_(Madrid)) for cells containing \"Chamartin\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Chamartin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Chamartin_(Madrid)",
+      "name": "Chamartin (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Fuencarral-El Pardo (Madrid) (http://dbpedia.org/resource/Fuencarral-El_Pardo_(Madrid)) for cells containing \"FuencarralElPardo\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "FuencarralElPardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Fuencarral-El_Pardo_(Madrid)",
+      "name": "Fuencarral-El Pardo (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa-Aravaca (http://dbpedia.org/resource/Moncloa-Aravaca) for cells containing \"MoncloaAravaca\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "MoncloaAravaca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Moncloa-Aravaca",
+      "name": "Moncloa-Aravaca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (Madrid) (http://dbpedia.org/resource/Category:Latina_(Madrid)) for cells containing \"Latina\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Latina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Latina_(Madrid)",
+      "name": "Latina (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (Madrid) (http://dbpedia.org/resource/Latina_(Madrid)) for cells containing \"Latina\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Latina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Latina_(Madrid)",
+      "name": "Latina (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://dbpedia.org/resource/Category:Carabanchel) for cells containing \"Carabanchel\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Carabanchel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Carabanchel",
+      "name": "Carabanchel",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://dbpedia.org/resource/Carabanchel) for cells containing \"Carabanchel\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Carabanchel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Carabanchel",
+      "name": "Carabanchel",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Puente de Vallecas (http://dbpedia.org/resource/Puente_de_Vallecas) for cells containing \"PuenteDeVallecas\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "PuenteDeVallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Puente_de_Vallecas",
+      "name": "Puente de Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Lineal (http://dbpedia.org/resource/Category:Ciudad_Lineal) for cells containing \"CiudadLineal\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "CiudadLineal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Ciudad_Lineal",
+      "name": "Ciudad Lineal",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Lineal (http://dbpedia.org/resource/Ciudad_Lineal) for cells containing \"CiudadLineal\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "CiudadLineal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ciudad_Lineal",
+      "name": "Ciudad Lineal",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hortaleza (distrito) (http://dbpedia.org/resource/Hortaleza) for cells containing \"Hortaleza\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Hortaleza",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hortaleza",
+      "name": "Hortaleza (distrito)",
+      "score": 0.44999998807907104,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (http://dbpedia.org/resource/Category:Villaverde) for cells containing \"Villaverde\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Villaverde",
+      "name": "Villaverde",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (http://dbpedia.org/resource/Villaverde) for cells containing \"Villaverde\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villaverde",
+      "name": "Villaverde",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (Madrid) (http://dbpedia.org/resource/Category:Villaverde_(Madrid)) for cells containing \"Villaverde\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Villaverde_(Madrid)",
+      "name": "Villaverde (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (Madrid) (http://dbpedia.org/resource/Villaverde_(Madrid)) for cells containing \"Villaverde\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villaverde_(Madrid)",
+      "name": "Villaverde (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villa de Vallecas (http://dbpedia.org/resource/Villa_de_Vallecas) for cells containing \"VillaDeVallecas\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "VillaDeVallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villa_de_Vallecas",
+      "name": "Villa de Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vicálvaro (http://dbpedia.org/resource/Vicálvaro) for cells containing \"Vicalvaro\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Vicalvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vicálvaro",
+      "name": "Vicálvaro",
+      "score": 0.8888888955116272,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas-Canillejas (http://dbpedia.org/resource/Category:San_Blas-Canillejas) for cells containing \"SanBlasCanillejas\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "SanBlasCanillejas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:San_Blas-Canillejas",
+      "name": "San Blas-Canillejas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas-Canillejas (http://dbpedia.org/resource/San_Blas-Canillejas) for cells containing \"SanBlasCanillejas\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "SanBlasCanillejas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Blas-Canillejas",
+      "name": "San Blas-Canillejas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barajas (Madrid) (http://dbpedia.org/resource/Barajas_(Madrid)) for cells containing \"Barajas\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Barajas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barajas_(Madrid)",
+      "name": "Barajas (Madrid)",
+      "score": 0.4375,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Madrid) (http://dbpedia.org/resource/Centro_(Madrid)) for cells containing \"Centro\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Centro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Centro_(Madrid)",
+      "name": "Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column dbpedia:Distrito at index 2 based on column NombreDistritoURI using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "dbpedia:Distrito",
+    "columnInsertIndex": 2,
+    "baseColumnName": "NombreDistritoURI",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column NombreEspecieURI at index 5 based on column NOMBRE_ESPECIE using expression grel:value.toTitlecase().replace(\" \",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "NombreEspecieURI",
+    "columnInsertIndex": 5,
+    "baseColumnName": "NOMBRE_ESPECIE",
+    "expression": "grel:value.toTitlecase().replace(\" \",\"\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NombreEspecieURI to type http://dbpedia.org/ontology/Species",
+    "columnName": "NombreEspecieURI",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Species",
+        "name": "especies"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ligustrum japonicum (http://dbpedia.org/resource/Ligustrum_japonicum) for cells containing \"Ligustrumâ japonicumâ 'variegata'\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "Ligustrumâ japonicumâ 'variegata'",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ligustrum_japonicum",
+      "name": "Ligustrum japonicum",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Robinia pseudoacacia (http://dbpedia.org/resource/Robinia_pseudoacacia) for cells containing \"RobiniaPseudoacacia\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "RobiniaPseudoacacia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Robinia_pseudoacacia",
+      "name": "Robinia pseudoacacia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Prunus cerasifera (http://dbpedia.org/resource/Prunus_cerasifera) for cells containing \"PrunusCerasiferaSubsp.Pissartii\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PrunusCerasiferaSubsp.Pissartii",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Prunus_cerasifera",
+      "name": "Prunus cerasifera",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ulmus pumila (http://dbpedia.org/resource/Ulmus_pumila) for cells containing \"UlmusPumila\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "UlmusPumila",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ulmus_pumila",
+      "name": "Ulmus pumila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Aesculus hippocastanum (http://dbpedia.org/resource/Aesculus_hippocastanum) for cells containing \"AesculusHippocastanum\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "AesculusHippocastanum",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Aesculus_hippocastanum",
+      "name": "Aesculus hippocastanum",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Platanus hybrida (http://dbpedia.org/resource/Platanus_hybrida) for cells containing \"PlatanusXHybrida\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PlatanusXHybrida",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Platanus_hybrida",
+      "name": "Platanus hybrida",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Sophora japonica (http://dbpedia.org/resource/Sophora_japonica) for cells containing \"SophoraJaponica\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "SophoraJaponica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Sophora_japonica",
+      "name": "Sophora japonica",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Sophora japonica (http://dbpedia.org/resource/Sophora_japonica) for cells containing \"SophoraJaponica\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "SophoraJaponica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Sophora_japonica",
+      "name": "Sophora japonica",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ligustrum japonicum (http://dbpedia.org/resource/Ligustrum_japonicum) for cells containing \"LigustrumJaponicum\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "LigustrumJaponicum",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ligustrum_japonicum",
+      "name": "Ligustrum japonicum",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Prunus cerasifera (http://dbpedia.org/resource/Prunus_cerasifera) for cells containing \"PrunusCerasiferaPisardii\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PrunusCerasiferaPisardii",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Prunus_cerasifera",
+      "name": "Prunus cerasifera",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Prunus cerasifera (http://dbpedia.org/resource/Cherry_plum) for cells containing \"PrunusCerasiferaPisardii\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PrunusCerasiferaPisardii",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cherry_plum",
+      "name": "Prunus cerasifera",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Melia azedarach (http://dbpedia.org/resource/Melia_azedarach) for cells containing \"MeliaAzedarach\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "MeliaAzedarach",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Melia_azedarach",
+      "name": "Melia azedarach",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Acer negundo (http://dbpedia.org/resource/Acer_negundo) for cells containing \"AcerNegundo\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "AcerNegundo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Acer_negundo",
+      "name": "Acer negundo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Pinus pinea (http://dbpedia.org/resource/Pinus_pinea) for cells containing \"PinusPinea\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PinusPinea",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pinus_pinea",
+      "name": "Pinus pinea",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Celtis australis (http://dbpedia.org/resource/Celtis_australis) for cells containing \"CeltisAustralis\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "CeltisAustralis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Celtis_australis",
+      "name": "Celtis australis",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Liquidambar styraciflua (http://dbpedia.org/resource/Liquidambar_styraciflua) for cells containing \"LiquidambarStyraciflua\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "LiquidambarStyraciflua",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Liquidambar_styraciflua",
+      "name": "Liquidambar styraciflua",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cupressus arizonica (http://dbpedia.org/resource/Cupressus_arizonica) for cells containing \"CupressusArizonica\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "CupressusArizonica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cupressus_arizonica",
+      "name": "Cupressus arizonica",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cupressus sempervirens (http://dbpedia.org/resource/Cupressus_sempervirens) for cells containing \"CupressusSempervirens\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "CupressusSempervirens",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cupressus_sempervirens",
+      "name": "Cupressus sempervirens",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cupressocyparis leylandii (http://dbpedia.org/resource/Cupressocyparis_leylandii) for cells containing \"CupressocyparisLeilandii\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "CupressocyparisLeilandii",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cupressocyparis_leylandii",
+      "name": "Cupressocyparis leylandii",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Populus Populus (http://www.wikidata.org/entity/Q11239801) for cells containing \"Populusâ alba'bolleana'\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "Populusâ alba'bolleana'",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q11239801",
+      "name": "Populus Populus",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Populus sect. Populus (http://dbpedia.org/resource/Populus_sect._Populus) for cells containing \"Populusâ alba'bolleana'\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "Populusâ alba'bolleana'",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Populus_sect._Populus",
+      "name": "Populus sect. Populus",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cercis siliquastrum (http://dbpedia.org/resource/Cercis_siliquastrum) for cells containing \"CercisSiliquastrum\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "CercisSiliquastrum",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cercis_siliquastrum",
+      "name": "Cercis siliquastrum",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Koelreuteria paniculata (http://dbpedia.org/resource/Koelreuteria_paniculata) for cells containing \"KoelreuteriaPaniculata\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "KoelreuteriaPaniculata",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Koelreuteria_paniculata",
+      "name": "Koelreuteria paniculata",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Morus alba (http://dbpedia.org/resource/Morus_alba) for cells containing \"MorusAlba\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "MorusAlba",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Morus_alba",
+      "name": "Morus alba",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Populus × canadensis (http://dbpedia.org/resource/Populus_×_canadensis) for cells containing \"PopulusXCanadensis\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PopulusXCanadensis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Populus_×_canadensis",
+      "name": "Populus × canadensis",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Populus canadensis (http://dbpedia.org/resource/Populus_canadensis) for cells containing \"PopulusXCanadensis\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PopulusXCanadensis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Populus_canadensis",
+      "name": "Populus canadensis",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Catalpa bignonioides (http://dbpedia.org/resource/Catalpa_bignonioides) for cells containing \"CatalpaBignonioides\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "CatalpaBignonioides",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Catalpa_bignonioides",
+      "name": "Catalpa bignonioides",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Gleditsia triacanthos (http://dbpedia.org/resource/Gleditsia_triacanthos) for cells containing \"GleditsiaTriacanthos\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "GleditsiaTriacanthos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Gleditsia_triacanthos",
+      "name": "Gleditsia triacanthos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Platanus orientalis (http://dbpedia.org/resource/Platanus_orientalis) for cells containing \"PlatanusOrientalis\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PlatanusOrientalis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Platanus_orientalis",
+      "name": "Platanus orientalis",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Populus alba (http://dbpedia.org/resource/Populus_alba) for cells containing \"PopulusAlba\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PopulusAlba",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Populus_alba",
+      "name": "Populus alba",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Prunus cerasifera (http://dbpedia.org/resource/Prunus_cerasifera) for cells containing \"PrunusCerasifera\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PrunusCerasifera",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Prunus_cerasifera",
+      "name": "Prunus cerasifera",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Acer pseudoplatanus (http://dbpedia.org/resource/Acer_pseudoplatanus) for cells containing \"Acerâ pseudoplatanus\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "Acerâ pseudoplatanus",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Acer_pseudoplatanus",
+      "name": "Acer pseudoplatanus",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cedrus deodara (http://dbpedia.org/resource/Cedrus_deodara) for cells containing \"CedrusDeodara\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "CedrusDeodara",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cedrus_deodara",
+      "name": "Cedrus deodara",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Pinus halepensis (http://dbpedia.org/resource/Pinus_halepensis) for cells containing \"PinusHalepensis\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "PinusHalepensis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pinus_halepensis",
+      "name": "Pinus halepensis",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ulmus minor (http://dbpedia.org/resource/Ulmus_minor) for cells containing \"UlmusMinor\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "UlmusMinor",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ulmus_minor",
+      "name": "Ulmus minor",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ulmus minor subsp. minor (http://dbpedia.org/resource/Ulmus_minor_subsp._minor) for cells containing \"UlmusSp\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "UlmusSp",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ulmus_minor_subsp._minor",
+      "name": "Ulmus minor subsp. minor",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column dbpedia:Especie at index 6 based on column NombreEspecieURI using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "dbpedia:Especie",
+    "columnInsertIndex": 6,
+    "baseColumnName": "NombreEspecieURI",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE_ESPECIE using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE_ESPECIE using expression grel:value.replace(\" \",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "grel:value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acerâ pseudoplatanus"
+        ],
+        "to": "AcerâPseudoplatanus"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Populusâ alba'bolleana'"
+        ],
+        "to": "PopulusâAlbaBolleana"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (http://dbpedia.org/resource/Salamanca) for cells containing \"Salamanca\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Salamanca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Salamanca",
+      "name": "Salamanca",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vicalvaro (http://dbpedia.org/resource/Vicalvaro) for cells containing \"Vicalvaro\" in column NombreDistritoURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreDistritoURI",
+    "similarValue": "Vicalvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vicalvaro",
+      "name": "Vicalvaro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PrunusCerasiferaSubsp.Pissartii"
+        ],
+        "to": "PrunusCerasiferaSubspPissartii"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AcerâPseudoplatanus"
+        ],
+        "to": "AcerPseudoplatanus"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "LigustrumâJaponicumâVariegata"
+        ],
+        "to": "LigustrumJaponicumVariegata"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE_ESPECIE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE_ESPECIE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PopulusâAlbaBolleana"
+        ],
+        "to": "PopulusAlbaBolleana"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Populusâ alba'bolleana'"
+        ],
+        "to": "Populus_alba_bolleana"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Populus sect. Populus (http://dbpedia.org/resource/Populus_sect._Populus) for cells containing \"Populus_alba_bolleana\" in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "similarValue": "Populus_alba_bolleana",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Populus_sect._Populus",
+      "name": "Populus sect. Populus",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NombreEspecieURI",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NombreEspecieURI",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Populus_alba_bolleana"
+        ],
+        "to": "Populus_alba_bolleana"
+      }
+    ]
+  }
+]

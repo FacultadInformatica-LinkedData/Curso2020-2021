@@ -1,0 +1,72 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  rev: http://purl.org/stuff/rev#
+  gtfs: http://vocab.gtfs.org/terms#
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  owl: http://www.w3.org/2002/07/owl#
+  xml: http://www.w3.org/XML/1998/namespace
+  space: https://freewifizones/madrid/space#
+  location: https://freewifizones/madrid/location#
+  uri_base: https://freewifizones/madrid/
+  ex: http://example.com/ns#
+
+mappings:
+  space:
+    sources:
+      - [216619-0-wifi-municipal-updated-with-links.csv~csv]
+    s: https://freewifizones/madrid/space/$(PK)
+    po:
+      - [a, uri_base:space]
+      - [space:hasName, $(NOMBRE), xsd:string]
+      - [owl:sameAs, $(WIKIDATA:LIBRARY)~iri]
+      - [space:hasSchedule, $(HORARIO), xsd:string]
+      - [space:hasEquipment, $(EQUIPAMIENTO), xsd:string]
+      - [space:hasDescriptionEntity, $(DESCRIPCION-ENTIDAD), xsd:string]
+      - [space:hasDescription, $(DESCRIPCION), xsd:string]
+      - [space:hasRoute, $(TRANSPORTE), xsd:string]
+      - [space:hasTelephone, $(TELEFONO), xsd:string]
+      - [space:hasAccesibility, $(ACCESIBILIDAD), xsd:string]
+      - [space:hasUrl, $(CONTENT-URL)~iri]
+      - [space:hasEmail, $(EMAIL), xsd:string]
+      - [space:hasContact, $(CONTACTO), xsd:string]
+      - [space:hasType, $(TIPO), xsd:string]
+      - p: space:hasLocation
+        o:
+          - mapping: location
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(COORDENADAS)]
+                - [str2, $(COORDENADAS)]
+  location:
+    sources:
+      - [216619-0-wifi-municipal-updated-with-links.csv~csv]
+    s: https://freewifizones/madrid/location/$(COORDENADAS)
+    po:
+      - [a, uri_base:location]
+      - [location:address, $(DIRECCION), xsd:string]
+      - [location:addressName, $(NOMBRE-VIA), xsd:string]
+      - [location:addressType, $(CLASE-VIAL), xsd:string]
+      - [location:typeNum, $(TIPO-NUM), xsd:string]
+      - [location:num, $(NUM), xsd:integer]
+      - [location:floor, $(PLANTA), xsd:string]
+      - [location:orientation, $(ORIENTACION), xsd:string]
+      - [location:locality, $(LOCALIDAD), xsd:string]
+      - [location:province, $(PROVINCIA), xsd:string]
+      - [location:cp, $(CODIGO-POSTAL), xsd:integer]
+      - [location:neighborhood, $(BARRIO), xsd:string]
+      - [location:district, $(DISTRITO), xsd:string]
+      - [location:xcoordinate, $(COORDENADA-X), xsd:float]
+      - [location:ycoordinate, $(COORDENADA-Y), xsd:float]
+      - [location:latitude, $(LATITUD), xsd:float]
+      - [location:longitude, $(LONGITUD), xsd:float]
+      - [location:geographicalCoordinates, $(COORDENADAS-GEO), xsd:string]

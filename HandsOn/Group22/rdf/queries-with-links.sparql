@@ -1,0 +1,74 @@
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ns: <http://www.grupo22.es/ontology/>
+
+
+### SPARQl 1: ###
+#Id de las Actividades gratuitas
+
+		SELECT ?ACTIVIDADES 
+		WHERE {
+			?ACTIVIDADES ns:precio "0".
+		}
+
+### SPARQl 2: ###
+#Id de las Actividades cuyo coste sea exactamente 10€
+
+		SELECT ?ACTIVIDADES 
+		WHERE {
+			?ACTIVIDADES ns:precio "10".
+		}
+
+
+
+### SPARQl 3 ###
+#Id de las Actividades cuyo coste sea exactamente 15€
+
+		SELECT ?ACTIVIDADES 
+		WHERE {
+			?ACTIVIDADES ns:precio "15".
+		}
+
+### SPARQl 4 ### 
+#Propiedades del Centro Cultural Conde Duque
+
+
+		SELECT ?PROPERTY ?OBJECT
+		WHERE {
+		<http://www.grupo22.es/resource/UBICACION/Centro%20Cultural%20Conde%20Duque> ?PROPERTY ?OBJECT.
+		}
+
+### SPARQl 5 ### 
+# Actividades que tengan lugar el día 13 de Noviembre
+		SELECT ?ACTIVIDADES
+		WHERE {
+			?ACTIVIDADES ns:fecha "13/11/2020 20:30".
+		}
+
+
+### SPARQl 6 ### 
+#Actividades que tengan lugar el día 16 de Diciembre
+		SELECT ?ACTIVIDADES
+		WHERE {
+			?ACTIVIDADES ns:fecha "16/12/2020".
+		}
+
+### SPARQl 7 ### 
+#Dirección del Centro SocioCultural de Aravaca
+		SELECT ?OBJECT
+		WHERE {
+			<http://www.grupo22.es/resource/UBICACION/Centro%20Sociocultural%20Aravaca> <http://www.grupo22.es/ontology/direccion> ?OBJECT.
+		}
+
+### SPARQl 8 ### 
+#Dirección del Parque de El Retiro
+
+		SELECT ?OBJECT
+		WHERE {
+			<http://www.grupo22.es/resource/UBICACION/Parque%20de%20El%20Retiro> <http://www.grupo22.es/ontology/direccion> ?OBJECT.
+		}
+
+
+

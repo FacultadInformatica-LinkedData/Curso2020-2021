@@ -1,0 +1,125 @@
+ prefixes:
+    rr: http://www.w3.org/ns/r2rml#
+    foaf: http://xmlns.com/foaf/0.1/
+    xsd: http://www.w3.org/2001/XMLSchema#
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    rev: http://purl.org/stuff/rev#
+    schema: http://schema.org/
+    dct: http://purl.org/dc/terms/
+    rml: http://semweb.mmlab.be/ns/rml#
+    ql: http://semweb.mmlab.be/ns/ql#
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    findparking: http://findyourparking.es/lcc/ontology/Parking#
+
+ mappings:
+    Parking:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Parking/$(Id)
+      po:
+       - [a, findparking:Parking]
+       - [findparking:hasId, $(Id),xsd:string]
+       - [findparking:hasName, $(Name),xsd:string]
+       - [findparking:hasPublicSlots, $(Public Slots),xsd:integer]
+       - [findparking:hasResidentialSlots, $(Residential Slots),xsd:integer]
+       - [findparking:hasTotalSlots, $(Total Slots),xsd:integer]
+       - [findparking:hasSchedule, $(Schedule),xsd:string]
+       - [findparking:hasURLMoreInfo, $(URLMoreInfo),xsd:anyURI]
+       - [findparking:hasCoordX, $(CoordX),xsd:double]
+       - [findparking:hasCoordY, $(CoordY),xsd:double]
+       - [findparking:hasLatitude, $(Latitude),xsd:double]
+       - [findparking:hasLongitude, $(Longitude),xsd:double]
+       - [findparking:hasEmail, $(Email),xsd:string]
+       - [findparking:hasTelephone, $(Telephone),xsd:string]
+       - p: findparking:hasAddress
+         o:
+          mapping: Address
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Address-Id)]
+              - [str2, $(Address-Id)]
+
+       - p: findparking:hasProvince
+         o:
+          mapping: Province
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Province)]
+              - [str2, $(Province)]
+
+       - p: findparking:hasCity
+         o:
+          mapping: City
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(City)]
+              - [str2, $(City)]
+
+       - p: findparking:hasDistrict
+         o:
+          mapping: District
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(District)]
+              - [str2, $(District)]
+
+       - p: findparking:hasNeighborhood
+         o:
+          mapping: Neighborhood
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Neighborhood)]
+              - [str2, $(Neighborhood)]                                       
+
+    Address:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Address/$(Address-Id)
+      po:
+       - [a, findparking:Address]
+       - [findparking:hasAddressId, $(Address-Id),xsd:string]
+       - [findparking:hasStreet, $(Street),xsd:string]
+       - [findparking:hasNumber, $(Number),xsd:string]
+       - [findparking:hasPostalCode, $(Postal Code),xsd:string]
+   
+    Province:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Province/$(Province)
+      po:
+       - [a, findparking:Province] 
+       - [findparking:hasProvince, $(Province),xsd:string]
+
+    City:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/City/$(City)
+      po:
+       - [a, findparking:City]
+       - [findparking:hasCity, $(City),xsd:string]
+
+    District:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/District/$(District)
+      po:
+       - [a, findparking:District] 
+       - [findparking:hasDistrict, $(District),xsd:string]   
+
+    Neighborhood:
+      sources:
+        - [Parking_Slots-updated.csv~csv]
+      s: http://findyourparking.es/lcc/Neighborhood/$(Neighborhood)
+      po:
+       - [a, findparking:Neighborhood]
+       - [findparking:hasNeighborhood, $(Neighborhood),xsd:string]
+
+  
+
+
+                                

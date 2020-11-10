@@ -1,0 +1,57 @@
+[
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "PROVINCIA",
+      "expression": "value.replace(\"28\",\"Madrid\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column PROVINCIA using expression value.replace(\"28\",\"Madrid\")"
+    },
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "PROVINCIA",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wdreconcile.toolforge.org/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q162620",
+          "name": "province of Spain"
+        },
+        "autoMatch": false,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column PROVINCIA to type Q162620"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "PROVINCIA",
+      "similarValue": "Madrid",
+      "judgment": "matched",
+      "match": {
+        "id": "Q24004405",
+        "name": "Madrid Province",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Madrid Province (Q24004405) for cells containing \"Madrid\" in column PROVINCIA"
+    }
+  ]

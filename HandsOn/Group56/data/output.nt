@@ -1,0 +1,341 @@
+<http://group56.org/zonas-verdes/Distrito/CENTRO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/Distrito>.
+<http://group56.org/zonas-verdes/Distrito/CENTRO> <http://group56.org/zonas-verdes/nombreDistrito> "CENTRO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Distrito/CENTRO> <http://group56.org/zonas-verdes/tieneSubepigrafe> <http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES>.
+<http://group56.org/zonas-verdes/Distrito/ARGANZUELA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/Distrito>.
+<http://group56.org/zonas-verdes/Distrito/ARGANZUELA> <http://group56.org/zonas-verdes/nombreDistrito> "ARGANZUELA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Distrito/ARGANZUELA> <http://group56.org/zonas-verdes/tieneSubepigrafe> <http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "5025.42"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://group56.org/zonas-verdes/Subepigrafe>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreSubepigrafe> "ZONAS VERDES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreApartado> "PARQUES Y JARDINES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BAILEN N? 15"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreNaturaleza> "URBANA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "26814"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BAILEN N? 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR. DENTRO DE SU PER?METRO SE ENCUENTRA UBICADAUNA CASETA DE GUARDAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.001"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2979.2"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL MESON DE PAREDES, N?. 37 C/V CALLE DE AMPARO N? 26"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.002"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1637.34"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE MESON DE PAREDES N? 68"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.003"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "172.9"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA N? 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVCIOS COLECTIVOS ZONAS VERDES B?SICO. AFECTADO TOTALMENTE PARA JARDIN PUBLICO. PROYECTODEL BARRIO HISTORICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.004"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "5462.95"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA, N? 21-23 Y CALLE DE LA MORER?A, N? 28"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. AFECTADO TOTALMENTE POR LOS ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.005"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1001.53"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA, N?27 C/V CUESTA DE LOS CIEGOS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. AFECTADA PARA ZONA VERDE. ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.006"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "106811.18"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA C/V CUESTA DE LA VEGA"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. ANTIGUA ALAMEDA DE LA VIRGEN DEL PUERTO YJARDINES DE LA CUESTA DE LA VEGA. DENTRO DE SU PERIMETRO SE ENCUENTRAN UBICADOS UN EVACUATORIO, UNCANTON DE LIMPIEZAS, UNA CASETA DE PERSONAL DE JARDINER?A Y UNA PISTA POLIVALENTE."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.007"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1999.63"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA, N? 31 Y 37 C/V CUESTA DE JAVALQUINTO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.008"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1374.79"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SEGOVIA N? 35"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. AFECTADO PARA ZONA VERDE. ACCESOS AL VIADUCTO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.009"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "654.66"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "RONDA DE SEGOVIA N? 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.01"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "12346.82"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PLAZA DE GABRIEL MIRO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. EN SU INTERIOR SE ENCUENTRA LA PISTA DEPORTIVA\"GABRIEL MIR?\" (TAMBI?N DENOMINADA \"LAS VISTILLAS\"), SITUADA EN LA C/ GABRIEL MIR? C/V C/ BEATRIZGALINDO C/V C/ MORER?A."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.011"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "77.08"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.012"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "496.08"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BEATRIZ GALINDO N? 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.013"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "776.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS N? 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.014"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "539"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS N? 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.015"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "745.85"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE JAVALQUINTO N? 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.016"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "451.49"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE JAVALQUINTO N? 7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.017"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1099.58"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA MORERIA N? 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.018"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "939.95"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA MORERIA N? 22"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.019"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "471.75"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CUESTA DE LOS CIEGOS C/V CALLE DE BEATRIZ GALINDO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.02"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "13461.43"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BARCEL?"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. EN SU SUBSUELO SE CONSTRUYERON UNOSEVACUATORIOS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.021"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "710.4"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE FUENCARRAL N? 43"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.027"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "463"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA ALAMEDA N? 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. CUBIERTA P.A.R."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.022"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2120"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "RONDA SEGOVIA N? 57"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. FORMA PARTE DEL JARD?N CATALOGADO \"JARD?N EN C/ALGECIRAS\", CON PROTECCI?N NIVEL 3."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.023"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "704.65"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "RONDA SEGOVIA N? 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.024"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "395.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE JERTE N? 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.025"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1128.38"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL MES?N DE PAREDES N? 63"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONA VERDE B?SICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.026"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "372.3"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ALGECIRAS N? 8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. SOLAR QUE HA PASADO A ZONA VERDE. BAJA FINCA N?73 DEL INVENTARIO DEL AYUNTAMIENTO DE MADRID."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.028"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "920.5"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ALGECIRAS N? 4-6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.029"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "14193.99"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL ROSARIO C/V CALLE DE JERTE"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. EN EL INTERIOR DE SU PER?METRO SE ENCUENTRAUBICADA LA PISTA DEPORTIVA PARQUE DE LA CORNISA (PISTA DE BALONCESTO, PISTA DE V?LEY Y FUTBOLEY,PISTA DE B?DMIN TON Y TENIS DE MESA), SITA EN CALLE DEL ROSARIO, N?MERO 5."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.03"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "3385.55"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "AVENIDA DE LA GRAN VIA DE SAN FRANCISCO N? 19-21"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIO COLECTIVOS ZONAS VERDES B?SICO."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.048"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "3098"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CASINO N? 3 Y 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. (LA ZONA NORTE EST? CALIFICADA DE V?A P?BLICASEG?N PGOUM 97)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.077"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "7343.75"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE EMBAJADORES N? 66 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. EN EL INTERIOR DE SU PER?METRO SE ENCUENTRAINCLUIDA LA INSTALACI?N DEPORTIVA B?SICA PARQUE CASINO DE LA REINA (PISTA POLIDEPORTIVA Y PISTA DEBALONCESTO), SITA EN C/ EMBAJADORES, 66 C/V C/ CASINO, 3."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.216"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "207.21"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL SOMBRERETE N? 15"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. PARCELA NO DADA DE ALTA EN PMS; PARCELAREGULARIZADA POR LA LA DIRECTORA GENERAL DE PATRIMONIO POR CERTIFICACI?N DE 23 DE MARZO DE 2018,AGRUPACI?N Y SEGREGACI?N DE FINCAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.253"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2379.34"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PLAZA DEL GENERAL VARA DEL REY"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.255"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "108873.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESERIAS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR. DENTRO DE SU PERIMETRO, PROXIMO AL PASEO DEYESERIAS, SE ENCUENTRA UBICADO UN EVACUATORIO. SE ENCUENTRAN IGUALMENTE UBICADAS DOS CASETAS DEJARDINEROS Y UN CAMPO DE FUTBOL."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.032"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "853.1"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESERIAS N? 4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR, INTEGRADO EN EL PARQUE DE LA ARGANZUELA."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.033"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "9141.5"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CONCEJAL BENITO MART?N LOZANO N? 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. DENTRO DE SU PER?METRO SE ENCUENTRA UBICADA UNACASETA DE PERSONAL Y ALMAC?N DE HERRAMIENTAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.034"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "3013.5"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SAN ISIDORO DE SEVILLA N? 15 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.035"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "776.2"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESERIAS N? 43-49"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "CALIFICADO PARTE DE DOTACIONAL SERVICIOS COLECTIVOS V?A P?BLICA Y PARTE DE DOTACIONAL SERVICIOSCOLECTIVOS EQUIPAMIENTO B?SICO SEG?N PGOUM 97."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.036"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "176.55"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE CARMEN COBE?A N? 5 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "PARCELA NO INVENTARIADA EN PMS, CUYO PER?METRO EST? INCLUIDO EN ALINEACI?N DE VOLUMETR?A ESPEC?FICA,NORMA ZONA 3.2, SEG?N PGOUM 97."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.037"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "6731"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE EROS N? 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. DENTRO DE SU PER?METRO SE HALLA UBICADA LA IDBEROS (PISTA DE F?TBOL SALA)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.039"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2951"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE VILLOSLADA N? 5-11"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. PROTECCI?N ARQUEOL?GICA (ZPA TERRAZAS DELMANZANARES - NIVEL B)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.064"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "10548.3"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE SAN EPIFANIO N? 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.065"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1880.81"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL PUERTO DE B?JAR C/V CALLE DE EMBAJADORES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.066"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1529.31"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LOS MELANC?LICOS N? 34"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.067"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2916.41"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "TRAVESIA DE LOS MELANC?LICOS"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.068"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "828.4"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA ANTRACITA N? 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.069"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1072.6"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO C/V CALLE DEL PLOMO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.07"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "4544"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TIT?N N? 12"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.071"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1890"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL PLANETA TIERRA N? 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.072"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "10647"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TIT?N N? 11-15"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.073"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "6992"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO C/V CALLE DE EMBAJADORES N? 181"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.074"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1520"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO N? 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.075"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2131"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA ANTRACITA N? 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.076"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1260"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL RODIO C/V CALLE DEL HIERRO"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO; UNA PEQUE?A PARTE DE LA PARCELA CORRESPONDE ASUELO DOTACIONAL DE EQUIPAMIENTOS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.077"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "835.79"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA N? 13"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.078"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "529.94"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA N? 11"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.079"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1571.1"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA N? 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. PARTE ES V?A P?BLICA EN EL PGOUM-97."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.08"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1948.51"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE AMALTEA N? 2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.081"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1998.15"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL HIERRO N? 6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.082"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2201.85"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL HIERRO N? 8-16"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.083"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "650.62"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE VALDEMORILLO N? 3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.084"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1894.05"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL TENIENTE CORONEL NORE?A N? 67"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.085"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2550"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PLAZA DE CASAR DE C?CERES"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES. EN EL INTERIOR DE SU PER?METRO SE ENCUENTRA UBICADA LAINSTALACI?N DEPORTIVA B?SICA DENOMINADA JUAN DE VERA (PISTA DE BALONCESTO)."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.086"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1022.14"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LEONOR DE LA VEGA N? 1-11"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.062"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "4139.65"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL ORIANA N? 10"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.063"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "3267"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO N? 177"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO, CON PROTECCI?N NIVEL 3."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.04"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "4385.08"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE RICARDO DAMAS N? 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.041"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1200"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MAZARREDO N? 7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.042"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1625.76"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL TENIENTE CORONEL NORE?A N? 26 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.043"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1350.26"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL GENERAL LACY, N?. 23 C/V CALLE BUSTAMANTE"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.044"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "5336.95"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ARGANDA N? 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.045"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1350"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CINZ N? 1-3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.046"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE LA CIRCONITA N? 1-3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.047"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "4547.27"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE EMBAJADORES N? 173"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.048"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "864"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MELILLA N? 9"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.049"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1092.34"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE GRANITO, FRENTE AL N? 32-36"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.05"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "7637"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ARGANDA N? 1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.051"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1305"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MELILLA N? 57-65"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.052"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MELILLA N? 37-47"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.053"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "443.43"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO N? 151"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.054"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "3154.88"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO N? 155"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.055"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2390.54"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "TRAVESIA DE SAN ISIDORO DE SEVILLA N? 7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.056"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1077.2"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BOL?VAR N? 18B-D"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.057"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2099"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOM?S BRET?N N? 58"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.058"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2061.82"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE BOL?VAR N? 24B-E"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.059"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "873.28"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL PLOMO N? 5A"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.06"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "3033"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE TOLEDO N? 178"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "300.038"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "10608.66"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL CRISTO DEL CAMINO N? 5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES SINGULAR."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.046"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "36633.96"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DEL P?RROCO EUSEBIO CUENCA N? 13"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.047"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "443"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE ALEJANDRO SAINT AUBIN N? 2 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.049"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1312.35"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "GLORIETA DE SAN V?CTOR"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.05"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "28239"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE GARGANTILLA N? 2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. PARQUE URBANO. EN EL INTERIOR DE SU PER?METRO SEENCUENTRAN UBICADAS UNA CASETA DE PERSONAL Y UN ALMAC?N DE HERRAMIENTAS."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.112"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "2990.56"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE PALOS DE LA FRONTERA N? 42"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.202"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "9150"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS YESER?AS N? 35 B"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.203"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "3363"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE MORATINES N? 27"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.204"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "1799"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "CALLE DE VILLA DEL PRADO N? 2-4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.205"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/tamanioSolar> "7664.63"^^<http://www.w3.org/2001/XMLSchema#double>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreCalle> "PASEO DE LAS ACACIAS N? 31"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/nombreDestino> "DOTACIONAL SERVICIOS COLECTIVOS ZONAS VERDES B?SICO. EN EL INTERIOR DE SU PER?METRO SE ENCUENTRAUBICADA LA INSTALACI?N DEPORTIVA B?SICA DOCTOR VALLEJO N?JERA (PISTA DE BALONCESTO), SITA EN LA CALLEGAS?METRO, N?M. 32."^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://group56.org/zonas-verdes/Subepigrafe/ZONAS%20VERDES> <http://group56.org/zonas-verdes/numeroArchivo> "301.206"^^<http://www.w3.org/2001/XMLSchema#string>.

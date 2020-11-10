@@ -1,0 +1,15 @@
+{
+    "datasources" : [
+        {
+            "id": "RDF file",
+            "handler" : {"type" : "RDFHandler", "format" : "TTL"},
+            "provider" : {"type" : "FileProvider", "file" : "./mappings/output-with-links.ttl"}
+        }
+    ],
+    "resource_rules" : [
+        {
+            "id" : "RDF file rules",
+            "datasource_ids" : ["RDF file"]
+        }
+    ]
+}

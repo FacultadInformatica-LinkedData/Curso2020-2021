@@ -1,0 +1,246 @@
+<http://linkeddata.es/group09/ontology/TrafficAccident#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#dateTime
+<http://www.w3.org/2001/XMLSchema#dateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The <xs:datetime> data type is used to represent date and time in YYYY-MM-DDThh:mm:ss format\r\n\r\nYYYY − represents year\r\nMM − represents month\r\nDD − represents day\r\nT − represents start of time section\r\nhh − represents hours\r\nmm − represents minutes\r\nss − represents seconds"@en .
+# 
+# http://www.w3.org/2001/XMLSchema#string
+<http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2000/01/rdf-schema#comment> "The string data type can contain characters, line feeds, carriage returns, and tab characters"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Person> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle> <http://www.w3.org/2000/01/rdf-schema#range> <http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "A Person has a TypeOfVehicle"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "tieneTipoDeVehiculo"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#occursOn
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursOn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursOn> <http://www.w3.org/2000/01/rdf-schema#comment> "An Accident occurs on a Street Crossing"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursOn> <http://www.w3.org/2000/01/rdf-schema#label> "ocurreEn"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#occursTo
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Person> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursTo> <http://www.w3.org/2000/01/rdf-schema#comment> "An Accident occurs to a Person"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursTo> <http://www.w3.org/2000/01/rdf-schema#label> "ocurreA"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident> <http://www.w3.org/2000/01/rdf-schema#range> <http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident> <http://www.w3.org/2000/01/rdf-schema#comment> "An Accident is classified within a TypeOfAccident"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident> <http://www.w3.org/2000/01/rdf-schema#label> "tipoDeAccidente"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Person> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson> <http://www.w3.org/2000/01/rdf-schema#range> <http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson> <http://www.w3.org/2000/01/rdf-schema#comment> "A Person is classified within a TypeOfPerson"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson> <http://www.w3.org/2000/01/rdf-schema#label> "tipoDePersona"@es .
+# 
+# http://rdf.muninn-project.org/ontologies/appearances.html#hasSex
+<http://rdf.muninn-project.org/ontologies/appearances.html#hasSex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/appearances.html#hasSex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Person> .
+<http://rdf.muninn-project.org/ontologies/appearances.html#hasSex> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/appearances.html#Sex> .
+<http://rdf.muninn-project.org/ontologies/appearances.html#hasSex> <http://www.w3.org/2000/01/rdf-schema#comment> "A Person has a Sex"@en .
+<http://rdf.muninn-project.org/ontologies/appearances.html#hasSex> <http://www.w3.org/2000/01/rdf-schema#label> "tieneSexo"@es .
+# 
+# http://www.wikidata.org/prop/direct/P131
+<http://www.wikidata.org/prop/direct/P131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/direct/P131> <http://www.w3.org/2000/01/rdf-schema#domain> <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> .
+<http://www.wikidata.org/prop/direct/P131> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.co/juso/District> .
+<http://www.wikidata.org/prop/direct/P131> <http://www.w3.org/2000/01/rdf-schema#comment> "A Street Crossing is located in a District"@en .
+<http://www.wikidata.org/prop/direct/P131> <http://www.w3.org/2000/01/rdf-schema#label> "localizadoEn"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth
+<http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "Month in which an Accident happens"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth> <http://www.w3.org/2000/01/rdf-schema#label> "ocurreEnMes"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Person> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange> <http://www.w3.org/2000/01/rdf-schema#comment> "Age range of the person who suffered the accident"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange> <http://www.w3.org/2000/01/rdf-schema#label> "tieneRangoEdad"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier of an accident"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient> <http://www.w3.org/2000/01/rdf-schema#label> "tieneExpediente"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Street crossing number where the accident occurred. If it has no number it is an empty value"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber> <http://www.w3.org/2000/01/rdf-schema#label> "tieneNumero"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the first street of the street crossing"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1> <http://www.w3.org/2000/01/rdf-schema#label> "tieneCalle1"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the second street of the street crossing.  It can be empty if the accident occurs only on a street"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2> <http://www.w3.org/2000/01/rdf-schema#label> "tieneCalle2"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "1-hour interval in which the accident occurred"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "ocurreEnPeriodo"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#weather
+<http://linkeddata.es/group09/ontology/TrafficAccident#weather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#weather> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#weather> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#weather> <http://www.w3.org/2000/01/rdf-schema#comment> "Weather at the time of the accident"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#weather> <http://www.w3.org/2000/01/rdf-schema#label> "tiempo"@es .
+# 
+# http://ns.nature.com/terms/date
+<http://ns.nature.com/terms/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ns.nature.com/terms/date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://transportdisruption.github.io/#Accident> .
+<http://ns.nature.com/terms/date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ns.nature.com/terms/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Date and hour of an accident"@en .
+<http://ns.nature.com/terms/date> <http://www.w3.org/2000/01/rdf-schema#label> "tieneFecha"@es .
+# 
+# http://vocab.datex.org/terms/#injuryStatus
+<http://vocab.datex.org/terms/#injuryStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.datex.org/terms/#injuryStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Person> .
+<http://vocab.datex.org/terms/#injuryStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://vocab.datex.org/terms/#injuryStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Level of damage suffered by the person in the accident."@en .
+<http://vocab.datex.org/terms/#injuryStatus> <http://www.w3.org/2000/01/rdf-schema#label> "estadoLesividad"@es .
+# 
+# http://xmlns.com/foaf/spec/#name
+<http://xmlns.com/foaf/spec/#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xmlns.com/foaf/spec/#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.co/juso/District> .
+<http://xmlns.com/foaf/spec/#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://xmlns.com/foaf/spec/#name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the district where the accident occurred"@en .
+<http://xmlns.com/foaf/spec/#name> <http://www.w3.org/2000/01/rdf-schema#label> "nombreDistrito"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/Person
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Person having an accident"@en .
+<http://dbpedia.org/ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Persona"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing
+<http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> <http://www.w3.org/2000/01/rdf-schema#comment> "Street crossing in which an accident occurs. It can also be just a street"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> <http://www.w3.org/2000/01/rdf-schema#label> "Cruce"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of accident that has occurred (e.g. crash, fall, run over)"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Accidente"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of person who has suffered an accident (e.g. driver, passenger)"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Persona"@es .
+# 
+# http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of vehicle in which an accident has occurred (e.g. motorcycle, van)"@en .
+<http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Vehículo"@es .
+# 
+# http://rdf.muninn-project.org/ontologies/appearances.html#Sex
+<http://rdf.muninn-project.org/ontologies/appearances.html#Sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/appearances.html#Sex> <http://www.w3.org/2000/01/rdf-schema#comment> "Sex of a person who has suffered an accident"@en .
+<http://rdf.muninn-project.org/ontologies/appearances.html#Sex> <http://www.w3.org/2000/01/rdf-schema#label> "Sexo"@es .
+# 
+# http://rdfs.co/juso/District
+<http://rdfs.co/juso/District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfs.co/juso/District> <http://www.w3.org/2000/01/rdf-schema#comment> "District in which an accident occurs"@en .
+<http://rdfs.co/juso/District> <http://www.w3.org/2000/01/rdf-schema#label> "Distrito"@es .
+# 
+# https://transportdisruption.github.io/#Accident
+<https://transportdisruption.github.io/#Accident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://transportdisruption.github.io/#Accident> <http://www.w3.org/2000/01/rdf-schema#comment> "Accident that takes place in Madrid"@en .
+<https://transportdisruption.github.io/#Accident> <http://www.w3.org/2000/01/rdf-schema#label> "Accidente"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dbpedia.org/ontology/Person> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf.muninn-project.org/ontologies/appearances.html#Sex> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdfs.co/juso/District> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://transportdisruption.github.io/#Accident> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang = es>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>ParkingSlots-App</title>
+</head>
+<body>
+<div class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="http://127.0.0.1:5000/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/adrix1341/Curso2020-2021">Github Group 02</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="http://127.0.0.1:5000/Streets">Streets<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="http://127.0.0.1:5000/Ontology">Ontology<span class="sr-only">(current)</span></a>
+        </ul>
+
+
+    </nav>
+</div>
+
+
+<!-- Mask & flexbox options-->
+<div class="mask rgba-gradient d-flex justify-content-center align-items-center" style="background-image: url('https://www.seguropordias.com/img/contenido/aparcar-madrid-chamartin.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <!-- Content -->
+    <div class="container" >
+        <!--Grid row-->
+
+
+        <h1 class="h1-responsive font-weight-bold mt-sm-5">Search your nearest parking in Madrid with our app </h1>
+        <hr class="hr-light">
+        <div class = "container border border-dark bg-info">
+            <p class = "h2 text-center font-italic te"><u><b>Steps to get your nearest parking:</b></u></p>
+            <ol>
+                <b><li class = "h3-responsive">Press the first button under this box to get your coordinates, enter the result provided into the first form and click the button next to it.</li></b>
+                <b><li class = "h3-responsive ">Alternatively enter your postal code in the second form and click the button next to it (note that only Madrid city's postal codes are supported).</li></b>
+                <b><li class ="h3-responsive">A map will be shown with your location in a blue mark, and the nearest parking in a red mark.</li></b>
+                <b><li class ="h3-responsive">For more info about the indicated parking, click the red mark.</li></b>
+            </ol>
+        </div>
+
+
+    </div>
+    <!--Grid row-->
+</div>
+<!-- Content -->
+</div>
+<!-- Mask & flexbox options-->
+
+<br><br>
+<style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+        height: 100%;
+    }
+
+    @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .view {
+            height: 1000px;
+        }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+        html,
+        body,
+        header,
+        .view {
+            height: 600px;
+        }
+    }
+
+    .btn .fa {
+        margin-left: 3px;
+    }
+
+    .top-nav-collapse {
+        background-color: #424f95 !important;
+    }
+
+    .navbar:not(.top-nav-collapse) {
+        background: transparent !important;
+    }
+
+    @media (max-width: 991px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #424f95 !important;
+        }
+    }
+
+    .btn-white {
+        color: black !important;
+    }
+
+    h6 {
+        line-height: 1.7;
+    }
+
+
+</style>
+
+
+
+<div class = "container text-center border border-dark">
+    <h4>Press this button to first get the coordinates of your location. (you must enable your GPS)</h4>
+    <button type="button" class="btn btn-warning" onclick="getLocation()">Get your coordinates</button>
+
+    <br>
+    <div class="container">
+        <p id="demo"></p>
+    </div>
+    <br>
+
+
+    <form class="form-inline my-2 my-lg-0 text-center" action="{{ url_for('sparql_search') }}" method="post">
+        <input class="form-control mr-sm-2" type="text" name="street"  placeholder="[Latitude,Longitude]">
+        <button class="btn btn-outline-success my-2 my-sm-0"> Search for a parking </button>
+    </form>
+
+    <br>
+    <form class="form-inline my-2 my-lg-0 text-center" action="{{ url_for('sparql_search') }}" method="post">
+        <input class="form-control mr-sm-2"  type="text" name="postalCode"  placeholder="Postal code, Ex:[28015]">
+        <button class="btn btn-outline-success my-2 my-sm-0"> Search for a parking </button>
+    </form>
+</div>
+
+<script>
+    var x = document.getElementById("demo");
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        x.innerHTML = "[Latitude,Longitude]:  COPY THIS --->  " + position.coords.latitude +
+            "," + position.coords.longitude;
+
+    }
+</script>
+</body>
+</html>

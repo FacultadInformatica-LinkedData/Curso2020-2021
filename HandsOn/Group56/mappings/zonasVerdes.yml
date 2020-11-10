@@ -1,0 +1,49 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  rml: http://semweb.mmlab.be/ns/rml#
+  ex: http://group56.org/zonas-verdes/
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+mappings:
+
+
+  distrito:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Distrito/$(Distrito)
+    po:
+      - [a, ex:Distrito]
+      - [ex:nombreDistrito, $(Distrito),xsd:string]  
+      - p: ex:tieneSubepigrafe
+        o:
+           mapping: subepigrafe            
+
+      
+  subepigrafe:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Subepigrafe/$(Subepigrafe)
+    po:
+      - [a, ex:Subepigrafe]
+      - [ex:nombreSubepigrafe, $(Subepigrafe),xsd:string]
+
+
+  ndeArchivo:
+    sources:
+      - [ZonasVerdes-updated.csv~csv]
+    s: http://group56.org/zonas-verdes/Numero_de_archivo/$(Numero_de_archivo)
+    po:
+      - [a, ex:NdeArchivo]
+      - [ex:numeroArchivo, $(Numero_de_archivo),xsd:string]
+      - [ex:nombreApartado, $(Apartado),xsd:string]
+      - [ex:nombreCalle, $(Situacion_Destino),xsd:string]
+      - [ex:nombreDestino, $(Destino),xsd:string]
+      - [ex:nombreNaturaleza, $(Naturaleza_del_inmueble),xsd:string]
+      - [ex:tamanioSolar, $(Tamanio_Solar),xsd:double]
+      - p: ex:tieneDistrito
+        o:
+           mapping: distrito
+           
+      
+              
+      

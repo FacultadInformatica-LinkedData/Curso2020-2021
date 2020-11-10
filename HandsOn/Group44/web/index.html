@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+                               integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+                               crossorigin=""/>
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin=""></script>
+
+        <link rel="stylesheet" href="./style.css">
+        <script type="text/javascript" src="./logic.js"></script>
+
+    </head>
+    <body>
+
+        <h1>Welcome to Semantic Web Web</h1>
+        <div id="map">
+            <script>map()</script>
+        </div>
+
+        <div class="container">
+            <div id="infoEstacion" style="display: none">
+                <label for="nEstacion"></label>
+                <span name=nEstacion id="nombreEstacion"></span>
+                <br>
+                <label for="nProvincia">Provinicia: </label>
+                <span name=nProvincia id="nombreProvincia"></span>
+                <br>
+                <label for="nMunicipio">Municipio: </label>
+                <span name=nMunicipio id="nombreMunicipio"></span>
+                <br>
+                <label for="numeroEstacion">Número de estación: </label>
+                <span name=numeroEstacion id="numero"></span>
+                <br>
+                <label for="start">Seleccione la fecha deseada:</label>
+                <input type="date" id="start" name="trip-start"
+                                              value="2020-01-01"
+                                              min="2020-01-01" max="2020-08-31">
+                <button type="button" onClick="compuestos()">Buscar</button>
+            </div>
+            <br>
+            <div id="muestra" class="centrado" style="display: none">
+                <div class="cuadro">
+
+                    <h4 for="fecha">Muestra recogida el: </h4>
+                    <span name=nfecha id="fecha"></span>
+
+                    Elemento 1: Acido sulfurico <br>
+                    Elemento 1: Acido sulfurico <br>
+                    Elemento 1: Acido sulfurico <br>
+                    Elemento 1: Acido sulfurico <br>
+                    Elemento 1: Acido sulfurico <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

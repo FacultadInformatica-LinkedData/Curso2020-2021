@@ -1,0 +1,1 @@
+[{"Test":"hasCity range City","Results":[{"Ontology":"http://findyourparking.es/lcc/ontology/Parking","Result":"Absent"}]},{"Test":"hasCity domain City","Results":[{"Ontology":"http://findyourparking.es/lcc/ontology/Parking","Result":"Absent"}]},{"Test":"City type Class","Results":[{"Ontology":"http://findyourparking.es/lcc/ontology/Parking","Result":"Passed"}]}]

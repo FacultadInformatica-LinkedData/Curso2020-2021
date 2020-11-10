@@ -324,20 +324,11 @@
             <strong class="d-block text-gray-dark"
               >Arbolado parques historico singulares forestales 2019</strong
             >
-            <br />
-            1. It divides the park by the type of trees and it counts all of
-            them.
-            <br />
-            2. There are trees that do not have a specific species and in that
-            case it says "otros".
-            <br />
-            3. There is a species that is duplicated and we will only take into
-            account its value ("ulmus sp").
-            <br />
-            4. There are 16 parks, 82 species and the range of tree units per
-            species goes from 0 to 301.689.
-            <br />
-            <br />
+			
+			This file was discarded because some data didnt match  with the others files
+			
+			<br />
+		  
             <a
               style="text-align: left"
               href="csv/ArboladoParquesHistoricoSingularesForestales_2019.csv"
@@ -372,16 +363,11 @@
             <strong class="d-block text-grey-dark">Methodology followed</strong>
 
           <br />
-          We have separated the endpoints in resources and ontologies. The base domain of the chosen URI is http://api.zonasverdesmadrid.es. We have three classes: districts, parks,
-          species.
+          We have separated the endpoints in resources and ontologies. The base domain of the chosen URI is http://api.zonasverdesmadrid.es. We have one main class.
           <br />
        
-          1. From the districts class we have selected the following properties that relate a district from the datasets:
-          hasId, hasName, hasTotal, hasPark, hasHeightAverage, hasYoung, justPlanted, hasOld, hasMature and hasOther.
-          <br />
-          2. From the parks class that is linked to the districts class we have introduced the following properties: hasName and hasSpecies.
-          <br />
-          3. From the species class that is linked to the districts and parks classes we have introduced the following properties: hasName and hasUnits.
+          From the class we have selected the following properties that relate a district from the datasets:
+          hasId, hasName, hasTotal, hasHeightAverage, hasYoung, justPlanted, hasOld, hasMature and hasOther.
         
           </p>
         </div>
@@ -412,28 +398,36 @@
             <br />
             <i style="color: #e83e8c">Paths:</i>
             <br />
-            http://api.zonasverdesmadrid.es/resources/
-            http://api.zonasverdesmadrid.es/resources/districts/{distrito_id}
-            http://api.zonasVerdesMadrid.es/resources/parks/{park_id}
-            http://api.zonasVerdesMadrid.es/resources/species/{species_id}
-            http://api.zonasVerdesMadrid.es/ontologies/districts
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasId
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasName
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasTotal
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasPark
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasHeightAverage
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasPerimeterAverage
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasYoung
-            http://api.zonasVerdesMadrid.es/ontologies/districts#justPlanted
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasOld
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasMature
-            http://api.zonasVerdesMadrid.es/ontologies/districts#hasOther
-            http://api.zonasVerdesMadrid.es/ontologies/parks
-            http://api.zonasVerdesMadrid.es/ontologies/parks#hasName
-            http://api.zonasVerdesMadrid.es/ontologies/parks#hasSpecies
-            http://api.zonasVerdesMadrid.es/ontologies/species
-            http://api.zonasVerdesMadrid.es/ontologies/species#hasName
-            http://api.zonasVerdesMadrid.es/ontologies/species#hasUnits
+            http://api.zonasverdesmadrid.es/resources/	
+			<br />
+            http://api.zonasverdesmadrid.es/resources/districts/{district_name}
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasId
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasName
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasTotal
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasHeightAverage
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasPerimeterAverage
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasYoung
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasjustPlanted
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasOld
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasMature
+			<br />
+            http://api.zonasverdesmadrid.es/ontologies/districts#hasOther
+			<br />
+			http://api.zonasverdesmadrid.es/ontologies/districts#hasUnits
+			<br />
+			http://api.zonasverdesmadrid.es/ontologies/districts#hasSpecies
+			
           </p>
         </div>
       </div>

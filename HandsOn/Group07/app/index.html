@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" style="
+    margin-top: 2vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Marcos Moreno Nogueira, David Aguirre Huelves, Daniel Martino Marcos, Raul Gonzalez Duarte">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>Proyecto SemanticWeb</title>
+  </head>
+  <body style="background-color: #FFF090">
+    <div class="container bg-light">
+    	<div class="text-center form-group" style="padding-top: 0.5vw; width: 60%; margin: auto; padding-bottom: 1vw">
+    		<label for="selEstacion"><h3>Seleccione la estaci&oacute;n</h3></label>
+    		<div class="row">
+    			<select class="form-control col-9" id="selEstacion">
+      				<!-- handled by javaScript -->
+    			</select>
+    			<button class="col-2" onclick="infoEstacion()" style="margin-left: 1vw">Buscar</button>
+    		</div>
+  		</div>
+
+  		<div class="text-center" id="cont">	
+  			<!-- handled by javaScript -->
+  		</div>
+
+  		<div class="container" id="geo" style="padding: 1vw"> 
+			<!-- handled by javaScript -->
+  		</div>
+
+  		<div class="text-center" id="municipio">	
+  			<!-- handled by javaScript -->
+  		</div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$.ajax({
+    			type: "GET",
+    			url: 'https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/HandsOn/Group07/csv/Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv',
+    			dataType: 'text',
+  			}).done(function(data){
+  				var dataMap = [];
+    			var allRows = data.split(/\r?\n|\r/);
+    			for (var singleRow = 1; singleRow < allRows.length-1; singleRow++) {
+    				var value = allRows[singleRow].split(',');
+    				var key = singleRow - 1;
+    				dataMap.push({index: key, datos: value});
+    			}
+    			save = JSON.stringify(dataMap);
+    			sessionStorage.dataMap = save;
+    			listaEstaciones();
+  			});
+    	});
+    </script>
+    <script type="text/javascript">
+    	function listaEstaciones() {
+    		var retrieve = sessionStorage.dataMap;
+    		var dataMap = JSON.parse(retrieve);
+    		var added = [];
+    		for (let i = 0; i < dataMap.length; i++) {
+    			let elem = dataMap[i].datos[3];
+    			if (!added.includes(elem)){
+    				added.push(elem);
+    			}
+    		} 
+    		added.sort();
+    		for (let i = 0; i < added.length; i++) {
+    			var option = '<option>' + added[i] + '</option>';
+    			$('#selEstacion').append(option);
+    		}
+    	}
+    </script>
+    <script type="text/javascript">
+    	function infoEstacion(){
+    		document.getElementById("cont").innerHTML = '<h4> Informaci&oacute;n de l&iacute;neas </h4>';
+    		document.getElementById("municipio").innerHTML = '<h4> Informaci&oacute;n del municipio </h4>';
+    		var retrieve = sessionStorage.dataMap;
+    		var dataMap = JSON.parse(retrieve);
+    		var num = document.getElementById("selEstacion");
+			var selected = num.options[num.selectedIndex].text;
+    		var linksL = [];
+    		var linksG;
+    		var linksM;
+    		var corona; 
+    		for (let i = 0; i < dataMap.length; i++) {
+    			if (!dataMap[i].datos[3].localeCompare(selected)) {
+    				let elem = dataMap[i].datos[1];
+    				if (!linksL.includes(elem)) {
+    					linksL.push(elem);
+    				}
+    				elem = dataMap[i].datos[4];
+    				if (linksG == null && elem != null) {
+    					linksG = elem;
+    				}
+    				elem = dataMap[i].datos[7];
+    				if (linksM == null && elem != null) {
+    					linksM = elem;
+    				}
+    				elem = dataMap[i].datos[8];
+    				if (corona == null && elem != null) {
+    					corona = elem;
+    				}
+    			}
+    		}
+    		for (let i = 0; i < linksL.length; i++) {
+    			let tam = linksL[i].length-30;
+    			let id = linksL[i].substr(30, tam);
+    			let url = "https://www.wikidata.org/wiki/Special:EntityData/";
+    			$.ajax({
+    				type: "GET",
+    				url: url + id + '.json',
+    				dataType: 'text',
+  				}).done(function(data){
+  					var divr = document.createElement("div");
+  					divr.setAttribute("class", "row text-center align-items-center");
+  					divr.setAttribute("style", "padding: 1vw");
+  					divr.setAttribute("id", "divr" + i);
+  					document.getElementById("cont").appendChild(divr);
+
+  					var imgEstacion = document.createElement("div");
+  					imgEstacion.setAttribute("class", "col-9");
+  					imgEstacion.setAttribute("id", "imgEstacion" + i);
+  					document.getElementById("divr" + i).appendChild(imgEstacion);
+
+  					var longitud = document.createElement("div");
+  					longitud.setAttribute("class", "col-3");
+  					longitud.setAttribute("id", "longitud" + i);
+  					document.getElementById("divr" + i).appendChild(longitud);
+
+  					var json = JSON.parse(data);
+  					var urlImg = "https://commons.wikimedia.org/w/thumb.php?width=800&f=";
+  					let imgPlano = json.entities[id].claims.P15[0].mainsnak.datavalue.value;
+  					imgPlano = imgPlano.replaceAll(' ', '_');
+  					var imgP = document.createElement("img");
+					imgP.setAttribute("src", urlImg + imgPlano);
+  					document.getElementById("imgEstacion" + i).appendChild(imgP);
+
+  					var elem = document.createElement("p");
+  					let long = (json.entities[id].claims.P2043[0].mainsnak.datavalue.value.amount).replace('+','');
+  					elem.setAttribute("style", "font-size: 2vw");
+  					elem.innerHTML = '<b> Longitud: </b>' + long + " kil&oacute;metros";
+  					document.getElementById("longitud" + i).appendChild(elem);
+  				});
+    		}
+
+    		let tam = linksG.length-30;
+    		let id = linksG.substr(30, tam);
+    		let url = "https://www.wikidata.org/wiki/Special:EntityData/";
+    		$.ajax({
+    			type: "GET",
+    			url: url + id + '.json',
+    			dataType: 'text',
+  			}).done(function(data){
+  				var json = JSON.parse(data);
+  				let lat = json.entities[id].claims.P625[0].mainsnak.datavalue.value.latitude;
+  				let lon = json.entities[id].claims.P625[0].mainsnak.datavalue.value.longitude;
+  				var loc = document.createElement("iframe");
+  				
+  				document.getElementById("geo").innerHTML = '<h4 class="text-center" style= "padding-bottom: 1vw"> Ubicaci&oacute;n </h4><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=' + lat + ',' + lon + '&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>';
+  			});
+
+  			let tam2 = linksM.length-30;
+    		let id2 = linksM.substr(30, tam);
+    		$.ajax({
+    			type: "GET",
+    			url: url + id2 + '.json',
+    			dataType: 'text',
+  			}).done(function(data){
+  				var json = JSON.parse(data);
+  				var urlImg = "https://commons.wikimedia.org/w/thumb.php?width=200&f=";
+  				let escudo = (json.entities[id2].claims.P94[0].mainsnak.datavalue.value).replace(' ', '_');
+  				let name = json.entities[id2].labels.es.value;
+
+  				var divr = document.createElement("div");
+  				divr.setAttribute("class", "row text-center align-items-center");
+  				divr.setAttribute("style", "padding: 1vw");
+  				divr.setAttribute("id", "divr");
+  				document.getElementById("municipio").appendChild(divr);
+
+  				var nombre = document.createElement("div");
+  				nombre.setAttribute("class", "col-4");
+  				nombre.setAttribute("id", "nombre");
+  				document.getElementById("divr").appendChild(nombre);
+
+  				var divE = document.createElement("div");
+  				divE.setAttribute("class", "col-4");
+  				divE.setAttribute("id", "divE");
+  				document.getElementById("divr").appendChild(divE);
+
+  				var tarifa = document.createElement("div");
+  				tarifa.setAttribute("class", "col-4");
+  				tarifa.setAttribute("id", "tarifa");
+  				document.getElementById("divr").appendChild(tarifa);
+
+				var imgE = document.createElement("img");
+				imgE.setAttribute("src", urlImg + escudo);
+  				document.getElementById("divE").appendChild(imgE);
+
+  				document.getElementById("nombre").innerHTML = '<p style="font-size: 2vw"><b>' + name + '</b></p>';
+
+  				document.getElementById("tarifa").innerHTML = '<p style="font-size: 2vw"><b> Zona tarifaria: </b>' + corona + '</p>';
+  			});
+    	}
+    </script>
+  </body>
+</html>

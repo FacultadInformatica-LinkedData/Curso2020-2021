@@ -22,4 +22,18 @@
 
 ## Comments on the self-assessment ##
 
-
+### v1
+* Initial version of the ontology developed, 2 object properties, 8 data properties and 2 classes.
+### v2
+* Changed object property _locatedAt_ by defining class _Station_ as subclass of _schema:Place_.
+### v3
+* Reduced data properties to 4 in order to lightweight the ontology and making the mapping easier.
+### v4
+* Modified _csv-shortened.csv_ document in order to restore _date_ column, which was lost in the shortening process.
+### v5
+* Included _Magnitude_ entity, used for identifying each magnitude with its name and code.
+### v6
+* Added _District_ and _Street_ entities, as well of their corresponding data and object properties, in order to accomplish the linking of the data with other datasources.
+### v7
+* Redefined two properties with multiple domain targets to an owl:unionOf classes, due to the Oops! evaluation.
+* Included _inStreet_ property, which was actually missing.

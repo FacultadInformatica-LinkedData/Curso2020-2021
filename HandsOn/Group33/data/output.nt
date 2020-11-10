@@ -1,0 +1,276 @@
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/0> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Arganzuela".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/0> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Chulapos s/n, Arganzuela".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/0> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/1> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Arganzuela".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/1> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Ronda de Valencia 1, Arganzuela".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/1> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/2> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Barajas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/2> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Medina del Pomar 22, Barajas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/2> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "ELECTRIC CHARGE SPAIN".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/3> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Carabanchel".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/3> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Avenida de la Peseta 6, Carabanchel".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/3> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/4> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/4> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Génova 24, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/4> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/5> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/5> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle San Bernardo 14, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/5> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/6> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/6> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Plaza de Jacinto Benavente 6, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/6> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "EMT".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/7> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/7> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Plaza de la Cebada, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/7> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "DRIVE THE CITY".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/8> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/8> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Paseo Castellana 160, Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/8> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/9> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/9> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Cardenal Marcelo Spínola 10, Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/9> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/10> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/10> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Hiedra 36, Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/10> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "EMT".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/11> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/11> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Paseo Castellana 33, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/11> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/12> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/12> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Paseo Castellana 106, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/12> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/13> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/13> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Fernández de los Ríos 42, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/13> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/14> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/14> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Fuencarral 114, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/14> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/15> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/15> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Manuel Silvela 16, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/15> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/16> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/16> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Plaza del Conde de Valle de Suchil, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/16> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/17> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/17> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Alberto Aguilera 9, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/17> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/18> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Ciudad Lineal".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/18> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Bueso Pineda 29, Ciudad Lineal".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/18> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/19> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Hortaleza".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/19> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Avenida María de Portugal 15, Hortaleza".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/19> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "IBERDROLA".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/20> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Hortaleza".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/20> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Avenida de Machupichu 105, Hortaleza".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/20> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/21> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Puente de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/21> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Avenida de la Albufera 319, Puente de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/21> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "ECOLINERAS".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/22> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Puente de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/22> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Avenida Real de Arganda 74, Puente de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/22> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/23> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/23> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Alfonso XII 2, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/23> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/24> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/24> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Cerro de la Plata 4, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/24> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/25> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/25> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Plaza del Conde de Casal 6, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/25> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "DRIVE THE CITY".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/26> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/26> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Ibiza 1, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/26> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/27> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/27> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Plaza de la Lealtad, s/n, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/27> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/28> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/28> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Paseo Castellana 52, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/28> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/29> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/29> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Castelló 105, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/29> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/30> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/30> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Goya 36, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/30> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/31> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/31> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Goya 123, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/31> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/32> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/32> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle Velázquez 74, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/32> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/33> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/33> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Jardines del Descubrimiento - Acceso a Complejo de Aparcamientos subterráneos por Calle de la Armada Española, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/33> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "EMT".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/34> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/34> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Plaza de Marqués de Salamanca, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/34> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "EMT".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/35> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/35> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Avenida de Madrid Mercamadrid s/n, Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/35> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "DRIVE THE CITY".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/36> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/36> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Carretera M602 km. 13, Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/36> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/37> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/37> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Carretera Villaverde a Vallecas km. 3,5, Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/37> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "NATURGY".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Puesto>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/38> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDistrito> "Latina".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/38> <http://www.semantic.web.es/group33/RecargaMadrid/tieneDireccion> "Calle de José de Cadalso 51, Latina".
+<http://www.semantic.web.es/group33/RecargaMadrid/Puesto/38> <http://www.semantic.web.es/group33/RecargaMadrid/tieneOperador> "DRIVE THE CITY".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Arganzuela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Arganzuela> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Arganzuela".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Barajas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Barajas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Barajas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Carabanchel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Carabanchel> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Carabanchel".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Centro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamart%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamart%C3%ADn> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Ciudad%20Lineal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Ciudad%20Lineal> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Ciudad Lineal".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Hortaleza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Hortaleza> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Hortaleza".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Puente%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Puente%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Puente de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Retiro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Villa%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Villa%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Latina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Distrito>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Distrito/Latina> <http://www.semantic.web.es/group33/RecargaMadrid/nombreDistrito> "Latina".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Chulapos%20s%2Fn%2C%20Arganzuela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Chulapos%20s%2Fn%2C%20Arganzuela> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Chulapos s/n, Arganzuela".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Ronda%20de%20Valencia%201%2C%20Arganzuela> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Ronda%20de%20Valencia%201%2C%20Arganzuela> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Ronda de Valencia 1, Arganzuela".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Medina%20del%20Pomar%2022%2C%20Barajas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Medina%20del%20Pomar%2022%2C%20Barajas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Medina del Pomar 22, Barajas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20la%20Peseta%206%2C%20Carabanchel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20la%20Peseta%206%2C%20Carabanchel> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Avenida de la Peseta 6, Carabanchel".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20G%C3%A9nova%2024%2C%20Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20G%C3%A9nova%2024%2C%20Centro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Génova 24, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20San%20Bernardo%2014%2C%20Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20San%20Bernardo%2014%2C%20Centro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle San Bernardo 14, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20Jacinto%20Benavente%206%2C%20Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20Jacinto%20Benavente%206%2C%20Centro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Plaza de Jacinto Benavente 6, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20la%20Cebada%2C%20Centro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20la%20Cebada%2C%20Centro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Plaza de la Cebada, Centro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%20160%2C%20Chamart%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%20160%2C%20Chamart%C3%ADn> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Paseo Castellana 160, Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Cardenal%20Marcelo%20Sp%C3%ADnola%2010%2C%20Chamart%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Cardenal%20Marcelo%20Sp%C3%ADnola%2010%2C%20Chamart%C3%ADn> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Cardenal Marcelo Spínola 10, Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Hiedra%2036%2C%20Chamart%C3%ADn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Hiedra%2036%2C%20Chamart%C3%ADn> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Hiedra 36, Chamartín".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%2033%2C%20Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%2033%2C%20Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Paseo Castellana 33, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%20106%2C%20Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%20106%2C%20Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Paseo Castellana 106, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Fern%C3%A1ndez%20de%20los%20R%C3%ADos%2042%2C%20Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Fern%C3%A1ndez%20de%20los%20R%C3%ADos%2042%2C%20Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Fernández de los Ríos 42, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Fuencarral%20114%2C%20Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Fuencarral%20114%2C%20Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Fuencarral 114, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Manuel%20Silvela%2016%2C%20Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Manuel%20Silvela%2016%2C%20Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Manuel Silvela 16, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20del%20Conde%20de%20Valle%20de%20Suchil%2C%20Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20del%20Conde%20de%20Valle%20de%20Suchil%2C%20Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Plaza del Conde de Valle de Suchil, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Alberto%20Aguilera%209%2C%20Chamber%C3%AD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Alberto%20Aguilera%209%2C%20Chamber%C3%AD> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Alberto Aguilera 9, Chamberí".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Bueso%20Pineda%2029%2C%20Ciudad%20Lineal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Bueso%20Pineda%2029%2C%20Ciudad%20Lineal> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Bueso Pineda 29, Ciudad Lineal".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20Mar%C3%ADa%20de%20Portugal%2015%2C%20Hortaleza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20Mar%C3%ADa%20de%20Portugal%2015%2C%20Hortaleza> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Avenida María de Portugal 15, Hortaleza".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20Machupichu%20105%2C%20Hortaleza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20Machupichu%20105%2C%20Hortaleza> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Avenida de Machupichu 105, Hortaleza".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20la%20Albufera%20319%2C%20Puente%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20la%20Albufera%20319%2C%20Puente%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Avenida de la Albufera 319, Puente de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20Real%20de%20Arganda%2074%2C%20Puente%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20Real%20de%20Arganda%2074%2C%20Puente%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Avenida Real de Arganda 74, Puente de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Alfonso%20XII%202%2C%20Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Alfonso%20XII%202%2C%20Retiro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Alfonso XII 2, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Cerro%20de%20la%20Plata%204%2C%20Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Cerro%20de%20la%20Plata%204%2C%20Retiro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Cerro de la Plata 4, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20del%20Conde%20de%20Casal%206%2C%20Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20del%20Conde%20de%20Casal%206%2C%20Retiro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Plaza del Conde de Casal 6, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Ibiza%201%2C%20Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Ibiza%201%2C%20Retiro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Ibiza 1, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20la%20Lealtad%2C%20s%2Fn%2C%20Retiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20la%20Lealtad%2C%20s%2Fn%2C%20Retiro> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Plaza de la Lealtad, s/n, Retiro".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%2052%2C%20Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Paseo%20Castellana%2052%2C%20Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Paseo Castellana 52, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Castell%C3%B3%20105%2C%20Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Castell%C3%B3%20105%2C%20Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Castelló 105, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Goya%2036%2C%20Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Goya%2036%2C%20Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Goya 36, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Goya%20123%2C%20Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Goya%20123%2C%20Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Goya 123, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Vel%C3%A1zquez%2074%2C%20Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20Vel%C3%A1zquez%2074%2C%20Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle Velázquez 74, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Jardines%20del%20Descubrimiento%20-%20Acceso%20a%20Complejo%20de%20Aparcamientos%20subterr%C3%A1neos%20por%20Calle%20de%20la%20Armada%20Espa%C3%B1ola%2C%20Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Jardines%20del%20Descubrimiento%20-%20Acceso%20a%20Complejo%20de%20Aparcamientos%20subterr%C3%A1neos%20por%20Calle%20de%20la%20Armada%20Espa%C3%B1ola%2C%20Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Jardines del Descubrimiento - Acceso a Complejo de Aparcamientos subterráneos por Calle de la Armada Española, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20Marqu%C3%A9s%20de%20Salamanca%2C%20Salamanca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Plaza%20de%20Marqu%C3%A9s%20de%20Salamanca%2C%20Salamanca> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Plaza de Marqués de Salamanca, Salamanca".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20Madrid%20Mercamadrid%20s%2Fn%2C%20Villa%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Avenida%20de%20Madrid%20Mercamadrid%20s%2Fn%2C%20Villa%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Avenida de Madrid Mercamadrid s/n, Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Carretera%20M602%20km.%2013%2C%20Villa%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Carretera%20M602%20km.%2013%2C%20Villa%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Carretera M602 km. 13, Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Carretera%20Villaverde%20a%20Vallecas%20km.%203%2C5%2C%20Villa%20de%20Vallecas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Carretera%20Villaverde%20a%20Vallecas%20km.%203%2C5%2C%20Villa%20de%20Vallecas> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Carretera Villaverde a Vallecas km. 3,5, Villa de Vallecas".
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20de%20Jos%C3%A9%20de%20Cadalso%2051%2C%20Latina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Direccion>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Direccion/Calle%20de%20Jos%C3%A9%20de%20Cadalso%2051%2C%20Latina> <http://www.semantic.web.es/group33/RecargaMadrid/nombreCalle> "Calle de José de Cadalso 51, Latina".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/REPSOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/REPSOL> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "REPSOL".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/GIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/GIC> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "GIC".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/ELECTRIC%20CHARGE%20SPAIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/ELECTRIC%20CHARGE%20SPAIN> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "ELECTRIC CHARGE SPAIN".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/EMT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/EMT> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "EMT".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/DRIVE%20THE%20CITY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/DRIVE%20THE%20CITY> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "DRIVE THE CITY".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/IBERDROLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/IBERDROLA> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "IBERDROLA".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/ECOLINERAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/ECOLINERAS> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "ECOLINERAS".
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/NATURGY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semantic.web.es/group33/RecargaMadrid/Operador>.
+<http://www.semantic.web.es/group33/RecargaMadrid/Operador/NATURGY> <http://www.semantic.web.es/group33/RecargaMadrid/nombreOperador> "NATURGY".

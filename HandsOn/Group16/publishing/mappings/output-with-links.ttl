@@ -1,0 +1,1982 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0: <http://www.semanticweb.org/group16/ontologies/air-quality#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <http://www.schema.org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079004>
+  a <http://www.semanticweb.org/group16/ontologies/air-quality#Station> ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079004"^^xsd:string ;
+  rdfs:label "Pza. de España"^^xsd:string ;
+  ns1:address "Plaza de España"^^xsd:string ;
+  ns1:latitude "40.4238"^^ns1:Number ;
+  ns1:longitude "3.71219"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_8> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_0> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079008>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079008"^^xsd:string ;
+  rdfs:label "Escuelas Aguirre"^^xsd:string ;
+  ns1:address "Entre C/ Alcalá y C/ O’ Donell"^^xsd:string ;
+  ns1:latitude "40.4215"^^ns1:Number ;
+  ns1:longitude "3.68228"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_1> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_1> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079011>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079011"^^xsd:string ;
+  rdfs:label "Avda. Ramón y Cajal"^^xsd:string ;
+  ns1:address "Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara"^^xsd:string ;
+  ns1:latitude "40.4514"^^ns1:Number ;
+  ns1:longitude "3.67736"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_2> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079016>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079016"^^xsd:string ;
+  rdfs:label "Arturo Soria"^^xsd:string ;
+  ns1:address "C/ Arturo Soria  esq. C/  Vizconde de los Asilos"^^xsd:string ;
+  ns1:latitude "40.44"^^ns1:Number ;
+  ns1:longitude "3.63921"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_3> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_3> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079017>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079017"^^xsd:string ;
+  rdfs:label "Villaverde"^^xsd:string ;
+  ns1:address "C/. Juan Peñalver"^^xsd:string ;
+  ns1:latitude "40.3471"^^ns1:Number ;
+  ns1:longitude "3.7133"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_4> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_4> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079018>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079018"^^xsd:string ;
+  rdfs:label "Farolillo"^^xsd:string ;
+  ns1:address "Calle Farolillo - C/Ervigio"^^xsd:string ;
+  ns1:latitude "40.3947"^^ns1:Number ;
+  ns1:longitude "3.73183"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_5> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_5> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079024>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079024"^^xsd:string ;
+  rdfs:label "Casa de Campo"^^xsd:string ;
+  ns1:address "Casa de Campo  (Terminal del Teleférico)"^^xsd:string ;
+  ns1:latitude "40.4193"^^ns1:Number ;
+  ns1:longitude "3.74734"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_6> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_6> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079027>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079027"^^xsd:string ;
+  rdfs:label "Barajas Pueblo"^^xsd:string ;
+  ns1:address "C/. Júpiter, 21 (Barajas)"^^xsd:string ;
+  ns1:latitude "40.4769"^^ns1:Number ;
+  ns1:longitude "3.58002"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_7> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_7> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079035>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079035"^^xsd:string ;
+  rdfs:label "Pza. del Carmen"^^xsd:string ;
+  ns1:address "Plaza del Carmen esq. Tres Cruces."^^xsd:string ;
+  ns1:latitude "40.4192"^^ns1:Number ;
+  ns1:longitude "3.70316"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_8> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_8> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079036>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079036"^^xsd:string ;
+  rdfs:label "Moratalaz"^^xsd:string ;
+  ns1:address "Avd. Moratalaz  esq. Camino de los Vinateros"^^xsd:string ;
+  ns1:latitude "40.4079"^^ns1:Number ;
+  ns1:longitude "3.64528"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_9> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_9> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079038>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079038"^^xsd:string ;
+  rdfs:label "Cuatro Caminos"^^xsd:string ;
+  ns1:address "Avda. Pablo Iglesias esq. C/ Marqués de Lema"^^xsd:string ;
+  ns1:latitude "40.4455"^^ns1:Number ;
+  ns1:longitude "3.70712"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_10> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_10> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079039>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079039"^^xsd:string ;
+  rdfs:label "Barrio del Pilar"^^xsd:string ;
+  ns1:address "Avd. Betanzos esq. C/  Monforte de Lemos"^^xsd:string ;
+  ns1:latitude "40.4782"^^ns1:Number ;
+  ns1:longitude "3.71153"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_11> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079040>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079040"^^xsd:string ;
+  rdfs:label "Vallecas"^^xsd:string ;
+  ns1:address "C/ Arroyo del Olivar  esq. C/  Río Grande."^^xsd:string ;
+  ns1:latitude "40.3881"^^ns1:Number ;
+  ns1:longitude "3.65152"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_12> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_12> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079047>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079047"^^xsd:string ;
+  rdfs:label "Mendez Alvaro"^^xsd:string ;
+  ns1:address "C/ Juan de Mariana / Pza. Amanecer Mendez Alvaro"^^xsd:string ;
+  ns1:latitude "40.3981"^^ns1:Number ;
+  ns1:longitude "3.68682"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_13> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_13> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079048>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079048"^^xsd:string ;
+  rdfs:label "Castellana"^^xsd:string ;
+  ns1:address "C/ Jose Gutierrez Abascal"^^xsd:string ;
+  ns1:latitude "40.4398"^^ns1:Number ;
+  ns1:longitude "3.69037"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_14> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_14> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079049>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079049"^^xsd:string ;
+  rdfs:label "Parque del Retiro"^^xsd:string ;
+  ns1:address "Paseo Venezuela- Casa de Vacas"^^xsd:string ;
+  ns1:latitude "40.4144"^^ns1:Number ;
+  ns1:longitude "3.68249"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_15> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_15> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079050>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079050"^^xsd:string ;
+  rdfs:label "Plaza Castilla"^^xsd:string ;
+  ns1:address "Plaza Castilla (Canal)"^^xsd:string ;
+  ns1:latitude "40.4655"^^ns1:Number ;
+  ns1:longitude "3.68874"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_10> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_16> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079054>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079054"^^xsd:string ;
+  rdfs:label "Ensanche de Vallecas"^^xsd:string ;
+  ns1:address "Avda La Gavia / Avda. Las Suertes"^^xsd:string ;
+  ns1:latitude "40.373"^^ns1:Number ;
+  ns1:longitude "3.61213"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_17> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_17> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079055>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079055"^^xsd:string ;
+  rdfs:label "Urb. Embajada"^^xsd:string ;
+  ns1:address "C/ Riaño (Barajas)"^^xsd:string ;
+  ns1:latitude "40.4623"^^ns1:Number ;
+  ns1:longitude "3.58056"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_7> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_18> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079056>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079056"^^xsd:string ;
+  rdfs:label "Pza. Elíptica"^^xsd:string ;
+  ns1:address "Pza. Elíptica - Avda. Oporto"^^xsd:string ;
+  ns1:latitude "40.385"^^ns1:Number ;
+  ns1:longitude "3.71876"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_5> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_19> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079057>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079057"^^xsd:string ;
+  rdfs:label "Sanchinarro"^^xsd:string ;
+  ns1:address "C/ Princesa de Eboli esq C/ Maria Tudor"^^xsd:string ;
+  ns1:latitude "40.4942"^^ns1:Number ;
+  ns1:longitude "3.66051"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_20> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_20> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079058>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079058"^^xsd:string ;
+  rdfs:label "El Pardo"^^xsd:string ;
+  ns1:address "Avda. La Guardia"^^xsd:string ;
+  ns1:latitude "40.518"^^ns1:Number ;
+  ns1:longitude "3.77461"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_21> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079059>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079059"^^xsd:string ;
+  rdfs:label "Juan Carlos I"^^xsd:string ;
+  ns1:address "Parque Juan Carlos I (frente oficinas mantenimiento)"^^xsd:string ;
+  ns1:latitude "40.4652"^^ns1:Number ;
+  ns1:longitude "3.60916"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_7> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_22> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/28079060>
+  a ns0:Station ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  ns0:stationCode "28079060"^^xsd:string ;
+  rdfs:label "Tres Olivos"^^xsd:string ;
+  ns1:address "Plaza Tres Olivos"^^xsd:string ;
+  ns1:latitude "40.5005"^^ns1:Number ;
+  ns1:longitude "3.68973"^^ns1:Number ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> ;
+  ns0:inStreet <http://www.semanticweb.org/group16/air-quality/resource/street_23> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_12_28079024_2020_1_16>
+  ns0:dateOfMeasure "2020-01-16T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "65"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/48_9_28079048_2020_2_25>
+  ns0:dateOfMeasure "2020-02-25T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "12"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079048> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/60_14_28079060_2020_1_26>
+  ns0:dateOfMeasure "2020-01-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "35"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079060> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_8_28079008_2019_4_23>
+  ns0:dateOfMeasure "2019-04-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "52"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_42_28079008_2019_12_12>
+  ns0:dateOfMeasure "2019-12-12T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TCH> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/16_6_28079016_2019_4_20>
+  ns0:dateOfMeasure "2019-04-20T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079016> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/17_12_28079017_2019_7_13>
+  ns0:dateOfMeasure "2019-07-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "51"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079017> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_14_28079018_2019_11_18>
+  ns0:dateOfMeasure "2019-11-18T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "30"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_10_28079024_2019_2_17>
+  ns0:dateOfMeasure "2019-02-17T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "13"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_44_28079024_2019_5_24>
+  ns0:dateOfMeasure "2019-05-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.04"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NMHC> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_8_28079035_2019_9_15>
+  ns0:dateOfMeasure "2019-09-15T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "25"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_1_28079038_2019_1_11>
+  ns0:dateOfMeasure "2019-01-11T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "14"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_35_28079038_2019_9_7>
+  ns0:dateOfMeasure "2019-09-07T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "4.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/EBE> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/40_8_28079040_2019_12_4>
+  ns0:dateOfMeasure "2019-12-04T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "34"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079040> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/48_8_28079048_2019_5_3>
+  ns0:dateOfMeasure "2019-05-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "12"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079048> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_7_28079050_2019_7_28>
+  ns0:dateOfMeasure "2019-07-28T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/54_14_28079054_2019_10_20>
+  ns0:dateOfMeasure "2019-10-20T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "57"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079054> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_43_28079055_2019_4_18>
+  ns0:dateOfMeasure "2019-04-18T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.34"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CH4> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_14_28079056_2019_9_14>
+  ns0:dateOfMeasure "2019-09-14T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "49"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/58_12_28079058_2019_1_27>
+  ns0:dateOfMeasure "2019-01-27T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "13"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079058> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/60_10_28079060_2019_7_1>
+  ns0:dateOfMeasure "2019-07-01T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "33"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079060> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_1_28079008_2018_10_2>
+  ns0:dateOfMeasure "2018-10-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "5"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_30_28079008_2018_1_5>
+  ns0:dateOfMeasure "2018-01-05T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/BEN> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_20_28079011_2018_5_1>
+  ns0:dateOfMeasure "2018-05-01T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TOL> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/17_1_28079017_2018_8_9>
+  ns0:dateOfMeasure "2018-08-09T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079017> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_8_28079018_2018_12_3>
+  ns0:dateOfMeasure "2018-12-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "47"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_7_28079024_2018_6_5>
+  ns0:dateOfMeasure "2018-06-05T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_42_28079024_2018_3_22>
+  ns0:dateOfMeasure "2018-03-22T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.19"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TCH> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_6_28079035_2018_7_15>
+  ns0:dateOfMeasure "2018-07-15T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/36_8_28079036_2018_12_26>
+  ns0:dateOfMeasure "2018-12-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "69"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079036> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_20_28079038_2018_3_21>
+  ns0:dateOfMeasure "2018-03-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TOL> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/40_1_28079040_2018_7_29>
+  ns0:dateOfMeasure "2018-07-29T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079040> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/47_10_28079047_2018_11_3>
+  ns0:dateOfMeasure "2018-11-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "16"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079047> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/49_12_28079049_2018_1_30>
+  ns0:dateOfMeasure "2018-01-30T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "103"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079049> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/54_8_28079054_2018_4_25>
+  ns0:dateOfMeasure "2018-04-25T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "48"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079054> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_30_28079055_2018_8_6>
+  ns0:dateOfMeasure "2018-08-06T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/BEN> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_12_28079056_2018_12_21>
+  ns0:dateOfMeasure "2018-12-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "91"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/58_8_28079058_2018_3_13>
+  ns0:dateOfMeasure "2018-03-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "13"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079058> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/60_8_28079060_2018_6_13>
+  ns0:dateOfMeasure "2018-06-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "12"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079060> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/4_12_28079004_2017_9_2>
+  ns0:dateOfMeasure "2017-09-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "48"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079004> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_14_28079008_2017_12_9>
+  ns0:dateOfMeasure "2017-12-09T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "12"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_12_28079011_2017_4_4>
+  ns0:dateOfMeasure "2017-04-04T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "64"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/16_14_28079016_2017_7_26>
+  ns0:dateOfMeasure "2017-07-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "82"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079016> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_7_28079018_2017_10_24>
+  ns0:dateOfMeasure "2017-10-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "66"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_6_28079024_2017_6_30>
+  ns0:dateOfMeasure "2017-06-30T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_30_28079024_2017_11_23>
+  ns0:dateOfMeasure "2017-11-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/BEN> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_1_28079035_2017_4_9>
+  ns0:dateOfMeasure "2017-04-09T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "4"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/36_7_28079036_2017_7_24>
+  ns0:dateOfMeasure "2017-07-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "5"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079036> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_10_28079038_2017_10_16>
+  ns0:dateOfMeasure "2017-10-16T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "25"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/39_14_28079039_2017_2_22>
+  ns0:dateOfMeasure "2017-02-22T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "30"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079039> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/47_9_28079047_2017_5_30>
+  ns0:dateOfMeasure "2017-05-30T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "10"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079047> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/49_7_28079049_2017_9_7>
+  ns0:dateOfMeasure "2017-09-07T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079049> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_12_28079050_2017_12_13>
+  ns0:dateOfMeasure "2017-12-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "192"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_20_28079055_2017_3_26>
+  ns0:dateOfMeasure "2017-03-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.7"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TOL> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_8_28079056_2017_10_24>
+  ns0:dateOfMeasure "2017-10-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "91"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/58_7_28079058_2017_1_21>
+  ns0:dateOfMeasure "2017-01-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079058> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/60_7_28079060_2017_5_2>
+  ns0:dateOfMeasure "2017-05-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079060> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/4_8_28079004_2016_7_21>
+  ns0:dateOfMeasure "2016-07-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "57"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079004> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_12_28079008_2016_10_1>
+  ns0:dateOfMeasure "2016-10-01T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "129"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_7_28079011_2016_12_24>
+  ns0:dateOfMeasure "2016-12-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "16"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/16_12_28079016_2016_4_12>
+  ns0:dateOfMeasure "2016-04-12T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "57"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079016> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_6_28079018_2016_7_20>
+  ns0:dateOfMeasure "2016-07-20T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_1_28079024_2016_6_14>
+  ns0:dateOfMeasure "2016-06-14T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_20_28079024_2016_10_10>
+  ns0:dateOfMeasure "2016-10-10T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.0"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TOL> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/27_14_28079027_2016_2_7>
+  ns0:dateOfMeasure "2016-02-07T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "68"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079027> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/36_6_28079036_2016_9_11>
+  ns0:dateOfMeasure "2016-09-11T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079036> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_10_28079038_2016_3_17>
+  ns0:dateOfMeasure "2016-03-17T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "22"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/39_12_28079039_2016_7_30>
+  ns0:dateOfMeasure "2016-07-30T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "30"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079039> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/47_8_28079047_2016_10_19>
+  ns0:dateOfMeasure "2016-10-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "60"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079047> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/49_7_28079049_2016_1_14>
+  ns0:dateOfMeasure "2016-01-14T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "54"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079049> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_12_28079050_2016_3_31>
+  ns0:dateOfMeasure "2016-03-31T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "67"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_12_28079055_2016_6_28>
+  ns0:dateOfMeasure "2016-06-28T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "61"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_7_28079056_2016_11_8>
+  ns0:dateOfMeasure "2016-11-08T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "33"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/57_12_28079057_2016_1_23>
+  ns0:dateOfMeasure "2016-01-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "192"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079057> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/59_14_28079059_2016_4_27>
+  ns0:dateOfMeasure "2016-04-27T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "48"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079059> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/4_7_28079004_2015_7_16>
+  ns0:dateOfMeasure "2015-07-16T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "17"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079004> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_10_28079008_2015_12_12>
+  ns0:dateOfMeasure "2015-12-12T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "23"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_7_28079011_2015_5_13>
+  ns0:dateOfMeasure "2015-05-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "26"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/16_8_28079016_2015_8_22>
+  ns0:dateOfMeasure "2015-08-22T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "15"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079016> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_1_28079018_2015_11_17>
+  ns0:dateOfMeasure "2015-11-17T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_35_28079018_2015_2_21>
+  ns0:dateOfMeasure "2015-02-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/EBE> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_14_28079024_2015_7_2>
+  ns0:dateOfMeasure "2015-07-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "85"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/27_8_28079027_2015_11_4>
+  ns0:dateOfMeasure "2015-11-04T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "45"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079027> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/36_1_28079036_2015_3_15>
+  ns0:dateOfMeasure "2015-03-15T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "15"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079036> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_8_28079038_2015_6_7>
+  ns0:dateOfMeasure "2015-06-07T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "21"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/39_7_28079039_2015_11_12>
+  ns0:dateOfMeasure "2015-11-12T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "172"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079039> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/47_7_28079047_2015_2_12>
+  ns0:dateOfMeasure "2015-02-12T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "23"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079047> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/48_10_28079048_2015_7_2>
+  ns0:dateOfMeasure "2015-07-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "20"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079048> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_10_28079050_2015_1_15>
+  ns0:dateOfMeasure "2015-01-15T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "21"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_10_28079055_2015_6_10>
+  ns0:dateOfMeasure "2015-06-10T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "24"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_7_28079056_2015_1_13>
+  ns0:dateOfMeasure "2015-01-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "128"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/57_10_28079057_2015_4_6>
+  ns0:dateOfMeasure "2015-04-06T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "16"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079057> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/59_12_28079059_2015_6_29>
+  ns0:dateOfMeasure "2015-06-29T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "34"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079059> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/4_6_28079004_2014_9_19>
+  ns0:dateOfMeasure "2014-09-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079004> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_9_28079008_2014_12_19>
+  ns0:dateOfMeasure "2014-12-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "32"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_7_28079011_2014_1_29>
+  ns0:dateOfMeasure "2014-01-29T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "28"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/16_8_28079016_2014_5_3>
+  ns0:dateOfMeasure "2014-05-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "7"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079016> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_1_28079018_2014_7_30>
+  ns0:dateOfMeasure "2014-07-30T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_35_28079018_2014_1_4>
+  ns0:dateOfMeasure "2014-01-04T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.0"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/EBE> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_14_28079024_2014_4_19>
+  ns0:dateOfMeasure "2014-04-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "59"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/27_8_28079027_2014_12_26>
+  ns0:dateOfMeasure "2014-12-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "51"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079027> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_14_28079035_2014_8_28>
+  ns0:dateOfMeasure "2014-08-28T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "50"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_7_28079038_2014_11_16>
+  ns0:dateOfMeasure "2014-11-16T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "8"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/39_7_28079039_2014_4_28>
+  ns0:dateOfMeasure "2014-04-28T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "10"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079039> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/40_12_28079040_2014_7_17>
+  ns0:dateOfMeasure "2014-07-17T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "89"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079040> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/48_9_28079048_2014_10_7>
+  ns0:dateOfMeasure "2014-10-07T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "8"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079048> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_9_28079050_2014_1_9>
+  ns0:dateOfMeasure "2014-01-09T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "13"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_8_28079055_2014_4_29>
+  ns0:dateOfMeasure "2014-04-29T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "20"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_7_28079056_2014_2_16>
+  ns0:dateOfMeasure "2014-02-16T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "43"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/57_10_28079057_2014_6_15>
+  ns0:dateOfMeasure "2014-06-15T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "13"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079057> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/59_12_28079059_2014_9_3>
+  ns0:dateOfMeasure "2014-09-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "28"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079059> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/4_6_28079004_2013_11_26>
+  ns0:dateOfMeasure "2013-11-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.4"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079004> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_10_28079008_2013_5_7>
+  ns0:dateOfMeasure "2013-05-07T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "21"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_12_28079011_2013_10_21>
+  ns0:dateOfMeasure "2013-10-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "100"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/17_1_28079017_2013_1_18>
+  ns0:dateOfMeasure "2013-01-18T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079017> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_8_28079018_2013_4_20>
+  ns0:dateOfMeasure "2013-04-20T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "18"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_6_28079024_2013_7_26>
+  ns0:dateOfMeasure "2013-07-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_35_28079024_2013_2_12>
+  ns0:dateOfMeasure "2013-02-12T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/EBE> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/27_42_28079027_2013_8_9>
+  ns0:dateOfMeasure "2013-08-09T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079027> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TCH> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_14_28079035_2013_11_3>
+  ns0:dateOfMeasure "2013-11-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "22"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_8_28079038_2013_1_22>
+  ns0:dateOfMeasure "2013-01-22T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "41"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/39_7_28079039_2013_4_28>
+  ns0:dateOfMeasure "2013-04-28T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079039> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/40_12_28079040_2013_8_19>
+  ns0:dateOfMeasure "2013-08-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "35"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079040> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/48_9_28079048_2013_11_16>
+  ns0:dateOfMeasure "2013-11-16T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "4"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079048> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_9_28079050_2013_2_22>
+  ns0:dateOfMeasure "2013-02-22T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "7"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_8_28079055_2013_5_23>
+  ns0:dateOfMeasure "2013-05-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "24"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_44_28079055_2013_9_21>
+  ns0:dateOfMeasure "2013-09-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.13"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NMHC> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/57_8_28079057_2013_1_4>
+  ns0:dateOfMeasure "2013-01-04T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "84"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079057> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/59_8_28079059_2013_4_3>
+  ns0:dateOfMeasure "2013-04-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "28"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079059> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/4_1_28079004_2012_7_4>
+  ns0:dateOfMeasure "2012-07-04T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079004> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_8_28079008_2012_10_8>
+  ns0:dateOfMeasure "2012-10-08T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "82"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_7_28079011_2012_1_3>
+  ns0:dateOfMeasure "2012-01-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "74"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/16_8_28079016_2012_4_5>
+  ns0:dateOfMeasure "2012-04-05T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "27"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079016> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_1_28079018_2012_7_10>
+  ns0:dateOfMeasure "2012-07-10T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_30_28079018_2012_9_22>
+  ns0:dateOfMeasure "2012-09-22T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/BEN> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_14_28079024_2012_2_8>
+  ns0:dateOfMeasure "2012-02-08T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "56"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/27_8_28079027_2012_9_19>
+  ns0:dateOfMeasure "2012-09-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "19"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079027> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_7_28079035_2012_12_2>
+  ns0:dateOfMeasure "2012-12-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "60"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/36_12_28079036_2012_2_23>
+  ns0:dateOfMeasure "2012-02-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "199"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079036> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_30_28079038_2012_5_14>
+  ns0:dateOfMeasure "2012-05-14T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/BEN> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/40_7_28079040_2012_8_15>
+  ns0:dateOfMeasure "2012-08-15T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079040> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/47_12_28079047_2012_11_10>
+  ns0:dateOfMeasure "2012-11-10T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "20"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079047> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/49_14_28079049_2012_1_30>
+  ns0:dateOfMeasure "2012-01-30T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "17"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079049> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/54_12_28079054_2012_4_27>
+  ns0:dateOfMeasure "2012-04-27T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "44"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079054> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_35_28079055_2012_7_21>
+  ns0:dateOfMeasure "2012-07-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.0"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/EBE> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_14_28079056_2012_10_24>
+  ns0:dateOfMeasure "2012-10-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "5"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/58_12_28079058_2012_1_15>
+  ns0:dateOfMeasure "2012-01-15T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "81"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079058> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/60_10_28079060_2012_4_2>
+  ns0:dateOfMeasure "2012-04-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "16"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079060> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_1_28079008_2011_7_3>
+  ns0:dateOfMeasure "2011-07-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_20_28079008_2011_11_1>
+  ns0:dateOfMeasure "2011-11-01T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "4.7"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TOL> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/11_20_28079011_2011_2_13>
+  ns0:dateOfMeasure "2011-02-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "2.9"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079011> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TOL> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/17_1_28079017_2011_5_27>
+  ns0:dateOfMeasure "2011-05-27T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079017> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_8_28079018_2011_9_2>
+  ns0:dateOfMeasure "2011-09-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "16"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_6_28079024_2011_12_19>
+  ns0:dateOfMeasure "2011-12-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_35_28079024_2011_5_21>
+  ns0:dateOfMeasure "2011-05-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.9"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/EBE> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/27_42_28079027_2011_9_5>
+  ns0:dateOfMeasure "2011-09-05T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.37"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079027> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/TCH> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_14_28079035_2011_12_3>
+  ns0:dateOfMeasure "2011-12-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "10"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_8_28079038_2011_3_2>
+  ns0:dateOfMeasure "2011-03-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "64"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/39_7_28079039_2011_7_26>
+  ns0:dateOfMeasure "2011-07-26T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "11"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079039> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/40_12_28079040_2011_11_7>
+  ns0:dateOfMeasure "2011-11-07T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "153"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079040> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/48_10_28079048_2011_3_19>
+  ns0:dateOfMeasure "2011-03-19T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "13"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079048> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_9_28079050_2011_7_28>
+  ns0:dateOfMeasure "2011-07-28T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "12"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_8_28079055_2011_10_21>
+  ns0:dateOfMeasure "2011-10-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "57"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_6_28079056_2011_2_13>
+  ns0:dateOfMeasure "2011-02-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/57_8_28079057_2011_6_8>
+  ns0:dateOfMeasure "2011-06-08T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "24"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079057> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/59_8_28079059_2011_10_2>
+  ns0:dateOfMeasure "2011-10-02T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "16"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079059> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/4_6_28079004_2010_1_13>
+  ns0:dateOfMeasure "2010-01-13T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079004> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_9_28079008_2010_5_3>
+  ns0:dateOfMeasure "2010-05-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "5"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/8_43_28079008_2010_8_18>
+  ns0:dateOfMeasure "2010-08-18T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "1.18"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079008> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CH4> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/16_6_28079016_2010_11_23>
+  ns0:dateOfMeasure "2010-11-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079016> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_1_28079018_2010_6_3>
+  ns0:dateOfMeasure "2010-06-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "6"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/SO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/18_30_28079018_2010_9_3>
+  ns0:dateOfMeasure "2010-09-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.2"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079018> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/BEN> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/24_14_28079024_2010_4_8>
+  ns0:dateOfMeasure "2010-04-08T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "81"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079024> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/27_8_28079027_2010_12_5>
+  ns0:dateOfMeasure "2010-12-05T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "49"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079027> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/35_8_28079035_2010_2_23>
+  ns0:dateOfMeasure "2010-02-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "43"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079035> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/36_12_28079036_2010_5_16>
+  ns0:dateOfMeasure "2010-05-16T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "55"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079036> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/38_30_28079038_2010_8_17>
+  ns0:dateOfMeasure "2010-08-17T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079038> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/BEN> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/40_7_28079040_2010_11_21>
+  ns0:dateOfMeasure "2010-11-21T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "8"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079040> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/48_7_28079048_2010_8_3>
+  ns0:dateOfMeasure "2010-08-03T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "5"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079048> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_8_28079050_2010_11_24>
+  ns0:dateOfMeasure "2010-11-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "61"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/55_8_28079055_2010_11_24>
+  ns0:dateOfMeasure "2010-11-24T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "68"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079055> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/56_6_28079056_2010_8_29>
+  ns0:dateOfMeasure "2010-08-29T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "0.3"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079056> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/CO> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/57_10_28079057_2010_5_8>
+  ns0:dateOfMeasure "2010-05-08T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "19"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079057> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM10> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/59_12_28079059_2010_8_28>
+  ns0:dateOfMeasure "2010-08-28T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "19"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079059> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NOx> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/17_14_28079017_2020_5_6>
+  ns0:dateOfMeasure "2020-05-06T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "" ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079017> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/O3> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/50_9_28079050_2020_5_25>
+  ns0:dateOfMeasure "2020-05-25T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "8"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079050> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/PM2.5> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/57_8_28079057_2020_6_23>
+  ns0:dateOfMeasure "2020-06-23T00:00:00Z"^^xsd:dateTime ;
+  ns0:measureValue "16"^^xsd:float ;
+  ns0:measuredAt <http://www.semanticweb.org/group16/air-quality/resource/28079057> ;
+  ns0:measuredMagnitude <http://www.semanticweb.org/group16/air-quality/resource/NO2> ;
+  a ns0:Measurement .
+
+<http://www.semanticweb.org/group16/air-quality/resource/SO2>
+  a ns0:Magnitude ;
+  ns0:measureCode "1"^^xsd:string ;
+  ns0:measureNotation "SO2"^^xsd:string ;
+  rdfs:comment "Sulfur dioxide is a toxic gas responsible for the smell of burnt matches. It is released naturally by volcanic activity and is produced as a by-product of copper extraction and the burning of fossil fuels."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q5282> ;
+  rdfs:label "Sulfur dioxide"@en, "Dióxido de Azufre"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/CO>
+  a ns0:Magnitude ;
+  ns0:measureCode "6"^^xsd:string ;
+  ns0:measureNotation "CO"^^xsd:string ;
+  rdfs:comment "Carbon monoxide is a colorless, odorless, and tasteless flammable gas that is slightly less dense than air. In the atmosphere, it is spatially variable and short-lived, having a role in the formation of ground-level ozone."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2025> ;
+  rdfs:label "Carbon monoxide"@en, "Monóxido de Carbono"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/NO>
+  a ns0:Magnitude ;
+  ns0:measureCode "7"^^xsd:string ;
+  ns0:measureNotation "NO"^^xsd:string ;
+  rdfs:comment "Nitric oxide is a colorless gas. Nitric oxide is a free radical, i.e., it has an unpaired electron. An important intermediate in industrial chemistry, nitric oxide forms in combustion systems and can be generated by lightning in thunderstorms."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q207843> ;
+  rdfs:label "Nitric oxide (radical)"@en, "Monóxido de Nitrógeno"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/NO2>
+  a ns0:Magnitude ;
+  ns0:measureCode "8"^^xsd:string ;
+  ns0:measureNotation "NO2"^^xsd:string ;
+  rdfs:comment "Nitrogen dioxide is a chemical compound. NO2 is an intermediate in the industrial synthesis of nitric acid, millions of tons of which are produced each year for use primarily in the production of fertilizers. At higher temperatures it is a reddish-brown gas."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q207895> ;
+  rdfs:label "Nitrogen dioxide"@en, "Dióxido de Nitrógeno"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/PM2.5>
+  a ns0:Magnitude ;
+  ns0:measureCode "9"^^xsd:string ;
+  ns0:measureNotation "PM2.5"^^xsd:string ;
+  rdfs:comment "PM2.5 are very small particles in the air that have a diameter of 2.5 micrometers. Particulates, one of the six criteria for air pollutants of the U.S. EPA is a mixture that can include organic chemicals, dust, soot, and metals. These particles can come from all kinds of combustion, with that of cars, trucks, factories, wood burning, agricultural burning and other activities."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q498957> ;
+  rdfs:label "Particulates <2.5 μm"@en, "Partículas <2.5 μm"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/PM10>
+  a ns0:Magnitude ;
+  ns0:measureCode "10"^^xsd:string ;
+  ns0:measureNotation "PM10"^^xsd:string ;
+  rdfs:comment "PM10 refers to small solid or liquid particles of dust, ash, soot, metallic particles, cement or pollen, dispersed in the atmosphere, and whose aerodynamic diameter is less than 10 µm. Air pollution by particulate matter is the alteration of the natural composition of the atmosphere as a consequence of the entry into suspension of particles, either by natural causes or by human action."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q498957> ;
+  rdfs:label "Particulates <10 μm"@en, "Partículas <10 μm"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/NOx>
+  a ns0:Magnitude ;
+  ns0:measureCode "12"^^xsd:string ;
+  ns0:measureNotation "NOx"^^xsd:string ;
+  rdfs:comment "Nitric oxide is a colorless gas. Nitric oxide is a free radical, i.e., it has an unpaired electron. An important intermediate in industrial chemistry, nitric oxide forms in combustion systems and can be generated by lightning in thunderstorms."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q424418> ;
+  rdfs:label "Nitrogen oxide"@en, "Óxidos de Nitrógeno"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/O3>
+  a ns0:Magnitude ;
+  ns0:measureCode "14"^^xsd:string ;
+  ns0:measureNotation "O3"^^xsd:string ;
+  rdfs:comment "Ozone is an inorganic molecule. It is a pale blue gas with a distinctively pungent smell. Ozone is formed from dioxygen by the action of ultraviolet (UV) light and electrical discharges within the Earth's atmosphere. It is present in very low concentrations throughout the latter, with its highest concentration high in the ozone layer of the stratosphere, which absorbs most of the Sun's ultraviolet (UV) radiation."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q36933> ;
+  rdfs:label "Ozone"@en, "Ozono"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/TOL>
+  a ns0:Magnitude ;
+  ns0:measureCode "20"^^xsd:string ;
+  ns0:measureNotation "TOL"^^xsd:string ;
+  rdfs:comment "Toluene is an aromatic hydrocarbon. It is a colorless, water-insoluble liquid with the smell associated with paint thinners. Toluene is predominantly used as an industrial feedstock and a solvent.As the solvent in some types of paint thinner, permanent markers, contact cement and certain types of glue, toluene is sometimes used as a recreational inhalant."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q15779> ;
+  rdfs:label "Toluene"@en, "Tolueno"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/BEN>
+  a ns0:Magnitude ;
+  ns0:measureCode "30"^^xsd:string ;
+  ns0:measureNotation "BEN"^^xsd:string ;
+  rdfs:comment "Benzene is an organic chemical compound. Benzene is a colorless and highly flammable liquid with a sweet smell, and is responsible for the aroma around petrol (gasoline) stations. It is used primarily as a precursor to the manufacture of chemicals with more complex structure, such as ethylbenzene and cumene, of which billions of kilograms are produced annually."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2270> ;
+  rdfs:label "Benzene"@en, "Benceno"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/EBE>
+  a ns0:Magnitude ;
+  ns0:measureCode "35"^^xsd:string ;
+  ns0:measureNotation "EBE"^^xsd:string ;
+  rdfs:comment "Ethylbenzene is an organic compound. It is a highly flammable, colorless liquid with an odor similar to that of gasoline. This monocyclic aromatic hydrocarbon is important in the petrochemical industry as an intermediate in the production of styrene, the precursor to polystyrene, a common plastic material."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q409184> ;
+  rdfs:label "Ethylbenzene"@en, "Etilbenceno"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/TCH>
+  a ns0:Magnitude ;
+  ns0:measureCode "42"^^xsd:string ;
+  ns0:measureNotation "TCH"^^xsd:string ;
+  rdfs:comment "Hexane is a straight-chain alkane. Hexane is a significant constituent of gasoline. It is a colorless liquid, odorless when pure, and with boiling points approximately 69 °C. It is widely used as a cheap, relatively safe, largely unreactive, and easily evaporated non-polar solvent."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q150440> ;
+  rdfs:label "Hexane"@en, "Hidrocarburos totales (hexano)"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/CH4>
+  a ns0:Magnitude ;
+  ns0:measureCode "43"^^xsd:string ;
+  ns0:measureNotation "CH4"^^xsd:string ;
+  rdfs:comment "Methane is a chemical compound and is the main constituent of natural gas. The relative abundance of methane on Earth makes it an economically attractive fuel, although capturing and storing it poses technical challenges due to its gaseous state under normal conditions for temperature and pressure."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q37129> ;
+  rdfs:label "Methane"@en, "Metano"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/NMHC>
+  a ns0:Magnitude ;
+  ns0:measureCode "44"^^xsd:string ;
+  ns0:measureNotation "NMHC"^^xsd:string ;
+  rdfs:comment "Non-Methane Volatile Organic Compounds (NMVOC) do not include methane (CH4), since its reactivity in the atmosphere is negligible. NMVOCs (mainly hydrocarbons) cause the formation of tropospheric ozone by reacting with sunlight."^^xsd:string ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q16963326> ;
+  rdfs:label "Non-Methane volatile organic compound"@en, "Hidrocarburos no metánicos (hexano)"@es .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_8>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Centro"^^xsd:string ;
+  ns0:districtID 8 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1763376> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_1>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Salamanca"^^xsd:string ;
+  ns0:districtID 1 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1773521> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_2>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Fuencarral-El Pardo"^^xsd:string ;
+  ns0:districtID 2 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q656196> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_3>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Ciudad Lineal"^^xsd:string ;
+  ns0:districtID 3 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1763694> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_4>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Villaverde"^^xsd:string ;
+  ns0:districtID 4 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q919536> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_5>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Carabanchel"^^xsd:string ;
+  ns0:districtID 5 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1001991> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_6>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Moncloa-Aravaca"^^xsd:string ;
+  ns0:districtID 6 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2017682> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_7>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Barajas"^^xsd:string ;
+  ns0:districtID 7 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q807230> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_9>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Moratalaz"^^xsd:string ;
+  ns0:districtID 9 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2076109> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_10>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Tetuán"^^xsd:string ;
+  ns0:districtID 10 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1773540> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_12>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Puente de Vallecas"^^xsd:string ;
+  ns0:districtID 12 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2003054> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_13>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Arganzuela"^^xsd:string ;
+  ns0:districtID 13 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2000929> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_14>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Chamartín"^^xsd:string ;
+  ns0:districtID 14 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1766348> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_15>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Retiro"^^xsd:string ;
+  ns0:districtID 15 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2002296> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_17>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Villa de Vallecas"^^xsd:string ;
+  ns0:districtID 17 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1947988> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/district_20>
+  a ns0:District ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Hortaleza"^^xsd:string ;
+  ns0:districtID 20 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1928529> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_0>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "plaza de España"^^xsd:string ;
+  ns0:streetID 0 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1326261> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_8> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_1>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle de Alcalá"^^xsd:string ;
+  ns0:streetID 1 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q2424746> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_1> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_2>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Avenida de Ramón y Cajal, Madrid"^^xsd:string ;
+  ns0:streetID 2 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q30467128> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_3>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "calle de Arturo Soria"^^xsd:string ;
+  ns0:streetID 3 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q8255504> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_3> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_4>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle Juan Peñalver"^^xsd:string ;
+  ns0:streetID 4 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_4> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_5>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle Farolillo"^^xsd:string ;
+  ns0:streetID 5 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_5> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_6>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Casa de Campo"^^xsd:string ;
+  ns0:streetID 6 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1046524> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_6> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_7>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle Júpiter"^^xsd:string ;
+  ns0:streetID 7 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_7> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_8>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Plaza del Carmen"^^xsd:string ;
+  ns0:streetID 8 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q6080406> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_8> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_9>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Avenida Moratalaz"^^xsd:string ;
+  ns0:streetID 9 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_9> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_10>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "avenida de Pablo Iglesias"^^xsd:string ;
+  ns0:streetID 10 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q28045035> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_10> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_11>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Avenida Betanzos"^^xsd:string ;
+  ns0:streetID 11 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_12>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle del Arroyo del Olivar, Madrid"^^xsd:string ;
+  ns0:streetID 12 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q29561517> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_12> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_13>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle Juan de Mariana"^^xsd:string ;
+  ns0:streetID 13 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_13> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_14>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle Jose Gutierrez Abascal"^^xsd:string ;
+  ns0:streetID 14 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_14> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_15>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Buen Retiro park"^^xsd:string ;
+  ns0:streetID 15 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1131807> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_15> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_16>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "plaza de Castilla"^^xsd:string ;
+  ns0:streetID 16 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q786291> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_10> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_17>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Avenida La Gavia"^^xsd:string ;
+  ns0:streetID 17 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_17> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_18>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle Riaño"^^xsd:string ;
+  ns0:streetID 18 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_7> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_19>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Plaza Elíptica"^^xsd:string ;
+  ns0:streetID 19 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q16619985> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_5> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_20>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Calle Princesa de Éboli"^^xsd:string ;
+  ns0:streetID 20 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_20> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_21>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Avenida La Guardia"^^xsd:string ;
+  ns0:streetID 21 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_22>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "parque Juan Carlos I"^^xsd:string ;
+  ns0:streetID 22 ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q24023451> ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_7> .
+
+<http://www.semanticweb.org/group16/air-quality/resource/street_23>
+  a ns0:Street ;
+  rdfs:subClassOf <https://schema.org/Place> ;
+  rdfs:label "Plaza Tres Olivos"^^xsd:string ;
+  ns0:streetID 23 ;
+  ns0:inDistrict <http://www.semanticweb.org/group16/air-quality/resource/district_2> .

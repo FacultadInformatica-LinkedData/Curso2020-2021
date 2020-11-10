@@ -1,0 +1,44 @@
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  ont:  <http://semantic.web.es/group33/ontology/RecargaMadrid/#>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+
+
+# ----------- QUERY 1 ----------- #
+# Devuelve todos los distritos de Madrid.
+
+SELECT DISTINCT  ?district ?district_wikidata
+WHERE
+  { 
+    ?district_csv	rdf:type	ont:Distrito ;
+              rdfs:label     ?district ;
+              owl:sameAs     ?district_wikidata
+  }
+
+# ----------- QUERY 2 ----------- #
+# Devuelve todos los operadores de un distrito en concreto.
+
+SELECT DISTINCT  ?operador ?district ?district_wikidata
+WHERE
+  { 
+    ?operador	rdf:type	ont:Puesto ;
+    			    ont:tieneOperador	?district_csv .
+
+    ?district_csv	
+    			    rdfs:label     ?district ;
+              owl:sameAs     ?district_wikidata
+  }
+
+# ----------- QUERY 3 ----------- #
+# Devuelve el número de puestos que hay en un distrito específico.
+
+SELECT COUNT(DISTINCT ?puesto) ?puesto ?district ?district_wikidata
+WHERE
+  { 
+    ?puesto		rdf:type	ont:Puesto ;
+    			    ont:tieneDistrito	?district_csv .
+
+    ?district_csv	
+    			    rdfs:label	?district ;
+              owl:sameAs  ?district_wikidata
+  }

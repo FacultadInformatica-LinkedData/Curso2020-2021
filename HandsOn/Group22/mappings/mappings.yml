@@ -1,0 +1,40 @@
+prefixes:
+  ns: http://www.semanticweb.org/ontologies/Activities#
+  rr: http://www.w3.org/ns/r2rml#
+  ont: http://www.grupo22.es/ontology/
+  dbo: http://dbpedia.org/ontology/
+  res: http://www.grupo22.es/resource/
+  rml: http://semweb.mmlab.be/ns/rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+mappings:
+  UBICACION:
+    sources:
+      - [agenda-eventos-culturales-updated.csv~csv]
+    s: res:UBICACION/$(UBICACION)
+    po:
+      - [a, ont:UBICACION]
+      - [ont:direccion,$(DIRECCION)]
+      - [ont:longitud,$(LONGITUD)]
+      - [ont:latitud,$(LATITUD)]
+
+  ACTIVIDAD:
+    sources:
+      - [agenda-eventos-culturales-updated.csv~csv]
+    s: res:ACTIVIDAD/$(IDACTIVIDAD)
+    po:
+      - [a, ont:ACTIVIDAD]
+      - [ont:nombre_actividad,$(TITULO)]
+      - [ont:descripcion,$(DESCRIPCION)]
+      - [ont:precio,$(PRECIO)]
+      - [ont:id_actividad,$(IDACTIVIDAD)]
+      - [ont:fecha,$(FECHA)]
+      - [ont:tipo,$(TIPOACTIVIDAD)]
+      - p: ns:ubicado_en
+              o:
+                - mapping: TriplesMap1
+                  condition:
+                    function: equal
+                    parameters:
+                      - [str1, $(id_actividad]
+                      - [str2, $direccion)]

@@ -1,0 +1,25 @@
+ESTACION_ID,NOMBRE,DISTRITO_ID,DISTRITO_LINK,WIKIDATA_DISTRITO_ID,DIRECCION,DIRECCION_ID,DIRECCION_LINK,WIKIDATA_DIRECCION_ID,LONGITUD,LATITUD
+28079004,Pza. de España,8,Centro,https://www.wikidata.org/wiki/Q1763376,Plaza de España,0,plaza de España,https://www.wikidata.org/wiki/Q1326261,3.71219,40.4238
+28079008,Escuelas Aguirre,1,Salamanca,https://www.wikidata.org/wiki/Q1773521,Entre C/ Alcalá y C/ O’ Donell,1,Calle de Alcalá,https://www.wikidata.org/wiki/Q2424746,3.68228,40.4215
+28079011,Avda. Ramón y Cajal,2,Fuencarral-El Pardo,https://www.wikidata.org/wiki/Q656196,Avda. Ramón y Cajal  esq. C/ Príncipe de Vergara,2,"Avenida de Ramón y Cajal, Madrid",https://www.wikidata.org/wiki/Q30467128,3.67736,40.4514
+28079016,Arturo Soria,3,Ciudad Lineal,https://www.wikidata.org/wiki/Q1763694,C/ Arturo Soria  esq. C/  Vizconde de los Asilos,3,calle de Arturo Soria,https://www.wikidata.org/wiki/Q8255504,3.63921,40.44
+28079017,Villaverde,4,Villaverde,https://www.wikidata.org/wiki/Q919536,C/. Juan Peñalver,4,Calle Juan Peñalver,,3.7133,40.3471
+28079018,Farolillo,5,Carabanchel,https://www.wikidata.org/wiki/Q1001991,Calle Farolillo - C/Ervigio,5,Calle Farolillo,,3.73183,40.3947
+28079024,Casa de Campo,6,Moncloa-Aravaca,https://www.wikidata.org/wiki/Q2017682,Casa de Campo  (Terminal del Teleférico),6,Casa de Campo,https://www.wikidata.org/wiki/Q1046524,3.74734,40.4193
+28079027,Barajas Pueblo,7,Barajas,https://www.wikidata.org/wiki/Q807230,"C/. Júpiter, 21 (Barajas)",7,Calle Júpiter,,3.58002,40.4769
+28079035,Pza. del Carmen,8,Centro,https://www.wikidata.org/wiki/Q1763376,Plaza del Carmen esq. Tres Cruces.,8,Plaza del Carmen,https://www.wikidata.org/wiki/Q6080406,3.70316,40.4192
+28079036,Moratalaz,9,Moratalaz,https://www.wikidata.org/wiki/Q2076109,Avd. Moratalaz  esq. Camino de los Vinateros,9,Avenida Moratalaz,,3.64528,40.4079
+28079038,Cuatro Caminos,10,Tetuán,https://www.wikidata.org/wiki/Q1773540,Avda. Pablo Iglesias esq. C/ Marqués de Lema,10,avenida de Pablo Iglesias,https://www.wikidata.org/wiki/Q28045035,3.70712,40.4455
+28079039,Barrio del Pilar,2,Fuencarral-El Pardo,https://www.wikidata.org/wiki/Q656196,Avd. Betanzos esq. C/  Monforte de Lemos,11,Avenida Betanzos,,3.71153,40.4782
+28079040,Vallecas,12,Puente de Vallecas,https://www.wikidata.org/wiki/Q2003054,C/ Arroyo del Olivar  esq. C/  Río Grande.,12,"Calle del Arroyo del Olivar, Madrid",https://www.wikidata.org/wiki/Q29561517,3.65152,40.3881
+28079047,Mendez Alvaro,13,Arganzuela,https://www.wikidata.org/wiki/Q2000929,C/ Juan de Mariana / Pza. Amanecer Mendez Alvaro,13,Calle Juan de Mariana,,3.68682,40.3981
+28079048,Castellana,14,Chamartín,https://www.wikidata.org/wiki/Q1766348,C/ Jose Gutierrez Abascal,14,Calle Jose Gutierrez Abascal,,3.69037,40.4398
+28079049,Parque del Retiro,15,Retiro,https://www.wikidata.org/wiki/Q2002296,Paseo Venezuela- Casa de Vacas,15,Buen Retiro park,https://www.wikidata.org/wiki/Q1131807,3.68249,40.4144
+28079050,Plaza Castilla,10,Tetuán,https://www.wikidata.org/wiki/Q1773540,Plaza Castilla (Canal),16,plaza de Castilla,https://www.wikidata.org/wiki/Q786291,3.68874,40.4655
+28079054,Ensanche de Vallecas,17,Villa de Vallecas,https://www.wikidata.org/wiki/Q1947988,Avda La Gavia / Avda. Las Suertes,17,Avenida La Gavia,,3.61213,40.373
+28079055,Urb. Embajada,7,Barajas,https://www.wikidata.org/wiki/Q807230,C/ Riaño (Barajas),18,Calle Riaño,,3.58056,40.4623
+28079056,Pza. Elíptica,5,Carabanchel,https://www.wikidata.org/wiki/Q1001991,Pza. Elíptica - Avda. Oporto,19,Plaza Elíptica,https://www.wikidata.org/wiki/Q16619985,3.71876,40.385
+28079057,Sanchinarro,20,Hortaleza,https://www.wikidata.org/wiki/Q1928529,C/ Princesa de Eboli esq C/ Maria Tudor,20,Calle Princesa de Éboli,,3.66051,40.4942
+28079058,El Pardo,2,Fuencarral-El Pardo,https://www.wikidata.org/wiki/Q656196,Avda. La Guardia,21,Avenida La Guardia,,3.77461,40.518
+28079059,Juan Carlos I,7,Barajas,https://www.wikidata.org/wiki/Q807230,Parque Juan Carlos I (frente oficinas mantenimiento),22,parque Juan Carlos I,https://www.wikidata.org/wiki/Q24023451,3.60916,40.4652
+28079060,Tres Olivos,2,Fuencarral-El Pardo,https://www.wikidata.org/wiki/Q656196,Plaza Tres Olivos,23,Plaza Tres Olivos,,3.68973,40.5005

@@ -1,0 +1,47 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  ont: http://www.grupo07.es/ontology/
+  dbo: http://dbpedia.org/ontology/
+  res: http://www.grupo07.es/resource/
+  rml: http://semweb.mmlab.be/ns/rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  Municipio:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
+    s: res:Municipio/$(CodigoMunicipio)
+    po:
+      - [a, ont:Municipio]
+      - [ont:tieneCodigo,$(CodigoMunicipio)]
+      - [ont:tieneDireccion,$(Direccion)]
+      - [owl:sameAs,$(wikidata:Municipio)~iri]
+      
+  Denominacion:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
+    s: res:$(Denominacion)
+    po:
+      - [a, ont:Denominacion]
+      - [ont:tieneLinea,$(NumeroLineaUsuario)]
+      - [ont:tieneTarifa,$(CoronaTarifaria)]
+      - [owl:sameAs,$(wikidata:Denominacion)~iri]
+      
+  NumeroLineaUsuario:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
+    s: res:$(Denominacion)/$(NumeroLineaUsuario)
+    po:
+      - [a, ont:NumeroLineaUsuario]
+      - [ont:tieneSentido,$(Sentido)]  
+      - [owl:sameAs,$(wikidata:NumeroLineaUsuario)~iri]
+      
+  Sentido:
+    sources:
+      - [Datos_abiertos__Elementos_de_la_Red_de_Metro-updated-with-links.csv~csv]
+    s: res:$(Denominacion)/$(NumeroLineaUsuario)/$(Sentido)
+    po:
+      - [a, ont:Sentido]
+      - [ont:tieneLongitud,$(LongitudTramoAnterior)]  
+      - [ont:tieneVelocidad,$(VelocidadTramoAnterior)]

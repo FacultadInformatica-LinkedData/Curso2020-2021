@@ -1,0 +1,20 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "District",
+    "newColumnName": "district_name",
+    "description": "Rename column District to district_name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BS_ID",
+    "newColumnName": "bs_id",
+    "description": "Rename column BS_ID to bs_id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "registration_Date",
+    "newColumnName": "registration_date",
+    "description": "Rename column registration_Date to registration_date"
+  }
+]

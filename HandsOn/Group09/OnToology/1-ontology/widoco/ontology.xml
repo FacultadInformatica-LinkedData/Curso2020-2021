@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://linkeddata.es/group09/ontology/TrafficAccident#"
+     xml:base="http://linkeddata.es/group09/ontology/TrafficAccident"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#dateTime -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime">
+        <rdfs:comment xml:lang="en">The &lt;xs:datetime&gt; data type is used to represent date and time in YYYY-MM-DDThh:mm:ss format
+
+YYYY − represents year
+MM − represents month
+DD − represents day
+T − represents start of time section
+hh − represents hours
+mm − represents minutes
+ss − represents seconds</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+        <rdfs:comment xml:lang="en">The string data type can contain characters, line feeds, carriage returns, and tab characters</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle -->
+
+
+    <owl:ObjectProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#hasTypeOfVehicle">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle"/>
+        <rdfs:comment xml:lang="en">A Person has a TypeOfVehicle</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneTipoDeVehiculo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#occursOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#occursOn">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"/>
+        <rdfs:comment xml:lang="en">An Accident occurs on a Street Crossing</rdfs:comment>
+        <rdfs:label xml:lang="es">ocurreEn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#occursTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#occursTo">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:comment xml:lang="en">An Accident occurs to a Person</rdfs:comment>
+        <rdfs:label xml:lang="es">ocurreA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident -->
+
+
+    <owl:ObjectProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#typeOfAccident">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident"/>
+        <rdfs:comment xml:lang="en">An Accident is classified within a TypeOfAccident</rdfs:comment>
+        <rdfs:label xml:lang="es">tipoDeAccidente</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson -->
+
+
+    <owl:ObjectProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#typeOfPerson">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson"/>
+        <rdfs:comment xml:lang="en">A Person is classified within a TypeOfPerson</rdfs:comment>
+        <rdfs:label xml:lang="es">tipoDePersona</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rdf.muninn-project.org/ontologies/appearances.html#hasSex -->
+
+
+    <owl:ObjectProperty rdf:about="http://rdf.muninn-project.org/ontologies/appearances.html#hasSex">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://rdf.muninn-project.org/ontologies/appearances.html#Sex"/>
+        <rdfs:comment xml:lang="en">A Person has a Sex</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneSexo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P131 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P131">
+        <rdfs:domain rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"/>
+        <rdfs:range rdf:resource="http://rdfs.co/juso/District"/>
+        <rdfs:comment xml:lang="en">A Street Crossing is located in a District</rdfs:comment>
+        <rdfs:label xml:lang="es">localizadoEn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#happensMonth">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Month in which an Accident happens</rdfs:comment>
+        <rdfs:label xml:lang="es">ocurreEnMes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#hasAgeRange">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Age range of the person who suffered the accident</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneRangoEdad</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#hasExpedient">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Identifier of an accident</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneExpediente</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#hasNumber">
+        <rdfs:domain rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Street crossing number where the accident occurred. If it has no number it is an empty value</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneNumero</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet1">
+        <rdfs:domain rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Name of the first street of the street crossing</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneCalle1</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2 -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#hasStreet2">
+        <rdfs:domain rdf:resource="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Name of the second street of the street crossing.  It can be empty if the accident occurs only on a street</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneCalle2</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#occursAtPeriod">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">1-hour interval in which the accident occurred</rdfs:comment>
+        <rdfs:label xml:lang="es">ocurreEnPeriodo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#weather -->
+
+
+    <owl:DatatypeProperty rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#weather">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Weather at the time of the accident</rdfs:comment>
+        <rdfs:label xml:lang="es">tiempo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ns.nature.com/terms/date -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ns.nature.com/terms/date">
+        <rdfs:domain rdf:resource="https://transportdisruption.github.io/#Accident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">Date and hour of an accident</rdfs:comment>
+        <rdfs:label xml:lang="es">tieneFecha</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.datex.org/terms/#injuryStatus -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.datex.org/terms/#injuryStatus">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Level of damage suffered by the person in the accident.</rdfs:comment>
+        <rdfs:label xml:lang="es">estadoLesividad</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/spec/#name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/spec/#name">
+        <rdfs:domain rdf:resource="http://rdfs.co/juso/District"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Name of the district where the accident occurred</rdfs:comment>
+        <rdfs:label xml:lang="es">nombreDistrito</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Person -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Person">
+        <rdfs:comment xml:lang="en">Person having an accident</rdfs:comment>
+        <rdfs:label xml:lang="es">Persona</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing -->
+
+
+    <owl:Class rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing">
+        <rdfs:comment xml:lang="en">Street crossing in which an accident occurs. It can also be just a street</rdfs:comment>
+        <rdfs:label xml:lang="es">Cruce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident -->
+
+
+    <owl:Class rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident">
+        <rdfs:comment xml:lang="en">Type of accident that has occurred (e.g. crash, fall, run over)</rdfs:comment>
+        <rdfs:label xml:lang="es">Tipo de Accidente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson -->
+
+
+    <owl:Class rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson">
+        <rdfs:comment xml:lang="en">Type of person who has suffered an accident (e.g. driver, passenger)</rdfs:comment>
+        <rdfs:label xml:lang="es">Tipo de Persona</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle -->
+
+
+    <owl:Class rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle">
+        <rdfs:comment xml:lang="en">Type of vehicle in which an accident has occurred (e.g. motorcycle, van)</rdfs:comment>
+        <rdfs:label xml:lang="es">Tipo de Vehículo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://rdf.muninn-project.org/ontologies/appearances.html#Sex -->
+
+
+    <owl:Class rdf:about="http://rdf.muninn-project.org/ontologies/appearances.html#Sex">
+        <rdfs:comment xml:lang="en">Sex of a person who has suffered an accident</rdfs:comment>
+        <rdfs:label xml:lang="es">Sexo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://rdfs.co/juso/District -->
+
+
+    <owl:Class rdf:about="http://rdfs.co/juso/District">
+        <rdfs:comment xml:lang="en">District in which an accident occurs</rdfs:comment>
+        <rdfs:label xml:lang="es">Distrito</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://transportdisruption.github.io/#Accident -->
+
+
+    <owl:Class rdf:about="https://transportdisruption.github.io/#Accident">
+        <rdfs:comment xml:lang="en">Accident that takes place in Madrid</rdfs:comment>
+        <rdfs:label xml:lang="es">Accidente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dbpedia.org/ontology/Person"/>
+            <rdf:Description rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#StreetCrossing"/>
+            <rdf:Description rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfAccident"/>
+            <rdf:Description rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfPerson"/>
+            <rdf:Description rdf:about="http://linkeddata.es/group09/ontology/TrafficAccident#TypeOfVehicle"/>
+            <rdf:Description rdf:about="http://rdf.muninn-project.org/ontologies/appearances.html#Sex"/>
+            <rdf:Description rdf:about="http://rdfs.co/juso/District"/>
+            <rdf:Description rdf:about="https://transportdisruption.github.io/#Accident"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,78 @@
+#----------------Query 1----------------------------------------------
+
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Wikidata's URI of each district
+
+SELECT DISTINCT  ?district ?district_wikidata
+WHERE
+  { 
+    ?district_csv
+              rdfs:label    ?district ;
+              owl:sameAs    ?district_wikidata
+  }
+  
+#----------------Query 2----------------------------------------------
+  
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX  wdt:  <http://www.wikidata.org/prop/direct/>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Population of each district ordered from highest to lowest(if they are available on Wikidata)
+
+SELECT DISTINCT  ?district ?population
+WHERE
+  { ?district_csv
+              rdfs:label  ?district ;
+              owl:sameAs  ?district_wikidata
+    SERVICE <https://query.wikidata.org/sparql>
+      { OPTIONAL
+          { ?district_wikidata
+                      wdt:P1082  ?population
+          }
+      }
+  }
+ORDER BY DESC(?population)
+#----------------Query 3----------------------------------------------
+
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX  wdt:  <http://www.wikidata.org/prop/direct/>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Coordinates of each district (if they are available on Wikidata)
+
+SELECT DISTINCT  ?district ?coordinates
+WHERE
+  { ?district_csv
+              rdfs:label    ?district ;
+              owl:sameAs    ?district_wikidata
+    SERVICE <https://query.wikidata.org/sparql>
+      { OPTIONAL
+          { ?district_wikidata
+                      wdt:P625  ?coordinates
+          }
+      }
+  }
+  
+#----------------Query 4----------------------------------------------  
+
+PREFIX  owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX  wdt:  <http://www.wikidata.org/prop/direct/>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Image of each district (if they are available on Wikidata)
+
+SELECT DISTINCT  ?district ?image
+WHERE
+  { ?district_csv
+              rdfs:label    ?district ;
+              owl:sameAs    ?district_wikidata
+    SERVICE <https://query.wikidata.org/sparql>
+      { OPTIONAL
+          { ?district_wikidata
+                      wdt:P18  ?image
+          }
+      }
+  }
+  

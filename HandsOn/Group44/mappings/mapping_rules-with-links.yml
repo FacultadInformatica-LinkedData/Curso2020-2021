@@ -1,0 +1,69 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  swo: http://www.semanticweb.org/group44/ontologies/madridAirQuality#
+  dbp: http://dbpedia.org/ontology/
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  province:
+    source:
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
+    s: http://dbpedia.org/ontology/Province/$(PROVINCE)
+    po:
+      - [a, dbp:Province]
+      - [swo:provinceName, $(PROVINCE), xsd:string]
+      - [owl:sameAs, $(PROVINCE_REC)~iri]
+    
+  municipality:
+    source:
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
+    s: http://dbpedia.org/ontology/Municipality/$(MUNICIPALITY)
+    po:
+      - [a, dbp:Municipality]
+      - [swo:municipalityName, $(MUNICIPALITY), xsd:string]
+      - [owl:sameAs, $(MUNICIPALITY_REC)~iri]
+      - p: swo:isPartOf
+        o:
+          - mapping: province
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(PROVINCE)]
+                - [str2, $(PROVINCE)]
+      - p: swo:containStation
+        o:
+          - mapping: station
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(STATION)]
+                - [str2, $(STATION)]
+
+  station:
+    source:
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
+    s: http://www.semanticweb.org/group44/ontologies/madridAirQuality/Station/$(STATION)
+    po:
+      - [a, swo:Station]
+      - [swo:stationId, $(STATION), xsd:integer]
+      - [swo:stationPlace, $(STATION_LOCATION), xsd:string]
+      - p: swo:takeMeasure
+        o:
+          - mapping: measure
+            condition:
+                function: equal
+                parameters:
+                  - [str1, $(ID)]
+                  - [str2, $(ID)]
+  measure:
+    source:
+      - [../csv/MadridAirQuality2020-with-links.csv~csv]
+    s: http://www.semanticweb.org/group44/ontologies/madridAirQuality/Measure/$(ID)
+    po:
+      - [a, swo:Measure]
+      - [xsd:date, $(DATE), xsd:date]
+      - [swo:isValid, $(IS_VALID), xsd:boolean]
+      - [swo:measureId, $(ID), xsd:integer]
+      - [swo:measuredCompound, $(MEASURED_COMPOUND_REC), xsd:anyURI]
+      - [swo:measuredValue, $(VALUE), xsd:float]
+      - [swo:measuringTechnique, $(MEASUREMENT_TECHNIQUE), xsd:string]
