@@ -1,0 +1,17 @@
+//Query 1: Population
+PREFIX ont: <http://www.example.org/CastillaLaMancha#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wd : <http://www.wikidata.org/entity/>
+
+SELECT ?lib ?town ?pop
+WHERE {
+	
+	ont:Town owl:sameAs wd:Q3957.
+	?town rdf:type ont:Town.
+	?lib ont:locatedIn ?town.
+	?town  wdt:population ?pop.
+	
+	}
+LIMIT 100
+
