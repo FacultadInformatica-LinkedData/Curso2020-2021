@@ -1,0 +1,59 @@
+{
+	
+	"@context":{
+		"xsd":"http://www.w3.org/2001/XMLSchema#",
+		"people": "http://www.people.org/people/",
+		"fullname":"people:fullName",
+		"hometown":"people:hometown",
+		"age":"people:age",
+		"almaMater":"people:almaMater",
+		"parentsName":"people:parentsName",
+		
+		"subjects":"people:subjects",
+		"name":"subjects:name",
+		"teachers":"subjects:teachers",
+		"description":"subjects:description"
+	},
+
+
+	"@id":"http://www.people.org/people/person",
+	"@type":"people:person",
+	"fullname":"Laura Jimenez Barranquero",
+	"hometown":"Madrid",
+	"age":"24",
+	"almaMater":"Universidad Politecnica de Madrid, UPM",
+	"parentsName":["Francisco Javier","Ana Maria"],
+	"subjects":[
+
+				{
+				"name": "Redes de Computadores",
+				"teachers": ["Francisco Javier Soriano Camino","Francisco Javier Yaguez Garcia","Genoveva Lopez Gomez","Victor Ramperez Martin","Raul Gutierrez Gil","Miguel Isabel Marquez"],
+				"description": "Comprender el funcionamiento de las tecnologías básicas de comunicaciones que constituyen el núcleo de Internet, y de las redes de empresas y organizaciones.",
+				},
+
+				{	
+				"name": "Administración de Sistemas Informáticos",
+				"teachers": ["Fernando Perez Costoya","Francisco Rosales García","Victor Robles Forcada","Gabriel Cebrian Marquez"],
+				"description": "Mostrar los fundamentos generales de las tareas y responsabilidades del administrador de sistemas e ilustrarlo con la administración de sistemas Unix y  Windows, y presentarán temas transversales de la administración de sistemas.",
+				},
+
+				{
+				"name": "Estructura de Computadores",
+				"teachers": ["Antonio Perez Ambite","Santiago Rodriguez De La Fuente","Antonio Garcia Dopico","Luis Manuel Gomez Henriquez","Jose Luis Pedraza Dominguez","Juan Rafael Zamorano Flores","Manuel Maria Nieto Rodriguez","Maria Luisa Cordoba Cabeza","Maria Isabel Garcia Clemente"],
+				"description": "Describir la arquitectura von Neumann, además de detallar la forma de funcionamiento de los dispositivos periféricos que habitualmente se conectan al sistema de Entrada/Salida de un computador.",
+				},
+
+				{
+				"name": "Sistemas Operativos",
+				"teachers": ["Francisco Rosales García","Angel Rodriguez Martínez de Bartolome", "Fernando Perez Costoya","Maria De Los Santos Perez Hernandez","Antonio Latorre De La Fuente","Pablo Toharia Rabasco","Victor Robles Forcada","Gabriel Cebrian Marquez"],
+				"description": "Comprender los conceptos básicos de los sistemas operativos y la familiarización con la interfaz de programación de los mismos.",
+				},
+
+				{
+				"name": "Semantic Web, Linked Data and Knowledge Graphs",
+				"teachers": ["Oscar Corcho","Raúl García Castro","Paola Espinoza"],
+				"description": "Proporcionar  la  base  teórica  y  práctica  sobre  los  fundamentos  metodológicos  y tecnológicos implicados en la generación y publicación de vocabularios y datos en la Web de datos enlazados"
+				}
+				
+	]
+}
