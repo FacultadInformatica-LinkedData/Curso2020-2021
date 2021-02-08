@@ -1,0 +1,41 @@
+--- QUERY 4 ---
+
+SELECT distinct ?values ?politician WHERE {
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?prop ?values
+FILTER (?prop != rdf:type)
+} LIMIT 15
+
+RESULTS:
+
+values	politician
+"Adame Ba Konaré"@es
+http://es.dbpedia.org/resource/Adame_Ba_Konaré
+"Adriano Sánchez Roa"@es
+http://es.dbpedia.org/resource/Adriano_Sánchez_Roa
+"Adrián Ward"@es
+http://es.dbpedia.org/resource/Adrián_Ward
+"Agustín Haya de la Torre de la Rosa"@es
+http://es.dbpedia.org/resource/Agustín_Haya_de_la_Torre_de_la_Rosa
+"Agustín Molina Martínez"@es
+http://es.dbpedia.org/resource/Agustín_Molina_Martínez
+"Ahmed Hilmi Pasha"@es
+http://es.dbpedia.org/resource/Ahmed_Hilmi_Pasha
+"Aileen Baviera"@es
+http://es.dbpedia.org/resource/Aileen_Baviera
+"Aisha Musa el-Said"@es
+http://es.dbpedia.org/resource/Aisha_Musa_el-Said
+"Akua Asabea Ayisi"@es
+http://es.dbpedia.org/resource/Akua_Asabea_Ayisi
+"Alain Vivien"@es
+http://es.dbpedia.org/resource/Alain_Vivien
+"Alaiza Pashkevich"@es
+http://es.dbpedia.org/resource/Alaiza_Pashkevich
+"Aptripel Tumimomor"@es
+http://es.dbpedia.org/resource/Aptripel_Tumimomor
+"Arancha González Laya"@es
+http://es.dbpedia.org/resource/Arancha_González_Laya
+"Archer Blood"@es
+http://es.dbpedia.org/resource/Archer_Blood
+"Ariela Luna"@es
+http://es.dbpedia.org/resource/Ariela_Luna
