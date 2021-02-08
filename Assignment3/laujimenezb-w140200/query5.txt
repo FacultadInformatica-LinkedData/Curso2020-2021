@@ -1,0 +1,41 @@
+--- QUERY 5 ---
+
+SELECT distinct ?prop COUNT(?values) WHERE {
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?prop ?values
+FILTER (?prop != rdf:type)
+} LIMIT 15
+
+RESULTS:
+
+prop	callret-1
+http://es.dbpedia.org/property/afiliaciones
+1336
+http://es.dbpedia.org/property/isbn
+2840
+http://es.dbpedia.org/property/pareja
+100
+http://es.dbpedia.org/property/período
+14421
+http://es.dbpedia.org/property/url
+5265
+http://es.dbpedia.org/property/etnia
+54
+http://dbpedia.org/ontology/wikiPageRevisionID
+22781
+http://es.dbpedia.org/property/subtítulo
+914
+http://es.dbpedia.org/property/vicegobernador
+481
+http://es.dbpedia.org/property/conocidoPor
+33
+http://es.dbpedia.org/property/idioma
+891
+http://es.dbpedia.org/property/title
+389
+http://es.dbpedia.org/property/periodo
+16
+http://es.dbpedia.org/property/facebook
+356
+http://es.dbpedia.org/property/descripción
+90

@@ -1,0 +1,25 @@
+--- QUERY 1 ---
+
+SELECT distinct ?prop WHERE {
+	?inst rdf:type <http://dbpedia.org/ontology/Politician>.
+	?inst ?prop ?obj
+} LIMIT 15
+
+RESULTS:
+
+prop
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/homepage
+http://purl.org/dc/terms/subject
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://es.dbpedia.org/property/gabinete
+http://es.dbpedia.org/property/afiliaciones
+http://es.dbpedia.org/property/almaMáter
+http://es.dbpedia.org/property/almamáter
+http://es.dbpedia.org/property/apellido
+http://es.dbpedia.org/property/apellidos
+http://es.dbpedia.org/property/apodo
+http://es.dbpedia.org/property/año

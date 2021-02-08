@@ -1,0 +1,41 @@
+--- QUERY 3 ---
+
+SELECT distinct ?prop ?values WHERE {
+?politician a <http://dbpedia.org/ontology/Politician>.
+?politician ?prop ?values
+FILTER (?prop != rdf:type)
+} LIMIT 15
+
+RESULTS:
+
+prop	values
+http://www.w3.org/2000/01/rdf-schema#label
+"Adame Ba Konaré"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Adriano Sánchez Roa"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Adrián Ward"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Agustín Haya de la Torre de la Rosa"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Agustín Molina Martínez"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Ahmed Hilmi Pasha"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Aileen Baviera"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Aisha Musa el-Said"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Akua Asabea Ayisi"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Alain Vivien"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Alaiza Pashkevich"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Aptripel Tumimomor"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Arancha González Laya"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Archer Blood"@es
+http://www.w3.org/2000/01/rdf-schema#label
+"Ariela Luna"@es
