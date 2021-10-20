@@ -1,0 +1,13 @@
+@prefix : <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:event3 :evenDate "2006-05-15"^^xsd:date;
+  :involves :CaroleGoble,
+    :PinarAlper .
+
+:event4 :evenDate "2006-05-16"^^xsd:date;
+   :involves :OscarCorcho .
+
+:event5 :evenDate "2006-05-15"^^xsd:date;
+   :involves :CaroleGoble .
+
