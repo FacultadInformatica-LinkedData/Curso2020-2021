@@ -1,0 +1,33 @@
+1
+PREFIX pr<http://dbpedia.org/ontology/Politician>
+SELECT ?x
+WHERE { ?z a pr:Politician
+	?z ?x ?y. }
+
+2
+PREFIX pr<http://dbpedia.org/ontology/Politician>
+SELECT DISTINCT ?x
+WHERE {?z a pr:Politician.
+       ?z ?x ?y.
+	FILTER regex(?x != rdf:type)
+
+4
+PREFIX pr<http://dbpedia.org/ontology/Politician>
+SELECT DISTINCT ?x ?y
+	{?z a pr:Politician.
+	 ?z ?x ?y.
+	 FILTER regex(?x != rdf:type)}
+
+6
+PREFIX pr<http://dbpedia.org/ontology/Politician>
+PREFIX rdfs<http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?x
+	{pr:Politician rdfs:subClassOf ?x }
+
+
+7
+PREFIX pr<http://dbpedia.org/ontology/Politician>
+SELECT DISTINCT ?x ?y
+	{?z a pr:Politician.
+	 ?z ?x ?y.
+	 FILTER regex(?x != rdf:type)}
